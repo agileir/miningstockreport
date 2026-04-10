@@ -1,0 +1,232 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Junior Mining Stock Analysis{% endblock %}
+
+{% block content %}
+
+{# ── Hero ── #}
+<section class="bg-dark text-white py-6 border-bottom border-warning border-2"
+         style="background: linear-gradient(135deg, #0d0d0d 0%, #1a1a1a 100%); padding: 5rem 0;">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7">
+        <span class="badge bg-warning text-dark mb-3 px-3 py-2 fw-bold">Junior Mining Analysis</span>
+        <h1 class="display-5 fw-bold mb-3">Find junior miners <span class="text-warning">before</span> the newsletter crowd does.</h1>
+        <p class="lead text-secondary mb-4">Independent research. Transparent scorecards. No IR relationships, no pump — just the technical report, the numbers, and a clear verdict.</p>
+        <div class="d-flex flex-wrap gap-3">
+          <a href="{% url 'verdict:company_list' %}" class="btn btn-warning btn-lg fw-bold px-4">
+            <i class="bi bi-clipboard-check me-2"></i>Verdict Framework
+          </a>
+          <a href="{% url 'watchlist:watchlist' %}" class="btn btn-outline-light btn-lg px-4">
+            <i class="bi bi-graph-up me-2"></i>Current Watchlist
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-5 d-none d-lg-block">
+        <div class="row g-2 text-center">
+          <div class="col-4">
+            <div class="bg-black rounded p-3 border border-secondary">
+              <div class="text-warning fw-bold fs-4">5</div>
+              <div class="text-secondary small">Factor Scorecard</div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="bg-black rounded p-3 border border-secondary">
+              <div class="text-warning fw-bold fs-4">NI 43-101</div>
+              <div class="text-secondary small">Source Standard</div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="bg-black rounded p-3 border border-secondary">
+              <div class="text-warning fw-bold fs-4">P/NAV</div>
+              <div class="text-secondary small">Driven Valuation</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ── Recent Verdicts ── #}
+{% if recent_verdicts %}
+<section class="py-5 bg-black">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="text-white fw-bold h4 mb-0">
+        <i class="bi bi-clipboard-check text-warning me-2"></i>Latest Verdicts
+      </h2>
+      <a href="{% url 'verdict:company_list' %}" class="text-warning small text-decoration-none">View all &rarr;</a>
+    </div>
+    <div class="row g-3">
+      {% for scorecard in recent_verdicts %}
+      <div class="col-md-6 col-xl-3">
+        <a href="{{ scorecard.get_absolute_url }}" class="text-decoration-none">
+          <div class="card bg-dark border-secondary h-100">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <span class="text-white fw-bold">{{ scorecard.company.ticker }}</span>
+                <span class="badge
+                  {% if scorecard.verdict == 'BUY' %}bg-success
+                  {% elif scorecard.verdict == 'WATCH' %}bg-warning text-dark
+                  {% else %}bg-danger{% endif %}
+                  fw-bold">{{ scorecard.verdict }}</span>
+              </div>
+              <p class="text-secondary small mb-2">{{ scorecard.company.name }}</p>
+              <div class="d-flex justify-content-between small text-secondary">
+                <span>Score: {{ scorecard.composite_score }}/25</span>
+                {% if scorecard.p_nav_multiple %}
+                  <span>P/NAV: {{ scorecard.p_nav_multiple|floatformat:2 }}x</span>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{# ── Featured Videos ── #}
+{% if featured_videos %}
+<section class="py-5 bg-dark border-top border-secondary">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="text-white fw-bold h4 mb-0">
+        <i class="bi bi-play-circle text-warning me-2"></i>Featured Videos
+      </h2>
+      <a href="{% url 'videos:video_list' %}" class="text-warning small text-decoration-none">All videos &rarr;</a>
+    </div>
+    <div class="row g-4">
+      {% for video in featured_videos %}
+      <div class="col-md-4">
+        <a href="{{ video.get_absolute_url }}" class="text-decoration-none">
+          <div class="card bg-black border-secondary h-100">
+            <div class="position-relative">
+              <img src="{{ video.thumbnail }}" class="card-img-top" alt="{{ video.title }}"
+                   style="aspect-ratio:16/9; object-fit:cover;">
+              <div class="position-absolute top-50 start-50 translate-middle">
+                <i class="bi bi-play-circle-fill text-warning" style="font-size: 3rem; opacity: 0.9;"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="badge bg-secondary mb-2">{{ video.get_pillar_display }}</span>
+              <h6 class="text-white">{{ video.title }}</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{# ── Recent Posts ── #}
+{% if recent_posts %}
+<section class="py-5 bg-black border-top border-secondary">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="text-white fw-bold h4 mb-0">
+        <i class="bi bi-journal-text text-warning me-2"></i>Latest Analysis
+      </h2>
+      <a href="{% url 'blog:post_list' %}" class="text-warning small text-decoration-none">All posts &rarr;</a>
+    </div>
+    <div class="row g-4">
+      {% for post in recent_posts %}
+      <div class="col-md-6 col-xl-4">
+        <a href="{{ post.get_absolute_url }}" class="text-decoration-none">
+          <div class="card bg-dark border-secondary h-100">
+            {% if post.featured_image %}
+              <img src="{{ post.featured_image.url }}" class="card-img-top"
+                   alt="{{ post.featured_image_alt|default:post.title }}"
+                   style="aspect-ratio:16/9; object-fit:cover;">
+            {% endif %}
+            <div class="card-body d-flex flex-column">
+              <div class="mb-2">
+                <span class="badge bg-secondary">{{ post.get_pillar_display }}</span>
+                {% if post.is_premium %}
+                  <span class="badge bg-warning text-dark ms-1"><i class="bi bi-lock-fill"></i> Premium</span>
+                {% endif %}
+              </div>
+              <h6 class="text-white flex-grow-1">{{ post.title }}</h6>
+              <p class="text-secondary small mb-0">{{ post.excerpt|truncatechars:100 }}</p>
+            </div>
+            <div class="card-footer border-secondary d-flex justify-content-between small text-secondary">
+              <span>{{ post.author.display_name }}</span>
+              <span>{{ post.published_at|date:"M j, Y" }}</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{# ── Watchlist Snapshot ── #}
+{% if watchlist_snapshot %}
+<section class="py-5 bg-dark border-top border-secondary">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="text-white fw-bold h4 mb-0">
+        <i class="bi bi-graph-up text-warning me-2"></i>Watchlist Snapshot
+      </h2>
+      <a href="{% url 'watchlist:watchlist' %}" class="text-warning small text-decoration-none">Full watchlist &rarr;</a>
+    </div>
+    <div class="table-responsive">
+      <table class="table table-dark table-hover table-borderless align-middle">
+        <thead class="text-secondary small text-uppercase">
+          <tr>
+            <th>Ticker</th>
+            <th>Company</th>
+            <th>Status</th>
+            <th>Verdict</th>
+            <th class="text-end">Price</th>
+            <th>Next Catalyst</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for item in watchlist_snapshot %}
+          <tr>
+            <td><a href="{{ item.company.get_absolute_url }}" class="text-warning fw-bold text-decoration-none">{{ item.company.ticker }}</a></td>
+            <td class="text-white">{{ item.company.name }}</td>
+            <td>
+              <span class="badge {% if item.status == 'position' %}bg-success{% else %}bg-secondary{% endif %}">
+                {{ item.get_status_display }}
+              </span>
+            </td>
+            <td>
+              {% with v=item.company.latest_verdict %}
+                {% if v %}
+                  <span class="badge {% if v.verdict == 'BUY' %}bg-success{% elif v.verdict == 'WATCH' %}bg-warning text-dark{% else %}bg-danger{% endif %}">
+                    {{ v.verdict }}
+                  </span>
+                {% else %}&mdash;{% endif %}
+              {% endwith %}
+            </td>
+            <td class="text-end">
+              {% if item.company.price_cache %}
+                <span class="text-white">${{ item.company.price_cache.price }}</span>
+                {% if item.company.price_cache.change_pct %}
+                  <span class="small {% if item.company.price_cache.change_pct >= 0 %}text-success{% else %}text-danger{% endif %}">
+                    ({{ item.company.price_cache.change_pct|floatformat:1 }}%)
+                  </span>
+                {% endif %}
+              {% else %}&mdash;{% endif %}
+            </td>
+            <td class="text-secondary small">{{ item.next_catalyst|default:"&mdash;" }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% endblock %}

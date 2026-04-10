@@ -1,0 +1,54 @@
+{% load static %}
+<footer class="bg-black text-secondary py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <h6 class="text-warning fw-bold mb-2">Mining Stock Report</h6>
+        <p class="small">{{ SITE_TAGLINE }}</p>
+        <div class="d-flex gap-2 mt-3">
+          {% if YOUTUBE_CHANNEL_URL %}
+            <a href="{{ YOUTUBE_CHANNEL_URL }}" class="text-secondary" target="_blank" rel="noopener">
+              <i class="bi bi-youtube fs-5"></i>
+            </a>
+          {% endif %}
+          {% if TWITTER_URL %}
+            <a href="{{ TWITTER_URL }}" class="text-secondary" target="_blank" rel="noopener">
+              <i class="bi bi-twitter-x fs-5"></i>
+            </a>
+          {% endif %}
+        </div>
+      </div>
+      <div class="col-lg-2 col-6">
+        <h6 class="text-white small fw-bold mb-3 text-uppercase">Analysis</h6>
+        <ul class="list-unstyled small">
+          <li><a href="{% url 'blog:post_list_by_pillar' 'due-diligence' %}" class="text-secondary text-decoration-none">Due Diligence</a></li>
+          <li><a href="{% url 'blog:post_list_by_pillar' 'company-verdicts' %}" class="text-secondary text-decoration-none">Company Verdicts</a></li>
+          <li><a href="{% url 'blog:post_list_by_pillar' 'market-intelligence' %}" class="text-secondary text-decoration-none">Market Intelligence</a></li>
+          <li><a href="{% url 'blog:post_list_by_pillar' 'accountability' %}" class="text-secondary text-decoration-none">Accountability</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-6">
+        <h6 class="text-white small fw-bold mb-3 text-uppercase">Tools</h6>
+        <ul class="list-unstyled small">
+          <li><a href="{% url 'verdict:company_list' %}" class="text-secondary text-decoration-none">Verdict Framework</a></li>
+          <li><a href="{% url 'watchlist:watchlist' %}" class="text-secondary text-decoration-none">Watchlist</a></li>
+          <li><a href="{% url 'videos:video_list' %}" class="text-secondary text-decoration-none">Videos</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h6 class="text-white small fw-bold mb-3 text-uppercase">Disclaimer</h6>
+        <p class="small" style="font-size:0.75rem; line-height:1.5;">
+          Mining Stock Report is for informational and educational purposes only.
+          Nothing published here constitutes financial advice. Junior mining stocks
+          are speculative and carry significant risk of loss. Always conduct your
+          own due diligence before making any investment decision.
+        </p>
+      </div>
+    </div>
+    <hr class="border-secondary mt-4">
+    <div class="d-flex flex-wrap justify-content-between align-items-center small">
+      <span>&copy; {% now "Y" %} Mining Stock Report. All rights reserved.</span>
+      <span>Built for the self-directed digger.</span>
+    </div>
+  </div>
+</footer>

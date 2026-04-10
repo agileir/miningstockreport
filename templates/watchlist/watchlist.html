@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Watchlist{% endblock %}
+
+{% block content %}
+<div class="bg-dark py-4 border-bottom border-secondary">
+  <div class="container">
+    <h1 class="text-white fw-bold h3 mb-1"><i class="bi bi-graph-up text-warning me-2"></i>Watchlist</h1>
+    <p class="text-secondary mb-0">Live coverage of companies under active research. Positions and targets are disclosed for accountability.</p>
+  </div>
+</div>
+
+<div class="container py-5">
+
+  {% if in_position %}
+  <h4 class="text-white fw-bold mb-3"><span class="badge bg-success me-2">In Position</span></h4>
+  <div class="table-responsive mb-5">
+    <table class="table table-dark table-hover align-middle border-secondary">
+      <thead class="text-secondary small text-uppercase border-secondary">
+        <tr>
+          <th>Ticker</th><th>Company</th><th>Verdict</th>
+          <th class="text-end">Entry</th><th class="text-end">Target</th>
+          <th class="text-end">Stop</th><th class="text-end">Current</th>
+          <th>Next Catalyst</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in in_position %}
+        <tr>
+          <td><a href="{{ item.company.get_absolute_url }}" class="text-warning fw-bold text-decoration-none">{{ item.company.ticker }}</a></td>
+          <td class="text-white">{{ item.company.name }}</td>
+          <td>{% with v=item.company.latest_verdict %}{% if v %}<span class="badge {% if v.verdict == 'BUY' %}bg-success{% elif v.verdict == 'WATCH' %}bg-warning text-dark{% else %}bg-danger{% endif %}">{{ v.verdict }}</span>{% else %}&mdash;{% endif %}{% endwith %}</td>
+          <td class="text-end text-white">{% if item.entry_price %}${{ item.entry_price }}{% else %}&mdash;{% endif %}</td>
+          <td class="text-end text-success">{% if item.target_price %}${{ item.target_price }}{% else %}&mdash;{% endif %}</td>
+          <td class="text-end text-danger">{% if item.stop_loss %}${{ item.stop_loss }}{% else %}&mdash;{% endif %}</td>
+          <td class="text-end">{% if item.company.price_cache %}<span class="text-white">${{ item.company.price_cache.price }}</span>{% else %}&mdash;{% endif %}</td>
+          <td class="text-secondary small">{{ item.next_catalyst|default:"&mdash;" }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+
+  {% if watching %}
+  <h4 class="text-white fw-bold mb-3"><span class="badge bg-secondary me-2">Watching</span></h4>
+  <div class="row g-3 mb-5">
+    {% for item in watching %}
+    <div class="col-md-6 col-xl-4">
+      <div class="card bg-dark border-secondary h-100">
+        <div class="card-body">
+          <div class="d-flex justify-content-between mb-2">
+            <a href="{{ item.company.get_absolute_url }}" class="text-warning fw-bold text-decoration-none fs-5">{{ item.company.ticker }}</a>
+            {% with v=item.company.latest_verdict %}
+              {% if v %}
+                <span class="badge {% if v.verdict == 'BUY' %}bg-success{% elif v.verdict == 'WATCH' %}bg-warning text-dark{% else %}bg-danger{% endif %}">{{ v.verdict }}</span>
+              {% endif %}
+            {% endwith %}
+          </div>
+          <p class="text-secondary small mb-2">{{ item.company.name }}</p>
+          <p class="text-white small mb-3">{{ item.thesis|truncatechars:140 }}</p>
+          {% if item.next_catalyst %}
+          <div class="d-flex align-items-center gap-1 small">
+            <i class="bi bi-calendar-event text-warning"></i>
+            <span class="text-secondary">{{ item.next_catalyst }}</span>
+            {% if item.catalyst_date %}<span class="text-secondary">&middot; {{ item.catalyst_date|date:"M j" }}</span>{% endif %}
+          </div>
+          {% endif %}
+        </div>
+        {% if item.company.price_cache %}
+        <div class="card-footer border-secondary d-flex justify-content-between small">
+          <span class="text-secondary">Price</span>
+          <span class="text-white">${{ item.company.price_cache.price }}
+            {% if item.company.price_cache.change_pct %}
+              <span class="{% if item.company.price_cache.change_pct >= 0 %}text-success{% else %}text-danger{% endif %}">
+                ({{ item.company.price_cache.change_pct|floatformat:1 }}%)
+              </span>
+            {% endif %}
+          </span>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if sold %}
+  <h4 class="text-white fw-bold mb-3 mt-4"><span class="badge bg-dark border border-secondary me-2">Exited</span></h4>
+  <div class="table-responsive">
+    <table class="table table-dark align-middle border-secondary text-secondary small">
+      <thead class="text-uppercase">
+        <tr><th>Ticker</th><th>Company</th><th class="text-end">Entry</th><th class="text-end">Target</th><th>Exited</th></tr>
+      </thead>
+      <tbody>
+        {% for item in sold %}
+        <tr>
+          <td class="text-white">{{ item.company.ticker }}</td>
+          <td>{{ item.company.name }}</td>
+          <td class="text-end">{% if item.entry_price %}${{ item.entry_price }}{% else %}&mdash;{% endif %}</td>
+          <td class="text-end">{% if item.target_price %}${{ item.target_price }}{% else %}&mdash;{% endif %}</td>
+          <td>{% if item.exited_at %}{{ item.exited_at|date:"M j, Y" }}{% else %}&mdash;{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+
+  {% if not in_position and not watching %}
+  <div class="text-center py-5">
+    <i class="bi bi-binoculars text-warning" style="font-size:3rem;"></i>
+    <p class="text-secondary mt-3">No companies on the watchlist yet. Check back soon.</p>
+  </div>
+  {% endif %}
+
+</div>
+{% endblock %}

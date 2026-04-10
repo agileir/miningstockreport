@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}Get the Free Junior Mining Checklist{% endblock %}
+
+{% block content %}
+<div class="container py-5" style="max-width:560px;">
+  <div class="card bg-dark border-warning border-2">
+    <div class="card-body p-5">
+      <span class="badge bg-warning text-dark mb-3">Free Download</span>
+      <h2 class="text-white fw-bold mb-2">Junior Mining Starter Checklist</h2>
+      <p class="text-secondary mb-4">
+        The 12-point checklist applied to every company before it touches the watchlist.
+        Covers management, geology, capital structure, catalysts, and valuation — in plain language.
+      </p>
+      <form method="post" action="{% url 'leads:subscribe' %}">
+        {% csrf_token %}
+        <input type="hidden" name="source" value="lead_magnet">
+        <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
+        <div class="mb-3">
+          <input type="text" name="first_name" class="form-control bg-black text-white border-secondary"
+                 placeholder="First name (optional)">
+        </div>
+        <div class="mb-3">
+          <input type="email" name="email" class="form-control bg-black text-white border-secondary"
+                 placeholder="your@email.com" required>
+        </div>
+        <button type="submit" class="btn btn-warning fw-bold w-100 btn-lg">
+          Send Me the Checklist
+        </button>
+        <p class="text-secondary text-center mt-3 small mb-0">No spam. Unsubscribe any time.</p>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

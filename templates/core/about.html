@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}About{% endblock %}
+
+{% block content %}
+<div class="container py-6" style="max-width:760px; padding-top:4rem; padding-bottom:4rem;">
+  <h1 class="text-white fw-bold mb-4">About Mining Stock Report</h1>
+  <p class="text-secondary lead mb-4">{{ SITE_TAGLINE }}</p>
+
+  <div class="text-white" style="line-height:1.9;">
+    <p>Mining Stock Report exists for one type of investor: the self-directed retail investor who is serious about junior miners, reads the technical report rather than just the press release, and has been burned at least once by a newsletter pump.</p>
+    <p>Every company on this site goes through the <strong class="text-warning">Verdict Framework</strong> — a five-factor scorecard covering management alignment, geology quality, capital structure health, catalyst proximity, and comparable acquisition value. The output is one of three verdicts: <strong class="text-success">BUY</strong>, <strong class="text-warning">WATCH</strong>, or <strong class="text-danger">AVOID</strong>.</p>
+    <p>There are no IR relationships here. No paid placements. No undisclosed compensation. When that changes — if it does — it will be disclosed prominently on every piece of content it touches.</p>
+  </div>
+
+  <div class="card bg-dark border-secondary mt-5">
+    <div class="card-body">
+      <h5 class="text-warning fw-bold mb-3">The 5-Factor Verdict Framework</h5>
+      <ol class="text-secondary mb-0" style="line-height:2;">
+        <li><strong class="text-white">Management skin-in-the-game</strong> — Do insiders own meaningful shares purchased at market?</li>
+        <li><strong class="text-white">Project geology quality</strong> — What resource classification? What grade and scale?</li>
+        <li><strong class="text-white">Capital structure health</strong> — Share count, warrant overhang, cash runway.</li>
+        <li><strong class="text-white">Catalyst proximity</strong> — How close is the next material news event?</li>
+        <li><strong class="text-white">Comparable acquisition value</strong> — What does the P/NAV look like vs. peer acquisitions?</li>
+      </ol>
+    </div>
+  </div>
+
+  <p class="text-secondary mt-5" style="font-size:0.8rem; line-height:1.6;">
+    <strong>Disclaimer:</strong> Nothing on this site constitutes financial or investment advice.
+    Junior mining stocks are speculative and carry significant risk of loss. Always conduct
+    your own due diligence. The author may hold positions in companies covered and will
+    disclose this where applicable.
+  </p>
+</div>
+{% endblock %}

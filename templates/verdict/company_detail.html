@@ -1,0 +1,154 @@
+{% extends "base.html" %}
+
+{% block title %}{{ company.ticker }} — {{ company.name }}{% endblock %}
+
+{% block content %}
+<div class="bg-dark py-4 border-bottom border-secondary">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb text-secondary small mb-2">
+        <li class="breadcrumb-item"><a href="{% url 'verdict:company_list' %}" class="text-secondary">Verdict Framework</a></li>
+        <li class="breadcrumb-item active text-white">{{ company.ticker }}</li>
+      </ol>
+    </nav>
+    <div class="d-flex align-items-center gap-3 flex-wrap">
+      {% if company.logo %}
+        <img src="{{ company.logo.url }}" alt="{{ company.name }} logo"
+             style="height:48px; width:48px; object-fit:contain; border-radius:8px;">
+      {% endif %}
+      <div>
+        <h1 class="text-white fw-bold h3 mb-0">{{ company.name }}</h1>
+        <p class="text-secondary small mb-0">{{ company.exchange }}:{{ company.ticker }}
+          {% if company.primary_commodity %} &middot; {{ company.primary_commodity }}{% endif %}
+          {% if company.jurisdiction %} &middot; {{ company.jurisdiction }}{% endif %}
+        </p>
+      </div>
+      {% if latest %}
+        <span class="badge fs-5 fw-bold ms-auto
+          {% if latest.verdict == 'BUY' %}bg-success
+          {% elif latest.verdict == 'WATCH' %}bg-warning text-dark
+          {% else %}bg-danger{% endif %}">
+          {{ latest.verdict }}
+        </span>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<div class="container py-5">
+  <div class="row g-5">
+    <div class="col-lg-8">
+
+      {% if latest %}
+        {# Latest scorecard summary #}
+        <div class="card bg-black border-warning border-2 mb-4">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <h5 class="text-warning fw-bold mb-0">Latest Verdict</h5>
+              <span class="text-secondary small">{{ latest.scored_at|date:"M j, Y" }}</span>
+            </div>
+            <p class="text-white mb-3">{{ latest.analyst_summary }}</p>
+            <div class="progress bg-dark mb-2" style="height:10px;">
+              <div class="progress-bar
+                {% if latest.composite_score_pct >= 70 %}bg-success
+                {% elif latest.composite_score_pct >= 45 %}bg-warning
+                {% else %}bg-danger{% endif %}"
+                style="width:{{ latest.composite_score_pct }}%">
+              </div>
+            </div>
+            <div class="d-flex justify-content-between small text-secondary">
+              <span>Composite score: {{ latest.composite_score }}/25</span>
+              <a href="{{ latest.get_absolute_url }}" class="text-warning text-decoration-none">
+                Full scorecard &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {# Score breakdown grid #}
+        <div class="row g-2 mb-4">
+          {% for factor_name, factor_score in latest_factors %}
+          <div class="col-6 col-md-4">
+            <div class="card bg-dark border-secondary text-center p-3">
+              <div class="text-secondary small mb-1">{{ factor_name }}</div>
+              <div class="d-flex justify-content-center gap-1">
+                {% for i in "12345" %}
+                  <span class="rounded-circle"
+                    style="width:10px;height:10px;display:inline-block;
+                      background:{% if forloop.counter <= factor_score %}#ffc107{% else %}#333{% endif %};">
+                  </span>
+                {% endfor %}
+              </div>
+              <div class="text-white fw-bold mt-1">{{ factor_score }}/5</div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {# Scorecard history #}
+      {% if scorecards.count > 1 %}
+      <h5 class="text-white fw-bold mb-3">Verdict History</h5>
+      <div class="table-responsive">
+        <table class="table table-dark table-hover align-middle border-secondary small">
+          <thead class="text-secondary text-uppercase">
+            <tr><th>Date</th><th>Verdict</th><th>Score</th><th>P/NAV</th><th></th></tr>
+          </thead>
+          <tbody>
+            {% for sc in scorecards %}
+            <tr>
+              <td class="text-secondary">{{ sc.scored_at|date:"M j, Y" }}</td>
+              <td>
+                <span class="badge
+                  {% if sc.verdict == 'BUY' %}bg-success
+                  {% elif sc.verdict == 'WATCH' %}bg-warning text-dark
+                  {% else %}bg-danger{% endif %}">
+                  {{ sc.verdict }}
+                </span>
+              </td>
+              <td class="text-white">{{ sc.composite_score }}/25</td>
+              <td class="text-secondary">{% if sc.p_nav_multiple %}{{ sc.p_nav_multiple|floatformat:2 }}x{% else %}&mdash;{% endif %}</td>
+              <td><a href="{{ sc.get_absolute_url }}" class="text-warning small text-decoration-none">View &rarr;</a></td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      {% endif %}
+
+    </div>
+
+    <div class="col-lg-4">
+      <div class="card bg-dark border-secondary">
+        <div class="card-header border-secondary">
+          <span class="text-white fw-bold small text-uppercase">Company Details</span>
+        </div>
+        <div class="card-body">
+          <dl class="mb-0 small">
+            <dt class="text-secondary">Exchange / Ticker</dt>
+            <dd class="text-white">{{ company.exchange }}:{{ company.ticker }}</dd>
+            {% if company.jurisdiction %}
+            <dt class="text-secondary">Jurisdiction</dt>
+            <dd class="text-white">{{ company.jurisdiction }}</dd>
+            {% endif %}
+            {% if company.primary_commodity %}
+            <dt class="text-secondary">Primary Commodity</dt>
+            <dd class="text-white">{{ company.primary_commodity }}</dd>
+            {% endif %}
+            {% if company.description %}
+            <dt class="text-secondary">About</dt>
+            <dd class="text-secondary">{{ company.description|truncatechars:200 }}</dd>
+            {% endif %}
+            {% if company.website %}
+            <dt class="text-secondary">Website</dt>
+            <dd><a href="{{ company.website }}" class="text-warning" target="_blank" rel="noopener noreferrer">
+              {{ company.website|truncatechars:40 }}
+            </a></dd>
+            {% endif %}
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

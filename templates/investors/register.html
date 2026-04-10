@@ -1,0 +1,191 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Accredited Investors — Private Deal Flow & Placement Access{% endblock %}
+{% block meta_description %}Register your interest in private placement deal flow and direct management access for accredited investors in junior mining companies.{% endblock %}
+{% block robots %}noindex, nofollow{% endblock %}
+
+{% block schema_breadcrumb %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"{{ SITE_URL }}/"},
+    {"@type":"ListItem","position":2,"name":"Accredited Investors","item":"{{ SITE_URL }}/investors/"}
+  ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="bg-dark py-4 border-bottom" style="border-color:#2a2000 !important;">
+  <div class="container" style="max-width:680px;">
+    <span class="badge px-3 py-2 mb-3 d-inline-block"
+          style="background:#1a1400;color:#e2c97e;border:1px solid #3a2e00;font-size:11px;letter-spacing:.05em;">
+      ◆ Accredited Investors
+    </span>
+    <h1 class="text-white fw-bold mb-2">Early access to companies before they reach the newsletter crowd</h1>
+    <p class="mb-0" style="color:#888;font-size:15px;line-height:1.7;max-width:560px;">
+      We work with a small number of accredited investors who want direct deal flow — pre-IPO placements,
+      private rounds, and direct access to management teams in companies that have passed the Verdict Framework.
+    </p>
+  </div>
+</div>
+
+<div class="container py-5" style="max-width:680px;">
+
+  {# What you get #}
+  <div class="mb-5">
+    <p class="text-secondary small text-uppercase fw-bold mb-3" style="letter-spacing:.06em;">What you get</p>
+    <div class="row g-3">
+      {% for item in benefits %}
+      <div class="col-md-6">
+        <div class="card bg-dark border-secondary h-100">
+          <div class="card-body">
+            <div class="text-warning mb-2" style="font-size:16px;">{{ item.icon }}</div>
+            <h6 class="text-white mb-1">{{ item.title }}</h6>
+            <p class="text-secondary small mb-0">{{ item.description }}</p>
+          </div>
+        </div>
+      </div>
+      {% empty %}
+      <div class="col-md-6">
+        <div class="card bg-dark border-secondary h-100">
+          <div class="card-body">
+            <div style="font-size:16px;margin-bottom:8px;">⚑</div>
+            <h6 class="text-white mb-1">Private placement deal flow</h6>
+            <p class="text-secondary small mb-0">Companies raising at the pre-IPO or seed stage, reviewed through the Verdict Framework before they're shared.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card bg-dark border-secondary h-100">
+          <div class="card-body">
+            <div style="font-size:16px;margin-bottom:8px;">◎</div>
+            <h6 class="text-white mb-1">Direct management introductions</h6>
+            <p class="text-secondary small mb-0">CEO/CFO contact for watchlist companies where we have an established relationship.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card bg-dark border-secondary h-100">
+          <div class="card-body">
+            <div style="font-size:16px;margin-bottom:8px;">≡</div>
+            <h6 class="text-white mb-1">Full unpublished scorecards</h6>
+            <p class="text-secondary small mb-0">Verdict Framework scorecards including discount rate assumptions and sensitivity analysis not in the public reports.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card bg-dark border-secondary h-100">
+          <div class="card-body">
+            <div style="font-size:16px;margin-bottom:8px;">◷</div>
+            <h6 class="text-white mb-1">Quarterly portfolio review call</h6>
+            <p class="text-secondary small mb-0">Small group, direct line to the analyst, all positions discussed openly.</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  {# Registration form #}
+  <div class="card border-2" style="background:#0f0f0f;border-color:#3a2e00 !important;">
+    <div class="card-body p-4">
+      <h5 class="text-white fw-bold mb-1">Register your interest</h5>
+      <p class="text-secondary small mb-4">We'll review your profile and be in touch within 5 business days.</p>
+
+      {% if messages %}
+        {% for message in messages %}
+          <div class="alert alert-success">{{ message }}</div>
+        {% endfor %}
+      {% endif %}
+
+      <form method="post" id="investorForm">
+        {% csrf_token %}
+        <input type="text" name="website" style="display:none;" tabindex="-1" autocomplete="off">
+
+        <div class="row g-3 mb-3">
+          <div class="col-md-6">
+            <label class="form-label text-secondary small">First name</label>
+            <input type="text" name="first_name" class="form-control bg-black text-white border-secondary" placeholder="First name" required>
+          </div>
+          <div class="col-md-6">
+            <label class="form-label text-secondary small">Last name</label>
+            <input type="text" name="last_name" class="form-control bg-black text-white border-secondary" placeholder="Last name" required>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label text-secondary small">Email address</label>
+          <input type="email" name="email" class="form-control bg-black text-white border-secondary" placeholder="your@email.com" required>
+        </div>
+
+        <div class="row g-3 mb-3">
+          <div class="col-md-6">
+            <label class="form-label text-secondary small">Country of residence</label>
+            <select name="country" class="form-select bg-black text-white border-secondary">
+              <option value="CA">Canada</option>
+              <option value="AU">Australia</option>
+              <option value="UK">United Kingdom</option>
+              <option value="US">United States</option>
+              <option value="OTHER">Other</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label class="form-label text-secondary small">Investable capital (mining)</label>
+            <select name="capital_range" class="form-select bg-black text-white border-secondary">
+              <option value="50k-150k">$50K – $150K</option>
+              <option value="150k-500k">$150K – $500K</option>
+              <option value="500k-1m">$500K – $1M</option>
+              <option value="1m+">$1M+</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <label class="form-label text-secondary small">How did you find us?</label>
+          <select name="referral_source" class="form-select bg-black text-white border-secondary">
+            <option value="youtube">YouTube</option>
+            <option value="newsletter">Newsletter referral</option>
+            <option value="search">Search / Google</option>
+            <option value="social">Social media</option>
+            <option value="wom">Word of mouth</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        {# Consent checkboxes #}
+        <div class="p-3 mb-3 rounded" style="background:#0d0d0d;border:1px solid #222;">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="confirmed_accredited" id="chk_accredited" required>
+            <label class="form-check-label small" for="chk_accredited">
+              <strong class="text-white d-block mb-1">I confirm I am an accredited investor</strong>
+              <span class="text-secondary">I meet the accredited investor criteria in my jurisdiction and understand that any investments discussed carry significant risk of loss.</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="p-3 mb-4 rounded" style="background:#0d0d0d;border:1px solid #222;">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="consent_contact" id="chk_contact" required>
+            <label class="form-check-label small" for="chk_contact">
+              <strong class="text-white d-block mb-1">I agree to be contacted</strong>
+              <span class="text-secondary">Mining Stock Report may contact me by email regarding deal flow, scorecards, and investment opportunities relevant to my profile.</span>
+            </label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-warning fw-bold w-100 btn-lg">Submit registration</button>
+
+        <p class="text-secondary text-center mt-3 mb-0" style="font-size:11px;line-height:1.6;">
+          This is not an offer to sell securities. Deal flow is shared at our sole discretion with investors
+          whose profile matches available opportunities. Mining Stock Report does not provide financial advice.
+        </p>
+      </form>
+    </div>
+  </div>
+
+</div>
+{% endblock %}

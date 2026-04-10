@@ -1,0 +1,65 @@
+{% load static %}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-warning border-2">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="{% url 'core:home' %}">
+      <span class="fw-bold text-warning fs-5">Mining Stock Report</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Analysis</a>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" href="{% url 'blog:post_list' %}">All Posts</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="{% url 'blog:post_list_by_pillar' 'due-diligence' %}">Due Diligence</a></li>
+            <li><a class="dropdown-item" href="{% url 'blog:post_list_by_pillar' 'company-verdicts' %}">Company Verdicts</a></li>
+            <li><a class="dropdown-item" href="{% url 'blog:post_list_by_pillar' 'market-intelligence' %}">Market Intelligence</a></li>
+            <li><a class="dropdown-item" href="{% url 'blog:post_list_by_pillar' 'accountability' %}">Accountability</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'verdict:company_list' %}">
+            <i class="bi bi-clipboard-check me-1"></i>Verdict Framework
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'watchlist:watchlist' %}">
+            <i class="bi bi-graph-up me-1"></i>Watchlist
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'videos:video_list' %}">
+            <i class="bi bi-play-circle me-1"></i>Videos
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'core:about' %}">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold" href="{% url 'investors:register' %}"
+             style="color:#e2c97e;border:1px solid #3a2e00;border-radius:5px;padding:5px 12px;margin-left:4px;">
+            ◆ Accredited Investors
+          </a>
+        </li>
+      </ul>
+
+      <div class="d-flex align-items-center gap-2">
+        {% if YOUTUBE_CHANNEL_URL %}
+          <a href="{{ YOUTUBE_CHANNEL_URL }}" class="btn btn-outline-danger btn-sm" target="_blank" rel="noopener">
+            <i class="bi bi-youtube me-1"></i>YouTube
+          </a>
+        {% endif %}
+        {% if user.is_authenticated %}
+          <a href="{% url 'accounts:logout' %}" class="btn btn-outline-secondary btn-sm">Log out</a>
+        {% else %}
+          <a href="{% url 'leads:subscribe' %}" class="btn btn-warning btn-sm fw-bold">
+            Free Checklist
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</nav>

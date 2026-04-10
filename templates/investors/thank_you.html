@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Registration Received — Accredited Investors{% endblock %}
+{% block robots %}noindex, nofollow{% endblock %}
+
+{% block content %}
+<div class="container text-center py-6" style="max-width:520px;padding-top:5rem;padding-bottom:5rem;">
+  <div style="width:56px;height:56px;background:#1a1400;border:1px solid #3a2e00;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 24px;">
+    <span style="color:#e2c97e;font-size:22px;">✓</span>
+  </div>
+  <h1 class="text-white fw-bold mb-3">Registration received</h1>
+  <p class="mb-4" style="color:#888;font-size:15px;line-height:1.7;">
+    We'll review your profile and be in touch within 5 business days.
+    In the meantime, the full Verdict Framework and watchlist are available on the site.
+  </p>
+  <div class="d-flex justify-content-center gap-3 flex-wrap">
+    <a href="{% url 'verdict:company_list' %}" class="btn btn-warning fw-bold px-4">View Verdict Framework</a>
+    <a href="{% url 'watchlist:watchlist' %}" class="btn btn-outline-secondary px-4">Current Watchlist</a>
+  </div>
+</div>
+{% endblock %}

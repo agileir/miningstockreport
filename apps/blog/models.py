@@ -1,0 +1,89 @@
+from django.db import models
+from django.urls import reverse
+from django.conf import settings
+from autoslug import AutoSlugField
+from taggit.managers import TaggableManager
+from apps.core.seo import SEOMixin
+
+
+class ContentPillar(models.TextChoices):
+    DUE_DILIGENCE    = "due-diligence",       "Due Diligence"
+    COMPANY_VERDICTS = "company-verdicts",    "Company Verdicts"
+    MARKET_INTEL     = "market-intelligence", "Market Intelligence"
+    ACCOUNTABILITY   = "accountability",      "Accountability"
+
+
+class Post(SEOMixin, models.Model):
+
+    class Status(models.TextChoices):
+        DRAFT     = "draft",     "Draft"
+        PUBLISHED = "published", "Published"
+
+    title  = models.CharField(max_length=250)
+    slug   = AutoSlugField(populate_from="title", unique=True, always_update=False)
+    author = models.ForeignKey(
+        settings.AUTH_USER_MODEL, on_delete=models.SET_NULL,
+        null=True, related_name="posts",
+    )
+    excerpt = models.TextField(
+        max_length=500,
+        help_text="Short summary shown in listings and used as fallback meta description.",
+    )
+    key_takeaways = models.JSONField(
+        default=list, blank=True,
+        help_text='List of short bullet strings. E.g. ["Score 19/25", "P/NAV 0.18x"]. Rendered at top of post and in schema.',
+    )
+    body = models.TextField(help_text="Supports Markdown or plain HTML.")
+    faq_items = models.JSONField(
+        default=list, blank=True,
+        help_text='List of {"question": "...", "answer": "..."} objects. Rendered as FAQ accordion + FAQPage JSON-LD.',
+    )
+    featured_image     = models.ImageField(upload_to="blog/images/%Y/%m/", blank=True, null=True)
+    featured_image_alt = models.CharField(max_length=200, blank=True)
+    pillar = models.CharField(
+        max_length=30, choices=ContentPillar.choices,
+        default=ContentPillar.DUE_DILIGENCE, db_index=True,
+    )
+    tags       = TaggableManager(blank=True)
+    is_premium = models.BooleanField(default=False)
+    status       = models.CharField(max_length=10, choices=Status.choices, default=Status.DRAFT, db_index=True)
+    published_at = models.DateTimeField(null=True, blank=True, db_index=True)
+    created_at   = models.DateTimeField(auto_now_add=True)
+    updated_at   = models.DateTimeField(auto_now=True)
+    view_count = models.PositiveIntegerField(default=0)
+    word_count = models.PositiveIntegerField(default=0, help_text="Auto-calculated on save.")
+
+    class Meta:
+        ordering = ["-published_at"]
+        indexes  = [
+            models.Index(fields=["status", "published_at"]),
+            models.Index(fields=["pillar", "status"]),
+        ]
+
+    def __str__(self):
+        return self.title
+
+    def get_absolute_url(self):
+        return reverse("blog:post_detail", kwargs={"slug": self.slug})
+
+    @property
+    def seo_title(self):
+        return self.get_seo_title(self.title)
+
+    @property
+    def seo_description(self):
+        return self.get_seo_description(self.excerpt)
+
+    @property
+    def reading_time(self):
+        words = self.word_count or len(self.body.split())
+        return max(1, round(words / 200))
+
+    def save(self, *args, **kwargs):
+        import re
+        plain = re.sub(r"<[^>]+>", "", self.body)
+        self.word_count = len(plain.split())
+        super().save(*args, **kwargs)
+
+    def increment_views(self):
+        Post.objects.filter(pk=self.pk).update(view_count=models.F("view_count") + 1)

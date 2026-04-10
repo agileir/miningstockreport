@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0d0d0d"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#ffc107"/>
+  <text x="600" y="280" font-family="system-ui,sans-serif" font-size="72" font-weight="bold"
+        fill="#ffffff" text-anchor="middle">Mining Stock Report</text>
+  <text x="600" y="360" font-family="system-ui,sans-serif" font-size="28"
+        fill="#ffc107" text-anchor="middle">Junior Mining Stock Analysis</text>
+  <text x="600" y="420" font-family="system-ui,sans-serif" font-size="20"
+        fill="#888888" text-anchor="middle">miningstockreport.com</text>
+</svg>

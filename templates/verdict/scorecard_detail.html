@@ -1,0 +1,186 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}{{ scorecard.company.ticker }} Verdict — {{ scorecard.get_verdict_display }} | Junior Mining Scorecard{% endblock %}
+{% block title_inner %}{{ scorecard.company.ticker }} — {{ scorecard.verdict }} Verdict{% endblock %}
+{% block title_inner2 %}{{ scorecard.company.ticker }} — {{ scorecard.verdict }} Verdict{% endblock %}
+{% block meta_description %}{{ scorecard.company.ticker }} ({{ scorecard.company.exchange }}) scores {{ scorecard.composite_score }}/25 on the Verdict Framework. Verdict: {{ scorecard.verdict }}. {{ scorecard.analyst_summary|truncatechars:100 }}{% endblock %}
+{% block og_type %}article{% endblock %}
+
+{# ── Breadcrumb schema ── #}
+{% block schema_breadcrumb %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home",     "item":"{{ SITE_URL }}/"},
+    {"@type":"ListItem","position":2,"name":"Companies","item":"{{ SITE_URL }}/companies/"},
+    {"@type":"ListItem","position":3,"name":"{{ scorecard.company.ticker }}","item":"{{ SITE_URL }}{{ scorecard.company.get_absolute_url }}"},
+    {"@type":"ListItem","position":4,"name":"Scorecard {{ scorecard.scored_at|date:'Y-m-d' }}","item":"{{ SITE_URL }}{{ scorecard.get_absolute_url }}"}
+  ]
+}
+</script>
+{% endblock %}
+
+{# ── FinancialProduct-adjacent structured data for verdict ── #}
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Corporation",
+    "name": "{{ scorecard.company.name|escapejs }}",
+    "tickerSymbol": "{{ scorecard.company.ticker }}",
+    "url": "{% if scorecard.company.website %}{{ scorecard.company.website }}{% endif %}"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "{{ scorecard.composite_score }}",
+    "bestRating": "25",
+    "worstRating": "5"
+  },
+  "name": "{{ scorecard.company.ticker }} Verdict Framework Scorecard — {{ scorecard.verdict }}",
+  "reviewBody": "{{ scorecard.analyst_summary|escapejs }}",
+  "author": {"@type": "Organization", "name": "{{ SITE_NAME }}"},
+  "datePublished": "{{ scorecard.scored_at|date:'c' }}"
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="bg-dark py-4 border-bottom border-secondary">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb text-secondary small mb-2">
+        <li class="breadcrumb-item"><a href="{% url 'core:home' %}" class="text-secondary">Home</a></li>
+        <li class="breadcrumb-item"><a href="{% url 'verdict:company_list' %}" class="text-secondary">Companies</a></li>
+        <li class="breadcrumb-item"><a href="{{ scorecard.company.get_absolute_url }}" class="text-secondary">{{ scorecard.company.ticker }}</a></li>
+        <li class="breadcrumb-item active text-white">Scorecard</li>
+      </ol>
+    </nav>
+    <div class="d-flex align-items-center gap-3 flex-wrap">
+      <h1 class="text-white fw-bold h3 mb-0">{{ scorecard.company.name }}</h1>
+      <span class="badge fs-6 fw-bold px-3 py-2
+        {% if scorecard.verdict == 'BUY' %}bg-success
+        {% elif scorecard.verdict == 'WATCH' %}bg-warning text-dark
+        {% else %}bg-danger{% endif %}">
+        {{ scorecard.verdict }}
+      </span>
+    </div>
+    <p class="text-secondary small mt-1 mb-0">
+      {{ scorecard.company.exchange }} &middot; {{ scorecard.company.primary_commodity }}
+      &middot; Scored {{ scorecard.scored_at|date:"M j, Y" }}
+    </p>
+  </div>
+</div>
+
+<div class="container py-5">
+  <div class="row g-5">
+    <div class="col-lg-8">
+
+      {# Composite score #}
+      <div class="card bg-dark border-secondary mb-4">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-center mb-2">
+            <span class="text-white fw-bold">Composite Score</span>
+            <span class="text-white fw-bold fs-4">{{ scorecard.composite_score }}<span class="text-secondary fs-6">/25</span></span>
+          </div>
+          <div class="progress bg-black" style="height:12px;">
+            <div class="progress-bar
+              {% if scorecard.composite_score_pct >= 70 %}bg-success
+              {% elif scorecard.composite_score_pct >= 45 %}bg-warning
+              {% else %}bg-danger{% endif %}"
+              style="width:{{ scorecard.composite_score_pct }}%"></div>
+          </div>
+        </div>
+      </div>
+
+      {# 5 Factors #}
+      {% for factor in factors %}
+      <div class="card bg-dark border-secondary mb-3">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-start">
+            <h6 class="text-white mb-1">{{ factor.label }}</h6>
+            <div class="d-flex gap-1 align-items-center">
+              {% for i in "12345" %}
+                <span class="rounded-circle d-inline-block"
+                  style="width:13px;height:13px;background:{% if forloop.counter <= factor.score %}#ffc107{% else %}#2a2a2a{% endif %};"></span>
+              {% endfor %}
+              <span class="text-secondary small ms-1">{{ factor.score }}/5</span>
+            </div>
+          </div>
+          {% if factor.notes %}<p class="text-secondary small mb-0 mt-1">{{ factor.notes }}</p>{% endif %}
+        </div>
+      </div>
+      {% endfor %}
+
+      <div class="card bg-black border-warning border-2 mt-4">
+        <div class="card-body">
+          <h5 class="text-warning fw-bold mb-3"><i class="bi bi-chat-square-quote me-2"></i>Analyst Summary</h5>
+          <p class="text-white mb-0">{{ scorecard.analyst_summary }}</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-4">
+      {% if scorecard.nav_per_share or scorecard.p_nav_multiple %}
+      <div class="card bg-dark border-secondary mb-4">
+        <div class="card-header border-secondary"><span class="text-white fw-bold small text-uppercase">Valuation</span></div>
+        <div class="card-body">
+          {% if scorecard.nav_per_share %}
+          <div class="d-flex justify-content-between py-2 border-bottom border-secondary">
+            <span class="text-secondary small">NAV / Share</span>
+            <span class="text-white fw-bold">${{ scorecard.nav_per_share }}</span>
+          </div>
+          {% endif %}
+          {% if scorecard.current_price %}
+          <div class="d-flex justify-content-between py-2 border-bottom border-secondary">
+            <span class="text-secondary small">Price at Scoring</span>
+            <span class="text-white fw-bold">${{ scorecard.current_price }}</span>
+          </div>
+          {% endif %}
+          {% if scorecard.p_nav_multiple %}
+          <div class="d-flex justify-content-between py-2">
+            <span class="text-secondary small">P/NAV Multiple</span>
+            <span class="text-warning fw-bold">{{ scorecard.p_nav_multiple|floatformat:2 }}x</span>
+          </div>
+          <p class="text-secondary mt-2 mb-0" style="font-size:.75rem;">
+            Reference: explorers 0.1–0.3x &middot; acquisition range 0.5–1.0x
+          </p>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+
+      <div class="card bg-dark border-secondary">
+        <div class="card-header border-secondary"><span class="text-white fw-bold small text-uppercase">Company</span></div>
+        <div class="card-body">
+          <dl class="mb-0 small">
+            <dt class="text-secondary">Exchange / Ticker</dt>
+            <dd class="text-white">{{ scorecard.company.exchange }}:{{ scorecard.company.ticker }}</dd>
+            {% if scorecard.company.jurisdiction %}
+            <dt class="text-secondary">Jurisdiction</dt>
+            <dd class="text-white">{{ scorecard.company.jurisdiction }}</dd>
+            {% endif %}
+            {% if scorecard.company.primary_commodity %}
+            <dt class="text-secondary">Primary Commodity</dt>
+            <dd class="text-white">{{ scorecard.company.primary_commodity }}</dd>
+            {% endif %}
+            {% if scorecard.company.website %}
+            <dt class="text-secondary">Website</dt>
+            <dd><a href="{{ scorecard.company.website }}" class="text-warning" target="_blank" rel="noopener noreferrer">{{ scorecard.company.website }}</a></dd>
+            {% endif %}
+          </dl>
+        </div>
+      </div>
+
+      <p class="text-secondary mt-4" style="font-size:.7rem;line-height:1.5;">
+        The Verdict Framework scorecard is for informational purposes only and does not constitute investment advice. All investments carry risk of loss.
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %}

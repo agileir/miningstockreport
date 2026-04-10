@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %}{{ video.title }}{% endblock %}
+
+{% block content %}
+<div class="bg-black py-5">
+  <div class="container" style="max-width:960px;">
+
+    <nav aria-label="breadcrumb" class="mb-3">
+      <ol class="breadcrumb text-secondary small">
+        <li class="breadcrumb-item"><a href="{% url 'videos:video_list' %}" class="text-secondary">Videos</a></li>
+        <li class="breadcrumb-item active text-white">{{ video.title|truncatechars:60 }}</li>
+      </ol>
+    </nav>
+
+    <span class="badge bg-secondary mb-3">{{ video.get_pillar_display }}</span>
+    <h1 class="text-white fw-bold mb-2">{{ video.title }}</h1>
+    <p class="text-secondary small mb-4">
+      <i class="bi bi-calendar me-1"></i>{{ video.published_at|date:"M j, Y" }}
+    </p>
+
+    {# Responsive YouTube embed #}
+    <div class="ratio ratio-16x9 mb-4 rounded overflow-hidden">
+      <iframe src="{{ video.embed_url }}?rel=0"
+              title="{{ video.title }}"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy">
+      </iframe>
+    </div>
+
+    {% if video.description %}
+      <div class="card bg-dark border-secondary">
+        <div class="card-body text-white" style="line-height:1.8;">
+          {{ video.description|linebreaks }}
+        </div>
+      </div>
+    {% endif %}
+
+    <div class="mt-4">
+      <a href="{% url 'videos:video_list' %}" class="btn btn-outline-secondary btn-sm">
+        <i class="bi bi-arrow-left me-1"></i>All Videos
+      </a>
+      {% if YOUTUBE_CHANNEL_URL %}
+        <a href="{{ YOUTUBE_CHANNEL_URL }}" class="btn btn-outline-danger btn-sm ms-2" target="_blank" rel="noopener">
+          <i class="bi bi-youtube me-1"></i>Subscribe on YouTube
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}
