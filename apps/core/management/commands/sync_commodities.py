@@ -7,8 +7,8 @@ Usage:
 Cron (hourly):
     0 * * * * cd /home/deploy/miningstock && /home/deploy/miningstock/venv/bin/python manage.py sync_commodities --settings=config.settings.production
 """
+import requests
 from django.core.management.base import BaseCommand
-import yfinance as yf
 from apps.core.models import CommodityPrice
 
 
@@ -17,21 +17,28 @@ COMMODITIES = [
     {"symbol": "HG=F", "name": "Copper", "unit": "/lb"},
 ]
 
+YAHOO_URL = "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=2d&interval=1d"
+HEADERS = {"User-Agent": "Mozilla/5.0"}
+
 
 class Command(BaseCommand):
     help = "Fetch latest gold and copper prices from Yahoo Finance"
 
     def handle(self, *args, **options):
-        symbols = [c["symbol"] for c in COMMODITIES]
-        tickers = yf.Tickers(" ".join(symbols))
-
         for commodity in COMMODITIES:
             sym = commodity["symbol"]
             try:
-                ticker = tickers.tickers[sym]
-                info = ticker.fast_info
-                price = info.last_price
-                prev_close = info.previous_close
+                resp = requests.get(
+                    YAHOO_URL.format(symbol=sym),
+                    headers=HEADERS,
+                    timeout=15,
+                )
+                resp.raise_for_status()
+                data = resp.json()
+                result = data["chart"]["result"][0]
+                meta = result["meta"]
+                price = meta["regularMarketPrice"]
+                prev_close = meta.get("chartPreviousClose") or meta.get("previousClose")
 
                 change_pct = None
                 if prev_close and prev_close > 0:
