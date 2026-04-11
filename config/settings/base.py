@@ -192,3 +192,8 @@ TWITTER_URL = env("TWITTER_URL", default="")
 LEAD_MAGNET_FROM_EMAIL = DEFAULT_FROM_EMAIL
 MAILCHIMP_API_KEY = env("MAILCHIMP_API_KEY", default="")
 MAILCHIMP_LIST_ID = env("MAILCHIMP_LIST_ID", default="")
+
+# ---------------------------------------------------------------------------
+# News ingest (remote agent token)
+# ---------------------------------------------------------------------------
+NEWS_INGEST_TOKEN = env("NEWS_INGEST_TOKEN", default="")

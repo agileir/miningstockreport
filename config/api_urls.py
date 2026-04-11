@@ -12,7 +12,7 @@ from apps.verdict.api import CompanyViewSet, VerdictScorecardViewSet
 from apps.watchlist.api import WatchlistItemViewSet
 from apps.leads.api import SubscriberCreateView
 from apps.investors.api import AccreditedInvestorCreateView
-from apps.news.api import NewsLinkViewSet
+from apps.news.api import NewsLinkViewSet, NewsIngestView
 
 router = DefaultRouter()
 router.register(r"posts", PostViewSet, basename="post")
@@ -30,6 +30,7 @@ urlpatterns = [
     # Subscriber email capture
     path("subscribe/", SubscriberCreateView.as_view(), name="api-subscribe"),
     path("investors/", AccreditedInvestorCreateView.as_view(), name="api-investors"),
+    path("news/ingest/", NewsIngestView.as_view(), name="api-news-ingest"),
 
     # Router-generated endpoints
     path("", include(router.urls)),
