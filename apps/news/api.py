@@ -49,6 +49,7 @@ class NewsIngestView(APIView):
             "category_slug": "...", "snippet": "...",
             "is_featured": false, "is_breaking": false}]
     """
+    authentication_classes = []  # Skip JWT — we use our own token
     permission_classes = [permissions.AllowAny]
 
     SHORT_EXPIRY_SLUGS = {"market-macro"}
@@ -57,7 +58,7 @@ class NewsIngestView(APIView):
     FEATURED_EXPIRY_HOURS = 72
 
     def post(self, request):
-        # Token auth
+        # Token auth via X-Ingest-Token header
         token = getattr(settings, "NEWS_INGEST_TOKEN", "")
         if not token:
             return Response(
@@ -65,8 +66,8 @@ class NewsIngestView(APIView):
                 status=status.HTTP_503_SERVICE_UNAVAILABLE,
             )
 
-        auth_header = request.headers.get("Authorization", "")
-        if auth_header != f"Bearer {token}":
+        provided = request.headers.get("X-Ingest-Token", "")
+        if provided != token:
             return Response(
                 {"error": "Invalid or missing token"},
                 status=status.HTTP_403_FORBIDDEN,
