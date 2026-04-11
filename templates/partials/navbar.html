@@ -52,7 +52,10 @@
           </a>
         {% endif %}
         {% if user.is_authenticated %}
-          <a href="{% url 'accounts:logout' %}" class="btn btn-outline-secondary btn-sm">Log out</a>
+          <form method="post" action="{% url 'accounts:logout' %}" class="d-inline">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-outline-secondary btn-sm">Log out</button>
+          </form>
         {% else %}
           <a href="{% url 'leads:subscribe' %}" class="btn btn-warning btn-sm fw-bold">
             Free Checklist
