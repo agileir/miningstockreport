@@ -107,6 +107,7 @@ produced by a single analyst using a consistent 5-factor scoring framework
 - Verdict Framework (company scorecards): {settings.SITE_URL}/companies/
 - Current watchlist: {settings.SITE_URL}/watchlist/
 - Analysis archive: {settings.SITE_URL}/analysis/
+- Mining News Wire: {settings.SITE_URL}/news/
 - About: {settings.SITE_URL}/about/
 - Methodology & Disclosure: {settings.SITE_URL}/about/methodology/
 - Sitemap: {settings.SITE_URL}/sitemap.xml

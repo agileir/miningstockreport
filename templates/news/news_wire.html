@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+{% load humanize %}
+
+{% block title %}Mining News Wire{% endblock %}
+{% block meta_description %}Live curated mining news wire covering gold, copper, lithium, uranium exploration, M&amp;A deals, and market analysis. Updated every 3 hours.{% endblock %}
+
+{% block schema_breadcrumb %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ SITE_URL }}"},
+    {"@type": "ListItem", "position": 2, "name": "Mining News Wire"}
+  ]
+}
+</script>
+{% endblock %}
+
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Mining News Wire",
+  "description": "Curated mining industry news covering gold, silver, copper, lithium, uranium, exploration, M&A, and market analysis.",
+  "url": "{{ SITE_URL }}/news/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ SITE_NAME }}",
+    "url": "{{ SITE_URL }}"
+  }
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="bg-black py-4">
+  <div class="container">
+
+    {# ── Header ── #}
+    <div class="text-center mb-4">
+      <h1 class="display-5 fw-bold text-warning text-uppercase mb-1">Mining News Wire</h1>
+      <p class="text-secondary small mb-0">
+        Curated mining &amp; commodity news
+        {% if last_updated %}
+        &mdash; Updated {{ last_updated|timesince }} ago
+        {% endif %}
+      </p>
+    </div>
+
+    {# ── Featured Headlines ── #}
+    {% if featured_links %}
+    <div class="text-center mb-4 px-md-5">
+      {% for link in featured_links %}
+      <div class="mb-3">
+        {% if link.is_breaking %}
+        <span class="badge bg-danger me-1">BREAKING</span>
+        {% endif %}
+        <a href="{{ link.url }}" target="_blank" rel="noopener"
+           class="news-wire-featured text-warning text-decoration-none fw-bold text-uppercase">
+          {{ link.headline }}
+        </a>
+        <small class="text-secondary news-wire-source d-block mt-1">({{ link.source_name }})</small>
+      </div>
+      {% endfor %}
+    </div>
+    <hr class="border-warning opacity-50 mb-4">
+    {% endif %}
+
+    {# ── Category Sections — 3-column grid ── #}
+    <div class="row g-4">
+      {% for cat in categories %}
+      {% if cat.active_links %}
+      <div class="col-md-6 col-lg-4">
+        <h5 class="text-warning fw-bold text-uppercase pb-2 mb-3"
+            style="border-bottom: 2px solid var(--msr-gold); font-size: 0.85rem; letter-spacing: 0.05em;">
+          {% if cat.icon_class %}<i class="{{ cat.icon_class }} me-1"></i>{% endif %}
+          {{ cat.name }}
+        </h5>
+        <div class="d-flex flex-column gap-0">
+          {% for link in cat.active_links %}
+          <div class="news-wire-link py-2">
+            {% if link.is_breaking %}
+            <span class="badge bg-danger me-1" style="font-size: 0.65rem;">BREAKING</span>
+            {% endif %}
+            {% if link.is_featured %}
+            <span class="badge bg-warning text-dark me-1" style="font-size: 0.65rem;">TOP</span>
+            {% endif %}
+            <a href="{{ link.url }}" target="_blank" rel="noopener"
+               class="text-white text-decoration-none" style="font-size: 0.9rem; line-height: 1.35;">
+              {{ link.headline }}
+            </a>
+            <small class="text-secondary news-wire-source ms-1">({{ link.source_name }})</small>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+
+    {# ── Empty state ── #}
+    {% if not featured_links and not categories %}
+    <div class="text-center py-5">
+      <p class="text-secondary">No news stories yet. Check back soon.</p>
+    </div>
+    {% endif %}
+
+  </div>
+</div>
+{% endblock %}

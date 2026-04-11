@@ -105,6 +105,12 @@ footer a:hover { color: var(--msr-gold) !important; }
 .btn-warning { background-color: var(--msr-gold); border-color: var(--msr-gold); color: #000; }
 .btn-warning:hover { background-color: #ffcd38; border-color: #ffcd38; color: #000; }
 
+/* News Wire */
+.news-wire-link { border-bottom: 1px solid var(--msr-border); }
+.news-wire-link:hover { background: rgba(255, 193, 7, 0.05); }
+.news-wire-featured { font-size: 1.3rem; line-height: 1.3; }
+.news-wire-source { font-size: 0.75rem; }
+
 /* Mobile */
 @media (max-width: 768px) {
   h1 { font-size: 1.6rem; }

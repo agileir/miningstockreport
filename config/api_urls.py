@@ -12,6 +12,7 @@ from apps.verdict.api import CompanyViewSet, VerdictScorecardViewSet
 from apps.watchlist.api import WatchlistItemViewSet
 from apps.leads.api import SubscriberCreateView
 from apps.investors.api import AccreditedInvestorCreateView
+from apps.news.api import NewsLinkViewSet
 
 router = DefaultRouter()
 router.register(r"posts", PostViewSet, basename="post")
@@ -19,6 +20,7 @@ router.register(r"videos", VideoViewSet, basename="video")
 router.register(r"companies", CompanyViewSet, basename="company")
 router.register(r"verdicts", VerdictScorecardViewSet, basename="verdict")
 router.register(r"watchlist", WatchlistItemViewSet, basename="watchlist")
+router.register(r"news", NewsLinkViewSet, basename="news")
 
 urlpatterns = [
     # JWT auth (for mobile app)
