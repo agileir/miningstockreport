@@ -32,7 +32,7 @@
               {% endif %}
             </div>
             <div class="card-body d-flex flex-column">
-              <span class="badge bg-secondary mb-2 align-self-start">{{ video.get_pillar_display }}</span>
+              <span class="badge bg-secondary mb-2 align-self-start">{{ video.pillar.name }}</span>
               <h6 class="text-white flex-grow-1">{{ video.title }}</h6>
               {% if video.description %}
                 <p class="text-secondary small mb-0">{{ video.description|truncatechars:100 }}</p>

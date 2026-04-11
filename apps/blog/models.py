@@ -6,11 +6,31 @@ from taggit.managers import TaggableManager
 from apps.core.seo import SEOMixin
 
 
-class ContentPillar(models.TextChoices):
-    DUE_DILIGENCE    = "due-diligence",       "Due Diligence"
-    COMPANY_VERDICTS = "company-verdicts",    "Company Verdicts"
-    MARKET_INTEL     = "market-intelligence", "Market Intelligence"
-    ACCOUNTABILITY   = "accountability",      "Accountability"
+class Pillar(models.Model):
+    """Content pillar — editable from admin, designed around SEO/GEO keywords."""
+    name = models.CharField(max_length=100, help_text="Display name (e.g. 'Due Diligence')")
+    slug = AutoSlugField(populate_from="name", unique=True, always_update=False)
+    description = models.TextField(
+        blank=True,
+        help_text="SEO-focused description. Used in pillar landing page meta description.",
+    )
+    seo_title = models.CharField(
+        max_length=70, blank=True,
+        help_text="Custom meta title for pillar pages (50-60 chars ideal). Leave blank to auto-derive.",
+    )
+    sort_order = models.PositiveIntegerField(
+        default=0, help_text="Controls display order in nav, footer, and filters. Lower = first.",
+    )
+    is_active = models.BooleanField(default=True, help_text="Inactive pillars are hidden from the site.")
+
+    class Meta:
+        ordering = ["sort_order", "name"]
+
+    def __str__(self):
+        return self.name
+
+    def get_absolute_url(self):
+        return reverse("blog:post_list_by_pillar", kwargs={"pillar": self.slug})
 
 
 class Post(SEOMixin, models.Model):
@@ -40,9 +60,9 @@ class Post(SEOMixin, models.Model):
     )
     featured_image     = models.ImageField(upload_to="blog/images/%Y/%m/", blank=True, null=True)
     featured_image_alt = models.CharField(max_length=200, blank=True)
-    pillar = models.CharField(
-        max_length=30, choices=ContentPillar.choices,
-        default=ContentPillar.DUE_DILIGENCE, db_index=True,
+    pillar = models.ForeignKey(
+        Pillar, on_delete=models.SET_NULL,
+        null=True, blank=True, related_name="posts", db_index=True,
     )
     tags       = TaggableManager(blank=True)
     is_premium = models.BooleanField(default=False)

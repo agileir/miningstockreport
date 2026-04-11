@@ -10,10 +10,10 @@ class VideoListView(ListView):
     paginate_by = 12
 
     def get_queryset(self):
-        qs = Video.objects.all()
-        pillar = self.kwargs.get("pillar")
-        if pillar:
-            qs = qs.filter(pillar=pillar)
+        qs = Video.objects.select_related("pillar")
+        pillar_slug = self.kwargs.get("pillar")
+        if pillar_slug:
+            qs = qs.filter(pillar__slug=pillar_slug)
         return qs
 
 
@@ -21,3 +21,6 @@ class VideoDetailView(DetailView):
     model = Video
     template_name = "videos/video_detail.html"
     context_object_name = "video"
+
+    def get_queryset(self):
+        return Video.objects.select_related("pillar")

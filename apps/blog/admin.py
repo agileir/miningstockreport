@@ -1,5 +1,23 @@
 from django.contrib import admin
-from .models import Post
+from .models import Pillar, Post
+
+
+@admin.register(Pillar)
+class PillarAdmin(admin.ModelAdmin):
+    list_display = ("name", "slug", "sort_order", "is_active", "post_count")
+    list_editable = ("sort_order", "is_active")
+    prepopulated_fields = {"slug": ("name",)}
+    search_fields = ("name",)
+
+    fieldsets = (
+        (None, {
+            "fields": ("name", "slug", "description", "seo_title", "sort_order", "is_active"),
+        }),
+    )
+
+    def post_count(self, obj):
+        return obj.posts.count()
+    post_count.short_description = "Posts"
 
 
 @admin.register(Post)

@@ -1,7 +1,7 @@
 from django.db import models
 from django.urls import reverse
 from autoslug import AutoSlugField
-from apps.blog.models import ContentPillar
+from apps.blog.models import Pillar
 from apps.core.seo import SEOMixin
 
 
@@ -11,8 +11,10 @@ class Video(SEOMixin, models.Model):
     youtube_id  = models.CharField(max_length=20, unique=True,
         help_text="11-character YouTube video ID from the URL.")
     description = models.TextField(blank=True)
-    pillar      = models.CharField(max_length=30, choices=ContentPillar.choices,
-        default=ContentPillar.DUE_DILIGENCE, db_index=True)
+    pillar      = models.ForeignKey(
+        Pillar, on_delete=models.SET_NULL,
+        null=True, blank=True, related_name="videos", db_index=True,
+    )
     is_featured = models.BooleanField(default=False)
     is_premium  = models.BooleanField(default=False)
     thumbnail_url = models.URLField(blank=True,

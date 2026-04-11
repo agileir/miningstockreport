@@ -14,10 +14,9 @@
           <ul class="dropdown-menu dropdown-menu-dark">
             <li><a class="dropdown-item" href="{% url 'blog:post_list' %}">All Posts</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="{% url 'blog:post_list_by_pillar' 'due-diligence' %}">Due Diligence</a></li>
-            <li><a class="dropdown-item" href="{% url 'blog:post_list_by_pillar' 'company-verdicts' %}">Company Verdicts</a></li>
-            <li><a class="dropdown-item" href="{% url 'blog:post_list_by_pillar' 'market-intelligence' %}">Market Intelligence</a></li>
-            <li><a class="dropdown-item" href="{% url 'blog:post_list_by_pillar' 'accountability' %}">Accountability</a></li>
+            {% for p in nav_pillars %}
+            <li><a class="dropdown-item" href="{% url 'blog:post_list_by_pillar' p.slug %}">{{ p.name }}</a></li>
+            {% endfor %}
           </ul>
         </li>
         <li class="nav-item">

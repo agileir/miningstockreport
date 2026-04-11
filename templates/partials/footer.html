@@ -21,10 +21,9 @@
       <div class="col-lg-2 col-6">
         <h6 class="text-white small fw-bold mb-3 text-uppercase">Analysis</h6>
         <ul class="list-unstyled small">
-          <li><a href="{% url 'blog:post_list_by_pillar' 'due-diligence' %}" class="text-secondary text-decoration-none">Due Diligence</a></li>
-          <li><a href="{% url 'blog:post_list_by_pillar' 'company-verdicts' %}" class="text-secondary text-decoration-none">Company Verdicts</a></li>
-          <li><a href="{% url 'blog:post_list_by_pillar' 'market-intelligence' %}" class="text-secondary text-decoration-none">Market Intelligence</a></li>
-          <li><a href="{% url 'blog:post_list_by_pillar' 'accountability' %}" class="text-secondary text-decoration-none">Accountability</a></li>
+          {% for p in nav_pillars %}
+          <li><a href="{% url 'blog:post_list_by_pillar' p.slug %}" class="text-secondary text-decoration-none">{{ p.name }}</a></li>
+          {% endfor %}
         </ul>
       </div>
       <div class="col-lg-2 col-6">

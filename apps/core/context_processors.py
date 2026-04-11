@@ -1,4 +1,5 @@
 from django.conf import settings
+from apps.blog.models import Pillar
 
 
 def site_context(request):
@@ -9,4 +10,5 @@ def site_context(request):
         "SITE_URL": settings.SITE_URL,
         "YOUTUBE_CHANNEL_URL": settings.YOUTUBE_CHANNEL_URL,
         "TWITTER_URL": settings.TWITTER_URL,
+        "nav_pillars": Pillar.objects.filter(is_active=True),
     }

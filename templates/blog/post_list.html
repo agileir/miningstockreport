@@ -14,10 +14,10 @@
          class="btn btn-sm {% if not active_pillar %}btn-warning{% else %}btn-outline-secondary{% endif %}">
         All
       </a>
-      {% for slug, label in pillars %}
-      <a href="{% url 'blog:post_list_by_pillar' slug %}"
-         class="btn btn-sm {% if active_pillar == slug %}btn-warning{% else %}btn-outline-secondary{% endif %}">
-        {{ label }}
+      {% for p in pillars %}
+      <a href="{% url 'blog:post_list_by_pillar' p.slug %}"
+         class="btn btn-sm {% if active_pillar == p.slug %}btn-warning{% else %}btn-outline-secondary{% endif %}">
+        {{ p.name }}
       </a>
       {% endfor %}
     </div>
@@ -38,7 +38,7 @@
             {% endif %}
             <div class="card-body d-flex flex-column">
               <div class="mb-2">
-                <span class="badge bg-secondary">{{ post.get_pillar_display }}</span>
+                {% if post.pillar %}<span class="badge bg-secondary">{{ post.pillar.name }}</span>{% endif %}
                 {% if post.is_premium %}
                   <span class="badge bg-warning text-dark ms-1">
                     <i class="bi bi-lock-fill"></i> Premium

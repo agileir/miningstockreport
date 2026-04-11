@@ -1,7 +1,7 @@
 from django.shortcuts import get_object_or_404, redirect
 from django.views.generic import ListView, DetailView
 from django.utils import timezone
-from .models import Post, ContentPillar
+from .models import Post, Pillar
 
 
 class PostListView(ListView):
@@ -12,17 +12,17 @@ class PostListView(ListView):
 
     def get_queryset(self):
         qs = Post.objects.filter(status=Post.Status.PUBLISHED, published_at__lte=timezone.now())
-        pillar = self.kwargs.get("pillar")
-        if pillar:
-            qs = qs.filter(pillar=pillar)
+        pillar_slug = self.kwargs.get("pillar")
+        if pillar_slug:
+            qs = qs.filter(pillar__slug=pillar_slug)
         tag = self.request.GET.get("tag")
         if tag:
             qs = qs.filter(tags__slug=tag)
-        return qs.select_related("author")
+        return qs.select_related("author", "pillar")
 
     def get_context_data(self, **kwargs):
         ctx = super().get_context_data(**kwargs)
-        ctx["pillars"] = ContentPillar.choices
+        ctx["pillars"] = Pillar.objects.filter(is_active=True)
         ctx["active_pillar"] = self.kwargs.get("pillar", "")
         return ctx
 
@@ -36,7 +36,7 @@ class PostDetailView(DetailView):
         return Post.objects.filter(
             status=Post.Status.PUBLISHED,
             published_at__lte=timezone.now(),
-        ).select_related("author")
+        ).select_related("author", "pillar")
 
     def get(self, request, *args, **kwargs):
         response = super().get(request, *args, **kwargs)
@@ -55,6 +55,7 @@ class PostDetailView(DetailView):
                 pillar=post.pillar,
             )
             .exclude(pk=post.pk)
+            .select_related("pillar")
             .order_by("-published_at")[:3]
         )
         return ctx

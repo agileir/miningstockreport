@@ -27,7 +27,7 @@
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Home",     "item": "{{ SITE_URL }}/"},
     {"@type": "ListItem", "position": 2, "name": "Analysis", "item": "{{ SITE_URL }}/analysis/"},
-    {"@type": "ListItem", "position": 3, "name": "{{ post.get_pillar_display }}", "item": "{{ SITE_URL }}/analysis/pillar/{{ post.pillar }}/"},
+    {"@type": "ListItem", "position": 3, "name": "{{ post.pillar.name }}", "item": "{{ SITE_URL }}/analysis/pillar/{{ post.pillar.slug }}/"},
     {"@type": "ListItem", "position": 4, "name": "{{ post.title|escapejs }}", "item": "{{ SITE_URL }}{{ post.get_absolute_url }}"}
   ]
 }
@@ -93,13 +93,13 @@
       <ol class="breadcrumb text-secondary small mb-2">
         <li class="breadcrumb-item"><a href="{% url 'core:home' %}" class="text-secondary">Home</a></li>
         <li class="breadcrumb-item"><a href="{% url 'blog:post_list' %}" class="text-secondary">Analysis</a></li>
-        <li class="breadcrumb-item"><a href="{% url 'blog:post_list_by_pillar' post.pillar %}" class="text-secondary">{{ post.get_pillar_display }}</a></li>
+        {% if post.pillar %}<li class="breadcrumb-item"><a href="{% url 'blog:post_list_by_pillar' post.pillar.slug %}" class="text-secondary">{{ post.pillar.name }}</a></li>{% endif %}
         <li class="breadcrumb-item active text-white">{{ post.title|truncatechars:50 }}</li>
       </ol>
     </nav>
 
     <div class="mb-2">
-      <span class="badge bg-secondary me-1">{{ post.get_pillar_display }}</span>
+      <span class="badge bg-secondary me-1">{{ post.pillar.name }}</span>
       {% if post.is_premium %}<span class="badge bg-warning text-dark"><i class="bi bi-lock-fill"></i> Premium</span>{% endif %}
     </div>
 
@@ -193,7 +193,7 @@
         <a href="{{ rp.get_absolute_url }}" class="text-decoration-none">
           <div class="card bg-dark border-secondary h-100">
             <div class="card-body">
-              <span class="badge bg-secondary mb-2 small">{{ rp.get_pillar_display }}</span>
+              <span class="badge bg-secondary mb-2 small">{{ rp.pillar.name }}</span>
               <p class="text-white small mb-0">{{ rp.title }}</p>
             </div>
           </div>
