@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+
+{% block title %}{{ author.display_name }} — {{ SITE_NAME }}{% endblock %}
+{% block meta_description %}{{ author.professional_title|default:"Mining Stock Analyst" }} at {{ SITE_NAME }}. Independent junior mining research using the Verdict Framework.{% endblock %}
+
+{# ── Person schema for E-E-A-T ── #}
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ author.display_name|escapejs }}",
+  "jobTitle": "{{ author.professional_title|default:'Mining Stock Analyst'|escapejs }}",
+  "description": "{{ author.bio|truncatechars:200|escapejs }}",
+  "url": "{{ SITE_URL }}{% url 'core:author_profile' author.username %}",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "{{ SITE_NAME }}",
+    "url": "{{ SITE_URL }}"
+  },
+  "knowsAbout": [
+    "Junior Mining Stocks",
+    "NI 43-101 Technical Reports",
+    "Gold Mining",
+    "Copper Mining",
+    "Critical Metals",
+    "Mining Stock Valuation",
+    "P/NAV Analysis"
+  ],
+  "sameAs": [
+    {% if YOUTUBE_CHANNEL_URL %}"{{ YOUTUBE_CHANNEL_URL }}"{% endif %}
+    {% if YOUTUBE_CHANNEL_URL and TWITTER_URL %},{% endif %}
+    {% if TWITTER_URL %}"{{ TWITTER_URL }}"{% endif %}
+    {% if author.linkedin_url %}{% if YOUTUBE_CHANNEL_URL or TWITTER_URL %},{% endif %}"{{ author.linkedin_url }}"{% endif %}
+  ]
+  {% if author.avatar %},
+  "image": "{{ SITE_URL }}{{ author.avatar.url }}"
+  {% endif %}
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="container py-5" style="max-width:760px;">
+
+  {# ── Author header ── #}
+  <div class="d-flex align-items-start gap-4 mb-5">
+    {% if author.avatar %}
+      <img src="{{ author.avatar.url }}" alt="{{ author.display_name }}"
+           class="rounded-circle" style="width:120px; height:120px; object-fit:cover;">
+    {% else %}
+      <div class="rounded-circle bg-dark d-flex align-items-center justify-content-center"
+           style="width:120px; height:120px; min-width:120px;">
+        <i class="bi bi-person-fill text-warning" style="font-size:3rem;"></i>
+      </div>
+    {% endif %}
+
+    <div>
+      <h1 class="text-white fw-bold mb-1">{{ author.display_name }}</h1>
+      {% if author.professional_title %}
+        <p class="text-warning mb-2">{{ author.professional_title }}</p>
+      {% endif %}
+      <div class="d-flex gap-2 flex-wrap">
+        {% if YOUTUBE_CHANNEL_URL %}
+          <a href="{{ YOUTUBE_CHANNEL_URL }}" class="btn btn-outline-danger btn-sm" target="_blank" rel="noopener">
+            <i class="bi bi-youtube me-1"></i>YouTube
+          </a>
+        {% endif %}
+        {% if TWITTER_URL %}
+          <a href="{{ TWITTER_URL }}" class="btn btn-outline-secondary btn-sm" target="_blank" rel="noopener">
+            <i class="bi bi-twitter-x me-1"></i>Twitter/X
+          </a>
+        {% endif %}
+        {% if author.linkedin_url %}
+          <a href="{{ author.linkedin_url }}" class="btn btn-outline-secondary btn-sm" target="_blank" rel="noopener">
+            <i class="bi bi-linkedin me-1"></i>LinkedIn
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  {# ── Bio ── #}
+  {% if author.bio %}
+  <div class="text-white mb-5" style="line-height:1.9;">
+    {{ author.bio|linebreaks }}
+  </div>
+  {% endif %}
+
+  {# ── Credentials / Background ── #}
+  {% if author.credentials %}
+  <div class="card bg-dark border-secondary mb-5">
+    <div class="card-body">
+      <h5 class="text-warning fw-bold mb-3"><i class="bi bi-award me-2"></i>Background & Credentials</h5>
+      <div class="text-secondary" style="line-height:1.9;">
+        {{ author.credentials|linebreaks }}
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+  {# ── Independence statement ── #}
+  <div class="card bg-black border-warning border-1 mb-5">
+    <div class="card-body">
+      <h5 class="text-warning fw-bold mb-3"><i class="bi bi-shield-check me-2"></i>Independence</h5>
+      <p class="text-white mb-0">{{ author.display_name }} does not accept IR compensation, paid placements, or undisclosed sponsorships. All research on {{ SITE_NAME }} is funded by subscribers, not mining companies. Positions in covered companies are always disclosed.</p>
+    </div>
+  </div>
+
+  {# ── Recent analysis ── #}
+  {% if recent_posts %}
+  <h4 class="text-white fw-bold mb-4">Recent Analysis</h4>
+  <div class="list-group list-group-flush">
+    {% for post in recent_posts %}
+    <a href="{{ post.get_absolute_url }}" class="list-group-item list-group-item-action bg-dark border-secondary text-white d-flex justify-content-between align-items-center">
+      <div>
+        <span class="badge bg-secondary me-2 small">{{ post.pillar.name }}</span>
+        {{ post.title }}
+      </div>
+      <small class="text-secondary">{{ post.published_at|date:"M j, Y" }}</small>
+    </a>
+    {% endfor %}
+  </div>
+  <div class="mt-3">
+    <a href="{% url 'blog:post_list' %}" class="btn btn-outline-warning btn-sm">View All Analysis</a>
+  </div>
+  {% endif %}
+
+</div>
+{% endblock %}

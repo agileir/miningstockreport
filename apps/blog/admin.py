@@ -37,8 +37,8 @@ class PostAdmin(admin.ModelAdmin):
             "fields": ("title", "slug", "author", "status", "published_at"),
         }),
         ("Content", {
-            "fields": ("excerpt", "key_takeaways", "body", "faq_items",
-                       "featured_image", "featured_image_alt"),
+            "fields": ("excerpt", "answer_capsule", "key_takeaways", "body",
+                       "faq_items", "featured_image", "featured_image_alt"),
         }),
         ("Classification", {
             "fields": ("pillar", "tags", "is_premium"),

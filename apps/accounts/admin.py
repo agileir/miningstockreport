@@ -12,5 +12,5 @@ class UserAdmin(BaseUserAdmin):
 
     fieldsets = BaseUserAdmin.fieldsets + (
         ("Membership", {"fields": ("membership_tier", "membership_expires", "stripe_customer_id")}),
-        ("Profile", {"fields": ("bio", "avatar")}),
+        ("Profile", {"fields": ("bio", "avatar", "professional_title", "credentials", "linkedin_url")}),
     )

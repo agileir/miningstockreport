@@ -25,7 +25,7 @@ class PostDetailSerializer(PostSerializer):
     body = serializers.CharField()
 
     class Meta(PostSerializer.Meta):
-        fields = PostSerializer.Meta.fields + ["body", "meta_title", "meta_description"]
+        fields = PostSerializer.Meta.fields + ["body", "answer_capsule", "meta_title", "meta_description"]
 
     def to_representation(self, instance):
         data = super().to_representation(instance)

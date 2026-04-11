@@ -58,6 +58,12 @@ class Post(SEOMixin, models.Model):
         max_length=500,
         help_text="Short summary shown in listings and used as fallback meta description.",
     )
+    answer_capsule = models.TextField(
+        blank=True,
+        help_text="2-3 sentence direct answer to the post's core question. "
+                  "Displayed prominently before the body. AI platforms extract this for citations. "
+                  'E.g. "Based on our Verdict Framework, XYZ scores 19/25 and receives a BUY rating."',
+    )
     key_takeaways = models.JSONField(
         default=list, blank=True,
         help_text='List of short bullet strings. E.g. ["Score 19/25", "P/NAV 0.18x"]. Rendered at top of post and in schema.',

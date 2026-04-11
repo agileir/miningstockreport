@@ -2,6 +2,44 @@
 
 {% block title %}{{ video.title }}{% endblock %}
 
+{% block schema_breadcrumb %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ SITE_URL }}"},
+    {"@type": "ListItem", "position": 2, "name": "Videos", "item": "{{ SITE_URL }}/videos/"},
+    {"@type": "ListItem", "position": 3, "name": "{{ video.title|truncatechars:60 }}"}
+  ]
+}
+</script>
+{% endblock %}
+
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "{{ video.title }}",
+  "description": "{{ video.description|truncatechars:200|escapejs }}",
+  "thumbnailUrl": "{{ video.thumbnail }}",
+  "uploadDate": "{{ video.published_at|date:'c' }}",
+  "contentUrl": "https://www.youtube.com/watch?v={{ video.youtube_id }}",
+  "embedUrl": "{{ video.embed_url }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ SITE_NAME }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ SITE_NAME }}",
+    "url": "{{ SITE_URL }}"
+  }
+}
+</script>
+{% endblock %}
+
 {% block content %}
 <div class="bg-black py-5">
   <div class="container" style="max-width:960px;">

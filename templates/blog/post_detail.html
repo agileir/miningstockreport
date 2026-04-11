@@ -46,7 +46,8 @@
   "dateModified": "{{ post.updated_at|date:'c' }}",
   "author": {
     "@type": "Person",
-    "name": "{{ post.author.display_name|default:'Mining Stock Report'|escapejs }}"
+    "name": "{{ post.author.display_name|default:'Mining Stock Report'|escapejs }}",
+    "url": "{{ SITE_URL }}{% url 'core:author_profile' post.author.username %}"
   },
   "publisher": {
     "@type": "Organization",
@@ -107,7 +108,7 @@
     <p class="text-secondary lead">{{ post.excerpt }}</p>
 
     <div class="d-flex align-items-center gap-3 mt-3 small text-secondary flex-wrap">
-      <span><i class="bi bi-person me-1"></i>{{ post.author.display_name }}</span>
+      <span><i class="bi bi-person me-1"></i><a href="{% url 'core:author_profile' post.author.username %}" class="text-secondary text-decoration-none">{{ post.author.display_name }}</a></span>
       <span><i class="bi bi-calendar me-1"></i>{{ post.published_at|date:"M j, Y" }}</span>
       <span><i class="bi bi-clock me-1"></i>{{ post.reading_time }} min read</span>
       <span><i class="bi bi-eye me-1"></i>{{ post.view_count }} views</span>
@@ -121,6 +122,15 @@
     <img src="{{ post.featured_image.url }}"
          alt="{{ post.featured_image_alt|default:post.title }}"
          class="img-fluid rounded mb-4 w-100" style="max-height:420px; object-fit:cover;">
+  {% endif %}
+
+  {# ── Answer capsule — primary GEO optimization, AI platforms cite this ── #}
+  {% if post.answer_capsule %}
+  <div class="card bg-black border-warning border-1 mb-4">
+    <div class="card-body">
+      <p class="text-white mb-0" style="font-size:1.1rem; line-height:1.8;">{{ post.answer_capsule }}</p>
+    </div>
+  </div>
   {% endif %}
 
   {# ── Key takeaways box — AI engines love this ── #}

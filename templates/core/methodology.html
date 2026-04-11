@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+
+{% block title %}Methodology & Disclosure — {{ SITE_NAME }}{% endblock %}
+{% block meta_description %}How {{ SITE_NAME }} evaluates junior mining stocks using the 5-factor Verdict Framework. Our independence policy, scoring criteria, and company selection process.{% endblock %}
+
+{% block content %}
+<div class="container py-5" style="max-width:760px;">
+
+  <h1 class="text-white fw-bold mb-2">Methodology & Disclosure</h1>
+  <p class="text-secondary lead mb-5">How we evaluate companies, how we select what to cover, and how we fund this research.</p>
+
+  {# ── Independence Policy ── #}
+  <div class="card bg-black border-warning border-2 mb-5">
+    <div class="card-body">
+      <h2 class="text-warning fw-bold h4 mb-3"><i class="bi bi-shield-check me-2"></i>Our Independence Policy</h2>
+      <div class="text-white" style="line-height:1.9;">
+        <p class="mb-3">{{ SITE_NAME }} does not accept payment for coverage. Specifically:</p>
+        <ul class="mb-3">
+          <li><strong>No IR relationships.</strong> We do not accept compensation from any mining company's investor relations team.</li>
+          <li><strong>No paid placements.</strong> Companies cannot pay to be featured, reviewed, or mentioned on this site.</li>
+          <li><strong>No undisclosed compensation.</strong> If any financial relationship with a covered company ever exists, it will be disclosed prominently on every piece of content it touches.</li>
+          <li><strong>Subscriber-funded.</strong> This research is funded by readers through subscriptions, not by the companies we cover.</li>
+        </ul>
+        <p class="mb-0">Most mining research sites are funded by the companies they cover. We are funded by you. That distinction matters.</p>
+      </div>
+    </div>
+  </div>
+
+  {# ── The Verdict Framework ── #}
+  <h2 class="text-white fw-bold h4 mb-4">The Verdict Framework</h2>
+  <p class="text-white mb-4" style="line-height:1.9;">Every company on this site is evaluated using the same 5-factor scoring system. Each factor is scored 1-5, producing a composite score out of 25. The composite score drives one of three verdicts: <strong class="text-success">BUY</strong>, <strong class="text-warning">WATCH</strong>, or <strong class="text-danger">AVOID</strong>.</p>
+
+  <div class="card bg-dark border-secondary mb-4">
+    <div class="card-body">
+      <h3 class="text-warning fw-bold h5 mb-3">1. Management Skin-in-the-Game (1-5)</h3>
+      <p class="text-secondary mb-2"><strong class="text-white">What we measure:</strong> Insider ownership percentage, open-market purchases (not just option grants), management track record of value creation, and alignment of incentives with shareholders.</p>
+      <p class="text-secondary mb-0"><strong class="text-white">Why it matters:</strong> When management has meaningful capital at risk alongside shareholders, their decisions tend to be more disciplined. We want to see executives who bought shares with their own money, not just received them as compensation.</p>
+    </div>
+  </div>
+
+  <div class="card bg-dark border-secondary mb-4">
+    <div class="card-body">
+      <h3 class="text-warning fw-bold h5 mb-3">2. Project Geology Quality (1-5)</h3>
+      <p class="text-secondary mb-2"><strong class="text-white">What we measure:</strong> Resource classification (Measured, Indicated, Inferred), grade relative to peers, deposit scale, metallurgical characteristics, and the quality of the NI 43-101 or JORC technical report.</p>
+      <p class="text-secondary mb-0"><strong class="text-white">Why it matters:</strong> The geology is the foundation. A high-grade, well-classified resource with favorable metallurgy is fundamentally different from a low-grade inferred resource that may never be economic. We read the technical reports so you can understand what's actually in the ground.</p>
+    </div>
+  </div>
+
+  <div class="card bg-dark border-secondary mb-4">
+    <div class="card-body">
+      <h3 class="text-warning fw-bold h5 mb-3">3. Capital Structure Health (1-5)</h3>
+      <p class="text-secondary mb-2"><strong class="text-white">What we measure:</strong> Shares outstanding, fully diluted share count, warrant overhang, cash on hand, burn rate, and the likelihood of near-term dilution.</p>
+      <p class="text-secondary mb-0"><strong class="text-white">Why it matters:</strong> A great project in a bad capital structure can destroy shareholder value. Excessive warrant overhang creates selling pressure. Low cash with high burn rate means dilutive financing is coming. We assess whether the current structure rewards or punishes new investors.</p>
+    </div>
+  </div>
+
+  <div class="card bg-dark border-secondary mb-4">
+    <div class="card-body">
+      <h3 class="text-warning fw-bold h5 mb-3">4. Catalyst Proximity (1-5)</h3>
+      <p class="text-secondary mb-2"><strong class="text-white">What we measure:</strong> Timeline to the next material news event — drill results, resource estimates, PEA/PFS/DFS milestones, permitting decisions, or M&A activity.</p>
+      <p class="text-secondary mb-0"><strong class="text-white">Why it matters:</strong> Junior miners move on catalysts. A company with drill results expected in 6 weeks has a different risk/reward profile than one that won't have news for 18 months. We assess both the proximity and the potential magnitude of upcoming catalysts.</p>
+    </div>
+  </div>
+
+  <div class="card bg-dark border-secondary mb-4">
+    <div class="card-body">
+      <h3 class="text-warning fw-bold h5 mb-3">5. Comparable Acquisition Value (1-5)</h3>
+      <p class="text-secondary mb-2"><strong class="text-white">What we measure:</strong> P/NAV multiple relative to peer transactions, EV per resource ounce/pound compared to recent acquisitions in the same commodity and jurisdiction.</p>
+      <p class="text-secondary mb-0"><strong class="text-white">Why it matters:</strong> The ultimate question for any junior miner is: what would a major pay to acquire this? By comparing the current market valuation to what comparable deposits have actually sold for, we can assess whether the stock is cheap, fair, or expensive relative to real transaction data.</p>
+    </div>
+  </div>
+
+  {# ── Scoring Thresholds ── #}
+  <div class="card bg-dark border-secondary mb-5">
+    <div class="card-body">
+      <h3 class="text-warning fw-bold h5 mb-3">Verdict Thresholds</h3>
+      <table class="table table-dark table-borderless mb-0">
+        <thead>
+          <tr>
+            <th class="text-secondary">Composite Score</th>
+            <th class="text-secondary">Verdict</th>
+            <th class="text-secondary">Meaning</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-white">20-25</td>
+            <td><span class="badge bg-success">BUY</span></td>
+            <td class="text-secondary">Strong across most factors. Favourable risk/reward for new positions.</td>
+          </tr>
+          <tr>
+            <td class="text-white">13-19</td>
+            <td><span class="badge bg-warning text-dark">WATCH</span></td>
+            <td class="text-secondary">Interesting but one or more factors need improvement. Monitor for catalyst changes.</td>
+          </tr>
+          <tr>
+            <td class="text-white">5-12</td>
+            <td><span class="badge bg-danger">AVOID</span></td>
+            <td class="text-secondary">Significant concerns across multiple factors. Risk outweighs potential reward.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  {# ── How We Select Companies ── #}
+  <h2 class="text-white fw-bold h4 mb-4">How We Select Companies to Analyze</h2>
+  <div class="text-white mb-5" style="line-height:1.9;">
+    <p>We do not cover every junior mining company. Selection is driven by:</p>
+    <ul>
+      <li><strong>Commodity focus:</strong> Gold, copper, and critical metals (lithium, uranium, rare earths, nickel). These are the commodities with the strongest structural demand drivers.</li>
+      <li><strong>Stage preference:</strong> Exploration to development stage. We focus on the part of the lifecycle where the Verdict Framework adds the most value — before a company is in production and can be valued on cash flow alone.</li>
+      <li><strong>Data availability:</strong> We require at minimum a NI 43-101 or JORC technical report, recent insider transaction data, and audited financial statements. If the data isn't there, we can't score it.</li>
+      <li><strong>Reader requests:</strong> Subscribers can request specific companies for analysis. We prioritize requests from paid members.</li>
+    </ul>
+    <p>We explicitly avoid covering companies that have approached us for coverage or offered compensation of any kind.</p>
+  </div>
+
+  {# ── Position Disclosure ── #}
+  <h2 class="text-white fw-bold h4 mb-4">Position Disclosure</h2>
+  <div class="text-white mb-5" style="line-height:1.9;">
+    <p>The analyst may hold positions in companies covered on this site. When a position exists, it is disclosed at the top of the relevant analysis and on the <a href="{% url 'watchlist:watchlist' %}" class="text-warning">Current Watchlist</a> page with full entry price, target, and stop-loss data.</p>
+    <p>We publish our track record — including losses — because accountability is the strongest trust signal we can offer. See our watchlist for the full record.</p>
+  </div>
+
+  {# ── Assumptions ── #}
+  <h2 class="text-white fw-bold h4 mb-4">Valuation Assumptions</h2>
+  <div class="text-white mb-5" style="line-height:1.9;">
+    <p>When calculating P/NAV and comparable acquisition values, we use the following default assumptions unless otherwise stated:</p>
+    <ul>
+      <li>Gold price assumptions are stated explicitly in each analysis</li>
+      <li>Copper price assumptions are stated explicitly in each analysis</li>
+      <li>Discount rates follow those used in the company's own technical report (typically 5-8%)</li>
+      <li>Comparable transactions are sourced from public M&A data within the same commodity and jurisdiction where possible</li>
+    </ul>
+    <p>All assumptions are stated in each scorecard so readers can adjust and form their own conclusions.</p>
+  </div>
+
+  {# ── Disclaimer ── #}
+  <div class="border-top border-secondary pt-5">
+    <p class="text-secondary" style="font-size:0.8rem; line-height:1.6;">
+      <strong>Disclaimer:</strong> Nothing on this site constitutes financial or investment advice.
+      {{ SITE_NAME }} provides research and analysis for informational and educational purposes only.
+      Junior mining stocks are speculative and carry significant risk of loss, including total loss of capital.
+      Always conduct your own due diligence and consult a qualified financial advisor before making investment decisions.
+    </p>
+  </div>
+
+</div>
+{% endblock %}

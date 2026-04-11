@@ -1,7 +1,8 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
 from django.utils import timezone
 from django.conf import settings
+from apps.accounts.models import User
 from apps.blog.models import Post
 from apps.videos.models import Video
 from apps.verdict.models import VerdictScorecard
@@ -33,6 +34,22 @@ def about(request):
     return render(request, "core/about.html")
 
 
+def author_profile(request, username):
+    """Author profile page with Person schema for E-E-A-T."""
+    author = get_object_or_404(User, username=username, is_staff=True)
+    recent_posts = Post.objects.filter(
+        author=author, status=Post.Status.PUBLISHED, published_at__lte=timezone.now()
+    ).order_by("-published_at")[:10]
+    return render(request, "core/author_profile.html", {
+        "author": author,
+        "recent_posts": recent_posts,
+    })
+
+
+def methodology(request):
+    return render(request, "core/methodology.html")
+
+
 def robots_txt(request):
     """
     Dynamic robots.txt — blocks staging/dev crawling, allows prod.
@@ -43,6 +60,25 @@ def robots_txt(request):
         "Disallow: /admin/",
         "Disallow: /accounts/",
         "Disallow: /api/",
+        "Allow: /",
+        "",
+        "# AI Platform Crawlers — explicitly allowed",
+        "User-agent: GPTBot",
+        "Allow: /",
+        "",
+        "User-agent: ChatGPT-User",
+        "Allow: /",
+        "",
+        "User-agent: PerplexityBot",
+        "Allow: /",
+        "",
+        "User-agent: ClaudeBot",
+        "Allow: /",
+        "",
+        "User-agent: anthropic-ai",
+        "Allow: /",
+        "",
+        "User-agent: Google-Extended",
         "Allow: /",
         "",
         f"Sitemap: {settings.SITE_URL}/sitemap.xml",
@@ -71,7 +107,8 @@ produced by a single analyst using a consistent 5-factor scoring framework
 - Verdict Framework (company scorecards): {settings.SITE_URL}/companies/
 - Current watchlist: {settings.SITE_URL}/watchlist/
 - Analysis archive: {settings.SITE_URL}/analysis/
-- About & methodology: {settings.SITE_URL}/about/
+- About: {settings.SITE_URL}/about/
+- Methodology & Disclosure: {settings.SITE_URL}/about/methodology/
 - Sitemap: {settings.SITE_URL}/sitemap.xml
 
 ## Content categories
