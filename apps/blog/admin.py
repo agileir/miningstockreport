@@ -7,7 +7,7 @@ class PillarAdmin(admin.ModelAdmin):
     list_display = ("name", "slug", "sort_order", "is_active", "post_count")
     list_editable = ("sort_order", "is_active")
     search_fields = ("name",)
-    readonly_fields = ("slug",)
+    prepopulated_fields = {"slug": ("name",)}
 
     fieldsets = (
         (None, {

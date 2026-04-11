@@ -9,7 +9,10 @@ from apps.core.seo import SEOMixin
 class Pillar(models.Model):
     """Content pillar — editable from admin, designed around SEO/GEO keywords."""
     name = models.CharField(max_length=100, help_text="Display name (e.g. 'Due Diligence')")
-    slug = AutoSlugField(populate_from="name", unique=True, always_update=False)
+    slug = models.SlugField(
+        max_length=100, unique=True,
+        help_text="URL-safe identifier. Auto-generated from name if left blank. Edit to target specific SEO keywords.",
+    )
     description = models.TextField(
         blank=True,
         help_text="SEO-focused description. Used in pillar landing page meta description.",
@@ -31,6 +34,12 @@ class Pillar(models.Model):
 
     def get_absolute_url(self):
         return reverse("blog:post_list_by_pillar", kwargs={"pillar": self.slug})
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            from django.utils.text import slugify
+            self.slug = slugify(self.name)
+        super().save(*args, **kwargs)
 
 
 class Post(SEOMixin, models.Model):
