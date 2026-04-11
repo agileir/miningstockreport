@@ -1,0 +1,26 @@
+{% load humanize %}
+{% if commodity_prices %}
+<div class="commodity-ticker bg-dark border-bottom" style="border-color: var(--msr-border) !important;">
+  <div class="container d-flex align-items-center gap-4 py-1" style="font-size: 0.8rem; overflow-x: auto; white-space: nowrap;">
+    {% for c in commodity_prices %}
+    <span class="d-inline-flex align-items-center gap-1 text-secondary">
+      <span class="fw-semibold text-light">{{ c.name }}</span>
+      <span class="text-warning fw-bold">${{ c.price|intcomma }}{{ c.unit }}</span>
+      {% if c.change_pct is not None %}
+        <span class="{% if c.change_pct >= 0 %}text-success{% else %}text-danger{% endif %}">
+          ({% if c.change_pct > 0 %}+{% endif %}{{ c.change_pct }}%)
+        </span>
+      {% endif %}
+    </span>
+    {% if not forloop.last %}
+    <span class="text-secondary">|</span>
+    {% endif %}
+    {% endfor %}
+    {% if commodity_prices.0.fetched_at %}
+    <span class="ms-auto text-secondary" style="font-size: 0.7rem;">
+      Updated {{ commodity_prices.0.fetched_at|timesince }} ago
+    </span>
+    {% endif %}
+  </div>
+</div>
+{% endif %}
