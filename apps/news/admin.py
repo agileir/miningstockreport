@@ -15,7 +15,7 @@ class NewsCategoryAdmin(admin.ModelAdmin):
 class NewsLinkAdmin(admin.ModelAdmin):
     list_display = [
         "headline", "source_name", "category", "is_featured",
-        "is_breaking", "is_active", "added_by", "published_at", "click_count",
+        "is_breaking", "is_active", "position", "added_by", "published_at", "click_count",
     ]
     list_filter = ["category", "is_featured", "is_breaking", "is_active", "added_by"]
     list_editable = ["is_featured", "is_breaking", "is_active", "position"]
