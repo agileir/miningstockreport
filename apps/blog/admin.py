@@ -7,17 +7,13 @@ class PillarAdmin(admin.ModelAdmin):
     list_display = ("name", "slug", "sort_order", "is_active", "post_count")
     list_editable = ("sort_order", "is_active")
     search_fields = ("name",)
+    readonly_fields = ("slug",)
 
     fieldsets = (
         (None, {
             "fields": ("name", "slug", "description", "seo_title", "sort_order", "is_active"),
         }),
     )
-
-    def get_readonly_fields(self, request, obj=None):
-        if obj:  # Editing existing — slug is read-only to protect URLs
-            return ("slug",)
-        return ()
 
     def post_count(self, obj):
         return obj.posts.count()
