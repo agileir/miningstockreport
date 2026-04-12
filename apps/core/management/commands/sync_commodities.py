@@ -14,6 +14,7 @@ from apps.core.models import CommodityPrice
 
 COMMODITIES = [
     {"symbol": "GC=F", "name": "Gold", "unit": "/oz"},
+    {"symbol": "SI=F", "name": "Silver", "unit": "/oz"},
     {"symbol": "HG=F", "name": "Copper", "unit": "/lb"},
 ]
 
