@@ -66,11 +66,15 @@
                     style="width:{{ latest.composite_score_pct }}%">
                   </div>
                 </div>
-                <div class="d-flex justify-content-between small text-secondary">
+                <div class="d-flex justify-content-between small text-secondary mb-2">
                   <span>Score {{ latest.composite_score }}/25</span>
                   {% if latest.p_nav_multiple %}
                     <span>P/NAV {{ latest.p_nav_multiple|floatformat:2 }}x</span>
                   {% endif %}
+                </div>
+                <div class="d-flex justify-content-between align-items-center small">
+                  <span class="text-secondary"><i class="bi bi-calendar3 me-1"></i>Report: {{ latest.scored_at|date:"M j, Y" }}</span>
+                  <span class="text-warning">View Report <i class="bi bi-arrow-right"></i></span>
                 </div>
                 {% endif %}
               </div>
