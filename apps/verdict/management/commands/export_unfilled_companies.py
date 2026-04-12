@@ -24,7 +24,7 @@ class Command(BaseCommand):
             self.stdout.write("No unfilled companies.")
             return
 
-        data = [{"ticker": c.ticker} for c in companies]
+        data = [{"ticker": c.ticker, "exchange": c.exchange} for c in companies]
 
         queue_dir = Path(__file__).resolve().parent.parent.parent.parent.parent / "research_queue"
         queue_dir.mkdir(exist_ok=True)

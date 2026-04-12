@@ -21,9 +21,4 @@ class Migration(migrations.Migration):
             name="name",
             field=models.CharField(blank=True, help_text="Leave blank — AI agent will fill this in from the ticker.", max_length=200),
         ),
-        migrations.AlterField(
-            model_name="company",
-            name="exchange",
-            field=models.CharField(blank=True, choices=[("TSXV", "TSX Venture (TSXV)"), ("TSX", "Toronto Stock Exchange (TSX)"), ("ASX", "Australian Securities Exchange (ASX)"), ("OTC", "OTC Markets"), ("NYSE", "NYSE / NYSE American"), ("LSE", "London Stock Exchange (LSE)"), ("OTHER", "Other")], default="OTHER", max_length=10),
-        ),
     ]

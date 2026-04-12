@@ -25,7 +25,7 @@ class CompanyAdmin(admin.ModelAdmin):
     actions        = ["flag_for_research", "clear_research_flag"]
 
     fieldsets = (
-        ("Quick Add — just enter the ticker", {"fields": ("ticker",)}),
+        ("Quick Add", {"fields": ("ticker", "exchange")}),
         ("Company Details (filled by AI agent)", {
             "classes": ("collapse",),
             "fields": ("name", "exchange", "description", "website", "logo",

@@ -26,7 +26,7 @@ class Company(SEOMixin, models.Model):
     name = models.CharField(max_length=200, blank=True, help_text="Leave blank — AI agent will fill this in from the ticker.")
     slug = AutoSlugField(populate_from="name", unique=True, always_update=False)
     ticker = models.CharField(max_length=10)
-    exchange = models.CharField(max_length=10, choices=Exchange.choices, default=Exchange.OTHER, blank=True)
+    exchange = models.CharField(max_length=10, choices=Exchange.choices)
     description = models.TextField(blank=True)
     website = models.URLField(blank=True)
     logo = models.ImageField(upload_to="companies/logos/", blank=True, null=True)
