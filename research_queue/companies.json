@@ -1,10 +1,10 @@
 [
   {
-    "ticker": "FNV",
-    "name": "Franco Nevada Corp.",
-    "exchange": "TSX",
-    "website": "",
-    "primary_commodity": "",
-    "jurisdiction": ""
+    "ticker": "BEA",
+    "name": "Belmont Resources Inc.",
+    "exchange": "TSXV",
+    "website": "https://belmontresources.com/",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Canada"
   }
 ]
