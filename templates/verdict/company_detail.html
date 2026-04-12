@@ -47,7 +47,7 @@
               <h5 class="text-warning fw-bold mb-0">Latest Verdict</h5>
               <span class="text-secondary small">{{ latest.scored_at|date:"M j, Y" }}</span>
             </div>
-            <p class="text-white mb-3">{{ latest.analyst_summary }}</p>
+            <div class="text-white mb-3">{{ latest.analyst_summary|linebreaks }}</div>
             <div class="progress bg-dark mb-2" style="height:10px;">
               <div class="progress-bar
                 {% if latest.composite_score_pct >= 70 %}bg-success
