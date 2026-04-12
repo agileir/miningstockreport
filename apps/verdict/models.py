@@ -53,6 +53,10 @@ class Company(SEOMixin, models.Model):
         verbose_name_plural = "Companies"
         ordering = ["name"]
 
+    def save(self, *args, **kwargs):
+        self.ticker = self.ticker.upper()
+        super().save(*args, **kwargs)
+
     def __str__(self):
         return f"{self.ticker} — {self.name}"
 
