@@ -17,15 +17,17 @@ class VerdictScorecardInline(admin.TabularInline):
 @admin.register(Company)
 class CompanyAdmin(admin.ModelAdmin):
     list_display   = ("ticker", "name", "exchange", "primary_commodity",
-                      "jurisdiction", "latest_verdict_display")
-    list_filter    = ("exchange", "primary_commodity")
+                      "jurisdiction", "needs_research", "latest_verdict_display")
+    list_editable  = ("needs_research",)
+    list_filter    = ("exchange", "primary_commodity", "needs_research")
     search_fields  = ("name", "ticker")
     inlines        = [VerdictScorecardInline]
+    actions        = ["flag_for_research", "clear_research_flag"]
 
     fieldsets = (
         (None, {"fields": ("name", "ticker", "exchange", "description",
                            "website", "logo", "jurisdiction", "primary_commodity",
-                           "market_cap_cad")}),
+                           "market_cap_cad", "needs_research")}),
         ("SEO & Open Graph", {
             "classes": ("collapse",),
             "fields": ("meta_title", "meta_description", "og_image", "og_image_alt"),
@@ -42,6 +44,14 @@ class CompanyAdmin(admin.ModelAdmin):
             colours.get(v.verdict, "grey"), v.verdict,
         )
     latest_verdict_display.short_description = "Latest Verdict"
+
+    @admin.action(description="Flag for AI research")
+    def flag_for_research(self, request, queryset):
+        queryset.update(needs_research=True)
+
+    @admin.action(description="Clear research flag")
+    def clear_research_flag(self, request, queryset):
+        queryset.update(needs_research=False)
 
 
 @admin.register(VerdictScorecard)

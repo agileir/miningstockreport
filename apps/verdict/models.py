@@ -37,6 +37,10 @@ class Company(SEOMixin, models.Model):
     )
     jurisdiction = models.CharField(max_length=100, blank=True, help_text="e.g. British Columbia, Nevada, Peru")
     primary_commodity = models.CharField(max_length=50, blank=True, help_text="e.g. Gold, Copper, Silver")
+    needs_research = models.BooleanField(
+        default=False,
+        help_text="Flag for the AI agent to research and generate a verdict scorecard.",
+    )
 
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)

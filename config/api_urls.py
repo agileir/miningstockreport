@@ -8,7 +8,7 @@ from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 from apps.blog.api import PostViewSet
 from apps.videos.api import VideoViewSet
-from apps.verdict.api import CompanyViewSet, VerdictScorecardViewSet
+from apps.verdict.api import CompanyViewSet, VerdictScorecardViewSet, ScorecardIngestView
 from apps.watchlist.api import WatchlistItemViewSet
 from apps.leads.api import SubscriberCreateView
 from apps.investors.api import AccreditedInvestorCreateView
@@ -31,6 +31,7 @@ urlpatterns = [
     path("subscribe/", SubscriberCreateView.as_view(), name="api-subscribe"),
     path("investors/", AccreditedInvestorCreateView.as_view(), name="api-investors"),
     path("news/ingest/", NewsIngestView.as_view(), name="api-news-ingest"),
+    path("verdicts/ingest/", ScorecardIngestView.as_view(), name="api-verdict-ingest"),
 
     # Router-generated endpoints
     path("", include(router.urls)),
