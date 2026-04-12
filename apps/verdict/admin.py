@@ -28,7 +28,7 @@ class CompanyAdmin(admin.ModelAdmin):
         ("Quick Add", {"fields": ("ticker", "exchange")}),
         ("Company Details (filled by AI agent)", {
             "classes": ("collapse",),
-            "fields": ("name", "exchange", "description", "website", "logo",
+            "fields": ("name", "description", "website", "logo",
                        "jurisdiction", "primary_commodity", "market_cap_cad"),
         }),
         ("Agent Flags", {"fields": ("data_filled", "needs_research")}),
