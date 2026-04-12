@@ -1,14 +1,202 @@
 [
   {
-    "ticker": "WRN",
-    "exchange": "TSX"
-  },
-  {
-    "ticker": "NCX",
+    "ticker": "SLG",
     "exchange": "TSXV"
   },
   {
-    "ticker": "GSVR",
+    "ticker": "XGC",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "PRG",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "KLD",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "AMX",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "AZM",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "WHN",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "QGLD",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "BYN",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "ENDR",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "ECR",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "GTWO",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "OMG",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "AUMB",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "DRY",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "ONYX",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "SIG",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "SCOT",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "BTR",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "CRG",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "FURY",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "SKE",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "SEA",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "LGD",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "OSK",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "CCM",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "PRB",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "ITR",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "RVG",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "TSK",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "RUP",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "LUM",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "NCAU",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "NKG",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "ODV",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "GGD",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "BOGO",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "TDG",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "CNL",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "HSTR",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "GOLD",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "NHK",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "MOZ",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "MAX",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "VGCX",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "CXB",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "MAI",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "MKO",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "IAU",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "SGD",
     "exchange": "TSXV"
   }
 ]
