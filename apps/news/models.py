@@ -56,14 +56,14 @@ class AddedBy(models.TextChoices):
 
 
 class NewsLink(models.Model):
-    headline = models.CharField(max_length=300)
+    headline = models.TextField()
     url = models.URLField(max_length=500)
     url_hash = models.CharField(max_length=64, unique=True, db_index=True, editable=False)
     source_name = models.CharField(max_length=100)
     category = models.ForeignKey(
         NewsCategory, on_delete=models.SET_NULL, null=True, blank=True,
     )
-    snippet = models.CharField(max_length=300, blank=True)
+    snippet = models.TextField(blank=True)
 
     is_featured = models.BooleanField(default=False, db_index=True)
     is_breaking = models.BooleanField(default=False)
