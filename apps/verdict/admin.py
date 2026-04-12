@@ -17,17 +17,21 @@ class VerdictScorecardInline(admin.TabularInline):
 @admin.register(Company)
 class CompanyAdmin(admin.ModelAdmin):
     list_display   = ("ticker", "name", "exchange", "primary_commodity",
-                      "jurisdiction", "needs_research", "latest_verdict_display")
+                      "jurisdiction", "data_filled", "needs_research", "latest_verdict_display")
     list_editable  = ("needs_research",)
-    list_filter    = ("exchange", "primary_commodity", "needs_research")
+    list_filter    = ("exchange", "primary_commodity", "data_filled", "needs_research")
     search_fields  = ("name", "ticker")
     inlines        = [VerdictScorecardInline]
     actions        = ["flag_for_research", "clear_research_flag"]
 
     fieldsets = (
-        (None, {"fields": ("name", "ticker", "exchange", "description",
-                           "website", "logo", "jurisdiction", "primary_commodity",
-                           "market_cap_cad", "needs_research")}),
+        ("Quick Add — just enter the ticker", {"fields": ("ticker",)}),
+        ("Company Details (filled by AI agent)", {
+            "classes": ("collapse",),
+            "fields": ("name", "exchange", "description", "website", "logo",
+                       "jurisdiction", "primary_commodity", "market_cap_cad"),
+        }),
+        ("Agent Flags", {"fields": ("data_filled", "needs_research")}),
         ("SEO & Open Graph", {
             "classes": ("collapse",),
             "fields": ("meta_title", "meta_description", "og_image", "og_image_alt"),

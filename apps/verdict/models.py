@@ -23,10 +23,10 @@ class VerdictChoice(models.TextChoices):
 
 class Company(SEOMixin, models.Model):
     """A mining company that can be analysed via the Verdict Framework."""
-    name = models.CharField(max_length=200)
+    name = models.CharField(max_length=200, blank=True, help_text="Leave blank — AI agent will fill this in from the ticker.")
     slug = AutoSlugField(populate_from="name", unique=True, always_update=False)
     ticker = models.CharField(max_length=10)
-    exchange = models.CharField(max_length=10, choices=Exchange.choices)
+    exchange = models.CharField(max_length=10, choices=Exchange.choices, default=Exchange.OTHER, blank=True)
     description = models.TextField(blank=True)
     website = models.URLField(blank=True)
     logo = models.ImageField(upload_to="companies/logos/", blank=True, null=True)
@@ -40,6 +40,10 @@ class Company(SEOMixin, models.Model):
     needs_research = models.BooleanField(
         default=False,
         help_text="Flag for the AI agent to research and generate a verdict scorecard.",
+    )
+    data_filled = models.BooleanField(
+        default=False,
+        help_text="Set automatically when the AI agent fills in company details from the ticker.",
     )
 
     created_at = models.DateTimeField(auto_now_add=True)
