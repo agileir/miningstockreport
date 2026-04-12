@@ -1,0 +1,14 @@
+[
+  {
+    "ticker": "WRN",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "NCX",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "GSVR",
+    "exchange": "TSXV"
+  }
+]
