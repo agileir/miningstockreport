@@ -1,0 +1,50 @@
+[
+  {
+    "ticker": "GSVR",
+    "name": "Guanajuato Silver Company Ltd.",
+    "exchange": "TSXV",
+    "website": "https://www.gsilver.com",
+    "primary_commodity": "Silver",
+    "jurisdiction": "Guanajuato, Mexico"
+  },
+  {
+    "ticker": "HSTR",
+    "name": "Heliostar Metals Ltd.",
+    "exchange": "TSXV",
+    "website": "https://www.heliostarmetals.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Mexico"
+  },
+  {
+    "ticker": "MOZ",
+    "name": "Marathon Gold Corporation",
+    "exchange": "TSX",
+    "website": "https://www.calibremining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Newfoundland, Canada"
+  },
+  {
+    "ticker": "ODV",
+    "name": "Osisko Development Corp.",
+    "exchange": "TSXV",
+    "website": "https://osiskodev.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "British Columbia, Canada"
+  },
+  {
+    "ticker": "SGD",
+    "name": "Snowline Gold Corp.",
+    "exchange": "TSXV",
+    "website": "https://www.snowlinegold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Yukon Territory, Canada"
+  },
+  {
+    "ticker": "WRN",
+    "name": "Western Copper and Gold Corporation",
+    "exchange": "TSX",
+    "website": "https://www.westerncopperandgold.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Yukon"
+  }
+]
