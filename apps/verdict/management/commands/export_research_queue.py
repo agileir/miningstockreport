@@ -20,8 +20,16 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         companies = Company.objects.filter(needs_research=True)
 
+        queue_dir = Path(__file__).resolve().parent.parent.parent.parent.parent / "research_queue"
+        output_path = queue_dir / "companies.json"
+
         if not companies.exists():
-            self.stdout.write("No companies flagged for research.")
+            # Remove stale file so the agent doesn't re-research old companies
+            if output_path.exists():
+                output_path.unlink()
+                self.stdout.write("No companies flagged — removed stale companies.json")
+            else:
+                self.stdout.write("No companies flagged for research.")
             return
 
         data = [
@@ -36,9 +44,7 @@ class Command(BaseCommand):
             for c in companies
         ]
 
-        queue_dir = Path(__file__).resolve().parent.parent.parent.parent.parent / "research_queue"
         queue_dir.mkdir(exist_ok=True)
-        output_path = queue_dir / "companies.json"
         output_path.write_text(json.dumps(data, indent=2))
 
         self.stdout.write(self.style.SUCCESS(

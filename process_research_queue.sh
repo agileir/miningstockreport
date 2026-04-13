@@ -9,6 +9,9 @@ git pull origin main --quiet 2>/dev/null
 QUEUE_DIR="research_queue"
 source venv/bin/activate
 
+# Clear the companies.json queue file after scorecards are processed
+PROCESSED=0
+
 for f in "$QUEUE_DIR"/scorecard_*.json; do
     [ -f "$f" ] || continue
     echo "$(date '+%Y-%m-%d %H:%M:%S') Processing $f"
@@ -50,5 +53,15 @@ print(f'{ticker}: {scorecard.verdict} ({scorecard.composite_score}/25) published
     git add "$QUEUE_DIR/"
     git commit -m "Processed research queue: $(basename $f)" --quiet
     git push origin main --quiet
+    PROCESSED=1
     echo "$(date '+%Y-%m-%d %H:%M:%S') Done processing $f"
 done
+
+# Remove companies.json so the agent doesn't re-research the same companies
+if [ "$PROCESSED" -gt 0 ] && [ -f "$QUEUE_DIR/companies.json" ]; then
+    rm "$QUEUE_DIR/companies.json"
+    git add "$QUEUE_DIR/"
+    git commit -m "Clear research queue after processing" --quiet
+    git push origin main --quiet
+    echo "$(date '+%Y-%m-%d %H:%M:%S') Cleared companies.json"
+fi
