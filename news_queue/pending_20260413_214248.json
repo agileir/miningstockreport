@@ -1,0 +1,101 @@
+[
+  {
+    "headline": "Dryden Gold Drills 32.87 g/t Au Over 4.25m — THREE NEW Zones at Gold Rock Including 252 g/t Bonanza",
+    "url": "https://www.newsfilecorp.com/release/290960/Dryden-Gold-Discovers-Three-New-HighGrade-Zones-with-4.25-Meters-Grading-32.87-gt-Gold-Including-0.50-Meters-of-252.00-gt-Gold-at-Gold-Rock",
+    "source_name": "Newsfile Corp",
+    "category_slug": "exploration-discovery",
+    "snippet": "Dryden Gold (TSX-V: DRY) hit three new high-grade zones at Gold Rock, Ontario: 4.25m @ 32.87 g/t Au incl. 0.50m @ 252 g/t, plus 3.80m @ 13.08 g/t and 4.00m @ 6.51 g/t — all 300m step-outs northeast from known zones.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "SILVER CRASHES to $73.58 — US-Iran Peace Talks Collapse, Trump Signals Hormuz Blockade",
+    "url": "https://www.fxstreet.com/news/silver-price-declines-as-failed-us-iran-talks-lift-dollar-oil-fueled-inflation-worries-202604131619",
+    "source_name": "FXStreet",
+    "category_slug": "gold-silver",
+    "snippet": "Silver (XAG/USD) tumbled 3.5% to $73.58 on April 13 after US-Iran talks in Islamabad collapsed and Trump signalled military measures targeting the Strait of Hormuz, spiking the USD and stoking oil-driven inflation fears.",
+    "is_featured": true,
+    "is_breaking": true
+  },
+  {
+    "headline": "Allied Gold Shareholders GREEN-LIGHT Zijin's C$5.5B Takeover — China Locks In African Gold Portfolio",
+    "url": "https://www.mining.com/allied-gold-has-shareholder-ok-for-zijin-takeover-maintains-guidance/",
+    "source_name": "Mining.com",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Allied Gold (TSX: AAUC) shareholders cleared Zijin Gold International's C$5.5B all-cash bid at C$44/share (27% premium), adding ~400koz/year including the 'generational' Kurmuk project in Ethiopia targeting production in H2 2026.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "F3 Uranium Drills 13m @ 0.28% U3O8 at Tetra Zone — Broach Discovery Doubles Strike Length",
+    "url": "https://www.cruxinvestor.com/posts/f3-uranium-well-funded-for-aggressive-expansion-drilling-after-high-grade-drill-results-at-athabasca-basin",
+    "source_name": "Crux Investor",
+    "category_slug": "exploration-discovery",
+    "snippet": "F3 Uranium (TSX-V: FUU) extended the Tetra Zone at Broach in Saskatchewan's Athabasca Basin, returning 13.0m @ 0.28% U3O8 with a 3.0m sub-interval @ 1.19% U3O8 — more than doubling the mineralized strike length to 270m.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "Denison's Phoenix ISR Gets CNSC Construction Licence — First Large Uranium Mine Approved in Canada in 20+ Years",
+    "url": "https://www.mining.com/wheeler-river-uranium-project-clears-final-hurdle/",
+    "source_name": "Mining.com",
+    "category_slug": "uranium-energy",
+    "snippet": "The CNSC issued Denison Mines (TSX: DML) a construction licence for Wheeler River's Phoenix ISR project in Saskatchewan — Canada's first ISR uranium mine and the first large-scale uranium mine approved in the country in over two decades.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "LITHIUM DOUBLED in Q1 2026 to $26,278/Tonne — Battery Storage Demand Up 55%, Surplus Narrowing Fast",
+    "url": "https://investingnews.com/daily/resource-investing/battery-metals-investing/lithium-investing/lithium-forecast/",
+    "source_name": "Investing News Network",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Battery-grade lithium carbonate surged to $26,278/tonne in Q1 2026 as energy storage demand jumped 55% year-on-year. Analysts now project a supply deficit of up to 80,000 tonnes LCE as planned projects fail to keep pace with grid-storage growth.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "McEwen Copper Eyes $4B Financing for Los Azules — US EXIM Bank and Export-Credit Agencies in Talks",
+    "url": "https://www.mining.com/mcewen-copper-seeks-4b-to-advance-los-azules/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "McEwen Copper Inc. is in discussions with global lenders and export-credit agencies including the US EXIM Bank to structure $4B in financing for the Los Azules copper project in Mendoza, Argentina — one of the world's largest undeveloped copper deposits.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "Wesdome Wins Quebec Approval for Kiena's Presqu'ile Zone — Production AHEAD of 2026 Schedule",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/660-tsx/wdo/196415-wesdome-secures-regulatory-approval-for-kiena-s-presqu-ile-zone-production-to-commence-ahead-of-2026-schedule.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "gold-silver",
+    "snippet": "Wesdome Gold Mines (TSX: WDO) secured an updated Certificate of Authorization and mine lease for the high-grade Kiena Presqu'ile Zone in Val-d'Or, Québec — with stope production commencing ahead of the original 2026 schedule.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "China's Rare Earth Magnet Controls THREATEN U.S. Defense Supply Chains — 7 Elements Now Restricted",
+    "url": "https://www.csis.org/analysis/chinas-new-rare-earth-and-magnet-restrictions-threaten-us-defense-supply-chains",
+    "source_name": "CSIS",
+    "category_slug": "rare-earths",
+    "snippet": "CSIS warns China's controls on seven heavy rare earths — including terbium and dysprosium — and their derivative magnets threaten US defense procurement. A temporary Nov 2026 suspension does not affect April 2025 restrictions already in force.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "Gold-to-Silver Ratio Flashes BULLISH at 105+ — History Says Sharp Silver Outperformance Follows",
+    "url": "https://goldseek.com/article/gold-swot-gold-silver-ratio-flashing-bullish-signal-silver",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "The gold-to-silver ratio peaked above 105 in April — a historically extreme reading. GoldSeek SWOT analysis notes every prior contraction from this level has coincided with significant silver outperformance, even against adverse macro backdrops.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "Mining M&A MEGA-DEALS Rose 68% in 2025 — $139B in Transactions Sets Stage for 2026 Super-Cycle Wave",
+    "url": "https://www.globenewswire.com/news-release/2026/03/12/3254404/0/en/Mining-M-amp-A-Deal-Trends-Report-2025-2026-Opportunities-Lie-in-Aligning-with-Disruptive-Themes-with-Billion-Dollar-Mega-Deals-Rising-68-from-2024.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Mining Beacon tallied 91 mining and metals M&A deals totaling $139B in 2025 — with billion-dollar mega-deals rising 68% from 2024. Gold drove activity, with high valuations enabling share-based acquisitions; analysts expect consolidation to accelerate in 2026.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
