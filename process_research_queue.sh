@@ -16,8 +16,8 @@ for f in "$QUEUE_DIR"/scorecard_*.json; do
     [ -f "$f" ] || continue
     echo "$(date '+%Y-%m-%d %H:%M:%S') Processing $f"
     python manage.py shell --settings=config.settings.production -c "
-import json, sys
-from datetime import timezone as tz
+import json, requests
+from decimal import Decimal
 from django.utils import timezone
 from apps.verdict.models import Company, VerdictScorecard, VerdictChoice
 
@@ -25,6 +25,27 @@ data = json.load(open('$f'))
 ticker = data['ticker']
 company = Company.objects.get(ticker__iexact=ticker)
 confidence = data.get('confidence', 'low').lower()
+
+# Fetch current stock price from Yahoo Finance
+current_price = data.get('current_price')
+if not current_price:
+    # Build Yahoo Finance symbol from ticker + exchange
+    exchange = company.exchange
+    yf_suffix = {
+        'TSXV': '.V', 'TSX': '.TO', 'ASX': '.AX',
+        'LSE': '.L', 'NYSE': '', 'OTC': '',
+    }
+    suffix = yf_suffix.get(exchange, '')
+    yf_symbol = ticker.replace('.V', '').replace('.TO', '').replace('.AX', '') + suffix
+    try:
+        url = f'https://query1.finance.yahoo.com/v8/finance/chart/{yf_symbol}?range=1d&interval=1d'
+        resp = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=10)
+        resp.raise_for_status()
+        meta = resp.json()['chart']['result'][0]['meta']
+        current_price = round(meta['regularMarketPrice'], 4)
+        print(f'  Fetched price for {yf_symbol}: \${current_price}')
+    except Exception as e:
+        print(f'  Could not fetch price for {yf_symbol}: {e}')
 
 scorecard = VerdictScorecard.objects.create(
     company=company,
@@ -41,13 +62,13 @@ scorecard = VerdictScorecard.objects.create(
     verdict=data['verdict'].upper(),
     analyst_summary=data.get('analyst_summary', ''),
     nav_per_share=data.get('nav_per_share'),
-    current_price=data.get('current_price'),
+    current_price=current_price,
     is_published=(confidence == 'high'),
     scored_at=timezone.now(),
 )
 company.needs_research = False
 company.save(update_fields=['needs_research'])
-print(f'{ticker}: {scorecard.verdict} ({scorecard.composite_score}/25) published={scorecard.is_published}')
+print(f'{ticker}: {scorecard.verdict} ({scorecard.composite_score}/25) published={scorecard.is_published} price=\${current_price or \"N/A\"}')
 "
     rm "$f"
     git add "$QUEUE_DIR/"
