@@ -1,109 +1,64 @@
 [
   {
-    "headline": "GOLD HITS $4,748 — April Surge Signals Growing Anxiety Over U.S. Fiscal Stability",
-    "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-4-13-golds-historic-flight-april-2026-surge-signals-growing-anxiety-over-fiscal-and-monetary-stability",
-    "source_name": "MarketMinute",
-    "category_slug": "gold-silver",
-    "snippet": "Gold touched $4,748/oz this week as investors flee fiscal uncertainty — with the U.S. running a $1.2T half-year deficit and national debt at $39T, analysts warn the Fed has limited room to tighten. Central bank demand is projected at 900 tonnes for full-year 2026.",
-    "is_featured": true,
-    "is_breaking": false
-  },
-  {
     "headline": "West Red Lake DRILLS 215 g/t Au Over 5.35m at Madsen — Austin 904 Complex Rivals Historic Red Lake Highs",
     "url": "https://www.globenewswire.com/news-release/2026/04/13/3272219/0/en/West-Red-Lake-Gold-Reports-215-46-g-t-Au-over-5-35m-50-34-g-t-Au-over-4-05m-and-61-70-g-t-Au-over-3m-in-Austin-904-Complex-Madsen-Mine.html",
     "source_name": "GlobeNewswire",
     "category_slug": "exploration-discovery",
-    "snippet": "West Red Lake Gold (TSXV: WRLG) returned 215.46 g/t Au over 5.35m — including 388.90 g/t over 2.95m — at the Austin 904 Complex in Ontario's Red Lake district. Results exceed the historic Goldcorp High-Grade Zone benchmark; production targeted H1 2027.",
+    "snippet": "West Red Lake Gold (TSXV: WRLG) returned 215.46 g/t Au over 5.35m — including 388.90 g/t over 2.95m — at the Austin 904 Complex in Ontario's Red Lake district. Results exceed the historic Goldcorp High-Grade Zone benchmark; production from this complex is targeted for H1 2027.",
     "is_featured": true,
     "is_breaking": false
   },
   {
-    "headline": "G Mining PAYS $2.2B for G2 Goldfields — Adjacent Guyana Assets Create 500k Oz Gold Hub",
-    "url": "https://www.mining.com/g-mining-to-buy-g2-goldfields-for-2-2b-in-guyana-play/",
-    "source_name": "Mining.com",
-    "category_slug": "mergers-acquisitions",
-    "snippet": "G Mining Ventures (TSX: GMIN) agreed to acquire G2 Goldfields (TSX: GTWO) in a 72%-premium all-share deal, consolidating two adjacent Guyana gold projects into a district with 500,000+ oz/yr potential and C$1B+ in identified synergies. Deal expected to close Q2 2026.",
-    "is_featured": true,
-    "is_breaking": false
-  },
-  {
-    "headline": "Amex Exploration Posts C$1.13B NPV for Perron Gold Mine — 147,000 Oz/Yr at $910/Oz AISC in Quebec",
+    "headline": "Amex Exploration Posts C$1.13B NPV for Perron Gold Mine — 147,000 Oz/Yr at $910 AISC in Quebec Abitibi",
     "url": "https://www.newsfilecorp.com/release/292110/Amex-Delivers-a-Positive-Feasibility-Study-for-Development-of-the-Perron-Gold-Mine",
     "source_name": "Newsfile Corp",
     "category_slug": "exploration-discovery",
     "snippet": "Amex Exploration (TSXV: AMX) delivered a positive feasibility study for Phase 1 of the Perron Gold Mine in Abitibi, Quebec: 147,000 oz/yr over 5 years, C$1.13B post-tax NPV5 at 114.6% IRR, $910/oz AISC, and a low C$193.9M capex via toll milling. Revenue targeted by 2028.",
-    "is_featured": false,
+    "is_featured": true,
     "is_breaking": false
   },
   {
-    "headline": "CHINA GRABS 790+ Tonnes of Silver in Early 2026 — Structural 67M Oz Deficit Drains Global Vaults",
-    "url": "https://goldseek.com/article/gold-swot-silver-demand-remains-strong-china-importing-790-tons-early-2026",
-    "source_name": "GoldSeek",
-    "category_slug": "gold-silver",
-    "snippet": "China's silver imports hit an eight-year high in early 2026 at over 790 tonnes, driven partly by solar panel manufacturing. The Silver Institute projects a 67M+ oz structural deficit for 2026 as COMEX registered inventories are down 70% since 2020 and LME vaults down 40%.",
-    "is_featured": false,
-    "is_breaking": false
-  },
-  {
-    "headline": "NexGen STARTS BUILDING Rook I This Summer — Canada's Largest Uranium Deposit, 30M Lb/Yr Output",
+    "headline": "NexGen STARTS BUILDING Rook I This Summer — 30M Lb/Yr Uranium Output Would Top All of North America",
     "url": "https://www.mining.com/nexgen-eyes-summer-2026-build-for-huge-rook-i-uranium-mine/",
     "source_name": "Mining.com",
     "category_slug": "uranium-energy",
-    "snippet": "NexGen Energy (TSX: NXE) received final federal approval from the CNSC in March and will break ground on Rook I in northern Saskatchewan this summer. At 30M lb U3O8/yr during peak production across an 11-year mine life, it would surpass Cameco's McArthur River as North America's top uranium mine.",
+    "snippet": "NexGen Energy (TSX: NXE) secured final CNSC approval in March and will break ground on Rook I in Saskatchewan this summer. At 30M lb U3O8/yr across an 11-year mine life, it would surpass Cameco's McArthur River and Cigar Lake as North America's largest uranium producer by output.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "AbraSilver Drills 171m at 0.83 g/t Au at Diablillos — Phase VI Underway, DFS Due Q2 2026 in Argentina",
+    "url": "https://www.mining.com/abrasilver-logs-new-high-grade-gold-hits-at-diablillos/",
+    "source_name": "Mining.com",
+    "category_slug": "exploration-discovery",
+    "snippet": "AbraSilver Resource Corp. (TSX: ABRA) returned 171.0m grading 0.83 g/t Au and 10.3 g/t Ag from 230m depth at Oculto East in Phase VI of drilling at Diablillos, Salta, Argentina. The broad intercept extends known mineralization; a Definitive Feasibility Study remains on schedule for Q2 2026.",
     "is_featured": false,
     "is_breaking": false
   },
   {
-    "headline": "Core Lithium RESTARTS Finniss Open Pit in May — A$50M NRW Contract, First Concentrate Q4 2026",
+    "headline": "Core Lithium RESTARTS Finniss Open Pit in May — A$50M NRW Contract, First Concentrate Shipments Q4 2026",
     "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2810592-australia-s-core-lithium-to-restart-mine-in-may",
     "source_name": "Argus Media",
     "category_slug": "lithium-battery-metals",
-    "snippet": "Core Lithium awarded a A$50M surface mining contract to NRW for the Grants pit at its Finniss Lithium Project in the Northern Territory; ore extraction begins May 2026 with processing starting July–September. The restart is backed by A$290M in new financing anchored by Glencore.",
+    "snippet": "Core Lithium awarded a A$50M surface mining contract to NRW for the Grants pit at its Finniss project in Australia's NT; ore extraction begins May 2026 with processing starting July–September. The A$290M restart is anchored by a Glencore convertible note. First spodumene concentrate targeted Q4.",
     "is_featured": false,
     "is_breaking": false
   },
   {
-    "headline": "AMERICAS GOLD & SILVER Finds 10 New High-Grade Veins at Galena — 4,896 g/t Ag Highlights 64,000m Drill Push",
-    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/1883-tsx/usa/199172-americas-gold-and-silver-announces-largest-ever-exploration-program-in-2026-following-the-discovery-of-ten-new-high-grade-silver-copper-antimony-and-silver-lead-veins-at-galena-including-4-896-g-t-silver-and-3-95-copper-over-1-3m.html",
-    "source_name": "Junior Mining Network",
-    "category_slug": "exploration-discovery",
-    "snippet": "Americas Gold & Silver (TSX: USA) discovered seven new silver-copper-antimony veins and three silver-lead veins at its Galena Complex in Idaho, with a highlight of 4,896 g/t Ag and 3.95% Cu over 1.3m. The company is launching its largest-ever exploration program at approximately 64,000 metres.",
-    "is_featured": false,
-    "is_breaking": false
-  },
-  {
-    "headline": "Ex-Rio CEO Tom Albanese MERGES Deep-Sea Miners in $1B Deal — U.S. Critical Minerals Platform Formed",
-    "url": "https://www.businesswire.com/news/home/20260408786194/en/American-Ocean-Minerals-Corporation-to-Merge-with-Odyssey-Marine-Exploration-Inc.-Creating-a-$1B-U.S.-Controlled-Deep-Sea-Critical-Minerals-Platform",
-    "source_name": "BusinessWire",
+    "headline": "Coeur Mining COMPLETES New Gold Acquisition — Gold Output Up 80%, $750M Buyback Launched",
+    "url": "https://www.coeur.com/investors/news/news-details/2026/Coeur-Completes-Acquisition-of-New-Gold/default.aspx",
+    "source_name": "Coeur Mining",
     "category_slug": "mergers-acquisitions",
-    "snippet": "American Ocean Minerals and Odyssey Marine Exploration announced a $1B all-stock merger to create a U.S.-controlled deep-sea platform targeting polymetallic nodules — rich in cobalt, nickel, copper and manganese. Ex-Rio Tinto CEO Tom Albanese will chair the combined Nasdaq-listed entity.",
+    "snippet": "Coeur Mining (NYSE: CDE) closed its acquisition of New Gold Inc. on March 20, 2026, adding the Rainy River and New Afton mines in Ontario and B.C. Gold output guidance rises 80% to 680–815k oz for 2026, and Coeur launched a $750M share buyback alongside an inaugural semiannual dividend.",
     "is_featured": false,
     "is_breaking": false
   },
   {
-    "headline": "USA RARE EARTH Invests in French Processor Carester — Transatlantic REE Supply Chain Takes Shape",
-    "url": "https://www.metaltechnews.com/story/2026/04/15/tech-metals/usa-rare-earth-reinforces-euro-supply-chain/2716.html",
-    "source_name": "Metal Tech News",
-    "category_slug": "rare-earths",
-    "snippet": "USA Rare Earth has taken a strategic stake in Carester SAS, one of France's rare earth processing firms, as part of a push to build a mine-to-magnet supply chain across the Atlantic. The move comes with nine months left before U.S. defense procurement rules require the removal of Chinese REE content.",
-    "is_featured": false,
-    "is_breaking": false
-  },
-  {
-    "headline": "China Reports 'STUNNING' Critical Minerals Finds — REE Race With U.S. Intensifies",
-    "url": "https://www.scmp.com/news/china/article/3347436/china-reports-stunning-critical-minerals-finds-hi-tech-race-us-heats",
-    "source_name": "South China Morning Post",
-    "category_slug": "rare-earths",
-    "snippet": "Chinese geological surveys have revealed major new rare earth and critical mineral discoveries, according to state media, as Beijing's hi-tech competition with Washington accelerates. China already controls ~70% of global REE production and ~90% of refining capacity.",
-    "is_featured": false,
-    "is_breaking": false
-  },
-  {
-    "headline": "GOLD-TO-SILVER Ratio Retreating From 105 Peak — Classic Bull Signal Flashing for Silver",
-    "url": "https://goldseek.com/article/gold-swot-gold-silver-ratio-flashing-bullish-signal-silver",
-    "source_name": "GoldSeek",
-    "category_slug": "opinion-analysis",
-    "snippet": "The gold-to-silver ratio peaked above 105 in early April before beginning to contract — a pattern that has historically marked the start of significant silver outperformance relative to gold. Analysts say this, combined with China demand and a structural supply deficit, sets up a strong silver trade.",
+    "headline": "Panama GREENLIGHTS Cobre Panama Ore Processing — First Quantum to Recover 70,000t Copper From Idle Stockpile",
+    "url": "https://www.globenewswire.com/news-release/2026/04/07/3269572/0/en/Government-of-Panama-Approves-Processing-of-Stockpiled-Ore-at-Cobre-Panam%C3%A1.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "copper-base-metals",
+    "snippet": "Panama's government on April 7 approved processing of the 38M-tonne ore stockpile at the shuttered Cobre Panamá mine — enough for ~70,000 tonnes of recoverable copper. First Quantum (TSX: FM) estimates $250M capex and 1,000+ jobs; this does not constitute a reopening of the mine.",
     "is_featured": false,
     "is_breaking": false
   },
@@ -112,7 +67,34 @@
     "url": "https://www.mining.com/coppers-next-shortage-is-structural-not-hype-analyst/",
     "source_name": "Mining.com",
     "category_slug": "copper-base-metals",
-    "snippet": "A leading analyst argues the coming copper supply gap cannot be solved through a normal capex cycle: two decades of underinvestment in greenfield mines, worsening water constraints in Chile and DRC, and accelerating electrification demand point to a shortage that will outlast trade volatility.",
+    "snippet": "A leading analyst argues the coming copper supply gap cannot be solved through a normal capex cycle: two decades of underinvestment in greenfield mines, worsening water constraints in Chile and DRC, and accelerating electrification demand point to a shortage that will outlast trade cycle volatility.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "USA RARE EARTH Invests in French Processor Carester — Transatlantic REE Supply Chain Takes Shape",
+    "url": "https://www.metaltechnews.com/story/2026/04/15/tech-metals/usa-rare-earth-reinforces-euro-supply-chain/2716.html",
+    "source_name": "Metal Tech News",
+    "category_slug": "rare-earths",
+    "snippet": "USA Rare Earth has taken a strategic stake in Carester SAS, a French rare earth processing firm, as part of building a mine-to-magnet supply chain across the Atlantic. The move comes with nine months left before U.S. defense procurement rules require removal of Chinese REE content from supply chains.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "China Reports 'STUNNING' Critical Minerals Finds — REE Race With U.S. Intensifies",
+    "url": "https://www.scmp.com/news/china/article/3347436/china-reports-stunning-critical-minerals-finds-hi-tech-race-us-heats",
+    "source_name": "South China Morning Post",
+    "category_slug": "rare-earths",
+    "snippet": "Chinese geological surveys have revealed major new rare earth and critical mineral discoveries, according to state media, as Beijing's hi-tech competition with Washington accelerates. China already controls roughly 70% of global REE production and 90% of refining capacity.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD-TO-SILVER Ratio Retreating From 105 Peak — Classic Bull Signal Flashing for Silver",
+    "url": "https://goldseek.com/article/gold-swot-gold-silver-ratio-flashing-bullish-signal-silver",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "After peaking above 105 in early April, the gold-to-silver ratio has begun contracting — a pattern that has historically preceded significant silver outperformance relative to gold. Analysts at GoldSeek call it a 'classic bull signal' for silver, given strong Chinese demand and shrinking exchange inventories.",
     "is_featured": false,
     "is_breaking": false
   }
