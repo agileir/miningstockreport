@@ -1,0 +1,170 @@
+[
+  {
+    "ticker": "AUMB",
+    "name": "1911 Gold Corporation",
+    "exchange": "TSXV",
+    "website": "https://www.1911gold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Manitoba, Canada"
+  },
+  {
+    "ticker": "AMX",
+    "name": "Amex Exploration Inc.",
+    "exchange": "TSXV",
+    "website": "https://www.amexexploration.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Quebec, Canada"
+  },
+  {
+    "ticker": "AZM",
+    "name": "Azimut Exploration Inc.",
+    "exchange": "TSXV",
+    "website": "https://azimut-exploration.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Quebec, Canada"
+  },
+  {
+    "ticker": "BYN",
+    "name": "Banyan Gold Corp.",
+    "exchange": "TSXV",
+    "website": "https://banyangold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Yukon Territory, Canada"
+  },
+  {
+    "ticker": "BTR",
+    "name": "Bonterra Resources Inc.",
+    "exchange": "TSXV",
+    "website": "https://btrgold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Quebec, Canada"
+  },
+  {
+    "ticker": "BOGO",
+    "name": "Borealis Mining Company Limited",
+    "exchange": "TSXV",
+    "website": "https://borealismining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Nevada, USA"
+  },
+  {
+    "ticker": "CXB",
+    "name": "Calibre Mining Corp.",
+    "exchange": "TSX",
+    "website": "https://www.calibremining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Nicaragua"
+  },
+  {
+    "ticker": "CCM",
+    "name": "Canagold Resources Ltd.",
+    "exchange": "TSX",
+    "website": "https://canagoldresources.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "British Columbia, Canada"
+  },
+  {
+    "ticker": "ECR",
+    "name": "Cartier Resources Inc.",
+    "exchange": "TSXV",
+    "website": "https://ressourcescartier.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Quebec, Canada"
+  },
+  {
+    "ticker": "CNL",
+    "name": "Collective Mining Ltd.",
+    "exchange": "TSXV",
+    "website": "https://collectivemining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Colombia"
+  },
+  {
+    "ticker": "CRG",
+    "name": "Crossroads Gold Corp.",
+    "exchange": "TSXV",
+    "website": "https://crossroadsgold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Victoria, Australia"
+  },
+  {
+    "ticker": "DRY",
+    "name": "Dryden Gold Corp.",
+    "exchange": "TSXV",
+    "website": "https://drydengold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Northwestern Ontario, Canada"
+  },
+  {
+    "ticker": "ENDR",
+    "name": "Enduro Metals Corporation",
+    "exchange": "TSXV",
+    "website": "https://endurometals.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "British Columbia, Canada"
+  },
+  {
+    "ticker": "FURY",
+    "name": "Fury Gold Mines Limited",
+    "exchange": "TSX",
+    "website": "https://furygoldmines.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Quebec, Canada"
+  },
+  {
+    "ticker": "GTWO",
+    "name": "G2 Goldfields Inc.",
+    "exchange": "TSX",
+    "website": "https://g2goldfields.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Guyana"
+  },
+  {
+    "ticker": "GGD",
+    "name": "GoGold Resources Inc.",
+    "exchange": "TSX",
+    "website": "https://gogoldresources.com",
+    "primary_commodity": "Silver",
+    "jurisdiction": "Jalisco, Mexico"
+  },
+  {
+    "ticker": "GOLD",
+    "name": "GoldMining Inc.",
+    "exchange": "TSX",
+    "website": "https://www.goldmining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Brazil"
+  },
+  {
+    "ticker": "ITR",
+    "name": "Integra Resources Corp.",
+    "exchange": "TSX",
+    "website": "https://integraresources.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Idaho, USA"
+  },
+  {
+    "ticker": "KLD",
+    "name": "Kenorland Minerals Ltd.",
+    "exchange": "TSXV",
+    "website": "https://www.kenorlandminerals.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Quebec, Canada"
+  },
+  {
+    "ticker": "LGD",
+    "name": "Liberty Gold Corp.",
+    "exchange": "TSX",
+    "website": "https://libertygold.ca",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Idaho, USA"
+  },
+  {
+    "ticker": "LUM",
+    "name": "Lumina Gold Corp.",
+    "exchange": "TSXV",
+    "website": "https://luminagold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "El Oro Province, Ecuador"
+  }
+]
