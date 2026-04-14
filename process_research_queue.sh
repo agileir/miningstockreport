@@ -47,6 +47,12 @@ if not current_price:
     except Exception as e:
         print(f'  Could not fetch price for {yf_symbol}: {e}')
 
+# Delete all old scorecards for this company before creating the new one
+old_count = VerdictScorecard.objects.filter(company=company).count()
+if old_count > 0:
+    VerdictScorecard.objects.filter(company=company).delete()
+    print(f'  Deleted {old_count} old scorecard(s) for {ticker}')
+
 scorecard = VerdictScorecard.objects.create(
     company=company,
     management_score=int(data['management_score']),

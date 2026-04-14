@@ -12,6 +12,9 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') Starting queue export"
 # Pull latest to avoid conflicts
 git pull origin main --quiet 2>/dev/null
 
+# Queue next batch of companies for re-scoring (5 per night until caught up)
+python manage.py queue_rescore --batch 5 --settings=config.settings.production 2>&1
+
 # Export unfilled companies (for company-data-agent)
 python manage.py export_unfilled_companies --settings=config.settings.production 2>&1
 
