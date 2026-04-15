@@ -135,6 +135,14 @@
             <dt class="text-secondary">Primary Commodity</dt>
             <dd class="text-white">{{ company.primary_commodity }}</dd>
             {% endif %}
+            {% if latest %}
+            <dt class="text-secondary">Report Date</dt>
+            <dd class="text-white">{{ latest.scored_at|date:"M j, Y" }}</dd>
+            {% if latest.current_price %}
+            <dt class="text-secondary">Price at Report</dt>
+            <dd class="text-white">${{ latest.current_price|floatformat:2 }}</dd>
+            {% endif %}
+            {% endif %}
             {% if company.description %}
             <dt class="text-secondary">About</dt>
             <dd class="text-secondary">{{ company.description|truncatechars:200 }}</dd>
