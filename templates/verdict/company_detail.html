@@ -140,7 +140,7 @@
             <dd class="text-white">{{ latest.scored_at|date:"M j, Y" }}</dd>
             {% if latest.current_price %}
             <dt class="text-secondary">Price at Report</dt>
-            <dd class="text-white">${{ latest.current_price|floatformat:2 }}</dd>
+            <dd class="text-white">{% if company.exchange == 'TSX' or company.exchange == 'TSXV' %}C{% elif company.exchange == 'ASX' %}A{% elif company.exchange == 'LSE' %}&pound;{% else %}US{% endif %}${{ latest.current_price|floatformat:2 }}</dd>
             {% endif %}
             {% endif %}
             {% if company.description %}

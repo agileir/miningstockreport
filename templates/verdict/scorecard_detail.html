@@ -139,7 +139,7 @@
           {% if scorecard.current_price %}
           <div class="d-flex justify-content-between py-2 border-bottom border-secondary">
             <span class="text-secondary small">Price at Scoring</span>
-            <span class="text-white fw-bold">${{ scorecard.current_price }}</span>
+            <span class="text-white fw-bold">{% if scorecard.company.exchange == 'TSX' or scorecard.company.exchange == 'TSXV' %}C{% elif scorecard.company.exchange == 'ASX' %}A{% elif scorecard.company.exchange == 'LSE' %}&pound;{% else %}US{% endif %}${{ scorecard.current_price }}</span>
           </div>
           {% endif %}
           {% if scorecard.p_nav_multiple %}
