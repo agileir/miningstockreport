@@ -26,26 +26,24 @@ ticker = data['ticker']
 company = Company.objects.get(ticker__iexact=ticker)
 confidence = data.get('confidence', 'low').lower()
 
-# Fetch current stock price from Yahoo Finance
-current_price = data.get('current_price')
-if not current_price:
-    # Build Yahoo Finance symbol from ticker + exchange
-    exchange = company.exchange
-    yf_suffix = {
-        'TSXV': '.V', 'TSX': '.TO', 'ASX': '.AX',
-        'LSE': '.L', 'NYSE': '', 'OTC': '',
-    }
-    suffix = yf_suffix.get(exchange, '')
-    yf_symbol = ticker.replace('.V', '').replace('.TO', '').replace('.AX', '') + suffix
-    try:
-        url = f'https://query1.finance.yahoo.com/v8/finance/chart/{yf_symbol}?range=1d&interval=1d'
-        resp = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=10)
-        resp.raise_for_status()
-        meta = resp.json()['chart']['result'][0]['meta']
-        current_price = round(meta['regularMarketPrice'], 4)
-        print(f'  Fetched price for {yf_symbol}: \${current_price}')
-    except Exception as e:
-        print(f'  Could not fetch price for {yf_symbol}: {e}')
+# Always fetch current stock price from Yahoo Finance (ignore agent's price — often inaccurate)
+current_price = None
+exchange = company.exchange
+yf_suffix = {
+    'TSXV': '.V', 'TSX': '.TO', 'ASX': '.AX',
+    'LSE': '.L', 'NYSE': '', 'OTC': '',
+}
+suffix = yf_suffix.get(exchange, '')
+yf_symbol = ticker.replace('.V', '').replace('.TO', '').replace('.AX', '') + suffix
+try:
+    url = f'https://query1.finance.yahoo.com/v8/finance/chart/{yf_symbol}?range=1d&interval=1d'
+    resp = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=10)
+    resp.raise_for_status()
+    meta = resp.json()['chart']['result'][0]['meta']
+    current_price = round(meta['regularMarketPrice'], 4)
+    print(f'  Fetched price for {yf_symbol}: \${current_price}')
+except Exception as e:
+    print(f'  Could not fetch price for {yf_symbol}: {e}')
 
 # Delete all old scorecards for this company before creating the new one
 old_count = VerdictScorecard.objects.filter(company=company).count()
