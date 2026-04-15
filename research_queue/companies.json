@@ -1,0 +1,114 @@
+[
+  {
+    "ticker": "AUMB",
+    "name": "1911 Gold Corporation",
+    "exchange": "TSXV",
+    "website": "https://www.1911gold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Manitoba, Canada"
+  },
+  {
+    "ticker": "AMX",
+    "name": "Amex Exploration Inc.",
+    "exchange": "TSXV",
+    "website": "https://www.amexexploration.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Quebec, Canada"
+  },
+  {
+    "ticker": "AZM",
+    "name": "Azimut Exploration Inc.",
+    "exchange": "TSXV",
+    "website": "https://azimut-exploration.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Quebec, Canada"
+  },
+  {
+    "ticker": "BYN",
+    "name": "Banyan Gold Corp.",
+    "exchange": "TSXV",
+    "website": "https://banyangold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Yukon Territory, Canada"
+  },
+  {
+    "ticker": "BEA",
+    "name": "Belmont Resources Inc.",
+    "exchange": "TSXV",
+    "website": "https://belmontresources.com/",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Canada"
+  },
+  {
+    "ticker": "BTR",
+    "name": "Bonterra Resources Inc.",
+    "exchange": "TSXV",
+    "website": "https://btrgold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Quebec, Canada"
+  },
+  {
+    "ticker": "BOGO",
+    "name": "Borealis Mining Company Limited",
+    "exchange": "TSXV",
+    "website": "https://borealismining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Nevada, USA"
+  },
+  {
+    "ticker": "CCM",
+    "name": "Canagold Resources Ltd.",
+    "exchange": "TSX",
+    "website": "https://canagoldresources.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "British Columbia, Canada"
+  },
+  {
+    "ticker": "CNL",
+    "name": "Collective Mining Ltd.",
+    "exchange": "TSXV",
+    "website": "https://collectivemining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Colombia"
+  },
+  {
+    "ticker": "CRG",
+    "name": "Crossroads Gold Corp.",
+    "exchange": "TSXV",
+    "website": "https://crossroadsgold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Victoria, Australia"
+  },
+  {
+    "ticker": "MKO",
+    "name": "Mako Mining Corp.",
+    "exchange": "TSXV",
+    "website": "https://www.makominingcorp.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Nicaragua"
+  },
+  {
+    "ticker": "MOZ",
+    "name": "Marathon Gold Corporation",
+    "exchange": "TSX",
+    "website": "https://www.calibremining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Newfoundland, Canada"
+  },
+  {
+    "ticker": "MAX",
+    "name": "Max Resource Corp.",
+    "exchange": "TSXV",
+    "website": "https://www.maxresource.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Northeastern Colombia"
+  },
+  {
+    "ticker": "OSK",
+    "name": "Osisko Mining Inc.",
+    "exchange": "TSX",
+    "website": "https://goldfieldswindfall.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Quebec, Canada"
+  }
+]
