@@ -105,6 +105,9 @@ footer a:hover { color: var(--msr-gold) !important; }
 .btn-warning { background-color: var(--msr-gold); border-color: var(--msr-gold); color: #000; }
 .btn-warning:hover { background-color: #ffcd38; border-color: #ffcd38; color: #000; }
 
+/* Search input placeholder */
+.search-input::placeholder { color: #bbb !important; opacity: 1; }
+
 /* News Wire */
 .news-wire-link { border-bottom: 1px solid var(--msr-border); }
 .news-wire-link:hover { background: rgba(255, 193, 7, 0.05); }

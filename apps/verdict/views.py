@@ -16,7 +16,9 @@ class CompanyListView(ListView):
         query = self.request.GET.get("q", "").strip()
         if query:
             qs = qs.filter(
-                Q(ticker__icontains=query) | Q(name__icontains=query)
+                Q(ticker__icontains=query)
+                | Q(name__icontains=query)
+                | Q(primary_commodity__icontains=query)
             )
 
         # Filter by verdict

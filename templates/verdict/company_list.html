@@ -12,8 +12,8 @@
 
     <form method="get" action="{% url 'verdict:company_list' %}" class="mb-3">
       <div class="input-group" style="max-width:400px;">
-        <input type="text" name="q" value="{{ search_query }}" class="form-control form-control-sm bg-black text-white border-secondary"
-               placeholder="Search by ticker or company name..." aria-label="Search companies">
+        <input type="text" name="q" value="{{ search_query }}" class="form-control form-control-sm bg-black text-white border-secondary search-input"
+               placeholder="Search by ticker, company name, or commodity..." aria-label="Search companies">
         <button type="submit" class="btn btn-warning btn-sm"><i class="bi bi-search"></i></button>
         {% if search_query %}
           <a href="{% url 'verdict:company_list' %}" class="btn btn-outline-secondary btn-sm"><i class="bi bi-x-lg"></i></a>
