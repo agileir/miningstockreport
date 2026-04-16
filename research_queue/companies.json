@@ -1,0 +1,42 @@
+[
+  {
+    "ticker": "ECR",
+    "name": "Cartier Resources Inc.",
+    "exchange": "TSXV",
+    "website": "https://ressourcescartier.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Quebec, Canada"
+  },
+  {
+    "ticker": "DRY",
+    "name": "Dryden Gold Corp.",
+    "exchange": "TSXV",
+    "website": "https://drydengold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Northwestern Ontario, Canada"
+  },
+  {
+    "ticker": "ENDR",
+    "name": "Enduro Metals Corporation",
+    "exchange": "TSXV",
+    "website": "https://endurometals.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "British Columbia, Canada"
+  },
+  {
+    "ticker": "FNV",
+    "name": "Franco Nevada Corp.",
+    "exchange": "TSX",
+    "website": "https://www.franco-nevada.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Canada"
+  },
+  {
+    "ticker": "FURY",
+    "name": "Fury Gold Mines Limited",
+    "exchange": "TSX",
+    "website": "https://furygoldmines.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Quebec, Canada"
+  }
+]
