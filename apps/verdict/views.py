@@ -1,4 +1,8 @@
+import re
+
 from django.db.models import Q
+from django.http import Http404
+from django.shortcuts import redirect
 from django.views.generic import ListView, DetailView
 from .models import Company, VerdictScorecard, VerdictChoice
 
@@ -41,6 +45,14 @@ class CompanyDetailView(DetailView):
     template_name = "verdict/company_detail.html"
     context_object_name = "company"
 
+    def get(self, request, *args, **kwargs):
+        try:
+            return super().get(request, *args, **kwargs)
+        except Http404:
+            if re.match(r"^company-\d+$", kwargs.get("slug", "")):
+                return redirect("verdict:company_list", permanent=True)
+            raise
+
     def get_context_data(self, **kwargs):
         ctx = super().get_context_data(**kwargs)
         ctx["scorecards"] = self.object.scorecards.filter(is_published=True).order_by("-scored_at")
@@ -62,6 +74,16 @@ class ScorecardDetailView(DetailView):
     template_name = "verdict/scorecard_detail.html"
     context_object_name = "scorecard"
     queryset = VerdictScorecard.objects.filter(is_published=True).select_related("company")
+
+    def get(self, request, *args, **kwargs):
+        slug = kwargs.get("slug", "")
+        if re.match(r"^company-\d+$", slug):
+            try:
+                scorecard = self.get_queryset().get(pk=kwargs["pk"])
+                return redirect(scorecard.get_absolute_url(), permanent=True)
+            except VerdictScorecard.DoesNotExist:
+                return redirect("verdict:company_list", permanent=True)
+        return super().get(request, *args, **kwargs)
 
     def get_context_data(self, **kwargs):
         ctx = super().get_context_data(**kwargs)
