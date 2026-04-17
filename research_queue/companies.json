@@ -1,0 +1,42 @@
+[
+  {
+    "ticker": "GTWO",
+    "name": "G2 Goldfields Inc.",
+    "exchange": "TSX",
+    "website": "https://g2goldfields.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Guyana"
+  },
+  {
+    "ticker": "GGD",
+    "name": "GoGold Resources Inc.",
+    "exchange": "TSX",
+    "website": "https://gogoldresources.com",
+    "primary_commodity": "Silver",
+    "jurisdiction": "Jalisco, Mexico"
+  },
+  {
+    "ticker": "GOLD",
+    "name": "GoldMining Inc.",
+    "exchange": "TSX",
+    "website": "https://www.goldmining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Brazil"
+  },
+  {
+    "ticker": "HSTR",
+    "name": "Heliostar Metals Ltd.",
+    "exchange": "TSXV",
+    "website": "https://www.heliostarmetals.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Mexico"
+  },
+  {
+    "ticker": "ITR",
+    "name": "Integra Resources Corp.",
+    "exchange": "TSXV",
+    "website": "https://integraresources.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Idaho, USA"
+  }
+]
