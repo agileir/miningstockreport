@@ -54,7 +54,12 @@ class Company(SEOMixin, models.Model):
         ordering = ["name"]
 
     def save(self, *args, **kwargs):
+        import re
+        from django.utils.text import slugify
         self.ticker = self.ticker.upper()
+        # Regenerate slug if it's still a fallback like "company-16"
+        if self.name and re.match(r"^company-\d+$", self.slug or ""):
+            self.slug = slugify(self.name)
         super().save(*args, **kwargs)
 
     def __str__(self):

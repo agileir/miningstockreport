@@ -17,6 +17,9 @@
   <meta name="google-site-verification" content="1axwpnmjk01wyL2SeDzZ86e-yw4nL9y56LMTSNKUSaw" />
   <link rel="canonical" href="{% block canonical_url %}{{ SITE_URL }}{{ request.path }}{% endblock %}">
 
+  {# ── Pagination signals for paginated list pages ── #}
+  {% block pagination_head %}{% endblock %}
+
   {# ── Open Graph ── #}
   <meta property="og:site_name"   content="{{ SITE_NAME }}">
   <meta property="og:type"        content="{% block og_type %}website{% endblock %}">

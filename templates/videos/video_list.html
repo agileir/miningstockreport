@@ -3,6 +3,17 @@
 
 {% block title %}Videos{% endblock %}
 
+{% block robots %}{% if page_obj.number > 1 %}noindex, follow{% else %}index, follow{% endif %}{% endblock %}
+
+{% block pagination_head %}
+{% if page_obj.has_previous %}
+  <link rel="prev" href="{{ SITE_URL }}{{ request.path }}?page={{ page_obj.previous_page_number }}">
+{% endif %}
+{% if page_obj.has_next %}
+  <link rel="next" href="{{ SITE_URL }}{{ request.path }}?page={{ page_obj.next_page_number }}">
+{% endif %}
+{% endblock %}
+
 {% block content %}
 <div class="bg-dark py-4 border-bottom border-secondary">
   <div class="container">
