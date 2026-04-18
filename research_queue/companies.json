@@ -38,5 +38,45 @@
     "website": "https://integraresources.com",
     "primary_commodity": "Gold",
     "jurisdiction": "Idaho, USA"
+  },
+  {
+    "ticker": "KLD",
+    "name": "Kenorland Minerals Ltd.",
+    "exchange": "TSXV",
+    "website": "https://www.kenorlandminerals.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Quebec, Canada"
+  },
+  {
+    "ticker": "LGD",
+    "name": "Liberty Gold Corp.",
+    "exchange": "TSX",
+    "website": "https://libertygold.ca",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Idaho, USA"
+  },
+  {
+    "ticker": "ODV",
+    "name": "Osisko Development Corp.",
+    "exchange": "TSXV",
+    "website": "https://osiskodev.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "British Columbia, Canada"
+  },
+  {
+    "ticker": "SGD",
+    "name": "Snowline Gold Corp.",
+    "exchange": "TSX",
+    "website": "https://www.snowlinegold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Yukon Territory, Canada"
+  },
+  {
+    "ticker": "WRN",
+    "name": "Western Copper and Gold Corporation",
+    "exchange": "TSX",
+    "website": "https://www.westerncopperandgold.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Yukon"
   }
 ]
