@@ -1,0 +1,26 @@
+[
+  {
+    "ticker": "CXB",
+    "name": "Calibre Mining Corp.",
+    "exchange": "TSX",
+    "website": "https://www.calibremining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Nicaragua"
+  },
+  {
+    "ticker": "EQX",
+    "name": "Equinox Gold Corp.",
+    "exchange": "TSX",
+    "website": "https://www.equinoxgold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Americas (Canada, Brazil, Mexico, USA)"
+  },
+  {
+    "ticker": "IAU",
+    "name": "i-80 Gold Corp.",
+    "exchange": "TSX",
+    "website": "https://www.i80gold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Nevada, USA"
+  }
+]
