@@ -1,0 +1,26 @@
+[
+  {
+    "ticker": "MAI",
+    "name": "Minera Alamos Inc.",
+    "exchange": "TSXV",
+    "website": "https://mineraalamos.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Nevada, USA"
+  },
+  {
+    "ticker": "NCAU",
+    "name": "Newcore Gold Ltd.",
+    "exchange": "TSXV",
+    "website": "https://newcoregold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Ghana"
+  },
+  {
+    "ticker": "NCX",
+    "name": "NorthIsle Copper and Gold Inc.",
+    "exchange": "TSXV",
+    "website": "https://www.northisle.ca",
+    "primary_commodity": "Copper",
+    "jurisdiction": "British Columbia"
+  }
+]
