@@ -8,4 +8,5 @@ urlpatterns = [
     path("about/", views.about, name="about"),
     path("about/author/<str:username>/", views.author_profile, name="author_profile"),
     path("about/methodology/", views.methodology, name="methodology"),
+    path("about/disclaimer/", views.disclaimer, name="disclaimer"),
 ]

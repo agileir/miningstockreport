@@ -50,6 +50,10 @@ def methodology(request):
     return render(request, "core/methodology.html")
 
 
+def disclaimer(request):
+    return render(request, "core/disclaimer.html")
+
+
 def robots_txt(request):
     """
     Dynamic robots.txt — blocks staging/dev crawling, allows prod.

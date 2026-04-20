@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load autolink %}
 
 {% block title %}{{ post.seo_title }}{% endblock %}
 {% block title_inner %}{{ post.seo_title }}{% endblock %}
@@ -128,7 +129,7 @@
   {% if post.answer_capsule %}
   <div class="card bg-black border-warning border-1 mb-4">
     <div class="card-body">
-      <p class="text-white mb-0" style="font-size:1.1rem; line-height:1.8;">{{ post.answer_capsule }}</p>
+      <p class="text-white mb-0" style="font-size:1.1rem; line-height:1.8;">{{ post.answer_capsule|autolink }}</p>
     </div>
   </div>
   {% endif %}
@@ -157,7 +158,7 @@
       <a href="{% url 'leads:subscribe' %}" class="btn btn-warning btn-lg fw-bold px-5">Get Free Access</a>
     </div>
   {% else %}
-    <div class="text-white post-body" style="line-height:1.8;">{{ post.body }}</div>
+    <div class="text-white post-body" style="line-height:1.8;">{{ post.body|autolink }}</div>
   {% endif %}
 
   {# ── FAQ accordion ── #}

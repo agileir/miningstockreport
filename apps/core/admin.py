@@ -1,5 +1,13 @@
 from django.contrib import admin
-from apps.core.models import CommodityPrice
+from apps.core.models import AutoLink, CommodityPrice
+
+
+@admin.register(AutoLink)
+class AutoLinkAdmin(admin.ModelAdmin):
+    list_display = ["phrase", "target_url", "is_active"]
+    list_editable = ["is_active"]
+    list_filter = ["is_active"]
+    search_fields = ["phrase"]
 
 
 @admin.register(CommodityPrice)

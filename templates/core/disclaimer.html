@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Disclaimer — {{ SITE_NAME }}{% endblock %}
+{% block meta_description %}Important legal disclaimer for {{ SITE_NAME }}. Our content is for educational purposes only and does not constitute financial advice. Junior mining stocks carry significant risk.{% endblock %}
+
+{% block content %}
+<div class="container py-5" style="max-width:760px;">
+
+  <h1 class="text-white fw-bold mb-2">Disclaimer</h1>
+  <p class="text-secondary lead mb-5">Please read this disclaimer carefully before using {{ SITE_NAME }}.</p>
+
+  <div class="text-secondary" style="line-height:1.9;">
+
+    <h2 class="text-white fw-bold h5 mb-3">AI-Assisted Research</h2>
+    <p class="mb-4">Analysis published on {{ SITE_NAME }} is generated using AI-assisted research and the Verdict Framework scoring methodology. While every effort is made to ensure accuracy, the content may contain errors, outdated information, or incomplete data. AI-generated content should not be treated as a substitute for professional financial analysis.</p>
+
+    <h2 class="text-white fw-bold h5 mb-3">Not Financial Advice</h2>
+    <p class="mb-4">The information provided on this site is for <strong class="text-white">educational and informational purposes only</strong> and does not constitute investment advice, a recommendation, or a solicitation to buy or sell any security. {{ SITE_NAME }} is not a registered investment advisor, broker-dealer, or financial planner.</p>
+
+    <h2 class="text-white fw-bold h5 mb-3">Speculative Securities</h2>
+    <p class="mb-4">Junior mining stocks are <strong class="text-white">highly speculative</strong> and carry significant risk of loss, including the potential loss of your entire investment. Past performance is not indicative of future results. Commodity prices, regulatory changes, and operational risks can materially impact the value of mining securities.</p>
+
+    <h2 class="text-white fw-bold h5 mb-3">Your Responsibility</h2>
+    <p class="mb-4"><strong class="text-white">Always conduct your own due diligence</strong> before making any investment decision. Consult a qualified financial advisor who understands your personal financial situation and risk tolerance.</p>
+
+    <h2 class="text-white fw-bold h5 mb-3">Positions Disclosure</h2>
+    <p class="mb-0">{{ SITE_NAME }} and its contributors may hold positions in securities discussed on this site. Any such positions will be disclosed where applicable.</p>
+
+  </div>
+</div>
+{% endblock %}
