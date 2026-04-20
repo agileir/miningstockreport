@@ -1,0 +1,74 @@
+[
+  {
+    "headline": "NEVADA SHOWDOWN: Newmont Sues Barrick Over JV Resource Diversion, May Court Hearings Freeze Spinoff Plans",
+    "url": "https://www.mining.com/newmont-barrick-rift-over-nevada-heats-up/",
+    "source_name": "Mining.com",
+    "category_slug": "market-macro",
+    "snippet": "Newmont formally accused Barrick of diverting heavy equipment and specialist personnel from their Nevada Gold Mines JV to Barrick's wholly-owned Fourmile project, violating their 2019 joint-venture agreement; preliminary Nevada court hearings are now set for May, effectively freezing Barrick's planned North American asset spin-off and casting uncertainty over the complex that accounts for roughly 60% of Barrick's market value.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "ACID CUT: China's May 1 Sulphuric Acid Export Ban Threatens 40-60% Cost Spike for Copper and Nickel Miners Globally",
+    "url": "https://miningdigital.com/news/chinas-sulphuric-acid-ban-impacts-mining-operations",
+    "source_name": "Mining Digital",
+    "category_slug": "copper-base-metals",
+    "snippet": "China—which produces 40% of the world's sulphuric acid—will halt exports from May 1, threatening copper heap-leach operations in Chile (which imports over 1 million tonnes of Chinese acid per year) and high-pressure acid-leach nickel projects in Indonesia that supply global EV battery manufacturers, with affected miners facing cost increases of 40–60% as they scramble for alternative supply.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "BOUNDARY WATERS CLEARED: Senate 50-49 Overturns Biden's 20-Year Copper Mining Ban; Twin Metals Path Reopens",
+    "url": "https://www.envirolink.org/2026/04/19/senate-votes-to-end-mining-ban-in-minnesotas-boundary-waters-wilderness-watershed/",
+    "source_name": "EnviroLink Network",
+    "category_slug": "copper-base-metals",
+    "snippet": "The US Senate used the Congressional Review Act in a 50-49 vote to repeal Biden's 20-year mineral withdrawal near Minnesota's Boundary Waters Canoe Area Wilderness, reopening the permitting path for Antofagasta subsidiary Twin Metals to pursue an underground copper-nickel-cobalt deposit; environmental groups immediately vowed court challenges, and analysts expect years of litigation before any construction could begin.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SQUEEZE REGIME: Silver Institute Calls 6th Straight Annual Deficit; 46.3M-Oz Shortfall Widens 15% as Mine Supply Slips",
+    "url": "https://www.zerohedge.com/news/2026-04-17/silver-institute-silver-enters-squeeze-regime",
+    "source_name": "ZeroHedge / Silver Institute",
+    "category_slug": "gold-silver",
+    "snippet": "The Silver Institute's 2026 World Silver Survey projects the sixth consecutive annual deficit will widen 15% to 46.3 million troy ounces as total mine supply falls 2% while industrial demand—led by solar photovoltaic panels and electronics—holds firm; the institute now characterises the market as being in a structural 'squeeze regime' with no near-term supply response capable of closing the gap.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "HORMUZ COUNTDOWN: Gold Retreats to $4,764 as April 22 Ceasefire Deadline Looms; Silver Holds Near $82",
+    "url": "https://fortune.com/article/current-price-of-silver-4-17-2026/",
+    "source_name": "Fortune",
+    "category_slug": "gold-silver",
+    "snippet": "Precious metals gave back some of Friday's gains on Monday as investors weighed the risk of renewed Strait of Hormuz disruption when the 10-day US-Iran ceasefire expires April 22; gold retreated to $4,764 from last week's $4,887 high while silver held near $82/oz—nearly 30% above its March low—after Iran's removal of sea mines sparked a 5% silver surge on Friday.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SILVER SIGNAL: China Imports 790+ Tonnes Early in 2026; Gold-Silver Ratio Contracts From 105 Peak—Historically Bullish Setup",
+    "url": "https://goldseek.com/article/gold-swot-silver-demand-remains-strong-china-importing-790-tons-early-2026",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "GoldSeek's weekly SWOT analysis highlights China's silver imports exceeding 790 tonnes in early 2026—driven by solar manufacturing expansion—while the gold-to-silver ratio has contracted sharply from its April peak above 105; similar ratio compressions in prior cycles have historically preceded extended periods of silver outperformance relative to gold bullion.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "RARE EARTH PRICE SHOCK: China Northern Sets Q2 Concentrate at 38,804 Yuan/Tonne — 44.6% Jump, Seventh Straight Quarterly Record",
+    "url": "https://www.mining.com/chinese-rare-earth-producer-hikes-q2-price-by-44/",
+    "source_name": "Mining.com",
+    "category_slug": "rare-earths",
+    "snippet": "China Northern Rare Earth, the world's largest rare earth concentrate producer, set its Q2 2026 transaction price at 38,804 yuan per tonne — a 44.6% leap from Q1's 26,834 yuan — marking the seventh consecutive quarterly price record as Chinese production controls and geopolitical tensions continue to tighten global rare earth supply chains and reshape cost structures for ex-China miners.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ATHABASCA RADIOACTIVITY: Cosa Resources / Denison JV Logs 13,900 CPS Over 5m at Murphy Lake North—3km from Hurricane Deposit",
+    "url": "https://www.investorideas.com/news/2026/mining/04162-cosa-uranium-athabasca-discovery.asp",
+    "source_name": "InvestorIdeas.com",
+    "category_slug": "uranium-energy",
+    "snippet": "Cosa Resources (TSX-V: COSA) and JV partner Denison Mines reported anomalous radioactivity up to 13,900 counts per second over 5.0 metres in the upper basement at their Murphy Lake North project in Saskatchewan's Athabasca Basin—3 kilometres east of IsoEnergy's Hurricane deposit—with the zone open for 600-plus metres along strike in multiple directions.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
