@@ -13,18 +13,14 @@
 {% block twitter_description %}{{ post.seo_description }}{% endblock %}
 {% block robots %}index, follow{% endblock %}
 
-{% if post.og_image %}
-{% block og_image %}{{ SITE_URL }}{{ post.og_image.url }}{% endblock %}
+{% block og_image %}{% if post.og_image %}{{ SITE_URL }}{{ post.og_image.url }}{% endif %}{% endblock %}
 {% block og_image_alt %}{{ post.og_image_alt|default:post.title }}{% endblock %}
-{% block twitter_image %}{{ SITE_URL }}{{ post.og_image.url }}{% endblock %}
-{% endif %}
+{% block twitter_image %}{% if post.og_image %}{{ SITE_URL }}{{ post.og_image.url }}{% endif %}{% endblock %}
 
-{% if post.geo_target %}
-{% block hreflang %}
+{% block hreflang %}{% if post.geo_target %}
 <link rel="alternate" hreflang="en-{{ post.geo_target|lower }}" href="{{ SITE_URL }}{{ post.get_absolute_url }}">
 <link rel="alternate" hreflang="en" href="{{ SITE_URL }}{{ post.get_absolute_url }}">
-{% endblock %}
-{% endif %}
+{% endif %}{% endblock %}
 
 {# ── Breadcrumb schema ── #}
 {% block schema_breadcrumb %}
