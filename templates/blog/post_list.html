@@ -2,6 +2,9 @@
 {% load static %}
 
 {% block title %}{% if active_pillar %}{{ active_pillar|title }} — {% endif %}Analysis{% endblock %}
+{% block meta_description %}{% if active_pillar %}{{ active_pillar|title }} analysis from Mining Stock Report — independent junior mining research using the Verdict Framework.{% else %}Independent junior mining analysis: due diligence, company verdicts, market intelligence, and accountability. No IR relationships, no paid placements.{% endif %}{% endblock %}
+{% block og_description %}{% if active_pillar %}{{ active_pillar|title }} analysis from Mining Stock Report — independent junior mining research using the Verdict Framework.{% else %}Independent junior mining analysis: due diligence, company verdicts, market intelligence, and accountability.{% endif %}{% endblock %}
+{% block twitter_description %}{% if active_pillar %}{{ active_pillar|title }} analysis from Mining Stock Report — independent junior mining research using the Verdict Framework.{% else %}Independent junior mining analysis: due diligence, company verdicts, market intelligence, and accountability.{% endif %}{% endblock %}
 
 {% block robots %}{% if request.GET.tag or page_obj.number > 1 %}noindex, follow{% else %}index, follow{% endif %}{% endblock %}
 
@@ -18,8 +21,13 @@
 <div class="bg-dark py-4 border-bottom border-secondary">
   <div class="container">
     <h1 class="text-white fw-bold h3 mb-2">
-      <i class="bi bi-journal-text text-warning me-2"></i>Analysis
+      <i class="bi bi-journal-text text-warning me-2"></i>{% if pillar_obj %}{{ pillar_obj.name }}{% else %}Analysis{% endif %}
     </h1>
+    {% if pillar_obj and pillar_obj.description %}
+      <p class="text-secondary mb-2">{{ pillar_obj.description }}</p>
+    {% else %}
+      <p class="text-secondary mb-2">Independent junior mining research — due diligence walkthroughs, company verdicts, market intelligence, and position accountability. Every analysis is built on NI 43-101 technical reports, insider transaction data, and the 5-factor Verdict Framework.</p>
+    {% endif %}
     <div class="d-flex flex-wrap gap-2 mt-3">
       <a href="{% url 'blog:post_list' %}"
          class="btn btn-sm {% if not active_pillar %}btn-warning{% else %}btn-outline-secondary{% endif %}">

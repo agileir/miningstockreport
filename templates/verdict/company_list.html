@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 
 {% block title %}Verdict Framework — Company Scorecards{% endblock %}
+{% block meta_description %}Every junior mining company scored on 5 factors — management, geology, capital structure, catalysts, and acquisition value. One clear verdict: BUY, WATCH, or AVOID.{% endblock %}
+{% block og_description %}Every junior mining company scored on 5 factors — management, geology, capital structure, catalysts, and acquisition value. One clear verdict: BUY, WATCH, or AVOID.{% endblock %}
+{% block twitter_description %}Every junior mining company scored on 5 factors — management, geology, capital structure, catalysts, and acquisition value. One clear verdict: BUY, WATCH, or AVOID.{% endblock %}
 
 {% block robots %}{% if active_verdict or search_query or page_obj.number > 1 %}noindex, follow{% else %}index, follow{% endif %}{% endblock %}
 
@@ -19,7 +22,7 @@
     <h1 class="text-white fw-bold h3 mb-1">
       <i class="bi bi-clipboard-check text-warning me-2"></i>Verdict Framework
     </h1>
-    <p class="text-secondary mb-3">Every company scored on 5 factors. One clear verdict: BUY, WATCH, or AVOID.</p>
+    <p class="text-secondary mb-3">Every company scored on 5 factors — management skin-in-the-game, project geology quality, capital structure health, catalyst proximity, and comparable acquisition value. One clear verdict: BUY, WATCH, or AVOID. All scores are based on NI 43-101 technical reports, SEDI insider filings, and public financial data.</p>
 
     <form method="get" action="{% url 'verdict:company_list' %}" class="mb-3">
       <div class="input-group" style="max-width:400px;">

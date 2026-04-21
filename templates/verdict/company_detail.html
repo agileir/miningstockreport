@@ -2,6 +2,9 @@
 {% load autolink %}
 
 {% block title %}{{ company.ticker }} — {{ company.name }}{% endblock %}
+{% block meta_description %}{{ company.ticker }} ({{ company.exchange }}) — {{ company.name }}{% if company.primary_commodity %}, {{ company.primary_commodity }} explorer{% endif %}{% if company.jurisdiction %} in {{ company.jurisdiction }}{% endif %}. Independent Verdict Framework scorecard{% if latest %}: {{ latest.verdict }}, {{ latest.composite_score }}/25{% endif %}.{% endblock %}
+{% block og_description %}{{ company.ticker }} ({{ company.exchange }}) — {{ company.name }}{% if company.primary_commodity %}, {{ company.primary_commodity }} explorer{% endif %}{% if company.jurisdiction %} in {{ company.jurisdiction }}{% endif %}. Independent Verdict Framework scorecard{% if latest %}: {{ latest.verdict }}, {{ latest.composite_score }}/25{% endif %}.{% endblock %}
+{% block twitter_description %}{{ company.ticker }} ({{ company.exchange }}) — {{ company.name }}{% if company.primary_commodity %}, {{ company.primary_commodity }} explorer{% endif %}{% if company.jurisdiction %} in {{ company.jurisdiction }}{% endif %}. Independent Verdict Framework scorecard{% if latest %}: {{ latest.verdict }}, {{ latest.composite_score }}/25{% endif %}.{% endblock %}
 
 {% block content %}
 <div class="bg-dark py-4 border-bottom border-secondary">

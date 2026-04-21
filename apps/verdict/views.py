@@ -1,8 +1,9 @@
 import re
+from datetime import date as date_type
 
 from django.db.models import Q
 from django.http import Http404
-from django.shortcuts import redirect
+from django.shortcuts import get_object_or_404, redirect
 from django.views.generic import ListView, DetailView
 from .models import Company, VerdictScorecard, VerdictChoice
 
@@ -73,17 +74,19 @@ class ScorecardDetailView(DetailView):
     model = VerdictScorecard
     template_name = "verdict/scorecard_detail.html"
     context_object_name = "scorecard"
-    queryset = VerdictScorecard.objects.filter(is_published=True).select_related("company")
 
-    def get(self, request, *args, **kwargs):
-        slug = kwargs.get("slug", "")
-        if re.match(r"^company-\d+$", slug):
-            try:
-                scorecard = self.get_queryset().get(pk=kwargs["pk"])
-                return redirect(scorecard.get_absolute_url(), permanent=True)
-            except VerdictScorecard.DoesNotExist:
-                return redirect("verdict:company_list", permanent=True)
-        return super().get(request, *args, **kwargs)
+    def get_object(self, queryset=None):
+        slug = self.kwargs["slug"]
+        date_str = self.kwargs["date"]
+        try:
+            scored_date = date_type.fromisoformat(date_str)
+        except ValueError:
+            raise Http404
+        return get_object_or_404(
+            VerdictScorecard.objects.filter(is_published=True).select_related("company"),
+            company__slug=slug,
+            scored_at__date=scored_date,
+        )
 
     def get_context_data(self, **kwargs):
         ctx = super().get_context_data(**kwargs)
@@ -96,3 +99,12 @@ class ScorecardDetailView(DetailView):
             {"label": "Comparable Acquisition Value", "score": sc.acquisition_score,"notes": sc.acquisition_notes},
         ]
         return ctx
+
+
+def scorecard_pk_redirect(request, slug, pk):
+    """301 redirect from old /scorecard/<pk>/ URLs to new /scorecard/<date>/ URLs."""
+    scorecard = get_object_or_404(
+        VerdictScorecard.objects.filter(is_published=True).select_related("company"),
+        pk=pk,
+    )
+    return redirect(scorecard.get_absolute_url(), permanent=True)

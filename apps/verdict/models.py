@@ -136,7 +136,13 @@ class VerdictScorecard(SEOMixin, models.Model):
         return f"{self.company.ticker} — {self.verdict} ({self.scored_at.date()})"
 
     def get_absolute_url(self):
-        return reverse("verdict:scorecard_detail", kwargs={"slug": self.company.slug, "pk": self.pk})
+        return reverse(
+            "verdict:scorecard_detail",
+            kwargs={
+                "slug": self.company.slug,
+                "date": self.scored_at.strftime("%Y-%m-%d"),
+            },
+        )
 
     @property
     def composite_score(self):

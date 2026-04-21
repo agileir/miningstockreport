@@ -46,6 +46,17 @@ class CompanySitemap(Sitemap):
         return obj.updated_at
 
 
+class ScorecardSitemap(Sitemap):
+    changefreq = "monthly"
+    priority   = 0.8
+
+    def items(self):
+        return VerdictScorecard.objects.filter(is_published=True).select_related("company")
+
+    def lastmod(self, obj):
+        return obj.updated_at
+
+
 class VideoSitemap(Sitemap):
     changefreq = "monthly"
     priority   = 0.7
@@ -58,8 +69,9 @@ class VideoSitemap(Sitemap):
 
 
 sitemaps = {
-    "static":    StaticViewSitemap,
-    "posts":     PostSitemap,
-    "companies": CompanySitemap,
-    "videos":    VideoSitemap,
+    "static":     StaticViewSitemap,
+    "posts":      PostSitemap,
+    "companies":  CompanySitemap,
+    "scorecards": ScorecardSitemap,
+    "videos":     VideoSitemap,
 }

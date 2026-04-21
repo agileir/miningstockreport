@@ -1,7 +1,10 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block title %}Videos{% endblock %}
+{% block title %}Junior Mining Analysis Videos{% endblock %}
+{% block meta_description %}Junior mining stock analysis videos — company deep dives, market commentary, and due diligence walkthroughs from Mining Stock Report.{% endblock %}
+{% block og_description %}Junior mining stock analysis videos — company deep dives, market commentary, and due diligence walkthroughs from Mining Stock Report.{% endblock %}
+{% block twitter_description %}Junior mining stock analysis videos — company deep dives, market commentary, and due diligence walkthroughs from Mining Stock Report.{% endblock %}
 
 {% block robots %}{% if page_obj.number > 1 %}noindex, follow{% else %}index, follow{% endif %}{% endblock %}
 
@@ -17,9 +20,10 @@
 {% block content %}
 <div class="bg-dark py-4 border-bottom border-secondary">
   <div class="container">
-    <h1 class="text-white fw-bold h3 mb-0">
-      <i class="bi bi-play-circle text-warning me-2"></i>Videos
+    <h1 class="text-white fw-bold h3 mb-2">
+      <i class="bi bi-play-circle text-warning me-2"></i>Junior Mining Analysis Videos
     </h1>
+    <p class="text-secondary mb-0">Company deep dives, market commentary, and due diligence walkthroughs. Each video breaks down the geology, capital structure, and catalysts behind junior mining opportunities — the same factors that drive the Verdict Framework scorecards.</p>
   </div>
 </div>
 

@@ -2,16 +2,19 @@
 {% load crispy_forms_tags %}
 
 {% block title %}Get the Free Junior Mining Checklist{% endblock %}
+{% block meta_description %}Download the free 12-point Junior Mining Starter Checklist — covering management, geology, capital structure, catalysts, and valuation in plain language.{% endblock %}
+{% block og_description %}Download the free 12-point Junior Mining Starter Checklist — covering management, geology, capital structure, catalysts, and valuation in plain language.{% endblock %}
+{% block twitter_description %}Download the free 12-point Junior Mining Starter Checklist — covering management, geology, capital structure, catalysts, and valuation in plain language.{% endblock %}
 
 {% block content %}
 <div class="container py-5" style="max-width:560px;">
   <div class="card bg-dark border-warning border-2">
     <div class="card-body p-5">
       <span class="badge bg-warning text-dark mb-3">Free Download</span>
-      <h2 class="text-white fw-bold mb-2">Junior Mining Starter Checklist</h2>
+      <h1 class="text-white fw-bold mb-2 h2">Junior Mining Starter Checklist</h1>
       <p class="text-secondary mb-4">
         The 12-point checklist applied to every company before it touches the watchlist.
-        Covers management, geology, capital structure, catalysts, and valuation — in plain language.
+        Covers management skin-in-the-game, project geology, capital structure health, catalyst proximity, and comparable acquisition valuation — in plain language. Built from the same Verdict Framework used in our published scorecards.
       </p>
       <form method="post" action="{% url 'leads:subscribe' %}">
         {% csrf_token %}

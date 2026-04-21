@@ -2,7 +2,7 @@
 {% load static %}
 {% load autolink %}
 
-{% block title %}{{ scorecard.company.ticker }} Verdict — {{ scorecard.get_verdict_display }} | Junior Mining Scorecard{% endblock %}
+{% block title %}{{ scorecard.company.ticker }} Verdict — {{ scorecard.get_verdict_display }}{% endblock %}
 {% block title_inner %}{{ scorecard.company.ticker }} — {{ scorecard.verdict }} Verdict{% endblock %}
 {% block title_inner2 %}{{ scorecard.company.ticker }} — {{ scorecard.verdict }} Verdict{% endblock %}
 {% block meta_description %}{{ scorecard.company.ticker }} ({{ scorecard.company.exchange }}) scores {{ scorecard.composite_score }}/25 on the Verdict Framework. Verdict: {{ scorecard.verdict }}. {{ scorecard.analyst_summary|truncatechars:100 }}{% endblock %}

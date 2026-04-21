@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 
 {% block title %}{{ video.title }}{% endblock %}
+{% block meta_description %}{{ video.seo_description }}{% endblock %}
+{% block og_description %}{{ video.seo_description }}{% endblock %}
+{% block twitter_description %}{{ video.seo_description }}{% endblock %}
 
 {% block schema_breadcrumb %}
 <script type="application/ld+json">

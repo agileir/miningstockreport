@@ -23,7 +23,10 @@ class PostListView(ListView):
     def get_context_data(self, **kwargs):
         ctx = super().get_context_data(**kwargs)
         ctx["pillars"] = Pillar.objects.filter(is_active=True)
-        ctx["active_pillar"] = self.kwargs.get("pillar", "")
+        pillar_slug = self.kwargs.get("pillar", "")
+        ctx["active_pillar"] = pillar_slug
+        if pillar_slug:
+            ctx["pillar_obj"] = Pillar.objects.filter(slug=pillar_slug).first()
         return ctx
 
 
