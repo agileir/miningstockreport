@@ -2,9 +2,9 @@
 {% load autolink %}
 
 {% block title %}{{ company.ticker }} — {{ company.name }}{% endblock %}
-{% block meta_description %}{{ company.ticker }} ({{ company.exchange }}) — {{ company.name }}{% if company.primary_commodity %}, {{ company.primary_commodity }} explorer{% endif %}{% if company.jurisdiction %} in {{ company.jurisdiction }}{% endif %}. Independent Verdict Framework scorecard{% if latest %}: {{ latest.verdict }}, {{ latest.composite_score }}/25{% endif %}.{% endblock %}
-{% block og_description %}{{ company.ticker }} ({{ company.exchange }}) — {{ company.name }}{% if company.primary_commodity %}, {{ company.primary_commodity }} explorer{% endif %}{% if company.jurisdiction %} in {{ company.jurisdiction }}{% endif %}. Independent Verdict Framework scorecard{% if latest %}: {{ latest.verdict }}, {{ latest.composite_score }}/25{% endif %}.{% endblock %}
-{% block twitter_description %}{{ company.ticker }} ({{ company.exchange }}) — {{ company.name }}{% if company.primary_commodity %}, {{ company.primary_commodity }} explorer{% endif %}{% if company.jurisdiction %} in {{ company.jurisdiction }}{% endif %}. Independent Verdict Framework scorecard{% if latest %}: {{ latest.verdict }}, {{ latest.composite_score }}/25{% endif %}.{% endblock %}
+{% block meta_description %}{{ company.ticker }} ({{ company.exchange }}) — {{ company.name }}{% if company.primary_commodity %}, {{ company.primary_commodity }}{% if company.tier == 'major' %} major producer{% elif company.tier == 'mid' %} mid-tier producer{% else %} explorer{% endif %}{% endif %}{% if company.jurisdiction %} in {{ company.jurisdiction }}{% endif %}.{% if latest %} Verdict Framework scorecard: {{ latest.verdict }}, {{ latest.composite_score }}/25.{% elif company.tier != 'junior' %} Independent mining stock analysis and company profile.{% else %} Independent Verdict Framework scorecard.{% endif %}{% endblock %}
+{% block og_description %}{{ company.ticker }} ({{ company.exchange }}) — {{ company.name }}{% if company.primary_commodity %}, {{ company.primary_commodity }}{% if company.tier == 'major' %} major producer{% elif company.tier == 'mid' %} mid-tier producer{% else %} explorer{% endif %}{% endif %}{% if company.jurisdiction %} in {{ company.jurisdiction }}{% endif %}.{% if latest %} Verdict Framework scorecard: {{ latest.verdict }}, {{ latest.composite_score }}/25.{% elif company.tier != 'junior' %} Independent mining stock analysis and company profile.{% else %} Independent Verdict Framework scorecard.{% endif %}{% endblock %}
+{% block twitter_description %}{{ company.ticker }} ({{ company.exchange }}) — {{ company.name }}{% if company.primary_commodity %}, {{ company.primary_commodity }}{% if company.tier == 'major' %} major producer{% elif company.tier == 'mid' %} mid-tier producer{% else %} explorer{% endif %}{% endif %}{% if company.jurisdiction %} in {{ company.jurisdiction }}{% endif %}.{% if latest %} Verdict Framework scorecard: {{ latest.verdict }}, {{ latest.composite_score }}/25.{% elif company.tier != 'junior' %} Independent mining stock analysis and company profile.{% else %} Independent Verdict Framework scorecard.{% endif %}{% endblock %}
 
 {% block content %}
 <div class="bg-dark py-4 border-bottom border-secondary">
@@ -34,6 +34,10 @@
           {% else %}bg-danger{% endif %}">
           {{ latest.verdict }}
         </span>
+      {% elif company.tier == 'major' %}
+        <span class="badge fs-6 fw-bold ms-auto bg-info text-dark">Major Producer</span>
+      {% elif company.tier == 'mid' %}
+        <span class="badge fs-6 fw-bold ms-auto bg-info text-dark">Mid-Tier Producer</span>
       {% endif %}
     </div>
   </div>
@@ -42,6 +46,18 @@
 <div class="container py-5">
   <div class="row g-5">
     <div class="col-lg-8">
+
+      {# ── Producer profile (majors/mid-tiers without scorecards) ── #}
+      {% if not latest and company.tier != 'junior' %}
+        {% if company.description %}
+        <div class="card bg-dark border-secondary mb-4">
+          <div class="card-body">
+            <h5 class="text-warning fw-bold mb-3">Company Profile</h5>
+            <div class="text-white" style="line-height:1.8;">{{ company.description|linebreaks|autolink }}</div>
+          </div>
+        </div>
+        {% endif %}
+      {% endif %}
 
       {% if latest %}
         {# Latest scorecard summary #}

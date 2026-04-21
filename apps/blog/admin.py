@@ -22,9 +22,9 @@ class PillarAdmin(admin.ModelAdmin):
 
 @admin.register(Post)
 class PostAdmin(admin.ModelAdmin):
-    list_display  = ("title", "pillar", "author", "status", "is_premium",
+    list_display  = ("title", "pillar", "post_type", "author", "status", "is_premium",
                      "word_count", "published_at", "view_count")
-    list_filter   = ("status", "pillar", "is_premium")
+    list_filter   = ("status", "pillar", "post_type", "is_premium", "geo_target")
     search_fields = ("title", "excerpt", "body")
     prepopulated_fields = {"slug": ("title",)}
     date_hierarchy = "published_at"
@@ -38,10 +38,10 @@ class PostAdmin(admin.ModelAdmin):
         }),
         ("Content", {
             "fields": ("excerpt", "answer_capsule", "key_takeaways", "body",
-                       "faq_items", "featured_image", "featured_image_alt"),
+                       "ranked_items", "faq_items", "featured_image", "featured_image_alt"),
         }),
         ("Classification", {
-            "fields": ("pillar", "tags", "is_premium"),
+            "fields": ("pillar", "post_type", "geo_target", "tags", "is_premium"),
         }),
         ("SEO & Open Graph", {
             "classes": ("collapse",),

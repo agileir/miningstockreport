@@ -41,7 +41,15 @@ class PostDetailView(DetailView):
             published_at__lte=timezone.now(),
         ).select_related("author", "pillar")
 
+    def get_template_names(self):
+        if self.object.post_type == "listicle":
+            return ["blog/post_detail_listicle.html"]
+        if self.object.post_type == "guide":
+            return ["blog/post_detail_guide.html"]
+        return ["blog/post_detail.html"]
+
     def get(self, request, *args, **kwargs):
+        self.object = self.get_object()
         response = super().get(request, *args, **kwargs)
         self.object.increment_views()
         return response

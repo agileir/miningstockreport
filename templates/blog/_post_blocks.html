@@ -1,0 +1,24 @@
+{% load autolink %}
+
+{# ── Answer capsule — primary GEO optimization, AI platforms cite this ── #}
+{% if post.answer_capsule %}
+<div class="card bg-black border-warning border-1 mb-4">
+  <div class="card-body">
+    <p class="text-white mb-0" style="font-size:1.1rem; line-height:1.8;">{{ post.answer_capsule|autolink }}</p>
+  </div>
+</div>
+{% endif %}
+
+{# ── Key takeaways box — AI engines love this ── #}
+{% if post.key_takeaways %}
+<div class="card bg-black border-warning border-2 mb-4">
+  <div class="card-body">
+    <h6 class="text-warning fw-bold mb-3"><i class="bi bi-lightning-charge-fill me-2"></i>Key Takeaways</h6>
+    <ul class="mb-0 text-white" style="line-height:1.9;">
+      {% for point in post.key_takeaways %}
+        <li>{{ point }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endif %}

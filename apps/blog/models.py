@@ -48,6 +48,11 @@ class Post(SEOMixin, models.Model):
         DRAFT     = "draft",     "Draft"
         PUBLISHED = "published", "Published"
 
+    class PostType(models.TextChoices):
+        STANDARD = "standard", "Standard Analysis"
+        LISTICLE = "listicle", "Ranked List / Best-Of"
+        GUIDE    = "guide",    "Pillar Guide"
+
     title  = models.CharField(max_length=250)
     slug   = AutoSlugField(populate_from="title", unique=True, always_update=False)
     author = models.ForeignKey(
@@ -80,6 +85,19 @@ class Post(SEOMixin, models.Model):
         null=True, blank=True, related_name="posts", db_index=True,
     )
     tags       = TaggableManager(blank=True)
+    post_type = models.CharField(
+        max_length=10, choices=PostType.choices, default=PostType.STANDARD,
+        help_text="Controls template layout. Listicle = ranked items. Guide = long-form with TOC.",
+    )
+    ranked_items = models.JSONField(
+        default=list, blank=True,
+        help_text='For listicle posts. List of {"rank": 1, "name": "...", "ticker": "...", '
+                  '"summary": "...", "company_slug": "..."} objects. company_slug is optional.',
+    )
+    geo_target = models.CharField(
+        max_length=10, blank=True,
+        help_text='Optional geo target: "CA", "AU", "US", "UK". Used for hreflang tags.',
+    )
     is_premium = models.BooleanField(default=False)
     status       = models.CharField(max_length=10, choices=Status.choices, default=Status.DRAFT, db_index=True)
     published_at = models.DateTimeField(null=True, blank=True, db_index=True)

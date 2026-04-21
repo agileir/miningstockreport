@@ -35,9 +35,9 @@
       </div>
     </form>
 
-    <div class="d-flex gap-2 flex-wrap">
+    <div class="d-flex gap-2 flex-wrap mb-2">
       <a href="{% url 'verdict:company_list' %}"
-         class="btn btn-sm {% if not active_verdict and not search_query %}btn-warning{% else %}btn-outline-secondary{% endif %}">All</a>
+         class="btn btn-sm {% if not active_verdict and not active_tier and not search_query %}btn-warning{% else %}btn-outline-secondary{% endif %}">All</a>
       {% for val, label in verdict_choices %}
       <a href="?verdict={{ val }}"
          class="btn btn-sm {% if active_verdict == val %}
@@ -45,6 +45,15 @@
            {% elif val == 'WATCH' %}btn-warning text-dark
            {% else %}btn-danger{% endif %}
          {% else %}btn-outline-secondary{% endif %}">
+        {{ label }}
+      </a>
+      {% endfor %}
+    </div>
+    <div class="d-flex gap-2 flex-wrap">
+      <span class="text-secondary small align-self-center me-1">Tier:</span>
+      {% for val, label in tier_choices %}
+      <a href="?tier={{ val }}"
+         class="btn btn-sm {% if active_tier == val %}btn-info text-dark{% else %}btn-outline-secondary{% endif %}">
         {{ label }}
       </a>
       {% endfor %}

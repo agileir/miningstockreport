@@ -5,7 +5,7 @@ from django.db.models import Q
 from django.http import Http404
 from django.shortcuts import get_object_or_404, redirect
 from django.views.generic import ListView, DetailView
-from .models import Company, VerdictScorecard, VerdictChoice
+from .models import Company, CompanyTier, VerdictScorecard, VerdictChoice
 
 
 class CompanyListView(ListView):
@@ -31,12 +31,19 @@ class CompanyListView(ListView):
         if verdict_filter in VerdictChoice.values:
             qs = qs.filter(scorecards__verdict=verdict_filter, scorecards__is_published=True)
 
+        # Filter by tier
+        tier_filter = self.request.GET.get("tier")
+        if tier_filter in CompanyTier.values:
+            qs = qs.filter(tier=tier_filter)
+
         return qs.distinct()
 
     def get_context_data(self, **kwargs):
         ctx = super().get_context_data(**kwargs)
         ctx["verdict_choices"] = VerdictChoice.choices
+        ctx["tier_choices"] = CompanyTier.choices
         ctx["active_verdict"] = self.request.GET.get("verdict", "")
+        ctx["active_tier"] = self.request.GET.get("tier", "")
         ctx["search_query"] = self.request.GET.get("q", "")
         return ctx
 

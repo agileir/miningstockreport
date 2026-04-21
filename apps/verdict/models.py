@@ -21,6 +21,12 @@ class VerdictChoice(models.TextChoices):
     AVOID = "AVOID", "Avoid"
 
 
+class CompanyTier(models.TextChoices):
+    JUNIOR = "junior", "Junior / Explorer"
+    MID    = "mid",    "Mid-Tier Producer"
+    MAJOR  = "major",  "Major Producer"
+
+
 class Company(SEOMixin, models.Model):
     """A mining company that can be analysed via the Verdict Framework."""
     name = models.CharField(max_length=200, blank=True, help_text="Leave blank — AI agent will fill this in from the ticker.")
@@ -37,6 +43,10 @@ class Company(SEOMixin, models.Model):
     )
     jurisdiction = models.CharField(max_length=100, blank=True, help_text="e.g. British Columbia, Nevada, Peru")
     primary_commodity = models.CharField(max_length=50, blank=True, help_text="e.g. Gold, Copper, Silver")
+    tier = models.CharField(
+        max_length=10, choices=CompanyTier.choices, default=CompanyTier.JUNIOR,
+        help_text="Controls page layout. Juniors show Verdict Framework. Majors/mid-tiers show producer profile.",
+    )
     needs_research = models.BooleanField(
         default=False,
         help_text="Flag for the AI agent to research and generate a verdict scorecard.",

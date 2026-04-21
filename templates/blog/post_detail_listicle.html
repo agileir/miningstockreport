@@ -1,0 +1,260 @@
+{% extends "base.html" %}
+{% load static %}
+{% load autolink %}
+
+{% block title %}{{ post.seo_title }}{% endblock %}
+{% block title_inner %}{{ post.seo_title }}{% endblock %}
+{% block title_inner2 %}{{ post.seo_title }}{% endblock %}
+{% block meta_description %}{{ post.seo_description }}{% endblock %}
+{% block og_type %}article{% endblock %}
+{% block og_title %}{{ post.seo_title }} | {{ SITE_NAME }}{% endblock %}
+{% block og_description %}{{ post.seo_description }}{% endblock %}
+{% block twitter_title %}{{ post.seo_title }} | {{ SITE_NAME }}{% endblock %}
+{% block twitter_description %}{{ post.seo_description }}{% endblock %}
+{% block robots %}index, follow{% endblock %}
+
+{% if post.og_image %}
+{% block og_image %}{{ SITE_URL }}{{ post.og_image.url }}{% endblock %}
+{% block og_image_alt %}{{ post.og_image_alt|default:post.title }}{% endblock %}
+{% block twitter_image %}{{ SITE_URL }}{{ post.og_image.url }}{% endblock %}
+{% endif %}
+
+{% if post.geo_target %}
+{% block hreflang %}
+<link rel="alternate" hreflang="en-{{ post.geo_target|lower }}" href="{{ SITE_URL }}{{ post.get_absolute_url }}">
+<link rel="alternate" hreflang="en" href="{{ SITE_URL }}{{ post.get_absolute_url }}">
+{% endblock %}
+{% endif %}
+
+{# ── Breadcrumb schema ── #}
+{% block schema_breadcrumb %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home",     "item": "{{ SITE_URL }}/"},
+    {"@type": "ListItem", "position": 2, "name": "Analysis", "item": "{{ SITE_URL }}/analysis/"},
+    {"@type": "ListItem", "position": 3, "name": "{{ post.pillar.name }}", "item": "{{ SITE_URL }}/analysis/pillar/{{ post.pillar.slug }}/"},
+    {"@type": "ListItem", "position": 4, "name": "{{ post.title|escapejs }}", "item": "{{ SITE_URL }}{{ post.get_absolute_url }}"}
+  ]
+}
+</script>
+{% endblock %}
+
+{# ── Article + ItemList + optional FAQPage schema ── #}
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ post.title|escapejs }}",
+  "description": "{{ post.seo_description|escapejs }}",
+  "datePublished": "{{ post.published_at|date:'c' }}",
+  "dateModified": "{{ post.updated_at|date:'c' }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ post.author.display_name|default:'Mining Stock Report'|escapejs }}",
+    "url": "{{ SITE_URL }}{% url 'core:author_profile' post.author.username %}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ SITE_NAME }}",
+    "url": "{{ SITE_URL }}"
+  },
+  "url": "{{ SITE_URL }}{{ post.get_absolute_url }}",
+  "wordCount": {{ post.word_count }},
+  "timeRequired": "PT{{ post.reading_time }}M"
+  {% if post.featured_image %},
+  "image": "{{ SITE_URL }}{{ post.featured_image.url }}"
+  {% endif %}
+}
+</script>
+
+{% if post.ranked_items %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "{{ post.title|escapejs }}",
+  "numberOfItems": {{ post.ranked_items|length }},
+  "itemListElement": [
+    {% for item in post.ranked_items %}
+    {
+      "@type": "ListItem",
+      "position": {{ item.rank|default:forloop.counter }},
+      "name": "{{ item.name|escapejs }}"{% if item.company_slug %},
+      "url": "{{ SITE_URL }}/companies/{{ item.company_slug }}/"{% endif %}
+    }{% if not forloop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+
+{% if post.faq_items %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for faq in post.faq_items %}
+    {
+      "@type": "Question",
+      "name": "{{ faq.question|escapejs }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ faq.answer|escapejs }}"
+      }
+    }{% if not forloop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+{% endblock %}
+
+{% block content %}
+<div class="bg-dark py-4 border-bottom border-secondary">
+  <div class="container" style="max-width:860px;">
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb text-secondary small mb-2">
+        <li class="breadcrumb-item"><a href="{% url 'core:home' %}" class="text-secondary">Home</a></li>
+        <li class="breadcrumb-item"><a href="{% url 'blog:post_list' %}" class="text-secondary">Analysis</a></li>
+        {% if post.pillar %}<li class="breadcrumb-item"><a href="{% url 'blog:post_list_by_pillar' post.pillar.slug %}" class="text-secondary">{{ post.pillar.name }}</a></li>{% endif %}
+        <li class="breadcrumb-item active text-white">{{ post.title|truncatechars:50 }}</li>
+      </ol>
+    </nav>
+
+    <div class="mb-2">
+      <span class="badge bg-secondary me-1">{{ post.pillar.name }}</span>
+      <span class="badge bg-warning text-dark me-1">Ranked List</span>
+      {% if post.is_premium %}<span class="badge bg-warning text-dark"><i class="bi bi-lock-fill"></i> Premium</span>{% endif %}
+    </div>
+
+    <h1 class="text-white fw-bold">{{ post.title }}</h1>
+    <p class="text-secondary lead">{{ post.excerpt }}</p>
+
+    <div class="d-flex align-items-center gap-3 mt-3 small text-secondary flex-wrap">
+      <span><i class="bi bi-person me-1"></i><a href="{% url 'core:author_profile' post.author.username %}" class="text-secondary text-decoration-none">{{ post.author.display_name }}</a></span>
+      <span><i class="bi bi-calendar me-1"></i>{{ post.published_at|date:"M j, Y" }}</span>
+      <span><i class="bi bi-clock me-1"></i>{{ post.reading_time }} min read</span>
+    </div>
+  </div>
+</div>
+
+<div class="container py-5" style="max-width:860px;">
+
+  {% if post.featured_image %}
+    <img src="{{ post.featured_image.url }}"
+         alt="{{ post.featured_image_alt|default:post.title }}"
+         class="img-fluid rounded mb-4 w-100" style="max-height:420px; object-fit:cover;">
+  {% endif %}
+
+  {% include "blog/_post_blocks.html" %}
+
+  {# ── Ranked Items ── #}
+  {% if post.ranked_items %}
+  <div class="mb-5">
+    {% for item in post.ranked_items %}
+    <div class="card bg-dark border-secondary mb-3">
+      <div class="card-body">
+        <div class="d-flex align-items-start gap-3">
+          <div class="bg-warning text-dark rounded-circle d-flex align-items-center justify-content-center fw-bold flex-shrink-0"
+               style="width:40px; height:40px; font-size:1.1rem;">
+            {{ item.rank|default:forloop.counter }}
+          </div>
+          <div class="flex-grow-1">
+            <div class="d-flex justify-content-between align-items-start mb-1">
+              <h3 class="text-white fw-bold h5 mb-0">
+                {% if item.company_slug %}
+                  <a href="{% url 'verdict:company_detail' item.company_slug %}" class="text-white text-decoration-none">{{ item.name }}</a>
+                {% else %}
+                  {{ item.name }}
+                {% endif %}
+              </h3>
+              {% if item.ticker %}
+                <span class="badge bg-secondary ms-2">{{ item.ticker }}</span>
+              {% endif %}
+            </div>
+            {% if item.summary %}
+              <p class="text-secondary mb-0" style="line-height:1.7;">{{ item.summary }}</p>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {# ── Body ── #}
+  {% if is_locked %}
+    <div class="text-white post-body mb-4" style="line-height:1.8;">{{ post.body|truncatechars:300 }}</div>
+    <div class="card bg-black border-warning border-2 text-center py-5 px-4">
+      <i class="bi bi-lock-fill text-warning mb-3" style="font-size:2.5rem;"></i>
+      <h4 class="text-white fw-bold">This post is for subscribers</h4>
+      <p class="text-secondary mb-4">Get full access to every verdict, deep dive, and watchlist update. Start with the free Junior Mining Starter Checklist.</p>
+      <a href="{% url 'leads:subscribe' %}" class="btn btn-warning btn-lg fw-bold px-5">Get Free Access</a>
+    </div>
+  {% else %}
+    <div class="text-white post-body" style="line-height:1.8;">{{ post.body|autolink }}</div>
+  {% endif %}
+
+  {# ── FAQ accordion ── #}
+  {% if post.faq_items and not is_locked %}
+  <div class="mt-5 pt-4 border-top border-secondary">
+    <h4 class="text-white fw-bold mb-4"><i class="bi bi-question-circle text-warning me-2"></i>Frequently Asked Questions</h4>
+    <div class="accordion accordion-flush" id="faqAccordion">
+      {% for faq in post.faq_items %}
+      <div class="accordion-item bg-dark border-secondary">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed bg-dark text-white"
+                  type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq{{ forloop.counter }}">
+            {{ faq.question }}
+          </button>
+        </h2>
+        <div id="faq{{ forloop.counter }}" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-secondary">{{ faq.answer }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {# ── Tags ── #}
+  {% with tags=post.tags.all %}{% if tags %}
+  <div class="mt-5 pt-4 border-top border-secondary">
+    <span class="text-secondary small me-2">Tagged:</span>
+    {% for tag in tags %}
+      <a href="{% url 'blog:post_list' %}?tag={{ tag.slug }}" class="badge bg-secondary text-decoration-none me-1">{{ tag.name }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}{% endwith %}
+
+  {# ── Related posts ── #}
+  {% if related_posts %}
+  <div class="mt-5 pt-4 border-top border-secondary">
+    <h5 class="text-white fw-bold mb-4">Related Analysis</h5>
+    <div class="row g-3">
+      {% for rp in related_posts %}
+      <div class="col-md-4">
+        <a href="{{ rp.get_absolute_url }}" class="text-decoration-none">
+          <div class="card bg-dark border-secondary h-100">
+            <div class="card-body">
+              <span class="badge bg-secondary mb-2 small">{{ rp.pillar.name }}</span>
+              <p class="text-white small mb-0">{{ rp.title }}</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+</div>
+{% endblock %}

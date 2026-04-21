@@ -23,7 +23,6 @@ class StaticViewSitemap(Sitemap):
 
 class PostSitemap(Sitemap):
     changefreq = "monthly"
-    priority   = 0.8
 
     def items(self):
         return Post.objects.filter(
@@ -33,6 +32,11 @@ class PostSitemap(Sitemap):
 
     def lastmod(self, obj):
         return obj.updated_at
+
+    def priority(self, obj):
+        if obj.post_type == "guide":
+            return 0.9
+        return 0.8
 
 
 class CompanySitemap(Sitemap):

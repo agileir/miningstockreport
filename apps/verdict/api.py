@@ -32,7 +32,7 @@ class CompanySerializer(serializers.ModelSerializer):
         fields = [
             "id", "name", "slug", "ticker", "exchange", "exchange_label",
             "description", "website", "logo", "jurisdiction",
-            "primary_commodity", "latest_verdict",
+            "primary_commodity", "tier", "latest_verdict",
         ]
 
 
