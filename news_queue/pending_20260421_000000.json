@@ -1,0 +1,74 @@
+[
+  {
+    "headline": "AGNICO EAGLE BUYS AN ENTIRE GOLD DISTRICT: $3.8B Finland sweep swallows Rupert Resources, Aurion, and B2Gold JV stake",
+    "url": "https://www.newswire.ca/news-releases/agnico-eagle-to-consolidate-finland-s-central-lapland-greenstone-belt-in-three-separate-transactions-859336182.html",
+    "source_name": "Newswire.ca",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Agnico Eagle announced three simultaneous transactions to consolidate Finland's Central Lapland Greenstone Belt, acquiring Rupert Resources (~$2.87B), Aurion Resources (C$481M), and B2Gold's 70% Fingold JV stake ($325M). The combined 2,492 km² land position targets 500,000 oz/year within the decade, with $500M in construction and operating synergies estimated.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "WHITE HOUSE–BACKED USA RARE EARTH acquires Brazil's Serra Verde for $2.8B — sole non-Asian producer of all 4 magnetic rare earths",
+    "url": "https://www.globenewswire.com/news-release/2026/04/20/3276796/0/en/USA-Rare-Earth-Announces-Definitive-Agreement-to-Acquire-Serra-Verde-Group-for-2-8-Billion-Creating-the-Global-Rare-Earth-Leader.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "rare-earths",
+    "snippet": "USA Rare Earth agreed to acquire Serra Verde Group for approximately $2.8 billion in cash and stock, securing the world's only mine outside Asia producing all four magnetic rare earth elements (Nd, Pr, Dy, Tb) at commercial scale. A U.S. government-backed 15-year offtake agreement covers 100% of production; USAR stock climbed over 8% on the announcement.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD RETREATS to $4,800 as Iran closes Strait of Hormuz — oil spikes 5%, precious metals face stagflation paradox",
+    "url": "https://www.fxstreet.com/news/gold-slips-toward-4-800-as-iran-tensions-lift-yields-and-oil-202604201710",
+    "source_name": "FXStreet",
+    "category_slug": "gold-silver",
+    "snippet": "Gold pulled back from last week's $4,850 peak to the $4,770–$4,800 range after Iran declared the Strait of Hormuz closed to all commercial vessels, sending oil up 5% and raising inflation fears. The move erases over a week of gains as markets weigh whether rising energy costs ultimately support or undermine the safe-haven bid for gold.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CLSA UPGRADES GOLD TO $5,500/oz MEDIUM-TERM — Goldman lifts year-end target to $5,400; both frame current dip as a buying opportunity",
+    "url": "https://goldseek.com/article/gold-swot-clsa-sees-gold-regaining-5500-ounce-medium-term",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "In this week's Gold SWOT, CLSA raised its gold price forecasts to $4,840 (2026), $5,130 (2027), and $5,500 (2028), citing structural demand from central banks, ETF inflows, and persistent geopolitical risk. Goldman Sachs simultaneously lifted its December 2026 target to $5,400/oz — both firms characterize the current Hormuz-driven pullback as a tactical entry point, not a trend reversal.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "DRYDEN GOLD drills 252 g/t bonanza grade in Ontario — three new zones confirmed 300m beyond known mineralization (TSX-V: DRY)",
+    "url": "https://www.bnnbloomberg.ca/investment-trends/2026/04/20/dryden-gold-makes-three-new-high-grade-discoveries-at-gold-rockwaterfall/",
+    "source_name": "BNN Bloomberg",
+    "category_slug": "exploration-discovery",
+    "snippet": "Dryden Gold Corp. reported three new high-grade gold discoveries at its Big Master Gold System on the Gold Rock property in Ontario. Standout intercept DGR-048 returned 4.25 metres grading 32.87 g/t gold — including a 0.50-metre interval of 252 g/t gold — at the Sparrow zone, located approximately 300 metres northeast of previously known high-grade mineralization.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "DESPITE DIPLOMATIC TENSIONS, US commits $50M to South Africa's Phalaborwa Rare Earths — a calculated China-bypass bet",
+    "url": "https://www.usnews.com/news/us/articles/2026-04-19/the-us-backs-a-south-africa-project-to-extract-rare-earths-despite-a-diplomatic-clash",
+    "source_name": "US News",
+    "category_slug": "rare-earths",
+    "snippet": "The U.S. International Development Finance Corporation made a $50 million equity investment in South Africa's Phalaborwa Rare Earths Project, pressing ahead despite active diplomatic friction between Washington and Pretoria. The move is part of an accelerated U.S. push to build Western rare earth supply chains independent of China.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "NORTH AMERICA'S FIRST: Mangrove Lithium opens commercial electrochemical lithium refinery in Delta, BC — 1,000 t/year of battery-grade LiOH",
+    "url": "https://www.electrive.com/2026/04/20/mangrove-lithium-opens-lithium-refinery-in-canada/",
+    "source_name": "Electrive",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Mangrove Lithium opened North America's first commercial electrochemical lithium refinery in Delta, British Columbia, producing 1,000 tonnes per year of battery-grade lithium hydroxide using proprietary technology compatible with hard rock, brine, clay, and recycled feedstocks. The Canadian government contributed up to C$21.9M; a larger Eastern Canada facility is already planned.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "URANIUM ROYALTY to acquire Sweetwater Royalties in $1.1B nuclear fuel deal — backed by Ontario Teachers' and Orion Resource Partners",
+    "url": "https://www.mining.com/uranium-royalty-to-buy-sweetwater-in-1-1b-deal/",
+    "source_name": "Mining.com",
+    "category_slug": "uranium-energy",
+    "snippet": "Uranium Royalty Corp. agreed to merge with Sweetwater Royalties in a deal implying a $1.9 billion enterprise value for Sweetwater, with URC acquiring a 92% interest for approximately $1.1 billion. Backed by Orion Resource Partners and Ontario Teachers' Pension Plan, the transaction creates a dominant North American uranium royalty platform as utility long-term contracting demand hits record levels.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
