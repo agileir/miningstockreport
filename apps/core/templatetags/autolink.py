@@ -10,7 +10,10 @@ Usage:
 Rules:
 - First occurrence of each phrase is linked; subsequent occurrences are left alone.
 - Text already inside <a>, <h1>–<h6>, <script>, <code>, <pre> tags is skipped.
-- Company names and tickers are sourced from the Company model automatically.
+- Company names link on bare word-boundary match ("Goldmining Inc.").
+- Tickers only link when prefixed with their exchange ("TSX:GOLD", "NYSE:ABX").
+  This prevents common words that happen to be tickers (GOLD, FURY, ONYX) from
+  over-linking generic mentions of the commodity or word.
 - Custom phrases come from the AutoLink model (managed in Django admin).
 - Matching is case-insensitive. Links use word boundaries to avoid partial matches.
 - Results are cached for 5 minutes to avoid DB hits on every render.
@@ -43,13 +46,14 @@ def _get_phrases():
 
     entries = []
 
-    # Company names and tickers
-    for c in Company.objects.only("name", "ticker", "slug"):
+    # Company names link bare; tickers require an exchange prefix to disambiguate
+    # from generic mining vocabulary (GOLD, FURY, ONYX, etc.).
+    for c in Company.objects.only("name", "ticker", "exchange", "slug"):
         url = c.get_absolute_url()
         if c.name:
             entries.append((c.name, url))
-        if c.ticker:
-            entries.append((c.ticker, url))
+        if c.ticker and c.exchange:
+            entries.append((f"{c.exchange}:{c.ticker}", url))
 
     # Custom editorial phrases
     for al in AutoLink.objects.filter(is_active=True).only("phrase", "target_url"):
