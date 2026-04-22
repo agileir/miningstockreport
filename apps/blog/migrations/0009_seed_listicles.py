@@ -423,9 +423,8 @@ this list every quarter.</p>
         "title": "Junior Gold Developers Ranked by P/NAV: Where the Discount Is Biggest in 2026",
         "meta_title": "Junior Gold P/NAV Rankings 2026: Biggest Discounts",
         "meta_description": (
-            "Ten junior gold equities trading below or near 1x net asset value in April 2026. "
-            "P/NAV figures with Verdict Framework scores so you can separate bargains from "
-            "structural discounts."
+            "Ten junior gold equities below or near 1x NAV in April 2026. P/NAV rankings with "
+            "Verdict Framework scores to separate bargains from structural discounts."
         ),
         "pillar_slug": "investing-guides",
         "excerpt": (
@@ -663,8 +662,8 @@ re-run the math against your own price deck before acting on any specific P/NAV 
         "title": "Best Copper Mining Stocks for 2026: What the Verdict Framework Says",
         "meta_title": "Best Copper Mining Stocks 2026: Verdict Framework",
         "meta_description": (
-            "Three copper-primary equities scored on our 5-factor Verdict Framework in April 2026. "
-            "Western Copper, NorthIsle Copper and Gold, and Max Resource — plus our coverage roadmap."
+            "Three copper-primary equities scored on our 5-factor Verdict Framework: Western "
+            "Copper, NorthIsle Copper and Gold, and Max Resource. April 2026."
         ),
         "pillar_slug": "company-verdicts",
         "excerpt": (
@@ -833,9 +832,8 @@ completed — no pre-announcement of who's next.</p>
         "title": "Mining Stocks to Avoid in 2026: What the AVOID Verdicts Tell Investors",
         "meta_title": "Mining Stocks to Avoid 2026: Verdict Framework Analysis",
         "meta_description": (
-            "Six mining equities received an AVOID verdict on our 5-factor Verdict Framework in "
-            "April 2026. What the framework sees, and what that does (and doesn't) mean for "
-            "investors."
+            "Six mining equities got an AVOID verdict on our 5-factor Verdict Framework in April "
+            "2026. What the framework sees, and what it doesn't."
         ),
         "pillar_slug": "company-verdicts",
         "excerpt": (
