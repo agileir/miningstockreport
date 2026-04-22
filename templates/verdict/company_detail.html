@@ -6,6 +6,51 @@
 {% block og_description %}{{ company.ticker }} ({{ company.exchange }}) — {{ company.name }}{% if company.primary_commodity %}, {{ company.primary_commodity }}{% if company.tier == 'major' %} major producer{% elif company.tier == 'mid' %} mid-tier producer{% else %} explorer{% endif %}{% endif %}{% if company.jurisdiction %} in {{ company.jurisdiction }}{% endif %}.{% if latest %} Verdict Framework scorecard: {{ latest.verdict }}, {{ latest.composite_score }}/25.{% elif company.tier != 'junior' %} Independent mining stock analysis and company profile.{% else %} Independent Verdict Framework scorecard.{% endif %}{% endblock %}
 {% block twitter_description %}{{ company.ticker }} ({{ company.exchange }}) — {{ company.name }}{% if company.primary_commodity %}, {{ company.primary_commodity }}{% if company.tier == 'major' %} major producer{% elif company.tier == 'mid' %} mid-tier producer{% else %} explorer{% endif %}{% endif %}{% if company.jurisdiction %} in {{ company.jurisdiction }}{% endif %}.{% if latest %} Verdict Framework scorecard: {{ latest.verdict }}, {{ latest.composite_score }}/25.{% elif company.tier != 'junior' %} Independent mining stock analysis and company profile.{% else %} Independent Verdict Framework scorecard.{% endif %}{% endblock %}
 
+{% block og_type %}{% if latest %}article{% else %}website{% endif %}{% endblock %}
+
+{# ── Breadcrumb schema ── #}
+{% block schema_breadcrumb %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home",     "item":"{{ SITE_URL }}/"},
+    {"@type":"ListItem","position":2,"name":"Companies","item":"{{ SITE_URL }}/companies/"},
+    {"@type":"ListItem","position":3,"name":"{{ company.ticker }}","item":"{{ SITE_URL }}{{ company.get_absolute_url }}"}
+  ]
+}
+</script>
+{% endblock %}
+
+{# ── Review schema — the hub is the canonical page for a company's current verdict ── #}
+{% if latest %}
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Corporation",
+    "name": "{{ company.name|escapejs }}",
+    "tickerSymbol": "{{ company.ticker }}",
+    "url": "{% if company.website %}{{ company.website }}{% endif %}"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "{{ latest.composite_score }}",
+    "bestRating": "25",
+    "worstRating": "5"
+  },
+  "name": "{{ company.ticker }} Verdict Framework Scorecard — {{ latest.verdict }}",
+  "reviewBody": "{{ latest.analyst_summary|escapejs }}",
+  "author": {"@type": "Organization", "name": "{{ SITE_NAME }}"},
+  "datePublished": "{{ latest.scored_at|date:'c' }}"
+}
+</script>
+{% endblock %}
+{% endif %}
+
 {% block content %}
 <div class="bg-dark py-4 border-bottom border-secondary">
   <div class="container">
@@ -60,49 +105,54 @@
       {% endif %}
 
       {% if latest %}
-        {# Latest scorecard summary #}
-        <div class="card bg-black border-warning border-2 mb-4">
+        {# Composite score + date — analyst summary sits below the factor breakdown for prominence #}
+        <div class="card bg-dark border-secondary mb-4">
           <div class="card-body">
-            <div class="d-flex justify-content-between align-items-center mb-3">
-              <h5 class="text-warning fw-bold mb-0">Latest Verdict</h5>
-              <span class="text-secondary small">{{ latest.scored_at|date:"M j, Y" }}</span>
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <span class="text-white fw-bold">Composite Score</span>
+              <span class="text-white fw-bold fs-4">{{ latest.composite_score }}<span class="text-secondary fs-6">/25</span></span>
             </div>
-            <div class="text-white mb-3">{{ latest.analyst_summary|linebreaks|autolink }}</div>
-            <div class="progress bg-dark mb-2" style="height:10px;">
+            <div class="progress bg-black mb-2" style="height:12px;">
               <div class="progress-bar
                 {% if latest.composite_score_pct >= 70 %}bg-success
                 {% elif latest.composite_score_pct >= 45 %}bg-warning
                 {% else %}bg-danger{% endif %}"
-                style="width:{{ latest.composite_score_pct }}%">
-              </div>
+                style="width:{{ latest.composite_score_pct }}%"></div>
             </div>
             <div class="d-flex justify-content-between small text-secondary">
-              <span>Composite score: {{ latest.composite_score }}/25</span>
+              <span>Scored {{ latest.scored_at|date:"M j, Y" }}</span>
               <a href="{{ latest.get_absolute_url }}" class="text-warning text-decoration-none">
-                Full scorecard &rarr;
+                View dated scorecard &rarr;
               </a>
             </div>
           </div>
         </div>
 
-        {# Score breakdown grid #}
-        <div class="row g-2 mb-4">
-          {% for factor_name, factor_score in latest_factors %}
-          <div class="col-6 col-md-4">
-            <div class="card bg-dark border-secondary text-center p-3">
-              <div class="text-secondary small mb-1">{{ factor_name }}</div>
-              <div class="d-flex justify-content-center gap-1">
+        {# Factor-by-factor breakdown with notes — the full Verdict Framework analysis #}
+        <h5 class="text-white fw-bold mb-3 mt-4">Verdict Framework Breakdown</h5>
+        {% for factor in latest_factors %}
+        <div class="card bg-dark border-secondary mb-3">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-start">
+              <h6 class="text-white mb-1">{{ factor.label }}</h6>
+              <div class="d-flex gap-1 align-items-center">
                 {% for i in "12345" %}
-                  <span class="rounded-circle"
-                    style="width:10px;height:10px;display:inline-block;
-                      background:{% if forloop.counter <= factor_score %}#ffc107{% else %}#333{% endif %};">
-                  </span>
+                  <span class="rounded-circle d-inline-block"
+                    style="width:13px;height:13px;background:{% if forloop.counter <= factor.score %}#ffc107{% else %}#2a2a2a{% endif %};"></span>
                 {% endfor %}
+                <span class="text-secondary small ms-1">{{ factor.score }}/5</span>
               </div>
-              <div class="text-white fw-bold mt-1">{{ factor_score }}/5</div>
             </div>
+            {% if factor.notes %}<div class="text-secondary small mt-1">{{ factor.notes|linebreaksbr|autolink }}</div>{% endif %}
           </div>
-          {% endfor %}
+        </div>
+        {% endfor %}
+
+        <div class="card bg-black border-warning border-2 mt-4 mb-4">
+          <div class="card-body">
+            <h5 class="text-warning fw-bold mb-3"><i class="bi bi-chat-square-quote me-2"></i>Analyst Summary</h5>
+            <div class="text-white">{{ latest.analyst_summary|linebreaks|autolink }}</div>
+          </div>
         </div>
       {% endif %}
 
@@ -139,6 +189,35 @@
     </div>
 
     <div class="col-lg-4">
+      {% if latest.nav_per_share or latest.p_nav_multiple %}
+      <div class="card bg-dark border-secondary mb-4">
+        <div class="card-header border-secondary"><span class="text-white fw-bold small text-uppercase">Valuation</span></div>
+        <div class="card-body">
+          {% if latest.nav_per_share %}
+          <div class="d-flex justify-content-between py-2 border-bottom border-secondary">
+            <span class="text-secondary small">NAV / Share</span>
+            <span class="text-white fw-bold">{% if company.exchange == 'TSX' or company.exchange == 'TSXV' %}C{% elif company.exchange == 'ASX' %}A{% elif company.exchange == 'LSE' %}&pound;{% else %}US{% endif %}${{ latest.nav_per_share }}</span>
+          </div>
+          {% endif %}
+          {% if latest.current_price %}
+          <div class="d-flex justify-content-between py-2 border-bottom border-secondary">
+            <span class="text-secondary small">Price at Scoring</span>
+            <span class="text-white fw-bold">{% if company.exchange == 'TSX' or company.exchange == 'TSXV' %}C{% elif company.exchange == 'ASX' %}A{% elif company.exchange == 'LSE' %}&pound;{% else %}US{% endif %}${{ latest.current_price }}</span>
+          </div>
+          {% endif %}
+          {% if latest.p_nav_multiple %}
+          <div class="d-flex justify-content-between py-2">
+            <span class="text-secondary small">P/NAV Multiple</span>
+            <span class="text-warning fw-bold">{{ latest.p_nav_multiple|floatformat:2 }}x</span>
+          </div>
+          <p class="text-secondary mt-2 mb-0" style="font-size:.75rem;">
+            Reference: explorers 0.1–0.3x &middot; acquisition range 0.5–1.0x
+          </p>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+
       <div class="card bg-dark border-secondary">
         <div class="card-header border-secondary">
           <span class="text-white fw-bold small text-uppercase">Company Details</span>
@@ -158,10 +237,6 @@
             {% if latest %}
             <dt class="text-secondary">Report Date</dt>
             <dd class="text-white">{{ latest.scored_at|date:"M j, Y" }}</dd>
-            {% if latest.current_price %}
-            <dt class="text-secondary">Price at Report</dt>
-            <dd class="text-white">{% if company.exchange == 'TSX' or company.exchange == 'TSXV' %}C{% elif company.exchange == 'ASX' %}A{% elif company.exchange == 'LSE' %}&pound;{% else %}US{% endif %}${{ latest.current_price|floatformat:2 }}</dd>
-            {% endif %}
             {% endif %}
             {% if company.description %}
             <dt class="text-secondary">About</dt>

@@ -68,11 +68,11 @@ class CompanyDetailView(DetailView):
         if ctx["latest"]:
             sc = ctx["latest"]
             ctx["latest_factors"] = [
-                ("Management",  sc.management_score),
-                ("Geology",     sc.geology_score),
-                ("Capital",     sc.capital_score),
-                ("Catalyst",    sc.catalyst_score),
-                ("Acquisition", sc.acquisition_score),
+                {"label": "Management Skin-in-the-Game", "score": sc.management_score,  "notes": sc.management_notes},
+                {"label": "Project Geology Quality",     "score": sc.geology_score,     "notes": sc.geology_notes},
+                {"label": "Capital Structure Health",    "score": sc.capital_score,     "notes": sc.capital_notes},
+                {"label": "Catalyst Proximity",          "score": sc.catalyst_score,    "notes": sc.catalyst_notes},
+                {"label": "Comparable Acquisition Value", "score": sc.acquisition_score, "notes": sc.acquisition_notes},
             ]
         return ctx
 
