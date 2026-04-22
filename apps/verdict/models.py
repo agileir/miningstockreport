@@ -174,3 +174,56 @@ class VerdictScorecard(SEOMixin, models.Model):
         if self.nav_per_share and self.current_price and self.nav_per_share > 0:
             self.p_nav_multiple = self.current_price / self.nav_per_share
         super().save(*args, **kwargs)
+
+
+class CompanyQueueStatus(models.TextChoices):
+    PENDING       = "pending",       "Pending verification"
+    ACTIVE        = "active",        "Active — ready to promote"
+    PROMOTED      = "promoted",      "Promoted to Company"
+    DELISTED      = "delisted",      "Delisted"
+    ACQUIRED      = "acquired",      "Acquired"
+    OUT_OF_SCOPE  = "out_of_scope",  "Out of scope (exchange)"
+    REJECTED      = "rejected",      "Rejected"
+
+
+class CompanyQueue(models.Model):
+    """
+    Candidate ticker queue. Tickers sourced from third-party directories
+    (miningfeeds.com, SEDI search, editorial suggestion) land here before
+    they become Company records. The promote_queue management command
+    creates Company records from ACTIVE queue entries at a controlled
+    pace; the data-fill and research agents take it from there.
+    """
+    ticker = models.CharField(max_length=20)
+    exchange = models.CharField(max_length=10, choices=Exchange.choices)
+    name = models.CharField(max_length=200, blank=True)
+    primary_commodity = models.CharField(max_length=50, blank=True)
+    country = models.CharField(max_length=100, blank=True, help_text="Country of primary operations")
+    status = models.CharField(
+        max_length=20, choices=CompanyQueueStatus.choices,
+        default=CompanyQueueStatus.PENDING, db_index=True,
+    )
+    source = models.CharField(
+        max_length=100, blank=True,
+        help_text="Where this ticker was sourced from (e.g. 'miningfeeds.com/gold').",
+    )
+    company = models.ForeignKey(
+        Company, on_delete=models.SET_NULL, null=True, blank=True,
+        related_name="queue_entries",
+        help_text="Set when this queue entry is promoted to a Company record.",
+    )
+    notes = models.TextField(blank=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        verbose_name = "Company queue entry"
+        verbose_name_plural = "Company queue"
+        ordering = ["status", "ticker"]
+        unique_together = ("ticker", "exchange")
+        indexes = [
+            models.Index(fields=["status", "exchange"]),
+        ]
+
+    def __str__(self):
+        return f"{self.exchange}:{self.ticker} ({self.get_status_display()})"

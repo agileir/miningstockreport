@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.utils.html import format_html
-from .models import Company, VerdictScorecard
+from .models import Company, VerdictScorecard, CompanyQueue, CompanyQueueStatus
 
 
 class VerdictScorecardInline(admin.TabularInline):
@@ -84,3 +84,67 @@ class VerdictScorecardAdmin(admin.ModelAdmin):
     def composite_score_display(self, obj):
         return f"{obj.composite_score}/25 ({obj.composite_score_pct}%)"
     composite_score_display.short_description = "Composite Score"
+
+
+@admin.register(CompanyQueue)
+class CompanyQueueAdmin(admin.ModelAdmin):
+    list_display  = ("ticker", "exchange", "name", "primary_commodity", "country",
+                     "status", "source", "company", "updated_at")
+    list_filter   = ("status", "exchange", "primary_commodity", "source")
+    search_fields = ("ticker", "name")
+    list_editable = ("status",)
+    readonly_fields = ("created_at", "updated_at", "company")
+    fieldsets = (
+        (None, {"fields": ("ticker", "exchange", "name", "primary_commodity", "country")}),
+        ("Status & Source", {"fields": ("status", "source", "notes")}),
+        ("Linked Company", {"fields": ("company",), "classes": ("collapse",)}),
+        ("Timestamps", {"fields": ("created_at", "updated_at"), "classes": ("collapse",)}),
+    )
+    actions = ["mark_active", "mark_delisted", "mark_acquired", "mark_out_of_scope", "promote_selected"]
+
+    @admin.action(description="Mark as active")
+    def mark_active(self, request, queryset):
+        queryset.update(status=CompanyQueueStatus.ACTIVE)
+
+    @admin.action(description="Mark as delisted")
+    def mark_delisted(self, request, queryset):
+        queryset.update(status=CompanyQueueStatus.DELISTED)
+
+    @admin.action(description="Mark as acquired")
+    def mark_acquired(self, request, queryset):
+        queryset.update(status=CompanyQueueStatus.ACQUIRED)
+
+    @admin.action(description="Mark as out of scope")
+    def mark_out_of_scope(self, request, queryset):
+        queryset.update(status=CompanyQueueStatus.OUT_OF_SCOPE)
+
+    @admin.action(description="Promote selected to Company records")
+    def promote_selected(self, request, queryset):
+        promoted = 0
+        skipped = 0
+        for entry in queryset.filter(status=CompanyQueueStatus.ACTIVE, company__isnull=True):
+            # Avoid duplicate Company records
+            existing = Company.objects.filter(ticker=entry.ticker, exchange=entry.exchange).first()
+            if existing:
+                entry.company = existing
+                entry.status = CompanyQueueStatus.PROMOTED
+                entry.save(update_fields=["company", "status"])
+                skipped += 1
+                continue
+            company = Company.objects.create(
+                ticker=entry.ticker,
+                exchange=entry.exchange,
+                name=entry.name,
+                primary_commodity=entry.primary_commodity,
+                jurisdiction=entry.country,
+                needs_research=False,
+                data_filled=False,
+            )
+            entry.company = company
+            entry.status = CompanyQueueStatus.PROMOTED
+            entry.save(update_fields=["company", "status"])
+            promoted += 1
+        self.message_user(
+            request,
+            f"Promoted {promoted} new Company records; linked {skipped} entries to existing Company rows.",
+        )
