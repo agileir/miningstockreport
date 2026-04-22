@@ -27,6 +27,49 @@
   </div>
 </div>
 
+{# ── About the Video Library (SEO intro, first page only) ── #}
+{% if page_obj.number == 1 or not page_obj %}
+<section class="py-5 bg-black border-bottom border-secondary">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-7">
+        <h2 class="text-white fw-bold h5 mb-3">What's in the Video Library</h2>
+        <p class="text-secondary">
+          The video archive is the long-form companion to the written Verdict Framework scorecards.
+          Where a scorecard is a snapshot — a numeric read on a company at a point in time — the
+          videos walk through the actual reasoning: why a project's metallurgy matters more than its
+          grade for this particular deposit, why a warrant tranche expiring in eight months changes
+          the catalyst math, why a management team with two prior failures still deserves a shot on
+          the third. Each video pairs with a written post or scorecard on the same company so the
+          numbers and the narrative sit side-by-side.
+        </p>
+        <p class="text-secondary mb-0">
+          Coverage runs across four threads: company deep-dives (full scorecard walkthroughs),
+          market commentary (gold-price, copper-price, and macro set-up videos), due-diligence
+          walkthroughs (how to read a 43-101, how to screen a share structure), and accountability
+          updates (what changed, what we got wrong, why we exited a position). Nothing is paid or
+          sponsored. If a company pays to be covered anywhere on this site, we disclose it in the
+          first line of the transcript.
+        </p>
+      </div>
+      <div class="col-lg-5">
+        <div class="card bg-dark border-secondary h-100">
+          <div class="card-body">
+            <h3 class="text-warning fw-bold h6 mb-3">How to Use This Library</h3>
+            <ul class="text-secondary small ps-3 mb-0">
+              <li class="mb-2">Watch the full company deep-dive before acting on a scorecard — the video often covers a risk the scorecard summarises in a single factor</li>
+              <li class="mb-2">Subscribe on YouTube for new uploads; videos are posted here first, then mirrored to the channel</li>
+              <li class="mb-2">Market commentary videos are time-stamped and archived — if a thesis ages out, the video stays up with a note</li>
+              <li class="mb-0">Premium videos (if any) are marked with a lock badge and require an active subscription</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
 <div class="container py-5">
   {% if videos %}
     <div class="row g-4">

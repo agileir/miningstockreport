@@ -13,6 +13,15 @@ class PillarAdmin(admin.ModelAdmin):
         (None, {
             "fields": ("name", "slug", "description", "seo_title", "sort_order", "is_active"),
         }),
+        ("Long-form intro (pillar landing page)", {
+            "classes": ("collapse",),
+            "fields": ("intro_html",),
+            "description": (
+                "Rendered as HTML below the header on the pillar landing page. "
+                "Aim for 300-400 unique words per pillar to keep the page out of "
+                "thin-content SEO audits."
+            ),
+        }),
     )
 
     def post_count(self, obj):

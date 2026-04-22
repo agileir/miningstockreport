@@ -17,6 +17,12 @@ class Pillar(models.Model):
         blank=True,
         help_text="SEO-focused description. Used in pillar landing page meta description.",
     )
+    intro_html = models.TextField(
+        blank=True,
+        help_text="Long-form on-page intro for the pillar landing page. "
+                  "Rendered as HTML below the header and filter bar. "
+                  "Aim for 300-400 unique words per pillar to avoid thin-content SEO flags.",
+    )
     seo_title = models.CharField(
         max_length=70, blank=True,
         help_text="Custom meta title for pillar pages (50-60 chars ideal). Leave blank to auto-derive.",

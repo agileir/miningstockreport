@@ -7,14 +7,16 @@
 {% block twitter_description %}Download the free 12-point Junior Mining Starter Checklist — covering management, geology, capital structure, catalysts, and valuation in plain language.{% endblock %}
 
 {% block content %}
-<div class="container py-5" style="max-width:560px;">
+<div class="container py-5" style="max-width:720px;">
   <div class="card bg-dark border-warning border-2">
     <div class="card-body p-5">
       <span class="badge bg-warning text-dark mb-3">Free Download</span>
       <h1 class="text-white fw-bold mb-2 h2">Junior Mining Starter Checklist</h1>
       <p class="text-secondary mb-4">
         The 12-point checklist applied to every company before it touches the watchlist.
-        Covers management skin-in-the-game, project geology, capital structure health, catalyst proximity, and comparable acquisition valuation — in plain language. Built from the same Verdict Framework used in our published scorecards.
+        Covers management skin-in-the-game, project geology, capital structure health, catalyst
+        proximity, and comparable acquisition valuation — in plain language. Built from the same
+        Verdict Framework used in our published scorecards.
       </p>
       <form method="post" action="{% url 'leads:subscribe' %}">
         {% csrf_token %}
@@ -35,5 +37,34 @@
       </form>
     </div>
   </div>
+
+  <section class="mt-5">
+    <h2 class="text-white fw-bold h4 mb-3">What's Actually in the Checklist</h2>
+    <p class="text-secondary">
+      The Junior Mining Starter Checklist is a two-page PDF built to be used at the desk —
+      next to a company's latest financials, technical report, and management information
+      circular. It walks through the twelve questions we ask before a junior goes on the
+      watchlist, with the specific filings, page numbers, and public data sources that answer
+      each one. It is not a marketing ebook. It is the same pre-screen that gates every
+      scorecard published on this site.
+    </p>
+    <h3 class="text-warning fw-bold h5 mt-4 mb-2">What You'll Learn</h3>
+    <ul class="text-secondary ps-3">
+      <li class="mb-2">How to read a SEDI insider-trading summary and distinguish genuine buying from option exercises and automatic-plan dispositions</li>
+      <li class="mb-2">Where in an NI 43-101 report to check grade, cutoff, and metallurgy — and what to flag when any of those three numbers are missing</li>
+      <li class="mb-2">How to calculate fully-diluted share count and warrant overhang from public filings without trusting the company's own investor deck</li>
+      <li class="mb-2">The catalyst calendar approach — how we timetable news events against working-capital runway</li>
+      <li class="mb-0">A worked P/NAV comparison using three recent acquisitions in the same commodity and jurisdiction</li>
+    </ul>
+    <h3 class="text-warning fw-bold h5 mt-4 mb-2">What Happens After You Subscribe</h3>
+    <p class="text-secondary mb-0">
+      The checklist arrives immediately by email. After that, you'll get weekly research notes
+      — typically one scorecard update, one watchlist change, and one due-diligence explainer.
+      Premium coverage (full scorecard archive, live position tracking, accredited-investor
+      deal flow) is opt-in and separate. No upsell sequence, no pressure, and one-click
+      unsubscribe in every email. We do not share or sell email addresses and we don't
+      send sponsored content from third parties.
+    </p>
+  </section>
 </div>
 {% endblock %}

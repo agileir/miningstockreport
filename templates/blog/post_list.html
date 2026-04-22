@@ -43,6 +43,60 @@
   </div>
 </div>
 
+{# ── Pillar-specific long-form intro (distinct per-pillar SEO copy) ── #}
+{% if pillar_obj and pillar_obj.intro_html and page_obj.number == 1 %}
+<section class="py-5 bg-black border-bottom border-secondary">
+  <div class="container">
+    <div class="pillar-intro text-secondary">
+      {{ pillar_obj.intro_html|safe }}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{# ── /analysis/ hub intro (no active pillar) ── #}
+{% if not active_pillar and page_obj.number == 1 %}
+<section class="py-5 bg-black border-bottom border-secondary">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-7">
+        <h2 class="text-white fw-bold h5 mb-3">The Analysis Hub</h2>
+        <p class="text-secondary">
+          The analysis hub is where every piece of written research on Mining Stock Report lives —
+          organised by pillar so readers can go directly to the thread that matters to them.
+          Company Verdicts are deep-dives that conclude with a BUY, WATCH, or AVOID rating on a
+          specific junior miner. Investing Guides are longer evergreen pieces — how to read a
+          43-101, how to size a position in an explorer, how to build a catalyst calendar.
+          Market Commentary tracks the macro set-up for gold, copper, uranium, and lithium
+          juniors. Market Intelligence is the M&A and financing activity that moves the sector.
+          Price of Gold is dedicated to the commodity that drives most of the universe we cover.
+        </p>
+        <p class="text-secondary mb-0">
+          Every post is built on public filings and source documents — no company-provided
+          research, no paid coverage, no recycled press releases. Where we disagree with a
+          consensus view, we show the math. Where we got something wrong, we correct it in
+          a new post rather than silently editing the old one. That's the editorial line,
+          and it is the reason this site exists.
+        </p>
+      </div>
+      <div class="col-lg-5">
+        <div class="card bg-dark border-secondary h-100">
+          <div class="card-body">
+            <h3 class="text-warning fw-bold h6 mb-3">How to Navigate the Archive</h3>
+            <ul class="text-secondary small ps-3 mb-0">
+              <li class="mb-2">Use the pillar filters above to narrow to a single thread</li>
+              <li class="mb-2">Company Verdicts are dated — older verdicts are preserved but superseded by newer ones</li>
+              <li class="mb-2">Guides and explainers are updated in place when source data changes; all updates are timestamped</li>
+              <li class="mb-0">Premium posts are flagged; most long-form research is free to read</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
 <div class="container py-5">
   {% if posts %}
     <div class="row g-4">

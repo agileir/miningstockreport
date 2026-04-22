@@ -61,6 +61,47 @@
   </div>
 </div>
 
+{# ── How the Directory Works (SEO intro, only when no filters applied) ── #}
+{% if not active_verdict and not active_tier and not search_query and page_obj.number == 1 %}
+<section class="py-5 bg-black border-bottom border-secondary">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <h2 class="text-white fw-bold h5 mb-3">How to Read a Verdict Scorecard</h2>
+        <p class="text-secondary">
+          Each company in this directory has been run through the same five-factor Verdict Framework.
+          Scorecards are based entirely on public filings — SEDAR/SEDI for Canadian issuers, ASX
+          announcements for Australian listings, SEC filings where applicable — supplemented by the
+          most recent NI 43-101 or JORC-compliant technical report. We do not rely on management
+          interviews or company-prepared investor decks for any scoring input.
+        </p>
+        <p class="text-secondary mb-0">
+          A composite score above 18/25 is rare and almost always maps to BUY. 13–17 is the WATCH
+          zone — the story is interesting but something (often capital structure, often geology
+          confidence) is not quite there yet. Below 13 is AVOID. We do not grade on a curve,
+          and we republish scorecards on any material change: new drill results, a financing, a
+          management change, or a catalyst miss.
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <h2 class="text-white fw-bold h5 mb-3">The Five Factors</h2>
+        <ul class="text-secondary ps-3 mb-0">
+          <li class="mb-2"><strong class="text-white">Management</strong> — insider ownership as a percentage of outstanding, recent open-market buying, share-issuance discipline, and track record on prior ventures.</li>
+          <li class="mb-2"><strong class="text-white">Geology</strong> — resource category (inferred vs indicated vs measured), grade relative to commodity-specific benchmarks, metallurgy, and deposit continuity.</li>
+          <li class="mb-2"><strong class="text-white">Capital Structure</strong> — shares outstanding fully diluted, warrant overhang, working-capital runway, and history of dilution.</li>
+          <li class="mb-2"><strong class="text-white">Catalysts</strong> — proximity and materiality of the next news event — drill results, resource update, PEA/PFS/FS, permits, offtake.</li>
+          <li class="mb-0"><strong class="text-white">Acquisition Value</strong> — P/NAV versus comparable M&A transactions in the same commodity and jurisdiction over the trailing 24 months.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="text-secondary small mb-0 mt-4">
+      Use the tier filters above to narrow by producer, developer, or explorer — or the verdict
+      filters to show only BUY-rated names. Search by ticker, company name, or primary commodity.
+    </p>
+  </div>
+</section>
+{% endif %}
+
 <div class="container py-5">
   {% if companies %}
     <div class="row g-4">
