@@ -2,7 +2,7 @@ from django.contrib.sitemaps import Sitemap
 from django.urls import reverse
 from django.utils import timezone
 from apps.blog.models import Post
-from apps.verdict.models import Company, VerdictScorecard
+from apps.verdict.models import Company
 from apps.videos.models import Video
 
 
@@ -50,15 +50,10 @@ class CompanySitemap(Sitemap):
         return obj.updated_at
 
 
-class ScorecardSitemap(Sitemap):
-    changefreq = "monthly"
-    priority   = 0.8
-
-    def items(self):
-        return VerdictScorecard.objects.filter(is_published=True).select_related("company")
-
-    def lastmod(self, obj):
-        return obj.updated_at
+# Dated scorecards (/companies/<slug>/scorecard/YYYY-MM-DD/) are intentionally
+# omitted from the sitemap. Each one is noindex, follow — preserved as a public
+# accountability record but not submitted for indexing. Ranking signals for a
+# company consolidate on the hub page in CompanySitemap.
 
 
 class VideoSitemap(Sitemap):
@@ -76,6 +71,5 @@ sitemaps = {
     "static":     StaticViewSitemap,
     "posts":      PostSitemap,
     "companies":  CompanySitemap,
-    "scorecards": ScorecardSitemap,
     "videos":     VideoSitemap,
 }

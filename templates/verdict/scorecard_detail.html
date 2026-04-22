@@ -8,6 +8,12 @@
 {% block meta_description %}{{ scorecard.company.ticker }} ({{ scorecard.company.exchange }}) scores {{ scorecard.composite_score }}/25 on the Verdict Framework. Verdict: {{ scorecard.verdict }}. {{ scorecard.analyst_summary|truncatechars:100 }}{% endblock %}
 {% block og_type %}article{% endblock %}
 
+{# Dated scorecards are preserved as a public accountability record, but search
+   engines should consolidate on the company hub at /companies/<slug>/.
+   Noindex keeps these pages accessible to direct links and human readers while
+   routing ranking signals to the canonical hub via the follow directive. #}
+{% block robots %}noindex, follow{% endblock %}
+
 {# ── Breadcrumb schema ── #}
 {% block schema_breadcrumb %}
 <script type="application/ld+json">
