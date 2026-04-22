@@ -49,8 +49,8 @@ LISTICLES = [
         "title": "Junior Gold Miners with the Best Management: Insider Ownership in 2026",
         "meta_title": "Best Management in Junior Gold Mining 2026",
         "meta_description": (
-            "Ten junior and mid-tier gold equities scoring 4/5 or 5/5 on management in our "
-            "Verdict Framework. Insider ownership and alignment ranked for April 2026."
+            "Ten gold equities scoring 4/5 or 5/5 on management in our Verdict Framework. "
+            "Insider ownership and alignment ranked for April 2026."
         ),
         "pillar_slug": "investing-guides",
         "excerpt": (
@@ -163,8 +163,8 @@ a premium to comparable-asset peers for a reason.</p>
         "title": "Best-Capitalized Junior Gold Miners: Clean Cap Tables in 2026",
         "meta_title": "Best-Capitalized Junior Gold Miners 2026: Clean Cap Tables",
         "meta_description": (
-            "Ten gold equities scoring 4/5 or 5/5 on capital structure. Warrant overhang, dilution "
-            "history, and working-capital runway — the boring factor that decides outcomes."
+            "Ten gold equities scoring 4/5 or 5/5 on capital structure in our Verdict Framework. "
+            "Cap tables, warrant overhang, runway ranked."
         ),
         "pillar_slug": "investing-guides",
         "excerpt": (
@@ -265,8 +265,8 @@ Expect composition changes each quarter as cap tables shift with financing activ
         "title": "Gold Stocks Near Their Next Big Catalyst: 2026 Watchlist",
         "meta_title": "Gold Stocks Near Their Next Catalyst 2026",
         "meta_description": (
-            "Ten gold equities with catalyst scores of 4/5 or 5/5 in our Verdict Framework. "
-            "Drill results, resource updates, PEA/PFS milestones — what's coming in 2026."
+            "Ten gold equities with catalyst scores of 4/5 or 5/5. Drill results, resource "
+            "updates, PEA/PFS milestones coming in 2026."
         ),
         "pillar_slug": "market-commentary",
         "excerpt": (
@@ -372,8 +372,8 @@ almost completely every two quarters.</p>
         "title": "Most Undervalued Mining Stocks: The Acquisition-Value Play in 2026",
         "meta_title": "Most Undervalued Mining Stocks 2026: Acquisition Value",
         "meta_description": (
-            "Seven gold equities scoring 4/5 on the acquisition-value factor in our Verdict "
-            "Framework. Trading at meaningful discounts to comparable M&A transactions."
+            "Seven gold equities scoring 4/5 on acquisition value. Trading at meaningful discounts "
+            "to comparable M&A transactions in April 2026."
         ),
         "pillar_slug": "investing-guides",
         "excerpt": (
@@ -468,8 +468,8 @@ actionable for a position.</p>
         "title": "Royalty and Streaming Stocks: Why Franco-Nevada Still Earns a BUY",
         "meta_title": "Royalty and Streaming Gold Stocks 2026: Franco-Nevada Explained",
         "meta_description": (
-            "Royalty and streaming companies offer gold-price exposure without operational risk. "
-            "Why Franco-Nevada rates BUY on our framework and how the peer set compares."
+            "Royalty and streaming companies offer gold exposure without operational risk. "
+            "Why Franco-Nevada rates BUY on our framework."
         ),
         "pillar_slug": "investing-guides",
         "excerpt": (
@@ -563,8 +563,8 @@ portfolio.</p>
         "title": "Best Quebec Gold Mining Stocks 2026: Abitibi to James Bay Ranked",
         "meta_title": "Best Quebec Gold Mining Stocks 2026 Ranked",
         "meta_description": (
-            "Six Quebec gold juniors on our Verdict Framework coverage list ranked for 2026. "
-            "Amex, Probe, Fury, Azimut, Cartier, Kenorland — plus coverage gaps worth noting."
+            "Six Quebec gold juniors on our Verdict Framework coverage ranked for 2026. "
+            "Amex, Probe, Fury, Azimut, Cartier, Kenorland."
         ),
         "pillar_slug": "company-verdicts",
         "excerpt": (
@@ -665,8 +665,8 @@ stage juniors in other Canadian jurisdictions. The financing infrastructure is p
         "title": "Best Nevada Gold Mining Stocks 2026: Walker Lane and Carlin Trend Ranked",
         "meta_title": "Best Nevada Gold Mining Stocks 2026",
         "meta_description": (
-            "Five Nevada gold juniors on our Verdict Framework coverage for 2026. Borealis, "
-            "i-80 Gold, Minera Alamos, Nevada King — plus McEwen Mining queued for coverage."
+            "Five Nevada gold juniors on our Verdict Framework coverage for 2026. "
+            "Borealis, i-80 Gold, Minera Alamos, Nevada King."
         ),
         "pillar_slug": "company-verdicts",
         "excerpt": (
@@ -762,8 +762,8 @@ trade-offs:</p>
         "title": "Best Yukon Mining Stocks 2026: Gold and Copper in Canada's North",
         "meta_title": "Best Yukon Mining Stocks 2026: Gold and Copper",
         "meta_description": (
-            "Three Yukon-based mining equities in our Verdict Framework coverage plus Victoria "
-            "Gold in the research queue. Banyan, Snowline, Western Copper ranked for 2026."
+            "Three Yukon mining equities on our Verdict Framework plus Victoria Gold queued. "
+            "Banyan, Snowline, Western Copper ranked for 2026."
         ),
         "pillar_slug": "company-verdicts",
         "excerpt": (
@@ -855,8 +855,8 @@ capacity allows. The Yukon universe is broader than the three scored names above
         "title": "Best British Columbia Mining Stocks 2026: Golden Triangle to Vancouver Island",
         "meta_title": "Best British Columbia Mining Stocks 2026 Ranked",
         "meta_description": (
-            "Five BC-operating mining equities in our coverage, from Osisko Development's "
-            "Cariboo Gold to NorthIsle's Vancouver Island copper-gold. 2026 rankings."
+            "Five BC mining equities in our coverage, from Osisko Development's Cariboo Gold "
+            "to NorthIsle on Vancouver Island. 2026 rankings."
         ),
         "pillar_slug": "company-verdicts",
         "excerpt": (
@@ -958,8 +958,8 @@ upcoming research cycles.</p>
         "title": "High-Grade Gold Mining Stocks: Top Geology Scores on the Verdict Framework",
         "meta_title": "High-Grade Gold Mining Stocks 2026: Top Geology",
         "meta_description": (
-            "Ten gold and precious-metal equities scoring 4/5 or 5/5 on the geology factor of our "
-            "Verdict Framework. Grade, resource classification, and deposit continuity ranked."
+            "Ten gold and precious-metal equities scoring 4/5 or 5/5 on geology in our Verdict "
+            "Framework. Grade, category, metallurgy ranked."
         ),
         "pillar_slug": "investing-guides",
         "excerpt": (
@@ -1069,8 +1069,8 @@ Read the 43-101 beyond the grade number.</p>
         "title": "Mid-Tier and Major Gold Producers: What the Framework Says About the Big Names",
         "meta_title": "Mid-Tier and Major Gold Producers 2026: Framework Coverage",
         "meta_description": (
-            "The major and mid-tier Canadian gold producers — Agnico Eagle, Barrick, Newmont, "
-            "Kinross, and more. Initial framework read and the coverage roadmap for 2026."
+            "Canadian gold producers — Agnico, Barrick, Newmont, Kinross and more. Framework "
+            "read and the coverage roadmap for 2026."
         ),
         "pillar_slug": "company-verdicts",
         "excerpt": (
@@ -1184,8 +1184,8 @@ drawdowns and funds rebalancing into higher-variance names after major correctio
         "title": "One Factor Away From a BUY: WATCH-Rated Gold Stocks with Upgrade Potential",
         "meta_title": "WATCH-Rated Gold Stocks With BUY Upgrade Potential 2026",
         "meta_description": (
-            "Ten WATCH-rated gold equities with composite scores of 18-21 — one factor shift "
-            "from crossing into BUY territory on our Verdict Framework. April 2026."
+            "Ten WATCH-rated gold equities at composite 18-21 — one factor from BUY on our "
+            "Verdict Framework. April 2026 ranked."
         ),
         "pillar_slug": "company-verdicts",
         "excerpt": (
@@ -1296,8 +1296,8 @@ typically captures most of the re-rating return without requiring perfect single
         "title": "Junior Gold Miners in the Americas: Guyana, Mexico, Nicaragua and Beyond",
         "meta_title": "Junior Gold Miners in Americas 2026: Guyana, Mexico, Nicaragua",
         "meta_description": (
-            "Eight gold mining equities operating across Latin America and the Caribbean — "
-            "ranked on the Verdict Framework for April 2026. Americas ex-Canada coverage."
+            "Eight gold equities operating across Latin America and the Caribbean — ranked "
+            "on the Verdict Framework for April 2026."
         ),
         "pillar_slug": "company-verdicts",
         "excerpt": (
@@ -1524,8 +1524,8 @@ is 3-5% per name, silver positions should sit at 2-3% per name to equalise risk 
         "title": "Top TSX Senior Board Gold Mining Stocks for 2026",
         "meta_title": "Top TSX Gold Mining Stocks 2026: Senior Board Ranked",
         "meta_description": (
-            "Ten TSX senior board gold mining equities ranked on our Verdict Framework for 2026. "
-            "Franco-Nevada, Fury, G2 Goldfields, and more — from BUY to WATCH to mid-tier."
+            "Ten TSX senior board gold equities ranked on our Verdict Framework for 2026. "
+            "Franco-Nevada, Fury, G2 Goldfields, and more."
         ),
         "pillar_slug": "company-verdicts",
         "excerpt": (
