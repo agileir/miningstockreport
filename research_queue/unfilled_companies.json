@@ -1,6 +1,22 @@
 [
   {
-    "ticker": "EQX",
+    "ticker": "AEM",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "ABX",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "CCO",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "FR",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "K",
     "exchange": "TSX"
   }
 ]
