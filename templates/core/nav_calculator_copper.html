@@ -212,21 +212,98 @@
         </div>
       {% endif %}
 
-      <div class="card bg-dark border-secondary">
+      <div class="card bg-black border-warning border-2 mb-5">
         <div class="card-body">
-          <h6 class="text-warning fw-bold mb-2"><i class="bi bi-exclamation-triangle me-2"></i>V1 Simplifications</h6>
-          <ul class="text-secondary small mb-0" style="line-height:1.7;">
-            <li>No corporate tax, sustaining capex, inflation, or royalty streams</li>
+          <h6 class="text-warning fw-bold mb-2"><i class="bi bi-exclamation-triangle me-2"></i>Known Limitations (V1)</h6>
+          <p class="text-secondary small mb-2">This calculator is a directional tool, not a replacement for a full engineering model. What it does <strong class="text-white">not</strong> include:</p>
+          <ul class="text-secondary small mb-3" style="line-height:1.7;">
+            <li>Corporate tax (add ~25-30% to opex for a rough proxy)</li>
+            <li>Sustaining capex during operations — material in declining-grade operations</li>
+            <li>Inflation adjustment — all numbers in nominal USD</li>
+            <li>Royalty streams and NSR payments</li>
+            <li>Debt servicing — the calculator assumes 100% equity financing</li>
+            <li>Copper-price hedges — a hedged producer earns less upside than the spot price suggests</li>
             <li>Copper-only — byproduct credits (gold, silver, moly) not included. Use the polymetallic calculator for those deposits.</li>
           </ul>
-          <p class="text-secondary small mt-3 mb-0" style="font-size:.72rem;">
-            Informational only. <a href="{% url 'core:disclaimer' %}" class="text-warning text-decoration-none">Full disclaimer</a>.
+          <p class="text-white small fw-bold mb-0">
+            <i class="bi bi-info-circle-fill text-warning me-1"></i>Do your own due diligence.
+          </p>
+          <p class="text-secondary small mb-0 mt-1">
+            Read the company's 43-101 technical report, their most recent annual information form, and their insider-transaction filings before acting on any NAV estimate — including this one. Informational only; not investment advice.
+            <a href="{% url 'core:disclaimer' %}" class="text-warning text-decoration-none">Full disclaimer &rarr;</a>
           </p>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+{# ─────────── Educational content section ─────────── #}
+<section class="bg-dark border-top border-secondary py-5">
+  <div class="container" style="max-width:900px;">
+    <h2 class="text-white fw-bold h4 mb-4">
+      <i class="bi bi-book text-warning me-2"></i>Understanding Copper Stock Valuations
+    </h2>
+
+    <h3 class="text-warning fw-bold h5 mb-2 mt-4">Copper NAV vs Gold NAV — Why the Numbers Behave Differently</h3>
+    <p class="text-secondary">
+      Gold is primarily a monetary commodity; copper is primarily an industrial one. That difference
+      shows up in how NAV math responds to price scenarios. Gold NAVs move relatively smoothly with
+      spot-price changes because gold demand is reasonably price-inelastic. Copper NAVs are more
+      sensitive to global manufacturing cycles and long-cycle capex decisions — a copper deposit
+      with favorable economics at $5.00/lb can look uneconomic at $3.50/lb if the long-term price
+      deck you use doesn't reflect the incentive price for new supply. Think about what price deck
+      your assumption is anchored to: spot today, a multi-year trailing average, or the long-term
+      industry incentive price around $5.00/lb.
+    </p>
+
+    <h3 class="text-warning fw-bold h5 mb-2 mt-4">How This Calculator Builds the Number</h3>
+    <p class="text-secondary">
+      The math converts copper grade (percent) to recoverable pounds per tonne, multiplies by your
+      copper price to get revenue per tonne processed, and runs a three-step DCF: revenue spread
+      across mine life, operating costs deducted, capex subtracted, result discounted back to
+      present value at your chosen discount rate. Resource-category confidence weights are applied
+      to tonnage (inferred 20%, indicated 50%, measured 75%, probable 85%, proven 100%) and a
+      study-stage haircut is applied to the final NAV (PEA 30% cut, PFS 15%, FS 0%). The result
+      is a per-share risk-adjusted NAV at each copper price you specify.
+    </p>
+
+    <h3 class="text-warning fw-bold h5 mb-2 mt-4">Byproduct Credits and Why They Matter for Copper</h3>
+    <p class="text-secondary">
+      Most large copper deposits produce meaningful gold and silver as byproducts, and the major
+      open-pit copper porphyries (Casino, Kamoa, Cascabel) often have molybdenum credits on top.
+      In a full feasibility study, these byproducts can contribute 15-30% of total project NPV —
+      which means a pure-copper NAV calculation can materially underestimate the real value of a
+      polymetallic deposit. If the company you are valuing has non-trivial gold, silver, or moly
+      credits, use the <a href="{% url 'core:nav_calculator_polymetallic' %}" class="text-warning text-decoration-none">
+      Polymetallic Stock Calculator</a> instead. This tool treats the project as copper-only and
+      will give you a lower NAV than the company's published feasibility figures if byproducts are
+      significant.
+    </p>
+
+    <h3 class="text-warning fw-bold h5 mb-2 mt-4">Reading the Output Matrix</h3>
+    <p class="text-secondary">
+      Three rows, up to four columns. The <strong class="text-white">gross NAV</strong> row assumes
+      every tonne is measured-category quality with no study-stage risk — the theoretical ceiling.
+      The <strong class="text-white">category-weighted NAV</strong> row discounts for resource
+      classification only. The <strong class="text-warning">stage-adjusted NAV</strong>
+      (highlighted in gold) applies both category and study-stage haircuts — the realistic number
+      to anchor on. Each column shows that scenario at a different copper price. The spread between
+      columns is a direct read on how much copper-price volatility is embedded in your thesis.
+    </p>
+
+    <h3 class="text-warning fw-bold h5 mb-2 mt-4">Why Grade Matters More for Copper Than for Gold</h3>
+    <p class="text-secondary">
+      Copper economics are more sensitive to grade than gold economics because copper mining is
+      higher-tonnage and lower-margin per tonne. Moving from 0.4% Cu to 0.6% Cu (a modest grade
+      increase) translates to a 50% increase in recoverable copper per tonne, which often makes
+      the difference between a marginal and a robust project. When comparing copper deposits, a
+      high-grade 0.8%+ porphyry with smaller tonnage can produce a better NAV than a lower-grade
+      (0.3%) bulk-tonnage deposit — the opex and capex savings from processing less total rock
+      are substantial. Use this calculator to verify those intuitions against specific deposit inputs.
+    </p>
+  </div>
+</section>
 
 <style>
   input[type="text"], input[type="number"], select, textarea {

@@ -203,21 +203,98 @@
         </div>
       {% endif %}
 
-      <div class="card bg-dark border-secondary">
+      <div class="card bg-black border-warning border-2 mb-5">
         <div class="card-body">
-          <h6 class="text-warning fw-bold mb-2"><i class="bi bi-exclamation-triangle me-2"></i>V1 Simplifications</h6>
-          <ul class="text-secondary small mb-0" style="line-height:1.7;">
-            <li>No corporate tax, sustaining capex, inflation, or royalty streams</li>
-            <li>Silver-primary only — use the polymetallic calculator for silver-lead-zinc or gold-silver</li>
+          <h6 class="text-warning fw-bold mb-2"><i class="bi bi-exclamation-triangle me-2"></i>Known Limitations (V1)</h6>
+          <p class="text-secondary small mb-2">This calculator is a directional tool, not a replacement for a full engineering model. What it does <strong class="text-white">not</strong> include:</p>
+          <ul class="text-secondary small mb-3" style="line-height:1.7;">
+            <li>Corporate tax (add ~25-30% to opex for a rough proxy)</li>
+            <li>Sustaining capex during operations — material in declining-grade operations</li>
+            <li>Inflation adjustment — all numbers in nominal USD</li>
+            <li>Royalty streams and NSR payments</li>
+            <li>Debt servicing — the calculator assumes 100% equity financing</li>
+            <li>Silver-price hedges — a hedged producer earns less upside than the spot price suggests</li>
+            <li>Silver-primary only — use the polymetallic calculator for silver-lead-zinc or gold-silver deposits with byproduct credits</li>
           </ul>
-          <p class="text-secondary small mt-3 mb-0" style="font-size:.72rem;">
-            Informational only. <a href="{% url 'core:disclaimer' %}" class="text-warning text-decoration-none">Full disclaimer</a>.
+          <p class="text-white small fw-bold mb-0">
+            <i class="bi bi-info-circle-fill text-warning me-1"></i>Do your own due diligence.
+          </p>
+          <p class="text-secondary small mb-0 mt-1">
+            Read the company's 43-101 technical report, their most recent annual information form, and their insider-transaction filings before acting on any NAV estimate — including this one. Informational only; not investment advice.
+            <a href="{% url 'core:disclaimer' %}" class="text-warning text-decoration-none">Full disclaimer &rarr;</a>
           </p>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+{# ─────────── Educational content section ─────────── #}
+<section class="bg-dark border-top border-secondary py-5">
+  <div class="container" style="max-width:900px;">
+    <h2 class="text-white fw-bold h4 mb-4">
+      <i class="bi bi-book text-warning me-2"></i>Understanding Silver Stock Valuations
+    </h2>
+
+    <h3 class="text-warning fw-bold h5 mb-2 mt-4">Silver NAV is Harder Than Gold NAV — Here's Why</h3>
+    <p class="text-secondary">
+      Silver sits at a messy intersection of monetary and industrial commodity behaviour, which
+      makes NAV modelling more finicky than gold. Silver prices respond to the same monetary
+      drivers as gold (real interest rates, dollar strength, safe-haven flows) but also to
+      industrial demand cycles — photovoltaic panel production is now the largest single silver
+      demand category, and changes in solar-panel thrifting or grid-buildout pace move silver
+      prices in ways gold does not experience. When you pick a silver price deck for this
+      calculator, consider whether you want spot, a trailing average, or a longer-term deck that
+      reflects normalised industrial demand.
+    </p>
+
+    <h3 class="text-warning fw-bold h5 mb-2 mt-4">How This Calculator Builds the Number</h3>
+    <p class="text-secondary">
+      The math converts silver grade (grams per tonne) to recoverable troy ounces per tonne,
+      multiplies by your silver price to get revenue per tonne processed, and runs a three-step
+      DCF: revenue spread across mine life, operating costs deducted, capex subtracted, result
+      discounted back to present value at your chosen discount rate. Resource-category confidence
+      weights apply to tonnage (inferred 20%, indicated 50%, measured 75%, probable 85%, proven
+      100%) and a study-stage haircut (PEA 30% cut, PFS 15%, FS 0%) applies to the final NAV.
+      The result is a per-share risk-adjusted NAV at each silver price you specify.
+    </p>
+
+    <h3 class="text-warning fw-bold h5 mb-2 mt-4">The Byproduct Silver Problem</h3>
+    <p class="text-secondary">
+      Most silver production globally comes as a byproduct of lead, zinc, copper, or gold mining —
+      only about 30% of annual silver output comes from primary silver mines. If you are valuing a
+      silver-primary producer (First Majestic, Endeavour Silver, Fortuna Mining, Pan American
+      Silver), this calculator is the right tool. If you are valuing a polymetallic miner where
+      silver is a secondary revenue stream (Pan American's Huaron, for example), the
+      <a href="{% url 'core:nav_calculator_polymetallic' %}" class="text-warning text-decoration-none">
+      Polymetallic Stock Calculator</a> handles gold-silver and copper-silver combinations more
+      accurately. A silver-only NAV on a polymetallic asset will systematically underestimate
+      the deposit's real value.
+    </p>
+
+    <h3 class="text-warning fw-bold h5 mb-2 mt-4">Silver Recovery is Trickier Than Gold Recovery</h3>
+    <p class="text-secondary">
+      Silver metallurgy varies more than gold metallurgy. Simple sulphide silver ores run high
+      recoveries (90%+) through conventional CIL processing. Refractory silver ores can require
+      oxidation pre-treatment or specialised leach chemistry, with recoveries as low as 65-75%.
+      Carbonaceous host rocks create "preg-robbing" problems that further degrade recovery. The
+      default recovery of 82% in this calculator is a reasonable average, but if the 43-101
+      reports a different figure for the specific deposit you are valuing, use that number — a
+      10-point recovery change produces a roughly 10% NAV change at constant grade and price.
+    </p>
+
+    <h3 class="text-warning fw-bold h5 mb-2 mt-4">The Gold-Silver Ratio as a Sanity Check</h3>
+    <p class="text-secondary">
+      After you generate a silver NAV, check it against the prevailing gold-silver ratio (gold
+      price divided by silver price). Historical range is 50-100; long-run average is roughly 65.
+      If your silver-price assumption puts the ratio at an extreme (below 50 or above 100), your
+      NAV output reflects that extreme — not an average-cycle valuation. Contrarian investors
+      sometimes use extreme ratios as allocation signals; for NAV modelling, it is usually safer
+      to use a price that puts the ratio in the 55-80 range unless you have a specific thesis on
+      the direction.
+    </p>
+  </div>
+</section>
 
 <style>
   input[type="text"], input[type="number"], select, textarea {

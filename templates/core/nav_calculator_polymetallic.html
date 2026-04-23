@@ -200,22 +200,100 @@
         </div>
       {% endif %}
 
-      <div class="card bg-dark border-secondary">
+      <div class="card bg-black border-warning border-2 mb-5">
         <div class="card-body">
-          <h6 class="text-warning fw-bold mb-2"><i class="bi bi-exclamation-triangle me-2"></i>V1 Simplifications</h6>
-          <ul class="text-secondary small mb-0" style="line-height:1.7;">
-            <li>Gold, copper, silver only — zinc, lead, and molybdenum (common in real deposits) not included in V1</li>
-            <li>No corporate tax, sustaining capex, inflation, or royalty streams</li>
-            <li>Two price benchmarks (base + long-term) rather than four to keep the form manageable</li>
+          <h6 class="text-warning fw-bold mb-2"><i class="bi bi-exclamation-triangle me-2"></i>Known Limitations (V1)</h6>
+          <p class="text-secondary small mb-2">This calculator is a directional tool, not a replacement for a full engineering model. What it does <strong class="text-white">not</strong> include:</p>
+          <ul class="text-secondary small mb-3" style="line-height:1.7;">
+            <li>Corporate tax (add ~25-30% to opex for a rough proxy)</li>
+            <li>Sustaining capex during operations — material in declining-grade operations</li>
+            <li>Inflation adjustment — all numbers in nominal USD</li>
+            <li>Royalty streams and NSR payments</li>
+            <li>Debt servicing — the calculator assumes 100% equity financing</li>
+            <li>Commodity-price hedges — hedged producers earn less upside than spot prices suggest</li>
+            <li>Gold-copper-silver only — zinc, lead, and molybdenum (common in real polymetallic deposits) not included</li>
+            <li>Two price benchmarks per commodity rather than four, to keep the form manageable</li>
           </ul>
-          <p class="text-secondary small mt-3 mb-0" style="font-size:.72rem;">
-            Informational only. <a href="{% url 'core:disclaimer' %}" class="text-warning text-decoration-none">Full disclaimer</a>.
+          <p class="text-white small fw-bold mb-0">
+            <i class="bi bi-info-circle-fill text-warning me-1"></i>Do your own due diligence.
+          </p>
+          <p class="text-secondary small mb-0 mt-1">
+            Read the company's 43-101 technical report, their most recent annual information form, and their insider-transaction filings before acting on any NAV estimate — including this one. Informational only; not investment advice.
+            <a href="{% url 'core:disclaimer' %}" class="text-warning text-decoration-none">Full disclaimer &rarr;</a>
           </p>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+{# ─────────── Educational content section ─────────── #}
+<section class="bg-dark border-top border-secondary py-5">
+  <div class="container" style="max-width:900px;">
+    <h2 class="text-white fw-bold h4 mb-4">
+      <i class="bi bi-book text-warning me-2"></i>Understanding Polymetallic Stock Valuations
+    </h2>
+
+    <h3 class="text-warning fw-bold h5 mb-2 mt-4">Why Polymetallic NAV is Its Own Discipline</h3>
+    <p class="text-secondary">
+      Polymetallic deposits are the most common type of real-world mine — pure single-commodity
+      deposits are the exception, not the rule. A gold-copper porphyry like Western Copper's Casino
+      or Ivanhoe's Kamoa-Kakula produces meaningful gold alongside the copper; a silver-lead-zinc
+      VMS system like Eskay Creek produces all three commodities in economic quantities. Valuing
+      these assets with a single-commodity calculator systematically understates their true worth
+      — sometimes by 20-40% of the published NAV figure, depending on byproduct contribution.
+      This calculator combines up to three commodities (gold, copper, silver) into a single
+      discounted-cash-flow model that captures the full revenue stream from every tonne of ore
+      processed.
+    </p>
+
+    <h3 class="text-warning fw-bold h5 mb-2 mt-4">How This Calculator Handles Combined Revenue</h3>
+    <p class="text-secondary">
+      For each tonne of ore processed, the calculator sums the revenue contribution from each of
+      gold, copper, and silver that you have provided non-zero grades for. Gold and silver grades
+      are entered in grams per tonne and priced in $/oz; copper grade is entered in percent and
+      priced in $/lb. Each commodity's contribution is the product of its grade, recovery, and
+      price, converted to a revenue-per-tonne figure. The total revenue per tonne drives the DCF
+      in the same way the single-commodity calculators work. Resource-category confidence weights
+      (inferred 20%, indicated 50%, measured 75%, probable 85%, proven 100%) apply to the tonnage
+      base, and a study-stage haircut (PEA 30% cut, PFS 15%, FS 0%) applies to the final per-share NAV.
+    </p>
+
+    <h3 class="text-warning fw-bold h5 mb-2 mt-4">Common Polymetallic Deposit Archetypes</h3>
+    <ul class="text-secondary" style="line-height:1.8;">
+      <li><strong class="text-white">Gold-copper porphyries:</strong> Large-tonnage, low-grade. Typical grades 0.3-0.8% Cu with 0.2-0.5 g/t Au. Gold contributes 20-40% of revenue even though copper is the primary commodity. Casino, Kamoa, Cascabel.</li>
+      <li><strong class="text-white">Gold-silver epithermal:</strong> Moderate-tonnage, higher-grade. Typical grades 2-10 g/t Au with 50-200 g/t Ag. Silver often contributes 15-30% of revenue. Juanicipio, Palmarejo, Dolores.</li>
+      <li><strong class="text-white">Silver-lead-zinc VMS:</strong> Smaller-tonnage, polymetallic. Silver grades 100-500 g/t typical. Lead and zinc (not supported in this V1 tool) often contribute 40-60% of revenue. Skeena's Eskay Creek restart is a modern example.</li>
+      <li><strong class="text-white">Copper-silver stratabound:</strong> Copper-dominant with silver credits of 20-80 g/t typical. KGHM's Lubin, the African Copperbelt's Zambian mines.</li>
+    </ul>
+
+    <h3 class="text-warning fw-bold h5 mb-2 mt-4">The Commodity-Correlation Risk</h3>
+    <p class="text-secondary">
+      A polymetallic deposit looks diversified from a price-exposure standpoint, but the three
+      commodities in this calculator (gold, copper, silver) are not as uncorrelated as investors
+      assume. Gold and silver move together over multi-year windows because of their shared
+      monetary driver layer. Copper and silver can move together when industrial demand surges.
+      Gold and copper can both fall during a USD-strength episode. The calculator does not model
+      this correlation — each commodity is treated independently — but the operator (and
+      investor) is fully exposed to simultaneous drawdowns across all three. When evaluating a
+      polymetallic name, test the NAV with a stressed low-price deck on all three commodities
+      simultaneously as your downside-case scenario.
+    </p>
+
+    <h3 class="text-warning fw-bold h5 mb-2 mt-4">Reading the Output</h3>
+    <p class="text-secondary">
+      Three rows, two columns. The <strong class="text-white">gross NAV</strong> row assumes every
+      tonne is measured-category quality with no study-stage risk. The
+      <strong class="text-white">category-weighted NAV</strong> row discounts for resource
+      classification. The <strong class="text-warning">stage-adjusted NAV</strong> (highlighted
+      in gold) applies both category and study-stage haircuts — the realistic read. The two
+      columns are your Base-Case and Long-term price decks. The spread between columns tells you
+      how much the deposit's value depends on commodity-price assumptions. A polymetallic deposit
+      with a narrow spread is relatively robust across cycles; a deposit with a wide spread is
+      more price-sensitive and requires a confident commodity-price view to own comfortably.
+    </p>
+  </div>
+</section>
 
 <style>
   input[type="text"], input[type="number"], select, textarea {

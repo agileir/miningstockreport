@@ -308,20 +308,25 @@
         </div>
       {% endif %}
 
-      <div class="card bg-dark border-secondary">
+      <div class="card bg-black border-warning border-2 mb-5">
         <div class="card-body">
-          <h6 class="text-warning fw-bold mb-2"><i class="bi bi-exclamation-triangle me-2"></i>Simplifications in This V1 Tool</h6>
-          <ul class="text-secondary small mb-0" style="line-height:1.7;">
-            <li>No corporate tax modelled (add ~30% to opex if you want a proxy)</li>
-            <li>No sustaining capex</li>
-            <li>No inflation adjustment (nominal dollars throughout)</li>
-            <li>Gold only — multi-commodity support is V2</li>
-            <li>No royalties or NSRs</li>
+          <h6 class="text-warning fw-bold mb-2"><i class="bi bi-exclamation-triangle me-2"></i>Known Limitations (V1)</h6>
+          <p class="text-secondary small mb-2">This calculator is a directional tool, not a replacement for a full engineering model. What it does <strong class="text-white">not</strong> include:</p>
+          <ul class="text-secondary small mb-3" style="line-height:1.7;">
+            <li>Corporate tax (add ~25-30% to opex for a rough proxy)</li>
+            <li>Sustaining capex during operations — material in declining-grade operations</li>
+            <li>Inflation adjustment — all numbers in nominal USD</li>
+            <li>Royalty streams and NSR payments</li>
+            <li>Debt servicing — the calculator assumes 100% equity financing</li>
+            <li>Commodity-price hedges — a hedged producer earns less upside than the spot price suggests</li>
+            <li>Gold only — multi-commodity support is in the Copper, Silver, and Polymetallic tools</li>
           </ul>
-          <p class="text-secondary small mt-3 mb-0" style="font-size:.72rem;">
-            This tool is for informational and educational purposes only. Risk-adjusted NAV is one
-            input into a position-sizing decision — it does not constitute investment advice.
-            Read our <a href="{% url 'core:disclaimer' %}" class="text-warning text-decoration-none">full disclaimer</a>.
+          <p class="text-white small fw-bold mb-0">
+            <i class="bi bi-info-circle-fill text-warning me-1"></i>Do your own due diligence.
+          </p>
+          <p class="text-secondary small mb-0 mt-1">
+            Read the company's 43-101 technical report, their most recent annual information form, and their insider-transaction filings before acting on any NAV estimate — including this one. Informational only; not investment advice.
+            <a href="{% url 'core:disclaimer' %}" class="text-warning text-decoration-none">Full disclaimer &rarr;</a>
           </p>
         </div>
       </div>
@@ -329,6 +334,82 @@
 
   </div>
 </div>
+
+{# ─────────── Educational content section ─────────── #}
+<section class="bg-dark border-top border-secondary py-5">
+  <div class="container" style="max-width:900px;">
+    <h2 class="text-white fw-bold h4 mb-4">
+      <i class="bi bi-book text-warning me-2"></i>Understanding Gold Stock Valuations
+    </h2>
+
+    <h3 class="text-warning fw-bold h5 mb-2 mt-4">What NAV Actually Tells You</h3>
+    <p class="text-secondary">
+      Net Asset Value per share is a benchmark for what a gold deposit is worth in the ground today,
+      discounted back to present value. It is the closest thing the industry has to a fair-value
+      anchor. Unlike a P/E ratio (which assumes the company is profitable) or a market-cap-to-ounces
+      metric (which ignores extraction economics), NAV captures the full cash-flow profile a deposit
+      is expected to generate over its life. When a stock trades at 0.5x NAV, the market is paying
+      half of what the engineering study says the deposit is worth. That discount can be a bargain
+      or a warning sign — the calculator gives you the denominator; reading the 43-101 tells you
+      whether to trust it.
+    </p>
+
+    <h3 class="text-warning fw-bold h5 mb-2 mt-4">How This Calculator Builds the Number</h3>
+    <p class="text-secondary">
+      The math is a simplified three-step DCF. First, total recoverable gold ounces are computed from
+      tonnage × grade × recovery, with tonnage weighted by resource category confidence. Second, the
+      revenue these ounces generate over the mine life is discounted back to present value at your
+      chosen discount rate, net of operating costs and initial capex. Third, a study-stage haircut
+      is applied to reflect that early-stage PEA figures are less reliable than feasibility-study
+      figures. The result is a per-share risk-adjusted NAV at each gold price you specify.
+    </p>
+    <p class="text-secondary">
+      Three levers drive most of the sensitivity: grade (direct multiplier on revenue), discount
+      rate (compounds over mine life), and gold price. Small changes to any of the three produce
+      large changes in the output number. That is real — it reflects how volatile gold-equity
+      valuations genuinely are — not a calculator flaw.
+    </p>
+
+    <h3 class="text-warning fw-bold h5 mb-2 mt-4">Reading the Output Matrix</h3>
+    <p class="text-secondary">
+      Three rows, up to four columns. The <strong class="text-white">gross NAV</strong> row assumes
+      every tonne is measured-category quality with no study-stage risk — the theoretical maximum
+      a company could deliver if everything were derisked. The <strong class="text-white">
+      category-weighted NAV</strong> row discounts for resource classification only. The
+      <strong class="text-warning">stage-adjusted NAV</strong> (highlighted in gold) applies both
+      category and study-stage haircuts — the most realistic read and the number to anchor on for
+      position sizing. Across columns, you see how each scenario responds to different gold prices:
+      the wider the spread between your lowest and highest price inputs, the higher the
+      gold-price volatility embedded in your thesis.
+    </p>
+
+    <h3 class="text-warning fw-bold h5 mb-2 mt-4">When to Use This Tool (and When Not To)</h3>
+    <p class="text-secondary">
+      Use it when you want a quick, disciplined estimate of what a gold deposit is worth at different
+      price decks, without building a full-scale financial model. Useful for first-pass screening,
+      quick comparisons between two deposits, and sanity-checking a published P/NAV claim. Do not
+      use it as the sole input for a position-sizing decision on a company you plan to hold for
+      years — a full model should include tax, sustaining capex, inflation, royalty leakage, and
+      hedge positions, all of which this V1 tool deliberately omits to stay fast and approachable.
+      Our
+      <a href="{% url 'verdict:company_list' %}" class="text-warning text-decoration-none">Verdict
+      Framework</a> scorecards are where the broader due diligence lives; this calculator sits
+      alongside them as a sensitivity workbench.
+    </p>
+
+    <h3 class="text-warning fw-bold h5 mb-2 mt-4">Input Quality is Everything</h3>
+    <p class="text-secondary">
+      Garbage in, garbage out applies with unusual force to NAV models. A grade of 1.2 g/t vs 1.8
+      g/t is a 50% difference in contained ounces at the same tonnage — and therefore roughly a
+      50% difference in NAV before any other assumption. A discount rate of 5% vs 10% produces
+      materially different present values over a 15-year mine life. Resource category matters
+      because inferred ounces rarely convert to production 1:1 — a company can lose 50-80% of its
+      inferred ounces through infill drilling. When you leave inputs at defaults, the calculator
+      warns you in the output so you can judge how much weight to put on the number. Filling in
+      the real figures from the 43-101 tightens the result significantly.
+    </p>
+  </div>
+</section>
 
 {# Apply Bootstrap classes to Django form widgets via a small style block #}
 <style>
