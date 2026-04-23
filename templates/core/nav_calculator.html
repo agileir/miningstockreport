@@ -279,7 +279,7 @@
           </div>
         {% endif %}
       {% else %}
-        <div class="card bg-dark border-secondary h-100">
+        <div class="card bg-dark border-secondary">
           <div class="card-body">
             <h5 class="text-warning fw-bold mb-3"><i class="bi bi-info-circle me-2"></i>How It Works</h5>
             <ol class="text-secondary small" style="line-height:1.8;">
@@ -308,36 +308,39 @@
         </div>
       {% endif %}
 
-      <div class="card bg-black border-warning border-2 mb-5">
-        <div class="card-body">
-          <h6 class="text-warning fw-bold mb-2"><i class="bi bi-exclamation-triangle me-2"></i>Known Limitations (V1)</h6>
-          <p class="text-secondary small mb-2">This calculator is a directional tool, not a replacement for a full engineering model. What it does <strong class="text-white">not</strong> include:</p>
-          <ul class="text-secondary small mb-3" style="line-height:1.7;">
-            <li>Corporate tax (add ~25-30% to opex for a rough proxy)</li>
-            <li>Sustaining capex during operations — material in declining-grade operations</li>
-            <li>Inflation adjustment — all numbers in nominal USD</li>
-            <li>Royalty streams and NSR payments</li>
-            <li>Debt servicing — the calculator assumes 100% equity financing</li>
-            <li>Commodity-price hedges — a hedged producer earns less upside than the spot price suggests</li>
-            <li>Gold only — multi-commodity support is in the Copper, Silver, and Polymetallic tools</li>
-          </ul>
-          <p class="text-white small fw-bold mb-0">
-            <i class="bi bi-info-circle-fill text-warning me-1"></i>Do your own due diligence.
-          </p>
-          <p class="text-secondary small mb-0 mt-1">
-            Read the company's 43-101 technical report, their most recent annual information form, and their insider-transaction filings before acting on any NAV estimate — including this one. Informational only; not investment advice.
-            <a href="{% url 'core:disclaimer' %}" class="text-warning text-decoration-none">Full disclaimer &rarr;</a>
-          </p>
-        </div>
-      </div>
     </div>
 
   </div>
 </div>
 
-{# ─────────── Educational content section ─────────── #}
+{# ─────────── Known Limitations + Educational content (full-width section) ─────────── #}
 <section class="bg-dark border-top border-secondary py-5">
   <div class="container" style="max-width:900px;">
+
+    {# Known Limitations card #}
+    <div class="card bg-black border-warning border-2 mb-5">
+      <div class="card-body">
+        <h5 class="text-warning fw-bold mb-3"><i class="bi bi-exclamation-triangle me-2"></i>Known Limitations (V1)</h5>
+        <p class="text-secondary small mb-2">This calculator is a directional tool, not a replacement for a full engineering model. What it does <strong class="text-white">not</strong> include:</p>
+        <ul class="text-secondary small mb-3" style="line-height:1.7;">
+          <li>Corporate tax (add ~25-30% to opex for a rough proxy)</li>
+          <li>Sustaining capex during operations — material in declining-grade operations</li>
+          <li>Inflation adjustment — all numbers in nominal USD</li>
+          <li>Royalty streams and NSR payments</li>
+          <li>Debt servicing — the calculator assumes 100% equity financing</li>
+          <li>Commodity-price hedges — a hedged producer earns less upside than the spot price suggests</li>
+          <li>Gold only — multi-commodity support is in the Copper, Silver, and Polymetallic tools</li>
+        </ul>
+        <p class="text-white small fw-bold mb-0">
+          <i class="bi bi-info-circle-fill text-warning me-1"></i>Do your own due diligence.
+        </p>
+        <p class="text-secondary small mb-0 mt-1">
+          Read the company's 43-101 technical report, their most recent annual information form, and their insider-transaction filings before acting on any NAV estimate — including this one. Informational only; not investment advice.
+          <a href="{% url 'core:disclaimer' %}" class="text-warning text-decoration-none">Full disclaimer &rarr;</a>
+        </p>
+      </div>
+    </div>
+
     <h2 class="text-white fw-bold h4 mb-4">
       <i class="bi bi-book text-warning me-2"></i>Understanding Gold Stock Valuations
     </h2>
