@@ -10,6 +10,19 @@ class StaticViewSitemap(Sitemap):
     priority   = 1.0
     changefreq = "weekly"
 
+    # Pages recently edited — emit lastmod so crawlers prioritise a refresh.
+    # Update this date when you deploy a meaningful change to one of the
+    # listed URLs (or better: move the URL to a model-backed sitemap).
+    TOOL_URLS_LASTMOD = timezone.now()
+
+    _TOOL_URLS = {
+        "core:tools_index",
+        "core:nav_calculator",
+        "core:nav_calculator_copper",
+        "core:nav_calculator_silver",
+        "core:nav_calculator_polymetallic",
+    }
+
     def items(self):
         return ["core:home", "core:about", "core:methodology",
                 "core:disclaimer",
@@ -24,6 +37,13 @@ class StaticViewSitemap(Sitemap):
 
     def location(self, item):
         return reverse(item)
+
+    def lastmod(self, item):
+        # Only emit lastmod for URLs we've recently edited. Other static
+        # pages don't need a freshness hint.
+        if item in self._TOOL_URLS:
+            return self.TOOL_URLS_LASTMOD
+        return None
 
 
 class PostSitemap(Sitemap):
