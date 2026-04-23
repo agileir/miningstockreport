@@ -12,7 +12,12 @@ class StaticViewSitemap(Sitemap):
 
     def items(self):
         return ["core:home", "core:about", "core:methodology",
-                "core:disclaimer", "core:nav_calculator",
+                "core:disclaimer",
+                "core:tools_index",
+                "core:nav_calculator",
+                "core:nav_calculator_copper",
+                "core:nav_calculator_silver",
+                "core:nav_calculator_polymetallic",
                 "blog:post_list", "verdict:company_list",
                 "videos:video_list", "watchlist:watchlist",
                 "news:news_wire"]

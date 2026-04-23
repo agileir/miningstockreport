@@ -1,0 +1,231 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Silver NAV Calculator{% endblock %}
+{% block meta_description %}Risk-adjusted NAV calculator for silver mining deposits. Resource-category confidence weights and study-stage haircuts applied across multiple silver-price benchmarks.{% endblock %}
+{% block og_description %}Interactive risk-adjusted NAV calculator for silver deposits.{% endblock %}
+{% block twitter_description %}Silver deposit NAV calculator with risk adjustments.{% endblock %}
+
+{% block content %}
+<div class="bg-dark py-4 border-bottom border-secondary">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb text-secondary small mb-2">
+        <li class="breadcrumb-item"><a href="{% url 'core:home' %}" class="text-secondary">Home</a></li>
+        <li class="breadcrumb-item"><a href="{% url 'core:tools_index' %}" class="text-secondary">Tools</a></li>
+        <li class="breadcrumb-item active text-white">Silver NAV Calculator</li>
+      </ol>
+    </nav>
+    <h1 class="text-white fw-bold h3 mb-2">
+      <i class="bi bi-calculator text-warning me-2"></i>Silver NAV Calculator
+    </h1>
+    <p class="text-secondary mb-0">
+      Risk-adjusted per-share NAV for silver deposits. Same 5-category confidence weighting
+      and PEA/PFS/FS stage haircuts used for the gold tool. Grade in g/t, price in $/oz,
+      and up to four silver-price benchmarks side-by-side.
+    </p>
+  </div>
+</div>
+
+<div class="container py-5">
+  <div class="row g-4">
+    <div class="col-lg-5">
+      <form method="post" novalidate>
+        {% csrf_token %}
+        {% if form.errors %}
+          {% for error in form.non_field_errors %}<div class="alert alert-danger">{{ error }}</div>{% endfor %}
+        {% endif %}
+
+        <div class="card bg-dark border-secondary mb-3">
+          <div class="card-body">
+            <h5 class="text-warning fw-bold mb-3">Resource & Reserve Tonnage (Mt)</h5>
+            {% for field in form %}
+              {% if field.name == "tonnes_inferred" or field.name == "tonnes_indicated" or field.name == "tonnes_measured" or field.name == "tonnes_probable" or field.name == "tonnes_proven" %}
+                <div class="mb-2">
+                  <label class="form-label text-white small mb-1">{{ field.label }}</label>
+                  {{ field }}
+                  {% if field.errors %}<div class="text-danger small">{{ field.errors.0 }}</div>{% endif %}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class="card bg-dark border-secondary mb-3">
+          <div class="card-body">
+            <h5 class="text-warning fw-bold mb-3">Grade & Recovery</h5>
+            <div class="mb-2">
+              <label class="form-label text-white small mb-1">{{ form.grade_gpt.label }}</label>
+              {{ form.grade_gpt }}
+              <div class="text-secondary small mt-1">{{ form.grade_gpt.help_text }}</div>
+            </div>
+            <div class="mb-2">
+              <label class="form-label text-white small mb-1">{{ form.recovery_pct.label }}</label>
+              {{ form.recovery_pct }}
+              <div class="text-secondary small mt-1">{{ form.recovery_pct.help_text }}</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-dark border-secondary mb-3">
+          <div class="card-body">
+            <h5 class="text-warning fw-bold mb-3">Operating Inputs</h5>
+            <div class="mb-2">
+              <label class="form-label text-white small mb-1">{{ form.opex_per_tonne.label }}</label>
+              {{ form.opex_per_tonne }}
+              <div class="text-secondary small mt-1">{{ form.opex_per_tonne.help_text }}</div>
+            </div>
+            <div class="mb-2">
+              <label class="form-label text-white small mb-1">{{ form.capex_millions.label }}</label>
+              {{ form.capex_millions }}
+              <div class="text-secondary small mt-1">{{ form.capex_millions.help_text }}</div>
+            </div>
+            <div class="mb-2">
+              <label class="form-label text-white small mb-1">{{ form.mine_life_years.label }}</label>
+              {{ form.mine_life_years }}
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-dark border-secondary mb-3">
+          <div class="card-body">
+            <h5 class="text-warning fw-bold mb-3">Financial Inputs</h5>
+            <div class="mb-2"><label class="form-label text-white small mb-1">{{ form.discount_rate_pct.label }}</label>{{ form.discount_rate_pct }}</div>
+            <div class="mb-2"><label class="form-label text-white small mb-1">{{ form.shares_outstanding_m.label }}</label>{{ form.shares_outstanding_m }}</div>
+            <div class="mb-2"><label class="form-label text-white small mb-1">{{ form.stage.label }}</label>{{ form.stage }}</div>
+          </div>
+        </div>
+
+        <div class="card bg-dark border-warning border-2 mb-3">
+          <div class="card-body">
+            <h5 class="text-warning fw-bold mb-3">Silver Price Benchmarks</h5>
+            <p class="text-secondary small mb-3">Column 1 pre-filled if silver is tracked by the commodity ticker. Trailing averages can be sourced from Kitco or the Silver Institute.</p>
+            {% for i in "1234" %}
+              <div class="row g-2 mb-2">
+                <div class="col-6">
+                  <label class="form-label text-white small mb-1">Label</label>
+                  {% if i == "1" %}{{ form.price_label_1 }}{% endif %}
+                  {% if i == "2" %}{{ form.price_label_2 }}{% endif %}
+                  {% if i == "3" %}{{ form.price_label_3 }}{% endif %}
+                  {% if i == "4" %}{{ form.price_label_4 }}{% endif %}
+                </div>
+                <div class="col-6">
+                  <label class="form-label text-white small mb-1">Price ($/oz)</label>
+                  {% if i == "1" %}{{ form.price_value_1 }}{% endif %}
+                  {% if i == "2" %}{{ form.price_value_2 }}{% endif %}
+                  {% if i == "3" %}{{ form.price_value_3 }}{% endif %}
+                  {% if i == "4" %}{{ form.price_value_4 }}{% endif %}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-warning btn-lg fw-bold w-100">
+          <i class="bi bi-lightning-charge-fill me-2"></i>Calculate NAV
+        </button>
+      </form>
+    </div>
+
+    <div class="col-lg-7">
+      {% if matrix %}
+        <div class="card bg-black border-warning border-2 mb-4">
+          <div class="card-body">
+            <h5 class="text-warning fw-bold mb-3"><i class="bi bi-graph-up me-2"></i>Risk-Adjusted NAV Matrix</h5>
+            <p class="text-secondary small mb-3">Bottom row is stage-adjusted — use for position sizing.</p>
+            <div class="table-responsive">
+              <table class="table table-dark table-sm border-secondary small align-middle mb-0">
+                <thead class="text-secondary text-uppercase">
+                  <tr>
+                    <th style="width:45%">Scenario</th>
+                    {% for col in price_columns %}
+                      <th class="text-end">
+                        {{ col.label }}<br>
+                        <span class="text-warning">${{ col.price|floatformat:2 }}/oz</span>
+                      </th>
+                    {% endfor %}
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for row in matrix %}
+                    <tr {% if row.highlight %}class="border-top border-warning"{% endif %}>
+                      <td>
+                        <div class="{% if row.highlight %}text-warning fw-bold{% else %}text-white{% endif %}">{{ row.label }}</div>
+                        <div class="text-secondary" style="font-size:.72rem; line-height:1.4;">{{ row.description }}</div>
+                      </td>
+                      {% for v in row.values %}
+                        <td class="text-end {% if row.highlight %}text-warning fw-bold{% else %}text-white{% endif %}">
+                          {% if v.nav_per_share is None %}&mdash;{% elif v.nav_per_share < 0 %}<span class="text-danger">(${{ v.nav_per_share|floatformat:"-2"|cut:"-" }})</span>{% else %}${{ v.nav_per_share|floatformat:2 }}{% endif %}
+                        </td>
+                      {% endfor %}
+                    </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        {% if inputs_summary %}
+          <div class="card bg-dark border-secondary mb-4">
+            <div class="card-body">
+              <h6 class="text-warning fw-bold mb-3">Input Recap</h6>
+              <div class="row g-2 small">
+                <div class="col-6 col-md-4"><span class="text-secondary">Total tonnes:</span> <span class="text-white fw-bold">{{ inputs_summary.total_tonnes|floatformat:2 }} Mt</span></div>
+                <div class="col-6 col-md-4"><span class="text-secondary">Grade:</span> <span class="text-white fw-bold">{{ inputs_summary.grade_gpt }} g/t Ag</span></div>
+                <div class="col-6 col-md-4"><span class="text-secondary">Recovery:</span> <span class="text-white fw-bold">{{ inputs_summary.recovery_pct }}%</span></div>
+                <div class="col-6 col-md-4"><span class="text-secondary">Mine life:</span> <span class="text-white fw-bold">{{ inputs_summary.mine_life_years }} yrs</span></div>
+                <div class="col-6 col-md-4"><span class="text-secondary">Discount:</span> <span class="text-white fw-bold">{{ inputs_summary.discount_rate_pct }}%</span></div>
+                <div class="col-6 col-md-4"><span class="text-secondary">Shares FD:</span> <span class="text-white fw-bold">{{ inputs_summary.shares_outstanding_m }} M</span></div>
+                <div class="col-12"><span class="text-secondary">Stage:</span> <span class="text-white fw-bold">{{ inputs_summary.stage }}</span></div>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% else %}
+        <div class="card bg-dark border-secondary h-100">
+          <div class="card-body">
+            <h5 class="text-warning fw-bold mb-3"><i class="bi bi-info-circle me-2"></i>How It Works</h5>
+            <ol class="text-secondary small" style="line-height:1.8;">
+              <li>Enter resource/reserve tonnage by category from the 43-101.</li>
+              <li>Silver grade in g/t, recovery in %, opex/capex/mine life.</li>
+              <li>Choose the study stage and enter 1-4 silver-price benchmarks.</li>
+              <li>Read the stage-adjusted NAV row for your position sizing.</li>
+            </ol>
+            <hr class="border-secondary my-4">
+            <h6 class="text-warning fw-bold mb-3">Silver-Specific Notes</h6>
+            <ul class="text-secondary small mb-0" style="line-height:1.7;">
+              <li>Silver recoveries are typically 75-90% — lower than gold due to more complex metallurgy on sulphide silver ores.</li>
+              <li>Most silver production is byproduct of lead-zinc or copper mining — pure silver deposits are rare. Use the polymetallic calculator for lead-zinc-silver.</li>
+              <li>Average grade for economic silver deposits: 50-500 g/t. Above 500 g/t is high grade.</li>
+            </ul>
+          </div>
+        </div>
+      {% endif %}
+
+      <div class="card bg-dark border-secondary">
+        <div class="card-body">
+          <h6 class="text-warning fw-bold mb-2"><i class="bi bi-exclamation-triangle me-2"></i>V1 Simplifications</h6>
+          <ul class="text-secondary small mb-0" style="line-height:1.7;">
+            <li>No corporate tax, sustaining capex, inflation, or royalty streams</li>
+            <li>Silver-primary only — use the polymetallic calculator for silver-lead-zinc or gold-silver</li>
+          </ul>
+          <p class="text-secondary small mt-3 mb-0" style="font-size:.72rem;">
+            Informational only. <a href="{% url 'core:disclaimer' %}" class="text-warning text-decoration-none">Full disclaimer</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  input[type="text"], input[type="number"], select, textarea {
+    background-color: #0d0d0d !important; color: #ffffff !important;
+    border: 1px solid #444 !important; border-radius: 0.25rem;
+    padding: 0.4rem 0.6rem; width: 100%; font-size: 0.9rem;
+  }
+  input:focus, select:focus { border-color: #ffc107 !important; outline: none; box-shadow: 0 0 0 0.15rem rgba(255,193,7,0.25); }
+  select option { background: #141414; color: #fff; }
+</style>
+{% endblock %}

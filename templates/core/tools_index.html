@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+
+{% block title %}Mining Investor Tools{% endblock %}
+{% block meta_description %}Interactive tools for junior mining investors — risk-adjusted NAV calculators for gold, copper, silver, and polymetallic deposits.{% endblock %}
+{% block og_description %}Interactive NAV calculators for gold, copper, silver, and polymetallic mining deposits.{% endblock %}
+{% block twitter_description %}Interactive NAV calculators for junior mining investors.{% endblock %}
+
+{% block content %}
+<div class="bg-dark py-4 border-bottom border-secondary">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb text-secondary small mb-2">
+        <li class="breadcrumb-item"><a href="{% url 'core:home' %}" class="text-secondary">Home</a></li>
+        <li class="breadcrumb-item active text-white">Tools</li>
+      </ol>
+    </nav>
+    <h1 class="text-white fw-bold h3 mb-2">
+      <i class="bi bi-tools text-warning me-2"></i>Investor Tools
+    </h1>
+    <p class="text-secondary mb-0">
+      Interactive calculators that put the Verdict Framework in your hands. Each tool is
+      free, stateless, and takes public-filings inputs from a company's 43-101 technical
+      report to produce risk-adjusted NAV estimates across multiple commodity-price scenarios.
+    </p>
+  </div>
+</div>
+
+<div class="container py-5">
+  <div class="row g-4">
+
+    <div class="col-md-6">
+      <a href="{% url 'core:nav_calculator' %}" class="text-decoration-none">
+        <div class="card bg-dark border-warning border-2 h-100 p-1">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <i class="bi bi-calculator-fill text-warning me-3" style="font-size:2rem;"></i>
+              <h5 class="text-white fw-bold mb-0">Gold NAV Calculator</h5>
+            </div>
+            <p class="text-secondary mb-0">Risk-adjusted NAV for junior gold deposits. Resource-category confidence weights, study-stage haircuts, and up to 4 gold-price benchmarks.</p>
+            <p class="text-warning fw-bold small mt-3 mb-0">Open calculator &rarr;</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-md-6">
+      <a href="{% url 'core:nav_calculator_copper' %}" class="text-decoration-none">
+        <div class="card bg-dark border-secondary h-100 p-1">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <i class="bi bi-calculator-fill text-warning me-3" style="font-size:2rem;"></i>
+              <h5 class="text-white fw-bold mb-0">Copper NAV Calculator</h5>
+            </div>
+            <p class="text-secondary mb-0">Risk-adjusted NAV for copper deposits. Grade in %, price in $/lb, up to 4 copper-price benchmarks. Same category and stage math as the gold tool.</p>
+            <p class="text-warning fw-bold small mt-3 mb-0">Open calculator &rarr;</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-md-6">
+      <a href="{% url 'core:nav_calculator_silver' %}" class="text-decoration-none">
+        <div class="card bg-dark border-secondary h-100 p-1">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <i class="bi bi-calculator-fill text-warning me-3" style="font-size:2rem;"></i>
+              <h5 class="text-white fw-bold mb-0">Silver NAV Calculator</h5>
+            </div>
+            <p class="text-secondary mb-0">Risk-adjusted NAV for silver deposits. Same input structure as gold — g/t grade, $/oz pricing, default recovery adjusted for silver metallurgy.</p>
+            <p class="text-warning fw-bold small mt-3 mb-0">Open calculator &rarr;</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-md-6">
+      <a href="{% url 'core:nav_calculator_polymetallic' %}" class="text-decoration-none">
+        <div class="card bg-dark border-secondary h-100 p-1">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <i class="bi bi-calculator-fill text-warning me-3" style="font-size:2rem;"></i>
+              <h5 class="text-white fw-bold mb-0">Polymetallic NAV Calculator</h5>
+            </div>
+            <p class="text-secondary mb-0">Gold-copper-silver deposits handled as a single DCF with combined revenue. Ideal for porphyries and epithermal systems where multiple commodities contribute economics.</p>
+            <p class="text-warning fw-bold small mt-3 mb-0">Open calculator &rarr;</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+  </div>
+
+  <div class="card bg-dark border-secondary mt-5">
+    <div class="card-body">
+      <h6 class="text-warning fw-bold mb-2"><i class="bi bi-info-circle me-2"></i>A note on all four calculators</h6>
+      <p class="text-secondary small mb-0">
+        Each tool applies the same risk-adjustment framework: resource-category confidence
+        weights (inferred 20%, indicated 65%, measured/probable 90%, proven 100%) and
+        study-stage haircuts (PEA 30%, PFS 15%, FS none). Simplifications common to all
+        V1 tools: no corporate tax, no sustaining capex, no inflation, no royalties. For
+        informational purposes only.
+        <a href="{% url 'core:disclaimer' %}" class="text-warning text-decoration-none">Full disclaimer &rarr;</a>
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %}

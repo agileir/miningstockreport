@@ -62,7 +62,7 @@ def nav_calculator(request):
     price benchmarks.
     """
     from apps.core.forms import NavCalculatorForm
-    from apps.core.nav_math import NavInputs, calculate_nav_matrix
+    from apps.core.nav_math import NavInputs, calculate_nav_matrix_gold_legacy
     from apps.core.models import CommodityPrice
 
     # Pre-populate current spot price from CommodityPrice if available.
@@ -96,7 +96,7 @@ def nav_calculator(request):
                 stage                = cd["stage"],
             )
             price_columns = form.get_price_columns()
-            matrix = calculate_nav_matrix(inputs, price_columns)
+            matrix = calculate_nav_matrix_gold_legacy(inputs, price_columns)
             inputs_summary = {
                 "total_tonnes": sum((
                     inputs.tonnes_inferred, inputs.tonnes_indicated,
@@ -119,6 +119,233 @@ def nav_calculator(request):
         "price_columns": price_columns,
         "inputs_summary": inputs_summary,
         "current_gold_price": gold_price,
+    })
+
+
+def tools_index(request):
+    """Directory page listing all calculator tools."""
+    return render(request, "core/tools_index.html")
+
+
+def _resource_inputs_from_form(cd):
+    """Extract ResourceInputs from any base-form cleaned data dict."""
+    from apps.core.nav_math import ResourceInputs
+    from decimal import Decimal
+    return ResourceInputs(
+        tonnes_inferred  = cd.get("tonnes_inferred")  or Decimal("0"),
+        tonnes_indicated = cd.get("tonnes_indicated") or Decimal("0"),
+        tonnes_measured  = cd.get("tonnes_measured")  or Decimal("0"),
+        tonnes_probable  = cd.get("tonnes_probable")  or Decimal("0"),
+        tonnes_proven    = cd.get("tonnes_proven")    or Decimal("0"),
+    )
+
+
+def _op_inputs_from_form(cd):
+    from apps.core.nav_math import OperationalInputs
+    return OperationalInputs(
+        opex_per_tonne       = cd["opex_per_tonne"],
+        capex_millions       = cd["capex_millions"],
+        mine_life_years      = cd["mine_life_years"],
+        discount_rate_pct    = cd["discount_rate_pct"],
+        shares_outstanding_m = cd["shares_outstanding_m"],
+        stage                = cd["stage"],
+    )
+
+
+def nav_calculator_copper(request):
+    """Copper NAV calculator — grade in %, price in $/lb."""
+    from apps.core.forms import NavCalculatorCopperForm
+    from apps.core.nav_math import copper_revenue_per_tonne, calculate_nav_matrix
+    from apps.core.models import CommodityPrice
+
+    initial = {}
+    cu_price = CommodityPrice.objects.filter(name__icontains="copper").first()
+    if cu_price:
+        initial["price_value_1"] = cu_price.price
+        initial["price_label_1"] = f"Current Spot ({cu_price.fetched_at.strftime('%Y-%m-%d')})"
+
+    matrix = None
+    price_columns = None
+    inputs_summary = None
+
+    if request.method == "POST":
+        form = NavCalculatorCopperForm(request.POST)
+        if form.is_valid():
+            cd = form.cleaned_data
+            res = _resource_inputs_from_form(cd)
+            op = _op_inputs_from_form(cd)
+            price_columns = form.get_price_columns()
+            scenarios = []
+            for col in price_columns:
+                rev = copper_revenue_per_tonne(cd["grade_pct"], cd["recovery_pct"], col["price"])
+                scenarios.append({
+                    "label": col["label"],
+                    "revenue_per_tonne": rev,
+                    "display_value": f"${col['price']:,.2f}/lb",
+                })
+            matrix = calculate_nav_matrix(res, op, scenarios)
+            inputs_summary = {
+                "total_tonnes": res.gross_tonnes(),
+                "stage": cd["stage"],
+                "grade_pct": cd["grade_pct"],
+                "recovery_pct": cd["recovery_pct"],
+                "mine_life_years": cd["mine_life_years"],
+                "discount_rate_pct": cd["discount_rate_pct"],
+                "shares_outstanding_m": cd["shares_outstanding_m"],
+            }
+    else:
+        form = NavCalculatorCopperForm(initial=initial)
+
+    return render(request, "core/nav_calculator_copper.html", {
+        "form": form,
+        "matrix": matrix,
+        "price_columns": price_columns,
+        "inputs_summary": inputs_summary,
+    })
+
+
+def nav_calculator_silver(request):
+    """Silver NAV calculator — grade in g/t, price in $/oz. Same math as gold."""
+    from apps.core.forms import NavCalculatorSilverForm
+    from apps.core.nav_math import gold_or_silver_revenue_per_tonne, calculate_nav_matrix
+    from apps.core.models import CommodityPrice
+
+    initial = {}
+    ag_price = CommodityPrice.objects.filter(name__icontains="silver").first()
+    if ag_price:
+        initial["price_value_1"] = ag_price.price
+        initial["price_label_1"] = f"Current Spot ({ag_price.fetched_at.strftime('%Y-%m-%d')})"
+
+    matrix = None
+    price_columns = None
+    inputs_summary = None
+
+    if request.method == "POST":
+        form = NavCalculatorSilverForm(request.POST)
+        if form.is_valid():
+            cd = form.cleaned_data
+            res = _resource_inputs_from_form(cd)
+            op = _op_inputs_from_form(cd)
+            price_columns = form.get_price_columns()
+            scenarios = []
+            for col in price_columns:
+                rev = gold_or_silver_revenue_per_tonne(cd["grade_gpt"], cd["recovery_pct"], col["price"])
+                scenarios.append({
+                    "label": col["label"],
+                    "revenue_per_tonne": rev,
+                    "display_value": f"${col['price']:,.2f}/oz",
+                })
+            matrix = calculate_nav_matrix(res, op, scenarios)
+            inputs_summary = {
+                "total_tonnes": res.gross_tonnes(),
+                "stage": cd["stage"],
+                "grade_gpt": cd["grade_gpt"],
+                "recovery_pct": cd["recovery_pct"],
+                "mine_life_years": cd["mine_life_years"],
+                "discount_rate_pct": cd["discount_rate_pct"],
+                "shares_outstanding_m": cd["shares_outstanding_m"],
+            }
+    else:
+        form = NavCalculatorSilverForm(initial=initial)
+
+    return render(request, "core/nav_calculator_silver.html", {
+        "form": form,
+        "matrix": matrix,
+        "price_columns": price_columns,
+        "inputs_summary": inputs_summary,
+    })
+
+
+def nav_calculator_polymetallic(request):
+    """Polymetallic (gold + copper + silver) NAV calculator."""
+    from decimal import Decimal
+    from apps.core.forms import NavCalculatorPolymetallicForm
+    from apps.core.nav_math import (
+        gold_or_silver_revenue_per_tonne, copper_revenue_per_tonne,
+        calculate_nav_matrix,
+    )
+
+    matrix = None
+    price_columns = None
+    inputs_summary = None
+
+    if request.method == "POST":
+        form = NavCalculatorPolymetallicForm(request.POST)
+        if form.is_valid():
+            cd = form.cleaned_data
+            res = _resource_inputs_from_form(cd)
+            op = _op_inputs_from_form(cd)
+
+            def compute_rev(gold_price, cu_price, ag_price):
+                total = Decimal("0")
+                if (cd.get("gold_grade_gpt") or 0) > 0 and gold_price and gold_price > 0:
+                    total += gold_or_silver_revenue_per_tonne(
+                        cd["gold_grade_gpt"], cd["gold_recovery_pct"], gold_price,
+                    )
+                if (cd.get("copper_grade_pct") or 0) > 0 and cu_price and cu_price > 0:
+                    total += copper_revenue_per_tonne(
+                        cd["copper_grade_pct"], cd["copper_recovery_pct"], cu_price,
+                    )
+                if (cd.get("silver_grade_gpt") or 0) > 0 and ag_price and ag_price > 0:
+                    total += gold_or_silver_revenue_per_tonne(
+                        cd["silver_grade_gpt"], cd["silver_recovery_pct"], ag_price,
+                    )
+                return total
+
+            rev_base = compute_rev(
+                cd.get("gold_price_base"), cd.get("copper_price_base"), cd.get("silver_price_base"),
+            )
+            rev_longterm = compute_rev(
+                cd.get("gold_price_longterm"), cd.get("copper_price_longterm"), cd.get("silver_price_longterm"),
+            )
+
+            # Build display labels showing the price combo for each scenario.
+            def combo_label(prefix, cd):
+                parts = []
+                if (cd.get("gold_grade_gpt") or 0) > 0:
+                    parts.append(f"Au ${cd.get(f'gold_price_{prefix}') or 0:,.0f}")
+                if (cd.get("copper_grade_pct") or 0) > 0:
+                    parts.append(f"Cu ${cd.get(f'copper_price_{prefix}') or 0:,.2f}")
+                if (cd.get("silver_grade_gpt") or 0) > 0:
+                    parts.append(f"Ag ${cd.get(f'silver_price_{prefix}') or 0:,.0f}")
+                return " · ".join(parts)
+
+            price_columns = [
+                {"label": "Base Case", "price": None},
+                {"label": "Long-term Deck", "price": None},
+            ]
+
+            scenarios = [
+                {
+                    "label": "Base Case",
+                    "revenue_per_tonne": rev_base if rev_base > 0 else None,
+                    "display_value": combo_label("base", cd),
+                },
+                {
+                    "label": "Long-term Deck",
+                    "revenue_per_tonne": rev_longterm if rev_longterm > 0 else None,
+                    "display_value": combo_label("longterm", cd),
+                },
+            ]
+
+            matrix = calculate_nav_matrix(res, op, scenarios)
+            inputs_summary = {
+                "total_tonnes": res.gross_tonnes(),
+                "stage": cd["stage"],
+                "gold_grade_gpt": cd.get("gold_grade_gpt"),
+                "copper_grade_pct": cd.get("copper_grade_pct"),
+                "silver_grade_gpt": cd.get("silver_grade_gpt"),
+                "mine_life_years": cd["mine_life_years"],
+                "discount_rate_pct": cd["discount_rate_pct"],
+                "shares_outstanding_m": cd["shares_outstanding_m"],
+            }
+    else:
+        form = NavCalculatorPolymetallicForm()
+
+    return render(request, "core/nav_calculator_polymetallic.html", {
+        "form": form,
+        "matrix": matrix,
+        "inputs_summary": inputs_summary,
     })
 
 
