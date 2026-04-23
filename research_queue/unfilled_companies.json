@@ -1,22 +1,78 @@
 [
   {
-    "ticker": "AEM",
+    "ticker": "AGI",
     "exchange": "TSX"
   },
   {
-    "ticker": "ABX",
+    "ticker": "ARTG",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "AYA",
     "exchange": "TSX"
   },
   {
-    "ticker": "CCO",
+    "ticker": "BTO",
     "exchange": "TSX"
   },
   {
-    "ticker": "FR",
+    "ticker": "ELD",
     "exchange": "TSX"
   },
   {
-    "ticker": "K",
+    "ticker": "EDR",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "FVI",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "IMG",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "LUG",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "MAG",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "MUX",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "NGD",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "NGT",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "OGC",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "OR",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "PAAS",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "SVM",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "WDO",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "WPM",
     "exchange": "TSX"
   }
 ]
