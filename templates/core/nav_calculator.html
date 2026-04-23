@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block title %}Gold Stock Valuation Calculator{% endblock %}
-{% block meta_description %}Interactive gold stock valuation calculator. Produces a risk-adjusted NAV per share from resource-category confidence weights, study-stage haircuts, and multiple gold-price benchmarks.{% endblock %}
-{% block og_description %}Gold stock valuation calculator — risk-adjusted NAV per share with category weights and study-stage haircuts.{% endblock %}
-{% block twitter_description %}Gold stock valuation calculator — risk-adjusted NAV per share.{% endblock %}
+{% block title %}Gold Stock Calculator{% endblock %}
+{% block meta_description %}Interactive gold stock calculator. Produces a risk-adjusted NAV per share from resource-category confidence weights, study-stage haircuts, and multiple gold-price benchmarks.{% endblock %}
+{% block og_description %}Gold stock calculator — risk-adjusted NAV per share with category weights and study-stage haircuts.{% endblock %}
+{% block twitter_description %}Gold stock calculator — risk-adjusted NAV per share.{% endblock %}
 
 {% block content %}
 <div class="bg-dark py-4 border-bottom border-secondary">
@@ -13,11 +13,11 @@
       <ol class="breadcrumb text-secondary small mb-2">
         <li class="breadcrumb-item"><a href="{% url 'core:home' %}" class="text-secondary">Home</a></li>
         <li class="breadcrumb-item"><a href="{% url 'core:tools_index' %}" class="text-secondary">Tools</a></li>
-        <li class="breadcrumb-item active text-white">Gold Stock Valuation Calculator</li>
+        <li class="breadcrumb-item active text-white">Gold Stock Calculator</li>
       </ol>
     </nav>
     <h1 class="text-white fw-bold h3 mb-2">
-      <i class="bi bi-calculator text-warning me-2"></i>Gold Stock Valuation Calculator
+      <i class="bi bi-calculator text-warning me-2"></i>Gold Stock Calculator
     </h1>
     <p class="text-secondary mb-0">
       Produce a risk-adjusted Net Asset Value per share from first principles. Enter only
