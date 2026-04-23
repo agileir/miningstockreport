@@ -54,6 +54,74 @@ def disclaimer(request):
     return render(request, "core/disclaimer.html")
 
 
+def nav_calculator(request):
+    """
+    Risk-adjusted NAV calculator for junior mining companies. Applies
+    resource-category confidence weights and study-stage haircuts to
+    produce a matrix of per-share NAV estimates across multiple gold-
+    price benchmarks.
+    """
+    from apps.core.forms import NavCalculatorForm
+    from apps.core.nav_math import NavInputs, calculate_nav_matrix
+    from apps.core.models import CommodityPrice
+
+    # Pre-populate current spot price from CommodityPrice if available.
+    initial = {}
+    gold_price = CommodityPrice.objects.filter(name__icontains="gold").first()
+    if gold_price:
+        initial["price_value_1"] = gold_price.price
+        initial["price_label_1"] = f"Current Spot ({gold_price.fetched_at.strftime('%Y-%m-%d')})"
+
+    matrix = None
+    price_columns = None
+    inputs_summary = None
+
+    if request.method == "POST":
+        form = NavCalculatorForm(request.POST)
+        if form.is_valid():
+            cd = form.cleaned_data
+            inputs = NavInputs(
+                tonnes_inferred  = cd.get("tonnes_inferred")  or 0,
+                tonnes_indicated = cd.get("tonnes_indicated") or 0,
+                tonnes_measured  = cd.get("tonnes_measured")  or 0,
+                tonnes_probable  = cd.get("tonnes_probable")  or 0,
+                tonnes_proven    = cd.get("tonnes_proven")    or 0,
+                grade_gpt            = cd["grade_gpt"],
+                recovery_pct         = cd["recovery_pct"],
+                opex_per_tonne       = cd["opex_per_tonne"],
+                capex_millions       = cd["capex_millions"],
+                mine_life_years      = cd["mine_life_years"],
+                discount_rate_pct    = cd["discount_rate_pct"],
+                shares_outstanding_m = cd["shares_outstanding_m"],
+                stage                = cd["stage"],
+            )
+            price_columns = form.get_price_columns()
+            matrix = calculate_nav_matrix(inputs, price_columns)
+            inputs_summary = {
+                "total_tonnes": sum((
+                    inputs.tonnes_inferred, inputs.tonnes_indicated,
+                    inputs.tonnes_measured, inputs.tonnes_probable,
+                    inputs.tonnes_proven,
+                )),
+                "stage": cd["stage"],
+                "grade_gpt": cd["grade_gpt"],
+                "recovery_pct": cd["recovery_pct"],
+                "mine_life_years": cd["mine_life_years"],
+                "shares_outstanding_m": cd["shares_outstanding_m"],
+                "discount_rate_pct": cd["discount_rate_pct"],
+            }
+    else:
+        form = NavCalculatorForm(initial=initial)
+
+    return render(request, "core/nav_calculator.html", {
+        "form": form,
+        "matrix": matrix,
+        "price_columns": price_columns,
+        "inputs_summary": inputs_summary,
+        "current_gold_price": gold_price,
+    })
+
+
 def robots_txt(request):
     """
     Dynamic robots.txt — blocks staging/dev crawling, allows prod.
