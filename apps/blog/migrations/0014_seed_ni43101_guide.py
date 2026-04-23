@@ -860,7 +860,7 @@ and should be replaced in place once the asset is produced.</p>
 
 GUIDE_DATA = {
     "title": "How to Read an NI 43-101 Report Like a Professional Mining Analyst",
-    "pillar_slug": "due-diligence",
+    "pillar_slug": "investing-guides",
     "meta_title": "How to Read an NI 43-101: A Complete Investor's Guide",
     "meta_description": (
         "Learn to read NI 43-101 technical reports the way a professional mining analyst "
