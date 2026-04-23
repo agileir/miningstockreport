@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block title %}Gold Junior NAV Calculator{% endblock %}
-{% block meta_description %}Interactive risk-adjusted NAV calculator for junior gold mining companies. Applies resource-category confidence weights and study-stage haircuts across multiple gold-price benchmarks.{% endblock %}
-{% block og_description %}Interactive risk-adjusted NAV calculator for junior gold mining companies. Category confidence weights and study-stage haircuts across multiple gold-price benchmarks.{% endblock %}
-{% block twitter_description %}Interactive risk-adjusted NAV calculator for junior gold mining companies.{% endblock %}
+{% block title %}Gold Stock Valuation Calculator{% endblock %}
+{% block meta_description %}Interactive gold stock valuation calculator. Produces a risk-adjusted NAV per share from resource-category confidence weights, study-stage haircuts, and multiple gold-price benchmarks.{% endblock %}
+{% block og_description %}Gold stock valuation calculator — risk-adjusted NAV per share with category weights and study-stage haircuts.{% endblock %}
+{% block twitter_description %}Gold stock valuation calculator — risk-adjusted NAV per share.{% endblock %}
 
 {% block content %}
 <div class="bg-dark py-4 border-bottom border-secondary">
@@ -12,17 +12,18 @@
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb text-secondary small mb-2">
         <li class="breadcrumb-item"><a href="{% url 'core:home' %}" class="text-secondary">Home</a></li>
-        <li class="breadcrumb-item active text-white">NAV Calculator</li>
+        <li class="breadcrumb-item"><a href="{% url 'core:tools_index' %}" class="text-secondary">Tools</a></li>
+        <li class="breadcrumb-item active text-white">Gold Stock Valuation Calculator</li>
       </ol>
     </nav>
     <h1 class="text-white fw-bold h3 mb-2">
-      <i class="bi bi-calculator text-warning me-2"></i>Gold Junior NAV Calculator
+      <i class="bi bi-calculator text-warning me-2"></i>Gold Stock Valuation Calculator
     </h1>
     <p class="text-secondary mb-0">
-      Produce a risk-adjusted Net Asset Value per share from first principles. Enter the
-      deposit inputs from the company's 43-101 technical report, pick the study stage, and
-      see the NAV computed across up to four gold-price benchmarks simultaneously.
-      Resource-category confidence weights and study-stage haircuts are applied automatically.
+      Produce a risk-adjusted Net Asset Value per share from first principles. Enter only
+      what you know — tonnage and at least one gold price are required; every other field
+      has a sensible default so the tool works even with limited information. Category and
+      study-stage confidence weights are applied automatically.
     </p>
   </div>
 </div>
@@ -45,7 +46,7 @@
         <div class="card bg-dark border-secondary mb-3">
           <div class="card-body">
             <h5 class="text-warning fw-bold mb-3">Resource & Reserve Tonnage (Mt)</h5>
-            <p class="text-secondary small mb-3">Enter only the categories your deposit has. Confidence weights applied: Inferred 20%, Indicated 65%, Measured 90%, Probable reserves 90%, Proven reserves 100%.</p>
+            <p class="text-secondary small mb-3">Enter only the categories your deposit has. At least one non-zero tonnage is required. Confidence weights applied: Inferred 20%, Indicated 50%, Measured 75%, Probable reserves 85%, Proven reserves 100%.</p>
             {% for field in form %}
               {% if field.name == "tonnes_inferred" or field.name == "tonnes_indicated" or field.name == "tonnes_measured" or field.name == "tonnes_probable" or field.name == "tonnes_proven" %}
                 <div class="mb-2">
@@ -58,10 +59,14 @@
           </div>
         </div>
 
-        {# Deposit quality inputs #}
+        {# Deposit quality inputs — all optional #}
         <div class="card bg-dark border-secondary mb-3">
           <div class="card-body">
-            <h5 class="text-warning fw-bold mb-3">Grade & Recovery</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <h5 class="text-warning fw-bold mb-0">Grade &amp; Recovery</h5>
+              <span class="badge bg-secondary">Optional</span>
+            </div>
+            <p class="text-secondary small mb-3">Defaults apply if left blank — accuracy improves with real inputs.</p>
             <div class="mb-2">
               <label class="form-label text-white small mb-1">{{ form.grade_gpt.label }}</label>
               {{ form.grade_gpt }}
@@ -77,10 +82,14 @@
           </div>
         </div>
 
-        {# Operating inputs #}
+        {# Operating inputs — all optional #}
         <div class="card bg-dark border-secondary mb-3">
           <div class="card-body">
-            <h5 class="text-warning fw-bold mb-3">Operating Inputs</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <h5 class="text-warning fw-bold mb-0">Operating Inputs</h5>
+              <span class="badge bg-secondary">Optional</span>
+            </div>
+            <p class="text-secondary small mb-3">Defaults apply if left blank — accuracy improves with real inputs.</p>
             {% for fname in "opex_per_tonne,capex_millions,mine_life_years"|cut:" " %}{% endfor %}
             <div class="mb-2">
               <label class="form-label text-white small mb-1">{{ form.opex_per_tonne.label }}</label>
@@ -102,10 +111,14 @@
           </div>
         </div>
 
-        {# Financial inputs #}
+        {# Financial inputs — all optional #}
         <div class="card bg-dark border-secondary mb-3">
           <div class="card-body">
-            <h5 class="text-warning fw-bold mb-3">Financial Inputs</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <h5 class="text-warning fw-bold mb-0">Financial Inputs</h5>
+              <span class="badge bg-secondary">Optional</span>
+            </div>
+            <p class="text-secondary small mb-3">Defaults apply if left blank — accuracy improves with real inputs.</p>
             <div class="mb-2">
               <label class="form-label text-white small mb-1">{{ form.discount_rate_pct.label }}</label>
               {{ form.discount_rate_pct }}
@@ -210,6 +223,24 @@
           </div>
         </div>
 
+        {% if defaults_applied %}
+          <div class="card bg-dark border-warning mb-4" style="border-left:3px solid #ffc107 !important;">
+            <div class="card-body">
+              <h6 class="text-warning fw-bold mb-2">
+                <i class="bi bi-exclamation-triangle me-2"></i>Default values were applied
+              </h6>
+              <p class="text-secondary small mb-2">
+                You left {{ defaults_applied|length }} field{{ defaults_applied|pluralize }} blank, so the calculator used the defaults listed below. The result accuracy depends on how closely these defaults match the specific deposit — filling them in with real 43-101 figures will tighten the number significantly.
+              </p>
+              <ul class="text-secondary small mb-0" style="line-height:1.7;">
+                {% for d in defaults_applied %}
+                  <li><strong class="text-white">{{ d.field }}:</strong> {{ d.value }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        {% endif %}
+
         {% if inputs_summary %}
           <div class="card bg-dark border-secondary mb-4">
             <div class="card-body">
@@ -252,25 +283,26 @@
           <div class="card-body">
             <h5 class="text-warning fw-bold mb-3"><i class="bi bi-info-circle me-2"></i>How It Works</h5>
             <ol class="text-secondary small" style="line-height:1.8;">
-              <li><strong class="text-white">Pull deposit inputs</strong> from the target company's most recent NI 43-101 technical report — tonnage by resource category, grade, recovery, opex, capex, mine life.</li>
-              <li><strong class="text-white">Pick the study stage</strong> — PEA, PFS, or FS. Each carries a different engineering-precision multiplier.</li>
-              <li><strong class="text-white">Enter up to four gold-price benchmarks</strong> — spot, trailing averages, or your own long-term deck. Column 1 is pre-filled from the live gold ticker.</li>
-              <li><strong class="text-white">Review the matrix</strong> — three NAV scenarios across every price benchmark. The "stage-adjusted" row is the realistic read.</li>
+              <li><strong class="text-white">Enter resource and reserve tonnage</strong> by category from the company's most recent technical report. At least one non-zero tonnage is required.</li>
+              <li><strong class="text-white">Add whatever you know about grade, recovery, operating costs, and financial assumptions.</strong> Every field here is optional — leave anything blank and a reasonable default will be applied, with the values used listed in the output. Fewer inputs mean lower accuracy.</li>
+              <li><strong class="text-white">Pick the study stage</strong> — Preliminary Economic Assessment, Pre-Feasibility Study, or Feasibility Study. Each carries a different engineering-precision multiplier that gets applied to the final NAV.</li>
+              <li><strong class="text-white">Enter one or more gold-price benchmarks.</strong> Column 1 is pre-filled from the live commodity ticker. Add trailing averages or your own long-term deck in the remaining columns for sensitivity.</li>
+              <li><strong class="text-white">Review the matrix</strong> — three NAV scenarios across every price benchmark. The stage-adjusted row (highlighted in gold) is the realistic, risk-adjusted number to anchor on for position sizing.</li>
             </ol>
             <hr class="border-secondary my-4">
             <h6 class="text-warning fw-bold mb-3">Confidence Weights Applied</h6>
             <ul class="text-secondary small mb-3" style="line-height:1.7;">
               <li><strong class="text-white">Inferred resources:</strong> 20% confidence weight</li>
-              <li><strong class="text-white">Indicated resources:</strong> 65%</li>
-              <li><strong class="text-white">Measured resources:</strong> 90%</li>
-              <li><strong class="text-white">Probable reserves:</strong> 90%</li>
+              <li><strong class="text-white">Indicated resources:</strong> 50%</li>
+              <li><strong class="text-white">Measured resources:</strong> 75%</li>
+              <li><strong class="text-white">Probable reserves:</strong> 85%</li>
               <li><strong class="text-white">Proven reserves:</strong> 100%</li>
             </ul>
             <h6 class="text-warning fw-bold mb-3">Study-Stage Haircuts</h6>
             <ul class="text-secondary small mb-0" style="line-height:1.7;">
-              <li><strong class="text-white">PEA:</strong> 30% haircut (±50% economic precision)</li>
-              <li><strong class="text-white">PFS:</strong> 15% haircut (±25% precision)</li>
-              <li><strong class="text-white">FS:</strong> no additional haircut</li>
+              <li><strong class="text-white">Preliminary Economic Assessment:</strong> 30% haircut (±50% economic precision)</li>
+              <li><strong class="text-white">Pre-Feasibility Study:</strong> 15% haircut (±25% precision)</li>
+              <li><strong class="text-white">Feasibility Study:</strong> no additional haircut (study used as reported)</li>
             </ul>
           </div>
         </div>

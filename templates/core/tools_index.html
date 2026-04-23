@@ -34,9 +34,9 @@
           <div class="card-body">
             <div class="d-flex align-items-center mb-3">
               <i class="bi bi-calculator-fill text-warning me-3" style="font-size:2rem;"></i>
-              <h5 class="text-white fw-bold mb-0">Gold NAV Calculator</h5>
+              <h5 class="text-white fw-bold mb-0">Gold Stock Valuation Calculator</h5>
             </div>
-            <p class="text-secondary mb-0">Risk-adjusted NAV for junior gold deposits. Resource-category confidence weights, study-stage haircuts, and up to 4 gold-price benchmarks.</p>
+            <p class="text-secondary mb-0">Risk-adjusted NAV per share for junior gold deposits. Resource-category confidence weights, study-stage haircuts, and up to 4 gold-price benchmarks. Every field optional with sensible defaults.</p>
             <p class="text-warning fw-bold small mt-3 mb-0">Open calculator &rarr;</p>
           </div>
         </div>
@@ -95,10 +95,11 @@
       <h6 class="text-warning fw-bold mb-2"><i class="bi bi-info-circle me-2"></i>A note on all four calculators</h6>
       <p class="text-secondary small mb-0">
         Each tool applies the same risk-adjustment framework: resource-category confidence
-        weights (inferred 20%, indicated 65%, measured/probable 90%, proven 100%) and
-        study-stage haircuts (PEA 30%, PFS 15%, FS none). Simplifications common to all
-        V1 tools: no corporate tax, no sustaining capex, no inflation, no royalties. For
-        informational purposes only.
+        weights (inferred 20%, indicated 50%, measured 75%, probable 85%, proven 100%) and
+        study-stage haircuts (Preliminary Economic Assessment 30%, Pre-Feasibility Study
+        15%, Feasibility Study no haircut). Simplifications common to all V1 tools: no
+        corporate tax, no sustaining capex, no inflation, no royalties. For informational
+        purposes only.
         <a href="{% url 'core:disclaimer' %}" class="text-warning text-decoration-none">Full disclaimer &rarr;</a>
       </p>
     </div>

@@ -5,7 +5,7 @@ silver, and polymetallic variants.
 
 Methodology (unchanged across commodities):
   1. Weight raw resource tonnage by category confidence (inferred 0.20,
-     indicated 0.65, measured 0.90, probable 0.90, proven 1.00).
+     indicated 0.50, measured 0.75, probable 0.85, proven 1.00).
   2. For each tonne of ore processed, compute the gross revenue per tonne
      from the sum of commodity contributions (grade × recovery × price,
      converted to the appropriate price unit).
@@ -43,9 +43,9 @@ def pct_grade_to_lb_per_tonne(pct: Decimal) -> Decimal:
 # ────────────────────────────────────────────────────────────────────────
 CATEGORY_WEIGHTS: Dict[str, Decimal] = {
     "inferred":  Decimal("0.20"),
-    "indicated": Decimal("0.65"),
-    "measured":  Decimal("0.90"),
-    "probable":  Decimal("0.90"),
+    "indicated": Decimal("0.50"),
+    "measured":  Decimal("0.75"),
+    "probable":  Decimal("0.85"),
     "proven":    Decimal("1.00"),
 }
 
@@ -166,7 +166,7 @@ SCENARIOS: List[Scenario] = [
     ),
     Scenario(
         label="Category-weighted NAV",
-        description="Resource categories discounted by confidence (inferred 20%, indicated 65%, measured/probable 90%, proven 100%). No stage haircut.",
+        description="Resource categories discounted by confidence (inferred 20%, indicated 50%, measured 75%, probable 85%, proven 100%). No stage haircut.",
         tonnage_basis="risk-weighted",
         apply_stage=False,
     ),

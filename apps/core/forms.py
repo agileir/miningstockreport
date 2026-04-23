@@ -28,7 +28,8 @@ class NavCalculatorForm(forms.Form):
         decimal_places=3,
         max_digits=8,
         initial=Decimal("1.50"),
-        help_text="Average grade across the deposit in grams per tonne.",
+        required=False,
+        help_text="Average grade across the deposit in grams per tonne. Leave blank to use a 1.50 g/t default.",
     )
     recovery_pct = forms.DecimalField(
         label="Metallurgical recovery (%)",
@@ -37,17 +38,19 @@ class NavCalculatorForm(forms.Form):
         decimal_places=1,
         max_digits=4,
         initial=Decimal("90.0"),
-        help_text="Percentage of contained gold expected to be recovered during processing. Typical 85-95% for heap leach, 90-96% for CIL/CIP.",
+        required=False,
+        help_text="Percentage of gold recovered. Typical 85-95% heap leach, 90-96% CIL/CIP. Blank defaults to 90%.",
     )
 
-    # ── Operating inputs ──
+    # ── Operating inputs (all optional; defaults applied if blank) ──
     opex_per_tonne = forms.DecimalField(
         label="Opex per tonne processed ($/t)",
         min_value=0,
         decimal_places=2,
         max_digits=8,
         initial=Decimal("40.00"),
-        help_text="All-in operating cost per tonne milled: mining + processing + G&A.",
+        required=False,
+        help_text="All-in operating cost per tonne milled: mining + processing + G&A. Blank defaults to $40/t.",
     )
     capex_millions = forms.DecimalField(
         label="Initial capex ($M)",
@@ -55,16 +58,18 @@ class NavCalculatorForm(forms.Form):
         decimal_places=2,
         max_digits=10,
         initial=Decimal("500.00"),
-        help_text="Upfront capital for mine construction. Sustaining capex not modeled in V1.",
+        required=False,
+        help_text="Upfront capital for mine construction. Blank defaults to $500M.",
     )
     mine_life_years = forms.IntegerField(
         label="Mine life (years)",
         min_value=1,
         max_value=50,
         initial=10,
+        required=False,
     )
 
-    # ── Financial inputs ──
+    # ── Financial inputs (all optional; defaults applied if blank) ──
     discount_rate_pct = forms.DecimalField(
         label="Discount rate (%)",
         min_value=Decimal("0"),
@@ -72,7 +77,8 @@ class NavCalculatorForm(forms.Form):
         decimal_places=2,
         max_digits=5,
         initial=Decimal("8.00"),
-        help_text="Typically 5% for a producer, 8% for a developer, 10%+ for an explorer.",
+        required=False,
+        help_text="Typically 5% for a producer, 8% for a developer, 10%+ for an explorer. Blank defaults to 8%.",
     )
     shares_outstanding_m = forms.DecimalField(
         label="Shares outstanding, fully diluted (M)",
@@ -80,7 +86,8 @@ class NavCalculatorForm(forms.Form):
         decimal_places=3,
         max_digits=12,
         initial=Decimal("100.000"),
-        help_text="Millions of shares fully diluted, including warrants and options.",
+        required=False,
+        help_text="Millions of shares fully diluted, including warrants and options. Blank defaults to 100M.",
     )
 
     # ── Study stage ──
@@ -88,6 +95,7 @@ class NavCalculatorForm(forms.Form):
         label="Study stage",
         choices=STAGE_CHOICES,
         initial="PFS",
+        required=False,
         help_text="Pick the stage matching the underlying technical study. Stage haircut applied to the final risk-adjusted NAV.",
     )
 

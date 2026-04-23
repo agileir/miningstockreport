@@ -93,6 +93,65 @@
 </section>
 {% endif %}
 
+{# ── Investor Tools ── #}
+<section class="py-5 bg-dark border-top border-secondary">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="text-white fw-bold h4 mb-0">
+        <i class="bi bi-tools text-warning me-2"></i>Investor Tools
+      </h2>
+      <a href="{% url 'core:tools_index' %}" class="text-warning small text-decoration-none">All tools &rarr;</a>
+    </div>
+    <p class="text-secondary mb-4">Risk-adjusted NAV calculators for gold, copper, silver, and polymetallic deposits. Put 43-101 inputs in, get a per-share valuation across category-weighted and study-stage-adjusted scenarios.</p>
+    <div class="row g-3">
+      <div class="col-md-6 col-xl-3">
+        <a href="{% url 'core:nav_calculator' %}" class="text-decoration-none">
+          <div class="card bg-black border-warning border-2 h-100">
+            <div class="card-body">
+              <i class="bi bi-calculator-fill text-warning mb-2" style="font-size:1.5rem;"></i>
+              <h6 class="text-white fw-bold mb-1">Gold Stock Valuation</h6>
+              <p class="text-secondary small mb-0">Risk-adjusted NAV for gold deposits.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6 col-xl-3">
+        <a href="{% url 'core:nav_calculator_copper' %}" class="text-decoration-none">
+          <div class="card bg-black border-secondary h-100">
+            <div class="card-body">
+              <i class="bi bi-calculator-fill text-warning mb-2" style="font-size:1.5rem;"></i>
+              <h6 class="text-white fw-bold mb-1">Copper NAV</h6>
+              <p class="text-secondary small mb-0">Grade in %, price in $/lb.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6 col-xl-3">
+        <a href="{% url 'core:nav_calculator_silver' %}" class="text-decoration-none">
+          <div class="card bg-black border-secondary h-100">
+            <div class="card-body">
+              <i class="bi bi-calculator-fill text-warning mb-2" style="font-size:1.5rem;"></i>
+              <h6 class="text-white fw-bold mb-1">Silver NAV</h6>
+              <p class="text-secondary small mb-0">Grade in g/t, price in $/oz.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6 col-xl-3">
+        <a href="{% url 'core:nav_calculator_polymetallic' %}" class="text-decoration-none">
+          <div class="card bg-black border-secondary h-100">
+            <div class="card-body">
+              <i class="bi bi-calculator-fill text-warning mb-2" style="font-size:1.5rem;"></i>
+              <h6 class="text-white fw-bold mb-1">Polymetallic NAV</h6>
+              <p class="text-secondary small mb-0">Au · Cu · Ag combined DCF.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
 {# ── Featured Videos ── #}
 {% if featured_videos %}
 <section class="py-5 bg-dark border-top border-secondary">

@@ -72,28 +72,51 @@ def nav_calculator(request):
         initial["price_value_1"] = gold_price.price
         initial["price_label_1"] = f"Current Spot ({gold_price.fetched_at.strftime('%Y-%m-%d')})"
 
+    # Default values applied when a field is left blank. Kept in sync with
+    # the form's `initial=` values so the UI and the view agree.
+    from decimal import Decimal
+    GOLD_DEFAULTS = {
+        "grade_gpt":            Decimal("1.50"),
+        "recovery_pct":         Decimal("90.0"),
+        "opex_per_tonne":       Decimal("40.00"),
+        "capex_millions":       Decimal("500.00"),
+        "mine_life_years":      10,
+        "discount_rate_pct":    Decimal("8.00"),
+        "shares_outstanding_m": Decimal("100.000"),
+        "stage":                "PFS",
+    }
+
     matrix = None
     price_columns = None
     inputs_summary = None
+    defaults_applied = []
 
     if request.method == "POST":
         form = NavCalculatorForm(request.POST)
         if form.is_valid():
             cd = form.cleaned_data
+
+            def _get(field):
+                val = cd.get(field)
+                if val in (None, ""):
+                    defaults_applied.append({"field": field, "value": GOLD_DEFAULTS[field]})
+                    return GOLD_DEFAULTS[field]
+                return val
+
             inputs = NavInputs(
                 tonnes_inferred  = cd.get("tonnes_inferred")  or 0,
                 tonnes_indicated = cd.get("tonnes_indicated") or 0,
                 tonnes_measured  = cd.get("tonnes_measured")  or 0,
                 tonnes_probable  = cd.get("tonnes_probable")  or 0,
                 tonnes_proven    = cd.get("tonnes_proven")    or 0,
-                grade_gpt            = cd["grade_gpt"],
-                recovery_pct         = cd["recovery_pct"],
-                opex_per_tonne       = cd["opex_per_tonne"],
-                capex_millions       = cd["capex_millions"],
-                mine_life_years      = cd["mine_life_years"],
-                discount_rate_pct    = cd["discount_rate_pct"],
-                shares_outstanding_m = cd["shares_outstanding_m"],
-                stage                = cd["stage"],
+                grade_gpt            = _get("grade_gpt"),
+                recovery_pct         = _get("recovery_pct"),
+                opex_per_tonne       = _get("opex_per_tonne"),
+                capex_millions       = _get("capex_millions"),
+                mine_life_years      = _get("mine_life_years"),
+                discount_rate_pct    = _get("discount_rate_pct"),
+                shares_outstanding_m = _get("shares_outstanding_m"),
+                stage                = _get("stage"),
             )
             price_columns = form.get_price_columns()
             matrix = calculate_nav_matrix_gold_legacy(inputs, price_columns)
@@ -103,12 +126,12 @@ def nav_calculator(request):
                     inputs.tonnes_measured, inputs.tonnes_probable,
                     inputs.tonnes_proven,
                 )),
-                "stage": cd["stage"],
-                "grade_gpt": cd["grade_gpt"],
-                "recovery_pct": cd["recovery_pct"],
-                "mine_life_years": cd["mine_life_years"],
-                "shares_outstanding_m": cd["shares_outstanding_m"],
-                "discount_rate_pct": cd["discount_rate_pct"],
+                "stage": inputs.stage,
+                "grade_gpt": inputs.grade_gpt,
+                "recovery_pct": inputs.recovery_pct,
+                "mine_life_years": inputs.mine_life_years,
+                "shares_outstanding_m": inputs.shares_outstanding_m,
+                "discount_rate_pct": inputs.discount_rate_pct,
             }
     else:
         form = NavCalculatorForm(initial=initial)
@@ -118,6 +141,7 @@ def nav_calculator(request):
         "matrix": matrix,
         "price_columns": price_columns,
         "inputs_summary": inputs_summary,
+        "defaults_applied": defaults_applied,
         "current_gold_price": gold_price,
     })
 
