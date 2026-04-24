@@ -1,9 +1,12 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block title %}Accredited Investors — Private Deal Flow & Placement Access{% endblock %}
-{% block meta_description %}Register your interest in private placement deal flow and direct management access for accredited investors in junior mining companies.{% endblock %}
-{% block robots %}noindex, nofollow{% endblock %}
+{% block title %}Accredited Investor Newsletter for Canadian Junior Mining Investors{% endblock %}
+{% block meta_description %}Weekly junior mining commentary for Canadian accredited investors. Unpublished scorecards, private-placement market analysis, and portfolio commentary from Mining Stock Report.{% endblock %}
+{% block og_description %}Accredited investor newsletter for Canadian junior mining investors — commentary, unpublished scorecards, and private-placement market analysis.{% endblock %}
+{% block twitter_description %}Accredited investor newsletter for Canadian junior mining investors.{% endblock %}
+
+{% block robots %}index, follow{% endblock %}
 
 {% block schema_breadcrumb %}
 <script type="application/ld+json">
@@ -12,180 +15,292 @@
   "@type": "BreadcrumbList",
   "itemListElement": [
     {"@type":"ListItem","position":1,"name":"Home","item":"{{ SITE_URL }}/"},
-    {"@type":"ListItem","position":2,"name":"Accredited Investors","item":"{{ SITE_URL }}/investors/"}
+    {"@type":"ListItem","position":2,"name":"Accredited Investor Newsletter","item":"{{ SITE_URL }}/investors/"}
+  ]
+}
+</script>
+{% endblock %}
+
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Who qualifies as an accredited investor in Canada?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under National Instrument 45-106 (Prospectus Exemptions), an individual qualifies as an accredited investor in Canada if they meet at least one of several criteria. The most common individual categories are: (1) net income before taxes exceeding $200,000 individually (or $300,000 combined with a spouse) in each of the two most recent calendar years, with a reasonable expectation of exceeding that threshold in the current year; (2) net financial assets (cash, securities, deposits) exceeding $1 million, alone or with a spouse, excluding the primary residence; or (3) net assets of at least $5 million including the primary residence. Directors, executive officers, and control persons of an issuer, registered dealers and advisers, and various institutional entities also qualify."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between NI 45-106 and the accredited investor definition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NI 45-106 is the Canadian Securities Administrators' national instrument covering prospectus exemptions — it lists the exemptions that let issuers sell securities without filing a prospectus. The accredited investor exemption is one of those exemptions, and the definition of who qualifies as an accredited investor is set out within NI 45-106. The two terms are often used interchangeably in practice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this newsletter a securities offering?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The newsletter is editorial content — market commentary, research, and analysis — delivered by email to subscribers who self-identify as accredited investors. It is not an offer to sell securities, not a solicitation of investment, and not investment advice as defined by Canadian or US securities law. Mining Stock Report does not sell securities, does not receive compensation from issuers for coverage, and is not a registered dealer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to prove accredited investor status to subscribe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The subscription form requires you to confirm that you meet the accredited investor criteria in your jurisdiction. This self-certification is stored with a timestamp and IP address for compliance record-keeping. If your circumstances change and you no longer qualify, we ask that you unsubscribe — but the content is structured as educational commentary that is informative regardless of accreditation status."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often does the newsletter publish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The accredited-investor newsletter publishes weekly, typically on Tuesdays. Each issue covers market commentary, one deep-dive scorecard (including unpublished factor detail and sensitivity analysis not in the public write-up), and links to the week's notable private-placement market activity. A separate quarterly portfolio-review issue summarises position changes and thesis updates."
+      }
+    }
   ]
 }
 </script>
 {% endblock %}
 
 {% block content %}
-<div class="bg-dark py-4 border-bottom" style="border-color:#2a2000 !important;">
-  <div class="container" style="max-width:680px;">
+
+{# ────────────────────── Hero ────────────────────── #}
+<div class="bg-dark py-5 border-bottom border-secondary">
+  <div class="container" style="max-width:860px;">
     <span class="badge px-3 py-2 mb-3 d-inline-block"
           style="background:#1a1400;color:#e2c97e;border:1px solid #3a2e00;font-size:11px;letter-spacing:.05em;">
-      ◆ Accredited Investors
+      ◆ Accredited Investor Newsletter
     </span>
-    <h1 class="text-white fw-bold mb-2">Early access to companies before they reach the newsletter crowd</h1>
-    <p class="mb-0" style="color:#888;font-size:15px;line-height:1.7;max-width:560px;">
-      We work with a small number of accredited investors who want direct deal flow — pre-IPO placements,
-      private rounds, and direct access to management teams in companies that have passed the Verdict Framework.
+    <h1 class="text-white fw-bold mb-3" style="font-size:2rem;">
+      Junior mining commentary and research for Canadian accredited investors
+    </h1>
+    <p class="mb-0" style="color:#bbb;font-size:17px;line-height:1.7;">
+      A weekly editorial newsletter for qualifying investors — private-placement market
+      commentary, full unpublished scorecards from the Verdict Framework, and quarterly
+      portfolio-review editorial. No paid coverage, no issuer relationships, no pump.
     </p>
   </div>
 </div>
 
-<div class="container py-5" style="max-width:680px;">
+<div class="container py-5" style="max-width:860px;">
 
-  {# What you get #}
-  <div class="mb-5">
+  {# ────────── What the newsletter covers ────────── #}
+  <section class="mb-5">
     <p class="text-secondary small text-uppercase fw-bold mb-3" style="letter-spacing:.06em;">What you get</p>
     <div class="row g-3">
-      {% for item in benefits %}
       <div class="col-md-6">
         <div class="card bg-dark border-secondary h-100">
           <div class="card-body">
-            <div class="text-warning mb-2" style="font-size:16px;">{{ item.icon }}</div>
-            <h6 class="text-white mb-1">{{ item.title }}</h6>
-            <p class="text-secondary small mb-0">{{ item.description }}</p>
-          </div>
-        </div>
-      </div>
-      {% empty %}
-      <div class="col-md-6">
-        <div class="card bg-dark border-secondary h-100">
-          <div class="card-body">
-            <div style="font-size:16px;margin-bottom:8px;">⚑</div>
-            <h6 class="text-white mb-1">Private placement deal flow</h6>
-            <p class="text-secondary small mb-0">Companies raising at the pre-IPO or seed stage, reviewed through the Verdict Framework before they're shared.</p>
+            <div class="text-warning mb-2" style="font-size:16px;">⚑</div>
+            <h3 class="h6 text-white mb-1">Weekly commentary on the private-placement market</h3>
+            <p class="text-secondary small mb-0">Editorial analysis of pre-IPO and private-placement activity across the Canadian junior mining universe — who's raising, on what terms, and what it signals for the broader sector.</p>
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="card bg-dark border-secondary h-100">
           <div class="card-body">
-            <div style="font-size:16px;margin-bottom:8px;">◎</div>
-            <h6 class="text-white mb-1">Direct management introductions</h6>
-            <p class="text-secondary small mb-0">CEO/CFO contact for watchlist companies where we have an established relationship.</p>
+            <div class="text-warning mb-2" style="font-size:16px;">≡</div>
+            <h3 class="h6 text-white mb-1">Full unpublished Verdict Framework scorecards</h3>
+            <p class="text-secondary small mb-0">The full factor-by-factor scorecard output including discount-rate assumptions, sensitivity analysis, and comparable-transaction math — detail that doesn't appear in the public reports.</p>
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="card bg-dark border-secondary h-100">
           <div class="card-body">
-            <div style="font-size:16px;margin-bottom:8px;">≡</div>
-            <h6 class="text-white mb-1">Full unpublished scorecards</h6>
-            <p class="text-secondary small mb-0">Verdict Framework scorecards including discount rate assumptions and sensitivity analysis not in the public reports.</p>
+            <div class="text-warning mb-2" style="font-size:16px;">◷</div>
+            <h3 class="h6 text-white mb-1">Quarterly portfolio-review editorial</h3>
+            <p class="text-secondary small mb-0">Structured commentary on position changes, thesis updates, and post-mortems on closed positions — editorial transparency on what's working and what isn't.</p>
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="card bg-dark border-secondary h-100">
           <div class="card-body">
-            <div style="font-size:16px;margin-bottom:8px;">◷</div>
-            <h6 class="text-white mb-1">Quarterly portfolio review call</h6>
-            <p class="text-secondary small mb-0">Small group, direct line to the analyst, all positions discussed openly.</p>
+            <div class="text-warning mb-2" style="font-size:16px;">◎</div>
+            <h3 class="h6 text-white mb-1">Market-cycle and commodity commentary</h3>
+            <p class="text-secondary small mb-0">Macro commentary on gold, silver, copper, and uranium price dynamics and their implications for junior mining equities — research-grade analysis rather than headline reactions.</p>
           </div>
         </div>
       </div>
-      {% endfor %}
     </div>
-  </div>
+  </section>
 
-  {# Registration form #}
-  <div class="card border-2" style="background:#0f0f0f;border-color:#3a2e00 !important;">
-    <div class="card-body p-4">
-      <h5 class="text-white fw-bold mb-1">Register your interest</h5>
-      <p class="text-secondary small mb-4">We'll review your profile and be in touch within 5 business days.</p>
+  {# ────────── Accredited investor definition (SEO + self-qualification) ────────── #}
+  <section class="mb-5 pt-4 border-top border-secondary">
+    <p class="text-secondary small text-uppercase fw-bold mb-3" style="letter-spacing:.06em;">Who qualifies</p>
+    <h2 class="text-white fw-bold mb-3">What is an Accredited Investor in Canada?</h2>
+    <p class="text-secondary">
+      The definition of an accredited investor in Canada is set out in
+      <a href="https://www.osc.ca/en/securities-law/instruments-rules-policies/4/45-106"
+         class="text-warning text-decoration-none" target="_blank" rel="noopener">
+      National Instrument 45-106</a> (Prospectus Exemptions), the national rule maintained by the
+      Canadian Securities Administrators. The common individual categories of accredited investor
+      under NI 45-106 are:
+    </p>
+    <ul class="text-secondary" style="line-height:1.9;">
+      <li><strong class="text-white">High-income individuals.</strong> Net income before taxes exceeding <strong class="text-warning">$200,000 individually</strong> (or <strong class="text-warning">$300,000 combined with a spouse</strong>) in each of the two most recent calendar years, with a reasonable expectation of exceeding that threshold in the current calendar year.</li>
+      <li><strong class="text-white">High-net-financial-asset individuals.</strong> Net financial assets (cash, securities, cash surrender value of life insurance, deposits, and similar) exceeding <strong class="text-warning">$1,000,000</strong>, alone or together with a spouse, excluding the primary residence and any debts secured against the primary residence.</li>
+      <li><strong class="text-white">High-net-asset individuals.</strong> Net assets of at least <strong class="text-warning">$5,000,000</strong>, alone or together with a spouse — this category does include the primary residence.</li>
+      <li><strong class="text-white">Directors, executive officers, and control persons</strong> of an issuer, and their spouses.</li>
+      <li><strong class="text-white">Persons registered as dealers or advisers</strong> under securities legislation.</li>
+      <li><strong class="text-white">Various institutional investors</strong> — financial institutions, Schedule I/II banks, pension funds, certain trusts managed by registered trust companies, investment funds, and similar entities.</li>
+    </ul>
+    <p class="text-secondary">
+      The full list of categories is in section 1.1 of NI 45-106. If you're uncertain whether you
+      qualify, the Ontario Securities Commission publishes an
+      <a href="https://www.osc.ca/en/investors/investor-news/what-accredited-investor"
+         class="text-warning text-decoration-none" target="_blank" rel="noopener">
+      accredited investor overview</a>, and a quick review with a licensed dealer or securities
+      lawyer will give you a definitive answer for your circumstances.
+    </p>
+    <div class="card bg-black border-secondary my-4">
+      <div class="card-body small text-secondary">
+        <strong class="text-white">Note on US and other jurisdictions.</strong>
+        The US accredited investor definition under SEC Rule 501 differs from the Canadian NI 45-106
+        definition in several respects — different income thresholds, different treatment of the
+        primary residence in net-worth calculations, and different qualification pathways. Australia
+        uses the "sophisticated investor" concept under the Corporations Act. UK readers should
+        refer to the FCA rules on high-net-worth individuals and sophisticated investors. If you're
+        a non-Canadian accredited investor, we welcome the subscription — just confirm you qualify
+        in your home jurisdiction.
+      </div>
+    </div>
+  </section>
 
-      {% if messages %}
-        {% for message in messages %}
-          <div class="alert alert-success">{{ message }}</div>
-        {% endfor %}
-      {% endif %}
+  {# ────────── Why this newsletter ────────── #}
+  <section class="mb-5 pt-4 border-top border-secondary">
+    <p class="text-secondary small text-uppercase fw-bold mb-3" style="letter-spacing:.06em;">Why this newsletter</p>
+    <h2 class="text-white fw-bold mb-3">Editorial, not sales</h2>
+    <p class="text-secondary">
+      Most newsletters that target Canadian accredited investors in the junior mining sector are
+      paid-promotion vehicles — issuers compensate the publisher in cash, shares, or both, in
+      exchange for coverage. The coverage reads like research but functions as marketing. The
+      Mining Stock Report accredited-investor newsletter is structurally different: we do not
+      accept payment from issuers, we do not receive finder's fees or commissions on any
+      introductions, and we are not a registered dealer. The newsletter is editorial content
+      supported by subscription revenue and YouTube revenue, and nothing else.
+    </p>
+    <p class="text-secondary">
+      What that earns you as a subscriber: commentary you can trust to be independent, scorecards
+      that reflect what the framework actually says about a company rather than what a paying
+      client wants it to say, and portfolio-review editorial where losing positions are discussed
+      as openly as winning ones. Most of the sector does not work this way. If that distinction
+      matters to you, you'll probably find value here.
+    </p>
+  </section>
 
-      <form method="post" id="investorForm">
-        {% csrf_token %}
-        <input type="text" name="website" style="display:none;" tabindex="-1" autocomplete="off">
+  {# ────────── Registration form ────────── #}
+  <section class="pt-4 border-top border-secondary">
+    <div class="card border-2" style="background:#0f0f0f;border-color:#3a2e00 !important;">
+      <div class="card-body p-4">
+        <h2 class="h5 text-white fw-bold mb-1">Register to subscribe</h2>
+        <p class="text-secondary small mb-4">We'll review your profile and confirm your subscription by email within 5 business days.</p>
 
-        <div class="row g-3 mb-3">
-          <div class="col-md-6">
-            <label class="form-label text-secondary small">First name</label>
-            <input type="text" name="first_name" class="form-control bg-black text-white border-secondary" placeholder="First name" required>
+        {% if messages %}
+          {% for message in messages %}
+            <div class="alert alert-success">{{ message }}</div>
+          {% endfor %}
+        {% endif %}
+
+        <form method="post" id="investorForm">
+          {% csrf_token %}
+          <input type="text" name="website" style="display:none;" tabindex="-1" autocomplete="off">
+
+          <div class="row g-3 mb-3">
+            <div class="col-md-6">
+              <label class="form-label text-secondary small">First name</label>
+              <input type="text" name="first_name" class="form-control bg-black text-white border-secondary" placeholder="First name" required>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label text-secondary small">Last name</label>
+              <input type="text" name="last_name" class="form-control bg-black text-white border-secondary" placeholder="Last name" required>
+            </div>
           </div>
-          <div class="col-md-6">
-            <label class="form-label text-secondary small">Last name</label>
-            <input type="text" name="last_name" class="form-control bg-black text-white border-secondary" placeholder="Last name" required>
+
+          <div class="mb-3">
+            <label class="form-label text-secondary small">Email address</label>
+            <input type="email" name="email" class="form-control bg-black text-white border-secondary" placeholder="your@email.com" required>
           </div>
-        </div>
 
-        <div class="mb-3">
-          <label class="form-label text-secondary small">Email address</label>
-          <input type="email" name="email" class="form-control bg-black text-white border-secondary" placeholder="your@email.com" required>
-        </div>
+          <div class="row g-3 mb-3">
+            <div class="col-md-6">
+              <label class="form-label text-secondary small">Country of residence</label>
+              <select name="country" class="form-select bg-black text-white border-secondary">
+                <option value="CA">Canada</option>
+                <option value="AU">Australia</option>
+                <option value="UK">United Kingdom</option>
+                <option value="US">United States</option>
+                <option value="OTHER">Other</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label text-secondary small">Investable capital (mining)</label>
+              <select name="capital_range" class="form-select bg-black text-white border-secondary">
+                <option value="50k-150k">$50K – $150K</option>
+                <option value="150k-500k">$150K – $500K</option>
+                <option value="500k-1m">$500K – $1M</option>
+                <option value="1m+">$1M+</option>
+              </select>
+            </div>
+          </div>
 
-        <div class="row g-3 mb-3">
-          <div class="col-md-6">
-            <label class="form-label text-secondary small">Country of residence</label>
-            <select name="country" class="form-select bg-black text-white border-secondary">
-              <option value="CA">Canada</option>
-              <option value="AU">Australia</option>
-              <option value="UK">United Kingdom</option>
-              <option value="US">United States</option>
-              <option value="OTHER">Other</option>
+          <div class="mb-4">
+            <label class="form-label text-secondary small">How did you find us?</label>
+            <select name="referral_source" class="form-select bg-black text-white border-secondary">
+              <option value="youtube">YouTube</option>
+              <option value="newsletter">Newsletter referral</option>
+              <option value="search">Search / Google</option>
+              <option value="social">Social media</option>
+              <option value="wom">Word of mouth</option>
+              <option value="other">Other</option>
             </select>
           </div>
-          <div class="col-md-6">
-            <label class="form-label text-secondary small">Investable capital (mining)</label>
-            <select name="capital_range" class="form-select bg-black text-white border-secondary">
-              <option value="50k-150k">$50K – $150K</option>
-              <option value="150k-500k">$150K – $500K</option>
-              <option value="500k-1m">$500K – $1M</option>
-              <option value="1m+">$1M+</option>
-            </select>
+
+          {# Consent checkboxes #}
+          <div class="p-3 mb-3 rounded" style="background:#0d0d0d;border:1px solid #222;">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="confirmed_accredited" id="chk_accredited" required>
+              <label class="form-check-label small" for="chk_accredited">
+                <strong class="text-white d-block mb-1">I confirm I am an accredited investor in my jurisdiction</strong>
+                <span class="text-secondary">I meet the accredited-investor criteria as defined in my home jurisdiction (NI 45-106 in Canada, Rule 501 in the US, or equivalent) and understand that junior mining investments are speculative and can lose 100% of their value.</span>
+              </label>
+            </div>
           </div>
-        </div>
 
-        <div class="mb-4">
-          <label class="form-label text-secondary small">How did you find us?</label>
-          <select name="referral_source" class="form-select bg-black text-white border-secondary">
-            <option value="youtube">YouTube</option>
-            <option value="newsletter">Newsletter referral</option>
-            <option value="search">Search / Google</option>
-            <option value="social">Social media</option>
-            <option value="wom">Word of mouth</option>
-            <option value="other">Other</option>
-          </select>
-        </div>
-
-        {# Consent checkboxes #}
-        <div class="p-3 mb-3 rounded" style="background:#0d0d0d;border:1px solid #222;">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="confirmed_accredited" id="chk_accredited" required>
-            <label class="form-check-label small" for="chk_accredited">
-              <strong class="text-white d-block mb-1">I confirm I am an accredited investor</strong>
-              <span class="text-secondary">I meet the accredited investor criteria in my jurisdiction and understand that any investments discussed carry significant risk of loss.</span>
-            </label>
+          <div class="p-3 mb-4 rounded" style="background:#0d0d0d;border:1px solid #222;">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="consent_contact" id="chk_contact" required>
+              <label class="form-check-label small" for="chk_contact">
+                <strong class="text-white d-block mb-1">I agree to be contacted by email</strong>
+                <span class="text-secondary">Mining Stock Report may contact me by email regarding the newsletter, editorial content, and related research. I can unsubscribe at any time.</span>
+              </label>
+            </div>
           </div>
-        </div>
 
-        <div class="p-3 mb-4 rounded" style="background:#0d0d0d;border:1px solid #222;">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="consent_contact" id="chk_contact" required>
-            <label class="form-check-label small" for="chk_contact">
-              <strong class="text-white d-block mb-1">I agree to be contacted</strong>
-              <span class="text-secondary">Mining Stock Report may contact me by email regarding deal flow, scorecards, and investment opportunities relevant to my profile.</span>
-            </label>
-          </div>
-        </div>
+          <button type="submit" class="btn btn-warning fw-bold w-100 btn-lg">Subscribe to the Newsletter</button>
 
-        <button type="submit" class="btn btn-warning fw-bold w-100 btn-lg">Submit registration</button>
-
-        <p class="text-secondary text-center mt-3 mb-0" style="font-size:11px;line-height:1.6;">
-          This is not an offer to sell securities. Deal flow is shared at our sole discretion with investors
-          whose profile matches available opportunities. Mining Stock Report does not provide financial advice.
-        </p>
-      </form>
+          <p class="text-secondary text-center mt-3 mb-0" style="font-size:11px;line-height:1.6;">
+            This newsletter is editorial commentary only. It is not an offer to sell or a solicitation
+            to buy any security, not investment advice, and not a recommendation to enter into any
+            transaction. Mining Stock Report is not a registered dealer or adviser.
+            <a href="{% url 'core:disclaimer' %}" class="text-warning text-decoration-none">Read our full disclaimer &rarr;</a>
+          </p>
+        </form>
+      </div>
     </div>
-  </div>
+  </section>
 
 </div>
 {% endblock %}

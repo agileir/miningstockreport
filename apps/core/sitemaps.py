@@ -21,6 +21,7 @@ class StaticViewSitemap(Sitemap):
         "core:nav_calculator_copper",
         "core:nav_calculator_silver",
         "core:nav_calculator_polymetallic",
+        "investors:register",
     }
 
     def items(self):
@@ -33,7 +34,8 @@ class StaticViewSitemap(Sitemap):
                 "core:nav_calculator_polymetallic",
                 "blog:post_list", "verdict:company_list",
                 "videos:video_list", "watchlist:watchlist",
-                "news:news_wire"]
+                "news:news_wire",
+                "investors:register"]
 
     def location(self, item):
         return reverse(item)
