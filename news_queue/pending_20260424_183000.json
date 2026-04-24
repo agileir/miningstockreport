@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "WEST POINT GOLD DRILLS 22.9m AT 3.11 G/T AU at Arizona's Gold Chain — 184.4m at 1.00 G/T Confirms Bulk-Tonnage Scale",
+    "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Newsfile/1471950/west-point-gold-drills-22-9m-of-3-11-g-t-au-and-184-4m-of-1-00-g-t-au-from-tyro-main-zone-at-gold-chain-project/",
+    "source_name": "Globe and Mail",
+    "category_slug": "exploration-discovery",
+    "snippet": "West Point Gold (TSXV: WPG) released Phase VI results from seven RC holes (1,419m) at the Tyro Main Zone of Gold Chain, Arizona, highlighted by 22.9m at 3.11 g/t Au and a shallow 184.4m at 1.00 g/t Au from surface — confirming both high-grade shoots and bulk-tonnage mineralization across the 20,000m programme.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "ATEX VALERIANO EXTENDS B2B ZONE 135 METRES EAST: 834m at 0.66% CuEq in Chile — Plus TSX Uplisting April 27",
+    "url": "https://www.mining.com/atex-copper-gold-drilling-in-chile-hints-at-resource-growth/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "ATEX Resources' Phase VI programme at Valeriano (Chile) delivered hole ATXD34 with 834m at 0.66% CuEq including 172m at 0.80%, pushing the B2B corridor to 1.8km north-south across a 1.99-billion-tonne deposit; the company simultaneously announced it will uplist from TSXV to the TSX on April 27, 2026.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "WORLD'S NO. 6 URANIUM MINER Starts Commercial Production at New Uzbekistan Mine — 7,000 Tonnes/Year Output",
+    "url": "https://www.mining.com/worlds-no-6-uranium-miner-starts-new-output-in-uzbekistan/",
+    "source_name": "Mining.com",
+    "category_slug": "uranium-energy",
+    "snippet": "Navoiyuran, Uzbekistan's state uranium miner and world's sixth-largest producer, has commenced commercial production at its new Qizilkok project in the Navoi region, adding to its 7,000 tonnes/year output that grew 35% in 2025 — as the country accelerates plans to develop four additional uranium deposits in 2026.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "Q2 METALS CISCO: 295 Million Tonnes at 1.36% Li₂O — Inaugural MRE Ranks Among World's Top 10 Lithium Deposits",
+    "url": "https://www.northernminer.com/news/q2s-first-resource-for-cisco-lithium-ranks-globally/1003890269/",
+    "source_name": "The Northern Miner",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Q2 Metals' inaugural Inferred MRE at the Cisco lithium project in Quebec's James Bay region totals 295 Mt grading 1.36% Li₂O (9.9 Mt LCE), with mineralisation open in all directions across 1.8 km of strike and depths to 600m — positioning it among the top 10 hard-rock lithium deposits globally by both scale and grade.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "TRILOGY SEEKS FAST-41 FOR ALASKA ARCTIC: Federal Copper-Zinc Permitting Commenced With 40-45 Hole 2026 Drill Plan",
+    "url": "https://www.mining.com/trilogy-to-seek-fast-41-inclusion-for-alaska-copper-project/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "Ambler Metals (50/50 Trilogy Metals and South32) filed a Clean Water Act Section 404 permit with the US Army Corps of Engineers for the Arctic copper-zinc project and will seek FAST-41 status to coordinate multi-agency reviews; a fully-funded $35M 2026 field campaign includes 40-45 geotechnical drill holes supporting mine design.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "USA RARE EARTH GOES GLOBAL: $2.8B Serra Verde Deal Creates First Fully Integrated Non-Asian Magnetic REE Supply Chain",
+    "url": "https://www.metaltechnews.com/story/2026/04/22/tech-metals/usa-rare-earth-goes-global-with-28b-deal/2724.html",
+    "source_name": "Metal Tech News",
+    "category_slug": "rare-earths",
+    "snippet": "Metal Tech News analyses how USA Rare Earth's $2.8B acquisition of Brazil's Serra Verde — the only producer outside Asia capable of supplying all four magnetic rare earths at scale — combined with its Texas mine-to-magnet complex, creates a vertically integrated US rare earth champion backed by a 15-year government-linked offtake agreement.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "HOCHSCHILD Q1 CONFIRMS GOLD AT $4,471/OZ REALIZED — Stock Rallies 2% as Silver Hits $89/Oz and Net Cash Swings to $95M",
+    "url": "https://www.northernminer.com/news/hochschild-rallies-as-gold-price-surge-lifts-outlook/1003890263/",
+    "source_name": "The Northern Miner",
+    "category_slug": "gold-silver",
+    "snippet": "Hochschild Mining maintained its 2026 guidance of 300,000-328,000 gold-equivalent ounces after a Q1 that saw realized gold hit $4,471/oz (vs. $2,708 a year ago) and silver reach $89.08/oz; the company's balance sheet swung from $23M net debt at year-end to $95M net cash — sending shares up 2% to 672p.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "BHP LIFTS COPPER GUIDANCE: Escondida Sets Record Concentrator Throughput, Full-Year Output Nears 2 Million Tonnes",
+    "url": "https://www.mining.com/bhp-now-expects-nearly-2m-tonnes-copper-production-after-record-escondida-throughput/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "BHP's Q3 FY26 operational review (nine months to March 31) revealed record material mined and concentrator throughput at Escondida, Chile; the company raised full-year group copper guidance to the upper half of 1.9-2.0 Mt while cutting Escondida unit cost guidance to US$1.00-1.20/lb — a bullish signal for the world's largest copper supply point.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "AMERICAS GOLD & SILVER SETS Q1 RECORD: 787,000 Oz Silver — Up 76% Year-Over-Year",
+    "url": "https://americas-gold.com/news-releases/2026/americas-gold-and-silver-corporation-announces-new-record-quarterly-silver-production-and-sales-including-787-000-ounces/",
+    "source_name": "Americas Gold and Silver",
+    "category_slug": "gold-silver",
+    "snippet": "Americas Gold and Silver Corporation posted record Q1 2026 consolidated silver production of 787,000 ounces — a 76% increase over Q1 2025's 446,000 oz — as the sixth consecutive annual silver deficit tightens physical supply and drives producers to maximise output at elevated prices near $80/oz.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ARGENTINA LITHIUM LOCKS IN $100M CHINESE DLE PARTNER for Rincon West — 30% Earn-In With Direct Lithium Extraction Tech",
+    "url": "https://www.newsfilecorp.com/release/293466/Argentina-Lithium-Signs-US100-Million-Heads-of-Terms-and-Framework-Agreement-with-Lanshen-for-Rincon-West",
+    "source_name": "Newsfile Corp",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Argentina Lithium & Energy (TSXV: LIT) signed a non-binding $100M framework with Xi'an Lanshen New Material Technology, which will earn up to 30% equity in the Rincon West brine project (Salta, Argentina) by deploying its Direct Lithium Extraction technology through three staged development milestones toward commercial production.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
