@@ -63,6 +63,7 @@ class PostDetailView(DetailView):
         ctx["related_posts"] = (
             Post.objects.filter(
                 status=Post.Status.PUBLISHED,
+                published_at__lte=timezone.now(),
                 pillar=post.pillar,
             )
             .exclude(pk=post.pk)
