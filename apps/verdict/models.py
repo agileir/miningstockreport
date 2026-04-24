@@ -8,6 +8,7 @@ from apps.core.seo import SEOMixin
 class Exchange(models.TextChoices):
     TSXV = "TSXV", "TSX Venture (TSXV)"
     TSX = "TSX", "Toronto Stock Exchange (TSX)"
+    CSE = "CSE", "Canadian Securities Exchange (CSE)"
     ASX = "ASX", "Australian Securities Exchange (ASX)"
     OTC = "OTC", "OTC Markets"
     NYSE = "NYSE", "NYSE / NYSE American"
