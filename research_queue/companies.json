@@ -1,0 +1,26 @@
+[
+  {
+    "ticker": "ELD",
+    "name": "Eldorado Gold Corporation",
+    "exchange": "TSX",
+    "website": "https://www.eldoradogold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "T\u00fcrkiye"
+  },
+  {
+    "ticker": "IMG",
+    "name": "IAMGOLD Corporation",
+    "exchange": "TSX",
+    "website": "https://www.iamgold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Ontario"
+  },
+  {
+    "ticker": "NGD",
+    "name": "New Gold Inc.",
+    "exchange": "TSX",
+    "website": "https://www.newgold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Ontario"
+  }
+]
