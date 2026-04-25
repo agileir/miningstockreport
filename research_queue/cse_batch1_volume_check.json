@@ -1,0 +1,128 @@
+[
+  {
+    "ticker": "RLGC",
+    "name": "Great Red Lake Gold Corp.",
+    "yhsym": "RLGC.CN",
+    "status": "not_found",
+    "avg_vol": 0,
+    "avg_dollar_vol": 0,
+    "last_px": null
+  },
+  {
+    "ticker": "ELYX",
+    "name": "Elysian Mineral Exploration Corp.",
+    "yhsym": "ELYX.CN",
+    "status": "LOW_VOL",
+    "avg_vol": 250.0,
+    "avg_dollar_vol": 62.5,
+    "last_px": 0.25
+  },
+  {
+    "ticker": "NUCA",
+    "name": "Americas Uranium Corp.",
+    "yhsym": "NUCA.CN",
+    "status": "ACTIVE",
+    "avg_vol": 7223.0,
+    "avg_dollar_vol": 1805.75,
+    "last_px": 0.25
+  },
+  {
+    "ticker": "ICG",
+    "name": "ICG Silver Gold Ltd.",
+    "yhsym": "ICG.CN",
+    "status": "ACTIVE",
+    "avg_vol": 33206.8,
+    "avg_dollar_vol": 16603.4,
+    "last_px": 0.5
+  },
+  {
+    "ticker": "ROCB",
+    "name": "Rockbridge Resources Inc.",
+    "yhsym": "ROCB.CN",
+    "status": "not_found",
+    "avg_vol": 0,
+    "avg_dollar_vol": 0,
+    "last_px": null
+  },
+  {
+    "ticker": "OROG",
+    "name": "Gold Orogen Resources Corp.",
+    "yhsym": "OROG.CN",
+    "status": "ACTIVE",
+    "avg_vol": 141431.8,
+    "avg_dollar_vol": 9193.066662800311,
+    "last_px": 0.06499999761581421
+  },
+  {
+    "ticker": "BEAU",
+    "name": "Beaumont Exploration Corp.",
+    "yhsym": "BEAU.CN",
+    "status": "LOW_VOL",
+    "avg_vol": 100.0,
+    "avg_dollar_vol": 20.000000298023224,
+    "last_px": 0.20000000298023224
+  },
+  {
+    "ticker": "BMT",
+    "name": "Bahia Metals Corp.",
+    "yhsym": "BMT.CN",
+    "status": "ACTIVE",
+    "avg_vol": 20200.0,
+    "avg_dollar_vol": 8483.999735116959,
+    "last_px": 0.41999998688697815
+  },
+  {
+    "ticker": "MM",
+    "name": "Maximus Metals Inc.",
+    "yhsym": "MM.CN",
+    "status": "ACTIVE",
+    "avg_vol": 121000.0,
+    "avg_dollar_vol": 31459.998846054077,
+    "last_px": 0.25999999046325684
+  },
+  {
+    "ticker": "ALAR",
+    "name": "Alaros Exploration Inc.",
+    "yhsym": "ALAR.CN",
+    "status": "not_found",
+    "avg_vol": 0,
+    "avg_dollar_vol": 0,
+    "last_px": null
+  },
+  {
+    "ticker": "UG",
+    "name": "Upside Gold Corp.",
+    "yhsym": "UG.CN",
+    "status": "ACTIVE",
+    "avg_vol": 27448.2,
+    "avg_dollar_vol": 41172.3,
+    "last_px": 1.5
+  },
+  {
+    "ticker": "STNG",
+    "name": "Stinger Resources Inc.",
+    "yhsym": "STNG.CN",
+    "status": "ACTIVE",
+    "avg_vol": 9920.0,
+    "avg_dollar_vol": 744.0000295639038,
+    "last_px": 0.07500000298023224
+  },
+  {
+    "ticker": "C",
+    "name": "Commodore Metals Corp.",
+    "yhsym": "C.CN",
+    "status": "NO_VOL",
+    "avg_vol": 0.0,
+    "avg_dollar_vol": 0.0,
+    "last_px": 0.5
+  },
+  {
+    "ticker": "SL",
+    "name": "Super Lithium Corp.",
+    "yhsym": "SL.CN",
+    "status": "NO_VOL",
+    "avg_vol": 0.0,
+    "avg_dollar_vol": 0.0,
+    "last_px": 0.6000000238418579
+  }
+]

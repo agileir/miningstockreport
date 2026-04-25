@@ -1,0 +1,2935 @@
+{
+  "source": "thecse.com industry mining",
+  "pulled_at": "2026-04-24",
+  "count": 366,
+  "rows": [
+    {
+      "ticker": "JJJ",
+      "name": "37 Capital Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-01"
+    },
+    {
+      "ticker": "FFF",
+      "name": "55 North Mining Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-04-20"
+    },
+    {
+      "ticker": "AMQ",
+      "name": "Abitibi Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-03-09"
+    },
+    {
+      "ticker": "ADDY",
+      "name": "Adelayde Exploration Inc. (formerly was SPMT/Spearmint Resources Inc. until 2025-06-27)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-10-01"
+    },
+    {
+      "ticker": "ADP",
+      "name": "Adelphi Metals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-11-15"
+    },
+    {
+      "ticker": "ADON",
+      "name": "Adonis Minerals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-03-12"
+    },
+    {
+      "ticker": "AUEX",
+      "name": "Advanced Gold Exploration Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-05-28"
+    },
+    {
+      "ticker": "AFF",
+      "name": "Affinity Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-08-02"
+    },
+    {
+      "ticker": "ALAR",
+      "name": "Alaros Exploration Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2026-01-26"
+    },
+    {
+      "ticker": "ACM",
+      "name": "Allied Critical Metals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-04-30"
+    },
+    {
+      "ticker": "ALMA",
+      "name": "Alma Gold Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-10-07"
+    },
+    {
+      "ticker": "NUKE",
+      "name": "American Atomics Inc. (formerly was GNEM/Great Northern Energy Metals Inc. until 2025-07-30)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-01-24"
+    },
+    {
+      "ticker": "ACDX",
+      "name": "American Copper Development Corporation",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-08-30"
+    },
+    {
+      "ticker": "ACRE",
+      "name": "American Critical Elements Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-17"
+    },
+    {
+      "ticker": "KCLI",
+      "name": "American Critical Minerals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-01"
+    },
+    {
+      "ticker": "USGD",
+      "name": "American Pacific Mining Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-03-08"
+    },
+    {
+      "ticker": "USLI",
+      "name": "American Salars Lithium Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-12-23"
+    },
+    {
+      "ticker": "TUNG",
+      "name": "American Tungsten Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-05-04"
+    },
+    {
+      "ticker": "NUCA",
+      "name": "Americas Uranium Corp. (formerly was ASR/Allied Strategic Resource Corp. until 2026-04-21)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2026-03-31"
+    },
+    {
+      "ticker": "AWCM",
+      "name": "Ameriwest Critical Metals Inc. (formerly was AWLI/Ameriwest Lithium Inc. until 2025-08-27)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-07-24"
+    },
+    {
+      "ticker": "ANT",
+      "name": "Anteros Metals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-01-31"
+    },
+    {
+      "ticker": "ATMY",
+      "name": "Antimony Resources Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-11-08"
+    },
+    {
+      "ticker": "APXC",
+      "name": "Apex Critical Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-03-15"
+    },
+    {
+      "ticker": "API",
+      "name": "Appia Rare Earths & Uranium Corp",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-14"
+    },
+    {
+      "ticker": "AFX",
+      "name": "Arctic Fox Lithium Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-06-04"
+    },
+    {
+      "ticker": "ARS",
+      "name": "Ares Strategic Mining Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-10-22"
+    },
+    {
+      "ticker": "ARQ",
+      "name": "Argo Gold Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2016-09-22"
+    },
+    {
+      "ticker": "ARGL",
+      "name": "Argyle Resources Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-05-27"
+    },
+    {
+      "ticker": "ARMY",
+      "name": "Armory Mining Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-08-24"
+    },
+    {
+      "ticker": "ASHL",
+      "name": "Ashley Gold Corp",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-05-02"
+    },
+    {
+      "ticker": "ATC",
+      "name": "ATERRA Metals Inc. (formerly was CSS/Cascada Silver Corp. until 2025-12-15)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-03-12"
+    },
+    {
+      "ticker": "ATHA",
+      "name": "Athena Gold Corporation",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-10-18"
+    },
+    {
+      "ticker": "AUMC",
+      "name": "Auric Minerals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-12-14"
+    },
+    {
+      "ticker": "AWR",
+      "name": "Aurwest Resources Corporation",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-09"
+    },
+    {
+      "ticker": "AUAG",
+      "name": "Auxico Resources Canada Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2017-10-17"
+    },
+    {
+      "ticker": "AGC",
+      "name": "Avanti Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-03"
+    },
+    {
+      "ticker": "AVM.X",
+      "name": "Avarone Metals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2016-02-01"
+    },
+    {
+      "ticker": "AVE",
+      "name": "Aventis Energy Inc. (formerly was VBAM/Vital Battery Metals Inc. until 2025-05-12)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-07-21"
+    },
+    {
+      "ticker": "AA",
+      "name": "Avventura Resources Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-08-26"
+    },
+    {
+      "ticker": "BMT",
+      "name": "Bahia Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2026-02-12"
+    },
+    {
+      "ticker": "BAR",
+      "name": "Barranco Gold Mining Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-02-06"
+    },
+    {
+      "ticker": "BATX",
+      "name": "Battery X Metals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-03-12"
+    },
+    {
+      "ticker": "BYRG",
+      "name": "Bayridge Resources Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-11-27"
+    },
+    {
+      "ticker": "BEAU",
+      "name": "Beaumont Exploration Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2026-02-26"
+    },
+    {
+      "ticker": "BY",
+      "name": "Beyond Minerals Inc. (formerly was BY/Beyond Lithium Inc. until 2026-02-05)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-04-13"
+    },
+    {
+      "ticker": "BGX",
+      "name": "BGX - Black Gold Exploration Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-02-21"
+    },
+    {
+      "ticker": "BG",
+      "name": "Big Gold Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-09-21"
+    },
+    {
+      "ticker": "BLST",
+      "name": "Blast Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-09-18"
+    },
+    {
+      "ticker": "BLLG",
+      "name": "Blue Lagoon Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-07-04"
+    },
+    {
+      "ticker": "BOLT",
+      "name": "Bolt Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2017-10-24"
+    },
+    {
+      "ticker": "BGLD",
+      "name": "Boreal Gold Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-12-17"
+    },
+    {
+      "ticker": "BRS",
+      "name": "BRS Resources Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-09-03"
+    },
+    {
+      "ticker": "BURY",
+      "name": "Burrell Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-07-12"
+    },
+    {
+      "ticker": "MEO",
+      "name": "Cameo Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-05-08"
+    },
+    {
+      "ticker": "CCI",
+      "name": "Canadian Copper Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-07-26"
+    },
+    {
+      "ticker": "CAMP",
+      "name": "Canadian GoldCamps Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2016-08-05"
+    },
+    {
+      "ticker": "CANU",
+      "name": "Canadian Uranium Corp. (formerly was FREE/Free Battery Metal Limited until 2025-12-04)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-06-13"
+    },
+    {
+      "ticker": "EMET",
+      "name": "Canamera Energy Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-03-05"
+    },
+    {
+      "ticker": "CSQ",
+      "name": "Canamex Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-05-07"
+    },
+    {
+      "ticker": "BRAZ",
+      "name": "Canary Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-11-18"
+    },
+    {
+      "ticker": "CRC",
+      "name": "Canter Resources Corp",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-12-20"
+    },
+    {
+      "ticker": "CAPR",
+      "name": "Caprock Mining Corp",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-01-26"
+    },
+    {
+      "ticker": "CCC",
+      "name": "Carlyle Commodities Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-10-24"
+    },
+    {
+      "ticker": "CRIV",
+      "name": "Carson River Ventures Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-02-07"
+    },
+    {
+      "ticker": "CFE",
+      "name": "Cartier Silver Corporation",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-01"
+    },
+    {
+      "ticker": "CASC",
+      "name": "Cascade Copper Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-04-25"
+    },
+    {
+      "ticker": "CAT",
+      "name": "CAT Strategic Metals Corporation",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-06-11"
+    },
+    {
+      "ticker": "CAT.WT",
+      "name": "CAT Strategic Metals Corporation 21NOV2030 Warrants",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-11-24"
+    },
+    {
+      "ticker": "CDN",
+      "name": "CDN Maverick Capital Corp",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-11-04"
+    },
+    {
+      "ticker": "LTHM",
+      "name": "Champion Electric Metals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-09-27"
+    },
+    {
+      "ticker": "CMET",
+      "name": "Clarity Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-06-29"
+    },
+    {
+      "ticker": "NICO",
+      "name": "Class 1 Nickel and Technologies Limited",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-08-20"
+    },
+    {
+      "ticker": "CMP",
+      "name": "CMP Mining Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-01-26"
+    },
+    {
+      "ticker": "CXC",
+      "name": "CMX Gold & Silver Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-08"
+    },
+    {
+      "ticker": "COMT",
+      "name": "Collective Metals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-06-27"
+    },
+    {
+      "ticker": "C",
+      "name": "Commodore Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-09-29"
+    },
+    {
+      "ticker": "CQX",
+      "name": "Copper Quest Exploration Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-09-24"
+    },
+    {
+      "ticker": "CSR",
+      "name": "Copper Standard Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-12-14"
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Corcel Exploration Inc",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-12-03"
+    },
+    {
+      "ticker": "CC",
+      "name": "Core Silver Corp. (formerly was CC/Core Assets Corp. until 2025-06-03)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-07-27"
+    },
+    {
+      "ticker": "CRTL",
+      "name": "Critical One Energy Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-05-13"
+    },
+    {
+      "ticker": "CRPC",
+      "name": "Critical Reagent Processing Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2017-10-13"
+    },
+    {
+      "ticker": "CRVC.X",
+      "name": "Cross River Ventures Corp. (formerly was CRVC/Cross River Ventures Corp. until 2025-05-12)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-07-14"
+    },
+    {
+      "ticker": "CRUZ",
+      "name": "Cruz Battery Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-08-06"
+    },
+    {
+      "ticker": "CMT",
+      "name": "Cullinan Metals Corp",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-02-18"
+    },
+    {
+      "ticker": "CUPA",
+      "name": "Cupani Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-10-03"
+    },
+    {
+      "ticker": "BATT",
+      "name": "Dark Star Minerals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-03-07"
+    },
+    {
+      "ticker": "SEAS",
+      "name": "Deep Sea Minerals Corp. (formerly was CUH/Copperhead Resources Inc. until 2026-01-23)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-05-23"
+    },
+    {
+      "ticker": "DEMC",
+      "name": "Discovery Energy Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-09-29"
+    },
+    {
+      "ticker": "DRC",
+      "name": "DRC Gold Corp. (formerly was AJN/AJN Resources Inc. until 2026-01-23)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-06-12"
+    },
+    {
+      "ticker": "EPR",
+      "name": "E-Power Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-01-13"
+    },
+    {
+      "ticker": "EAGL",
+      "name": "EagleOne Metals Corporation",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-08-27"
+    },
+    {
+      "ticker": "WISE",
+      "name": "Earthwise Minerals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-04-19"
+    },
+    {
+      "ticker": "EOM",
+      "name": "ECO ORO MINERALS CORP. J",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2017-10-24"
+    },
+    {
+      "ticker": "EDGM",
+      "name": "Edgemont Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-06-01"
+    },
+    {
+      "ticker": "EONE",
+      "name": "Element One Hydrogen and Critical Minerals Corp. (formerly was BRCO/Buscando Resources Corp. until 2025-10-27)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-03-15"
+    },
+    {
+      "ticker": "ELEM",
+      "name": "Element79 Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-08-03"
+    },
+    {
+      "ticker": "ELYX",
+      "name": "Elysian Mineral Exploration Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2026-04-02"
+    },
+    {
+      "ticker": "EMPS",
+      "name": "EMP Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-03-02"
+    },
+    {
+      "ticker": "AUOZ",
+      "name": "Emperor Metals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-07-26"
+    },
+    {
+      "ticker": "EPG",
+      "name": "Epic Gold Corp. (formerly was NFLD/Exploits Discovery Corp. until 2026-02-17)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-06-03"
+    },
+    {
+      "ticker": "ESAU",
+      "name": "ESGold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-10-06"
+    },
+    {
+      "ticker": "ETR",
+      "name": "Etruscus Resources Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-01-15"
+    },
+    {
+      "ticker": "ERKA",
+      "name": "Eureka Lithium Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-07-04"
+    },
+    {
+      "ticker": "EVM",
+      "name": "EV Minerals Corporation",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-06-19"
+    },
+    {
+      "ticker": "EGFV",
+      "name": "Evolution Global Frontier Ventures Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-12-11"
+    },
+    {
+      "ticker": "FNI",
+      "name": "Fathom Nickel Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-05-25"
+    },
+    {
+      "ticker": "FENX",
+      "name": "FenixOro Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-05-21"
+    },
+    {
+      "ticker": "HHE",
+      "name": "First Atlas Resources Corp. (formerly was QMET/Q Precious & Battery Metals Corp. until 2026-02-26)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2017-11-10"
+    },
+    {
+      "ticker": "FLM",
+      "name": "First Lithium Minerals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-08-09"
+    },
+    {
+      "ticker": "PHOS",
+      "name": "First Phosphate Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-02-22"
+    },
+    {
+      "ticker": "FTEL",
+      "name": "First Tellurium Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-01"
+    },
+    {
+      "ticker": "FWM",
+      "name": "Flow Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-06-22"
+    },
+    {
+      "ticker": "FNX",
+      "name": "FNX Inc. (formerly was STWO/S2 Minerals Inc. until 2025-12-04)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-06-24"
+    },
+    {
+      "ticker": "FAT",
+      "name": "Foremost Clean Energy Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-02"
+    },
+    {
+      "ticker": "FRG",
+      "name": "Forge Resources Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-07-20"
+    },
+    {
+      "ticker": "FOMO",
+      "name": "Formation Metals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-10-18"
+    },
+    {
+      "ticker": "CUAU",
+      "name": "Forte Minerals Corp",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-01-25"
+    },
+    {
+      "ticker": "PLLR",
+      "name": "Forty Pillars Mining Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-05-31"
+    },
+    {
+      "ticker": "FNAU",
+      "name": "Four Nines Gold Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2017-08-31"
+    },
+    {
+      "ticker": "FOX",
+      "name": "Fox River Resources Corporation",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2016-02-05"
+    },
+    {
+      "ticker": "BOOM",
+      "name": "Galloper Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-03-01"
+    },
+    {
+      "ticker": "GAND",
+      "name": "Gander Gold Corporation",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-03-08"
+    },
+    {
+      "ticker": "GMR",
+      "name": "Gelum Resources Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-10-18"
+    },
+    {
+      "ticker": "GGLD",
+      "name": "General Copper Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-02-01"
+    },
+    {
+      "ticker": "GGC",
+      "name": "Generic Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-03-01"
+    },
+    {
+      "ticker": "GRCM",
+      "name": "Geologica Resource Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-10-26"
+    },
+    {
+      "ticker": "GMC",
+      "name": "Germanium Mining Corp. (formerly was MUSK/Musk Metals Corp until 2025-06-09)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-06-28"
+    },
+    {
+      "ticker": "GTCH",
+      "name": "Getchell Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-12-03"
+    },
+    {
+      "ticker": "BFG",
+      "name": "Giant Mining Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2017-12-20"
+    },
+    {
+      "ticker": "GSTR",
+      "name": "Glenstar Minerals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-07-26"
+    },
+    {
+      "ticker": "LION",
+      "name": "Global Li-Ion Graphite Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2017-07-14"
+    },
+    {
+      "ticker": "MONI",
+      "name": "Global Tactical Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-12-29"
+    },
+    {
+      "ticker": "GURN",
+      "name": "Global Uranium Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-05-07"
+    },
+    {
+      "ticker": "GOCO",
+      "name": "Go Metals Corp",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2017-12-08"
+    },
+    {
+      "ticker": "GCP",
+      "name": "Golcap Resources Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-12-23"
+    },
+    {
+      "ticker": "HUNT",
+      "name": "Gold Hunter Resources Inc",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-02-12"
+    },
+    {
+      "ticker": "OROG",
+      "name": "Gold Orogen Resources Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2026-03-02"
+    },
+    {
+      "ticker": "GPO",
+      "name": "Gold Port Corporation",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-09-24"
+    },
+    {
+      "ticker": "GRUN",
+      "name": "Gold Runner Exploration Inc. (formerly was CRS/Crestview Exploration Inc. until 2025-10-03)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-09-09"
+    },
+    {
+      "ticker": "FUTR",
+      "name": "Gold'Futures Mineral Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-08-21"
+    },
+    {
+      "ticker": "GC",
+      "name": "Goldcana Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-08-13"
+    },
+    {
+      "ticker": "GDN",
+      "name": "Golden Age Exploration Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-01-16"
+    },
+    {
+      "ticker": "GCC",
+      "name": "Golden Cariboo Resources Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-12-05"
+    },
+    {
+      "ticker": "GGR",
+      "name": "Golden Goose Resources Corp. (formerly was SALI/SALi Lithium Corp. until 2025-09-30)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-06-04"
+    },
+    {
+      "ticker": "GLM",
+      "name": "Golden Lake Exploration Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-05-08"
+    },
+    {
+      "ticker": "GLDR",
+      "name": "Golden Rapture Mining Corporation",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-03-12"
+    },
+    {
+      "ticker": "GSRI",
+      "name": "Golden Shield Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-02-22"
+    },
+    {
+      "ticker": "GLDS",
+      "name": "Golden Spike Resources Corp",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-09-13"
+    },
+    {
+      "ticker": "GOH",
+      "name": "GoldHaven Resources Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-03-30"
+    },
+    {
+      "ticker": "GOR",
+      "name": "Goldrea Resources Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-02"
+    },
+    {
+      "ticker": "GFT",
+      "name": "Grafton Resources Inc. (formerly was PMS/Prisma Exploration Inc until 2025-09-24)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-01-17"
+    },
+    {
+      "ticker": "GRAY",
+      "name": "Graycliff Exploration Limited",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-08-04"
+    },
+    {
+      "ticker": "RLGC",
+      "name": "Great Red Lake Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2026-04-23"
+    },
+    {
+      "ticker": "GRBM",
+      "name": "Green Bridge Metals Corporation",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-10-19"
+    },
+    {
+      "ticker": "CCR",
+      "name": "Green River Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2016-01-05"
+    },
+    {
+      "ticker": "GRHK",
+      "name": "Greenhawk Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-06-03"
+    },
+    {
+      "ticker": "GXP",
+      "name": "Greenridge Exploration Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-12-13"
+    },
+    {
+      "ticker": "HARD",
+      "name": "Hardcore Discoveries Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-05-04"
+    },
+    {
+      "ticker": "HWG",
+      "name": "Headwater Gold Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-06-08"
+    },
+    {
+      "ticker": "HERC",
+      "name": "Hercules Resources Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-01-30"
+    },
+    {
+      "ticker": "HML",
+      "name": "Heritage Mining Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-08-26"
+    },
+    {
+      "ticker": "HZ",
+      "name": "Hertz Energy Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-04-10"
+    },
+    {
+      "ticker": "GXLD",
+      "name": "Hi-View Resources Inc (formerly was HVW/Hi-View Resources Inc until 2026-01-09)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-01-28"
+    },
+    {
+      "ticker": "HTRC",
+      "name": "High Tide Resources Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-02-25"
+    },
+    {
+      "ticker": "HLND",
+      "name": "Highland Critical Minerals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-05-27"
+    },
+    {
+      "ticker": "HRK",
+      "name": "Highrock Resources Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-03-01"
+    },
+    {
+      "ticker": "HM",
+      "name": "HM Exploration Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-12-06"
+    },
+    {
+      "ticker": "ICG",
+      "name": "ICG Silver Gold Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2026-03-31"
+    },
+    {
+      "ticker": "AUCU",
+      "name": "Inflection Resources Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-07-21"
+    },
+    {
+      "ticker": "ISP",
+      "name": "Inspiration Mining Corp. (formerly was ISP/Inspiration Energy Corp. until 2026-02-25)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-04-07"
+    },
+    {
+      "ticker": "INTG",
+      "name": "Integral Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-10-31"
+    },
+    {
+      "ticker": "IRV",
+      "name": "Irving Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-12-23"
+    },
+    {
+      "ticker": "KING",
+      "name": "King Global Ventures Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-07-16"
+    },
+    {
+      "ticker": "KVM",
+      "name": "Kingsview Minerals Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-02-24"
+    },
+    {
+      "ticker": "KOG",
+      "name": "KO Gold Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-10-11"
+    },
+    {
+      "ticker": "KBX",
+      "name": "Kobrea Exploration Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-12-28"
+    },
+    {
+      "ticker": "KUYA",
+      "name": "Kuya Silver Corporation",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-10-07"
+    },
+    {
+      "ticker": "LAI.X",
+      "name": "La Imperial Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-03"
+    },
+    {
+      "ticker": "LFLR",
+      "name": "LaFleur Minerals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-04-09"
+    },
+    {
+      "ticker": "LCR",
+      "name": "Lancaster Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-06-14"
+    },
+    {
+      "ticker": "LECR",
+      "name": "Leocor Mining Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-06-21"
+    },
+    {
+      "ticker": "LP",
+      "name": "Leopard Lake Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-10-06"
+    },
+    {
+      "ticker": "LEXT",
+      "name": "Lexston Mining Corporation",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-06-25"
+    },
+    {
+      "ticker": "LFNT",
+      "name": "LFNT Resources Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-04-26"
+    },
+    {
+      "ticker": "LIBR",
+      "name": "Libra Energy Materials Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-07-10"
+    },
+    {
+      "ticker": "LGHT",
+      "name": "Lighthouse Gold Inc. (formerly was ALE/Alerio Gold Corp. until 2025-12-16)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-11-03"
+    },
+    {
+      "ticker": "LINE",
+      "name": "Linear Minerals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-03-01"
+    },
+    {
+      "ticker": "LEO",
+      "name": "Lion Copper and Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-09-20"
+    },
+    {
+      "ticker": "LIVE",
+      "name": "Live Energy Minerals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-03-29"
+    },
+    {
+      "ticker": "PNGC",
+      "name": "Loyalist Exploration Limited.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-03-02"
+    },
+    {
+      "ticker": "MBL",
+      "name": "Mabel Ventures Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-11-30"
+    },
+    {
+      "ticker": "KENY",
+      "name": "Makenita Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-12-30"
+    },
+    {
+      "ticker": "MANN",
+      "name": "Manning Ventures Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-10-25"
+    },
+    {
+      "ticker": "MAXX",
+      "name": "Max Power Mining Corp",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-02-16"
+    },
+    {
+      "ticker": "MM",
+      "name": "Maximus Metals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2026-02-06"
+    },
+    {
+      "ticker": "MAXM",
+      "name": "Maxus Mining Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-05-08"
+    },
+    {
+      "ticker": "MLKM",
+      "name": "Mayo Lake Minerals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-05-05"
+    },
+    {
+      "ticker": "MLM",
+      "name": "MCFARLANE LAKE MINING LIMITED",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-05-08"
+    },
+    {
+      "ticker": "MCL",
+      "name": "McLaren Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-11-20"
+    },
+    {
+      "ticker": "MEDA",
+      "name": "Medaro Mining Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-04-07"
+    },
+    {
+      "ticker": "MEGA",
+      "name": "MegaWatt Lithium and Battery Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-07-31"
+    },
+    {
+      "ticker": "MERC",
+      "name": "Mercado Minerals Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-11-10"
+    },
+    {
+      "ticker": "MYR",
+      "name": "Meryllion Resources Corporation",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-01"
+    },
+    {
+      "ticker": "MTTA",
+      "name": "Meta Critical Minerals Inc. (formerly was TROY/Troy Minerals Inc. until 2026-01-29)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-09-08"
+    },
+    {
+      "ticker": "METL",
+      "name": "Metalite Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-04-14"
+    },
+    {
+      "ticker": "MSM",
+      "name": "Metalsource Mining Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-09-14"
+    },
+    {
+      "ticker": "MILI",
+      "name": "Military Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-06-30"
+    },
+    {
+      "ticker": "MIRL",
+      "name": "Minera IRL Limited",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2017-02-03"
+    },
+    {
+      "ticker": "ROAD",
+      "name": "Mineral Road Discovery Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-10-23"
+    },
+    {
+      "ticker": "MOLT",
+      "name": "Molten Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-08-08"
+    },
+    {
+      "ticker": "MNG",
+      "name": "Mongoose Mining Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-11-22"
+    },
+    {
+      "ticker": "MY",
+      "name": "Montego Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-11-27"
+    },
+    {
+      "ticker": "MOC",
+      "name": "Mosaic Minerals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-11-16"
+    },
+    {
+      "ticker": "MEC",
+      "name": "Mustang Energy Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-06-10"
+    },
+    {
+      "ticker": "M",
+      "name": "Myriad Uranium Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-11-05"
+    },
+    {
+      "ticker": "NATB",
+      "name": "NatBridge Resources Ltd. (formerly was GEGC/Great Eagle Gold Corp. until 2025-06-20)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-06-13"
+    },
+    {
+      "ticker": "NATN",
+      "name": "Nation Gold Corp",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-01-04"
+    },
+    {
+      "ticker": "BAD",
+      "name": "Naughty Ventures Corp. (formerly was YORK/York Harbour Metals Inc. until 2025-10-10)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-12-09"
+    },
+    {
+      "ticker": "NTMC",
+      "name": "Neotech Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-03-17"
+    },
+    {
+      "ticker": "NOP",
+      "name": "Nevada Organic Phosphate Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-02-15"
+    },
+    {
+      "ticker": "NBRK",
+      "name": "New Break Resources Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-09-07"
+    },
+    {
+      "ticker": "EATH",
+      "name": "New Earth Resources Corp. (formerly was OBRN/Oberon Uranium Corp. until 2025-09-19)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-11-23"
+    },
+    {
+      "ticker": "NEWD",
+      "name": "Newfoundland Discovery Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-06-03"
+    },
+    {
+      "ticker": "PATH",
+      "name": "Newpath Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-01-12"
+    },
+    {
+      "ticker": "NT",
+      "name": "Newterra Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-12-18"
+    },
+    {
+      "ticker": "NEXX",
+      "name": "Nexcel Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-06-02"
+    },
+    {
+      "ticker": "NXU.X",
+      "name": "Nexco Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2017-05-09"
+    },
+    {
+      "ticker": "NEXU",
+      "name": "Nexus Uranium Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-06-28"
+    },
+    {
+      "ticker": "NINE",
+      "name": "Nine Mile Metals Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-02-21"
+    },
+    {
+      "ticker": "NOM",
+      "name": "Norsemont Mining Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2016-02-29"
+    },
+    {
+      "ticker": "NIOB",
+      "name": "North American Niobium and Critical Minerals Corp. (formerly was NIOB/First American Uranium Inc. until 2025-11-19)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-01-31"
+    },
+    {
+      "ticker": "NATO",
+      "name": "North Atlantic Titanium Corp. (formerly was MUZU/Muzhu Mining Ltd. until 2026-01-02)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-11-11"
+    },
+    {
+      "ticker": "NVR",
+      "name": "North Valley Resources Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-08-09"
+    },
+    {
+      "ticker": "NLR",
+      "name": "Northern Lights Resources Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-10-31"
+    },
+    {
+      "ticker": "NSG",
+      "name": "Northstar Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-01-02"
+    },
+    {
+      "ticker": "NIX",
+      "name": "NorthX Nickel Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-11-29"
+    },
+    {
+      "ticker": "NVPC",
+      "name": "Nova Pacific Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-07-19"
+    },
+    {
+      "ticker": "NRED",
+      "name": "NovaRed Mining Inc. (formerly was RB/Rumble Resources Inc. until 2026-02-10)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-09-05"
+    },
+    {
+      "ticker": "NSJ",
+      "name": "NSJ Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-03-08"
+    },
+    {
+      "ticker": "NUKV",
+      "name": "Nuclear Vision Limited (formerly was GDIG/Gold Digger Resources Inc. until 2025-05-15)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-11-03"
+    },
+    {
+      "ticker": "NWI",
+      "name": "Nuinsco Resources Limited",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-02-20"
+    },
+    {
+      "ticker": "OMGA",
+      "name": "Omega Pacific Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-04-21"
+    },
+    {
+      "ticker": "OWLI",
+      "name": "One World Lithium Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2017-02-28"
+    },
+    {
+      "ticker": "ORGN",
+      "name": "Origen Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-05-05"
+    },
+    {
+      "ticker": "PSIL",
+      "name": "Pacifica Silver Corp. (formerly was RBTO/Roberto Resources Inc. until 2025-07-18)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-09-05"
+    },
+    {
+      "ticker": "PNRG",
+      "name": "Pan American Energy Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-05-24"
+    },
+    {
+      "ticker": "PURR",
+      "name": "Panther Minerals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-11-13"
+    },
+    {
+      "ticker": "PSE",
+      "name": "Pasinex Resources Limited",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-11"
+    },
+    {
+      "ticker": "PGOL",
+      "name": "Patriot Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2017-05-10"
+    },
+    {
+      "ticker": "VBN",
+      "name": "Pedro Resources Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-11-02"
+    },
+    {
+      "ticker": "PGA",
+      "name": "Pegmatite One Lithium and Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-04-12"
+    },
+    {
+      "ticker": "PMC",
+      "name": "Peloton Minerals Corporation",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2016-07-18"
+    },
+    {
+      "ticker": "PGR",
+      "name": "Planet Green Metals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-06-28"
+    },
+    {
+      "ticker": "PLTO",
+      "name": "Pluto Ventures Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-10-30"
+    },
+    {
+      "ticker": "PMAX",
+      "name": "Powermax Minerals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-12-13"
+    },
+    {
+      "ticker": "POWR",
+      "name": "POWR Lithium Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-06-13"
+    },
+    {
+      "ticker": "PRCG",
+      "name": "Precore Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-08-02"
+    },
+    {
+      "ticker": "PRNC",
+      "name": "Prince Silver Corp. (formerly was HWTN/Hawthorn Resources Corp. until 2025-07-10)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-02-24"
+    },
+    {
+      "ticker": "PRIZ",
+      "name": "Prismo Metals Inc",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-10-01"
+    },
+    {
+      "ticker": "PRR",
+      "name": "Prospect Ridge Resources Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-05-31"
+    },
+    {
+      "ticker": "GRUV",
+      "name": "Protium Clean Energy Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-02-15"
+    },
+    {
+      "ticker": "PAU",
+      "name": "Provenance Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2017-10-12"
+    },
+    {
+      "ticker": "UX",
+      "name": "Puranium Energy Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-02-05"
+    },
+    {
+      "ticker": "QBAT",
+      "name": "Quantum Battery Metals Corp",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-12-22"
+    },
+    {
+      "ticker": "QB",
+      "name": "Quarterback Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-06-17"
+    },
+    {
+      "ticker": "QIMC",
+      "name": "Quebec Innovative Materials Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-04-22"
+    },
+    {
+      "ticker": "QNI",
+      "name": "Quebec Nickel Corp",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-07-02"
+    },
+    {
+      "ticker": "QREE",
+      "name": "Quebec Rare Earth Elements Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-06-16"
+    },
+    {
+      "ticker": "BULL",
+      "name": "Quest Critical Metals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2016-02-23"
+    },
+    {
+      "ticker": "QQQ",
+      "name": "Questcorp Mining Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-12-13"
+    },
+    {
+      "ticker": "QIM",
+      "name": "Quimbaya Gold Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-02-28"
+    },
+    {
+      "ticker": "RAIN",
+      "name": "Rain City Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-04-26"
+    },
+    {
+      "ticker": "REDC",
+      "name": "Red Canyon Resources Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-10-25"
+    },
+    {
+      "ticker": "RGLD",
+      "name": "Red Lake Gold Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-05-09"
+    },
+    {
+      "ticker": "RMES",
+      "name": "Red Metal Resources Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-11-25"
+    },
+    {
+      "ticker": "RUU",
+      "name": "Refined Energy Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-07-18"
+    },
+    {
+      "ticker": "RFLX",
+      "name": "Reflex Advanced Materials Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-08-03"
+    },
+    {
+      "ticker": "RFR",
+      "name": "Renforth Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-10-20"
+    },
+    {
+      "ticker": "RECE",
+      "name": "Resource Centrix Holdings Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-10-18"
+    },
+    {
+      "ticker": "RGR",
+      "name": "Rio Grande Resources Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-02-07"
+    },
+    {
+      "ticker": "RISE",
+      "name": "Rise Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2016-02-01"
+    },
+    {
+      "ticker": "ROCB",
+      "name": "Rockbridge Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2026-03-26"
+    },
+    {
+      "ticker": "RXM",
+      "name": "Rockex Mining Corporation",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-14"
+    },
+    {
+      "ticker": "RKL",
+      "name": "Rockland Resources Ltd",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-02-24"
+    },
+    {
+      "ticker": "RSG",
+      "name": "Rocky Shore Gold Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-05-23"
+    },
+    {
+      "ticker": "SK",
+      "name": "Rottenstone Gold Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-08-28"
+    },
+    {
+      "ticker": "RGN",
+      "name": "Rush Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-06-23"
+    },
+    {
+      "ticker": "RSH",
+      "name": "Rush Rare Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-01-26"
+    },
+    {
+      "ticker": "SCU",
+      "name": "Sankamap Metals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-10-19"
+    },
+    {
+      "ticker": "SANU",
+      "name": "Sanu Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-07-12"
+    },
+    {
+      "ticker": "SASQ",
+      "name": "Sasquatch Resources Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-09-06"
+    },
+    {
+      "ticker": "SASY",
+      "name": "Sassy Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-08-17"
+    },
+    {
+      "ticker": "SCV",
+      "name": "Scotch Creek Ventures Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-01-02"
+    },
+    {
+      "ticker": "SEAG.X",
+      "name": "Seahawk Ventures Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2016-05-05"
+    },
+    {
+      "ticker": "SHOW",
+      "name": "Showcase Minerals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-01-18"
+    },
+    {
+      "ticker": "SGRO",
+      "name": "Sierra Grande Minerals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-10-16"
+    },
+    {
+      "ticker": "SI",
+      "name": "Silicon Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-08-16"
+    },
+    {
+      "ticker": "SLA",
+      "name": "Silver Acadia Exploration Inc. (formerly was CME/Canadian Metals Inc. until 2026-02-10)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-01"
+    },
+    {
+      "ticker": "SLV",
+      "name": "Silver Dollar Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-05-29"
+    },
+    {
+      "ticker": "HAMR",
+      "name": "Silver Hammer Mining Corp",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-05-03"
+    },
+    {
+      "ticker": "SAND",
+      "name": "Silver Sands Resources Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-11-27"
+    },
+    {
+      "ticker": "STK",
+      "name": "Silverstock Metals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-09-01"
+    },
+    {
+      "ticker": "SXTY",
+      "name": "Sixty North Gold Mining Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-04-19"
+    },
+    {
+      "ticker": "SKUL",
+      "name": "Skull Ridge Gold Corp. (formerly was CARM/Carmanah Minerals Corp. until 2026-04-07)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-06-28"
+    },
+    {
+      "ticker": "SLZ",
+      "name": "Slave Lake Zinc Corp",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-11-07"
+    },
+    {
+      "ticker": "SRS",
+      "name": "Sorrento Resources Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-02-24"
+    },
+    {
+      "ticker": "SPRK",
+      "name": "Spark Energy Minerals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-08"
+    },
+    {
+      "ticker": "SPOD",
+      "name": "Spod Lithium Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-06-21"
+    },
+    {
+      "ticker": "SRAN",
+      "name": "Sranan Gold Corp",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-09-29"
+    },
+    {
+      "ticker": "SX",
+      "name": "St-Georges Eco-Mining Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-11"
+    },
+    {
+      "ticker": "STCU",
+      "name": "Star Copper Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-08-09"
+    },
+    {
+      "ticker": "ZIGY",
+      "name": "Stardust Metal Corp. (formerly was MIS/Mistango River Resources Inc. until 2025-11-20)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-02"
+    },
+    {
+      "ticker": "SLO",
+      "name": "Starlo Ventures Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-03-27"
+    },
+    {
+      "ticker": "STAR",
+      "name": "Starmet Ventures Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-10-19"
+    },
+    {
+      "ticker": "SCM",
+      "name": "Steadright Critical Minerals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-10-06"
+    },
+    {
+      "ticker": "STNG",
+      "name": "Stinger Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-11-10"
+    },
+    {
+      "ticker": "STGX",
+      "name": "StrategX Elements Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-01-10"
+    },
+    {
+      "ticker": "SUU",
+      "name": "Strathmore Plus Uranium Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-05-12"
+    },
+    {
+      "ticker": "CUPR",
+      "name": "Super Copper Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-10-07"
+    },
+    {
+      "ticker": "SL",
+      "name": "Super Lithium Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-09-03"
+    },
+    {
+      "ticker": "SUR",
+      "name": "Surface Metals Inc. (formerly was ACME/ACME Lithium Inc. until 2025-04-25)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-04-28"
+    },
+    {
+      "ticker": "TICO",
+      "name": "Talent Infinity Resource Developments Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-04-29"
+    },
+    {
+      "ticker": "TAI",
+      "name": "Talmora Diamond Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-24"
+    },
+    {
+      "ticker": "TANA",
+      "name": "Tana Resources Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-06-21"
+    },
+    {
+      "ticker": "TTX",
+      "name": "Tantalex Lithium Resources Corporation",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-11-10"
+    },
+    {
+      "ticker": "TRG",
+      "name": "Tarachi Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-10-25"
+    },
+    {
+      "ticker": "TEX",
+      "name": "Targa Exploration Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-09-27"
+    },
+    {
+      "ticker": "TARG",
+      "name": "Target Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-04-19"
+    },
+    {
+      "ticker": "TN",
+      "name": "Tartisan Nickel Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-01"
+    },
+    {
+      "ticker": "TAUR",
+      "name": "Taurus Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-09-15"
+    },
+    {
+      "ticker": "TMIN",
+      "name": "Teako Minerals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-08-19"
+    },
+    {
+      "ticker": "TMAS",
+      "name": "Temas Resources Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-05-19"
+    },
+    {
+      "ticker": "TERA",
+      "name": "Terra Balcanica Resources Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-06-20"
+    },
+    {
+      "ticker": "TCEC",
+      "name": "Terra Clean Energy Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-06-02"
+    },
+    {
+      "ticker": "CACR",
+      "name": "The Canadian Chrome Company Inc. (formerly was CACR/KWG Resources Inc. until 2025-08-06)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-01"
+    },
+    {
+      "ticker": "CACR.A",
+      "name": "The Canadian Chrome Company Inc. Multiple Voting Shares (formerly was CACR.A/KWG Resources Inc. MVS until 2025-08-06)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2017-04-28"
+    },
+    {
+      "ticker": "TOC",
+      "name": "Tocvan Ventures Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-03-01"
+    },
+    {
+      "ticker": "TGLD",
+      "name": "Torrent Gold Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-02-03"
+    },
+    {
+      "ticker": "TRAC",
+      "name": "Traction Uranium Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-09-01"
+    },
+    {
+      "ticker": "TONE",
+      "name": "Triple One Metals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-10-29"
+    },
+    {
+      "ticker": "TGII",
+      "name": "Trojan Gold Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-12-17"
+    },
+    {
+      "ticker": "UBQ",
+      "name": "Ubique Minerals Limited",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-09-12"
+    },
+    {
+      "ticker": "UCM",
+      "name": "United Critical Minerals Corp. (formerly was TRM/Trimera Metals Corp. until 2025-11-28)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-06-23"
+    },
+    {
+      "ticker": "ULTH",
+      "name": "United Lithium Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2017-12-27"
+    },
+    {
+      "ticker": "UG",
+      "name": "Upside Gold Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2026-01-05"
+    },
+    {
+      "ticker": "STMN",
+      "name": "UraniumX Discovery Corp. (formerly was STMN/Stearman Resources Inc. until 2025-12-30)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-01-24"
+    },
+    {
+      "ticker": "UE",
+      "name": "Urano Energy Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-02"
+    },
+    {
+      "ticker": "USCM",
+      "name": "US Critical Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-09-11"
+    },
+    {
+      "ticker": "UUU",
+      "name": "Vanguard Mining Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-03-04"
+    },
+    {
+      "ticker": "VRDN",
+      "name": "Viridian Metals Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2025-02-06"
+    },
+    {
+      "ticker": "VC.X",
+      "name": "Volatus Capital Corp. (formerly was VC/Volatus Capital Corp. until 2026-02-27)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-08-28"
+    },
+    {
+      "ticker": "VLTA",
+      "name": "Volta Metals Ltd.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-05-31"
+    },
+    {
+      "ticker": "VOLT",
+      "name": "Voltage Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-03-18"
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vortex Energy Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-12-28"
+    },
+    {
+      "ticker": "WBGD",
+      "name": "Waraba Gold Limited",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2018-10-11"
+    },
+    {
+      "ticker": "WDGY",
+      "name": "Wedgemount Resources Corp",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-05-21"
+    },
+    {
+      "ticker": "WEST",
+      "name": "West Mining Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2020-12-07"
+    },
+    {
+      "ticker": "WSR",
+      "name": "Western Star Resources Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-02-09"
+    },
+    {
+      "ticker": "WUC",
+      "name": "Western Uranium & Vanadium Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2015-09-01"
+    },
+    {
+      "ticker": "WGM",
+      "name": "WestGold Metals Corp. (formerly was NORD/Nordique Resources Inc. until 2026-04-01)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2021-10-13"
+    },
+    {
+      "ticker": "WMC",
+      "name": "Westmount Minerals Corp",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-03-18"
+    },
+    {
+      "ticker": "WG",
+      "name": "Westward Gold Inc.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2019-05-30"
+    },
+    {
+      "ticker": "XRI",
+      "name": "Xcite Uranium Inc. (formerly was XRI/Xcite Resources Inc. until 2026-03-06)",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2023-02-23"
+    },
+    {
+      "ticker": "YMC",
+      "name": "Yukon Metals Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2024-06-03"
+    },
+    {
+      "ticker": "ZEUS",
+      "name": "Zeus North America Mining Corp.",
+      "industry": "Mining",
+      "tier": "T2",
+      "currency": "CAD",
+      "trading_since": "2022-12-13"
+    }
+  ]
+}
