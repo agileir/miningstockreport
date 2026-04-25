@@ -178,13 +178,14 @@ class VerdictScorecard(SEOMixin, models.Model):
 
 
 class CompanyQueueStatus(models.TextChoices):
-    PENDING       = "pending",       "Pending verification"
-    ACTIVE        = "active",        "Active — ready to promote"
-    PROMOTED      = "promoted",      "Promoted to Company"
-    DELISTED      = "delisted",      "Delisted"
-    ACQUIRED      = "acquired",      "Acquired"
-    OUT_OF_SCOPE  = "out_of_scope",  "Out of scope (exchange)"
-    REJECTED      = "rejected",      "Rejected"
+    PENDING         = "pending",         "Pending verification"
+    ACTIVE          = "active",          "Active — ready to promote"
+    PROMOTED        = "promoted",        "Promoted to Company"
+    SHELL_CANDIDATE = "shell_candidate", "Shell candidate (dormant; potential RTO)"
+    DELISTED        = "delisted",        "Delisted"
+    ACQUIRED        = "acquired",        "Acquired"
+    OUT_OF_SCOPE    = "out_of_scope",    "Out of scope (exchange)"
+    REJECTED        = "rejected",        "Rejected"
 
 
 class CompanyQueue(models.Model):

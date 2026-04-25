@@ -1,0 +1,151 @@
+[
+  {
+    "ticker": "JJJ",
+    "name": "37 Capital Inc.",
+    "industry": "Mining",
+    "tier": "T2",
+    "currency": "CAD",
+    "trading_since": "2015-09-01",
+    "yhsym": "JJJ.CN",
+    "status": "shell",
+    "avg_dollar_vol": 981.0000389814377,
+    "last_px": 0.04500000178813934,
+    "avg_vol": 21800.0
+  },
+  {
+    "ticker": "CACR",
+    "name": "The Canadian Chrome Company Inc. (formerly was CACR/KWG Resources Inc. until 2025-08-06)",
+    "industry": "Mining",
+    "tier": "T2",
+    "currency": "CAD",
+    "trading_since": "2015-09-01",
+    "yhsym": "CACR.CN",
+    "status": "shell",
+    "avg_dollar_vol": 818.3339817088097,
+    "last_px": 0.009999999776482582,
+    "avg_vol": 81833.4
+  },
+  {
+    "ticker": "UE",
+    "name": "Urano Energy Corp.",
+    "industry": "Mining",
+    "tier": "T2",
+    "currency": "CAD",
+    "trading_since": "2015-09-02",
+    "yhsym": "UE.CN",
+    "status": "shell",
+    "avg_dollar_vol": 783.9999824762344,
+    "last_px": 0.07999999821186066,
+    "avg_vol": 9800.0
+  },
+  {
+    "ticker": "AWR",
+    "name": "Aurwest Resources Corporation",
+    "industry": "Mining",
+    "tier": "T2",
+    "currency": "CAD",
+    "trading_since": "2015-09-09",
+    "yhsym": "AWR.CN",
+    "status": "shell",
+    "avg_dollar_vol": 443.3129900911823,
+    "last_px": 0.014999999664723873,
+    "avg_vol": 29554.2
+  },
+  {
+    "ticker": "PSE",
+    "name": "Pasinex Resources Limited",
+    "industry": "Mining",
+    "tier": "T2",
+    "currency": "CAD",
+    "trading_since": "2015-09-11",
+    "yhsym": "PSE.CN",
+    "status": "shell",
+    "avg_dollar_vol": 840.1439812213182,
+    "last_px": 0.07999999821186066,
+    "avg_vol": 10501.8
+  },
+  {
+    "ticker": "RXM",
+    "name": "Rockex Mining Corporation",
+    "industry": "Mining",
+    "tier": "T2",
+    "currency": "CAD",
+    "trading_since": "2015-09-14",
+    "yhsym": "RXM.CN",
+    "status": "shell",
+    "avg_dollar_vol": 0.0,
+    "last_px": 0.03500000014901161,
+    "avg_vol": 0.0
+  },
+  {
+    "ticker": "ACRE",
+    "name": "American Critical Elements Inc.",
+    "industry": "Mining",
+    "tier": "T2",
+    "currency": "CAD",
+    "trading_since": "2015-09-17",
+    "yhsym": "ACRE.CN",
+    "status": "shell",
+    "avg_dollar_vol": 0.0,
+    "last_px": 0.10999999940395355,
+    "avg_vol": 0.0
+  },
+  {
+    "ticker": "TAI",
+    "name": "Talmora Diamond Inc.",
+    "industry": "Mining",
+    "tier": "T2",
+    "currency": "CAD",
+    "trading_since": "2015-09-24",
+    "yhsym": "TAI.CN",
+    "status": "shell",
+    "avg_dollar_vol": 0.0,
+    "last_px": 0.019999999552965164,
+    "avg_vol": 0.0
+  },
+  {
+    "ticker": "ELYX",
+    "name": "Elysian Mineral Exploration Corp.",
+    "trading_since": "2026-04-02",
+    "avg_dollar_vol": 62,
+    "last_px": 0.25,
+    "yhsym": "ELYX.CN",
+    "status": "shell"
+  },
+  {
+    "ticker": "BEAU",
+    "name": "Beaumont Exploration Corp.",
+    "trading_since": "2026-02-26",
+    "avg_dollar_vol": 20,
+    "last_px": 0.2,
+    "yhsym": "BEAU.CN",
+    "status": "shell"
+  },
+  {
+    "ticker": "C",
+    "name": "Commodore Metals Corp.",
+    "trading_since": "2025-09-29",
+    "avg_dollar_vol": 0,
+    "last_px": 0.5,
+    "yhsym": "C.CN",
+    "status": "shell"
+  },
+  {
+    "ticker": "SL",
+    "name": "Super Lithium Corp.",
+    "trading_since": "2025-09-03",
+    "avg_dollar_vol": 0,
+    "last_px": 0.6,
+    "yhsym": "SL.CN",
+    "status": "shell"
+  },
+  {
+    "ticker": "AA",
+    "name": "Avventura Resources Ltd.",
+    "trading_since": "2025-08-26",
+    "avg_dollar_vol": 92,
+    "last_px": 0.09,
+    "yhsym": "AA.CN",
+    "status": "shell"
+  }
+]
