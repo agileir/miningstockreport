@@ -8,6 +8,8 @@
 
 {% block og_type %}{% if latest %}article{% else %}website{% endif %}{% endblock %}
 
+{% block robots %}{% if not latest %}noindex, follow{% else %}index, follow{% endif %}{% endblock %}
+
 {# ── Breadcrumb schema ── #}
 {% block schema_breadcrumb %}
 <script type="application/ld+json">

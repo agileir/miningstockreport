@@ -72,7 +72,7 @@ class CompanySitemap(Sitemap):
     priority   = 0.9  # Company pages are high-value — likely to be cited by AI engines
 
     def items(self):
-        return Company.objects.all()
+        return Company.objects.filter(scorecards__is_published=True).distinct()
 
     def lastmod(self, obj):
         return obj.updated_at
