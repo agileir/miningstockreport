@@ -1,6 +1,7 @@
 from django.conf import settings
 from apps.blog.models import Pillar
 from apps.core.models import CommodityPrice
+from apps.verdict.commodities import all_commodities
 
 
 def site_context(request):
@@ -13,4 +14,5 @@ def site_context(request):
         "TWITTER_URL": settings.TWITTER_URL,
         "nav_pillars": Pillar.objects.filter(is_active=True),
         "commodity_prices": CommodityPrice.objects.all(),
+        "footer_commodity_lists": all_commodities(),
     }

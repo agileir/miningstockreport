@@ -178,14 +178,13 @@ class VerdictScorecard(SEOMixin, models.Model):
 
 
 class CompanyQueueStatus(models.TextChoices):
-    PENDING         = "pending",         "Pending verification"
-    ACTIVE          = "active",          "Active — ready to promote"
-    PROMOTED        = "promoted",        "Promoted to Company"
-    SHELL_CANDIDATE = "shell_candidate", "Shell candidate (dormant; potential RTO)"
-    DELISTED        = "delisted",        "Delisted"
-    ACQUIRED        = "acquired",        "Acquired"
-    OUT_OF_SCOPE    = "out_of_scope",    "Out of scope (exchange)"
-    REJECTED        = "rejected",        "Rejected"
+    PENDING       = "pending",       "Pending verification"
+    ACTIVE        = "active",        "Active — ready to promote"
+    PROMOTED      = "promoted",      "Promoted to Company"
+    DELISTED      = "delisted",      "Delisted"
+    ACQUIRED      = "acquired",      "Acquired"
+    OUT_OF_SCOPE  = "out_of_scope",  "Out of scope (exchange)"
+    REJECTED      = "rejected",      "Rejected"
 
 
 class CompanyQueue(models.Model):
@@ -229,3 +228,92 @@ class CompanyQueue(models.Model):
 
     def __str__(self):
         return f"{self.exchange}:{self.ticker} ({self.get_status_display()})"
+
+
+class ShellCandidateStatus(models.TextChoices):
+    DORMANT       = "dormant",       "Dormant (no recent volume)"
+    WATCHING      = "watching",      "Watching (actively evaluating)"
+    RTO_COMPLETED = "rto_completed", "RTO completed (became another company)"
+    BACK_ACTIVE   = "back_active",   "Resumed trading"
+    DELISTED      = "delisted",      "Delisted from exchange"
+    REJECTED      = "rejected",      "Not suitable for RTO"
+
+
+class ShellCandidate(models.Model):
+    """
+    Mining-sector shells — companies still listed on an exchange but with
+    effectively no trading volume. Tracked separately from CompanyQueue
+    because shells are a sourcing/intelligence asset, not coverage candidates.
+
+    The lifecycle here differs from the active research pipeline: a shell
+    can stay dormant for years, eventually get RTO'd into a new entity, get
+    delisted, or quietly resume trading. None of those paths involve our
+    Verdict Framework or scorecard process.
+    """
+    ticker = models.CharField(max_length=20)
+    exchange = models.CharField(max_length=10, choices=Exchange.choices)
+    name = models.CharField(max_length=200, blank=True)
+    country = models.CharField(max_length=100, blank=True, default="Canada")
+
+    status = models.CharField(
+        max_length=20,
+        choices=ShellCandidateStatus.choices,
+        default=ShellCandidateStatus.DORMANT,
+        db_index=True,
+    )
+
+    # Volume / price snapshot at time of last verification
+    last_known_price = models.DecimalField(
+        max_digits=10, decimal_places=4, null=True, blank=True,
+        help_text="Last close price (CAD) at time of last verification.",
+    )
+    avg_dollar_volume_5d = models.DecimalField(
+        max_digits=14, decimal_places=2, null=True, blank=True,
+        help_text="5-day avg dollar volume at time of last verification.",
+    )
+    avg_share_volume_5d = models.PositiveBigIntegerField(
+        null=True, blank=True,
+        help_text="5-day avg share volume at time of last verification.",
+    )
+    market_cap_cad = models.BigIntegerField(
+        null=True, blank=True,
+        help_text="Market cap in CAD at time of last verification.",
+    )
+
+    # Listing
+    listing_date = models.DateField(
+        null=True, blank=True,
+        help_text="When the shell first started trading on its exchange.",
+    )
+
+    # Provenance
+    source = models.CharField(
+        max_length=120, blank=True,
+        help_text="Where this shell was identified (scan source + date).",
+    )
+    notes = models.TextField(blank=True)
+
+    # Lifecycle outcomes
+    rto_target_name = models.CharField(
+        max_length=200, blank=True,
+        help_text="If RTO completed: the resulting company name.",
+    )
+    verified_at = models.DateTimeField(
+        null=True, blank=True,
+        help_text="When the volume/price snapshot above was last refreshed.",
+    )
+
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        verbose_name = "Shell candidate"
+        verbose_name_plural = "Shell candidates"
+        ordering = ["status", "exchange", "ticker"]
+        unique_together = ("ticker", "exchange")
+        indexes = [
+            models.Index(fields=["status", "exchange"]),
+        ]
+
+    def __str__(self):
+        return f"{self.exchange}:{self.ticker} — {self.name} ({self.get_status_display()})"

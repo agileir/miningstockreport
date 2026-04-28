@@ -1,9 +1,95 @@
 {% extends "base.html" %}
 
-{% block title %}Mining Investor Tools{% endblock %}
-{% block meta_description %}Interactive stock calculators for junior mining investors — risk-adjusted NAV per share for gold, copper, silver, and polymetallic deposits.{% endblock %}
-{% block og_description %}Stock calculators for gold, copper, silver, and polymetallic mining deposits.{% endblock %}
-{% block twitter_description %}Stock calculators for junior mining investors.{% endblock %}
+{% block title %}Mining Stock Calculators — Gold, Copper, Silver, Polymetallic NAV Tools{% endblock %}
+{% block meta_description %}Free risk-adjusted NAV per share calculators for junior gold, copper, silver, and polymetallic mining stocks. Built on 43-101 inputs and the Verdict Framework — see what a deposit is worth before the market does.{% endblock %}
+{% block og_description %}Free NAV calculators for gold, copper, silver, and polymetallic junior mining stocks.{% endblock %}
+{% block twitter_description %}Free NAV calculators for junior mining investors.{% endblock %}
+
+{% block schema_breadcrumb %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"{{ SITE_URL }}/"},
+    {"@type":"ListItem","position":2,"name":"Investor Tools","item":"{{ SITE_URL }}/tools/"}
+  ]
+}
+</script>
+{% endblock %}
+
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mining Stock Investor Tools",
+  "description": "Risk-adjusted NAV calculators for junior mining stocks across gold, copper, silver, and polymetallic deposits.",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"url":"{{ SITE_URL }}/tools/nav-calculator/","name":"Gold Stock Calculator"},
+    {"@type":"ListItem","position":2,"url":"{{ SITE_URL }}/tools/copper-nav-calculator/","name":"Copper Stock Calculator"},
+    {"@type":"ListItem","position":3,"url":"{{ SITE_URL }}/tools/silver-nav-calculator/","name":"Silver Stock Calculator"},
+    {"@type":"ListItem","position":4,"url":"{{ SITE_URL }}/tools/polymetallic-nav-calculator/","name":"Polymetallic Stock Calculator"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a risk-adjusted NAV per share?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Risk-adjusted Net Asset Value (NAV) per share is the discounted in-situ value of a mining company's resource, divided by fully diluted shares outstanding, with confidence weights applied to each resource category and a haircut applied for the stage of the technical study. It tells you what the deposit is worth today on a per-share basis if the resource were brought into production at the assumed commodity price — not what the company's enterprise value should trade at, but a transparent floor and ceiling for valuation discussions. A junior mining stock trading at 0.2× to 0.4× P/NAV at the Pre-Feasibility stage is generally considered cheap; 0.7× to 1.0× is considered fully valued."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where do I find the inputs for these mining calculators?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every input field maps to a line item in the company's NI 43-101 Technical Report, filed on SEDAR+ (Canadian issuers) or EDGAR (US-listed issuers). Tonnage by resource category (inferred, indicated, measured, probable, proven) appears in the Mineral Resource or Mineral Reserve Estimate section. Grade is in the same table. Recovery, processing cost, and mining cost come from the metallurgical and operating-cost sections. Capex is in the capital cost summary. Share count is on the most recent quarterly financial statement (MD&A). Cash position is on the balance sheet. The calculators are designed so a self-directed investor can populate every field from one technical report and one financial filing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why are the calculators split by commodity?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Each commodity has its own grade unit, price unit, and typical recovery profile. Gold and silver are reported in grams per tonne (g/t) and priced per troy ounce. Copper is reported in percent (%) and priced per pound. A unified calculator would force the investor to convert units mentally for every input and would not catch obvious errors (a 5% gold grade is impossible; a 5 g/t copper grade is). Splitting by commodity also lets each tool ship with sensible defaults for recovery — gold averages 92%, silver around 80%, copper around 88% in typical flotation circuits. The polymetallic calculator handles deposits with multiple revenue streams as a single integrated DCF."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do the resource-category confidence weights mean?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NI 43-101 classifies mineral resources into three categories of geological confidence: Inferred (lowest), Indicated, and Measured (highest). Reserves — the economically mineable subset of resources — are classified as Probable or Proven. The calculators apply confidence weights to each: Inferred 20%, Indicated 50%, Measured 75%, Probable 85%, Proven 100%. This reflects industry practice for risk-adjusted valuation. An Inferred-only deposit at 20 million ounces gold is treated, for valuation purposes, as if 4 million ounces were sufficiently de-risked to model — because drill spacing and geological continuity have not yet been demonstrated to a high standard."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What study-stage haircuts do the tools apply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Preliminary Economic Assessment (PEA) is the earliest stage of economic study and uses Inferred resources, so the calculators apply a 30% haircut to the modelled NAV. A Pre-Feasibility Study (PFS) requires Probable Reserves and is more rigorous — 15% haircut. A Feasibility Study (FS) is investment-grade and receives no haircut. These are the same haircuts used by mid-tier investment banks when valuing development-stage juniors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are these tools a substitute for professional valuation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The V1 calculators are intentionally simplified: no corporate tax, no sustaining capex, no inflation, no royalties, no streaming or off-take economics. They produce a back-of-envelope NAV that is useful for screening, sanity-checking sell-side research, and establishing whether a stock is trading in a reasonable band before doing deeper work. A full mine-model from a qualified person will produce a different, more conservative number — typically 15-30% lower for development-stage juniors. Use these tools to ask better questions, not to make final decisions."
+      }
+    }
+  ]
+}
+</script>
+{% endblock %}
 
 {% block content %}
 <div class="bg-dark py-4 border-bottom border-secondary">
@@ -15,17 +101,47 @@
       </ol>
     </nav>
     <h1 class="text-white fw-bold h3 mb-2">
-      <i class="bi bi-tools text-warning me-2"></i>Investor Tools
+      <i class="bi bi-tools text-warning me-2"></i>Mining Stock Calculators &amp; Investor Tools
     </h1>
     <p class="text-secondary mb-0">
-      Interactive calculators that put the Verdict Framework in your hands. Each tool is
-      free, stateless, and takes public-filings inputs from a company's 43-101 technical
-      report to produce risk-adjusted NAV estimates across multiple commodity-price scenarios.
+      Free, browser-based calculators that turn the figures in a junior miner's
+      <strong class="text-white">NI 43-101 Technical Report</strong> into a risk-adjusted
+      Net Asset Value per share — across multiple commodity-price scenarios. Designed for
+      the self-directed investor who wants to value a gold, copper, silver, or polymetallic
+      deposit before the sell-side does, using transparent, industry-standard math.
     </p>
   </div>
 </div>
 
 <div class="container py-5">
+
+  <!-- Who these tools are for -->
+  <div class="card bg-dark border-secondary mb-5">
+    <div class="card-body">
+      <h2 class="text-warning fw-bold h5 mb-3">Who these tools are for</h2>
+      <p class="text-secondary mb-2">
+        Junior mining is one of the few corners of public markets where a careful retail
+        investor can still do the work and find the mispricing. Sell-side coverage is
+        thin or non-existent below the C$200 million market-cap line. Most investor
+        presentations quote NAV at spot price with no risk weighting and no stage haircut.
+        These tools are the antidote.
+      </p>
+      <p class="text-secondary mb-0">If you are:</p>
+      <ul class="text-secondary mb-0 mt-2">
+        <li>A self-directed investor reading a 43-101 and trying to back into the broker's NAV number</li>
+        <li>A swing trader trying to size a position on a development-stage gold or copper junior</li>
+        <li>A long-term holder running scenarios at $2,400, $3,000, and $3,600 gold</li>
+        <li>A newsletter subscriber who wants to verify the numbers before paying for a thesis</li>
+      </ul>
+      <p class="text-secondary mt-3 mb-0">
+        — these calculators give you the same risk-adjustment framework used by mid-tier
+        investment banks, with every assumption stated on the page.
+      </p>
+    </div>
+  </div>
+
+  <!-- The 4 calculators -->
+  <h2 class="text-white fw-bold h4 mb-3">The four calculators</h2>
   <div class="row g-4">
 
     <div class="col-md-6">
@@ -34,10 +150,10 @@
           <div class="card-body">
             <div class="d-flex align-items-center mb-3">
               <i class="bi bi-calculator-fill text-warning me-3" style="font-size:2rem;"></i>
-              <h5 class="text-white fw-bold mb-0">Gold Stock Calculator</h5>
+              <h3 class="text-white fw-bold mb-0 h5">Gold Stock Calculator</h3>
             </div>
             <p class="text-secondary mb-0">Risk-adjusted NAV per share for junior gold deposits. Resource-category confidence weights, study-stage haircuts, and up to 4 gold-price benchmarks. Every field optional with sensible defaults.</p>
-            <p class="text-warning fw-bold small mt-3 mb-0">Open calculator &rarr;</p>
+            <p class="text-warning fw-bold small mt-3 mb-0">Open gold calculator &rarr;</p>
           </div>
         </div>
       </a>
@@ -49,10 +165,10 @@
           <div class="card-body">
             <div class="d-flex align-items-center mb-3">
               <i class="bi bi-calculator-fill text-warning me-3" style="font-size:2rem;"></i>
-              <h5 class="text-white fw-bold mb-0">Copper Stock Calculator</h5>
+              <h3 class="text-white fw-bold mb-0 h5">Copper Stock Calculator</h3>
             </div>
-            <p class="text-secondary mb-0">Risk-adjusted NAV for copper deposits. Grade in %, price in $/lb, up to 4 copper-price benchmarks. Same category and stage math as the gold tool.</p>
-            <p class="text-warning fw-bold small mt-3 mb-0">Open calculator &rarr;</p>
+            <p class="text-secondary mb-0">Risk-adjusted NAV for copper deposits. Grade in %, price in $/lb, up to 4 copper-price benchmarks. Same category and stage math as the gold tool, calibrated for porphyry and sediment-hosted recoveries.</p>
+            <p class="text-warning fw-bold small mt-3 mb-0">Open copper calculator &rarr;</p>
           </div>
         </div>
       </a>
@@ -64,10 +180,10 @@
           <div class="card-body">
             <div class="d-flex align-items-center mb-3">
               <i class="bi bi-calculator-fill text-warning me-3" style="font-size:2rem;"></i>
-              <h5 class="text-white fw-bold mb-0">Silver Stock Calculator</h5>
+              <h3 class="text-white fw-bold mb-0 h5">Silver Stock Calculator</h3>
             </div>
-            <p class="text-secondary mb-0">Risk-adjusted NAV for silver deposits. Same input structure as gold — g/t grade, $/oz pricing, default recovery adjusted for silver metallurgy.</p>
-            <p class="text-warning fw-bold small mt-3 mb-0">Open calculator &rarr;</p>
+            <p class="text-secondary mb-0">Risk-adjusted NAV for silver-dominant deposits. Same input structure as gold — g/t grade, $/oz pricing — with default recovery tuned for silver metallurgy in epithermal systems.</p>
+            <p class="text-warning fw-bold small mt-3 mb-0">Open silver calculator &rarr;</p>
           </div>
         </div>
       </a>
@@ -79,30 +195,204 @@
           <div class="card-body">
             <div class="d-flex align-items-center mb-3">
               <i class="bi bi-calculator-fill text-warning me-3" style="font-size:2rem;"></i>
-              <h5 class="text-white fw-bold mb-0">Polymetallic Stock Calculator</h5>
+              <h3 class="text-white fw-bold mb-0 h5">Polymetallic Stock Calculator</h3>
             </div>
-            <p class="text-secondary mb-0">Gold-copper-silver deposits handled as a single DCF with combined revenue. Ideal for porphyries and epithermal systems where multiple commodities contribute economics.</p>
-            <p class="text-warning fw-bold small mt-3 mb-0">Open calculator &rarr;</p>
+            <p class="text-secondary mb-0">Gold + copper + silver deposits modelled as a single DCF with combined per-tonne revenue. Built for porphyries, epithermal systems, and VMS deposits where multiple commodities contribute meaningfully to economics.</p>
+            <p class="text-warning fw-bold small mt-3 mb-0">Open polymetallic calculator &rarr;</p>
           </div>
         </div>
       </a>
     </div>
-
   </div>
 
-  <div class="card bg-dark border-secondary mt-5">
+  <!-- Per-commodity deep dives -->
+  <h2 class="text-white fw-bold h4 mt-5 mb-3">How each calculator helps you as an investor</h2>
+
+  <div class="card bg-dark border-secondary mb-3">
     <div class="card-body">
-      <h6 class="text-warning fw-bold mb-2"><i class="bi bi-info-circle me-2"></i>A note on all four calculators</h6>
-      <p class="text-secondary small mb-0">
-        Each tool applies the same risk-adjustment framework: resource-category confidence
-        weights (inferred 20%, indicated 50%, measured 75%, probable 85%, proven 100%) and
-        study-stage haircuts (Preliminary Economic Assessment 30%, Pre-Feasibility Study
-        15%, Feasibility Study no haircut). Simplifications common to all V1 tools: no
-        corporate tax, no sustaining capex, no inflation, no royalties. For informational
-        purposes only.
-        <a href="{% url 'core:disclaimer' %}" class="text-warning text-decoration-none">Full disclaimer &rarr;</a>
+      <h3 class="text-warning fw-bold h6 mb-2"><i class="bi bi-circle-fill me-2" style="color:#ffc107;"></i>Gold investors</h3>
+      <p class="text-secondary mb-2">
+        The Gold Stock Calculator is the fastest way to answer the only question that
+        matters on a junior gold play: <em>what is one share of this thing actually worth
+        today?</em> Drop in the resource estimate from the latest 43-101, the recovery
+        from the metallurgical section, mining and processing costs from the operating-cost
+        table, and capex from the capital-cost summary. Run the price column at $2,400,
+        $2,800, $3,200, and $3,600 gold to see how the NAV moves with the gold price —
+        and where today's market cap sits as a fraction of risk-adjusted NAV.
+      </p>
+      <p class="text-secondary mb-0">
+        <strong class="text-white">Use it when:</strong> a junior puts out a PEA at "spot
+        gold" and the share price moves 30% on the headline. Re-run the math with the
+        confidence weights and a stage haircut and decide whether the move is justified
+        before you chase it.
       </p>
     </div>
   </div>
+
+  <div class="card bg-dark border-secondary mb-3">
+    <div class="card-body">
+      <h3 class="text-warning fw-bold h6 mb-2"><i class="bi bi-circle-fill me-2" style="color:#b87333;"></i>Copper investors</h3>
+      <p class="text-secondary mb-2">
+        Copper juniors are valued differently from gold. Recovery, treatment-and-refining
+        charges, and grade have a non-linear effect on per-tonne revenue. The Copper Stock
+        Calculator handles all three explicitly, in $/lb units, so a 0.4% Cu sediment-hosted
+        deposit and a 0.8% Cu porphyry can be compared apples-to-apples on a per-share-NAV
+        basis. Run multiple copper price decks — $4.00, $4.50, $5.00, $5.50 — to see how
+        the deposit responds to the cycle.
+      </p>
+      <p class="text-secondary mb-0">
+        <strong class="text-white">Use it when:</strong> evaluating a porphyry developer
+        in Chile, Peru, Ecuador, or BC, or a sediment-hosted copper play in the Central
+        African Copperbelt. Most investor decks quote a single in-situ value at one
+        price; this gives you the matrix.
+      </p>
+    </div>
+  </div>
+
+  <div class="card bg-dark border-secondary mb-3">
+    <div class="card-body">
+      <h3 class="text-warning fw-bold h6 mb-2"><i class="bi bi-circle-fill me-2" style="color:#c0c0c0;"></i>Silver investors</h3>
+      <p class="text-secondary mb-2">
+        Silver moves more violently than gold and the sector has a long memory of
+        2011-style price spikes. The Silver Stock Calculator lets you stress-test a
+        silver-dominant deposit at $25, $35, $45, and $60 silver — so you can see at
+        what price the market cap is justified by NAV alone, and at what price the stock
+        is pricing in a multi-year bull run. Defaults assume an 80% recovery typical for
+        epithermal vein systems; adjust if your target is a Manto-type or VMS deposit
+        with different metallurgy.
+      </p>
+      <p class="text-secondary mb-0">
+        <strong class="text-white">Use it when:</strong> the silver price runs and primary
+        silver developers move 50%+ in a quarter. Calculator tells you whether the move
+        is mathematical or speculative.
+      </p>
+    </div>
+  </div>
+
+  <div class="card bg-dark border-secondary mb-3">
+    <div class="card-body">
+      <h3 class="text-warning fw-bold h6 mb-2"><i class="bi bi-circle-fill me-2" style="color:#888888;"></i>Polymetallic investors</h3>
+      <p class="text-secondary mb-2">
+        Most large copper porphyries are gold-bearing. Most epithermal silver veins carry
+        meaningful gold credits. Trying to value these deposits with a single-commodity
+        calculator understates the economics by 20-40%. The Polymetallic Calculator combines
+        per-tonne gold, copper, and silver revenue into a single integrated DCF, with
+        independent grade, recovery, and price inputs for each commodity.
+      </p>
+      <p class="text-secondary mb-0">
+        <strong class="text-white">Use it when:</strong> evaluating a Au-Cu porphyry,
+        a high-sulphidation epithermal Au-Ag-Cu system, or any VMS / SEDEX deposit
+        where two or three metals contribute materially to the revenue line.
+      </p>
+    </div>
+  </div>
+
+  <!-- Workflow -->
+  <div class="card bg-dark border-secondary mt-4">
+    <div class="card-body">
+      <h2 class="text-warning fw-bold h5 mb-3">A suggested workflow</h2>
+      <ol class="text-secondary mb-0">
+        <li class="mb-2">Open the company's most recent NI 43-101 on <a href="https://www.sedarplus.ca/" class="text-warning" rel="nofollow noopener" target="_blank">SEDAR+</a> and locate the Mineral Resource Estimate, metallurgical recovery, operating cost summary, and capital cost summary.</li>
+        <li class="mb-2">Pull fully-diluted share count and cash position from the most recent MD&amp;A.</li>
+        <li class="mb-2">Pick the calculator that matches the deposit's primary commodity (or the polymetallic tool if 2+ commodities exceed 20% of revenue).</li>
+        <li class="mb-2">Enter the resource by category, grade, recovery, costs, capex, shares, and cash. Leave defaults where you have no opinion.</li>
+        <li class="mb-2">Set 3-4 price scenarios spanning bear / base / bull / blue-sky for the commodity.</li>
+        <li class="mb-0">Compare the resulting NAV per share to the current market price. If the stock trades below 0.3× NAV at the base case, dig deeper. Above 0.7×, ask what story the market is pricing in.</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <h2 class="text-white fw-bold h4 mt-5 mb-3">Frequently asked questions</h2>
+
+  <div class="card bg-dark border-secondary mb-2">
+    <div class="card-body">
+      <h3 class="text-white fw-bold h6 mb-2">What is a risk-adjusted NAV per share?</h3>
+      <p class="text-secondary small mb-0">
+        Net Asset Value (NAV) per share is the discounted in-situ value of a mining
+        company's resource, divided by fully diluted shares outstanding. The
+        <em>risk-adjusted</em> version applies confidence weights to each resource
+        category (inferred / indicated / measured / probable / proven) and a haircut
+        for the stage of the technical study (PEA, PFS, FS). It tells you what the
+        deposit is worth today on a per-share basis at the assumed commodity price.
+        Junior mining stocks typically trade between 0.2× and 1.0× P/NAV depending on
+        stage, jurisdiction, and management quality.
+      </p>
+    </div>
+  </div>
+
+  <div class="card bg-dark border-secondary mb-2">
+    <div class="card-body">
+      <h3 class="text-white fw-bold h6 mb-2">Where do I find the inputs?</h3>
+      <p class="text-secondary small mb-0">
+        Every input maps to a line in the company's NI 43-101 Technical Report
+        (filed on SEDAR+ for Canadian issuers, EDGAR for US-listed). Tonnage and
+        grade are in the Mineral Resource / Reserve estimate. Recovery, mining cost,
+        and processing cost are in the metallurgical and operating-cost sections.
+        Capex is in the capital-cost summary. Share count and cash are on the most
+        recent MD&amp;A.
+      </p>
+    </div>
+  </div>
+
+  <div class="card bg-dark border-secondary mb-2">
+    <div class="card-body">
+      <h3 class="text-white fw-bold h6 mb-2">Why are the tools split by commodity?</h3>
+      <p class="text-secondary small mb-0">
+        Each commodity has its own grade unit (g/t for gold and silver, % for copper)
+        and price unit ($/oz vs $/lb), and typical recovery profiles differ. Splitting
+        the tools eliminates unit-conversion errors and lets each ship with a sensible
+        recovery default. The polymetallic calculator handles deposits where multiple
+        commodities contribute meaningful revenue.
+      </p>
+    </div>
+  </div>
+
+  <div class="card bg-dark border-secondary mb-2">
+    <div class="card-body">
+      <h3 class="text-white fw-bold h6 mb-2">What do the resource-category weights mean?</h3>
+      <p class="text-secondary small mb-0">
+        NI 43-101 classifies resources by geological confidence: Inferred (lowest),
+        Indicated, Measured (highest), with Probable / Proven for the economically
+        mineable Reserve subset. Calculators apply: Inferred 20%, Indicated 50%,
+        Measured 75%, Probable 85%, Proven 100%. An Inferred-only resource is treated
+        as if only one-fifth of the contained metal is sufficiently de-risked to value.
+      </p>
+    </div>
+  </div>
+
+  <div class="card bg-dark border-secondary mb-2">
+    <div class="card-body">
+      <h3 class="text-white fw-bold h6 mb-2">What about taxes, royalties, and sustaining capex?</h3>
+      <p class="text-secondary small mb-0">
+        The V1 calculators intentionally exclude corporate tax, sustaining capex,
+        inflation, and royalties — a deliberately simplified model for screening and
+        sanity-checking. A full investment-grade NAV from a qualified person will
+        typically come in 15-30% lower for a development-stage junior. Use these
+        tools to ask better questions, not to make final decisions.
+      </p>
+    </div>
+  </div>
+
+  <!-- Methodology / disclaimer note -->
+  <div class="card bg-dark border-secondary mt-4">
+    <div class="card-body">
+      <h6 class="text-warning fw-bold mb-2"><i class="bi bi-info-circle me-2"></i>About the methodology</h6>
+      <p class="text-secondary small mb-2">
+        All four tools apply the same risk-adjustment framework: resource-category
+        confidence weights (inferred 20%, indicated 50%, measured 75%, probable 85%,
+        proven 100%) and study-stage haircuts (PEA 30%, PFS 15%, FS no haircut).
+        Simplifications common to all V1 tools: no corporate tax, no sustaining capex,
+        no inflation, no royalties.
+      </p>
+      <p class="text-secondary small mb-0">
+        For deeper reading on the framework, see our
+        <a href="{% url 'core:methodology' %}" class="text-warning text-decoration-none">methodology page</a>.
+        For informational purposes only —
+        <a href="{% url 'core:disclaimer' %}" class="text-warning text-decoration-none">full disclaimer</a>.
+      </p>
+    </div>
+  </div>
+
 </div>
 {% endblock %}

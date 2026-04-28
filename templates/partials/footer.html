@@ -33,6 +33,12 @@
           <li><a href="{% url 'watchlist:watchlist' %}" class="text-secondary text-decoration-none">Watchlist</a></li>
           <li><a href="{% url 'videos:video_list' %}" class="text-secondary text-decoration-none">Videos</a></li>
         </ul>
+        <h6 class="text-white small fw-bold mb-3 mt-4 text-uppercase">Stocks by Commodity</h6>
+        <ul class="list-unstyled small">
+          {% for slug, name in footer_commodity_lists %}
+          <li><a href="{% url 'commodity_list' commodity=slug %}" class="text-secondary text-decoration-none">{{ name }} Stocks</a></li>
+          {% endfor %}
+        </ul>
         <h6 class="text-white small fw-bold mb-3 mt-4 text-uppercase">Calculators</h6>
         <ul class="list-unstyled small">
           <li><a href="{% url 'core:tools_index' %}" class="text-secondary text-decoration-none">All tools</a></li>

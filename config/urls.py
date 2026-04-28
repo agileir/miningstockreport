@@ -5,6 +5,7 @@ from django.conf.urls.static import static
 from django.contrib.sitemaps.views import sitemap
 from apps.core.sitemaps import sitemaps
 from apps.core.views import robots_txt, llms_txt, handler404, handler500
+from apps.verdict.views import commodity_list
 
 handler404 = "apps.core.views.handler404"
 handler500 = "apps.core.views.handler500"
@@ -17,6 +18,9 @@ urlpatterns = [
     path("sitemap.xml", sitemap, {"sitemaps": sitemaps}, name="django.contrib.sitemaps.views.sitemap"),
     path("robots.txt",  robots_txt,  name="robots_txt"),
     path("llms.txt",    llms_txt,    name="llms_txt"),
+
+    # Commodity-list landing pages — flat URLs chosen for keyword-pure ranking signal.
+    path("list-<slug:commodity>-stocks/", commodity_list, name="commodity_list"),
 
     # Frontend apps — note URL prefixes chosen for topical SEO signal
     path("",            include("apps.core.urls",      namespace="core")),

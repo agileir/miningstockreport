@@ -3,8 +3,9 @@ from datetime import date as date_type
 
 from django.db.models import Q
 from django.http import Http404
-from django.shortcuts import get_object_or_404, redirect
+from django.shortcuts import get_object_or_404, redirect, render
 from django.views.generic import ListView, DetailView
+from .commodities import COMMODITIES, get_commodity
 from .models import Company, CompanyTier, VerdictScorecard, VerdictChoice
 
 
@@ -115,3 +116,37 @@ def scorecard_pk_redirect(request, slug, pk):
         pk=pk,
     )
     return redirect(scorecard.get_absolute_url(), permanent=True)
+
+
+def commodity_list(request, commodity):
+    """Verdict-rated companies for a single commodity (gold, silver, copper, ...)."""
+    entry = get_commodity(commodity)
+    if entry is None:
+        raise Http404("Unknown commodity")
+
+    term_filter = Q()
+    for term in entry["match_terms"]:
+        term_filter |= Q(primary_commodity__icontains=term)
+
+    companies = (
+        Company.objects
+        .filter(term_filter, scorecards__is_published=True)
+        .prefetch_related("scorecards")
+        .distinct()
+    )
+
+    rows = []
+    for c in companies:
+        latest = c.latest_verdict
+        if latest and latest.is_published:
+            rows.append({"company": c, "latest": latest})
+    rows.sort(key=lambda r: r["latest"].scored_at, reverse=True)
+
+    return render(request, "verdict/commodity_list.html", {
+        "commodity_slug": commodity,
+        "commodity": entry,
+        "rows": rows,
+        "all_commodities": [
+            (slug, e["display"]) for slug, e in COMMODITIES.items()
+        ],
+    })

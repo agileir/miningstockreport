@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+
+{% block title %}{{ commodity.h1 }} — Verdict-Rated{% endblock %}
+{% block meta_description %}{{ commodity.meta_description }}{% endblock %}
+{% block og_description %}{{ commodity.meta_description }}{% endblock %}
+{% block twitter_description %}{{ commodity.meta_description }}{% endblock %}
+
+{% block schema_breadcrumb %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"{{ SITE_URL }}/"},
+    {"@type":"ListItem","position":2,"name":"Verdict Framework","item":"{{ SITE_URL }}/companies/"},
+    {"@type":"ListItem","position":3,"name":"{{ commodity.h1 }}","item":"{{ SITE_URL }}{{ request.path }}"}
+  ]
+}
+</script>
+{% endblock %}
+
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "{{ commodity.h1 }}",
+  "description": "{{ commodity.meta_description }}",
+  "url": "{{ SITE_URL }}{{ request.path }}",
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ rows|length }},
+    "itemListElement": [
+      {% for row in rows %}{"@type":"ListItem","position":{{ forloop.counter }},"url":"{{ SITE_URL }}{{ row.company.get_absolute_url }}","name":"{{ row.company.ticker }} — {{ row.company.name|escapejs }}"}{% if not forloop.last %},{% endif %}{% endfor %}
+    ]
+  }
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="bg-dark py-4 border-bottom border-secondary">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb text-secondary small mb-2">
+        <li class="breadcrumb-item"><a href="{% url 'core:home' %}" class="text-secondary">Home</a></li>
+        <li class="breadcrumb-item"><a href="{% url 'verdict:company_list' %}" class="text-secondary">Verdict Framework</a></li>
+        <li class="breadcrumb-item active text-white">{{ commodity.display }}</li>
+      </ol>
+    </nav>
+    <h1 class="text-white fw-bold h3 mb-2">
+      <i class="bi bi-clipboard-check text-warning me-2"></i>{{ commodity.h1 }}
+    </h1>
+    <p class="text-secondary mb-0">{{ commodity.intro }}</p>
+  </div>
+</div>
+
+<div class="container py-5">
+  {% if rows %}
+    <div class="table-responsive">
+      <table class="table table-dark table-hover align-middle">
+        <thead>
+          <tr class="text-warning small text-uppercase">
+            <th scope="col">Ticker</th>
+            <th scope="col">Company</th>
+            <th scope="col">Verdict</th>
+            <th scope="col" class="text-end">Score</th>
+            <th scope="col">Scored</th>
+            <th scope="col" class="d-none d-md-table-cell">Jurisdiction</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in rows %}
+          <tr>
+            <td>
+              <a href="{{ row.company.get_absolute_url }}" class="text-warning fw-bold text-decoration-none">{{ row.company.ticker }}</a>
+              <span class="text-secondary small ms-1">{{ row.company.exchange }}</span>
+            </td>
+            <td>
+              <a href="{{ row.company.get_absolute_url }}" class="text-white text-decoration-none">{{ row.company.name }}</a>
+              <div class="text-secondary small">{{ row.company.primary_commodity }}</div>
+            </td>
+            <td>
+              <span class="badge fw-bold
+                {% if row.latest.verdict == 'BUY' %}bg-success
+                {% elif row.latest.verdict == 'WATCH' %}bg-warning text-dark
+                {% else %}bg-danger{% endif %}">
+                {{ row.latest.verdict }}
+              </span>
+            </td>
+            <td class="text-end text-white">{{ row.latest.composite_score }}/25</td>
+            <td class="text-secondary small">{{ row.latest.scored_at|date:"M j, Y" }}</td>
+            <td class="text-secondary small d-none d-md-table-cell">{{ row.company.jurisdiction|default:"—" }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <p class="text-secondary small mt-3 mb-0">
+      Showing {{ rows|length }} {{ commodity.display|lower }} {{ rows|length|pluralize:"stock,stocks" }} with a published Verdict scorecard.
+      A scorecard is published only after we have read the most recent NI 43-101 (or JORC) technical report,
+      reviewed insider filings, and reconciled the capital structure to the most recent MD&amp;A.
+    </p>
+  {% else %}
+    <div class="text-center py-5">
+      <i class="bi bi-search text-warning" style="font-size:3rem;"></i>
+      <p class="text-secondary mt-3 mb-0">No {{ commodity.display|lower }} mining stocks have been scored yet — check back soon.</p>
+    </div>
+  {% endif %}
+
+  <!-- Cross-links to other commodity lists -->
+  <div class="card bg-dark border-secondary mt-5">
+    <div class="card-body">
+      <h2 class="text-warning fw-bold h6 mb-3"><i class="bi bi-collection me-2"></i>Other Verdict-Rated Stock Lists</h2>
+      <div class="d-flex gap-2 flex-wrap">
+        {% for slug, name in all_commodities %}
+          {% if slug != commodity_slug %}
+            <a href="{% url 'commodity_list' commodity=slug %}" class="btn btn-outline-warning btn-sm">{{ name }} Stocks</a>
+          {% endif %}
+        {% endfor %}
+        <a href="{% url 'verdict:company_list' %}" class="btn btn-outline-secondary btn-sm">All Companies &rarr;</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

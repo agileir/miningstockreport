@@ -2,6 +2,7 @@ from django.contrib.sitemaps import Sitemap
 from django.urls import reverse
 from django.utils import timezone
 from apps.blog.models import Post
+from apps.verdict.commodities import COMMODITIES
 from apps.verdict.models import Company
 from apps.videos.models import Video
 
@@ -94,9 +95,26 @@ class VideoSitemap(Sitemap):
         return obj.published_at
 
 
+class CommodityListSitemap(Sitemap):
+    """One entry per /list-{slug}-stocks/ landing page."""
+    changefreq = "weekly"
+    priority   = 0.8
+    LASTMOD    = timezone.now()
+
+    def items(self):
+        return list(COMMODITIES.keys())
+
+    def location(self, item):
+        return reverse("commodity_list", kwargs={"commodity": item})
+
+    def lastmod(self, item):
+        return self.LASTMOD
+
+
 sitemaps = {
-    "static":     StaticViewSitemap,
-    "posts":      PostSitemap,
-    "companies":  CompanySitemap,
-    "videos":     VideoSitemap,
+    "static":            StaticViewSitemap,
+    "posts":             PostSitemap,
+    "companies":         CompanySitemap,
+    "videos":            VideoSitemap,
+    "commodity_lists":   CommodityListSitemap,
 }
