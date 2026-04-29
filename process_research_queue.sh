@@ -17,9 +17,13 @@ for f in "$QUEUE_DIR"/scorecard_*.json; do
     echo "$(date '+%Y-%m-%d %H:%M:%S') Processing $f"
     python manage.py shell --settings=config.settings.production -c "
 import json, requests
+from datetime import date
 from decimal import Decimal
 from django.utils import timezone
-from apps.verdict.models import Company, VerdictScorecard, VerdictChoice
+from apps.verdict.models import (
+    Company, VerdictScorecard, VerdictChoice,
+    ShareInstrument, ShareInstrumentType,
+)
 
 data = json.load(open('$f'))
 ticker = data['ticker']
@@ -67,12 +71,43 @@ scorecard = VerdictScorecard.objects.create(
     analyst_summary=data.get('analyst_summary', ''),
     nav_per_share=data.get('nav_per_share'),
     current_price=current_price,
+    resource_measured=data.get('resource_measured', '') or '',
+    resource_indicated=data.get('resource_indicated', '') or '',
+    resource_inferred=data.get('resource_inferred', '') or '',
+    reserve_proven=data.get('reserve_proven', '') or '',
+    reserve_probable=data.get('reserve_probable', '') or '',
+    shares_issued_outstanding=data.get('shares_issued_outstanding'),
+    shares_fully_diluted=data.get('shares_fully_diluted'),
     is_published=(confidence == 'high'),
     scored_at=timezone.now(),
 )
+
+# Warrant and option tranches — agent emits 'share_instruments': [...]
+instrument_count = 0
+for inst in (data.get('share_instruments') or []):
+    inst_type = inst.get('type', '').lower()
+    if inst_type not in (ShareInstrumentType.WARRANT, ShareInstrumentType.OPTION):
+        print(f'  Skipped instrument with bad type: {inst!r}')
+        continue
+    expiry = inst.get('expiry')
+    if isinstance(expiry, str):
+        try:
+            expiry = date.fromisoformat(expiry)
+        except ValueError:
+            expiry = None
+    ShareInstrument.objects.create(
+        scorecard=scorecard,
+        type=inst_type,
+        count=int(inst['count']),
+        strike_price=inst.get('strike_price'),
+        expiry=expiry,
+        notes=inst.get('notes', '') or '',
+    )
+    instrument_count += 1
+
 company.needs_research = False
 company.save(update_fields=['needs_research'])
-print(f'{ticker}: {scorecard.verdict} ({scorecard.composite_score}/25) published={scorecard.is_published} price=\${current_price or \"N/A\"}')
+print(f'{ticker}: {scorecard.verdict} ({scorecard.composite_score}/25) published={scorecard.is_published} price=\${current_price or \"N/A\"} instruments={instrument_count}')
 "
     rm "$f"
     git add "$QUEUE_DIR/"
