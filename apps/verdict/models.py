@@ -135,6 +135,20 @@ class VerdictScorecard(SEOMixin, models.Model):
     current_price = models.DecimalField(max_digits=10, decimal_places=4, null=True, blank=True)
     p_nav_multiple = models.DecimalField(max_digits=6, decimal_places=3, null=True, blank=True)
 
+    # Resources & reserves — free-form so the agent can write the technical-report
+    # value verbatim, including grade and polymetallic equivalents.
+    # Examples: "1.2 Moz Au @ 1.5 g/t", "10 Moz AgEq @ 120 g/t", "85 kt Cu @ 0.8%"
+    resource_measured  = models.CharField(max_length=120, blank=True, help_text="Measured resource (e.g. '1.2 Moz Au @ 1.5 g/t').")
+    resource_indicated = models.CharField(max_length=120, blank=True, help_text="Indicated resource.")
+    resource_inferred  = models.CharField(max_length=120, blank=True, help_text="Inferred resource.")
+    reserve_proven     = models.CharField(max_length=120, blank=True, help_text="Proven reserve.")
+    reserve_probable   = models.CharField(max_length=120, blank=True, help_text="Probable reserve.")
+
+    # Share structure — issued/outstanding and fully diluted snapshot at scoring date.
+    # Warrants and options live on the related ShareInstrument model below.
+    shares_issued_outstanding = models.PositiveBigIntegerField(null=True, blank=True, help_text="Issued and outstanding share count.")
+    shares_fully_diluted      = models.PositiveBigIntegerField(null=True, blank=True, help_text="Fully diluted share count (includes warrants + options).")
+
     is_published = models.BooleanField(default=False)
     scored_at = models.DateTimeField()
     created_at = models.DateTimeField(auto_now_add=True)
@@ -175,6 +189,43 @@ class VerdictScorecard(SEOMixin, models.Model):
         if self.nav_per_share and self.current_price and self.nav_per_share > 0:
             self.p_nav_multiple = self.current_price / self.nav_per_share
         super().save(*args, **kwargs)
+
+
+class ShareInstrumentType(models.TextChoices):
+    WARRANT = "warrant", "Warrant"
+    OPTION  = "option",  "Option"
+
+
+class ShareInstrument(models.Model):
+    """
+    A tranche of warrants or options outstanding as of a given scorecard's
+    scoring date. Multiple rows per scorecard — one per strike/expiry tranche.
+    """
+    scorecard = models.ForeignKey(
+        VerdictScorecard, on_delete=models.CASCADE, related_name="share_instruments",
+    )
+    type = models.CharField(max_length=10, choices=ShareInstrumentType.choices)
+    count = models.PositiveBigIntegerField(help_text="Number of warrants or options in this tranche.")
+    strike_price = models.DecimalField(
+        max_digits=10, decimal_places=4, null=True, blank=True,
+        help_text="Strike price (in the company's listing currency). Leave blank if unknown.",
+    )
+    expiry = models.DateField(null=True, blank=True, help_text="Expiry date. Leave blank if unknown.")
+    notes = models.CharField(
+        max_length=120, blank=True,
+        help_text="Optional label, e.g. 'Tranche A', 'Director options', 'Broker warrants'.",
+    )
+
+    class Meta:
+        ordering = ["type", "strike_price", "expiry"]
+
+    def __str__(self):
+        bits = [self.get_type_display(), f"{self.count:,}"]
+        if self.strike_price is not None:
+            bits.append(f"@ {self.strike_price}")
+        if self.expiry:
+            bits.append(self.expiry.isoformat())
+        return " ".join(bits)
 
 
 class CompanyQueueStatus(models.TextChoices):

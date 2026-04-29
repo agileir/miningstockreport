@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load autolink %}
+{% load humanize %}
 
 {% block title %}{{ company.ticker }} — {{ company.name }}{% endblock %}
 {% block meta_description %}{{ company.ticker }} ({{ company.exchange }}) — {{ company.name }}{% if company.primary_commodity %}, {{ company.primary_commodity }}{% if company.tier == 'major' %} major producer{% elif company.tier == 'mid' %} mid-tier producer{% else %} explorer{% endif %}{% endif %}{% if company.jurisdiction %} in {{ company.jurisdiction }}{% endif %}.{% if latest %} Verdict Framework scorecard: {{ latest.verdict }}, {{ latest.composite_score }}/25.{% elif company.tier != 'junior' %} Independent mining stock analysis and company profile.{% else %} Independent Verdict Framework scorecard.{% endif %}{% endblock %}
@@ -215,6 +216,90 @@
           <p class="text-secondary mt-2 mb-0" style="font-size:.75rem;">
             Reference: explorers 0.1–0.3x &middot; acquisition range 0.5–1.0x
           </p>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+
+      {% if latest.resource_measured or latest.resource_indicated or latest.resource_inferred or latest.reserve_proven or latest.reserve_probable %}
+      <div class="card bg-dark border-secondary mb-4">
+        <div class="card-header border-secondary"><span class="text-white fw-bold small text-uppercase">Resources &amp; Reserves</span></div>
+        <div class="card-body">
+          {% if latest.resource_measured %}
+          <div class="d-flex justify-content-between py-2 border-bottom border-secondary">
+            <span class="text-secondary small">Measured</span>
+            <span class="text-white fw-bold small text-end">{{ latest.resource_measured }}</span>
+          </div>
+          {% endif %}
+          {% if latest.resource_indicated %}
+          <div class="d-flex justify-content-between py-2 border-bottom border-secondary">
+            <span class="text-secondary small">Indicated</span>
+            <span class="text-white fw-bold small text-end">{{ latest.resource_indicated }}</span>
+          </div>
+          {% endif %}
+          {% if latest.resource_inferred %}
+          <div class="d-flex justify-content-between py-2 border-bottom border-secondary">
+            <span class="text-secondary small">Inferred</span>
+            <span class="text-white fw-bold small text-end">{{ latest.resource_inferred }}</span>
+          </div>
+          {% endif %}
+          {% if latest.reserve_proven %}
+          <div class="d-flex justify-content-between py-2 border-bottom border-secondary">
+            <span class="text-secondary small">Proven</span>
+            <span class="text-white fw-bold small text-end">{{ latest.reserve_proven }}</span>
+          </div>
+          {% endif %}
+          {% if latest.reserve_probable %}
+          <div class="d-flex justify-content-between py-2">
+            <span class="text-secondary small">Probable</span>
+            <span class="text-white fw-bold small text-end">{{ latest.reserve_probable }}</span>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+
+      {% if latest.shares_issued_outstanding or latest.shares_fully_diluted or latest.share_instruments.exists %}
+      <div class="card bg-dark border-secondary mb-4">
+        <div class="card-header border-secondary"><span class="text-white fw-bold small text-uppercase">Share Structure</span></div>
+        <div class="card-body">
+          {% if latest.shares_issued_outstanding %}
+          <div class="d-flex justify-content-between py-2 border-bottom border-secondary">
+            <span class="text-secondary small">Issued &amp; Outstanding</span>
+            <span class="text-white fw-bold">{{ latest.shares_issued_outstanding|intcomma }}</span>
+          </div>
+          {% endif %}
+          {% if latest.shares_fully_diluted %}
+          <div class="d-flex justify-content-between py-2{% if latest.share_instruments.exists %} border-bottom border-secondary{% endif %}">
+            <span class="text-secondary small">Fully Diluted</span>
+            <span class="text-white fw-bold">{{ latest.shares_fully_diluted|intcomma }}</span>
+          </div>
+          {% endif %}
+          {% if latest.share_instruments.exists %}
+          <div class="mt-3">
+            <div class="text-secondary text-uppercase fw-bold mb-2" style="font-size:.7rem;">Warrants &amp; Options</div>
+            <table class="table table-dark table-sm small mb-0">
+              <thead>
+                <tr class="text-secondary" style="font-size:.7rem;">
+                  <th class="border-0 ps-0">Type</th>
+                  <th class="border-0 text-end">Count</th>
+                  <th class="border-0 text-end">Strike</th>
+                  <th class="border-0 text-end pe-0">Expiry</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for inst in latest.share_instruments.all %}
+                <tr>
+                  <td class="border-0 ps-0 text-white text-capitalize">{{ inst.get_type_display }}</td>
+                  <td class="border-0 text-end text-white">{{ inst.count|intcomma }}</td>
+                  <td class="border-0 text-end text-white">{% if inst.strike_price %}{% if company.exchange == 'TSX' or company.exchange == 'TSXV' %}C{% elif company.exchange == 'ASX' %}A{% elif company.exchange == 'LSE' %}&pound;{% else %}US{% endif %}${{ inst.strike_price|floatformat:2 }}{% else %}<span class="text-secondary">&mdash;</span>{% endif %}</td>
+                  <td class="border-0 text-end pe-0 text-white">{% if inst.expiry %}{{ inst.expiry|date:"M Y" }}{% else %}<span class="text-secondary">&mdash;</span>{% endif %}</td>
+                </tr>
+                {% if inst.notes %}<tr><td colspan="4" class="border-0 ps-0 text-secondary" style="font-size:.7rem;">{{ inst.notes }}</td></tr>{% endif %}
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
           {% endif %}
         </div>
       </div>

@@ -1,6 +1,9 @@
 from django.contrib import admin
 from django.utils.html import format_html
-from .models import Company, VerdictScorecard, CompanyQueue, CompanyQueueStatus
+from .models import (
+    Company, VerdictScorecard, CompanyQueue, CompanyQueueStatus,
+    ShareInstrument,
+)
 
 
 class VerdictScorecardInline(admin.TabularInline):
@@ -58,6 +61,12 @@ class CompanyAdmin(admin.ModelAdmin):
         queryset.update(needs_research=False)
 
 
+class ShareInstrumentInline(admin.TabularInline):
+    model = ShareInstrument
+    extra = 0
+    fields = ("type", "count", "strike_price", "expiry", "notes")
+
+
 @admin.register(VerdictScorecard)
 class VerdictScorecardAdmin(admin.ModelAdmin):
     list_display  = ("company", "verdict", "composite_score_display",
@@ -66,6 +75,7 @@ class VerdictScorecardAdmin(admin.ModelAdmin):
     search_fields = ("company__name", "company__ticker")
     date_hierarchy = "scored_at"
     readonly_fields = ("composite_score_display", "p_nav_multiple")
+    inlines = [ShareInstrumentInline]
 
     fieldsets = (
         ("Company & Verdict",  {"fields": ("company", "verdict", "analyst_summary", "scored_at", "is_published")}),
@@ -75,6 +85,16 @@ class VerdictScorecardAdmin(admin.ModelAdmin):
         ("Factor 4 — Catalyst",     {"fields": ("catalyst_score",     "catalyst_notes")}),
         ("Factor 5 — Acquisition",  {"fields": ("acquisition_score",  "acquisition_notes")}),
         ("Valuation",  {"fields": ("nav_per_share", "current_price", "p_nav_multiple")}),
+        ("Resources & Reserves", {
+            "classes": ("collapse",),
+            "fields": ("resource_measured", "resource_indicated", "resource_inferred",
+                       "reserve_proven", "reserve_probable"),
+        }),
+        ("Share Structure", {
+            "classes": ("collapse",),
+            "fields": ("shares_issued_outstanding", "shares_fully_diluted"),
+            "description": "Add warrant and option tranches in the inline below.",
+        }),
         ("SEO & Open Graph", {
             "classes": ("collapse",),
             "fields": ("meta_title", "meta_description", "og_image", "og_image_alt"),
