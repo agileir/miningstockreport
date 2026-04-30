@@ -2,6 +2,7 @@ from django.contrib.sitemaps import Sitemap
 from django.urls import reverse
 from django.utils import timezone
 from apps.blog.models import Post
+from apps.jurisdictions.models import Jurisdiction
 from apps.verdict.commodities import COMMODITIES
 from apps.verdict.models import Company
 from apps.videos.models import Video
@@ -36,6 +37,7 @@ class StaticViewSitemap(Sitemap):
                 "blog:post_list", "verdict:company_list",
                 "videos:video_list", "watchlist:watchlist",
                 "news:news_wire",
+                "jurisdictions:index",
                 "investors:register"]
 
     def location(self, item):
@@ -111,10 +113,22 @@ class CommodityListSitemap(Sitemap):
         return self.LASTMOD
 
 
+class JurisdictionSitemap(Sitemap):
+    changefreq = "yearly"
+    priority   = 0.7
+
+    def items(self):
+        return Jurisdiction.objects.filter(is_published=True)
+
+    def lastmod(self, obj):
+        return obj.updated_at
+
+
 sitemaps = {
     "static":            StaticViewSitemap,
     "posts":             PostSitemap,
     "companies":         CompanySitemap,
     "videos":            VideoSitemap,
     "commodity_lists":   CommodityListSitemap,
+    "jurisdictions":     JurisdictionSitemap,
 }

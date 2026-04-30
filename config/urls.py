@@ -32,6 +32,7 @@ urlpatterns = [
     path("subscribe/",  include("apps.leads.urls",     namespace="leads")),
     path("investors/",  include("apps.investors.urls", namespace="investors")),
     path("news/",       include("apps.news.urls",      namespace="news")),
+    path("jurisdictions/", include("apps.jurisdictions.urls", namespace="jurisdictions")),
 
     # REST API (v1)
     path("api/v1/",     include("config.api_urls")),

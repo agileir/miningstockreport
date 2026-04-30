@@ -42,7 +42,14 @@ class Company(SEOMixin, models.Model):
     market_cap_cad = models.BigIntegerField(
         null=True, blank=True, help_text="Market cap in CAD cents to avoid float issues."
     )
-    jurisdiction = models.CharField(max_length=100, blank=True, help_text="e.g. British Columbia, Nevada, Peru")
+    jurisdiction = models.CharField(max_length=100, blank=True, help_text="Free-text jurisdiction (legacy; agent-filled). Prefer setting primary_jurisdiction FK below.")
+    primary_jurisdiction = models.ForeignKey(
+        "jurisdictions.Jurisdiction",
+        on_delete=models.SET_NULL,
+        null=True, blank=True,
+        related_name="companies",
+        help_text="Primary operating jurisdiction. Pulls the risk score onto the company page.",
+    )
     primary_commodity = models.CharField(max_length=50, blank=True, help_text="e.g. Gold, Copper, Silver")
     tier = models.CharField(
         max_length=10, choices=CompanyTier.choices, default=CompanyTier.JUNIOR,

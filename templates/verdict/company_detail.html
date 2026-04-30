@@ -72,7 +72,7 @@
         <h1 class="text-white fw-bold h3 mb-0">{{ company.name }}</h1>
         <p class="text-secondary small mb-0">{{ company.exchange }}:{{ company.ticker }}
           {% if company.primary_commodity %} &middot; {{ company.primary_commodity }}{% endif %}
-          {% if company.jurisdiction %} &middot; {{ company.jurisdiction }}{% endif %}
+          {% if company.primary_jurisdiction %} &middot; <a href="{{ company.primary_jurisdiction.get_absolute_url }}" class="text-secondary text-decoration-none">{{ company.primary_jurisdiction.name }}</a> <span class="badge ms-1 {{ company.primary_jurisdiction.risk_badge_class }}" style="font-size:.6rem;">{{ company.primary_jurisdiction.risk_label_display }}</span>{% elif company.jurisdiction %} &middot; {{ company.jurisdiction }}{% endif %}
         </p>
       </div>
       {% if latest %}

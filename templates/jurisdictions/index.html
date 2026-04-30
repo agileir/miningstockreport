@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+
+{% block title %}Mining Jurisdiction Risk Scores{% endblock %}
+{% block title_inner %}Mining Jurisdiction Risk Scores{% endblock %}
+{% block title_inner2 %}Mining Jurisdiction Risk Scores{% endblock %}
+{% block meta_description %}Risk scores for every major mining jurisdiction — countries, provinces, and states. Five factors: permitting, fiscal regime, political risk, infrastructure, and community/ESG.{% endblock %}
+{% block og_description %}Risk scores for every major mining jurisdiction — countries, provinces, and states. Five factors: permitting, fiscal regime, political risk, infrastructure, and community/ESG.{% endblock %}
+{% block twitter_description %}Risk scores for every major mining jurisdiction — countries, provinces, and states. Five factors: permitting, fiscal regime, political risk, infrastructure, and community/ESG.{% endblock %}
+
+{% block schema_breadcrumb %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"{{ SITE_URL }}/"},
+    {"@type":"ListItem","position":2,"name":"Jurisdiction Risk","item":"{{ SITE_URL }}/jurisdictions/"}
+  ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="bg-dark py-4 border-bottom border-secondary">
+  <div class="container">
+    <h1 class="text-white fw-bold h3 mb-1">
+      <i class="bi bi-globe-americas text-warning me-2"></i>Jurisdiction Risk Scores
+    </h1>
+    <p class="text-secondary mb-0">
+      Where a deposit sits on the map matters as much as what's in the ground. Every jurisdiction
+      we cover is scored on five factors — permitting predictability, fiscal regime stability,
+      political &amp; security risk, infrastructure, and community/ESG complexity. One clear risk
+      label: LOW, MODERATE, ELEVATED, HIGH, or EXTREME.
+    </p>
+  </div>
+</div>
+
+<section class="py-5 bg-black border-bottom border-secondary">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <h2 class="text-white fw-bold h5 mb-3">How the Score is Built</h2>
+        <p class="text-secondary mb-0">
+          Each jurisdiction gets five sub-scores from 1 (worst) to 5 (best), summed into a
+          composite of 5–25. The composite drives a risk label. Inputs include the Fraser Institute
+          Annual Survey of Mining Companies, the World Bank Worldwide Governance Indicators, recent
+          permitting outcomes, and any material change in royalty or tax regime over the past 24
+          months. We re-assess annually and after any election or major legislative change.
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <h2 class="text-white fw-bold h5 mb-3">The Five Factors</h2>
+        <ul class="text-secondary ps-3 mb-0">
+          <li class="mb-1"><strong class="text-white">Permitting</strong> — predictability and timeline from discovery to mine.</li>
+          <li class="mb-1"><strong class="text-white">Fiscal regime</strong> — royalty &amp; tax stability; surprise changes penalized.</li>
+          <li class="mb-1"><strong class="text-white">Political &amp; security</strong> — rule of law, expropriation risk, conflict.</li>
+          <li class="mb-1"><strong class="text-white">Infrastructure</strong> — road, rail, power, water, port access.</li>
+          <li class="mb-0"><strong class="text-white">Community &amp; ESG</strong> — Indigenous consultation framework, social licence.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container py-5">
+  {% if rows %}
+  <div class="card bg-dark border-secondary">
+    <div class="table-responsive">
+      <table class="table table-dark table-hover mb-0 align-middle">
+        <thead>
+          <tr class="text-secondary small text-uppercase">
+            <th class="border-secondary ps-4">Jurisdiction</th>
+            <th class="border-secondary">Country</th>
+            <th class="border-secondary text-center" title="Permitting">Perm</th>
+            <th class="border-secondary text-center" title="Fiscal regime">Fisc</th>
+            <th class="border-secondary text-center" title="Political &amp; security">Pol</th>
+            <th class="border-secondary text-center" title="Infrastructure">Infra</th>
+            <th class="border-secondary text-center" title="Community &amp; ESG">ESG</th>
+            <th class="border-secondary text-center">Composite</th>
+            <th class="border-secondary pe-4">Risk</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for j in rows %}
+          <tr>
+            <td class="ps-4">
+              <a href="{{ j.get_absolute_url }}" class="text-warning text-decoration-none fw-bold">
+                {{ j.name }}
+              </a>
+              {% if j.region_type != 'country' %}<span class="text-secondary small ms-1">({{ j.get_region_type_display }})</span>{% endif %}
+            </td>
+            <td class="text-white">{{ j.country }}</td>
+            <td class="text-center text-white">{{ j.permitting_score }}</td>
+            <td class="text-center text-white">{{ j.fiscal_score }}</td>
+            <td class="text-center text-white">{{ j.political_score }}</td>
+            <td class="text-center text-white">{{ j.infrastructure_score }}</td>
+            <td class="text-center text-white">{{ j.community_score }}</td>
+            <td class="text-center text-white fw-bold">{{ j.composite_score }}<span class="text-secondary small">/25</span></td>
+            <td class="pe-4">
+              <span class="badge {{ j.risk_badge_class }}">{{ j.risk_label_display }}</span>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <p class="text-secondary small mt-3 mb-0">
+    Higher composite = lower risk. 22–25 LOW &middot; 18–21 MODERATE &middot; 13–17 ELEVATED &middot; 8–12 HIGH &middot; 5–7 EXTREME.
+  </p>
+  {% else %}
+  <div class="text-center py-5">
+    <i class="bi bi-globe-americas text-warning" style="font-size:3rem;"></i>
+    <p class="text-secondary mt-3">No jurisdiction assessments published yet.</p>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

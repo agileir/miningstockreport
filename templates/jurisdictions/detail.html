@@ -1,0 +1,158 @@
+{% extends "base.html" %}
+{% load autolink %}
+
+{% block title %}{{ jurisdiction.name }} Mining Risk — {{ jurisdiction.risk_label_display }}{% endblock %}
+{% block title_inner %}{{ jurisdiction.name }} — Mining Jurisdiction Risk{% endblock %}
+{% block title_inner2 %}{{ jurisdiction.name }} — Mining Jurisdiction Risk{% endblock %}
+{% block meta_description %}{{ jurisdiction.name }} mining jurisdiction risk assessment — {{ jurisdiction.risk_label_display }}, composite score {{ jurisdiction.composite_score }}/25. Permitting, fiscal, political, infrastructure, and ESG sub-scores.{% endblock %}
+{% block og_type %}article{% endblock %}
+
+{% block schema_breadcrumb %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"{{ SITE_URL }}/"},
+    {"@type":"ListItem","position":2,"name":"Jurisdiction Risk","item":"{{ SITE_URL }}/jurisdictions/"},
+    {"@type":"ListItem","position":3,"name":"{{ jurisdiction.name }}","item":"{{ SITE_URL }}{{ jurisdiction.get_absolute_url }}"}
+  ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="bg-dark py-4 border-bottom border-secondary">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb text-secondary small mb-2">
+        <li class="breadcrumb-item"><a href="{% url 'core:home' %}" class="text-secondary">Home</a></li>
+        <li class="breadcrumb-item"><a href="{% url 'jurisdictions:index' %}" class="text-secondary">Jurisdiction Risk</a></li>
+        <li class="breadcrumb-item active text-white">{{ jurisdiction.name }}</li>
+      </ol>
+    </nav>
+    <div class="d-flex align-items-center gap-3 flex-wrap">
+      <h1 class="text-white fw-bold h3 mb-0">{{ jurisdiction.name }}</h1>
+      <span class="badge fs-6 fw-bold px-3 py-2 {{ jurisdiction.risk_badge_class }}">
+        {{ jurisdiction.risk_label_display }}
+      </span>
+    </div>
+    <p class="text-secondary small mt-1 mb-0">
+      {{ jurisdiction.country }} &middot; {{ jurisdiction.get_region_type_display }}
+      {% if jurisdiction.last_assessed_at %} &middot; Last assessed {{ jurisdiction.last_assessed_at|date:"M Y" }}{% endif %}
+    </p>
+  </div>
+</div>
+
+<div class="container py-5">
+  <div class="row g-5">
+    <div class="col-lg-8">
+
+      {# Composite #}
+      <div class="card bg-dark border-secondary mb-4">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-center mb-2">
+            <span class="text-white fw-bold">Composite Score</span>
+            <span class="text-white fw-bold fs-4">{{ jurisdiction.composite_score }}<span class="text-secondary fs-6">/25</span></span>
+          </div>
+          <div class="progress bg-black" style="height:12px;">
+            <div class="progress-bar
+              {% if jurisdiction.composite_score_pct >= 85 %}bg-success
+              {% elif jurisdiction.composite_score_pct >= 70 %}bg-info
+              {% elif jurisdiction.composite_score_pct >= 50 %}bg-warning
+              {% else %}bg-danger{% endif %}"
+              style="width:{{ jurisdiction.composite_score_pct }}%"></div>
+          </div>
+          <p class="text-secondary small mt-2 mb-0">
+            Higher = lower risk. 22–25 LOW &middot; 18–21 MODERATE &middot; 13–17 ELEVATED &middot; 8–12 HIGH &middot; 5–7 EXTREME.
+          </p>
+        </div>
+      </div>
+
+      {# Five factors #}
+      {% for factor in jurisdiction.factors %}
+      <div class="card bg-dark border-secondary mb-3">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-start">
+            <h6 class="text-white mb-1">{{ factor.label }}</h6>
+            <div class="d-flex gap-1 align-items-center">
+              {% for i in "12345" %}
+                <span class="rounded-circle d-inline-block"
+                  style="width:13px;height:13px;background:{% if forloop.counter <= factor.score %}#ffc107{% else %}#2a2a2a{% endif %};"></span>
+              {% endfor %}
+              <span class="text-secondary small ms-1">{{ factor.score }}/5</span>
+            </div>
+          </div>
+          {% if factor.notes %}<div class="text-secondary small mt-1">{{ factor.notes|linebreaksbr|autolink }}</div>{% endif %}
+        </div>
+      </div>
+      {% endfor %}
+
+      <div class="card bg-black border-warning border-2 mt-4">
+        <div class="card-body">
+          <h5 class="text-warning fw-bold mb-3"><i class="bi bi-journal-text me-2"></i>Assessment Summary</h5>
+          <div class="text-white">{{ jurisdiction.summary|linebreaks|autolink }}</div>
+        </div>
+      </div>
+
+      {% if jurisdiction.whats_changed %}
+      <div class="card bg-dark border-secondary mt-3">
+        <div class="card-body">
+          <h6 class="text-warning fw-bold mb-2"><i class="bi bi-arrow-repeat me-1"></i>What's Changed Recently</h6>
+          <div class="text-secondary">{{ jurisdiction.whats_changed|linebreaks|autolink }}</div>
+        </div>
+      </div>
+      {% endif %}
+
+    </div>
+
+    <div class="col-lg-4">
+
+      {% if companies %}
+      <div class="card bg-dark border-secondary mb-4">
+        <div class="card-header border-secondary">
+          <span class="text-white fw-bold small text-uppercase">Companies Operating Here</span>
+        </div>
+        <div class="card-body">
+          <ul class="list-unstyled mb-0 small">
+            {% for c in companies %}
+            <li class="py-2 border-bottom border-secondary">
+              <a href="{{ c.get_absolute_url }}" class="text-warning text-decoration-none fw-bold">
+                {{ c.ticker }}
+              </a>
+              <span class="text-secondary">&middot; {{ c.name }}</span>
+              {% if c.primary_commodity %}<div class="text-secondary" style="font-size:.75rem;">{{ c.primary_commodity }}</div>{% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if siblings %}
+      <div class="card bg-dark border-secondary mb-4">
+        <div class="card-header border-secondary">
+          <span class="text-white fw-bold small text-uppercase">Other {{ jurisdiction.country }} Jurisdictions</span>
+        </div>
+        <div class="card-body">
+          <ul class="list-unstyled mb-0 small">
+            {% for s in siblings %}
+            <li class="d-flex justify-content-between align-items-center py-2 border-bottom border-secondary">
+              <a href="{{ s.get_absolute_url }}" class="text-white text-decoration-none">{{ s.name }}</a>
+              <span class="badge {{ s.risk_badge_class }}" style="font-size:.65rem;">{{ s.risk_label_display }}</span>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% endif %}
+
+      <p class="text-secondary small mt-4 mb-0" style="font-size:.75rem;">
+        Jurisdiction risk is one input — geology, capital structure, and management still matter.
+        See the <a href="{% url 'verdict:company_list' %}" class="text-warning text-decoration-none">Verdict Framework</a> for full company scorecards.
+      </p>
+
+    </div>
+  </div>
+</div>
+{% endblock %}

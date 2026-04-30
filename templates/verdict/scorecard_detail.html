@@ -253,7 +253,17 @@
           <dl class="mb-0 small">
             <dt class="text-secondary">Exchange / Ticker</dt>
             <dd class="text-white">{{ scorecard.company.exchange }}:{{ scorecard.company.ticker }}</dd>
-            {% if scorecard.company.jurisdiction %}
+            {% if scorecard.company.primary_jurisdiction %}
+            <dt class="text-secondary">Jurisdiction</dt>
+            <dd>
+              <a href="{{ scorecard.company.primary_jurisdiction.get_absolute_url }}" class="text-white text-decoration-none">
+                {{ scorecard.company.primary_jurisdiction.name }}
+              </a>
+              <span class="badge ms-1 {{ scorecard.company.primary_jurisdiction.risk_badge_class }}" style="font-size:.65rem;">
+                {{ scorecard.company.primary_jurisdiction.risk_label_display }}
+              </span>
+            </dd>
+            {% elif scorecard.company.jurisdiction %}
             <dt class="text-secondary">Jurisdiction</dt>
             <dd class="text-white">{{ scorecard.company.jurisdiction }}</dd>
             {% endif %}
