@@ -28,6 +28,26 @@
     "exchange": "CSE"
   },
   {
+    "ticker": "ATY",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "AHR",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "SGN",
+    "exchange": "TSXV"
+  },
+  {
+    "ticker": "NGLD",
+    "exchange": "OTC"
+  },
+  {
+    "ticker": "ARQ",
+    "exchange": "CSE"
+  },
+  {
     "ticker": "AUMC",
     "exchange": "CSE"
   },
@@ -148,26 +168,6 @@
     "exchange": "CSE"
   },
   {
-    "ticker": "ATY",
-    "exchange": "TSXV"
-  },
-  {
-    "ticker": "AHR",
-    "exchange": "TSXV"
-  },
-  {
-    "ticker": "SGN",
-    "exchange": "TSXV"
-  },
-  {
-    "ticker": "NGLD",
-    "exchange": "OTC"
-  },
-  {
-    "ticker": "ARQ",
-    "exchange": "CSE"
-  },
-  {
     "ticker": "ATX",
     "exchange": "TSXV"
   },
@@ -180,8 +180,16 @@
     "exchange": "TSX"
   },
   {
+    "ticker": "NUCA",
+    "exchange": "CSE"
+  },
+  {
     "ticker": "ORA",
     "exchange": "TSX"
+  },
+  {
+    "ticker": "BMT",
+    "exchange": "CSE"
   },
   {
     "ticker": "BCM",
@@ -220,8 +228,16 @@
     "exchange": "TSX"
   },
   {
+    "ticker": "OROG",
+    "exchange": "CSE"
+  },
+  {
     "ticker": "HBM",
     "exchange": "TSX"
+  },
+  {
+    "ticker": "ICG",
+    "exchange": "CSE"
   },
   {
     "ticker": "IPT",
@@ -242,6 +258,10 @@
   {
     "ticker": "MND",
     "exchange": "TSX"
+  },
+  {
+    "ticker": "MM",
+    "exchange": "CSE"
   },
   {
     "ticker": "NXE",
@@ -286,5 +306,9 @@
   {
     "ticker": "UCU",
     "exchange": "TSXV"
+  },
+  {
+    "ticker": "UG",
+    "exchange": "CSE"
   }
 ]
