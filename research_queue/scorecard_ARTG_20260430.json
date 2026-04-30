@@ -1,0 +1,37 @@
+{
+  "ticker": "ARTG",
+  "exchange": "TSXV",
+
+  "management_score": 5,
+  "management_notes": "Artemis Gold is led by Steven Dean (Executive Chairman) and Jeremy Langford (CEO), a team that includes veterans from the Atlantic Gold development (which sold to St. Barbara for C$722M in 2019). They acquired the Blackwater Project from New Gold in 2020 at a deep discount and advanced it from a shelved study to a producing mine. Commercial production was declared May 1, 2025 — on schedule and at or below budget. Beedie Capital holds approximately 29.4% of the company and sits on the board, providing institutional alignment and disciplined capital allocation. Q2 2025 production of 50,623 oz at US$805/oz AISC demonstrates excellent operating discipline. Full-year 2025 adjusted EBITDA of C$610.4M and adjusted EPS of C$1.81 confirm management's ability to execute at scale. One of the best management teams in the Canadian junior-to-mid-tier gold space.",
+
+  "geology_score": 5,
+  "geology_notes": "Blackwater is one of Canada's largest open-pit gold mines by resource base. Current NI 43-101 Technical Report (effective February 21, 2024): Measured and Indicated Resources total 597 Mt at 0.61 g/t for 11.7 Moz Au (inclusive of reserves). Proven and Probable Reserves total 334 Mt at 0.75 g/t for 8.0 Moz Au. The Phase 2 expansion (EP2), approved in late 2025, increases throughput to a scaled capacity targeting average annual production of 500,000 to 525,000 oz Au for the first 10 full years at full EP2 production. Phase 1 (6 Mtpa → 8 Mtpa by Q4 2026) is already producing cash. The resource scale, the high reserve conversion rate, and the leverage to the gold price make this a best-in-class geology profile for a Canadian junior producer.",
+
+  "capital_score": 4,
+  "capital_notes": "As of early 2026: approximately 230,988,480 shares issued and outstanding. Options and RSU grants have been modest (230,000 options in 2024; 588,000 options in December 2025; 21,100 options + 133,200 RSUs in February 2026). Warrant details not publicly detailed in press releases reviewed; the company does not appear to have significant traditional warrant overhang. Fully diluted count estimated at approximately 232-233M shares. The capital structure is clean for a producing gold company of this size. Major shareholder Beedie Capital (~29.4%) provides concentrated institutional discipline. No material warrant overhang is apparent from public disclosures.",
+
+  "catalyst_score": 5,
+  "catalyst_notes": "Multiple near-term catalysts: (1) Phase 1 throughput ramp to 8 Mtpa by Q4 2026 — this is an announced, funded, near-term production increase; (2) Phase 2 expansion (EP2) decision expected Q4 2025 and approved in late 2025, with construction commencing — this is transformational; (3) quarterly production results and EBITDA will continue to reset analyst estimates upward at rising gold prices; (4) at US$3,000+ gold, the EP2 economics are dramatically better than the $2,150 base case used in the study. Continuous de-risking of one of Canada's most important gold mines in real time.",
+
+  "acquisition_score": 5,
+  "acquisition_notes": "Blackwater is one of the most obvious mid-tier acquisition targets in the global gold sector. The project hosts 8 Moz in reserves with an expanding production profile toward 500,000+ oz/yr under EP2. At US$2,150 gold the EP2 NPV was not published separately but the mine economics are compelling. At current gold prices (US$3,000+), the value is dramatically higher. Comparable transactions for large open-pit BC gold mines include Goldcorp's Éléonore acquisition and numerous BC deals. Acquirers (Agnico Eagle, Newmont, Gold Fields) would achieve significant production growth and geographic diversification. The C$10.84 acquisition price for GTWO (a much smaller Guyana gold project) validates premium valuations for high-quality gold assets. Artemis trades at a modest premium to NAV relative to its growth profile.",
+
+  "verdict": "BUY",
+  "analyst_summary": "Artemis Gold owns and operates Blackwater — one of Canada's finest gold mines, with 8 Moz in reserves and a clear path to 500,000+ oz/yr production under the approved Phase 2 expansion. Commercial production since May 2025, C$610M in 2025 EBITDA, and US$805/oz AISC demonstrate that management can execute at scale. The EP2 expansion is funded and approved, Phase 1 throughput increases to 8 Mtpa by Q4 2026. At current gold prices (US$3,000+), the EP2 economics are dramatically better than published base cases. Beedie Capital's 29.4% stake and board presence ensure capital discipline. This is the kind of asset that major gold producers pay large premiums to acquire — and it sits on the TSXV with retail-accessible liquidity. Best risk/reward in this cohort.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "597 Mt at 0.61 g/t Au for 11.7 Moz Au (M&I, inclusive of reserves) — Feb 2024 NI 43-101",
+  "resource_indicated": "597 Mt at 0.61 g/t Au for 11.7 Moz Au total M&I — separate M/I split not reported in public summaries",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "334 Mt at 0.75 g/t Au for 8.0 Moz Au (P&P combined) — Feb 2024 NI 43-101",
+
+  "shares_issued_outstanding": 230988480,
+  "shares_fully_diluted": null,
+
+  "share_instruments": []
+}

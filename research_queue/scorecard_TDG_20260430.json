@@ -1,0 +1,37 @@
+{
+  "ticker": "TDG",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "TDG Gold Corp. management has been executing a disciplined brownfield exploration strategy in the historic Toodoggone District of north-central British Columbia and has recently expanded into the Anyox District. The company's 2025 performance was transformational — share price up over 600% driven by new discoveries and the strategic acquisition of the Anyox Cu-Au porphyry system. Management has maintained treasury discipline (>C$20M cash as of year-end 2025) while advancing two district-scale opportunities simultaneously. The team's Toodoggone experience (the former producer Shasta mine) demonstrates geological competence in historic BC mining camps. However, management lacks a track record of taking a BC gold project through to production — both projects remain at the exploration/resource-definition stage.",
+
+  "geology_score": 3,
+  "geology_notes": "Toodoggone District flagship: Shasta & Tailings NI 43-101 MRE update (January 2025) — Indicated: 515,800 oz AuEq at 1.35 g/t. The Shasta mine was a former producer in the 1980s, and the updated estimate incorporates 2024 drill results and historical relogging. The resource grade is modest for a BC gold project competing for development capital against higher-grade alternatives. The Anyox District addition is the geological wildcard — the Anyox Cu-Au porphyry system is a large-scale copper-gold target that produced approximately 1.1 billion pounds of copper historically. Anyox's discovery potential is genuinely significant, but it is in early exploration. The combination of a modest defined resource at Toodoggone and a high-potential but early-stage system at Anyox creates a two-speed portfolio.",
+
+  "capital_score": 4,
+  "capital_notes": "As of the nine-month period ending April 30, 2025 (most recent available MD&A): 70,867,903 common shares issued and outstanding. The share count is lean for a BC explorer with two district-scale opportunities. Treasury exceeds C$20M, providing approximately two-plus years of exploration runway without additional financing. The 600%+ stock price appreciation in 2025 means any future equity financing will be significantly less dilutive on a per-project-value basis than at lower prices. Warrant and option details are not publicly summarized in press releases reviewed — SEDAR+ MD&A review required for full structure. No material debt apparent.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "Key catalysts: (1) Anyox District — 2026 exploration drilling in the Cu-Au porphyry system could define a large-scale discovery and represent the next major re-rating event; (2) Toodoggone — continued resource expansion at Shasta and the adjacent Newberry zone could increase the AuEq resource toward development-stage thresholds; (3) Shasta PEA/PFS — if the combined Toodoggone resource reaches 1+ Moz AuEq, a scoping study would be logical and catalytic; (4) gold and copper price tailwinds amplify the value of both assets. The company has the treasury to execute an aggressive 2026 program.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "The 515,800 oz AuEq Indicated resource at Toodoggone is sub-scale for a standalone development transaction at current deal multiples. For comparison, most BC gold acquisitions require 1+ Moz to attract meaningful acquirer interest. The 600%+ 2025 stock appreciation means the market has already priced in significant exploration success — the bar for the next catalyst is higher. The Anyox porphyry system could fundamentally change the acquisition calculus if a resource of scale is defined, but that is 2-3 years away at minimum. NAV per share cannot be meaningfully estimated at current resource definition.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "TDG Gold had a breakout 2025 — share price up 600%+, transformational Anyox acquisition, and an updated resource estimate at Shasta & Tailings. The company holds 100% of approximately 50,000 hectares of brownfield and greenfield ground in two of BC's most historically productive districts. The treasury is funded for aggressive 2026 drilling in both Toodoggone and Anyox. The 2025 run-up means much of the obvious re-rating has already occurred. The next inflection point is a meaningful discovery in Anyox — if that materializes, TDG becomes a genuinely multi-Moz story. Watch the 2026 drill results from Anyox for the next major re-rating trigger.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "515,800 oz AuEq at 1.35 g/t — Shasta & Tailings, Toodoggone, Jan 2025 NI 43-101",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 70867903,
+  "shares_fully_diluted": null,
+
+  "share_instruments": []
+}
