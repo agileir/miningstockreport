@@ -16,12 +16,52 @@
     "jurisdiction": ""
   },
   {
+    "ticker": "AMX",
+    "name": "Amex Exploration Inc.",
+    "exchange": "TSXV",
+    "website": "https://www.amexexploration.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Quebec, Canada"
+  },
+  {
+    "ticker": "ARTG",
+    "name": "Artemis Gold Inc.",
+    "exchange": "TSXV",
+    "website": "https://www.artemisgoldinc.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "British Columbia"
+  },
+  {
+    "ticker": "GTWO",
+    "name": "G2 Goldfields Inc.",
+    "exchange": "TSX",
+    "website": "https://g2goldfields.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Guyana"
+  },
+  {
+    "ticker": "HSTR",
+    "name": "Heliostar Metals Ltd.",
+    "exchange": "TSXV",
+    "website": "https://www.heliostarmetals.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Mexico"
+  },
+  {
     "ticker": "OGC",
     "name": "OceanaGold Corporation",
     "exchange": "TSX",
     "website": "https://www.oceanagold.com",
     "primary_commodity": "Gold",
     "jurisdiction": "South Carolina"
+  },
+  {
+    "ticker": "RUP",
+    "name": "Rupert Resources Ltd.",
+    "exchange": "TSX",
+    "website": "https://rupertresources.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Northern Finland"
   },
   {
     "ticker": "TDG",
