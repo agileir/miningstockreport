@@ -1,0 +1,37 @@
+{
+  "ticker": "HSTR",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "Heliostar Metals is led by Charles Funk (CEO), who built the company through a series of acquisitions in Mexico — La Colorada heap leach mine (Sonora) and the Ana Paula development project (Guerrero). The 2024 acquisition and restart of La Colorada was executed within guidance timelines, and the company beat its 2024 production target. However, the heavy share issuance (shares outstanding up 41.57% year-over-year) demonstrates a pattern of dilutive financing that has eroded per-share value. La Colorada's high cash costs ($1,800-$1,950/oz) and Mexico security risk in Guerrero (Ana Paula) are execution challenges the team has not yet fully de-risked. Insider ownership not prominently disclosed. Management score is mid-tier — execution on Ana Paula feasibility study completion in 2025 is a meaningful positive.",
+
+  "geology_score": 3,
+  "geology_notes": "Portfolio has two distinct assets with very different risk profiles. La Colorada (Sonora): heap leach operation producing 34,098 GEOs in calendar 2025. Low-grade, high-cost by industry standards. Ana Paula (Guerrero): NI 43-101 MRE (effective November 27, 2023): Measured 320,204 oz @ 6.60 g/t + Indicated 390,716 oz = 710,920 oz M&I Au @ 6.60 g/t; Inferred 447,512 oz @ 4.24 g/t. Ana Paula's grade is genuinely excellent for an open-pit/underground system. Total resource at Ana Paula is meaningful (1.16 Moz M&I+Inferred) with high grade. The constraint is Guerrero jurisdiction (security risk) and the feasibility study timeline. La Colorada's 6-year mine life (286,000 oz total) provides near-term production but limited reserve depth.",
+
+  "capital_score": 2,
+  "capital_notes": "Approximately 252-262M shares outstanding (the company's investor page showed 252M; statistics sites show 262.33M — difference likely reflects recent issuances). Share count grew 41.57% year-over-year, indicating heavy dilution to fund acquisitions and development. The 23.4M warrants issued in the March 2023 financing were mostly exercised by early 2025, reducing that specific overhang. However, ongoing share issuance to fund operations and development creates structural dilution. Full current warrant/option breakdown requires SEDAR+ MD&A review. The diluted share count makes per-share value creation challenging unless Ana Paula significantly increases production scale.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "Key catalysts: (1) Ana Paula Feasibility Study — targeted for 2025 completion, expected to define a construction decision timeline for the 101,000 oz/yr, US$1,011/oz AISC mine starting 2028. This is the transformative catalyst for the stock if the FS confirms Ana Paula's economics; (2) La Colorada production growth — 2026 guidance of 50,000-55,000 oz (47-61% above 2025 calendar year output) confirms meaningful near-term production ramp; (3) gold price leverage — at US$3,000+ gold, La Colorada's cash costs of $1,850-$1,950/oz still generate positive margins. Ana Paula FS is the next major news event.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "Ana Paula's 1.16 Moz high-grade (6.60 g/t M&I) resource in Mexico would attract acquirer interest from mid-tier gold producers seeking Mexico exposure. At US$1,011/oz AISC (per the development plan), Ana Paula compares favorably to existing Mexican mines. However, Guerrero security risk creates a jurisdiction discount. La Colorada adds production but at thin margins. The combined package at 262M diluted shares is valued roughly in line with single-asset developers of similar scale. No public M&A interest has been disclosed. P/NAV ratio is reasonable but not compelling at current levels.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Heliostar Metals holds a genuinely valuable asset in Ana Paula — a 1.16 Moz high-grade (6.60 g/t M&I) gold project in Guerrero, Mexico with a published development plan showing 101,000 oz/yr at US$1,011/oz AISC starting 2028. La Colorada provides near-term production cash flow but at marginal economics. The key catalyst is the Ana Paula Feasibility Study, targeted for 2025 completion. If the FS confirms the development plan economics, Heliostar becomes a compelling acquisition target for mid-tier producers. The constraint is the heavy share count (262M+) and ongoing dilution that mutes per-share value creation. Watch for the FS release and any strategic interest.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "320,204 oz Au at 6.60 g/t (Ana Paula, Nov 2023 NI 43-101)",
+  "resource_indicated": "390,716 oz Au at 6.60 g/t (Ana Paula, Nov 2023 NI 43-101)",
+  "resource_inferred": "447,512 oz Au at 4.24 g/t (Ana Paula, Nov 2023 NI 43-101)",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 262330000,
+  "shares_fully_diluted": null,
+
+  "share_instruments": []
+}

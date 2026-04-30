@@ -1,0 +1,40 @@
+{
+  "ticker": "OGC",
+  "exchange": "TSX",
+
+  "management_score": 4,
+  "management_notes": "OceanaGold is led by Gerard Bond (CEO), an experienced multi-asset gold producer executive. The company operates four mines across three continents (Haile in South Carolina, Macraes and Waihi in New Zealand, Didipio in the Philippines) with a track record of consistent production and reserve replacement. The 2025 Sustainability Report reflects mature ESG practices. Management has successfully navigated the Philippines regulatory environment (Didipio FTAA), the South Carolina permitting regime (Haile), and New Zealand's mining consent process — demonstrating genuine multi-jurisdiction operational competence. The 2025 Mineral Reserves and Resources update (February 18, 2026) reports continued reserve additions, particularly at Haile (Horseshoe Underground) and Macraes open pit extensions. Score reflects solid execution but tempered by the complexity premium that comes with four operating mines across multiple regulatory regimes.",
+
+  "geology_score": 4,
+  "geology_notes": "Company-wide Mineral Reserve base (year-end 2025): 5.83 Moz Au across four operating assets. Company-wide Measured and Indicated Resources: 8.63 Moz Au. Company-wide Inferred Resources: 2.5 Moz Au. Haile (flagship): expected to produce approximately 210,000 oz/yr from 2027 through 2031 from a combination of open pit and underground (Horseshoe). Reserve additions at Haile driven by Horseshoe Underground extensions. Macraes and Waihi in New Zealand provide steady, long-life production. Didipio (Philippines) is high-grade gold-copper and contributes meaningfully to group EBITDA. The multi-asset base provides production diversification but the individual assets are at various stages of life and capital intensity.",
+
+  "capital_score": 4,
+  "capital_notes": "As of February 18, 2026: 225,000,000 shares issued and outstanding; 5,400,000 performance rights; 400,000 deferred share units. Total fully diluted approximately 230,800,000 shares. The structure is clean for a multi-asset mid-tier gold producer — no traditional warrants, only performance-based equity compensation. The absence of warrant overhang is a positive distinguishing feature relative to junior peers. The balance sheet supports the company's ongoing capital investment at Haile Underground and Macraes expansion. Leverage is managed within investment-grade parameters.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "Key catalysts: (1) Haile Underground (Horseshoe) ramp-up — expected to drive Haile production to ~210,000 oz/yr from 2027-2031, a meaningful increase from current levels; (2) Haile open-pit satellite pit permitting in South Carolina; (3) Macraes life extension results from the ongoing exploration program; (4) Didipio FTAA renewal terms over the medium term; (5) gold price leverage across all four operations. The company's four-mine platform provides year-round news flow from production results and exploration updates.",
+
+  "acquisition_score": 4,
+  "acquisition_notes": "OceanaGold is a logical acquisition target for a major or upper-tier gold producer seeking multi-jurisdiction diversification. The combination of Haile (US), Macraes/Waihi (NZ), and Didipio (Philippines) provides geographic diversification that few Canadian-listed mid-tier producers can offer. The 5.83 Moz reserve base and 230M share count place the company within the acquisition range of mid-tier buyers (Kinross, B2Gold, Evolution Mining). The South Carolina assets offer US production exposure that is increasingly valued. Current valuation appears to trade at a discount to single-asset producers, providing relative value.",
+
+  "verdict": "BUY",
+  "analyst_summary": "OceanaGold is a fundamentally sound multi-asset gold producer with 5.83 Moz in reserves, four operating mines, and a clear production growth path at Haile through the Horseshoe Underground ramp-up. The balance sheet is clean (no warrant overhang), management has a multi-decade track record of operating complex mine portfolios, and the 2025 reserve update confirmed continued resource growth at the flagship Haile asset. At current gold prices (US$3,000+), the company's EBITDA generation across four mines is compelling. OGC trades at a discount to single-asset peers due to multi-jurisdiction complexity — which is precisely the opportunity. For retail investors seeking gold exposure through a producer with proven operating track record and real growth catalysts, OGC represents a differentiated buy.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "8.63 Moz Au total M&I across all four operations (year-end 2025)",
+  "resource_inferred": "2.5 Moz Au total Inferred across all four operations (year-end 2025)",
+  "reserve_proven": "",
+  "reserve_probable": "5.83 Moz Au total P&P across four operations (year-end 2025)",
+
+  "shares_issued_outstanding": 225000000,
+  "shares_fully_diluted": 230800000,
+
+  "share_instruments": [
+    {"type": "option", "count": 5400000, "strike_price": null, "expiry": null, "notes": "Performance rights — vest-based, no fixed strike price"},
+    {"type": "option", "count": 400000, "strike_price": null, "expiry": null, "notes": "Deferred share units"}
+  ]
+}

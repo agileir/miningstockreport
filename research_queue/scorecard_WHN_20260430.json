@@ -1,0 +1,37 @@
+{
+  "ticker": "WHN",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "Westhaven Gold management, led by Gareth Thomas (President & CEO), has advanced the Shovelnose gold-silver discovery in the Spences Bridge Gold Belt through systematic exploration to a published PEA (March 2025) with an NPV of C$454M. The strategic Dundee Corporation earn-in agreement (closed February 23, 2026) — whereby Dundee may earn up to 60% of all four Spences Bridge properties through up to C$85M in staged expenditures — is a significant de-risking event. The first phase commits a minimum C$30M including the fully funded 50,000m 2026 drill program at Shovelnose. However, signing away 60% of the flagship asset reflects the company's inability to self-fund a meaningful drill program. Management has delivered good exploration results and a sound PEA, but has not demonstrated the capital markets strength to advance independently.",
+
+  "geology_score": 4,
+  "geology_notes": "Shovelnose hosts a high-grade epithermal gold-silver system in the Spences Bridge Gold Belt. Updated 2025 NI 43-101 MRE (effective February 28, 2025): Underground Indicated: 3.4 Mt at 6.1 g/t Au and 32 g/t Ag for 677,000 oz Au and 3.5 Moz Ag; Underground Inferred: 2.2 Mt at 3.6 g/t Au and 25 g/t Ag for 270,000 oz Au. AuEq totals: 718,600 oz AuEq Indicated + 292,000 oz AuEq Inferred. The 2025 PEA (base case: US$2,400 Au, US$28 Ag, C$1.00=US$0.72) shows: 11.1-year underground mine life, average annual production 56,000 oz Au + 312,000 oz Ag, NPV (6%) C$454M, IRR 43.2%. Recent 2025 drill holes confirm ongoing high-grade expansion: 8.05m @ 6.18 g/t Au + 89.7 g/t Ag (South Zone). The system has multiple discovered zones (South, Franz, FMN) with open extensions — resource growth potential is significant.",
+
+  "capital_score": 3,
+  "capital_notes": "As of February 2026 (special shareholder meeting): approximately 248M shares outstanding (derived from 86.9M shares = 35% at the meeting record date). This is a heavy share count for a junior gold explorer. The Dundee earn-in de-risks future dilution at the project level but introduces project-level dilution: Dundee earns up to 60% through spending, which dilutes Westhaven's effective interest to 40%. The combination of 248M basic shares and a 60% earn-in by Dundee means the effective leverage to Shovelnose's eventual value is significantly reduced from what the headline resource suggests. Warrant and option details require SEDAR+ MD&A review for a complete picture.",
+
+  "catalyst_score": 5,
+  "catalyst_notes": "The 50,000m 2026 drill program funded by Dundee's C$30M first-phase commitment is the single most important catalyst in this cohort — this is the largest drill program in Westhaven's history, with up to four rigs running at Shovelnose. Specific catalysts: (1) ongoing assay results from the 50,000m program — multiple high-grade intercepts in South Zone, Franz Zone, FMN Zone could dramatically grow the resource; (2) updated MRE likely in late 2026 incorporating the massive 2026 program; (3) potential for new zone discovery at depth or along strike; (4) Dundee's Phase 2 earn-in decision (trigger for the additional C$55M) would be confirmation that the resource growth justifies the investment. News flow from four active rigs throughout 2026 will be continuous.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "Shovelnose is a genuine high-grade epithermal gold-silver discovery with a published PEA showing strong economics. At 718,600 oz AuEq Indicated and NPV C$454M (base case), the current valuation with ~248M shares implies NAV per share of approximately C$1.83 at 100% ownership. However, the 60% Dundee earn-in means Westhaven's NAV per share at full Dundee earn-in is approximately C$0.73/share (40% of C$454M / 248M shares). The 50,000m 2026 drill program could grow the resource sufficiently to significantly increase the PEA NPV, which is where the real per-share value accretion lies. Formal acquisition interest would likely wait for a larger resource and Dundee's earn-in to reach a more defined stage.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Westhaven Gold owns a genuine high-grade epithermal gold-silver discovery at Shovelnose: 718,600 oz AuEq Indicated @ 6.1 g/t Au (underground PEA basis), PEA NPV C$454M, IRR 43.2%. The Dundee Corporation earn-in (up to 60% for up to C$85M) funds the largest drill program in the project's history — 50,000m across four rigs in 2026. Shovelnose's resource growth potential is significant and the 2026 drill results will be the defining news event of the year. The key constraint is 248M diluted shares and the 60% Dundee dilution reducing Westhaven's effective per-share leverage. Watch actively — the 2026 drill program could produce a re-rating discovery that justifies a higher entry point, or it could confirm resource limits that temper the thesis.",
+  "confidence": "high",
+
+  "nav_per_share": 1.83,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "3.4 Mt at 6.1 g/t Au and 32 g/t Ag for 677,000 oz Au and 3.5 Moz Ag — Feb 2025 NI 43-101",
+  "resource_inferred": "2.2 Mt at 3.6 g/t Au and 25 g/t Ag for 270,000 oz Au — Feb 2025 NI 43-101",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 248000000,
+  "shares_fully_diluted": null,
+
+  "share_instruments": []
+}

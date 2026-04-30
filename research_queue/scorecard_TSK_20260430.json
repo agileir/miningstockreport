@@ -1,0 +1,39 @@
+{
+  "ticker": "TSK",
+  "exchange": "TSX",
+
+  "management_score": 3,
+  "management_notes": "Talisker Resources management has executed the complex transformation from explorer to emerging gold producer at the historic Bralorne Gold Complex in southern British Columbia. First gold sales were achieved in August 2025 — less than five months after initiating underground mining at the Mustang Mine — demonstrating operational competency in an underground narrow-vein gold environment. The company is simultaneously planning a second mine (Olympus) and completed a substantial C$52.1M bought-deal financing in March 2026, reflecting institutional confidence. However, narrow-vein high-grade underground mining is operationally demanding, and Talisker has not yet published a production track record that demonstrates unit cost control. The 2023 share consolidation (5:1) and subsequent dilutive financings indicate a history of capital-intensive growth. Management score reflects genuine execution progress tempered by the challenges ahead in scaling a narrow-vein operation.",
+
+  "geology_score": 3,
+  "geology_notes": "Bralorne Gold Complex is a historic high-grade gold district with over 100 years of production history. January 2023 inaugural NI 43-101 MRE: Indicated 117,000 t at 8.9 g/t Au for 33,000 oz; Inferred 8.0 Mt at 6.3 g/t Au for 1.63 Moz Au. The Inferred category dominates — only 33,000 oz are Indicated, meaning 98% of the resource base is in the lowest confidence category. A resource update incorporating 138 additional drill holes and 2025 mining depletion is expected Q2 2026, which could convert Inferred to Indicated. The 2025 Bralorne West and Mustang underground drill results are exceptional: 52.2 g/t Au over 0.55m within 19.15 g/t over 1.60m; 99.6 g/t Au over 0.5m within 26.48 g/t over 2.0m — characteristic of the district's extreme high-grade, narrow-vein style. Grade is excellent; scale and continuity at mineable widths remain the questions the Q2 2026 MRE will begin to answer.",
+
+  "capital_score": 3,
+  "capital_notes": "As of April 2026: approximately 177.7-178.7M shares outstanding (post-March 2026 C$52.1M bought-deal financing of 26,000,000 units at C$2.00/unit). The March 2026 financing includes a warrant component — 26,625,000 warrants from the units plus over-allotment (likely at C$2.50+ per warrant), details confirmed in Q4 2025 MD&A on SEDAR+. The 2023 share consolidation (384.9M pre-consolidation → 77.0M post) dramatically reset the share count, but subsequent equity financings have grown the count to approximately 178M. The C$52.1M 2026 financing provides substantial treasury for the Mustang production ramp, Olympus development, and 2026 Bralorne West exploration. Warrant overhang from the March 2026 financing adds approximately 26.6M diluted shares.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "Key catalysts: (1) Mustang Mine production ramp-up — quarterly production results will establish operating cost credibility and set analyst estimates; (2) Q2 2026 resource update incorporating 138 additional drill holes — could materially increase the Indicated resource and trigger a re-rating; (3) Olympus Mine development commencement — the second mine would signal the company is building a multi-mine gold district rather than a single-mine story; (4) 105,000m 2026 drill program across Bralorne West and underground resource conversion; (5) gold price at US$3,000+ dramatically improves the economics of high-grade underground BC gold. The news flow cadence from multiple programs is dense.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "The Bralorne Gold Complex is one of the few underdeveloped historic gold districts in BC with established underground infrastructure. At 1.63 Moz Inferred @ 6.3 g/t Au, the resource density justifies investment. However, the Inferred classification and narrow-vein geometry make traditional resource acquisition multiples ($/oz) less applicable — buyers pay for defined, mineable resources, not Inferred ounces. The expected Q2 2026 MRE update and ongoing production track record are prerequisites for a serious acquisition valuation. Pan American Silver and Agnico Eagle operate in BC; both could find strategic value in a high-grade BC gold district. The March 2026 C$52.1M financing at C$2.00/unit implies a market cap that is acceptable for the risk profile.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Talisker Resources has made genuine progress transitioning Bralorne from a historic gold district into an emerging producer — first gold sales in August 2025, a major C$52.1M 2026 financing, and a 105,000m drill program underway. The high-grade underground geology (1.63 Moz @ 6.3 g/t Inferred) is compelling on grade, but 98% of the resource remains in the Inferred category. The Q2 2026 resource update incorporating 138 additional drill holes is the single most important near-term catalyst — a substantial conversion to Indicated would fundamentally change the investment thesis. Watch for the Q2 2026 MRE and the first quarterly production cost data from Mustang Mine before upgrading to BUY.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "117,000 t at 8.9 g/t Au for 33,000 oz Au — Jan 2023 inaugural NI 43-101 (update expected Q2 2026)",
+  "resource_inferred": "8.0 Mt at 6.3 g/t Au for 1.63 Moz Au — Jan 2023 inaugural NI 43-101 (update expected Q2 2026)",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 178710000,
+  "shares_fully_diluted": null,
+
+  "share_instruments": [
+    {"type": "warrant", "count": 26625000, "strike_price": null, "expiry": null, "notes": "March 2026 bought-deal: 26,000,000 units at C$2.00 plus partial over-allotment; strike price and exact expiry require SEDAR+ MD&A"}
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "ticker": "XGC",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "Xali Gold Corp. management has spent several years attempting to monetize the El Oro historic mining district in Mexico, including the El Oro tailings (transferred to Kappes, Cassiday & Associates in November 2025) and the underlying El Oro concessions. The Sarape project option was terminated in September 2025. The portfolio continues to evolve — management is now advancing the Pico Machay underground gold project in Peru (April 2026 sampling program announced). The pattern of asset disposals and option terminations, combined with the pivot to Peru, suggests a management team that has not found a compelling path to value creation from the El Oro district and is pivoting strategy mid-course. This creates strategic uncertainty. No significant insider ownership data available in public disclosures reviewed.",
+
+  "geology_score": 2,
+  "geology_notes": "The El Oro tailings (119,900 oz Au + 3,061,200 oz Ag Inferred, 1.27 Mt @ 2.94 g/t Au) have been transferred to Kappes, Cassiday & Associates in November 2025 — Xali retained a 3% NSR on gold and silver extracted above 2,400m elevation on five El Oro concessions. The bulk of the defined resource has been transferred away. The residual El Oro exploration upside (below 2,400m elevation on retained concessions) is unquantified and at greenfield exploration stage. Pico Machay (Peru) is described as an underground sampling program as of April 2026 — no published resource estimate or technical report for this asset. The portfolio currently has no NI 43-101 compliant resource estimate under Xali's control for the primary retained assets.",
+
+  "capital_score": 3,
+  "capital_notes": "As of approximately February 2026: 142,420,000-143,000,000 shares outstanding. The share count is reasonable for a junior explorer and the capital structure does not appear excessively diluted. However, the company has not disclosed warrant or option details in press releases reviewed — full capital structure requires SEDAR+ MD&A review. At a relatively modest share count, future exploration financing should be achievable without catastrophic dilution. The key question is whether the company has sufficient treasury to advance two exploration programs (El Oro below 2400m + Pico Machay Peru) simultaneously.",
+
+  "catalyst_score": 2,
+  "catalyst_notes": "Near-term catalysts: (1) Pico Machay underground and surface sampling results from the April 2026 program — if high-grade gold mineralization is confirmed at Pico Machay, this could be a re-rating event; (2) any news on the El Oro below-2400m exploration program; (3) NSR payments from El Oro tailings processing by Kappes, Cassiday if gold and silver extraction proceeds. However, none of these are near-term, high-probability catalysts — they are all early-stage and uncertain. The strategic pivot to Peru adds a new jurisdiction without demonstrated metallurgical or geological advantage.",
+
+  "acquisition_score": 1,
+  "acquisition_notes": "The El Oro retained concessions (below 2400m) and Pico Machay are both pre-resource exploration assets with no published technical reports under Xali's control. P/NAV analysis cannot be performed. The 3% NSR on El Oro tailings provides a small royalty stream, but tailings processing economics at 78% Au recovery and 86% Ag recovery on 119,900 oz Au and 3.06 Moz Ag is modest. No acquirer has expressed interest in Xali's portfolio. Acquisition value cannot be established without resource estimates on the retained properties.",
+
+  "verdict": "AVOID",
+  "analyst_summary": "Xali Gold has effectively divested its primary defined resource (El Oro tailings to Kappes Cassiday) and is now a pre-resource explorer in Mexico (El Oro below 2400m) and Peru (Pico Machay). The El Oro historic mining district is a real geological address, but Xali's retained interest is unquantified. The pivot to Pico Machay in Peru adds a new jurisdiction risk. With no NI 43-101 resource under its control, no defined development path, and a management team that has been restructuring the portfolio for years without establishing a flagship asset, the risk-reward is unattractive. Avoid until a compelling exploration result defines a new resource that can anchor a revised investment thesis.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 143000000,
+  "shares_fully_diluted": null,
+
+  "share_instruments": []
+}

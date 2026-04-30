@@ -1,0 +1,41 @@
+{
+  "ticker": "MAXX",
+  "exchange": "CSE",
+
+  "management_score": 3,
+  "management_notes": "MAX Power Mining is a first-mover in Canadian natural hydrogen exploration, led by an experienced team that moved quickly to secure approximately 1.3 million acres (521,000 hectares) of permits in Saskatchewan. The company successfully drilled Canada's first confirmed subsurface natural hydrogen system at the Lawson well near Central Butte in early 2026, followed by a second Bracken well demonstrating multi-zone hydrogen and helium intervals. Execution credit for securing the land package and early confirmation of hydrogen presence is real. However, the management team lacks a track record of taking a natural hydrogen project through to commercial production — this is genuinely uncharted territory in Canada. Insider ownership details are not publicly prominent in press releases.",
+
+  "geology_score": 2,
+  "geology_notes": "The Lawson well confirmed Canada's first subsurface natural hydrogen system; the Bracken well added multi-zone hydrogen and helium intervals at depth. These are meaningful technical milestones. However, this is true exploration stage: there is no NI 43-101 compliant resource estimate, no commercial flow rates established, and no published reservoir characterization sufficient to determine commercial viability. Natural hydrogen geology is poorly understood globally — unlike oil and gas, there are no established resource evaluation frameworks in Canada. The Saskatchewan basin setting is geologically plausible for abiotic hydrogen generation, but the company remains at test-of-concept stage.",
+
+  "capital_score": 3,
+  "capital_notes": "As of March 20, 2026: 142,813,186 shares issued and outstanding; total fully diluted count 206,036,262 (warrants 41,522,242; stock options 12,877,500; RSUs 8,823,334). Warrant overhang is approximately 29% of basic shares — elevated but not extreme for a CSE junior. Options add a further 9%. Known financing tranches: 2,000,000 warrants at C$0.25 with 3-year expiry from June 2025 strategic alliance agreement; July 2025 private placement units at C$0.22 included warrants at C$0.29 with 24-month expiry. Full per-tranche breakdown requires SEDAR+ MD&A review. No material debt disclosed.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Near-term catalysts: (1) extended flow-testing and reservoir characterization at Bracken, which showed multi-zone hydrogen and helium intervals; (2) any confirmed commercial flow rate or third-party reservoir assessment at Lawson; (3) sector re-rating if any global peer advances toward commercial natural hydrogen production. The company's first-mover Saskatchewan position means any positive technical result could be a meaningful stock catalyst. Timeline to commercial relevance is long and uncertain — no PEA or production decision is imminent.",
+
+  "acquisition_score": 1,
+  "acquisition_notes": "No comparable M&A transactions exist for natural hydrogen exploration assets in Canada. No resource estimate exists and no established methodology to value a natural hydrogen resource under NI 43-101 frameworks. P/NAV analysis cannot be performed. Strategic interest from energy majors is theoretically possible given the first-mover narrative, but no precedent deals exist to benchmark valuation. Until commercial flow rates and a formal resource model are established, acquisition metrics cannot be meaningfully applied.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "MAX Power Mining holds a genuinely unique position as Canada's first confirmed natural hydrogen explorer with 1.3 million acres of Saskatchewan permits. The Lawson well confirmation and Bracken multi-zone result are real technical achievements that demonstrate hydrogen is present. However, the company is at pure test-of-concept stage with no resource estimate, no commercial flow rates, and no established regulatory or commercial framework for natural hydrogen in Canada. The valuation is speculative and driven entirely by narrative. Inflection points that would change the risk profile: confirmed commercial flow rates at Bracken and any third-party reservoir assessment supporting a preliminary resource model. Until then, this is a high-risk, early-stage bet on an emerging commodity with genuine optionality.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 142813186,
+  "shares_fully_diluted": 206036262,
+
+  "share_instruments": [
+    {"type": "warrant", "count": 2000000, "strike_price": 0.25, "expiry": "2028-06-30", "notes": "Strategic alliance agreement June 2025, 3-year expiry"},
+    {"type": "warrant", "count": 39522242, "strike_price": 0.29, "expiry": "2027-07-31", "notes": "Remaining warrant balance — primarily July 2025 placement units at $0.22 with $0.29 warrants; full tranche breakdown requires SEDAR+ MD&A"},
+    {"type": "option", "count": 12877500, "strike_price": null, "expiry": null, "notes": "Stock options outstanding — strike prices and expiries require SEDAR+ MD&A"}
+  ]
+}
