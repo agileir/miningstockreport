@@ -82,8 +82,9 @@ a:hover .card {
 /* Progress bars */
 .progress { border-radius: 4px; }
 
-/* Table */
-.table-dark { --bs-table-bg: var(--msr-card); }
+/* Table — transparent so it inherits the parent (usually a card body),
+   ensuring no two-tone effect when nested inside .card / .bg-dark. */
+.table-dark { --bs-table-bg: transparent; }
 .table-dark.table-hover > tbody > tr:hover > * {
   background-color: rgba(255, 193, 7, 0.05);
 }
