@@ -20,7 +20,7 @@ coverage is filled in, run the same logic for WATCH if desired.
 from django.core.management.base import BaseCommand
 from django.db.models import OuterRef, Subquery
 
-from apps.verdict.models import Company, VerdictChoice, VerdictScorecard
+from apps.verdict.models import Company, CompanyTier, VerdictChoice, VerdictScorecard
 
 
 class Command(BaseCommand):
@@ -34,6 +34,10 @@ class Command(BaseCommand):
         parser.add_argument(
             "--dry-run", action="store_true",
             help="Print what would be flagged without saving.",
+        )
+        parser.add_argument(
+            "--juniors-only", action="store_true",
+            help="Restrict to tier=junior (covers explorers and developers; excludes mid-tier and major producers).",
         )
 
     def handle(self, *args, **options):
@@ -56,6 +60,9 @@ class Command(BaseCommand):
             )
             .order_by("ticker")
         )
+
+        if options["juniors_only"]:
+            candidates = candidates.filter(tier=CompanyTier.JUNIOR)
 
         if options["limit"]:
             candidates = candidates[: options["limit"]]
