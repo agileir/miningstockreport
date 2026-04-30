@@ -97,6 +97,28 @@ One object per tranche. Group warrants/options by strike + expiry — don't bund
 
 ---
 
+## Cap-table priority on re-research runs
+
+When a company is flagged for re-research (existing scorecard, `needs_research=True`),
+**the cap-table fields are the primary objective**, not the factor scores. The site has
+a Cap Table & Overhang Analysis section that only renders when these fields are
+populated, and roughly nothing in the existing catalogue has them filled.
+
+For re-research jobs, treat these as required-with-best-effort:
+- `shares_issued_outstanding` — pull from the most recent MD&A or NI 51-102 quarterly filing.
+- `shares_fully_diluted` — same source. If the filing reports it, use it; if not, compute from `shares_issued_outstanding + sum of warrant/option counts`.
+- `share_instruments[]` — pull from the share-structure table in the latest MD&A or AIF. Most Canadian juniors include this in MD&A Note 7 or 8 (share capital). Group by strike + expiry. Don't bundle different strikes.
+
+"Optional" in the field reference below means "use `null` / `[]` if you genuinely cannot
+find the data after consulting MD&A and AIF" — not "skip if it requires effort." For
+re-research runs specifically, returning `null` for cap-table fields when the data IS
+in the filings is the failure mode this re-research is trying to fix.
+
+The factor scores can stay close to the prior scorecard's values unless underlying
+facts have changed. The point of the re-research is the cap-table fill-in.
+
+---
+
 ## Behaviour notes
 
 - All new fields are **optional**. The processor accepts old-format JSON without them — it just won't fill the new sidebar panels.
