@@ -106,6 +106,7 @@ class ScorecardDetailView(DetailView):
             {"label": "Catalyst Proximity",           "score": sc.catalyst_score,   "notes": sc.catalyst_notes},
             {"label": "Comparable Acquisition Value", "score": sc.acquisition_score,"notes": sc.acquisition_notes},
         ]
+        ctx["cap_table"] = sc.cap_table_analysis
         return ctx
 
 

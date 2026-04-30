@@ -131,6 +131,176 @@
         </div>
       </div>
 
+      {% if cap_table %}
+      {% with cur=scorecard.company.exchange %}
+      <div class="card bg-dark border-secondary mt-4">
+        <div class="card-header border-secondary d-flex justify-content-between align-items-center">
+          <span class="text-white fw-bold small text-uppercase"><i class="bi bi-diagram-3 text-warning me-2"></i>Cap Table &amp; Overhang Analysis</span>
+          <span class="text-secondary small">at {% if cur == 'TSX' or cur == 'TSXV' %}C{% elif cur == 'ASX' %}A{% elif cur == 'LSE' %}&pound;{% else %}US{% endif %}${{ cap_table.current_price|floatformat:4 }}</span>
+        </div>
+        <div class="card-body">
+
+          {# ── Headline strip ── #}
+          <div class="row g-3 text-center mb-4">
+            <div class="col-6 col-md-3">
+              <div class="text-secondary small text-uppercase" style="font-size:.7rem;">Basic Shares</div>
+              <div class="text-white fw-bold fs-5">{{ cap_table.basic|intcomma }}</div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="text-secondary small text-uppercase" style="font-size:.7rem;">TSM Diluted (at scoring)</div>
+              <div class="text-white fw-bold fs-5">{{ cap_table.headline.tsm_diluted|intcomma }}</div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="text-secondary small text-uppercase" style="font-size:.7rem;">Net New Shares</div>
+              <div class="text-warning fw-bold fs-5">{{ cap_table.headline.net_new_shares|intcomma }}</div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="text-secondary small text-uppercase" style="font-size:.7rem;">Dilution %</div>
+              <div class="fw-bold fs-5
+                {% if cap_table.headline.dilution_pct >= 20 %}text-danger
+                {% elif cap_table.headline.dilution_pct >= 10 %}text-warning
+                {% else %}text-success{% endif %}">
+                {{ cap_table.headline.dilution_pct|floatformat:1 }}%
+              </div>
+            </div>
+          </div>
+
+          {# ── Cap table stats grid ── #}
+          {% if cap_table.instruments_total %}
+          <div class="row g-2 small mb-4">
+            <div class="col-md-6">
+              <table class="table table-dark table-sm mb-0" style="font-size:.85rem;">
+                <tbody>
+                  {% if cap_table.warrants_total %}
+                  <tr>
+                    <td class="text-secondary border-secondary">Warrants outstanding</td>
+                    <td class="text-end text-white fw-bold border-secondary">{{ cap_table.warrants_total|intcomma }}</td>
+                  </tr>
+                  {% if cap_table.warrants_avg_strike %}
+                  <tr>
+                    <td class="text-secondary border-secondary">— weighted avg strike</td>
+                    <td class="text-end text-white border-secondary">{% if cur == 'TSX' or cur == 'TSXV' %}C{% elif cur == 'ASX' %}A{% elif cur == 'LSE' %}&pound;{% else %}US{% endif %}${{ cap_table.warrants_avg_strike|floatformat:2 }}</td>
+                  </tr>
+                  {% endif %}
+                  {% endif %}
+                  {% if cap_table.options_total %}
+                  <tr>
+                    <td class="text-secondary border-secondary">Options outstanding</td>
+                    <td class="text-end text-white fw-bold border-secondary">{{ cap_table.options_total|intcomma }}</td>
+                  </tr>
+                  {% if cap_table.options_avg_strike %}
+                  <tr>
+                    <td class="text-secondary border-secondary">— weighted avg strike</td>
+                    <td class="text-end text-white border-secondary">{% if cur == 'TSX' or cur == 'TSXV' %}C{% elif cur == 'ASX' %}A{% elif cur == 'LSE' %}&pound;{% else %}US{% endif %}${{ cap_table.options_avg_strike|floatformat:2 }}</td>
+                  </tr>
+                  {% endif %}
+                  {% endif %}
+                </tbody>
+              </table>
+            </div>
+            <div class="col-md-6">
+              <table class="table table-dark table-sm mb-0" style="font-size:.85rem;">
+                <tbody>
+                  <tr>
+                    <td class="text-secondary border-secondary">ITM at scoring price</td>
+                    <td class="text-end text-white fw-bold border-secondary">{{ cap_table.headline.itm_count|intcomma }}</td>
+                  </tr>
+                  <tr>
+                    <td class="text-secondary border-secondary">Cash from full ITM exercise</td>
+                    <td class="text-end text-white fw-bold border-secondary">{% if cur == 'TSX' or cur == 'TSXV' %}C{% elif cur == 'ASX' %}A{% elif cur == 'LSE' %}&pound;{% else %}US{% endif %}${{ cap_table.headline.itm_proceeds|floatformat:0|intcomma }}</td>
+                  </tr>
+                  {% if cap_table.near_expiry_count %}
+                  <tr>
+                    <td class="text-secondary border-secondary">Expiring within 12 months</td>
+                    <td class="text-end text-warning fw-bold border-secondary">{{ cap_table.near_expiry_count|intcomma }}</td>
+                  </tr>
+                  {% endif %}
+                  {% if cap_table.fully_diluted %}
+                  <tr>
+                    <td class="text-secondary border-secondary">Reported fully diluted</td>
+                    <td class="text-end text-white border-secondary">{{ cap_table.fully_diluted|intcomma }}</td>
+                  </tr>
+                  {% endif %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+          {% endif %}
+
+          {# ── Sensitivity table ── #}
+          <div class="text-white fw-bold small text-uppercase mb-2"><i class="bi bi-arrows-expand text-warning me-1"></i>Dilution Sensitivity</div>
+          <div class="table-responsive">
+            <table class="table table-dark table-sm align-middle mb-0" style="font-size:.85rem;">
+              <thead>
+                <tr class="text-secondary text-uppercase" style="font-size:.7rem;">
+                  <th class="border-secondary">Scenario</th>
+                  <th class="border-secondary text-end">Price</th>
+                  <th class="border-secondary text-end">ITM Count</th>
+                  <th class="border-secondary text-end">Net New</th>
+                  <th class="border-secondary text-end">TSM Diluted</th>
+                  <th class="border-secondary text-end">Dilution %</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for row in cap_table.sensitivity %}
+                <tr class="{% if row.multiplier == 1 %}border-warning{% endif %}">
+                  <td class="border-secondary text-secondary">
+                    {{ row.multiplier|floatformat:1 }}x{% if row.multiplier == 1 %} <span class="badge bg-warning text-dark ms-1" style="font-size:.6rem;">scoring</span>{% endif %}
+                  </td>
+                  <td class="border-secondary text-end text-white">{% if cur == 'TSX' or cur == 'TSXV' %}C{% elif cur == 'ASX' %}A{% elif cur == 'LSE' %}&pound;{% else %}US{% endif %}${{ row.scenario_price|floatformat:4 }}</td>
+                  <td class="border-secondary text-end text-white">{{ row.itm_count|intcomma }}</td>
+                  <td class="border-secondary text-end text-warning">{{ row.net_new_shares|intcomma }}</td>
+                  <td class="border-secondary text-end text-white">{{ row.tsm_diluted|intcomma }}</td>
+                  <td class="border-secondary text-end fw-bold
+                    {% if row.dilution_pct >= 20 %}text-danger
+                    {% elif row.dilution_pct >= 10 %}text-warning
+                    {% else %}text-success{% endif %}">
+                    {{ row.dilution_pct|floatformat:1 }}%
+                  </td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+
+          {% if cap_table.near_expiry_tranches %}
+          <div class="mt-4">
+            <div class="text-white fw-bold small text-uppercase mb-2"><i class="bi bi-hourglass-split text-warning me-1"></i>Tranches Expiring Within 12 Months</div>
+            <table class="table table-dark table-sm mb-0" style="font-size:.8rem;">
+              <thead>
+                <tr class="text-secondary text-uppercase" style="font-size:.65rem;">
+                  <th class="border-secondary">Type</th>
+                  <th class="border-secondary text-end">Count</th>
+                  <th class="border-secondary text-end">Strike</th>
+                  <th class="border-secondary text-end">Expiry</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for inst in cap_table.near_expiry_tranches %}
+                <tr>
+                  <td class="border-secondary text-white text-capitalize">{{ inst.get_type_display }}</td>
+                  <td class="border-secondary text-end text-white">{{ inst.count|intcomma }}</td>
+                  <td class="border-secondary text-end text-white">{% if inst.strike_price %}{% if cur == 'TSX' or cur == 'TSXV' %}C{% elif cur == 'ASX' %}A{% elif cur == 'LSE' %}&pound;{% else %}US{% endif %}${{ inst.strike_price|floatformat:2 }}{% else %}<span class="text-secondary">&mdash;</span>{% endif %}</td>
+                  <td class="border-secondary text-end text-warning">{{ inst.expiry|date:"M Y" }}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+          {% endif %}
+
+          <p class="text-secondary mb-0 mt-3" style="font-size:.7rem;">
+            Treasury Stock Method: at each scenario price, in-the-money warrants and options are
+            assumed exercised, with proceeds applied to repurchase shares at that same price. Net
+            new shares = ITM count minus repurchased shares. Dilution % is net new shares as a
+            percent of basic. Near-expiry threshold is 12 months from the scoring date.
+          </p>
+
+        </div>
+      </div>
+      {% endwith %}
+      {% endif %}
+
     </div>
 
     <div class="col-lg-4">

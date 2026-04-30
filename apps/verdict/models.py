@@ -197,6 +197,101 @@ class VerdictScorecard(SEOMixin, models.Model):
             self.p_nav_multiple = self.current_price / self.nav_per_share
         super().save(*args, **kwargs)
 
+    @property
+    def cap_table_analysis(self):
+        """
+        Computes overhang analysis using the Treasury Stock Method (TSM):
+          net new shares = ITM tranche count - (ITM proceeds / scenario price)
+          dilution %     = net new shares / basic shares
+
+        Anchors on `current_price` (the price at scoring date) so the analysis
+        stays consistent with how the company looked at scoring time.
+
+        Returns None if the scorecard lacks the basic inputs (basic shares
+        and current_price). Tranches without a strike price are listed in the
+        cap-table breakdown but excluded from ITM and sensitivity math.
+        """
+        from datetime import timedelta
+        from decimal import Decimal
+
+        basic = self.shares_issued_outstanding
+        price = self.current_price
+        if not basic or not price or price <= 0:
+            return None
+
+        instruments = list(self.share_instruments.all())
+        warrants = [i for i in instruments if i.type == ShareInstrumentType.WARRANT]
+        options  = [i for i in instruments if i.type == ShareInstrumentType.OPTION]
+
+        warrants_total = sum(w.count for w in warrants)
+        options_total  = sum(o.count for o in options)
+        instruments_total = warrants_total + options_total
+
+        priced = [i for i in instruments if i.strike_price is not None]
+
+        def _tsm(scenario_price):
+            """Treasury stock method at a given price. Returns dict."""
+            itm = [i for i in priced if i.strike_price < scenario_price]
+            itm_count    = sum(i.count for i in itm)
+            itm_proceeds = sum(Decimal(i.count) * i.strike_price for i in itm)
+            buyback = (itm_proceeds / scenario_price) if scenario_price > 0 else Decimal(0)
+            net_new = max(Decimal(itm_count) - buyback, Decimal(0))
+            diluted = Decimal(basic) + net_new
+            dilution_pct = (net_new / Decimal(basic) * Decimal(100)) if basic else Decimal(0)
+            return {
+                "scenario_price": scenario_price,
+                "itm_count":      int(itm_count),
+                "itm_proceeds":   itm_proceeds,
+                "net_new_shares": int(net_new),
+                "tsm_diluted":    int(diluted),
+                "dilution_pct":   dilution_pct,
+            }
+
+        # Weighted-average strike, by type and overall (priced tranches only)
+        def _wavg(items):
+            total_count = sum(i.count for i in items)
+            if not total_count:
+                return None
+            weighted = sum(Decimal(i.count) * i.strike_price for i in items)
+            return weighted / Decimal(total_count)
+
+        warrants_priced = [w for w in warrants if w.strike_price is not None]
+        options_priced  = [o for o in options  if o.strike_price is not None]
+
+        # Near-expiry: tranches expiring within 12 months of the scoring date
+        near_expiry_cutoff = self.scored_at.date() + timedelta(days=365)
+        near_expiry = [
+            i for i in instruments
+            if i.expiry and self.scored_at.date() <= i.expiry <= near_expiry_cutoff
+        ]
+        near_expiry.sort(key=lambda i: i.expiry)
+        near_expiry_count = sum(i.count for i in near_expiry)
+
+        # Sensitivity at fixed multipliers of scoring price
+        multipliers = [Decimal("0.5"), Decimal("1.0"), Decimal("1.5"), Decimal("2.0"), Decimal("3.0")]
+        sensitivity = [_tsm(price * m) for m in multipliers]
+        for row, m in zip(sensitivity, multipliers):
+            row["multiplier"] = m
+
+        # Headline at scoring price
+        headline = _tsm(price)
+
+        return {
+            "basic":             int(basic),
+            "fully_diluted":     int(self.shares_fully_diluted) if self.shares_fully_diluted else None,
+            "current_price":     price,
+            "warrants_total":    int(warrants_total),
+            "options_total":     int(options_total),
+            "instruments_total": int(instruments_total),
+            "warrants_avg_strike": _wavg(warrants_priced),
+            "options_avg_strike":  _wavg(options_priced),
+            "all_avg_strike":      _wavg(warrants_priced + options_priced),
+            "near_expiry_tranches": near_expiry,
+            "near_expiry_count":    int(near_expiry_count),
+            "headline":             headline,
+            "sensitivity":          sensitivity,
+        }
+
 
 class ShareInstrumentType(models.TextChoices):
     WARRANT = "warrant", "Warrant"
