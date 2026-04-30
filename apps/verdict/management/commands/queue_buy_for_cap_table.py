@@ -46,12 +46,12 @@ class Command(BaseCommand):
         candidates = (
             Company.objects
             .annotate(
-                latest_verdict=Subquery(latest_scorecard.values("verdict")[:1]),
-                latest_basic=Subquery(latest_scorecard.values("shares_issued_outstanding")[:1]),
+                _latest_verdict=Subquery(latest_scorecard.values("verdict")[:1]),
+                _latest_basic=Subquery(latest_scorecard.values("shares_issued_outstanding")[:1]),
             )
             .filter(
-                latest_verdict=VerdictChoice.BUY,
-                latest_basic__isnull=True,
+                _latest_verdict=VerdictChoice.BUY,
+                _latest_basic__isnull=True,
                 needs_research=False,
             )
             .order_by("ticker")
