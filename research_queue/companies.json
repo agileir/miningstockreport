@@ -1,0 +1,50 @@
+[
+  {
+    "ticker": "ABI",
+    "name": "Abcourt Mines Inc.",
+    "exchange": "TSXV",
+    "website": "https://abcourt.info",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Quebec"
+  },
+  {
+    "ticker": "ADDY",
+    "name": "Adelayde Exploration Inc.",
+    "exchange": "OTHER",
+    "website": "https://adelaydeexp.com",
+    "primary_commodity": "Lithium",
+    "jurisdiction": "Nevada"
+  },
+  {
+    "ticker": "AAG",
+    "name": "Aftermath Silver Ltd.",
+    "exchange": "TSXV",
+    "website": "https://aftermathsilver.com",
+    "primary_commodity": "Silver",
+    "jurisdiction": "Peru"
+  },
+  {
+    "ticker": "AHR",
+    "name": "Amarc Resources Ltd.",
+    "exchange": "TSXV",
+    "website": "https://amarcresources.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "British Columbia"
+  },
+  {
+    "ticker": "ACDX",
+    "name": "American Copper Development Corp.",
+    "exchange": "OTHER",
+    "website": "https://american-copper.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "New Mexico"
+  },
+  {
+    "ticker": "AFX",
+    "name": "Arctic Fox Lithium Corp.",
+    "exchange": "OTHER",
+    "website": "https://www.arcticfoxlithium.com",
+    "primary_commodity": "Lithium",
+    "jurisdiction": "Quebec"
+  }
+]
