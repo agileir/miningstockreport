@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "DIRTY GOLD: Canadian Mint Suspends Colombian Refining After NYT Links Supply to Drug Cartel",
+    "url": "https://www.mining.com/colombia-cartel-ties-taint-canadian-mint-gold/",
+    "source_name": "Mining.com",
+    "category_slug": "gold-silver",
+    "snippet": "Canada's Royal Canadian Mint has suspended refining operations linked to a Colombian supply chain tied to the Clan del Golfo drug cartel, following a New York Times investigation. A Texas intermediary was blending Colombian cartel gold with US gold before shipping to the Mint, which processed over five million ounces in 2025.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "COST SHOCK: South32's Arizona Copper Project Blows Out 50%+ to $3.3B, Stock Drops 5%",
+    "url": "https://www.mining.com/south32-shocks-market-with-arizona-cost-blowout/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "South32's Hermosa zinc-silver project in Arizona saw capital costs surge more than 50% to $3.3 billion from a $2.2 billion 2024 feasibility estimate, with first production pushed to late fiscal 2028. Management blamed contractor underperformance, US tariffs, and Middle East conflict cost pressures — the stock fell 5.4% on the news.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "RECORD QUARTER: Endeavour Mining Posts $880M EBITDA and $613M Free Cash Flow in Q1-2026",
+    "url": "https://www.globenewswire.com/news-release/2026/04/30/3284466/0/en/Endeavour-Reports-Strong-Q1-2026-Results.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "gold-silver",
+    "snippet": "West Africa gold producer Endeavour Mining reported record Q1-2026 adjusted EBITDA of $880 million and record free cash flow of $613 million — both up 29% quarter-over-quarter — while swinging from $158 million net debt to a $405 million net cash position. Shares jumped 7% on the result; the company reiterated full-year guidance with performance weighted to H2.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "RARE NEGATIVE: Arizona Metals Kay Mine PEA Posts -$6M NPV at Base Case, Stock Crashes 46%",
+    "url": "https://www.mining.com/arizona-metals-tanks-on-rare-negative-value-pea-for-kay-copper-zinc-mine/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "Arizona Metals' preliminary economic assessment for its Kay copper-zinc project returned a post-tax NPV of negative $6 million at base-case prices, a rare outcome that sent shares plunging 46% to a six-year low of C$0.29. At current spot metals, NPV improves to $445 million — but the $731 million capital requirement and permitting hurdles remain the core challenge.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "BARRICK SPLITS: Nevada Gold Mines and Pueblo Viejo Headed for Separate NYSE/TSX Listing by Year-End",
+    "url": "https://www.globenewswire.com/news-release/2026/04/28/3282351/0/en/Barrick-Advances-IPO-of-North-American-Gold-Assets-Announces-Executive-Appointments.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Barrick Mining is advancing an IPO of its North American gold assets — Carlin, Cortez, Turquoise Ridge (Nevada Gold Mines) and Pueblo Viejo — as a standalone entity targeting a dual NYSE/TSX listing by end-2026, with a new executive team confirmed. The unit produced roughly 2 million ounces in 2025; Barrick will retain a controlling stake after the minority float.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "LITHIUM REVIVAL: Core Lithium Begins Ore Extraction at Finniss After $205M Glencore-Backed Restart",
+    "url": "https://www.australianmining.com.au/core-lithium-strikes-glencore-deal-to-boost-finniss-restart",
+    "source_name": "Australian Mining",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Core Lithium has mobilized equipment for ore extraction at its Finniss lithium mine in Australia's Northern Territory, with mining now underway and first spodumene concentrate shipments targeted for Q4 2026. The $205 million restart package — including a Glencore convertible note — signals returning producer confidence in lithium after the 2024-2025 price collapse.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ATHABASCA PLAY: Traction Uranium Outlines Drill and Airborne Survey Program at Aurora, Saskatchewan",
+    "url": "https://www.globenewswire.com/news-release/2026/04/30/3284794/0/en/Traction-Uranium-Outlines-2026-Exploration-Roadmap-for-the-Aurora-Uranium-Project-Saskatchewan.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "uranium-energy",
+    "snippet": "Traction Uranium (CSE: TRAC) outlined its 2026 exploration roadmap for the Aurora Uranium Project, 16 km east of the Key Lake uranium mill in Saskatchewan's southeastern Athabasca Basin. The staged program begins with a property-wide airborne radiometric survey to identify near-surface targets before advancing to diamond drilling and radiometric prospecting later this year.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD MACHINE: Alamos Q1 Revenue Jumps 79% to $597M as Island Gold Expansion Stays on Track",
+    "url": "https://www.globenewswire.com/news-release/2026/04/29/3284339/0/en/Alamos-Gold-Reports-First-Quarter-2026-Results.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "gold-silver",
+    "snippet": "Alamos Gold reported Q1-2026 revenue of $596.7 million, up 79% year-over-year on higher production and record gold prices, reiterating the $12.2 billion NPV Island Gold District expansion targeting 534,000 oz/year from 2028. The intermediate producer is one of the clearest operating leverage plays on sustained high gold prices in the Canadian sector.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "WORLD BANK CONTRARIAN: Gold and Silver May Have Already Priced In Peak Geopolitical Risk",
+    "url": "https://www.kitco.com/news/article/2026-04-28/world-bank-sees-ceiling-above-gold-and-silver-prices-through-2026-amid",
+    "source_name": "Kitco News",
+    "category_slug": "opinion-analysis",
+    "snippet": "The World Bank issued a cautionary note arguing that current gold and silver prices reflect maximum geopolitical risk premiums — premiums that could rapidly unwind if tensions de-escalate. The bank sees a ceiling on precious metals through 2026, a contrarian view against the dominant $5,000+ gold price consensus on Bay Street and Wall Street.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CANADA FUND: Ottawa Backs $25B Sovereign Wealth Vehicle to Fast-Track Mining and Infrastructure",
+    "url": "https://magazine.cim.org/en/news/2026/weekly-mining-news-recap-may-1/",
+    "source_name": "CIM Magazine",
+    "category_slug": "market-macro",
+    "snippet": "Canada's federal government announced the Canada Strong Fund, a $25 billion sovereign wealth vehicle targeting infrastructure, energy, mining, and advanced manufacturing over three years. The fund is expected to accelerate several stalled major resource projects and strengthen Canada's competitive position in the global critical minerals race.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
