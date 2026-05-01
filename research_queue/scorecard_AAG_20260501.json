@@ -1,0 +1,42 @@
+{
+  "ticker": "AAG",
+  "exchange": "TSXV",
+
+  "management_score": 4,
+  "management_notes": "CEO Ralph Rushton (BSc Geology Portsmouth, MSc Economic Geology U of Alberta; prior Anglo American and Rio Tinto) has led the company since September 2019 and systematically advanced Berenguela from an option agreement to a 122+ Moz Ag M+I resource and active PFS. The February 2026 addition of Danny Keating as COO (30 years mine development/processing, former CEO Giyani Metals, senior roles at Alufer and Lindian Resources) is a strong operational hire. Technical Director Michael Parker provides geological continuity. Most critically, Eric Sprott (2176423 Ontario Ltd.) holds ~24–25% of basic shares and has backed multiple successive financings at increasing prices — the strongest possible anchor signal. Management plus Sprott plus named strategic investors = approximately 30–33% effective insider/strategic ownership. Modest deduction: management excluding Sprott holds only ~3%, and the CEO directs three TSXV companies simultaneously.",
+
+  "geology_score": 4,
+  "geology_notes": "Berenguela Silver-Copper-Manganese Project (Department of Puno, Peru): NI 43-101 resource effective November 30, 2025 (filed January 16, 2026, BBA International). 439 drill holes total, 82 new holes in 2024–2025 with 95% intersecting mineralization. M+I: 51.55 Mt containing 122.5 Moz Ag, 717.1 Mlb Cu, 2.93 Mt Mn. Measured subset: 8.49 Mt @ 101 g/t Ag, 0.89% Cu, 8.97% Mn. Inferred: ~15 Mt, 22.0 Moz Ag, 118 Mlb Cu. Near-surface, open-pittable geometry. Phase 3 drill highlights: 48.5 m @ 438 g/t Ag + 2.22% Cu; 45.8 m @ 528 g/t Ag + 1.48% Cu; 70.0 m @ 230 g/t Ag + 1.81% Cu from surface. Copper and battery-grade manganese by-products could make this a genuinely low-cost silver producer. Deposit remains open to the west. Score reflects scale and open-pittable geometry; modest deduction for average Indicated grade (~74 g/t Ag bulk) and no formal reserve yet (pre-PFS).",
+
+  "capital_score": 3,
+  "capital_notes": "Basic share count at ~337.5M is elevated for a junior developer, reflecting years of exploration financing. Fully diluted ~375M is manageable. Key positives: the December 2025 C$20M financing was priced at C$0.90/share — a significant premium over the then-trading range — signalling institutional confidence; most earlier warrants (35c series, ~13M shares) expired or were exercised by May 2025; estimated cash ~C$30M with no debt after completing the final Berenguela acquisition payment ahead of schedule (November 2025); runway approximately 24–30 months through PFS completion. Key negative: the accumulated share count from 6+ years of exploration financing. Score 3: well-capitalized for development stage but not a clean structure.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "Catalyst pipeline is exceptionally rich through 2026–2027: (1) Multiple pending assay batches from expanded 90-hole Phase 3 drill program — first batch (March 25, 2026) hit exceptional grades; (2) Challacollo, Chile diamond core hole results pending (7–10 holes, commenced Dec 2025, assays overdue as of May 2026); (3) PFS underway with DRA Global (appointed February 19, 2026) — completion targeted approximately 12 months (early 2027); (4) Galiant Partners actively pursuing strategic/offtake discussions for battery-grade manganese with critical minerals end-users; (5) Silver at ~$70–78/oz provides a macro tailwind. The PFS in early 2027 is the single transformational catalyst. Near-term drill result batches provide active news flow.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "Market cap ~C$188M (April 2026 trough from ~C$415M February 2026 high) versus 144.5 Moz AgEq (M+I + Inferred, Ag only) = approximately C$1.30/oz in-ground. Adding copper credit (717 Mlb + 118 Mlb Cu at ~C$0.06/lb in-situ for developer stage) adds approximately C$0.16/fully diluted share. Battery-grade manganese upside is unquantified. Comparable pre-production silver developers at similar development stage (post-resource, pre-PFS) in Tier 2 jurisdictions typically trade at C$1.50–3.00/oz in-situ at $70+ silver. Rough back-of-envelope NAV estimate: ~C$0.80–1.50/FD share range using 10% discount rate, 80% mining recovery. Current price ~C$0.56 implies approximately 0.37–0.70x NAV — a genuine discount. No formal PEA or PFS exists yet; Peru jurisdiction adds a modest risk premium.",
+
+  "verdict": "BUY",
+  "analyst_summary": "Aftermath Silver (TSXV: AAG) is one of the most advanced junior silver developers in the Americas — a large, near-surface, open-pittable deposit with 122.5 Moz Ag M+I, meaningful copper and battery-grade manganese by-products, and a strategic anchor (Eric Sprott at ~25%) who has backed successive financings at rising prices. The December 2025 NI 43-101 resource update grew M+I tonnage 28% with 95% drill conversion success. Phase 3 drill results (opening batch March 2026) returned exceptional grades including 48.5 m @ 438 g/t Ag + 2.22% Cu. A PFS led by DRA Global is underway with a ~12-month timeline. Cash of approximately C$30M with no debt funds the company through PFS completion.\n\nThe stock pulled back from C$1.22 (February 2026) to ~C$0.56 (April 2026) on sector rotation, not company-specific deterioration. At these levels the stock appears to trade at approximately 0.37–0.70x estimated NAV in a $70+ silver environment — an attractive entry point for investors with a 12–18 month horizon targeting the PFS re-rating event. Key risks: Peru operational/permitting risk (manageable for established district), elevated basic share count (~337M), and the PFS economics remaining to be proven. BUY for investors who can hold to PFS completion.",
+  "confidence": "high",
+
+  "nav_per_share": 1.10,
+  "current_price": null,
+
+  "resource_measured": "8.49 Mt @ 101 g/t Ag, 0.89% Cu, 8.97% Mn, 0.32% Zn — Berenguela, Nov 2025 NI 43-101 (BBA International)",
+  "resource_indicated": "43.06 Mt @ ~74 g/t Ag, ~0.73% Cu — Berenguela, Nov 2025 NI 43-101 (M+I combined: 51.55 Mt, 122.5 Moz Ag, 717.1 Mlb Cu, 2.93 Mt Mn)",
+  "resource_inferred": "~15 Mt @ ~45 g/t Ag, ~0.37% Cu — 22.0 Moz Ag, 118 Mlb Cu, 0.47 Mt Mn — Berenguela, Nov 2025 NI 43-101",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 337540000,
+  "shares_fully_diluted": 375000000,
+
+  "share_instruments": [
+    {"type": "warrant", "count": 20253968, "strike_price": 0.45, "expiry": "2026-11-30", "notes": "Nov 2024 PP — Sprott anchor; ~18.25M remain per SEDI after 2M exercised and prior tranches expired"},
+    {"type": "warrant", "count": 9090000, "strike_price": 0.32, "expiry": "2026-04-30", "notes": "Apr 2026 tranche — at/near expiry as of research date"},
+    {"type": "option", "count": 15150000, "strike_price": 0.40, "expiry": null, "notes": "Stock options — range C$0.35–0.495 across tranches; 5-year terms from 2022–2025 grants"},
+    {"type": "option", "count": 2350000, "strike_price": null, "expiry": null, "notes": "RSUs — vest over time; directors, officers, employees"}
+  ]
+}

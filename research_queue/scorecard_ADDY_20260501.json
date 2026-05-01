@@ -1,0 +1,43 @@
+{
+  "ticker": "ADDY",
+  "exchange": "CSE",
+
+  "management_score": 2,
+  "management_notes": "CEO James Nelson has 19+ years public markets experience (finance/IR background since 2006), but limited technical mining or development track record. Two P.Geo. directors (Frank Bain — Nevada lithium focus, Greg Thomson) provide geological credibility. No insider ownership data disclosed publicly, a transparency negative. The company operated for 10+ years as Spearmint Resources without advancing any project to development stage; a brief Solana crypto pivot in late 2024 raises strategic focus concerns. The rebranding to Adelayde and critical-minerals positioning is cosmetically positive but unproven. Overall: capital markets experience without demonstrated value creation in mining.",
+
+  "geology_score": 2,
+  "geology_notes": "McGee Lithium Clay Deposit (Clayton Valley, NV) has a legitimate NI 43-101 resource (Stantec Consulting, June 2022): 320 Mt @ 803 ppm Li (1,369,000 t LCE indicated) and 157 Mt @ 865 ppm Li (723,000 t LCE inferred) for a total 2.09 Mt LCE. However, 803 ppm is low-to-moderate grade — well below Surge Battery Metals (3,010 ppm) and Century Lithium (1,129 ppm) in the same district. No feasibility work or updated resource in 3 years. Lithium clay processing faces substantial metallurgical and capex challenges at these grades. The January 2026 Clayton Valley deep basin brine JV (2,300 acres with Sienna Resources + Cruz Battery Metals) is strategically located adjacent to SLB and Pure Energy Minerals deposits but has no resource. Additional projects (Clayton Ridge gold, NB tungsten, NB antimony, Quebec gold) signal a prospect generator model without focus.",
+
+  "capital_score": 2,
+  "capital_notes": "A 10:1 share consolidation in June 2025 cleaned up an oversized structure but the company immediately re-diluted: from ~28.8M post-consolidation shares to ~70.9M by December 18, 2025 via three private placement tranches. Total warrants outstanding (~32.2M) represent ~45% of basic shares — the $0.075 series is near-at-the-money at C$0.070 current price. Three PP tranches in rapid succession (Oct 2025, Dec 2025 x2) raised ~C$2.03M. Historical annual burn ~C$245K but 2026 work programs (multiple active surveys, drill programs) likely 2–4x higher. Estimated post-PP cash: ~C$1.5–1.8M. No revenue, no royalties, no strategic partner funding. Positive: no debt, recently funded. Negative: serial dilution pattern, high overhang.",
+
+  "catalyst_score": 2,
+  "catalyst_notes": "Multiple active programs provide news flow potential: Sisson North tungsten aeromagnetic survey commenced April 27, 2026; George Lake South antimony operations commencing April 2026; Clayton Valley brine JV drill program announced (no timeline/budget yet); Perron-East gold next phase being planned. Most critically, Clayton Ridge gold drill results from the October 2025 funded program have not been released as of May 2026 — over 6 months after funding — suggesting delays or managed disappointment. Catalysts are spread across five-plus projects, diluting any single material event. No near-term resource updates or economic studies are expected for the flagship McGee lithium clay asset.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "McGee resource of ~2.09 Mt LCE at a deeply discounted exploration-stage lithium clay valuation (~C$10/t LCE in current market) implies rough resource NAV of ~C$24–25M vs. market cap ~C$5.3M (~0.28x P/NAV). Optically cheap. However, the discount is warranted: (1) lithium clay processing is capital-intensive and economically marginal at 803 ppm; (2) no feasibility work done in 3 years; (3) lithium prices remain depressed; (4) comparable Nevada clay explorers are similarly or more discounted; (5) no strategic acquirer interest visible; (6) capital required to develop any of these assets is far beyond current treasury. Paper resource NAV is not realizable value at this stage. The multiple project structure also prevents a clean acquisition thesis.",
+
+  "verdict": "AVOID",
+  "analyst_summary": "Adelayde Exploration (CSE: ADDY) is an early-stage Canadian junior with a portfolio anchored by the McGee Lithium Clay Deposit in Clayton Valley, Nevada (2.09 Mt LCE NI 43-101 resource, June 2022). The company rebranded from Spearmint Resources in June 2025, raised ~C$2.03M in late 2025, and has initiated multiple 2026 work programs across lithium clay, lithium brine (JV), gold, tungsten, and antimony projects. The January 2026 deep basin brine JV with Sienna Resources and Cruz Battery Metals is strategically interesting, placing Adelayde inside the productive Clayton Valley brine system.\n\nThe investment case is weak: McGee's 803 ppm grade is below the threshold where lithium clay economics become compelling; no technical work has advanced the asset since the 2022 NI 43-101; capital has been dispersed across six-plus projects with none near development; the share structure was reset via a 10:1 consolidation then immediately re-diluted back to 70M+ shares; and Clayton Ridge gold drill results remain conspicuously absent six months after funding. The stock appears cheap versus paper resource NAV (~0.28x) but the deep market discount correctly prices in the lack of development progress, weak lithium market, and serial dilution pattern. AVOID until lithium prices recover materially and the company demonstrates concrete development milestones on a single focused asset.",
+  "confidence": "low",
+
+  "nav_per_share": 0.25,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "1,369,000 t LCE @ 803 ppm Li (320 Mt) — McGee Clay, Clayton Valley NV, NI 43-101 June 2022",
+  "resource_inferred": "723,000 t LCE @ 865 ppm Li (157 Mt) — McGee Clay, Clayton Valley NV, NI 43-101 June 2022",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 70870936,
+  "shares_fully_diluted": 106250214,
+
+  "share_instruments": [
+    {"type": "warrant", "count": 9550000, "strike_price": 0.075, "expiry": "2030-10-31", "notes": "Oct 2025 PP — 19,100,000 units @ $0.05 (one share + one-half warrant)"},
+    {"type": "warrant", "count": 9675000, "strike_price": 0.20, "expiry": "2030-12-31", "notes": "Dec 2025 PP non-flow-through units @ $0.10"},
+    {"type": "warrant", "count": 8073078, "strike_price": 0.25, "expiry": "2027-12-31", "notes": "Dec 2025 PP flow-through units @ $0.13"},
+    {"type": "warrant", "count": 100000, "strike_price": 0.20, "expiry": "2030-12-31", "notes": "Dec 2025 PP final tranche NFT units @ $0.10"},
+    {"type": "option", "count": 1275000, "strike_price": 0.05, "expiry": null, "notes": "Director/officer/consultant options"}
+  ]
+}

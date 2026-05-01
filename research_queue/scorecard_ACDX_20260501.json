@@ -1,0 +1,40 @@
+{
+  "ticker": "ACDX",
+  "exchange": "CSE",
+
+  "management_score": 2,
+  "management_notes": "Two major board overhauls in 12 months is a serious red flag. The departure of Rick Van Nieuwenhuyse (resigned December 2024) — former CEO of Novagold, Trilogy Metals, and Contango Ore — removes the primary technical/geological credibility anchor for a porphyry copper project. New CEO Anthony Paterson (appointed October 2025) has a venture-building and capital-markets background, not porphyry geology. Interim Chairman Michael Murphy (founder Torex Gold, 15 years Merrill Lynch/DLJ/Credit Suisse) adds some credibility. Board members Jeremy Ross (25+ years capital markets) and Ali Pickett round out the team. QP Mark Osterberg P.Geo. provides technical sign-off. Company website claims insiders hold ~33% of shares; the August 2025 PP showed only ~5.6% insider participation. The management instability combined with 2+ years of exploration inactivity since the 2023 maiden drill program is a significant negative.",
+
+  "geology_score": 3,
+  "geology_notes": "Genuinely compelling geological setting: 7,046–7,554 hectares in the Lordsburg district, Hidalgo County, New Mexico — located at the intersection of the NE Santa Rita Lineament and NW Texas Lineament, the same regional structural corridor as Freeport's Tyrone (~70 km NE) and Santa Rita-Chino (~100 km NE). District historical production: 3–4 Mt from polymetallic veins averaging 2–3% Cu, 2–3 oz/t Ag; historical underground intercepts >4% Cu at depth. A 134-line-km Titan 160 DCIP/MT survey (Quantec Geoscience, 2022–2023) identified a classic district-scale porphyry signature to depths >700 m (DCIP) and >2 km (MT). The 2023 maiden drill program (6 holes, 4,662 m) confirmed a large-scale porphyry copper system with high-grade intercepts: best result AC23-006 = 44 m @ 1.00% CuEq (0.86% Cu, 10.55 g/t Ag, 0.1 g/t Au), including 3 m @ 11.35% CuEq. Score is 3 because the geology is real and the location is tier-1 US jurisdiction, but only 6 holes total with no resource estimate and zero follow-up drilling in over 2 years.",
+
+  "capital_score": 2,
+  "capital_notes": "Post 5:1 consolidation (February 2025) structure is cleaner at ~25.2M shares with ~5.4M warrants and an estimated ~1M legacy options. Fully diluted ~31.6M is reasonable for a porphyry explorer. However, cash of only approximately C$738K (latest reported, ~March 2026) is critically insufficient for a follow-up porphyry drill program, where individual holes cost C$300–500K+ each. The August 2025 PP raised only C$1.22M gross. A March 2026 debt settlement (C$350K obligation paid via 1.17M shares) shows the company is managing cash very carefully. No second financing has been announced as of May 2026. Without a new equity raise, the company cannot drill.",
+
+  "catalyst_score": 2,
+  "catalyst_notes": "No drill program announced. No resource estimate work underway. No pending assay results. The February 2026 DIBC (U.S. Defense Industrial Base Consortium) membership is a clever positioning move in the current US critical minerals environment but generates no near-term news flow or cash. The company appears to be in a strategic-reset phase under the new management team. The C$738K cash position makes a near-term drill program highly unlikely without a new financing. Potential catalysts exist — new PP announcement, drill program, resource estimate — but none are imminent as of May 2026.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "No NI 43-101 resource estimate exists, making a rigorous NAV calculation impossible. The company trades at approximately C$9.7M market cap with a drill-confirmed porphyry system but no defined resource. For reference, comparable porphyry copper juniors in the US Southwest with similarly thin drill databases but active programs and credible technical teams trade at C$15–50M+ market caps. ACDX's depressed valuation reflects the management instability and inactivity since 2023. Potential upside is real — the Lordsburg porphyry sits in a world-class district and the maiden drill results were legitimately high-grade — but the path to value realization requires a fresh technical team, a funded drill program, and a resource estimate. None of those are in sight. The geological discount to comparable early-stage porphyry projects is warranted given execution risk.",
+
+  "verdict": "AVOID",
+  "analyst_summary": "American Copper Development (CSE: ACDX) holds a drill-confirmed large-scale porphyry copper system in New Mexico's historic Lordsburg district, in the same structural corridor as Freeport's multi-billion-tonne Tyrone and Santa Rita-Chino operations. The 2023 maiden drill program (6 holes, 4,662 m) returned legitimately high-grade intercepts — best: 44 m @ 1.00% CuEq including 3 m @ 11.35% CuEq — validating the porphyry thesis established by a 134-line-km DCIP/MT survey. In isolation, the geology and location are compelling.\n\nHowever, the investment case is undermined by a cascade of structural problems: (1) Two major board overhauls in 12 months, most critically the loss of Rick Van Nieuwenhuyse — arguably the strongest porphyry copper geological credibility a junior could have; (2) Zero follow-up drilling since August 2023 — over two years of inactivity on a confirmed porphyry system; (3) Only C$738K cash, insufficient for a meaningful follow-up drill campaign without a new equity raise; (4) No NI 43-101 resource estimate or even a preliminary resource boundary estimate; (5) New management is capital-markets-oriented with no announced exploration work plan. AVOID until a credible technical team with porphyry expertise is installed, a funded drill program is announced, and the company demonstrates execution capacity.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 25152449,
+  "shares_fully_diluted": 31583212,
+
+  "share_instruments": [
+    {"type": "warrant", "count": 5405763, "strike_price": 0.30, "expiry": "2027-02-14", "notes": "Aug 2025 PP — 1-for-1 warrants, 18-month term from Aug 14, 2025 close"},
+    {"type": "option", "count": 1025000, "strike_price": null, "expiry": null, "notes": "Estimated post-5:1 consolidation legacy options; exact current count and strikes unconfirmed"}
+  ]
+}
