@@ -1,0 +1,101 @@
+[
+  {
+    "headline": "1,392 G/T SILVER VEIN: Americas Gold & Silver Hits Fourth Major New Discovery at Idaho's Galena Complex",
+    "url": "https://americas-gold.com/news-releases/2026/americas-gold-and-silver-announces-fourth-major-new-discovery-at-the-galena-complex-identifying-six-new-high-grade-silver/",
+    "source_name": "Americas Gold and Silver",
+    "category_slug": "exploration-discovery",
+    "snippet": "Americas Gold and Silver reported its fourth major high-grade discovery in one year of drilling at Idaho's Galena Complex, identifying six new silver-copper-antimony veins including 1,392 g/t Ag, 1.5% Cu and 1.5% Sb over 1.9m. The 43L-TJ Vein Complex sits just 25m from existing mine infrastructure.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "UP $85 IN ONE SESSION: Gold Climbs to $4,643 as Middle East Tensions and Fed Hold Fuel Safe-Haven Demand",
+    "url": "https://fortune.com/article/current-price-of-gold-04-30-2026/",
+    "source_name": "Fortune",
+    "category_slug": "gold-silver",
+    "snippet": "Gold jumped $85 to $4,643/oz on April 30 as renewed Middle East tensions and the Fed's hawkish hold on rates at 3.5%–3.75% reinforced safe-haven demand. Gold is up over $1,400/oz year-over-year.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "SIXTH STRAIGHT YEAR: Silver Supply Deficit Confirmed Again for 2026 as Price Holds Near Decade Highs at $75/oz",
+    "url": "https://www.fxleaders.com/news/2026/04/30/silver-hits-sixth-straight-deficit-71-49-support-in-focus-as-bears-take-control/",
+    "source_name": "FX Leaders",
+    "category_slug": "gold-silver",
+    "snippet": "The Silver Institute confirmed 2026 will be the sixth consecutive year of structural silver supply deficit, with a 46.3 million ounce shortfall projected. Silver holds near decade highs around $75/oz despite a headwind from the Fed's most divided vote since 1992.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "RECORD DEALFLOW: Mining M&A Hits $21.6B in Q1 2026 — Strongest First Quarter Since 2023",
+    "url": "https://www.mining.com/mining-deals-hit-21-6b-in-strongest-q1-since-2023/",
+    "source_name": "Mining.com",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Global mining M&A reached $21.6 billion across 121 transactions in Q1 2026, a 34% year-over-year increase in deal value and the strongest start to a year since 2023. Strategic partnerships and critical minerals assets in stable jurisdictions are driving consolidation.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "FIVEFOLD EXPANSION: Critical Elements' Rose West Lithium Drill Returns 1.24% Li2O Over 27.8m in Quebec",
+    "url": "https://investingnews.com/critical-elements-provides-assay-results-on-its-10000-metre-drill-program-at-rose-west/",
+    "source_name": "Investing News Network",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Critical Elements Lithium's Phase 1 winter drill program expanded the Rose West Discovery's mineralized footprint from 450m x 370m to 1,250m x 800m, with best results of 1.24% Li2O over 27.8m. Three new stacked spodumene-bearing pegmatite bodies were identified in the 10,000m program.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "NY COPPER SURGES AGAIN: Comex Nears All-Time High as Shanghai Sets Record and Arbitrage Flows Resume",
+    "url": "https://www.mining.com/new-york-copper-price-surges-again-shanghai-sets-record/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "New York Comex copper pushed back toward its $6.12/lb all-time closing high as arbitrage flows resume and Chinese smelters run at record activity. Chilean supply faces headwinds from China's sulphuric acid export curbs, while the Grasberg force majeure in Indonesia adds to global tightness.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "TIMMINS DRILL: Metals Creek Mobilizes 4-Hole Program at Ogden Gold JV on Porcupine-Destor Break",
+    "url": "https://investingnews.com/metals-creek-mobilizes-drill-to-the-ogden-gold-project/",
+    "source_name": "Investing News Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "Metals Creek Resources mobilized a drill rig for a four-hole program at the Ogden Gold Project in the Timmins Gold Camp, targeting the Thomas Ogden Zone along 8km of the Porcupine-Destor Break. The project is a 50/50 joint venture with Discovery Silver.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ATHABASCA COPPER: Mustang Energy Returns 2.69% Cu Over 4.9m at Surprise Creek — Best 15.9% Cu",
+    "url": "https://www.globenewswire.com/news-release/2026/04/29/3284371/0/en/Mustang-Energy-Corp-Announce-Results-from-Drilling-Program-at-Surprise-Creek-Project-Saskatchewan.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "uranium-energy",
+    "snippet": "Mustang Energy returned assay results from all 11 drill holes at its Surprise Creek uranium-copper project northwest of Saskatchewan's Athabasca Basin, with best copper intercepts of 2.69% Cu over 4.9m and sub-intervals reaching 15.9% Cu over 0.5m. Surface grabs at the project have returned up to 9.39% U3O8.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "DRILLING THE 40 G/T VEIN: SLAM Exploration Starts 2026 Holes on High-Grade Jake Lee Gold Target, New Brunswick",
+    "url": "https://investingnews.com/slam-drilling-40-5-g-t-gold-vein-on-the-jake-lee-gold-project/",
+    "source_name": "Investing News Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "SLAM Exploration launched its 2026 drill campaign at the Jake Lee project in New Brunswick, targeting the No. 1 gold vein where channel sampling returned up to 40.5 g/t gold and 63.3 g/t silver. The first hole is collared 12m south of the vein, drilling at 45 degrees to test the high-grade structure.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "WALL STREET GOES TO $6,000: JPMorgan, Societe Generale and Deutsche Bank All Raise Gold Targets",
+    "url": "https://goldseek.com/article/why-gold-could-reach-6000-ounce-2026",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "JPMorgan ($6,300), Societe Generale ($6,000), and Deutsche Bank ($6,000) have all raised their 2026 gold price targets, with central bank buying of 800+ tonnes/year, de-dollarization, and Middle East tensions cited as structural drivers. A minority at BofA and Commerzbank see gold plateauing in the mid-to-high $4,000s.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "MOST DIVIDED SINCE 1992: Fed Holds at 3.5% But Hawks Seize Narrative — What It Means for Gold and Silver",
+    "url": "https://www.moneymetals.com/news/2026/04/30/fed-stands-pat-but-there-was-dissension-in-the-ranks-004880",
+    "source_name": "Money Metals",
+    "category_slug": "market-macro",
+    "snippet": "The FOMC voted to hold rates at 3.5%–3.75% on April 29, but four dissenting members pushed to strip forward-guidance language in the most divided Fed decision since 1992. Money Metals examines how the hawkish shift reprices the rate-cut premium embedded in gold and silver.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
