@@ -1,0 +1,37 @@
+{
+  "ticker": "AAG",
+  "exchange": "TSXV",
+
+  "management_score": 4,
+  "management_notes": "CEO Ralph Rushton has guided the company through a major resource expansion and PFS launch. Eric Sprott holds ~25% non-diluted ownership (71,967,630 shares + 20,253,968 warrants), having participated in multiple placements at C$0.35, C$0.45, and C$0.70/warrant committing over C$13M total — one of the strongest possible alignment signals in the junior mining space. PFS launched Feb 2026 with Tier-1 engineering firm DRA Global (experience includes Quellaveco, Cerro Verde, Las Bambas, Antamina). Score docked one for limited disclosed insider ownership outside of Sprott.",
+  "geology_score": 5,
+  "geology_notes": "Berenguela is a world-class stratiform polymetallic deposit amenable to open-pit/shallow underground mining. NI 43-101 resource (BBA International Canada Inc., effective Nov 30, 2025): Measured 8.49 Mt at 101 g/t Ag, 0.89% Cu, 8.97% Mn, 0.32% Zn; M+I combined 51.55 Mt containing 122.5 Moz Ag, 717.1 Mlb Cu, 2.93 Mt Mn, 372.4 Mlb Zn (NSR cut-off USD $137.40); Inferred ~7-8 Mt containing 22.0 Moz Ag, 118.4 Mlb Cu, 0.47 Mt Mn, ~80 Mlb Zn. Based on 439 drill holes including 82 new infill holes from 2024/25 program with 95% hit rate. M+I silver increased 21% over prior estimate. Scale places Berenguela in top tier of undeveloped silver deposits globally.",
+  "capital_score": 3,
+  "capital_notes": "Shares outstanding approximately 337.9 million (April 2026). Eric Sprott controls 71.97M shares + 20.25M warrants at C$0.70 (36-month term from Nov 2024). Company is pre-revenue spending on PFS (12-month timeline, completion ~Feb 2027). Cash value of all outstanding warrants disclosed at C$12,316,215; cash value of options at C$7,853,250. 13.2M warrants exercised March-mid 2025. Peru political risk is moderate. Manageable dilution but pre-revenue cash burn for 12+ months.",
+  "catalyst_score": 4,
+  "catalyst_notes": "PFS commenced February 12, 2026 with DRA Global, targeting completion within 12 months (~Feb 2027). Interim PFS updates expected mid-2026. Company named to 2026 OTCQX Best 50, driving US retail investor awareness. PFS timeline is well-defined. Risks: Peru political instability (Puno region community relations), PFS cost overruns, silver price sensitivity. Score reflects that the primary catalyst is ~9-10 months away.",
+  "acquisition_score": 4,
+  "acquisition_notes": "At ~337.9M shares and ~C$0.60/share, market cap ~C$203M. 122.5 Moz M+I silver implies ~$1.66 per M+I oz Ag — at or below low end of recent comparable silver developer transactions. Copper credit (717.1 Mlb Cu M+I) and manganese (2.93 Mt Mn M+I) provide substantial additional NAV not reflected in silver-only comparables. Applying a conservative C$5/oz AgEq in-situ multiple to 122.5 Moz plus copper and manganese credits suggests NAV significantly above current market cap. Acquisition premium only fully realized once PFS economics are published.",
+
+  "verdict": "BUY",
+  "analyst_summary": "Aftermath Silver holds one of the most compelling undeveloped silver stories in South America: a fresh 122.5 Moz M+I resource at Berenguela backed by Eric Sprott's 25% anchor stake, a Tier-1 PFS now underway with DRA Global, and meaningful copper-manganese by-product credits that most silver-only comparables lack. At roughly $1.66 per M+I oz Ag before any copper or manganese credit, the market is pricing in significant execution and country risk — risk that appears well-compensated given the resource quality and institutional alignment.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "8.49 Mt at 101 g/t Ag, 0.89% Cu, 8.97% Mn, 0.32% Zn — Berenguela, NI 43-101 BBA Nov 2025",
+  "resource_indicated": "43.06 Mt; M+I combined: 51.55 Mt — 122.5 Moz Ag, 717 Mlb Cu, 2.93 Mt Mn, 372 Mlb Zn at USD $137.40 NSR",
+  "resource_inferred": "~7-8 Mt containing 22.0 Moz Ag, 118.4 Mlb Cu, 0.47 Mt Mn, ~80 Mlb Zn — Berenguela NI 43-101 Nov 2025",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 337900000,
+  "shares_fully_diluted": 375000000,
+
+  "share_instruments": [
+    {"type": "warrant", "count": 20253968, "strike_price": 0.70, "expiry": "2027-11-01", "notes": "Eric Sprott warrants from November 2024 C$10M placement; 36-month term from closing"},
+    {"type": "warrant", "count": null, "strike_price": null, "expiry": null, "notes": "Additional warrant tranches from prior placements; aggregate cash value of all outstanding warrants disclosed at C$12,316,215; per-tranche detail requires SEDAR+ review"},
+    {"type": "option", "count": null, "strike_price": null, "expiry": null, "notes": "Stock options to management and directors; aggregate cash value disclosed at C$7,853,250; exact count and strike schedule requires SEDAR+ review"}
+  ]
+}

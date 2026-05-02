@@ -1,0 +1,40 @@
+{
+  "ticker": "ASHL",
+  "exchange": "CSE",
+
+  "management_score": 3,
+  "management_notes": "Noah Komavli (President & Director, appointed May 2025) holds ~13.89% of fully diluted securities (16,513,775 of 118,894,980) — strong insider alignment for a micro-cap, confirmed by April 2026 NI 62-103 early warning report. Management funded $78,750 of the December 2025 PP alongside external investors. CEO Darcy Christian, P.Geo., acts as Qualified Person (technical credibility with skin in the game). Company has been active across multiple milestones in 2025-2026: Howie maiden drill, Tak Patents acquisition adjacent to NexGold Goliath, BC drill permit. Score docked two for limited track record of deposit development and small team spread across multiple properties.",
+  "geology_score": 2,
+  "geology_notes": "Early-stage grassroots across Ontario and BC. Tak Patents (Dryden area, Ontario): adjacent to NexGold Goliath Gold Complex; 1km resistive trend confirmed by 3D OreVision IP survey; historic hole TAK-99-10: 2.08 g/t Au over 31.8m (non-compliant, 1990s); Phase 1 drilling completed April 2026 with assays pending. Howie Project (Twilight Zone/Gap): maiden drill program (4 holes); HL-25-01: 0.53 g/t Au over 24m (bulk tonnage grade); three other holes returned trace values. BC Gold Mountain drill permit received March 2026 but deferred. No NI 43-101 resource on any property.",
+  "capital_score": 2,
+  "capital_notes": "~85,844,873 shares issued; ~118,894,980 fully diluted (per April 2026 NI 62-103 filing). Fully diluted count is 39% above issued count — heavy dilution from warrants and options. Dec 2025 PP (two tranches: Nov 27 and Dec 16) at C$0.075-$0.095/unit; options at C$0.05. Multiple small financings since IPO suggest hand-to-mouth treasury management. Dec 2025 raise was largest since IPO and funds Q1-Q2 2026 programs. Market cap ~C$4.3-6.9M at $0.05-$0.08/share.",
+  "catalyst_score": 4,
+  "catalyst_notes": "Tak Patents Phase 1 drill assays pending (expected Q2 2026), adjacent to NexGold Goliath Gold Complex — if results confirm continuity of the 2.08 g/t / 31.8m historic intercept, this would be material for a sub-$7M market cap company. Howie maiden drill assays also pending simultaneously. Two concurrent drill assay releases in the next 60-90 days, one adjacent to a known advancing multi-million-ounce deposit. Highest near-term catalyst density relative to current market cap of any company in this cohort.",
+  "acquisition_score": 2,
+  "acquisition_notes": "No NI 43-101 resource; P/NAV incalculable. Tak Patents' adjacency to NexGold's Goliath complex (which carries significant market cap for its ~1M oz resource) provides a theoretical comparable — but Ashley needs to first demonstrate mineralization continuity via pending drill results. At ~$5M market cap, upside is material if Tak assays confirm, but pre-resource speculative risk is very high.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Ashley Gold's portfolio of Ontario gold properties is at a pivotal inflection point: Phase 1 drill assays from the Tak Patents — abutting NexGold's advancing Goliath Gold Complex — and maiden drill results from Howie are both pending simultaneously in Q2 2026, creating binary-event risk/opportunity that is rare for a sub-$7M market cap. The company has meaningful insider alignment (~14% ownership by the President), a freshly recapitalized treasury from its largest-ever PP, and a geological thesis linking Tak to the mineralized trend defining the Goliath deposit. The near-total absence of NI 43-101 resources, heavy fully diluted dilution (~39% above issued), and a small team spread across too many properties are the primary structural risks to weigh against the near-term catalysts.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 85844873,
+  "shares_fully_diluted": 118894980,
+
+  "share_instruments": [
+    {"type": "warrant", "count": 789461, "strike_price": 0.15, "expiry": "2027-11-27", "notes": "Half-warrants from FT units, first tranche Nov 27, 2025 PP at C$0.095/FT unit"},
+    {"type": "warrant", "count": 768416, "strike_price": 0.12, "expiry": "2027-11-27", "notes": "Half-warrants from NFT units, first tranche Nov 27, 2025 PP at C$0.075/NFT unit"},
+    {"type": "warrant", "count": 793100, "strike_price": 0.15, "expiry": "2027-12-16", "notes": "Half-warrants from FT units, final tranche Dec 16, 2025 PP at C$0.095/FT unit"},
+    {"type": "warrant", "count": 606083, "strike_price": 0.12, "expiry": "2027-12-16", "notes": "Half-warrants from NFT units, final tranche Dec 16, 2025 PP at C$0.075/NFT unit"},
+    {"type": "option", "count": 3400000, "strike_price": 0.05, "expiry": "2028-06-01", "notes": "Directors, consultants, officers; granted mid-2025; approximate 3-year expiry"},
+    {"type": "warrant", "count": null, "strike_price": null, "expiry": null, "notes": "Prior warrant tranches from earlier PPs account for ~26.7M remaining gap between identified instruments and 118,894,980 fully diluted; per-tranche detail requires SEDAR+ review"}
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "ticker": "AFX",
+  "exchange": "CSE",
+
+  "management_score": 2,
+  "management_notes": "CEO Gary Claytens has 35+ years public market experience with a resource economics background. However, a failed RTO with MakerSoul (a Hong Kong tech company — a fundamentally odd fit for a Quebec lithium explorer), followed by a 10:1 share consolidation and debt settlement in late 2025, signals management struggled to execute a coherent strategy. No confirmed meaningful insider ownership published in reviewed press releases.",
+  "geology_score": 1,
+  "geology_notes": "Zero NI 43-101 resources on any property. Phase 2 sampling at Pontax North (Jan 2025, 18 samples) returned only 'marginally anomalous' lithium — a materially negative result for a company in the heart of the James Bay lithium belt. Pontax North (2,756 ha) is 12 km south of Allkem's James Bay Project (54.3 Mt @ 1.30% Li2O M+I) and Delta Lake (1,056 ha) is 55 km SE. Resource Potentials Pty Ltd (Sept 2023) confirmed 'high potential' for LCT pegmatites, but no drill holes have been completed on any AFX property. Properties are grassroots exploration stage with discouraging surface geochemistry.",
+  "capital_score": 2,
+  "capital_notes": "10:1 consolidation in November 2025 indicates the prior share structure was deeply diluted and underwater. Post-consolidation: ~7,046,738 shares. Dec 2025 first PP tranche: +1,800,000 shares ($180K raised). April 10, 2026 final PP tranche: +5,756,000 shares + debt settlement shares (~250K est.) totalling ~14,852,738 shares issued. Total warrants ~7,958,920 vs ~14.9M shares = 53% warrant dilution ratio. Apr 2026 PP raised ~$3M providing adequate short-term treasury, but consolidation history is a structural red flag.",
+  "catalyst_score": 2,
+  "catalyst_notes": "April 2026 PP close provides funds for Phase 3 exploration at Pontax North. However, no drill permit has been announced and no program timeline has been disclosed. Prior Phase 2 results were discouraging. The next material catalyst — assays from a drill program — is likely 12+ months away, if a program is even initiated. No near-term binary event identifiable.",
+  "acquisition_score": 1,
+  "acquisition_notes": "No resource estimate means P/NAV is incalculable. Post-consolidation market cap ~C$3.6M (at $0.24/share × 14.9M shares). No underlying asset value has been established by technical work. Cannot benchmark to comparable transactions without a resource. Properties are proximal to major deposits (Allkem, Critical Elements) but surface work has not confirmed lithium mineralization warranting drilling.",
+
+  "verdict": "AVOID",
+  "analyst_summary": "Arctic Fox Lithium holds grassroots lithium claims in the prolific James Bay belt, but its Phase 2 geochemical program returned only marginally anomalous lithium values — a materially negative result given the property's proximity to the Allkem James Bay deposit. A failed RTO, a 10:1 share consolidation, and debt settlement in late 2025 point to persistent corporate execution failures. With no NI 43-101 resource, no confirmed drill program timeline, and a thin treasury largely committed to working capital, the risk-reward profile does not support speculative positioning at this stage.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 14852738,
+  "shares_fully_diluted": 22811658,
+
+  "share_instruments": [
+    {"type": "warrant", "count": 1800000, "strike_price": 0.12, "expiry": "2027-12-01", "notes": "From December 2025 PP first tranche ($0.10/unit); 24-month exercise period from closing; approximate expiry date"},
+    {"type": "warrant", "count": 5756000, "strike_price": 0.315, "expiry": "2028-04-10", "notes": "From April 2026 PP final tranche ($0.24/unit); expiry April 10, 2028"},
+    {"type": "warrant", "count": 402920, "strike_price": null, "expiry": "2028-04-10", "notes": "Broker/finder warrants from April 2026 PP; strike price not disclosed in public sources; approximate expiry April 2028"}
+  ]
+}

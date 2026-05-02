@@ -1,0 +1,36 @@
+{
+  "ticker": "ARQ",
+  "exchange": "CSE",
+
+  "management_score": 3,
+  "management_notes": "Eric Sprott's participation (2,000,000 shares via PP, ~$200K) is a positive credibility signal. The oil production business (~$1M+/year from ~82 bbl/day at 4 Lloydminster Alberta wells) provides ongoing cash flow funding exploration without constant equity dilution — structurally unusual and positive for a micro-cap. NCIB buybacks at $0.09-$0.10/share demonstrate capital discipline. However, confirmed insider ownership is only ~7.88% of shares and the company has been in exploration mode for years without converting data into a NI 43-101 compliant resource.",
+  "geology_score": 2,
+  "geology_notes": "Uchi Gold Project (Northwestern Ontario, Red Lake district): high-grade intercepts confirmed (132.3 g/t Au over 1.8m; 32.84 g/t Au over 2.5m; 26.26 g/t Au over 2.65m). Historic non-NI 43-101-compliant ~400,000 oz Au envelope from surface to 200m depth. Red Lake district context is excellent — prolific, enduring gold camp. However, NO NI 43-101 compliant resource has been published; deposit appears narrow and nuggety; exploration data has existed for years without a resource estimate. Also holds optioned Dreaver Lake Gold (Saskatchewan, 2025) and Athabasca Basin uranium claims (2024 acquisition).",
+  "capital_score": 3,
+  "capital_notes": "~69.7M shares outstanding (post-NCIB buyback of 777,307+ shares). Market cap ~C$7M at $0.09-$0.10/share. Self-funding oil cash flow (~C$1M+/year net operating cash flow) is a structural positive differentiating ARQ from pure explorers. NCIB demonstrates management restraint on dilution. Options overhang: 4,000,000 options at C$0.12 (granted March 1, 2026, expiry March 1, 2029) is manageable. No large warrant overhang identified. Prior option tranches not fully disclosed.",
+  "catalyst_score": 3,
+  "catalyst_notes": "April 16, 2026 mineral exploration permit received for Uchi Gold Project — genuine near-term catalyst unlocking the ability to drill. Red Lake district context and existing high-grade intercepts give this material significance. Drill program in 2026 now possible and likely, funded partially by oil cash flow and potentially a small PP. Near-term assays from a Uchi drill program could be a meaningful re-rating event. Saskatchewan uranium and gold properties provide additional optionality.",
+  "acquisition_score": 2,
+  "acquisition_notes": "No NI 43-101 resource; P/NAV incalculable. If the historic ~400K oz Au envelope were to become a compliant inferred resource, comparable Red Lake district transactions (e.g., Angus Gold sold to Wesdome for ~$40M in June 2025) suggest meaningful potential upside from the ~$7M market cap. However, too much uncertainty at this stage to assign a higher score.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Argo Gold's differentiated structure — oil cash flow funding exploration without equity dilution, a freshly permitted Uchi Gold Project in Ontario's Red Lake district, and Eric Sprott's participation — makes this a credible micro-cap watch candidate at a ~$7M market cap. The April 2026 exploration permit for Uchi Gold is the key de-risking event, and the historical high-grade intercepts (132 g/t Au, 32 g/t Au) suggest a structurally favourable system. The absence of a NI 43-101 compliant resource and the company's multi-year inability to convert exploration data into a formal estimate are meaningful risks; any position should be sized to reflect the pre-resource, pre-drill uncertainty.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 69700000,
+  "shares_fully_diluted": 75000000,
+
+  "share_instruments": [
+    {"type": "option", "count": 4000000, "strike_price": 0.12, "expiry": "2029-03-01", "notes": "Granted to directors and consultants March 1, 2026; expiry March 1, 2029"},
+    {"type": "option", "count": null, "strike_price": null, "expiry": null, "notes": "Prior option tranches from pre-March 2026 grants; exact count and schedule not publicly disclosed in press releases reviewed; see SEDAR+ ARQ filings for full details"}
+  ]
+}

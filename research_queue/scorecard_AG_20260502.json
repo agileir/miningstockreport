@@ -1,0 +1,38 @@
+{
+  "ticker": "AG",
+  "exchange": "TSX",
+
+  "management_score": 4,
+  "management_notes": "Keith Neumeyer (CEO/Founder) is one of the most recognised names in silver mining and has a strong track record building First Majestic from a junior to a ~US$10B company. The Los Gatos acquisition (closed Jan 2025) added a 70%-owned world-class silver mine and was strategically well-timed with the silver price recovery. Management delivered record revenue ($1.26B), record adjusted EBITDA ($679M), and record production (15.4M oz Ag) in 2025. Capital allocation discipline demonstrated via NCIB buybacks and ultra-low cost convertible note refinancing (0.125% coupon). Score docked one for the 2026 production guidance step-down vs 2025 record, which may disappoint momentum investors.",
+  "geology_score": 5,
+  "geology_notes": "NI 43-101 as of Dec 31, 2025: Proven + Probable Reserves: 27.4 Mt containing 184.8 Moz AgEq (101.7 Moz Ag, 610 koz Au, 686 Mlb Zn, 371 Mlb Pb). Measured + Indicated Resources: 652.8 Moz AgEq (+50% YoY). Inferred Resources: 592.3 Moz AgEq (+69% YoY). The Santo Niño discovery at Santa Elena in 2025 is a world-class organic discovery in an already-producing mine. All four producing mines (Los Gatos 70%, Santa Elena, San Dimas, La Encantada) have NI 43-101 compliant, QP-supervised resources. Mine life well-supported and growing.",
+  "capital_score": 4,
+  "capital_notes": "491,322,304 basic shares outstanding (Dec 31, 2025 Form 40-F). Year-end 2025 cash: $937.7M — exceptional. US$350M unsecured convertible senior notes due 2031 (0.125% coupon, closed Dec 8, 2025); conversion at US$22.36/share ($22.36 strike is USD — template will render C$; approx ~15.65M potential new shares). Residual 2027 notes: small residual after Dec 2025 repurchase. 2025 NCIB repurchased ~593,500 shares demonstrating capital discipline. LTIP: 1,550,370 options + 424,137 RSUs + 220,781 PSUs granted in 2025. Score docked one for large basic share count reflecting Gatos Silver acquisition dilution.",
+  "catalyst_score": 4,
+  "catalyst_notes": "Multiple near-term catalysts: (1) Silver price leverage — First Majestic is the purest large-cap silver play in the market; (2) Santa Elena capacity expansion underway ($154-171M expansionary capex in 2026); (3) Los Gatos expansion potential; (4) Jerritt Canyon (Nevada gold) restart evaluation; (5) Santo Niño/Navidad drill results at Santa Elena; (6) quarterly dividend formula increased to 2% of net quarterly revenues from Jan 2026. Ongoing high silver price environment amplifies every mine's profitability.",
+  "acquisition_score": 4,
+  "acquisition_notes": "Trading at ~2.2x NAV vs historical average >3x, representing ~36% discount to typical valuation multiple. P+P reserves of 184.8 Moz AgEq and M+I resources of 652.8 Moz AgEq at current metals prices represent a compelling asset base. Comparable transactions in the silver space support higher multiples for producing companies with this reserve profile. Main offset is Mexico jurisdiction risk (regulatory, fiscal, social licence) which caps the premium vs Canadian/US operations.",
+
+  "verdict": "BUY",
+  "analyst_summary": "First Majestic Silver delivered a transformational 2025 — record revenue of $1.26B, record adjusted EBITDA of $679M, and record 15.4M silver oz production — driven by the successful integration of Los Gatos and the Santo Niño organic discovery at Santa Elena. The company enters 2026 with $937.7M in cash, ultra-low cost debt (0.125% coupon on US$350M notes), and proven/probable reserves of 184.8 Moz AgEq that grew 4% despite record production. At approximately 2.2x NAV versus a historical average above 3x, and with near-term catalysts including Santa Elena capacity expansion, Jerritt Canyon restart evaluation, and continued silver price strength, First Majestic represents the highest-conviction entry point in large-cap silver at this stage of the cycle.",
+  "confidence": "high",
+
+  "nav_per_share": 8.98,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "M+I combined: 652.8 Moz AgEq (+50% YoY) — NI 43-101, Dec 31, 2025; reported as combined M+I only",
+  "resource_inferred": "592.3 Moz AgEq (+69% YoY) — NI 43-101, Dec 31, 2025",
+  "reserve_proven": "",
+  "reserve_probable": "P+P combined: 27.4 Mt — 184.8 Moz AgEq (101.7 Moz Ag, 610 koz Au, 686 Mlb Zn, 371 Mlb Pb)",
+
+  "shares_issued_outstanding": 491322304,
+  "shares_fully_diluted": 511000000,
+
+  "share_instruments": [
+    {"type": "warrant", "count": 15650000, "strike_price": 22.36, "expiry": "2031-12-08", "notes": "Potential shares from US$350M convertible senior notes due 2031 (0.125% coupon); conv. rate 44.7227 shares per $1,000; strike price is USD $22.36 (not C$); currently anti-dilutive at ~US$19.76"},
+    {"type": "warrant", "count": null, "strike_price": null, "expiry": "2027-01-01", "notes": "Residual 2027 convertible notes outstanding after Dec 2025 repurchase of ~US$174.7M; small residual balance; exact share equivalent not disclosed in reviewed sources"},
+    {"type": "option", "count": 1550370, "strike_price": null, "expiry": null, "notes": "LTIP stock options granted in 2025 proxy period; strike prices not individually disclosed in press releases"},
+    {"type": "option", "count": 644918, "strike_price": null, "expiry": null, "notes": "RSUs (424,137) + PSUs (220,781) granted in 2025 LTIP; share-settled, no strike price; vest approximately 2026-2028"}
+  ]
+}

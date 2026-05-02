@@ -1,0 +1,36 @@
+{
+  "ticker": "ACDX",
+  "exchange": "CSE",
+
+  "management_score": 2,
+  "management_notes": "Rick Van Nieuwenhuyse (NovaGold, Trilogy Metals — industry heavyweight) resigned as Chairman in December 2024, a material red flag at a pre-resource stage. Leadership transition in October 2025 left CEO status unclear; company is now led by Michael Murphy as interim Chairman. Andy Bowering (American Lithium founder, former CEO Prime Mining) is referenced as a team member but active role is unclear. Insiders reportedly hold ~1/3 of post-consolidation shares (~23.9M), which is positive alignment, but the loss of the marquee technical name is a significant concern.",
+  "geology_score": 2,
+  "geology_notes": "2023 maiden drill program at Lordsburg (6 holes, 4,661m) confirmed a large-scale porphyry copper system. Headline intercept: 44m at 1.00% CuEq (hole AC23-006). Historically-producing copper district at the intersection of the Santa Rita and Texas lineaments — a genuinely prospective porphyry setting in New Mexico. Titan 160 DCIP/MT geophysical survey suggests multiple porphyry centres. However: only 6 holes drilled; no follow-up drilling since 2023; no NI 43-101 resource estimate. Property is large (7,554 ha) but early-stage with very limited drill data.",
+  "capital_score": 2,
+  "capital_notes": "Post-5:1 consolidation (Feb 2025) + August 2025 PP (5,405,763 units at C$0.225) + March 2026 debt settlement (1,166,666 shares at C$0.30): estimated shares outstanding ~25,152,879. The March 2026 debt-for-shares settlement signals cash stress. August 2025 PP warrants: 5,405,763 at C$0.30 (18-month term, expire ~Feb 2027). Post-consolidation options ~1,025,000 (adjusted from 5,125,000 pre-consolidation). Share consolidation was required to maintain CSE listing minimums. Tight treasury with limited exploration runway.",
+  "catalyst_score": 2,
+  "catalyst_notes": "No Phase 2 drill program announced for Lordsburg. Most notable recent developments: DIBC (Defense Industrial Base Consortium) membership (February 2026, leveraging US domestic copper supply narrative) and the March 2026 debt settlement. DIBC membership could theoretically attract government attention but is not a near-term drilling or resource catalyst. No resource estimate expected near-term given no follow-up drilling since 2023.",
+  "acquisition_score": 2,
+  "acquisition_notes": "Estimated market cap at ~C$0.25-0.30/share × ~25M shares = ~C$6-7.5M. No resource; P/NAV incalculable. Early-stage porphyry copper project in New Mexico with one 6-hole maiden program. The Lordsburg historical district and DIBC membership add a US domestic copper supply narrative angle that could attract majors attention if a Phase 2 confirms the system at scale. Current stage is too early for meaningful acquisition metric.",
+
+  "verdict": "AVOID",
+  "analyst_summary": "American Copper Development is an early-stage CSE-listed junior with one 6-hole maiden drill program (2023) confirming a large-scale porphyry copper system at Lordsburg, New Mexico. The headline intercept of 44m at 1.00% CuEq is encouraging for the geological setting, and the US domestic copper supply narrative adds a strategic angle via DIBC membership. However, management churn (Van Nieuwenhuyse's December 2024 resignation, uncertain CEO status post-October 2025), a tight treasury forcing a debt-for-shares settlement in March 2026, and no follow-up drilling since 2023 make this a high-risk hold. Monitor for a funded Phase 2 drill program announcement before re-evaluating.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 25152879,
+  "shares_fully_diluted": 31583642,
+
+  "share_instruments": [
+    {"type": "warrant", "count": 5405763, "strike_price": 0.30, "expiry": "2027-02-01", "notes": "Issued with August 2025 PP units (1 warrant per unit at C$0.225/unit); 18-month exercise period from August 2025 close; approximate expiry date"},
+    {"type": "option", "count": 1025000, "strike_price": null, "expiry": null, "notes": "Estimated post-5:1 consolidation equivalent of 5,125,000 pre-consolidation options (as of Sept 30, 2023); current option count and strikes may differ; see SEDAR+ ACDX filings"}
+  ]
+}

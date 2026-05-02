@@ -1,0 +1,38 @@
+{
+  "ticker": "ANT",
+  "exchange": "CSE",
+
+  "management_score": 3,
+  "management_notes": "Co-founder Bill Kennedy brings data science and operations expertise; Wesley Keats (PDAC Bill Dennis Award co-recipient, 4th-generation NL prospector, 22 years exploration experience) stepped down from the board in April 2025 but remains as exploration advisor. Emily Halle (geologist, 20 years experience) adds technical depth. The proprietary AI-assisted 3D mineral vectorization methodology is a differentiated and credible approach to early-stage target generation. However, Keats' board departure creates continuity risk in technical leadership. CSE listing was only January 2025 — limited public company track record.",
+  "geology_score": 3,
+  "geology_notes": "Havens Steady VMS (Newfoundland): grab samples up to 2.17% Cu, 21.3 g/t Ag, 0.22 g/t Au; channel sampling up to 9.60% Zn, 1.44% Pb, 0.57% Cu, 45 g/t Ag — genuinely high-grade surface/near-surface VMS results in a proven polymetallic district (Central Newfoundland). Strickland VMS has seven mineralized zones with Ag-Pb-Zn-Au potential. Knob Lake has a historical (non-43-101 compliant) iron-manganese resource near Schefferville with existing infrastructure. Seagull (Ontario) initial drill hole RM26-01 to 1,230m found only localized PGE-Ni-Cu sulphide zones — disappointing. No NI 43-101 compliant resource exists on any property.",
+  "capital_score": 2,
+  "capital_notes": "Share count grew from 34,363,962 at CSE listing (Jan 2025) to ~66,383,501 after May 1, 2026 PP closing — a 93% increase in 15 months through distressed-price financings (units at C$0.05-0.065/unit). Three PPs raised combined ~C$1.8M total (Nov 2025 tranche 1: C$617K; Nov 2025 tranche 2: C$208K; May 2026: C$1,015K). Total warrant overhang ~16.7M warrants at C$0.10. At ~C$0.05-0.065/share, market cap is ~C$3.3-4.6M. Rate of dilutive share issuance is very high for a company of this size and stage.",
+  "catalyst_score": 3,
+  "catalyst_notes": "Active projects with near-term news flow: (1) Seagull Phase 1 drill results being reported (though initial hole was largely negative); (2) Havens Steady summer 2025 field season yielded strong grab samples — Phase 1 drilling planned for summer 2026; (3) Knob Lake tenure extended to 2030 (removes abandonment risk); (4) May 2026 PP provides treasury for next field programs. JEA (Junior Exploration Assistance) program application pending for Havens Steady. Multiple potential news catalysts but dilutive financing pace suggests each program competes for limited treasury.",
+  "acquisition_score": 2,
+  "acquisition_notes": "At ~66M shares at C$0.05-0.065/share, market cap ~C$3.3-4.6M. No NI 43-101 resource on any copper-focused property; P/NAV incalculable. High-grade Havens Steady VMS surface samples are encouraging but drill-defined resource is required before any meaningful acquisition metric. The data science exploration methodology is differentiated but requires proof-of-concept drill results to command a valuation premium.",
+
+  "verdict": "AVOID",
+  "analyst_summary": "Anteros Metals listed on the CSE in January 2025 as a data science-driven multi-mineral explorer in Newfoundland, with a portfolio anchored by the Havens Steady VMS target (returning up to 2.17% Cu in surface samples) and the Knob Lake iron-manganese historical resource. The data science exploration methodology is genuinely differentiated, and the management team has strong local prospecting credentials. However, a 93% increase in shares outstanding over 15 months through distressed-price financings, disappointing initial Seagull drill results, and an absence of any NI 43-101 compliant resource on the copper-focused properties place this firmly in the speculative watch-and-wait category. Revisit after Havens Steady Phase 1 drill results are published.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 66383501,
+  "shares_fully_diluted": 83848069,
+
+  "share_instruments": [
+    {"type": "warrant", "count": 5102154, "strike_price": 0.10, "expiry": "2027-11-03", "notes": "From first tranche PP closed November 3, 2025; 0.5 warrant per FT and HD unit; 24-month term"},
+    {"type": "warrant", "count": 1748076, "strike_price": 0.10, "expiry": "2027-11-21", "notes": "From final tranche PP closed November 21, 2025; 0.5 warrant per unit; 24-month term"},
+    {"type": "warrant", "count": 727400, "strike_price": null, "expiry": null, "notes": "Aggregate finder's warrants from both November 2025 PP tranches; cash commissions paid C$40,671; exact strike and expiry terms not publicly disclosed"},
+    {"type": "warrant", "count": 9159538, "strike_price": 0.10, "expiry": "2028-05-01", "notes": "From May 1, 2026 PP closing (6,603,077 FT + 11,716,000 HD units at C$0.055/unit); 0.5 warrant per unit; 24-month term"}
+  ]
+}

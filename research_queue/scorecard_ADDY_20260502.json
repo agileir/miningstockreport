@@ -1,0 +1,38 @@
+{
+  "ticker": "ADDY",
+  "exchange": "CSE",
+
+  "management_score": 2,
+  "management_notes": "James Nelson (President, Director & Secretary) has been with the company since 2006 with a finance/IR background rather than technical geology. Company rebranded from Spearmint Resources (SPMT) to Adelayde after a 10:1 share consolidation in June 2025 and has pivoted across multiple commodities (tungsten, gold, antimony, lithium brine) simultaneously — opportunistic claim-staking over a focused development thesis. No disclosed insider ownership percentages. NDIA and CADSI memberships appear to be marketing exercises rather than substantive partnerships.",
+  "geology_score": 3,
+  "geology_notes": "McGee Lithium Clay Deposit has a NI 43-101 resource (Stantec Consulting, June 17, 2022): Indicated 320 Mt at 803 ppm Li; Inferred 157 Mt at 865 ppm Li. Large tonnage consistent with other Nevada lithium clay deposits but no economic study (PEA/PFS) completed and resource is now over three years old. Lithium clay faces significant metallurgical extraction cost challenges vs. brine. Clayton Valley deep basin brine JV (115 claims, 2,300 acres; formed Jan 2026 with Sienna and Cruz Battery) is pre-drill. Sisson North tungsten, Perron-East gold, and George Lake South antimony are all pre-resource grassroots.",
+  "capital_score": 3,
+  "capital_notes": "Post-10:1 consolidation (June 2025) shares outstanding ~70,770,936. Options: 1,275,000 to directors/officers/consultants at C$0.05/share. Dec 2025 placement warrants: 618,000 NFT warrants at C$0.20 (2-year) and 72,000 FT finder's warrants at C$0.25 (2-year). Per regulatory filing: 36,104,278 shares reserved for issuance; fully diluted ~106,875,214. Capital structure not severely bloated post-consolidation; ~C$2M raised in 2025 consistent with exploration activity. Market cap ~C$5.3M at ~C$0.075/share.",
+  "catalyst_score": 2,
+  "catalyst_notes": "Active work programs underway (Sisson North tungsten April 2026, George Lake South antimony April 2026, Perron-East gold April 2026, Clayton Valley brine JV January 2026) but none have defined timelines or drill programs with announced assay windows. McGee lithium clay has had no new work since the 2022 resource estimate. Multi-commodity strategy means catalysts are diffuse and no near-term material re-rating event is identifiable.",
+  "acquisition_score": 2,
+  "acquisition_notes": "At ~C$5.3M market cap, trades at very low absolute price. McGee's NI 43-101 resource (320 Mt indicated + 157 Mt inferred lithium clay) is real but no economic study has been completed. Lithium clay deposits trade at deep discounts to brine absent a PEA with viable extraction economics. Multi-commodity portfolio complicates comparables analysis. No formal NAV derivable without a PEA.",
+
+  "verdict": "AVOID",
+  "analyst_summary": "Adelayde (formerly Spearmint Resources) is a post-consolidation CSE micro-explorer holding a 2022 NI 43-101 lithium clay resource at McGee, Nevada alongside early-stage tungsten, gold, and antimony assets in Canada — a portfolio that reflects opportunistic claim-staking more than a coherent development thesis. With no economic study in progress on the flagship lithium asset, a finance-focused management team, and no near-term drill programs with defined assay windows, there is no identifiable catalyst to re-rate the stock in the near term.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "320 Mt at 803 ppm Li — McGee Lithium Clay, Clayton Valley NV; NI 43-101 Stantec June 2022",
+  "resource_inferred": "157 Mt at 865 ppm Li — McGee Lithium Clay, Clayton Valley NV; NI 43-101 Stantec June 2022",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 70770936,
+  "shares_fully_diluted": 106875214,
+
+  "share_instruments": [
+    {"type": "option", "count": 1275000, "strike_price": 0.05, "expiry": null, "notes": "Granted to directors, officers, and consultants; individual expiry dates not publicly disclosed"},
+    {"type": "warrant", "count": 618000, "strike_price": 0.20, "expiry": "2027-12-01", "notes": "NFT warrants from December 2025 placement; 2-year term"},
+    {"type": "warrant", "count": 72000, "strike_price": 0.25, "expiry": "2027-12-01", "notes": "FT finder's warrants from December 2025 placement; 2-year term"},
+    {"type": "warrant", "count": null, "strike_price": null, "expiry": null, "notes": "Approximately 34.1M additional warrants/options from prior placements implied by 36,104,278 total shares reserved per regulatory filing minus the instruments identified above; per-tranche detail requires SEDAR+ review"}
+  ]
+}

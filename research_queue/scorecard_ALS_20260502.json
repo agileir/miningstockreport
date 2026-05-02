@@ -1,0 +1,35 @@
+{
+  "ticker": "ALS",
+  "exchange": "TSX",
+
+  "management_score": 5,
+  "management_notes": "Brian Dalton co-founded Altius over 25 years ago, building it from a sub-$1M explorer to a royalty company generating ~$70M/year in attributable royalty revenue. Dalton directly holds ~829,956 shares and has methodically built the royalty portfolio through organic project generation — an exceptionally rare and valuable discipline in the sector. He completed the Lithium Royalty Corp. acquisition in March 2026 for ~$520M, expanding the portfolio into battery metals at scale. Compensation is partly equity-linked. No governance concerns identified.",
+  "geology_score": 4,
+  "geology_notes": "Royalty company — geological quality is expressed through the underlying royalty assets, not directly held resources. Chapada copper-gold stream (Lundin Mining, Brazil, ~40,000-45,000t Cu/year), Voisey's Bay nickel-cobalt (Vale, Labrador, expanding to 45,000t Ni/year), and Saskatchewan potash royalties (multiple mines) are all Tier 1, long-life operating assets. The LRC acquisition adds royalties on Thacker Pass, Tres Quebradas, and other battery-metal development projects. Score docked one for loss of the 777 Cu-Zn royalty (Hudbay mine closed 2022) and the indirect nature of geological exposure through royalties.",
+  "capital_score": 4,
+  "capital_notes": "Post-LRC acquisition (closed March 6, 2026): 55,915,754 shares outstanding (includes 9,630,177 shares issued to LRC shareholders — ~20% dilution). Year-end 2025 cash: $294M (up sharply from $16M in 2024, reflecting the Arthur Gold Royalty sale gain). No warrants or significant overhang identified. Historically modest dilution from management stock options/DSUs. Balance sheet is strong post-LRC. Score docked one for the LRC share dilution and credit facility leverage.",
+  "catalyst_score": 4,
+  "catalyst_notes": "Near-term catalysts: (1) Voisey's Bay Mine Expansion full ramp-up expected H2 2026, which should materially increase nickel-cobalt royalty revenue; (2) integration of LRC's lithium royalty portfolio into reporting; (3) annual potash royalties continue as predictable revenue stream; (4) analyst coverage active (5 analysts, average target C$49, National Bank target C$57.50). Royalty companies have lower binary event risk than explorers; revenue is relatively predictable quarter to quarter.",
+  "acquisition_score": 3,
+  "acquisition_notes": "Post-LRC market cap ~C$2.5-2.7B (55.9M shares at ~C$44-48). 2025 attributable royalty revenue: $69.9M. Analyst consensus target ~C$49 implies ~14% upside at current prices. For quality and diversification (copper stream, potash, nickel-cobalt, lithium royalties), valuation is at-to-slightly-below fair value vs streaming/royalty peers. LRC acquisition expanded the asset base but significant lithium price recovery is required for full realization. P/NAV not calculable in standard junior mining terms; analyst consensus target is the appropriate proxy.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Altius is the highest-quality name in this cohort — a mature, diversified royalty company with a 25-year track record, Tier 1 royalty assets on operating mines, $294M cash, and a Voisey's Bay expansion catalyst in H2 2026. The LRC acquisition adds lithium exposure at potentially near-cycle-bottom prices, but the 20% share dilution and $140M cash deployment require the lithium royalty market to recover for full value realization. At ~C$44-48/share with analyst targets clustering around C$49-57, the risk/reward is positive but upside is more moderate than the junior explorers in this peer group.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 55915754,
+  "shares_fully_diluted": 57000000,
+
+  "share_instruments": [
+    {"type": "option", "count": null, "strike_price": null, "expiry": null, "notes": "Stock options, RSUs, and DSUs granted to management and employees; historically modest relative to float; exact count not available from public press releases; see AIF 2025 on SEDAR+ for full breakdown"}
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "ticker": "AHR",
+  "exchange": "TSXV",
+
+  "management_score": 4,
+  "management_notes": "Dr. Diane Nicolson has been President since 2014 and CEO since 2019, with 20+ years in international minerals exploration. The insider group holds ~19% of shares (Nicolson personally ~1.6%). Management secured two major JV partners — Freeport-McMoRan (JOY District, Stage 2 C$75M earn-in committed) and Hudbay Minerals (IKE District, up to 60% earn-in) — a strong dual validation of asset quality and dealmaking ability. Named to 2026 TSX Venture 50. Score docked one for CEO's modest personal stake of ~1.6%.",
+  "geology_score": 4,
+  "geology_notes": "AuRORA discovery at JOY District is a high-grade near-surface gold-rich porphyry Cu-Au-Ag system in BC's Toodoggone-Kemess region. By end of 2025 program (45 holes, 17,586m total), deposit extends over ~1.4 km × 0.8 km with step-outs confirmed 300m north, 200m east, 300m southeast. Best intercept: 1.97 g/t Au + 0.49% Cu over 58m (hole JP24057). No formal NI 43-101 resource estimate published yet for AuRORA. IKE deposit (Hudbay earn-in, 60% of earn-in) has 2020 NI 43-101 technical report with drill-defined porphyry Cu-Mo mineralization but no published resource estimate. Score docked one for absence of any formal resource to anchor NAV.",
+  "capital_score": 3,
+  "capital_notes": "Shares outstanding ~225,377,364. Market cap at ~C$0.97/share ≈ C$218M. 225M+ shares is a high count for a TSXV explorer, reflecting years of exploration financing. With Freeport funding 100% of JOY costs under Stage 2 C$75M earn-in and Hudbay funding IKE, Amarc's cash burn obligations are significantly reduced near-term. Exact options and warrants outstanding not precisely known from public sources; insider group owns 19% of 225M shares.",
+  "catalyst_score": 5,
+  "catalyst_notes": "AuRORA first NI 43-101 resource estimate is imminent — 2025 expansion program completed (35 holes, 15,381m), assays being processed, deposit now covers 1.4km × 0.8km. Freeport committed C$75M in staged Stage 2 expenditures. The combination of: (1) first formal AuRORA resource estimate expected 2026; (2) ongoing Hudbay earn-in at IKE; and (3) potential continued step-out drilling at JOY and IKE delivers the highest near-term catalyst density in this cohort.",
+  "acquisition_score": 3,
+  "acquisition_notes": "No formal resource estimate; traditional P/NAV not calculable. C$218M market cap reflects speculative premium on AuRORA. For comparable BC porphyry Cu-Au discoveries, when AuRORA delivers a resource in the range of several hundred million tonnes at 0.5%+ CuEq, implied value per tonne at current metals prices would likely support current or higher prices. Freeport's C$75M Stage 2 commitment is a strong external validation signal but formal NAV requires published resource estimate.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Amarc owns one of the most significant new porphyry copper-gold discoveries in British Columbia in recent years — the AuRORA deposit, jointly advanced with Freeport-McMoRan under a C$75M funded earn-in. With 45 drill holes completed across a 1.4km × 0.8km footprint and assays showing consistently high gold and copper grades near surface, the first NI 43-101 resource estimate (expected 2026) is the defining catalyst. The IKE District, backed by a Hudbay earn-in, adds further optionality. At 225M shares and a C$218M market cap, the valuation is speculative but the asset quality and major-company validation justify a position ahead of the resource announcement.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 225377364,
+  "shares_fully_diluted": 240000000,
+
+  "share_instruments": [
+    {"type": "option", "count": null, "strike_price": null, "expiry": null, "notes": "Options and warrants outstanding; precise count not available from public press releases; insider group owns ~19% of 225M shares; see SEDAR+ AHR filings for complete breakdown"}
+  ]
+}

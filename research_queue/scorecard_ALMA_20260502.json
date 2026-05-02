@@ -1,0 +1,37 @@
+{
+  "ticker": "ALMA",
+  "exchange": "CSE",
+
+  "management_score": 2,
+  "management_notes": "CEO Gregory Isenor has West Africa exploration experience. Director Jean-Marc Gagnon has 35+ years mining experience including West African gold project development. Matthew Sharples (appointed June 2025) brings mine development and M&A expertise — a credible technical team for the jurisdiction. However, the company is micro-cap (~C$400K market cap), has minimal disclosed insider ownership, and has been unable to advance any Guinea project to a resource estimate despite holding permits since at least 2022. Recent permit revocations elevate risk materially.",
+  "geology_score": 2,
+  "geology_notes": "No NI 43-101 or JORC resource estimate on any Alma Gold property. Karita West Project (Guinea) is adjacent to IAMGOLD's Karita permit area west of the Senegal-Mali Shear Zone — a legitimate gold belt. Termite mound surface geochemistry completed. Dialakoro project (4 licenses, 314 sq km, Siguiri Basin) is along the Sanankoro-Kobada-Niaouleni structural corridor but completely grassroots. Clarence Stream North (New Brunswick) has no disclosed work. Properties are prospective in regional context but entirely pre-resource with limited systematic exploration completed.",
+  "capital_score": 3,
+  "capital_notes": "Following a 10:1 share consolidation, then Dec 2025/Jan 2026 placement (18,437,500 units at C$0.08, each with 1 full warrant at C$0.15 for 5 years), estimated shares outstanding ~57,615,284 with ~18,437,500 warrants outstanding. Market cap ~C$300K-500K. Capital structure post-consolidation is light relative to peers. However, company is in survival-mode financing — two small emergency tranches (C$1.475M total) to fund basic operations and maintain Guinea presence. Score reflects manageable structure but stressed financial position.",
+  "catalyst_score": 2,
+  "catalyst_notes": "Next material events are: (1) Dialakoro permit applications awaiting signature from Guinea's Minister of Mines — timing entirely dependent on the post-election Doumbouya government and ongoing permit review process; (2) exploration work on Karita West with remaining two valid permits; (3) potential reinstatement of revoked Permit 22925. None have defined timelines. No drill program scheduled. Guinea's political environment in 2025-2026 is transitional with mass permit cancellations ongoing.",
+  "acquisition_score": 1,
+  "acquisition_notes": "No NI 43-101 resource and Guinea jurisdiction rated high political risk. P/NAV incalculable. Grassroots projects with revoked permits cannot attract institutional M&A attention without minimum a maiden resource. One of three original Karita West permits revoked; second set not renewed. Comparable transactions in the Siguiri Basin (IAMGOLD, Barrick-adjacent) are for fully delineated, mine-permitted deposits — no valid comparables at Alma's stage.",
+
+  "verdict": "AVOID",
+  "analyst_summary": "Alma Gold is a pre-resource CSE micro-explorer with gold claims in Guinea, West Africa and New Brunswick, Canada — operating under a management team with genuine regional expertise but facing compounding obstacles: no mineral resource estimate on any property, three of five original Karita permits either revoked or not renewed, Guinea's ongoing political transition with mass permit cancellations through 2025-2026, and a market cap of approximately C$400K that reflects near-zero probability of near-term value realization.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 57615284,
+  "shares_fully_diluted": 76052784,
+
+  "share_instruments": [
+    {"type": "warrant", "count": 9687500, "strike_price": 0.15, "expiry": "2030-12-29", "notes": "Transferable warrants from first tranche of Dec 2025 placement; 5-year term from Dec 29, 2025; each C$0.08 unit = 1 share + 1 warrant"},
+    {"type": "warrant", "count": 8750000, "strike_price": 0.15, "expiry": "2031-01-26", "notes": "Transferable warrants from second tranche closing January 26, 2026; 5-year term from closing date"},
+    {"type": "warrant", "count": null, "strike_price": null, "expiry": null, "notes": "Additional warrants and options from prior private placements and compensation grants; exact count not publicly disclosed; requires SEDAR+ review for complete picture"}
+  ]
+}

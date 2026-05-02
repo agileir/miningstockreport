@@ -1,0 +1,38 @@
+{
+  "ticker": "ABI",
+  "exchange": "TSXV",
+
+  "management_score": 4,
+  "management_notes": "CEO Pascal Hamelin (joined March 2022) shut down the loss-making Elder operation and redirected the company toward the high-grade Sleeping Giant restart. He secured a US$30M senior debt facility plus offtake from Glencore (closed January 30, 2026) — rare institutional validation for a microcap gold developer. The April 2026 NCIB approval signals board conviction shares are undervalued. Insider ownership percentages not publicly disclosed in press releases reviewed.",
+  "geology_score": 4,
+  "geology_notes": "Sleeping Giant is a high-grade, narrow-vein underground gold mine in the Abitibi Greenstone Belt. NI 43-101 resource (InnovExplo, effective Dec 12, 2022): Measured 10,900 t at 12.20 g/t Au; Indicated 744,100 t at 7.01 g/t Au (M+I total 755,000 t at 7.14 g/t = 173,330 oz Au); Inferred 884,000 t at 8.74 g/t Au (248,300 oz Au). 2023 PEA used diluted reserve grade of 8.10 g/t Au. GoldMinds Geoservices engaged late 2024 for resource update after 4,843m of underground infill drilling (48 holes). Nov 2024 drill results: 57.5 g/t over 0.6m confirming depth extensions. Score docked one for modest M+I base (~173K oz).",
+  "capital_score": 2,
+  "capital_notes": "As of February 14, 2026: 1,192,393,720 shares outstanding; 742,057,894 warrants (avg ~C$0.09); 44,456,800 options (avg ~C$0.075); fully diluted 1,978,908,414. The warrant overhang equals 62% of basic shares — severe structural overhang. US$30M Glencore debt matures January 31, 2031, bearing SOFR + 2.5%, repayable monthly from March 2027. Nebari tranche warrants expire July 2028 or 30 days after debt repayment, whichever is earlier.",
+  "catalyst_score": 3,
+  "catalyst_notes": "First gold pour achieved September 11, 2025 — primary catalyst has fired. Current catalysts: (1) long-hole stope mining expected early summer 2026, transitioning from development-rate to full production-rate; (2) GoldMinds updated NI 43-101 resource estimate pending (timing not disclosed); (3) second Glencore tranche available Dec 2026. Mill operating at ~40% capacity through early 2026; annual target 10,000 oz year 1 ramping to 30,000 oz. Catalysts real but measured in quarters, not weeks.",
+  "acquisition_score": 3,
+  "acquisition_notes": "2023 PEA at $2,000/oz Au: after-tax NPV5% C$54M, IRR 33%, LOM 181,300 oz, AISC USD $1,120/oz. At ~C$0.07/share × 1,192M shares, market cap ~C$83M ≈ 1.5x PEA NPV5% at base-case gold. At spot gold >$2,500/oz, economics are materially better than PEA base case. Estimated P/NAV 0.5–0.8x refreshed in-situ value, but warrant overhang nearly doubles diluted count, capping re-rating potential until warrants are exercised or expired.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Abcourt is a micro-cap gold producer in ramp-up, having poured its first gold at the 8 g/t Sleeping Giant mine in Quebec in September 2025 backed by a US$30M Glencore debt facility and offtake. The core investment thesis is straightforward — high-grade Abitibi ore, low-capex restart, institutional offtake — but the nearly 2-billion fully diluted share count and senior debt obligation demand that production ramp to plan before this becomes compelling for risk-adjusted buyers.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "10,900 t at 12.20 g/t Au (~4,280 oz Au) — Sleeping Giant, NI 43-101 InnovExplo Dec 2022",
+  "resource_indicated": "744,100 t at 7.01 g/t Au (~167,800 oz Au) — Sleeping Giant, NI 43-101 InnovExplo Dec 2022",
+  "resource_inferred": "884,000 t at 8.74 g/t Au (~248,300 oz Au) — Sleeping Giant, NI 43-101 InnovExplo Dec 2022",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 1192393720,
+  "shares_fully_diluted": 1978908414,
+
+  "share_instruments": [
+    {"type": "warrant", "count": 116340557, "strike_price": 0.096, "expiry": "2028-07-03", "notes": "Nebari Partners LLC warrants; expiry is July 3, 2028 or 30 days after Nebari debt repayment, whichever is earlier"},
+    {"type": "warrant", "count": 68905000, "strike_price": 0.15, "expiry": "2031-01-30", "notes": "Glencore AG warrants; strike escalates to C$0.20 from month 37 (Jan 2029); 60-month term from Jan 30, 2026; issued with US$30M senior debt and offtake"},
+    {"type": "warrant", "count": 556812337, "strike_price": 0.075, "expiry": null, "notes": "Residual warrants from prior private placements and earlier Nebari tranches; weighted average strike ~C$0.075; multiple expiry tranches not individually disclosed in press releases"},
+    {"type": "option", "count": 44456800, "strike_price": 0.075, "expiry": null, "notes": "Employee and director stock options; average exercise price C$0.075; individual expiry tranches not disclosed in press releases"}
+  ]
+}
