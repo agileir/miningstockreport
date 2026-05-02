@@ -1,26 +1,26 @@
 [
   {
-    "ticker": "CDE",
+    "ticker": "DSV",
     "exchange": "TSX"
   },
   {
-    "ticker": "EDV",
+    "ticker": "EFR",
     "exchange": "TSX"
   },
   {
-    "ticker": "AG",
+    "ticker": "OLA",
     "exchange": "TSX"
   },
   {
-    "ticker": "GMIN",
+    "ticker": "PRU",
     "exchange": "TSX"
   },
   {
-    "ticker": "NTR",
+    "ticker": "SSRM",
     "exchange": "TSX"
   },
   {
-    "ticker": "STNG",
-    "exchange": "CSE"
+    "ticker": "TFPM",
+    "exchange": "TSX"
   }
 ]

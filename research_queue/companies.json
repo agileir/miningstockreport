@@ -24,6 +24,22 @@
     "jurisdiction": "Peru"
   },
   {
+    "ticker": "ALMA",
+    "name": "Alma Gold Inc.",
+    "exchange": "OTHER",
+    "website": "https://almagoldinc.ca",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Guinea"
+  },
+  {
+    "ticker": "ALS",
+    "name": "Altius Minerals Corporation",
+    "exchange": "TSX",
+    "website": "https://altiusminerals.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Newfoundland and Labrador"
+  },
+  {
     "ticker": "AHR",
     "name": "Amarc Resources Ltd.",
     "exchange": "TSXV",
@@ -40,11 +56,43 @@
     "jurisdiction": "New Mexico"
   },
   {
+    "ticker": "ANT",
+    "name": "Anteros Metals Inc.",
+    "exchange": "OTHER",
+    "website": "https://anterosmetals.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Newfoundland and Labrador"
+  },
+  {
     "ticker": "AFX",
     "name": "Arctic Fox Lithium Corp.",
     "exchange": "OTHER",
     "website": "https://www.arcticfoxlithium.com",
     "primary_commodity": "Lithium",
     "jurisdiction": "Quebec"
+  },
+  {
+    "ticker": "ARQ",
+    "name": "Argo Gold Inc.",
+    "exchange": "OTHER",
+    "website": "https://argogold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Ontario"
+  },
+  {
+    "ticker": "ASHL",
+    "name": "Ashley Gold Corp.",
+    "exchange": "OTHER",
+    "website": "https://ashleygoldcorp.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Ontario"
+  },
+  {
+    "ticker": "AG",
+    "name": "First Majestic Silver Corp.",
+    "exchange": "TSX",
+    "website": "https://www.firstmajestic.com",
+    "primary_commodity": "Silver",
+    "jurisdiction": "Sonora, Mexico"
   }
 ]
