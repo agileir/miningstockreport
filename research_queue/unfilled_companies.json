@@ -1,26 +1,26 @@
 [
   {
-    "ticker": "DSV",
+    "ticker": "AII",
     "exchange": "TSX"
   },
   {
-    "ticker": "EFR",
+    "ticker": "GC",
+    "exchange": "CSE"
+  },
+  {
+    "ticker": "KNT",
     "exchange": "TSX"
   },
   {
-    "ticker": "OLA",
+    "ticker": "LIBR",
+    "exchange": "CSE"
+  },
+  {
+    "ticker": "MAU",
     "exchange": "TSX"
   },
   {
-    "ticker": "PRU",
-    "exchange": "TSX"
-  },
-  {
-    "ticker": "SSRM",
-    "exchange": "TSX"
-  },
-  {
-    "ticker": "TFPM",
+    "ticker": "TECK.B",
     "exchange": "TSX"
   }
 ]

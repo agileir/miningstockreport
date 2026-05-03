@@ -1,5 +1,21 @@
 [
   {
+    "ticker": "ATC",
+    "name": "ATERRA Metals Inc.",
+    "exchange": "OTHER",
+    "website": "https://aterrametals.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Chile"
+  },
+  {
+    "ticker": "ATX",
+    "name": "ATEX Resources Inc.",
+    "exchange": "TSXV",
+    "website": "https://atexresources.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Atacama Region"
+  },
+  {
     "ticker": "ABI",
     "name": "Abcourt Mines Inc.",
     "exchange": "TSXV",
@@ -64,6 +80,14 @@
     "jurisdiction": "Newfoundland and Labrador"
   },
   {
+    "ticker": "ATMY",
+    "name": "Antimony Resources Corp.",
+    "exchange": "OTHER",
+    "website": "https://antimonyresources.ca",
+    "primary_commodity": "Antimony",
+    "jurisdiction": "New Brunswick"
+  },
+  {
     "ticker": "AFX",
     "name": "Arctic Fox Lithium Corp.",
     "exchange": "OTHER",
@@ -88,11 +112,35 @@
     "jurisdiction": "Ontario"
   },
   {
+    "ticker": "ATHA",
+    "name": "Athena Gold Corporation",
+    "exchange": "OTHER",
+    "website": "https://athenagoldcorp.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Ontario"
+  },
+  {
+    "ticker": "ATY",
+    "name": "Atico Mining Corporation",
+    "exchange": "TSXV",
+    "website": "https://aticomining.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Colombia"
+  },
+  {
     "ticker": "AG",
     "name": "First Majestic Silver Corp.",
     "exchange": "TSX",
     "website": "https://www.firstmajestic.com",
     "primary_commodity": "Silver",
     "jurisdiction": "Sonora, Mexico"
+  },
+  {
+    "ticker": "AUCU",
+    "name": "Inflection Resources Ltd.",
+    "exchange": "OTHER",
+    "website": "https://inflectionresources.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "New South Wales"
   }
 ]
