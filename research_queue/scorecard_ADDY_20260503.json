@@ -1,0 +1,42 @@
+{
+  "ticker": "ADDY",
+  "exchange": "CSE",
+  "management_score": 2,
+  "management_notes": "James Nelson is President; Frank Bain (P.Geo.) is director and QP. Company was formerly Spearmint Resources, rebranded to Adelayde Exploration in June 2025. Multi-commodity scatter-shot approach (lithium clay Nevada, lithium brine Nevada JV, tungsten New Brunswick, antimony New Brunswick, gold Quebec, gold Nevada) typical of early-stage CSE shells. No verified insider ownership data or notable track record found.",
+  "geology_score": 2,
+  "geology_notes": "McGee Lithium Clay (Clayton Valley, NV): 320 Mt @ 803 ppm Li (1,369,000 t LCE Indicated); 157 Mt @ 865 ppm Li (723,000 t LCE Inferred) — NI 43-101, Jun 2022. Adjacent to SLB and Century Lithium. Lithium clay economics remain challenging industry-wide and the 2022 resource predates severe lithium bear market. Multiple other early-stage projects (tungsten, antimony, gold) are all grass-roots with no resource estimates.",
+  "capital_score": 3,
+  "capital_notes": "Approximately 28.78M shares outstanding post-Oct 2025 placement; Dec 2025 private placement added ~17.75M shares (9.675M NFT units at $0.10 + 8.073M FT units at $0.13), bringing estimated total to ~46.5M shares. Dec 2025 placement issued 618,000 warrants at $0.20 and 72,000 warrants at $0.25 (both 2-year terms). Oct 2025 raised capital for Nevada gold drilling — 19.1M units at $0.05. Market cap ~C$5M. Lean structure but very thin liquidity.",
+  "catalyst_score": 2,
+  "catalyst_notes": "Multiple early-stage work programs active (Sisson North tungsten geophysical survey Apr 2026, George Lake South antimony survey May 2026, Perron-East gold Quebec planning, Clayton Valley brine JV exploration). Nevada gold drill program funded from Oct 2025. No imminent resource milestones. Lithium market fundamentally weak — McGee clay unlikely to attract capital until lithium recovers. Catalysts are thin and diffuse across too many projects.",
+  "acquisition_score": 2,
+  "acquisition_notes": "McGee lithium clay resource (2,092,000 t LCE total) is significant by tonnage, but lithium clay deposits face processing challenges and the sector has de-rated sharply. No comparable transactions suggest lithium clay assets are priced cheaply now. Other projects are grass-roots. No M&A interest expected until lithium fundamentals improve materially.",
+  "verdict": "AVOID",
+  "analyst_summary": "Adelayde is a CSE grass-roots multi-project explorer with a scattered commodity focus (lithium, tungsten, antimony, gold) and no near-term resource catalysts. The McGee lithium clay deposit has a legitimate 2022 NI 43-101 resource but lithium clay economics are unfavorable and the asset is unlikely to attract capital in the current lithium bear market. The company's pivot toward critical minerals (tungsten, antimony) is strategically responsive but adds execution risk across too many fronts simultaneously.",
+  "confidence": "low",
+  "nav_per_share": null,
+  "current_price": null,
+  "resource_measured": "",
+  "resource_indicated": "320 Mt @ 803 ppm Li (1,369,000 t LCE) — McGee Lithium Clay, Clayton Valley NV; NI 43-101 Jun 2022",
+  "resource_inferred": "157 Mt @ 865 ppm Li (723,000 t LCE) — McGee Lithium Clay, Clayton Valley NV; NI 43-101 Jun 2022",
+  "reserve_proven": "",
+  "reserve_probable": "",
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 618000,
+      "strike_price": 0.20,
+      "expiry": "2027-12-01",
+      "notes": "618,000 NFT warrants at $0.20 for 2 years from Dec 2025 private placement closing"
+    },
+    {
+      "type": "warrant",
+      "count": 72000,
+      "strike_price": 0.25,
+      "expiry": "2027-12-01",
+      "notes": "72,000 warrants at $0.25 for 2 years from Dec 2025 private placement closing"
+    }
+  ]
+}

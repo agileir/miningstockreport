@@ -1,0 +1,42 @@
+{
+  "ticker": "ATY",
+  "exchange": "TSXV",
+  "management_score": 3,
+  "management_notes": "CEO Fernando Ganoza has 25+ years of Latin American mining experience, including mine development at Fortuna Silver Mines and strategic planning at Cargill. Directly owns 3.07% of shares — meaningful skin in the game. Management has a track record of operating El Roble as a producing mine since acquisition, though the short remaining mine life tests execution on the La Plata development pipeline.",
+  "geology_score": 3,
+  "geology_notes": "El Roble NI 43-101 resource (effective March 12, 2024): M&I 881,000 tonnes at 3.40% Cu and 2.98 g/t Au. Proven and Probable reserves 828,000 tonnes at 2.49% Cu and 2.20 g/t Au. High grade but small tonnage — current life of mine extends to Q1 2027. Recent drill intercepts include 10m at 6.77% Cu and 10.2m at 6.26% Cu confirming ore body extensions at depth. La Plata (Ecuador) is the growth asset — pre-development stage with a Q2-Q3 2026 construction decision targeted.",
+  "capital_score": 3,
+  "capital_notes": "~181M shares outstanding (Aug 2025 data). Rights offering closed mid-2025. Debt restructuring with Trafigura completed June 2025. 7.15M stock options granted at $0.19 for 5 years. Dundee debenture amended at 12% rate with 1M warrants added. Moderate dilution risk but capital structure complexity from multiple debt instruments and warrant tranches. Market cap ~C$54M vs trailing 12-month revenue of $80.7M.",
+  "catalyst_score": 3,
+  "catalyst_notes": "La Plata (Ecuador) construction decision targeted Q2-Q3 2026 — the most significant near-term catalyst as it would substantially extend mine life beyond El Roble's Q1 2027 end date. Q1 2026 production of 2.09M lbs Cu and 2,108 oz Au came in slightly below the full-year pace needed to meet 2026 guidance of 11.5-12.5M lbs Cu. El Roble in-mine drilling results ongoing.",
+  "acquisition_score": 3,
+  "acquisition_notes": "Trading at ~C$54M market cap with M&I resources of 881K tonnes at 3.40% Cu / 2.98 g/t Au. At analyst consensus target of C$0.60 (vs current ~C$0.30), stock appears to trade at a significant discount to NAV — this discount is justified by the mine-life cliff risk if La Plata does not advance on schedule. If La Plata secures permits and a construction decision is made, acquisition value improves materially.",
+  "verdict": "WATCH",
+  "analyst_summary": "Atico is a producing copper-gold miner with high-grade El Roble resources but a mine life extending only to Q1 2027 — making the La Plata (Ecuador) development decision in Q2-Q3 2026 existential for the company's value. The stock trades at roughly half the analyst consensus target, implying meaningful upside if La Plata progresses, but the mine-life cliff and complex debt structure (Trafigura, Dundee debenture) create real downside risk if development milestones slip. CEO Ganoza's insider ownership and track record are reassuring but cross-border development execution risk is high.",
+  "confidence": "low",
+  "nav_per_share": null,
+  "current_price": null,
+  "resource_measured": "",
+  "resource_indicated": "881,000 tonnes at 3.40% Cu and 2.98 g/t Au (M&I combined, March 2024 NI 43-101)",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "828,000 tonnes at 2.49% Cu and 2.20 g/t Au (P&P combined, March 2024 NI 43-101)",
+  "shares_issued_outstanding": 181400000,
+  "shares_fully_diluted": null,
+  "share_instruments": [
+    {
+      "type": "option",
+      "count": 7151055,
+      "strike_price": 0.19,
+      "expiry": null,
+      "notes": "Incentive stock options granted to directors, officers, employees and consultants; 5-year term"
+    },
+    {
+      "type": "warrant",
+      "count": 1000000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Non-transferable warrants issued as part of Dundee debenture amendment; strike at 30% premium to market price at issuance, 2-year term"
+    }
+  ]
+}

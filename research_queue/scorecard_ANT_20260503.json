@@ -1,0 +1,42 @@
+{
+  "ticker": "ANT",
+  "exchange": "CSE",
+  "management_score": 3,
+  "management_notes": "Trumbull Fisher (17 years mining/capital markets, multiple public company roles), Alan Rootenberg (35+ years corporate finance, CPA-CA), and Wesley Keats (22 years metals industry, 7 countries) form a credible but unproven-at-Anteros team. Company listed on CSE January 31, 2025 — very early stage public company. No insider ownership percentages found in public sources.",
+  "geology_score": 2,
+  "geology_notes": "Four 100%-owned properties in Newfoundland and Labrador targeting Cu, Co, Ni, Mn, Zn. Hopedale (Ni-Cu-Co, 80 km south of Voisey's Bay, untested EM conductors). Havens Steady VMS (2025 sampling confirms mineralization strike extension; resource estimate work planned). Knob Lake (iron-manganese, advanced stage, historical resource noted but not NI 43-101 compliant). No current NI 43-101 resource published. Very early stage.",
+  "capital_score": 3,
+  "capital_notes": "34.36M shares outstanding at listing (January 2025), increasing by ~23.9% over the year through private placements. May 2026 placement: 6.6M flow-through units at $0.065 and 11.7M hard-dollar units at $0.05, raising ~$1.015M. Warrants: each unit carries half-warrant at $0.10/share for 24 months with acceleration at $0.15. Finder's warrants: ~727,400 issued. Share count is relatively modest for a junior but the company is burning cash at exploration stage.",
+  "catalyst_score": 2,
+  "catalyst_notes": "Inaugural resource estimate for Havens Steady VMS is the stated next milestone — no timeline confirmed. Hopedale EM conductors remain untested. No earn-in partner or major company backing. Flow-through financing in May 2026 suggests active exploration but no specific drill start date announced. The Knob Lake iron-manganese historical resource could be brought to NI 43-101 standard but is not a copper asset.",
+  "acquisition_score": 2,
+  "acquisition_notes": "No NI 43-101 resource exists for any copper/base metal asset, making P/NAV incalculable. Proximity to Voisey's Bay for Hopedale is a geological positive, but the property has not yet been drilled by Anteros. Very small company — recent placements at $0.05-$0.065/unit suggest a very low enterprise value. No acquisition premium can be assigned without a defined resource.",
+  "verdict": "AVOID",
+  "analyst_summary": "Anteros Metals is a newly listed Newfoundland multi-mineral explorer with credible geological targets — particularly Hopedale's Voisey's Bay proximity — but zero NI 43-101 resources, a very limited exploration track record as a public company, and a capital base that supports only small-scale programs. The May 2026 flow-through raise at $0.065 demonstrates ongoing shareholder dilution at low prices. The story requires patience through multiple years of exploration work before any resource upside materializes.",
+  "confidence": "low",
+  "nav_per_share": null,
+  "current_price": null,
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+  "shares_issued_outstanding": 34360000,
+  "shares_fully_diluted": null,
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 9159539,
+      "strike_price": 0.10,
+      "expiry": null,
+      "notes": "Half-warrant per unit from Oct-Nov 2025 and May 2026 private placements; 24-month term from issuance; acceleration clause if stock trades above $0.15 for 10 consecutive days."
+    },
+    {
+      "type": "warrant",
+      "count": 727400,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Finder's warrants issued in connection with private placement tranches."
+    }
+  ]
+}

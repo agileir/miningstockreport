@@ -1,0 +1,42 @@
+{
+  "ticker": "ATX",
+  "exchange": "TSXV",
+  "management_score": 5,
+  "management_notes": "CEO Ben Pullinger (P.Geo., 20+ years international exploration, formerly SVP Exploration ATEX, Golden Star, Roxgold). Chairman Craig Nelsen discovered Pascua, El Morro, and Cerro Corona in 40-year career. Director Fabian Figueroa brings 20 years of Chilean Cu porphyry experience from Teck and Lumina Copper. Director Alejandra Wood is ex-Codelco and BHP Billiton. Agnico Eagle invested C$55M as cornerstone; Pierre Lassonde is second-largest shareholder.",
+  "geology_score": 5,
+  "geology_notes": "Valeriano is one of the largest undeveloped copper-gold porphyry systems globally. Sep 2025 NI 43-101: Indicated 475 Mt @ 0.88% CuEq (0.58% Cu, 0.25 g/t Au, 1.39 g/t Ag, 70.4 g/t Mo); Inferred 1,511 Mt @ 0.75% CuEq (0.50% Cu, 0.20 g/t Au). High grade for porphyry class. Phase VI 25,000m drill program ongoing 2026. Resource open at depth and laterally.",
+  "capital_score": 4,
+  "capital_notes": "345M shares outstanding as of Dec 2025; C$863M market cap. Over C$100M cash on hand — well-funded for multi-year drill program. 21.057M $2.50 warrants exercised subsequent to year end; 42.3M warrants still outstanding. Post-exercise ~368M shares issued. Relatively clean structure for the size; Agnico Eagle and Lassonde cornerstone positions reduce retail float overhang concerns.",
+  "catalyst_score": 4,
+  "catalyst_notes": "Aggressive 25,000m Phase VI drill program underway in 2026. Ongoing resource expansion and upgrade (Inferred to Indicated) expected throughout 2026. No PEA published yet — this is the next major value inflection catalyst likely in 2026-2027. Valeriano scale warrants potential major acquisition interest.",
+  "acquisition_score": 4,
+  "acquisition_notes": "Trading at approximately US$0.01/lb CuEq in ground — competitive with recent copper porphyry M&A precedents (Lumina Copper acquired at ~$0.015-0.02/lb). Agnico Eagle C$55M cornerstone investment validates asset quality. No PEA yet so formal NAV unavailable, but CuEq resource tonnage and grade compare favorably to projects that have traded at 2-4x current implied value in acquisition scenarios.",
+  "verdict": "BUY",
+  "analyst_summary": "ATEX is a rare large-scale copper-gold porphyry play with institutional-grade management, over C$100M in cash, and a globally significant resource (475 Mt Indicated + 1,511 Mt Inferred at 0.88% and 0.75% CuEq respectively). Agnico Eagle's C$55M cornerstone and Pierre Lassonde's presence provide strong legitimacy. The lack of a PEA keeps valuation uncertainty high, but the resource trajectory and management pedigree suggest material re-rating potential as a PEA advances. At ~US$0.01/lb CuEq this looks undervalued relative to comparable acquisition precedents.",
+  "confidence": "high",
+  "nav_per_share": null,
+  "current_price": null,
+  "resource_measured": "",
+  "resource_indicated": "475 Mt @ 0.88% CuEq (0.58% Cu, 0.25 g/t Au, 1.39 g/t Ag, 70.4 g/t Mo) — NI 43-101, Sep 2025",
+  "resource_inferred": "1,511 Mt @ 0.75% CuEq (0.50% Cu, 0.20 g/t Au, 1.16 g/t Ag, 70.6 g/t Mo) — NI 43-101, Sep 2025",
+  "reserve_proven": "",
+  "reserve_probable": "",
+  "shares_issued_outstanding": 345000000,
+  "shares_fully_diluted": 410300000,
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 42300000,
+      "strike_price": 2.50,
+      "expiry": null,
+      "notes": "42.3M warrants outstanding at $2.50 following exercise of 21.057M warrants subsequent to Dec 31, 2025 year-end"
+    },
+    {
+      "type": "option",
+      "count": 250000,
+      "strike_price": 2.19,
+      "expiry": null,
+      "notes": "250,000 options granted to Dr. Rainaud at $2.19 for five years; total option pool size not confirmed in available sources"
+    }
+  ]
+}

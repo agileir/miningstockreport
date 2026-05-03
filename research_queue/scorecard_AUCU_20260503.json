@@ -1,0 +1,42 @@
+{
+  "ticker": "AUCU",
+  "exchange": "CSE",
+  "management_score": 3,
+  "management_notes": "President & CEO Alistair Waddell leads a technically focused team targeting Tier-1 Cu-Au porphyry and IOCG deposits in Australia. The company secured a landmark earn-in agreement with AngloGold Ashanti — a major global gold miner — which is the strongest third-party validation of project quality and management's ability to attract institutional partners. AngloGold holds 9.9% equity interest after completing Phase I expenditures of AUD $10M. Specific insider ownership data not verified.",
+  "geology_score": 3,
+  "geology_notes": "Largest landholder in the Macquarie Arc (New South Wales) with 549,000+ ha of exploration licenses and applications. No JORC-compliant resource estimate exists; company is in active drilling phase. AngloGold designated four projects (Duck Creek, Trangie, Crooked Creek, Nyngan) to Phase II of the earn-in after completing Phase I. In June 2025, Inflection acquired additional Cu-Au projects from Newmont Corporation in NSW and Northern Territory, expanding the portfolio. High-grade gold discovery at Trangie reported in 2025-2026 is a material development but no resource yet defined.",
+  "capital_score": 3,
+  "capital_notes": "~127.3M shares outstanding. March 2026 oversubscribed private placement raised $3,345,000 at $0.25/unit (13.38M units with half-warrants at $0.40 for 24 months; 547,900 finder warrants at $0.40). AngloGold holds 9.9% as a strategic anchor shareholder. The earn-in structure means AngloGold funds exploration on designated projects, preserving Inflection's treasury. Market cap ~C$28M. Reasonably clean capital structure for the stage.",
+  "catalyst_score": 4,
+  "catalyst_notes": "AngloGold Phase II earn-in underway on four projects (AUD $7M/project over 3 years, up to AUD $20M/project in Phase III) — ongoing exploration newsflow expected throughout 2026. Six standalone 100%-owned Cu-Au targets commenced drilling in early 2026 in northern NSW. Trangie high-grade gold discovery being followed up. Newmont portfolio acquisition (mid-2025) substantially expanded the drill pipeline. Multiple near-term drill results expected.",
+  "acquisition_score": 3,
+  "acquisition_notes": "No JORC resource yet, but AngloGold earn-in provides meaningful implied validation — AngloGold committed to spend up to AUD $135M across the portfolio. The Macquarie Arc is a recognized Tier-1 Cu-Au porphyry address (hosts Cadia Valley, Ridgeway). At ~C$28M market cap with AngloGold as exploration-funding partner and 549,000+ ha, the land position appears undervalued relative to comparable grassroots NSW explorers. Pre-resource stage limits P/NAV precision.",
+  "verdict": "WATCH",
+  "analyst_summary": "Inflection Resources is one of the more compelling early-stage stories in this cohort: the largest landholder in the NSW Macquarie Arc with AngloGold Ashanti actively funding exploration on four projects under a potentially $135M earn-in. The partnership structure preserves Inflection's cash while providing continuous drill newsflow at no direct cost to shareholders. The Trangie high-grade gold discovery and 2026 drilling across six standalone targets create multiple re-rating opportunities. The main risk is that all projects remain pre-resource, making fundamental valuation speculative.",
+  "confidence": "low",
+  "nav_per_share": null,
+  "current_price": null,
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+  "shares_issued_outstanding": 127288569,
+  "shares_fully_diluted": null,
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 6690000,
+      "strike_price": 0.40,
+      "expiry": "2028-03-01",
+      "notes": "Half-warrants from March 2026 PP (13.38M units at $0.25 = 6,690,000 whole warrants); 24-month term from closing"
+    },
+    {
+      "type": "warrant",
+      "count": 547900,
+      "strike_price": 0.40,
+      "expiry": "2028-03-01",
+      "notes": "Finder warrants from March 2026 PP; 24-month term; all March 2026 securities restricted until July 19, 2026"
+    }
+  ]
+}
