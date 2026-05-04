@@ -1,0 +1,52 @@
+{
+  "ticker": "AMX",
+  "exchange": "TSXV",
+
+  "management_score": 4,
+  "management_notes": "CEO Victor Cantore has maintained a consistent insider-buying posture across multiple price levels, holding ~4.82M shares as of September 2025 with documented open-market purchases at cycle lows. Eldorado Gold raised its stake to 27.27% (non-diluted) in December 2025 via a C$59.5M open-market purchase at C$4.00/share — a strong institutional endorsement from a peer operator already running the Lamaque mine in Quebec. Management executed the exploration-to-feasibility arc on schedule: MRE May 2025, updated PEA Q4 2025, Phase 1 FS delivered April 13, 2026. Capital deployment has been disciplined: C$34.2M equity raised in mid-2025 was directly tagged to FS work. Score held at 4/5 rather than 5/5 because total insider ownership excluding Eldorado remains moderate, and cumulative share issuance since 2023 has grown the float meaningfully from historical levels.",
+
+  "geology_score": 5,
+  "geology_notes": "World-class high-grade gold deposit in the Abitibi belt, Tier 1 Quebec jurisdiction. The NI 43-101 technical report (effective October 2025, SEDAR+ date 2025-10-17) is the verified source for resource figures used here. Underground M+I component grades 7.10 g/t Au across the 5,281 kt component; combined surface+underground M+I is 7,801 kt at 5.83 g/t Au (1,461 koz). The 172% increase in M+I tonnage and 43% grade improvement over the 2024 estimate represents genuine discovery growth across multiple zones (Champagne, Denise, Gratien, Grey Cat, Team). April 2026 Feasibility Study converted Phase 1 material to 774 koz of Reserves at 12.10 g/t Au — among the highest reserve grades on any Canadian gold project advancing to construction. Metallurgy underpinned by toll-mill arrangement. No significant metallurgical risk identified. Score 5/5.",
+
+  "capital_score": 3,
+  "capital_notes": "Verified cap-table from MD&A filing (SEDAR+ date 2026-04-21, SHA256-tracked): 142,825,186 shares issued and outstanding; 148,204,936 fully diluted. Net dilution overhang is only 5,379,750 shares (1,979,750 warrants + 3,400,000 options), which is materially lower than the ~10.5M overhang estimated in the prior scorecard — a positive update. Strike prices and expiry dates for instruments were not recoverable from the MD&A summary table; they are recorded as null pending a detailed share-capital note review. Eldorado's December 2025 purchase at C$4.00 was secondary-market (no new share issuance). Cash reported ~C$32.6M as of Q4 2025. The remaining constraint is Phase 1 capex of C$193.9M, which must be financed via project debt, streaming, equity, or a takeout before the 2028 targeted first gold — dilution risk to fund construction is real. 3/5 reflects a tight share structure and strong cash position against a material remaining financing hurdle.",
+
+  "catalyst_score": 5,
+  "catalyst_notes": "Catalyst pipeline remains exceptionally dense. April 13, 2026 Phase 1 Feasibility Study is the cornerstone event: post-tax NPV C$1.127B at US$3,500/oz, IRR 114.6%, AISC US$910/oz, payback 0.5 years, Phase 1 mine life 5 years producing ~150 koz/yr. Upcoming: (1) Q1 2026 financial results expected May 12, 2026 — first set of results post-FS, likely to show cash preservation and FS-related expenditures; (2) financing decision / strategic partnership announcement with Eldorado Gold (27.27% holder, natural acquirer or project lender); (3) Quebec permitting milestones for Phase 1 build targeting 2028 first gold; (4) continued exploration drilling on Champagne, Denise, Gratien, Grey Cat, Team zones for Phase 2 resource expansion; (5) potential toll-mill agreement finalization. News flow density is high; share price has appreciated ~460% over the trailing twelve months reflecting this optionality crystallizing. 5/5.",
+
+  "acquisition_score": 4,
+  "acquisition_notes": "Acquisition setup is among the cleanest available in junior gold: Eldorado Gold holds 27.27% of issued shares, acquired in two tranches in 2025 (including open-market top-up at C$4.00 in December 2025), and already operates Lamaque in the same Quebec mining district. With the FS now public and Phase 1 showing post-tax NPV C$1.127B, P/NAV math is straightforward: at ~142.8M shares and recent price appreciation, P/NAV remains at a meaningful discount to comparable Canadian high-grade gold acquisition comps (0.7–1.2x P/NAV over trailing 24 months). Eldorado's blocking position (~27%) creates both a floor — no rival bid works without their consent — and a ceiling on premium if Eldorado opts for a staged takeout rather than full acquisition. Score 4/5: acquisition thesis is structurally sound, but Eldorado may prefer to underwrite project financing rather than a full bid at current prices, and the lack of a competing strategic creates uncertainty on timing and premium.",
+
+  "verdict": "BUY",
+  "analyst_summary": "Amex Exploration (TSXV:AMX) has completed the most significant de-risking arc available to a junior gold company: a world-class Abitibi discovery (1.615 Moz M+I at 6.14 g/t Au, Oct 2025 NI 43-101) supported by a positive Phase 1 Feasibility Study (April 13, 2026) showing post-tax NPV C$1.127B, IRR 114.6%, AISC US$910/oz, 0.5-year payback, and Phase 1 reserves of 774 koz at 12.10 g/t Au — one of the highest reserve grades on any modern Canadian gold project advancing to construction.\n\nThis scorecard upgrades confidence from LOW to HIGH. The primary reason for the prior LOW flag was that cap-table data was estimated from press releases rather than filed documents. The May 2026 filing harvest has now produced a SHA256-tracked MD&A (SEDAR+ date 2026-04-21): 142,825,186 shares outstanding and 148,204,936 fully diluted. The net dilution overhang is only 5,379,750 shares — materially better than the ~10.5M estimated prior. Individual warrant/option strike prices and expiry dates were not recoverable from the MD&A summary table (strike/expiry null in extracted data) but counts are filing-verified.\n\nThe shareholder register is anchored by Eldorado Gold at 27.27% (non-diluted), the natural strategic acquirer given their Quebec footprint at Lamaque. Upcoming Q1 2026 financial results (expected May 12, 2026) and a financing/partnership announcement are the next near-term catalysts. Phase 1 capex of C$193.9M is the key remaining hurdle — project finance, streaming, or a takeout are all plausible paths. Composite score 4+5+3+5+4 = 21 → BUY.",
+  "confidence": "high",
+
+  "nav_per_share": 7.89,
+  "current_price": null,
+
+  "resource_measured": "Meas 48 1.10 0.20 2 0 333 14.20 0.57 152 5 382 12.54 0.47 154 6",
+  "resource_indicated": "Ind 2,520 3.16 0.91 256 74 5,281 7.10 2.19 1,205 311 7,801 5.83 1.54 1,461 385",
+  "resource_inferred": "Inf 1,044 2.02 1.20 68 42 4,000 4.90 4.14 631 497 5,044 4.31 3.32 698 538",
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 142825186,
+  "shares_fully_diluted": 148204936,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 1979750,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Warrant count from MD&A filing 2026-04-21; strike/expiry not extracted from summary table"
+    },
+    {
+      "type": "option",
+      "count": 3400000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Option count from MD&A filing 2026-04-21; strike/expiry not extracted from summary table"
+    }
+  ]
+}
