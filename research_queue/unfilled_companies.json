@@ -1,26 +1,26 @@
 [
   {
-    "ticker": "AII",
+    "ticker": "AAUC",
     "exchange": "TSX"
   },
   {
-    "ticker": "GC",
-    "exchange": "CSE"
-  },
-  {
-    "ticker": "KNT",
+    "ticker": "ARIS",
     "exchange": "TSX"
   },
   {
-    "ticker": "LIBR",
-    "exchange": "CSE"
-  },
-  {
-    "ticker": "MAU",
+    "ticker": "NGEX",
     "exchange": "TSX"
   },
   {
-    "ticker": "TECK.B",
+    "ticker": "PDN",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "PPTA",
+    "exchange": "TSX"
+  },
+  {
+    "ticker": "WGX",
     "exchange": "TSX"
   }
 ]
