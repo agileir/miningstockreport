@@ -1,0 +1,40 @@
+name: Auto-merge verdict scorecards
+
+# The verdict-research-agent (claude.ai/code/scheduled) pushes nightly scorecard
+# batches to feature branches like `claude/eloquent-newton-XYZ` instead of main,
+# which means the droplet's process_research_queue.sh cron never sees them.
+# This workflow merges any such branch into main automatically when its head
+# commit message mentions "verdict scorecard".
+
+on:
+  push:
+    branches:
+      - 'claude/**'
+
+permissions:
+  contents: write
+
+jobs:
+  auto-merge:
+    if: contains(github.event.head_commit.message, 'verdict scorecard')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Merge agent branch into main
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          git fetch origin "$BRANCH"
+          git merge --no-ff "origin/$BRANCH" \
+            -m "Auto-merge $BRANCH" \
+            -m "${{ github.event.head_commit.message }}"
+          git push origin main
