@@ -1,0 +1,35 @@
+{
+  "ticker": "AAG",
+  "exchange": "TSXV",
+  "management_score": 3,
+  "management_notes": "Named to 2026 OTCQX Best 50, suggesting solid investor relations. Closed C$10M private placement with Eric Sprott (22.2M units at $0.45) — Sprott's participation is a meaningful quality signal. DRA Global appointed to lead PFS, indicating competent third-party engineering engagement. Management appears capable of advancing through PFS stage. No specific insider ownership percentages confirmed in available sources.",
+  "geology_score": 4,
+  "geology_notes": "Berenguela Silver-Cu-Mn (Peru) Dec 2025 NI 43-101 MRE: M&I 51.55 Mt containing 122.5 Moz Ag, 717.1 Mlb Cu, 2.93 Mt Mn (28.3% increase in M&I tonnage). Inferred: 22.0 Moz Ag. Cut-off NSR USD $137.40. High-purity manganese sulphate monohydrate (HPMSM) identified as ~75% of resource value — a critical battery material providing economic diversification. 439 drill holes / 44,842m of data. Grade moderate for silver (~74 g/t Ag) but manganese and copper co-credits are significant economic drivers.",
+  "capital_score": 3,
+  "capital_notes": "268M shares outstanding (2025); diluted average ~305M (Q3 2025). Eric Sprott private placement: 22.2M units at $0.45, each with 0.5 warrant at $0.70 for 36 months (approx 11.1M warrants). Previous warrant exercises (13.2M warrants exercised since March 2025) shows active warrant conversion. Capital structure is manageable for the project stage, though further dilution expected for PFS and eventual feasibility work.",
+  "catalyst_score": 4,
+  "catalyst_notes": "Pre-Feasibility Study launched February 2026 with DRA Global as lead — 12-month timeline targets Q1 2027 completion. Phase 3 diamond drill assay results released March 2026. PFS is the dominant 12-month catalyst. Potential for resource upgrade from ongoing drilling. Silver price tailwind (strong 2025-2026) adds near-term leverage. Peru permitting risk manageable given established community relations.",
+  "acquisition_score": 4,
+  "acquisition_notes": "122.5 Moz M&I Ag equivalent makes this one of the larger undeveloped silver deposits in Latin America. Manganese-silver-copper poly-metallic profile enhances economic robustness. Sprott involvement at $0.45/unit (current price ~$0.60) implies near-term re-rating potential. Comparable silver developers with 100M+ oz M&I in Peru/Mexico have traded at $0.50-2.00/oz Ag in ground at various stages; at current price this appears undervalued if PFS delivers positive economics.",
+  "verdict": "WATCH",
+  "analyst_summary": "Aftermath Silver has one of the more compelling silver development stories in the junior sector, with a 122.5 Moz M&I silver resource at Berenguela (Peru) carrying significant manganese and copper co-credits. The December 2025 resource upgrade (28% increase in M&I tonnage), Eric Sprott's C$10M cornerstone, and the launch of a PFS with DRA Global all point to a well-managed advancement strategy. The 12-month PFS timeline is the key catalyst; positive PFS economics would likely drive meaningful re-rating. Maintain WATCH pending PFS results and Peru permitting clarity.",
+  "confidence": "high",
+  "nav_per_share": null,
+  "current_price": null,
+  "resource_measured": "",
+  "resource_indicated": "51.55 Mt total M&I containing 122.5 Moz Ag, 717.1 Mlb Cu, 2.93 Mt Mn @ NSR cut-off USD $137.40 — NI 43-101, Nov 2025",
+  "resource_inferred": "22.0 Moz Ag — NI 43-101, Nov 2025",
+  "reserve_proven": "",
+  "reserve_probable": "",
+  "shares_issued_outstanding": 268000000,
+  "shares_fully_diluted": 305000000,
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 11111111,
+      "strike_price": 0.70,
+      "expiry": null,
+      "notes": "Approx 11.1M warrants at $0.70 for 36 months from Sprott C$10M PP (22.2M units at $0.45, each with 0.5 warrant)"
+    }
+  ]
+}

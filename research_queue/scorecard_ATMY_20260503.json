@@ -1,0 +1,42 @@
+{
+  "ticker": "ATMY",
+  "exchange": "CSE",
+  "management_score": 3,
+  "management_notes": "CEO James R. Atkinson (M.Sc., P.Geo.) has served as CEO since October 2024 and is the QP on technical disclosures. Company issued 6.716M stock options at $0.50 and 13.347M RSUs to directors, officers, and consultants. However, the BC Securities Commission ordered a revision of the company's Bald Hill NI 43-101 technical report in March 2026 after finding it did not comply with NI 43-101 guidelines — a material governance/disclosure concern that tempers the management score.",
+  "geology_score": 3,
+  "geology_notes": "Bald Hill antimony project in New Brunswick is the flagship. Conceptual exploration target: ~2.7Mt at 3.0-4.0% Sb (~81,000-108,000t contained Sb) — but this is NOT a compliant NI 43-101 resource. The BCSC ordered revision of the technical report in March 2026 for non-compliance. Stibnite exposed over 150m of trenching. 12,500m of definition drilling completed; maiden resource estimate targeted by May 2026 with 11,000m expansion drilling funded and planned from mid-May 2026. Up to 30% antimony grades reported in massive stibnite drill core intercepts.",
+  "capital_score": 3,
+  "capital_notes": "100.82M shares outstanding as of late March 2026. Market cap ~CAD $120-164M range in Q1 2026. 6,104,400 shares issued from warrant exercises in February 2026, raising $1.21M. $9.4M financing closed December 2025 funds the 2026 drill campaign. 6.716M options at $0.50 and 13.347M RSUs outstanding. Share count has grown materially through warrant exercises — overhang is moderate but manageable given the exploration-stage funding requirements.",
+  "catalyst_score": 4,
+  "catalyst_notes": "Maiden NI 43-101 resource estimate for Bald Hill is imminent — targeted for completion around May 2026 and would be a major re-rating catalyst if antimony grades and tonnage are confirmed. 11,000m expansion drilling campaign starting mid-May 2026 will follow immediately. Environmental permitting roadmap initiated with GEMTEC. Antimony is a critical mineral with tight global supply, and geopolitical tensions around Chinese antimony export restrictions provide a strong macro tailwind.",
+  "acquisition_score": 3,
+  "acquisition_notes": "No compliant NI 43-101 resource yet — the regulatory correction is a material negative for valuation anchoring. However, high-grade antimony (up to 30% Sb in massive stibnite) in a North American jurisdiction commands significant strategic value given Chinese antimony export restrictions. At ~$120-160M market cap with no resource, the market is pricing in substantial conceptual value. Comparable antimony projects (pre-resource) in the Western world are extremely rare, which supports a scarcity premium.",
+  "verdict": "WATCH",
+  "analyst_summary": "Antimony Resources holds one of the most strategically relevant mineral projects in Canada given Chinese export restrictions on antimony and Western defense/battery demand. Bald Hill shows high-grade stibnite mineralization over meaningful widths and the maiden NI 43-101 resource is expected imminently in May 2026. However, the BCSC-ordered technical report revision is a significant red flag that should give investors pause until compliant disclosure is published and independently verified. Watch for the compliant resource estimate before adding exposure.",
+  "confidence": "low",
+  "nav_per_share": null,
+  "current_price": null,
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+  "shares_issued_outstanding": 100820000,
+  "shares_fully_diluted": null,
+  "share_instruments": [
+    {
+      "type": "option",
+      "count": 6716000,
+      "strike_price": 0.50,
+      "expiry": null,
+      "notes": "Stock options granted to directors, officers and consultants."
+    },
+    {
+      "type": "option",
+      "count": 13347000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Restricted Share Units (RSUs) granted to directors, officers and consultants."
+    }
+  ]
+}

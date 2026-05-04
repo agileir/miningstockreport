@@ -1,0 +1,56 @@
+{
+  "ticker": "ABI",
+  "exchange": "TSXV",
+  "management_score": 3,
+  "management_notes": "Gérard Mestrallet holds 18.52% of issued shares (220.7M shares + 107.1M warrants + 3.25M options = 25.43% fully diluted) — meaningful insider alignment. Abcourt achieved its first gold pour at Sleeping Giant on September 11, 2025, demonstrating operational execution. Secured US$30M senior debt facility and offtake with Glencore January 2026. Ramp-up to 30,000 oz/year in progress with 143 employees as of March 2026. Operationally capable but the large share count (1.19B+) reflects years of dilutive financing.",
+  "geology_score": 3,
+  "geology_notes": "Sleeping Giant (NI 43-101, Dec 2022): Indicated 755,000t @ 7.14 g/t Au (173,330 oz Au); Inferred 884,000t @ 8.74 g/t Au (248,300 oz Au). Elder Mine: M+I 486,525t @ ~11.2 g/t Au (~171,000 oz); Inferred 93,100t @ 11.85 g/t (~35,000 oz). High-grade underground gold; modest total resource base (~530,000 oz combined). Mine is fully permitted with 950 tpd mill and infrastructure in place.",
+  "capital_score": 2,
+  "capital_notes": "1,193,348,720 shares issued and outstanding as of March 2026 — very high share count typical of long-running micro-cap. Nebari holds 116.3M warrants; Glencore received 68.9M warrants (exercisable at C$0.15 for 36 months then C$0.20 for remaining 24 months of 60-month term). Mestrallet holds 107.1M warrants + 3.25M options. US$30M Glencore debt facility adds leverage. Total fully diluted share count likely exceeds 1.5B.",
+  "catalyst_score": 4,
+  "catalyst_notes": "Mine in active production ramp-up targeting 30,000 oz/year. First long-hole stopes expected early summer 2026 — the key production scaling catalyst. Q1 2026 operations update showed record production metrics. First long-hole drill commissioned underground April 2026. Glencore offtake provides revenue certainty. Ramp-up trajectory toward cash flow generation is the dominant near-term catalyst.",
+  "acquisition_score": 3,
+  "acquisition_notes": "At ~C$0.08/share with ~1.19B shares = ~C$95M market cap. Targeting 30,000 oz/year at ~$1,600 AISC with gold at ~$3,000+/oz suggests strong operating margins at steady state. Complex capital structure with Glencore debt and warrant overhang limits takeover premium potential. A 30,000 oz/year operation at $1,400/oz margin = ~$42M/year EBITDA implies ~2x EV/EBITDA which is cheap if ramp succeeds.",
+  "verdict": "WATCH",
+  "analyst_summary": "Abcourt is transitioning from developer to producer at Sleeping Giant, with gold pours achieved in September 2025 and a ramp toward 30,000 oz/year backed by Glencore's US$30M debt and offtake. The high-grade underground resource and fully permitted 950 tpd mill are genuine assets. However, the bloated share count (1.19B+) and complex warrant structure (Glencore, Nebari, management) create significant dilution risk and limit per-share upside. Worth watching as the next 2-3 quarters of production validate or disappoint the ramp model.",
+  "confidence": "high",
+  "nav_per_share": null,
+  "current_price": null,
+  "resource_measured": "10,900t @ 12.20 g/t Au (~4,275 oz Au) — Elder Mine",
+  "resource_indicated": "Sleeping Giant: 755,000t @ 7.14 g/t Au (173,330 oz Au); Elder Mine: 475,625t @ 11.20 g/t Au (~171,000 oz Au)",
+  "resource_inferred": "Sleeping Giant: 884,000t @ 8.74 g/t Au (248,300 oz Au); Elder Mine: 93,100t @ 11.85 g/t Au (~35,000 oz Au)",
+  "reserve_proven": "",
+  "reserve_probable": "",
+  "shares_issued_outstanding": 1193348720,
+  "shares_fully_diluted": null,
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 68905000,
+      "strike_price": 0.15,
+      "expiry": null,
+      "notes": "Glencore warrants: $0.15 exercise for first 36 months, then $0.20 for remaining 24 months of 60-month term; issued Jan 2026"
+    },
+    {
+      "type": "warrant",
+      "count": 116340557,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Nebari Partners warrants representing ~10.3% of shares on partially diluted basis as of Sep 2025"
+    },
+    {
+      "type": "warrant",
+      "count": 107100000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Mestrallet / insider warrants (part of 25.43% fully diluted holding)"
+    },
+    {
+      "type": "option",
+      "count": 3250000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Mestrallet stock options"
+    }
+  ]
+}

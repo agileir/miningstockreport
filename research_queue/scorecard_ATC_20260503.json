@@ -1,0 +1,35 @@
+{
+  "ticker": "ATC",
+  "exchange": "CSE",
+  "management_score": 2,
+  "management_notes": "CEO Carl Hansen leads the rebranded company (formerly Cascada Silver, renamed ATERRA Metals Dec 2025). Chief Geologist Francisco Bravo is the QP but noted as 'not independent.' Management pivoted from silver to copper-gold in Chile, which raises a flag on strategic consistency. No verified insider ownership data publicly available. Small team at early stage.",
+  "geology_score": 2,
+  "geology_notes": "Flagship Totora Cu/Au project in Region III, Chile — Phase I drill program (2,500m at Totora + 500m at Frontera) commenced early 2026. Historical resources at Frontera: 16 Mt indicated @ 0.56% CuEq and 34 Mt inferred @ 0.54% CuEq — NOT NI 43-101 compliant. Company targeting maiden NI 43-101 resource estimate in Q3 2026. No current compliant resource.",
+  "capital_score": 2,
+  "capital_notes": "Closed $2.78M non-brokered private placement January 2026 of 139M units at $0.02/unit. Each unit = 1 share + 0.5 warrant (exercise price $0.05 for 36 months). Pre-placement share count not precisely verified from filings; post-placement total shares estimated in range of 400-600M but not confirmed. Very low unit price ($0.02) signals micro-cap distress. ~69.5M warrants at $0.05 represent meaningful overhang.",
+  "catalyst_score": 3,
+  "catalyst_notes": "Phase I drilling underway at Totora as of April 2026. Company targeting Q3 2026 maiden NI 43-101 resource estimate — the key near-term catalyst. Drill results expected before resource. Historical RC holes show copper-gold porphyry system over 800m strike with results like 142m @ 0.58% CuEq.",
+  "acquisition_score": 2,
+  "acquisition_notes": "No current compliant resource, so P/NAV is not calculable. Historical (non-43-101) resources at Frontera suggest a potentially economic porphyry but grade is modest (~0.56% CuEq indicated). Trading at ~$0.02-0.03/share with implied EV under $10M — extremely speculative. No comparable transaction analysis possible without a resource.",
+  "verdict": "AVOID",
+  "analyst_summary": "ATERRA is a high-risk pre-resource copper-gold explorer that recently pivoted its entire strategy via a name change and new projects. The company is burning through a $2.78M raise to drill a historically drilled but never NI 43-101 classified porphyry system. Until the Q3 2026 resource estimate is published and demonstrates economic viability, this is speculative capital with high dilution risk given the warrant-heavy structure at $0.02/unit.",
+  "confidence": "low",
+  "nav_per_share": null,
+  "current_price": null,
+  "resource_measured": "",
+  "resource_indicated": "16 Mt @ 0.56% CuEq (historical, non-43-101 compliant, Frontera deposit)",
+  "resource_inferred": "34 Mt @ 0.54% CuEq (historical, non-43-101 compliant, Frontera deposit)",
+  "reserve_proven": "",
+  "reserve_probable": "",
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 69500000,
+      "strike_price": 0.05,
+      "expiry": "2029-01-01",
+      "notes": "Approx 69.5M warrants from Jan 2026 PP (139M units at $0.02, each with 0.5 warrant); 36-month term from closing"
+    }
+  ]
+}

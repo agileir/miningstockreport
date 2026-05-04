@@ -1,0 +1,56 @@
+{
+  "ticker": "AFX",
+  "exchange": "CSE",
+  "management_score": 2,
+  "management_notes": "Kirby Renton serves as Director, President and CEO. Rick Mah appointed as CFO in March 2026 (replacing Sonny Chew who resigned). Limited public track record for management team. Company completed a share consolidation in November 2025, suggesting the stock was trading at very low prices. Phase 2 exploration at Pontax North returned only 'marginally anomalous' lithium results — management has been pivoting strategy. Recent acquisition of Shipshaw REE/niobium property in February 2026 represents a commodity pivot away from lithium.",
+  "geology_score": 1,
+  "geology_notes": "Pontax North Lithium Project (5,716 ha, northern Quebec): Phase 2 exploration returned only marginally anomalous lithium results across all 18 samples from 6 target areas — a very disappointing outcome. Delta Lake Lithium Project (1,056 ha, Quebec): no material results reported. Shipshaw Property (2,685.73 ha, Saguenay, Quebec): REE and niobium target acquired February 2026 for CAD $2M — no exploration results. No NI 43-101 resource for any property. Lithium market remains severely depressed in 2025-2026.",
+  "capital_score": 2,
+  "capital_notes": "Following November 2025 share consolidation: ~7.05M shares post-consolidation, rapidly expanding through 2026 private placements. March 2026 first tranche: 6,744,000 units at $0.24 (with warrants at $0.315, 24-month expiry). April 2026 final tranche: 5,756,000 units at $0.24 (same warrants). Broker warrants: 472,080 at $0.315 (March tranche) + 402,920 (April tranche). Post-placements, basic shares outstanding approximately 19.5M. Near-term warrant overhang at $0.315 is meaningful relative to current price.",
+  "catalyst_score": 1,
+  "catalyst_notes": "No near-term catalyst identified. Phase 2 lithium results were disappointing. Shipshaw REE/Nb property is freshly acquired with no exploration program announced. Lithium market remains in a severe downturn with no near-term price recovery signals. The commodity pivot to REE/Nb requires entirely new technical and market positioning. No earn-in partners, no major company backing, no resource estimate timeline.",
+  "acquisition_score": 1,
+  "acquisition_notes": "Zero resource estimates across all properties. Lithium exploration results were sub-anomalous. REE/Nb Shipshaw property is brand-new with no technical data. No P/NAV can be calculated. The CAD $2M acquisition of Shipshaw compares unfavorably to the company's limited cash position. At a post-consolidation share price near $0.24 (placement price), the market cap is barely above cash; any exploration failure would be terminal for current shareholders.",
+  "verdict": "AVOID",
+  "analyst_summary": "Arctic Fox Lithium has pivoted from a failed lithium exploration story to a REE/niobium exploration story at the worst possible time — lithium market is depressed, lithium results were sub-anomalous, management track record is unproven, and the Shipshaw REE/Nb acquisition is entirely undrilled. The share consolidation, multiple private placements, and management changes in rapid succession signal a company struggling to create value. There is no geological data supporting any meaningful valuation at this stage. Capital allocated here is better deployed elsewhere.",
+  "confidence": "high",
+  "nav_per_share": null,
+  "current_price": null,
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+  "shares_issued_outstanding": 19500000,
+  "shares_fully_diluted": null,
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 6744000,
+      "strike_price": 0.315,
+      "expiry": "2028-03-23",
+      "notes": "Warrants from March 2026 first tranche private placement at $0.24/unit; one warrant per unit."
+    },
+    {
+      "type": "warrant",
+      "count": 5756000,
+      "strike_price": 0.315,
+      "expiry": "2028-04-10",
+      "notes": "Warrants from April 2026 final tranche private placement at $0.24/unit; one warrant per unit."
+    },
+    {
+      "type": "warrant",
+      "count": 472080,
+      "strike_price": 0.315,
+      "expiry": "2028-03-23",
+      "notes": "Broker warrants issued in connection with March 2026 tranche."
+    },
+    {
+      "type": "warrant",
+      "count": 402920,
+      "strike_price": 0.315,
+      "expiry": "2028-04-10",
+      "notes": "Broker warrants issued in connection with April 2026 final tranche."
+    }
+  ]
+}
