@@ -1,0 +1,44 @@
+{
+  "ticker": "AMX",
+  "extracted_at": "2026-05-04T20:05:52+00:00",
+  "sources": {
+    "cap_table_source": {
+      "bucket": "mda",
+      "date": "20260421",
+      "local_path": "mda-20260421.pdf",
+      "sha256": "944fcbfdbac8c49f895259625529c84c9eacd15b8cf24af56f2e0df58452533b"
+    },
+    "tech_43101_source": {
+      "date": "20251017",
+      "local_path": "tech_43101-20251017-7e894bf5.pdf",
+      "sha256": "36451b6ad0ee1c69a6718d34131f736d4087133db7d44de78d35f15f912ca4ea"
+    }
+  },
+  "shares_issued_outstanding": 142825186,
+  "shares_fully_diluted": 148204936,
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 1979750,
+      "strike_price": null,
+      "expiry": null,
+      "raw": "summary count only \u2014 strike/expiry not extracted from MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 3400000,
+      "strike_price": null,
+      "expiry": null,
+      "raw": "summary count only \u2014 strike/expiry not extracted from MD&A summary table"
+    }
+  ],
+  "resource_measured": "Meas 48 1.10 0.20 2 0 333 14.20 0.57 152 5 382 12.54 0.47 154 6",
+  "resource_indicated": "Ind 2,520 3.16 0.91 256 74 5,281 7.10 2.19 1,205 311 7,801 5.83 1.54 1,461 385",
+  "resource_inferred": "Inf 1,044 2.02 1.20 68 42 4,000 4.90 4.14 631 497 5,044 4.31 3.32 698 538",
+  "reserve_proven": null,
+  "reserve_probable": null,
+  "extraction_notes": [
+    "computed fully_diluted = outstanding + 1979750 warrants + 3400000 options",
+    "no warrant/option lines matched the strict pattern"
+  ]
+}

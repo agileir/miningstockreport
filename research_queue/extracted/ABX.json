@@ -1,0 +1,24 @@
+{
+  "ticker": "ABX",
+  "extracted_at": "2026-05-04T20:05:57+00:00",
+  "sources": {
+    "cap_table_source": {
+      "bucket": "aif",
+      "date": "20260227",
+      "local_path": "aif-20260227.pdf",
+      "sha256": "94fba975db3c2cc8f1cb0fb95e8c9c97d83b000fedee2849380734d9d745e48c"
+    }
+  },
+  "shares_issued_outstanding": 1675360395,
+  "shares_fully_diluted": null,
+  "share_instruments": [],
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+  "extraction_notes": [
+    "no warrant/option lines matched the strict pattern",
+    "no 43-101 in cache"
+  ]
+}

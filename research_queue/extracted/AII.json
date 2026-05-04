@@ -1,0 +1,16 @@
+{
+  "ticker": "AII",
+  "extracted_at": "2026-05-04T20:05:52+00:00",
+  "sources": {},
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": [],
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+  "extraction_notes": [
+    "no manifest.json"
+  ]
+}
