@@ -1,0 +1,98 @@
+[
+  {
+    "ticker": "AAUC",
+    "name": "Allied Gold Corporation",
+    "exchange": "TSX",
+    "website": "https://alliedgold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Mali"
+  },
+  {
+    "ticker": "ARIS",
+    "name": "Aris Mining Corporation",
+    "exchange": "TSX",
+    "website": "https://aris-mining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Colombia"
+  },
+  {
+    "ticker": "AZEM",
+    "name": "Arizona Eagle Mining Corp.",
+    "exchange": "TSXV",
+    "website": "https://arizonaeaglemining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Arizona"
+  },
+  {
+    "ticker": "BMT",
+    "name": "Bahia Metals Corp.",
+    "exchange": "OTHER",
+    "website": "https://www.bahiametals.com",
+    "primary_commodity": "Nickel",
+    "jurisdiction": "Bahia, Brazil"
+  },
+  {
+    "ticker": "BAR",
+    "name": "Barranco Gold Mining Corp.",
+    "exchange": "OTHER",
+    "website": "https://barrancogold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "British Columbia"
+  },
+  {
+    "ticker": "BATX",
+    "name": "Battery X Metals Inc.",
+    "exchange": "OTHER",
+    "website": "https://www.batteryxmetals.com",
+    "primary_commodity": "Lithium",
+    "jurisdiction": "Saskatchewan"
+  },
+  {
+    "ticker": "BCM",
+    "name": "Bear Creek Mining Corporation",
+    "exchange": "TSXV",
+    "website": "https://bearcreekmining.com",
+    "primary_commodity": "Silver",
+    "jurisdiction": "Peru"
+  },
+  {
+    "ticker": "BZ",
+    "name": "Benz Mining Corp.",
+    "exchange": "TSXV",
+    "website": "https://benzmining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Western Australia"
+  },
+  {
+    "ticker": "CG",
+    "name": "Centerra Gold Inc.",
+    "exchange": "TSX",
+    "website": "https://www.centerragold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "British Columbia"
+  },
+  {
+    "ticker": "CKG",
+    "name": "Chesapeake Gold Corp.",
+    "exchange": "TSXV",
+    "website": "Unknown",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Durango, Mexico"
+  },
+  {
+    "ticker": "CRI",
+    "name": "Churchill Resources Inc.",
+    "exchange": "TSXV",
+    "website": "https://www.churchillresources.com",
+    "primary_commodity": "Antimony",
+    "jurisdiction": "Newfoundland and Labrador"
+  },
+  {
+    "ticker": "CDE",
+    "name": "Coeur Mining, Inc.",
+    "exchange": "TSX",
+    "website": "https://www.coeur.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Nevada"
+  }
+]

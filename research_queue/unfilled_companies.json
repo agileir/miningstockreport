@@ -1,26 +1,26 @@
 [
   {
-    "ticker": "AAUC",
+    "ticker": "USA",
     "exchange": "TSX"
   },
   {
-    "ticker": "ARIS",
+    "ticker": "CIA",
     "exchange": "TSX"
   },
   {
-    "ticker": "NGEX",
+    "ticker": "ERO",
     "exchange": "TSX"
   },
   {
-    "ticker": "PDN",
+    "ticker": "IE",
     "exchange": "TSX"
   },
   {
-    "ticker": "PPTA",
-    "exchange": "TSX"
+    "ticker": "LUNR",
+    "exchange": "TSXV"
   },
   {
-    "ticker": "WGX",
+    "ticker": "SXGC",
     "exchange": "TSX"
   }
 ]
