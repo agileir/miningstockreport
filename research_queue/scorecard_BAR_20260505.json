@@ -1,0 +1,36 @@
+{
+  "ticker": "BAR",
+  "exchange": "OTC",
+
+  "management_score": 2,
+  "management_notes": "No warrant/option lines were extracted from the July 2025 MD&A, and the company IR website returned a 403 error. Management team composition and insider ownership are not determinable from available data. British Columbia-based gold juniors typically have teams with BC/Yukon exploration experience; without filing access this cannot be confirmed. A score of 2 reflects the absence of verifiable data.",
+
+  "geology_score": 2,
+  "geology_notes": "Barranco Gold Mining Corp. is a gold explorer in British Columbia. BC is one of the world's premier exploration jurisdictions — the Golden Triangle, Cariboo, and other districts have produced world-class deposits (Brucejack, Red Chris, KSM). The November 2024 NI 43-101 confirms the company has completed a technical study, but no resource or reserve rows were captured in the first 60 pages of the filing. Without a resource estimate, the specific project quality cannot be rated above 2. BC jurisdiction is a meaningful positive relative to most international alternatives.",
+
+  "capital_score": 3,
+  "capital_notes": "Shares issued and outstanding: 30,687,008 (from the July 2025 MD&A extract — the only cap-table field successfully extracted). This is a tight share structure for a junior gold explorer, which is structurally positive and limits dilution risk from the base count alone. However, fully diluted share count is null (extraction failed), so warrant and option overhang cannot be assessed — the tight basic count could be significantly offset by undisclosed instruments. No flow-through financing detail was extracted. A score of 3 acknowledges the positive signal from the tight basic share count while penalising for the unknown fully diluted structure.",
+
+  "catalyst_score": 1,
+  "catalyst_notes": "No near-term catalysts are identifiable from available data. A November 2024 NI 43-101 technical report signals the company has reached the technical study stage, which typically precedes a maiden resource estimate — this could be an upcoming catalyst. Without press release access or a completed resource, no specific catalyst timeline can be confirmed. BC permitting for exploration is well-established, removing a common early-stage risk.",
+
+  "acquisition_score": 1,
+  "acquisition_notes": "No resource estimate is available, making a P/NAV or per-ounce acquisition metric impossible to calculate. BC gold exploration assets can attract premium acquisition multiples when resource quality is demonstrated (recent transactions in the Golden Triangle have cleared C$100/oz), but without a resource, no per-ounce metric applies. Score of 1 reflects data absence, not a confirmed poor value position.",
+
+  "verdict": "AVOID",
+  "analyst_summary": "Barranco Gold Mining Corp. is an early-stage BC gold explorer with a tight basic share structure (30.7 million shares issued) and a November 2024 NI 43-101, both positive structural signals. However, no resource estimate was captured, fully diluted share count and instrument overhang are unknown, and the IR website was inaccessible during this run (HTTP 403). British Columbia is an excellent jurisdiction and the tight share count is noted favourably. This scorecard is filed as a low-confidence placeholder. Recommend re-queue once a maiden resource estimate is published and a complete MD&A with warrant/option detail is cached — at that point a meaningful Verdict Framework assessment becomes possible.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 30687008,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}
