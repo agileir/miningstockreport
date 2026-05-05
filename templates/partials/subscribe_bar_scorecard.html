@@ -1,0 +1,25 @@
+{# Subscribe CTA designed to drop into the main column of scorecard_detail.html
+   immediately after the Analyst Summary card. Source-tracked as 'scorecard'
+   so leads.Subscriber.source analytics show conversion from this placement. #}
+<div class="card bg-black border-warning border-2 mt-4">
+  <div class="card-body">
+    <div class="row align-items-center justify-content-between g-3">
+      <div class="col-lg-6">
+        <h5 class="text-warning fw-bold mb-1"><i class="bi bi-envelope-paper me-2"></i>Get every Verdict scorecard in your inbox</h5>
+        <p class="text-secondary mb-0 small">~6 new junior mining scorecards every night. Free. No spam. Unsubscribe anytime.</p>
+      </div>
+      <div class="col-lg-6">
+        <form action="{% url 'leads:subscribe' %}" method="post" id="scorecardSubscribeForm">
+          {% csrf_token %}
+          <input type="hidden" name="source" value="scorecard">
+          <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
+          <div class="input-group">
+            <input type="email" name="email" class="form-control bg-dark text-white border-secondary"
+                   placeholder="your@email.com" required>
+            <button class="btn btn-warning fw-bold" type="submit">Get Scorecards Free</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
