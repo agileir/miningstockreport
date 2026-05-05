@@ -1,0 +1,44 @@
+{
+  "ticker": "BCM",
+  "extracted_at": "2026-05-05T07:01:15+00:00",
+  "sources": {
+    "cap_table_source": {
+      "bucket": "mda",
+      "date": "20250417",
+      "local_path": "mda-20250417.pdf",
+      "sha256": "19f4ab93f2112bc5fbea671e6c2d982213c9045a98dc0a783ef7c1c05a622581"
+    },
+    "tech_43101_source": {
+      "date": "20250314",
+      "local_path": "tech_43101-20250314-1aa54ebe.pdf",
+      "sha256": "6b1d4d7dd81502cea3eb2391e1218662712feff6ab102f2a91c768942a9fcd94"
+    }
+  },
+  "shares_issued_outstanding": 28767399,
+  "shares_fully_diluted": 1031816888,
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 969638331,
+      "strike_price": null,
+      "expiry": null,
+      "raw": "summary count only \u2014 strike/expiry not extracted from MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 33411158,
+      "strike_price": null,
+      "expiry": null,
+      "raw": "summary count only \u2014 strike/expiry not extracted from MD&A summary table"
+    }
+  ],
+  "resource_measured": "Measured 793 6.62 58.10 169 1,481",
+  "resource_indicated": "Indicated 1,546 5.65 49.06 281 2,439",
+  "resource_inferred": "Inferred 383 5.26 36.06 65 445",
+  "reserve_proven": "Proven        9  4.25 24.67     1        7",
+  "reserve_probable": "Probable   419  3.94 22.67   53    305",
+  "extraction_notes": [
+    "computed fully_diluted = outstanding + 969638331 warrants + 33411158 options",
+    "no warrant/option lines matched the strict pattern"
+  ]
+}

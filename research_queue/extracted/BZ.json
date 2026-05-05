@@ -1,32 +1,27 @@
 {
-  "ticker": "AWCM",
-  "extracted_at": "2026-05-05T07:01:34+00:00",
+  "ticker": "BZ",
+  "extracted_at": "2026-05-05T07:01:32+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
-      "date": "20250828",
-      "local_path": "mda-20250828.pdf",
-      "sha256": "353c7027a7bd5bda5989a1779bd21a9027ecf19f2db8905fcfa48d47fa7f04af"
-    },
-    "tech_43101_source": {
-      "date": "20230320",
-      "local_path": "tech_43101-20230320-7843fd67.pdf",
-      "sha256": "e49d132fa9a15d4cdd4c7edfeff54ae595f8ea2964eef1bfb1fee0ea2908c55f"
+      "date": "20250731",
+      "local_path": "mda-20250731.pdf",
+      "sha256": "2cfe3a9ccc0e1b22209378f48bae16e2c26ca2d4bd229b5bc30bc0d56900968c"
     }
   },
-  "shares_issued_outstanding": 22747245,
-  "shares_fully_diluted": 27862133,
+  "shares_issued_outstanding": 258836364,
+  "shares_fully_diluted": 288540392,
   "share_instruments": [
     {
       "type": "warrant",
-      "count": 2514888,
+      "count": 2777778,
       "strike_price": null,
       "expiry": null,
       "raw": "summary count only \u2014 strike/expiry not extracted from MD&A summary table"
     },
     {
       "type": "option",
-      "count": 2600000,
+      "count": 26926250,
       "strike_price": null,
       "expiry": null,
       "raw": "summary count only \u2014 strike/expiry not extracted from MD&A summary table"
@@ -38,8 +33,8 @@
   "reserve_proven": null,
   "reserve_probable": null,
   "extraction_notes": [
-    "computed fully_diluted = outstanding + 2514888 warrants + 2600000 options",
+    "computed fully_diluted = outstanding + 2777778 warrants + 26926250 options",
     "no warrant/option lines matched the strict pattern",
-    "no resource/reserve table rows matched in first 60 pages"
+    "no 43-101 in cache"
   ]
 }

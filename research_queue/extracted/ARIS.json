@@ -1,0 +1,29 @@
+{
+  "ticker": "ARIS",
+  "extracted_at": "2026-05-05T07:01:51+00:00",
+  "sources": {
+    "cap_table_source": {
+      "bucket": "mda",
+      "date": "20260311",
+      "local_path": "mda-20260311.pdf",
+      "sha256": "f99930178cfb85e045e8095964cb3534781313b71b494ac58f35bdaca435f169"
+    },
+    "tech_43101_source": {
+      "date": "20251028",
+      "local_path": "tech_43101-20251028-b38ee3b5.pdf",
+      "sha256": "e10effab85dfa97ada50beac157d917d3347f4c21f45cceb90790b903fe794e2"
+    }
+  },
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": [],
+  "resource_measured": "Measured 48.4 1.31 1.8 0.14 2,030 2,747 150",
+  "resource_indicated": "Indicated 74.9 1.26 1.2 0.08 3,041 3,008 127",
+  "resource_inferred": "Inferred 11.4 1.13 0.7 0.04 414 275 9",
+  "reserve_proven": null,
+  "reserve_probable": null,
+  "extraction_notes": [
+    "could not locate issued-and-outstanding share count",
+    "no warrant/option lines matched the strict pattern"
+  ]
+}

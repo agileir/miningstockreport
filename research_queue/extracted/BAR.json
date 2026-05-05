@@ -1,0 +1,29 @@
+{
+  "ticker": "BAR",
+  "extracted_at": "2026-05-05T07:01:40+00:00",
+  "sources": {
+    "cap_table_source": {
+      "bucket": "mda",
+      "date": "20250724",
+      "local_path": "mda-20250724.pdf",
+      "sha256": "85400c308b0259a40e0cda8d10ef631f1a1404ccb805547031a2761634f36e20"
+    },
+    "tech_43101_source": {
+      "date": "20241108",
+      "local_path": "tech_43101-20241108-3ddb5441.pdf",
+      "sha256": "6caad2a6cd25cc668b56811c9c25bc9748d1b1a1a83571a2500e14363a13397d"
+    }
+  },
+  "shares_issued_outstanding": 30687008,
+  "shares_fully_diluted": null,
+  "share_instruments": [],
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+  "extraction_notes": [
+    "no warrant/option lines matched the strict pattern",
+    "no resource/reserve table rows matched in first 60 pages"
+  ]
+}

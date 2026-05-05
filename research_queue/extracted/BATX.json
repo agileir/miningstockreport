@@ -1,0 +1,38 @@
+{
+  "ticker": "BATX",
+  "extracted_at": "2026-05-05T07:01:45+00:00",
+  "sources": {
+    "cap_table_source": {
+      "bucket": "mda",
+      "date": "20260430",
+      "local_path": "mda-20260430.pdf",
+      "sha256": "f9cabab834e3b28cdc78b935071c779ea5cf580f6fccca30c6ef01d02a2df030"
+    },
+    "tech_43101_source": {
+      "date": "20251017",
+      "local_path": "tech_43101-20251017-0cd1e32a.pdf",
+      "sha256": "feaafd08ff0dde2f90553a0c348d6b0ef74a865a58a1e626c54877580f7f79ca"
+    }
+  },
+  "shares_issued_outstanding": 3586758,
+  "shares_fully_diluted": 4871033,
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 1284275,
+      "strike_price": null,
+      "expiry": null,
+      "raw": "summary count only \u2014 strike/expiry not extracted from MD&A summary table"
+    }
+  ],
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+  "extraction_notes": [
+    "computed fully_diluted = outstanding + 1284275 warrants + 0 options",
+    "no warrant/option lines matched the strict pattern",
+    "no resource/reserve table rows matched in first 60 pages"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "ticker": "AAUC",
+  "extracted_at": "2026-05-05T07:01:21+00:00",
+  "sources": {
+    "cap_table_source": {
+      "bucket": "mda",
+      "date": "20260331",
+      "local_path": "mda-20260331.pdf",
+      "sha256": "5aa0862aa226bbfb557d87c5107d730a3f4bf22c7a2a5af17dd63566105c91a8"
+    },
+    "tech_43101_source": {
+      "date": "20230907",
+      "local_path": "tech_43101-20230907-b65f049f.pdf",
+      "sha256": "32537a9abb10b36223a5d792ab6d39f65936919ba75664c75d8769430674e352"
+    }
+  },
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": [],
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": "The Proven and Probable Mineral Reserve as of 31 December 2022 is summarised by classification and",
+  "reserve_probable": "The Proven and Probable Mineral Reserve as of 31 December 2022 is summarised by classification and",
+  "extraction_notes": [
+    "could not locate issued-and-outstanding share count",
+    "no warrant/option lines matched the strict pattern"
+  ]
+}

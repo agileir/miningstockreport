@@ -1,0 +1,23 @@
+{
+  "ticker": "BMT",
+  "extracted_at": "2026-05-05T07:01:23+00:00",
+  "sources": {
+    "tech_43101_source": {
+      "date": "20260202",
+      "local_path": "tech_43101-20260202-c02de8d9.pdf",
+      "sha256": "9ab179d34213c74f42490025eae25f8f4423a35826a60e842799b9ae72fad4d7"
+    }
+  },
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": [],
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+  "extraction_notes": [
+    "no MD&A or AIF in cache",
+    "no resource/reserve table rows matched in first 60 pages"
+  ]
+}
