@@ -5,7 +5,8 @@
     "exchange": "TSX",
     "website": "https://alliedgold.com",
     "primary_commodity": "Gold",
-    "jurisdiction": "Mali"
+    "jurisdiction": "Mali",
+    "force": true
   },
   {
     "ticker": "ARIS",
@@ -13,7 +14,8 @@
     "exchange": "TSX",
     "website": "https://aris-mining.com",
     "primary_commodity": "Gold",
-    "jurisdiction": "Colombia"
+    "jurisdiction": "Colombia",
+    "force": true
   },
   {
     "ticker": "AZEM",
@@ -21,7 +23,8 @@
     "exchange": "TSXV",
     "website": "https://arizonaeaglemining.com",
     "primary_commodity": "Gold",
-    "jurisdiction": "Arizona"
+    "jurisdiction": "Arizona",
+    "force": true
   },
   {
     "ticker": "BMT",
@@ -29,7 +32,8 @@
     "exchange": "OTHER",
     "website": "https://www.bahiametals.com",
     "primary_commodity": "Nickel",
-    "jurisdiction": "Bahia, Brazil"
+    "jurisdiction": "Bahia, Brazil",
+    "force": true
   },
   {
     "ticker": "BAR",
@@ -37,6 +41,7 @@
     "exchange": "OTHER",
     "website": "https://barrancogold.com",
     "primary_commodity": "Gold",
-    "jurisdiction": "British Columbia"
+    "jurisdiction": "British Columbia",
+    "force": true
   }
 ]
