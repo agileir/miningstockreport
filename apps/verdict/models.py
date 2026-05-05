@@ -1,3 +1,5 @@
+from decimal import Decimal
+
 from django.db import models
 from django.urls import reverse
 from django.core.validators import MinValueValidator, MaxValueValidator
@@ -222,12 +224,19 @@ class VerdictScorecard(SEOMixin, models.Model):
         instruments = list(self.share_instruments.all())
         warrants = [i for i in instruments if i.type == ShareInstrumentType.WARRANT]
         options  = [i for i in instruments if i.type == ShareInstrumentType.OPTION]
+        # Flow-through shares are already counted in shares_issued_outstanding;
+        # they don't dilute further. They DO create overhead supply at hold
+        # release — surfaced separately below.
+        flow_through = [i for i in instruments if i.type == ShareInstrumentType.FLOW_THROUGH]
 
         warrants_total = sum(w.count for w in warrants)
         options_total  = sum(o.count for o in options)
         instruments_total = warrants_total + options_total
 
-        priced = [i for i in instruments if i.strike_price is not None]
+        # TSM math runs on warrants/options only.
+        priced = [i for i in instruments
+                  if i.type in (ShareInstrumentType.WARRANT, ShareInstrumentType.OPTION)
+                  and i.strike_price is not None]
 
         def _tsm(scenario_price):
             """Treasury stock method at a given price. Returns dict."""
@@ -258,14 +267,42 @@ class VerdictScorecard(SEOMixin, models.Model):
         warrants_priced = [w for w in warrants if w.strike_price is not None]
         options_priced  = [o for o in options  if o.strike_price is not None]
 
-        # Near-expiry: tranches expiring within 12 months of the scoring date
+        # Near-expiry: warrant/option tranches expiring within 12 months of the scoring date
         near_expiry_cutoff = self.scored_at.date() + timedelta(days=365)
         near_expiry = [
             i for i in instruments
-            if i.expiry and self.scored_at.date() <= i.expiry <= near_expiry_cutoff
+            if i.type in (ShareInstrumentType.WARRANT, ShareInstrumentType.OPTION)
+            and i.expiry and self.scored_at.date() <= i.expiry <= near_expiry_cutoff
         ]
         near_expiry.sort(key=lambda i: i.expiry)
         near_expiry_count = sum(i.count for i in near_expiry)
+
+        # ── Flow-through overhead supply analysis ──
+        # FT tranches are already in basic; the overhang is timing-based.
+        # Tranches whose hold is releasing within 12 months of scoring create
+        # potential selling pressure when the hold expires. Effective breakeven
+        # (issue_price × (1 − tax_shield_pct)) is the price at which FT holders
+        # are whole; trade above it implies overhead supply.
+        ft_releasing = [
+            i for i in flow_through
+            if i.hold_release_date
+            and self.scored_at.date() <= i.hold_release_date <= near_expiry_cutoff
+        ]
+        ft_releasing.sort(key=lambda i: i.hold_release_date)
+        ft_releasing_count = sum(i.count for i in ft_releasing)
+        ft_total_count = sum(i.count for i in flow_through)
+
+        # Weighted-average breakeven across releasing tranches with known issue_price
+        ft_priced = [i for i in ft_releasing if i.issue_price is not None]
+        ft_breakeven_wavg = None
+        ft_distance_pct = None
+        if ft_priced:
+            denom = sum(i.count for i in ft_priced)
+            ft_breakeven_wavg = (
+                sum(Decimal(i.count) * i.effective_breakeven for i in ft_priced) / Decimal(denom)
+            ).quantize(Decimal("0.0001"))
+            if price > 0:
+                ft_distance_pct = ((price - ft_breakeven_wavg) / ft_breakeven_wavg * Decimal(100)).quantize(Decimal("0.1"))
 
         # Sensitivity at fixed multipliers of scoring price
         multipliers = [Decimal("0.5"), Decimal("1.0"), Decimal("1.5"), Decimal("2.0"), Decimal("3.0")]
@@ -290,44 +327,86 @@ class VerdictScorecard(SEOMixin, models.Model):
             "near_expiry_count":    int(near_expiry_count),
             "headline":             headline,
             "sensitivity":          sensitivity,
+            # Flow-through overhead-supply view
+            "flow_through_total":          int(ft_total_count),
+            "flow_through_releasing":      ft_releasing,
+            "flow_through_releasing_count": int(ft_releasing_count),
+            "flow_through_breakeven_wavg":  ft_breakeven_wavg,
+            "flow_through_distance_pct":    ft_distance_pct,
+            "flow_through_tax_shield_pct":  FLOW_THROUGH_TAX_SHIELD_PCT,
         }
 
 
 class ShareInstrumentType(models.TextChoices):
-    WARRANT = "warrant", "Warrant"
-    OPTION  = "option",  "Option"
+    WARRANT      = "warrant",      "Warrant"
+    OPTION       = "option",       "Option"
+    FLOW_THROUGH = "flow_through", "Flow-through"
+
+
+# Default tax-shield assumption used to compute effective breakeven on
+# flow-through shares. Roughly the top-bracket Canadian effective rate
+# (federal + provincial + super-FT enhancements). Override at display
+# time if a per-jurisdiction model is added later.
+FLOW_THROUGH_TAX_SHIELD_PCT = Decimal("0.50")
 
 
 class ShareInstrument(models.Model):
     """
-    A tranche of warrants or options outstanding as of a given scorecard's
-    scoring date. Multiple rows per scorecard — one per strike/expiry tranche.
+    A tranche of warrants, options, or flow-through shares associated with a
+    scorecard. Multiple rows per scorecard — one per strike/expiry (warrants/
+    options) or per issue-price/hold-release (flow-through).
     """
     scorecard = models.ForeignKey(
         VerdictScorecard, on_delete=models.CASCADE, related_name="share_instruments",
     )
-    type = models.CharField(max_length=10, choices=ShareInstrumentType.choices)
-    count = models.PositiveBigIntegerField(help_text="Number of warrants or options in this tranche.")
+    type = models.CharField(max_length=20, choices=ShareInstrumentType.choices)
+    count = models.PositiveBigIntegerField(help_text="Number of warrants, options, or flow-through shares in this tranche.")
+    # Used by warrant/option tranches.
     strike_price = models.DecimalField(
         max_digits=10, decimal_places=4, null=True, blank=True,
-        help_text="Strike price (in the company's listing currency). Leave blank if unknown.",
+        help_text="Strike price (warrants/options). Leave blank if unknown.",
     )
-    expiry = models.DateField(null=True, blank=True, help_text="Expiry date. Leave blank if unknown.")
+    expiry = models.DateField(null=True, blank=True, help_text="Expiry date (warrants/options). Leave blank if unknown.")
+    # Used by flow-through tranches.
+    issue_price = models.DecimalField(
+        max_digits=10, decimal_places=4, null=True, blank=True,
+        help_text="Issue price (flow-through tranches). The headline placement price.",
+    )
+    hold_release_date = models.DateField(
+        null=True, blank=True,
+        help_text="Date the 4-month flow-through hold expires and shares free-trade.",
+    )
     notes = models.CharField(
         max_length=120, blank=True,
-        help_text="Optional label, e.g. 'Tranche A', 'Director options', 'Broker warrants'.",
+        help_text="Optional label, e.g. 'Tranche A', 'Director options', 'Critical-minerals super-FT'.",
     )
 
     class Meta:
-        ordering = ["type", "strike_price", "expiry"]
+        ordering = ["type", "strike_price", "issue_price", "expiry", "hold_release_date"]
 
     def __str__(self):
         bits = [self.get_type_display(), f"{self.count:,}"]
         if self.strike_price is not None:
             bits.append(f"@ {self.strike_price}")
+        if self.issue_price is not None:
+            bits.append(f"FT@ {self.issue_price}")
         if self.expiry:
             bits.append(self.expiry.isoformat())
+        if self.hold_release_date:
+            bits.append(f"release {self.hold_release_date.isoformat()}")
         return " ".join(bits)
+
+    @property
+    def effective_breakeven(self):
+        """
+        For flow-through tranches: the price at which an FT investor in the
+        top tax bracket recovers their after-tax cost. Above this price,
+        FT holders are profitable and create overhead supply at hold release.
+        Returns None for non-FT instruments or when issue_price is unknown.
+        """
+        if self.type != ShareInstrumentType.FLOW_THROUGH or self.issue_price is None:
+            return None
+        return (self.issue_price * (Decimal("1") - FLOW_THROUGH_TAX_SHIELD_PCT)).quantize(Decimal("0.0001"))
 
 
 class CompanyQueueStatus(models.TextChoices):

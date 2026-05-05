@@ -93,25 +93,40 @@ try:
         scored_at=timezone.now(),
     )
 
-    # Warrant and option tranches — agent emits 'share_instruments': [...]
+    # Warrant, option, and flow-through tranches — agent emits 'share_instruments': [...]
+    valid_types = {ShareInstrumentType.WARRANT, ShareInstrumentType.OPTION, ShareInstrumentType.FLOW_THROUGH}
+    def _parse_iso(v):
+        if isinstance(v, str):
+            try:
+                return date.fromisoformat(v)
+            except ValueError:
+                return None
+        return v
     instrument_count = 0
     for inst in (data.get('share_instruments') or []):
         inst_type = (inst.get('type') or '').lower()
-        if inst_type not in (ShareInstrumentType.WARRANT, ShareInstrumentType.OPTION):
+        if inst_type not in valid_types:
             print(f'  Skipped instrument with bad type: {inst!r}')
             continue
-        expiry = inst.get('expiry')
-        if isinstance(expiry, str):
-            try:
-                expiry = date.fromisoformat(expiry)
-            except ValueError:
-                expiry = None
+        # count is required by the schema. If the agent emits a flow-through
+        # entry without a count (visibility-only with date/notes), skip the
+        # tranche row — the FT mention should still surface in capital_notes
+        # per prompt instructions.
+        try:
+            count_val = int(inst.get('count') or 0)
+        except (TypeError, ValueError):
+            count_val = 0
+        if count_val <= 0:
+            print(f'  Skipped instrument without count: {inst!r}')
+            continue
         ShareInstrument.objects.create(
             scorecard=scorecard,
             type=inst_type,
-            count=int(inst['count']),
+            count=count_val,
             strike_price=inst.get('strike_price'),
-            expiry=expiry,
+            expiry=_parse_iso(inst.get('expiry')),
+            issue_price=inst.get('issue_price'),
+            hold_release_date=_parse_iso(inst.get('hold_release_date')),
             # 120-char CharField — truncate.
             notes=trunc(inst.get('notes') or '', 120),
         )

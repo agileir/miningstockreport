@@ -67,9 +67,10 @@ A laptop-side harvester downloads each company's filings from SEDAR+, extracts t
   "shares_fully_diluted": 148204936,
   "share_instruments": [
     {"type": "warrant", "count": 1979750, "strike_price": null, "expiry": null, "raw": "..."},
-    {"type": "option",  "count": 3400000, "strike_price": null, "expiry": null, "raw": "..."}
+    {"type": "option",  "count": 3400000, "strike_price": null, "expiry": null, "raw": "..."},
+    {"type": "flow_through", "count": 1000000, "issue_price": 0.50, "hold_release_date": "2026-08-15", "notes": "FT placement closed 2026-04-15 at $0.50"}
   ],
-  "resource_measured":  "Meas 48 1.10 0.20 ... 382 12.54 0.47 154 6",   // verbatim row from 43-101 table
+  "resource_measured":  "Meas 48 1.10 0.20 ... 382 12.54 0.47 154 6",
   "resource_indicated": "Ind 2,520 3.16 0.91 ... 7,801 5.83 1.54 1,461 385",
   "resource_inferred":  "Inf 1,044 2.02 1.20 ... 5,044 4.31 3.32 698 538",
   "reserve_proven":  null,
@@ -77,6 +78,8 @@ A laptop-side harvester downloads each company's filings from SEDAR+, extracts t
   "extraction_notes": ["..."]
 }
 ```
+
+`share_instruments` accepts three `type` values: `"warrant"`, `"option"`, `"flow_through"`. Flow-through tranches use `issue_price` + `hold_release_date` (instead of `strike_price` + `expiry`); the import handles both shapes.
 
 How to use it:
 1. After the hard-reset (step 1 of the inputs section), open `research_queue/extracted/<TICKER>.json` for the current ticker.
@@ -88,6 +91,16 @@ That's it. There is no PDF reading, no `~/sedar-cache/` lookup, no Reblaze fight
 ## Cap-table and resource fields — read straight from the extracted JSON
 
 All five resource/reserve fields and the three cap-table fields come from `research_queue/extracted/<TICKER>.json` — see "Pre-extracted filings data" below. Copy the values through; do not derive, validate, or fetch alternatives. Missing in the JSON → `null` / `[]` in the scorecard.
+
+**Flow-through visibility (important — do this even when the JSON is silent):**
+
+Flow-through shares matter for investors viewing the scorecard. Their structural risk is the 4-month hold-release overhang. We want them visible, not hidden.
+
+- If `share_instruments` includes any `type="flow_through"` entries, pass them through verbatim (count, issue_price, hold_release_date, notes).
+- If you observe a flow-through mention in any extracted-JSON content (`extraction_notes`, source filings cited there) but no structured tranche entry, AND you have `count` from that mention or from a press release referenced in the same filing: emit a `flow_through` entry with whatever fields you have, others null. Don't guess at unknowns; null is fine.
+- Regardless: if the company has any flow-through financing history (in the extracted JSON, in the filings cited there, or otherwise apparent from your existing knowledge of the company), explicitly mention it in `capital_notes`. One sentence — closing date(s), placement size if known, and a note about hold-release timing if a date is approximable. This is the visibility-through-narrative pathway that runs in parallel with the structured-tranche pathway. Both are valued.
+
+Do NOT fetch SEDAR+, EDGAR, or company press-release pages to enrich flow-through detail. The visibility comes from what's already in your context — extracted JSON + the filings cited there + your own training-data knowledge of the company.
 
 ## Things you must not do
 

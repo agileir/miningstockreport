@@ -298,6 +298,56 @@
             percent of basic. Near-expiry threshold is 12 months from the scoring date.
           </p>
 
+          {% if cap_table.flow_through_releasing %}
+          <div class="mt-4 pt-4 border-top border-secondary">
+            <div class="d-flex justify-content-between align-items-center mb-2 flex-wrap gap-2">
+              <span class="text-white fw-bold small text-uppercase"><i class="bi bi-clock-history text-warning me-1"></i>Flow-Through Hold Releases (next 12 mo)</span>
+              {% if cap_table.flow_through_breakeven_wavg %}
+              <span class="text-secondary small">
+                Wtd-avg breakeven:
+                <span class="text-warning fw-bold">{% if cur == 'TSX' or cur == 'TSXV' %}C{% elif cur == 'ASX' %}A{% elif cur == 'LSE' %}&pound;{% else %}US{% endif %}${{ cap_table.flow_through_breakeven_wavg|floatformat:2 }}</span>
+                {% if cap_table.flow_through_distance_pct is not None %}
+                  &middot; price is
+                  <span class="fw-bold {% if cap_table.flow_through_distance_pct > 0 %}text-danger{% else %}text-success{% endif %}">
+                    {{ cap_table.flow_through_distance_pct|floatformat:1 }}%
+                  </span>
+                  {% if cap_table.flow_through_distance_pct > 0 %}above{% else %}below{% endif %}
+                {% endif %}
+              </span>
+              {% endif %}
+            </div>
+            <table class="table table-dark table-sm mb-0" style="font-size:.8rem;">
+              <thead>
+                <tr class="text-secondary text-uppercase" style="font-size:.65rem;">
+                  <th class="border-secondary">Count</th>
+                  <th class="border-secondary text-end">Issue price</th>
+                  <th class="border-secondary text-end">Effective breakeven</th>
+                  <th class="border-secondary text-end">Hold release</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for ft in cap_table.flow_through_releasing %}
+                <tr>
+                  <td class="border-secondary text-white">{{ ft.count|intcomma }}</td>
+                  <td class="border-secondary text-end text-white">{% if ft.issue_price %}{% if cur == 'TSX' or cur == 'TSXV' %}C{% elif cur == 'ASX' %}A{% elif cur == 'LSE' %}&pound;{% else %}US{% endif %}${{ ft.issue_price|floatformat:2 }}{% else %}<span class="text-secondary">&mdash;</span>{% endif %}</td>
+                  <td class="border-secondary text-end text-warning">{% if ft.effective_breakeven %}{% if cur == 'TSX' or cur == 'TSXV' %}C{% elif cur == 'ASX' %}A{% elif cur == 'LSE' %}&pound;{% else %}US{% endif %}${{ ft.effective_breakeven|floatformat:2 }}{% else %}<span class="text-secondary">&mdash;</span>{% endif %}</td>
+                  <td class="border-secondary text-end text-warning">{{ ft.hold_release_date|date:"M Y" }}</td>
+                </tr>
+                {% if ft.notes %}<tr><td colspan="4" class="border-secondary text-secondary" style="font-size:.7rem;">{{ ft.notes }}</td></tr>{% endif %}
+                {% endfor %}
+              </tbody>
+            </table>
+            <p class="text-secondary mb-0 mt-2" style="font-size:.7rem;">
+              Flow-through shares are already in basic shares outstanding, so they don't add to
+              diluted-share math. The signal is timing: when the 4-month hold expires, FT holders
+              who bought primarily for the tax shield often exit, creating overhead supply at the
+              effective breakeven (issue price &times; (1 &minus; tax shield); assumed
+              {{ cap_table.flow_through_tax_shield_pct|floatformat:0 }}% top-bracket Canadian rate).
+              Above breakeven the overhang is active; below, it's a price ceiling on rallies.
+            </p>
+          </div>
+          {% endif %}
+
         </div>
       </div>
       {% endwith %}
@@ -403,6 +453,7 @@
               </thead>
               <tbody>
                 {% for inst in scorecard.share_instruments.all %}
+                {% if inst.type != 'flow_through' %}
                 <tr>
                   <td class="border-0 ps-0 text-white text-capitalize">{{ inst.get_type_display }}</td>
                   <td class="border-0 text-end text-white">{{ inst.count|intcomma }}</td>
@@ -410,6 +461,7 @@
                   <td class="border-0 text-end pe-0 text-white">{% if inst.expiry %}{{ inst.expiry|date:"M Y" }}{% else %}<span class="text-secondary">&mdash;</span>{% endif %}</td>
                 </tr>
                 {% if inst.notes %}<tr><td colspan="4" class="border-0 ps-0 text-secondary" style="font-size:.7rem;">{{ inst.notes }}</td></tr>{% endif %}
+                {% endif %}
                 {% endfor %}
               </tbody>
             </table>
