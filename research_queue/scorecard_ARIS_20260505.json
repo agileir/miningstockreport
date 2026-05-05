@@ -1,0 +1,36 @@
+{
+  "ticker": "ARIS",
+  "exchange": "TSX",
+
+  "management_score": 4,
+  "management_notes": "Aris Mining was formed through the merger of GCM Mining (formerly Gran Colombia Gold) and Aris Gold, uniting two experienced Colombian gold management teams. CEO Neil Woodyer brings decades of senior gold mining experience including a long tenure at Endeavour Mining where he built a multi-asset West African producer from scratch — directly relevant experience for integrating and scaling a Colombian portfolio. The combined team has deep in-country relationships and operational credibility. A 4 reflects genuine top-tier experience; the gap from 5 is Colombia's ongoing execution complexity and the integration risk inherent in any merger.",
+
+  "geology_score": 4,
+  "geology_notes": "Segovia Operations (Antioquia, Colombia) are high-grade underground gold mines — the Carla, Sandra K, and El Silencio vein systems have produced consistently above 10 g/t head grade, making them among the highest-grade operating gold mines in the Americas. Marmato Mine (Caldas) is a long-life underground operation being expanded into the Deep Zone (Lower Marmato), which hosts the bulk of the resource. Extracted resource table (October 2025 NI 43-101): Measured 48.4 Mt at 1.31 g/t Au / 1.8 g/t Ag / 0.14% Cu = 2,030 koz Au / 2,747 koz Ag / 150 kt Cu; Indicated 74.9 Mt at 1.26 g/t Au = 3,041 koz Au; Inferred 11.4 Mt at 1.13 g/t Au = 414 koz Au. This is a substantive multi-million-ounce resource base. Soto Norte (copper-gold porphyry) adds further optionality but faces a complex permitting environment.",
+
+  "capital_score": 3,
+  "capital_notes": "Cap-table data was not extractable from the March 2026 MD&A (no share-count pattern matched). As an active producing company that merged two listed entities, share count and instrument overhang will reflect the merger exchange ratios plus any subsequent financings. Colombian-operating gold companies frequently carry project-level debt tied to mine expansion capex. Warrant and option overhang cannot be quantified this run. No flow-through financing detail is determinable from available filing data; note that FT share structures are less common for Colombian-focused issuers than for Canadian exploration companies. A 3 reflects solid underlying business quality offset by the opacity of the post-merger capital structure.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Marmato Lower Mine development is the key growth catalyst — underground ramp access and first ore from the Deep Zone represent a step-change in throughput and resource conversion. Segovia Operations continue to be a catalyst engine through ongoing high-grade exploration and mine life extension (the district remains open along strike and at depth). Soto Norte permitting resolution would be a significant upside catalyst but timeline is uncertain given Colombia's environmental review process. Security risk in the Segovia district (illegal mining, BACRIM activity) remains an ongoing operational overhang.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "Colombian gold assets trade at a structural discount to comparable Canadian or Australian assets due to perceived security and regulatory risk, which compresses P/NAV multiples below what the underlying resource quality would otherwise command. ARIS's multiple producing mines and a combined resource base exceeding 5 Moz Au (M+I) positions it well on a per-ounce acquisition metric. Comparable transaction multiples for Colombian gold producers have ranged from $25–$60/oz resource — at the lower end of this range, the resource base implies meaningful upside to prevailing enterprise value for a patient acquirer. A 3 reflects the asset quality premium offset by the jurisdiction discount.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Aris Mining is a legitimate multi-asset gold producer with one of the highest-grade operating mine portfolios in the Americas (Segovia), a substantial Marmato resource being developed into a long-life underground operation, and management with a genuine track record of building gold companies in Latin America. The resource data extracted from the October 2025 technical report confirms a combined M+I base exceeding 5 Moz Au — a meaningful foundation for NAV. The cap-table structure is opaque this run, which prevents a precise P/NAV assessment. Colombia security and permitting risk (particularly for Soto Norte) keep this at WATCH rather than BUY. A position makes sense for investors already comfortable with Latin American jurisdiction risk who are looking for leveraged exposure to a Marmato Lower Mine development re-rate.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "Measured 48.4 1.31 1.8 0.14 2,030 2,747 150",
+  "resource_indicated": "Indicated 74.9 1.26 1.2 0.08 3,041 3,008 127",
+  "resource_inferred": "Inferred 11.4 1.13 0.7 0.04 414 275 9",
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}
