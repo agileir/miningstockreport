@@ -1,0 +1,36 @@
+{
+  "ticker": "AAUC",
+  "exchange": "TSX",
+
+  "management_score": 3,
+  "management_notes": "Allied Gold has demonstrated strong operational and financial growth (82% revenue increase YoY in 2025 to C$1.33B) and executed a strategic 50/50 JV with UAE-based Ambrosia for the Mali (Sadiola) operations. However, the company is in the final stages of being acquired by Zijin Gold International at C$44/share, with ISS and Glass Lewis both recommending shareholder approval at the May 29 vote. Management has grown the company substantially but the acquisition path limits the longer-term strategic narrative for continuing shareholders. No insider ownership data available from pre-extracted filings.",
+
+  "geology_score": 3,
+  "geology_notes": "Allied Gold operates three producing assets: Sadiola (Mali, phase 1 expansion recently completed), Bonikro and Agbaou (Côte d'Ivoire complex), with the Kurmuk gold development project in Ethiopia targeting production commencement Q3 2026. Multi-jurisdiction African exposure provides diversification but also adds political risk — Mali in particular has ongoing conflict-adjacent conditions, though the company confirmed normal operations. The multi-mine portfolio is a strength; no NI 43-101 resource data available in this analysis from pre-extracted filings.",
+
+  "capital_score": 3,
+  "capital_notes": "Allied Gold had approximately 124 million common shares outstanding per most recent available data. Detailed warrant and option data was not available from public web sources reviewed, and the cap-table pre-extracted file is not yet available for this ticker. The pending Zijin acquisition at C$44/share sets a firm ceiling on the equity story and removes dilution risk as a concern for the remaining deal timeline.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "Two near-term catalysts: (1) May 29 shareholder vote on Zijin acquisition — ISS and Glass Lewis both recommended approval, deal at C$44/share provides a clear crystallization event; (2) Kurmuk (Ethiopia) gold mine targeting production commencement Q3 2026, which would boost the company's production profile regardless of deal outcome. These are high-visibility, near-dated events.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "Zijin Gold International is acquiring 100% of Allied Gold at C$44/share. The deal price implies Zijin sees strategic value in the multi-mine African gold portfolio and provides a concrete acquisition benchmark. A precise P/NAV multiple cannot be calculated without formal resource/reserve estimates in this analysis. The deal itself is the acquisition thesis; there is no separate P/NAV upside story available to minority shareholders.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Allied Gold (TSX:AAUC) is effectively in deal closure mode. The Zijin acquisition at C$44/share has been endorsed by proxy advisors ISS and Glass Lewis and goes to a shareholder vote May 29, 2026. The company is a legitimate mid-tier African gold producer (Sadiola, Bonikro, Agbaou producing; Kurmuk development targeting Q3 2026 production) with 2025 revenues of C$1.33B, up 82% YoY. The story here is deal arbitrage rather than resource-driven growth — upside is capped at C$44, and the primary risk is deal break due to Mali political exposure or regulatory complications. Not a typical junior mining growth buy. WATCH pending deal closure. Cap-table and resource data not available from pre-extracted filings for this ticker.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}
