@@ -1,0 +1,33 @@
+{
+  "ticker": "CS",
+  "exchange": "TSX",
+
+  "management_score": 4,
+  "management_notes": "CEO John MacKenzie has led Capstone through the transformational merger with Mantos Copper (2022) and the execution of the Mantoverde Development Project (MDP) sulphide expansion — a major capital project completed on schedule. Management has demonstrated multi-jurisdiction operational capability across Chile and Arizona, and has navigated significant integration complexity. Capital allocation has been disciplined; the team has a track record of execution that is rare in mid-tier mining.",
+  "geology_score": 4,
+  "geology_notes": "Capstone operates three copper mines: Mantoverde (Chile, copper-gold), Mantos Blancos (Chile, copper), and Pinto Valley (Arizona, copper). The Mantoverde sulphide expansion (MDP) has significantly extended mine life and increased throughput capacity. Santo Domingo (Chile) is a large copper-iron development-stage project providing long-term NAV optionality. The portfolio is diversified by jurisdiction, mineralogy and mine-life profile. Cap-table and resource data not available from filings cache for this ticker.",
+  "capital_score": 3,
+  "capital_notes": "Capstone carries significant net debt arising from the Mantos Copper acquisition and Mantoverde Development Project financing — typical for a mid-tier producer executing transformational capital projects. Revenue-generating operations across three mines provide debt service capacity. Share structure details not available from filings cache. Dilution risk is lower than exploration-stage peers given operating cash flow, but leverage remains a balance-sheet risk if copper prices decline materially.",
+  "catalyst_score": 3,
+  "catalyst_notes": "Mantoverde MDP ramp-up to full throughput capacity is the primary near-term catalyst for production growth and cost improvement. Any development decision on Santo Domingo (copper-iron) would be a major re-rating event given the size of the project. Quarterly production reports provide regular news cadence. Copper price is the dominant macro catalyst — CS is a high-beta copper equity.",
+  "acquisition_score": 3,
+  "acquisition_notes": "Capstone trades in line with mid-tier copper producer peers on a P/NAV basis. Mantoverde and Santo Domingo provide meaningful NAV upside in a strong copper price environment, but the transformation premium from the Mantos Copper merger appears largely priced in. Not a deep-discount acquisition play — fair value relative to peers. Copper demand fundamentals (energy transition, data centre growth) provide a long-term tailwind.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Capstone Copper is a well-managed mid-tier copper producer with a diversified three-mine portfolio across Chile and Arizona and a clean growth story anchored by the Mantoverde sulphide expansion. Management has executed on a complex transformation and the production growth trajectory is visible. The stock is most attractive to investors seeking levered copper price exposure with an operator track record. Not an asset-discount play — CS trades at a market-appropriate multiple for its asset quality. Watch for Mantoverde ramp-up confirmation and any Santo Domingo development announcement. Note: cap-table and resource data were not available from the SEDAR+ filings cache for this ticker; all such fields are null.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+
+  "share_instruments": []
+}

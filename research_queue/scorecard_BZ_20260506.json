@@ -1,0 +1,48 @@
+{
+  "ticker": "BZ",
+  "exchange": "TSXV",
+
+  "management_score": 4,
+  "management_notes": "Management demonstrated strong market credibility by closing an A$75 million placement in February 2026, providing a full year's exploration treasury for >250,000 m of drilling. Dual-listing on TSXV and ASX (as BNZ) broadens the investor base and adds liquidity. The aggressive multi-camp drilling strategy across Glenburgh, Mt Egerton and other WA Goldfields targets signals operational ambition and execution capability. Insider ownership not extracted from filings cache.",
+  "geology_score": 3,
+  "geology_notes": "Glenburgh Gold Project (Western Australia) hosts a historical (non-NI 43-101 compliant) resource of approximately 16.3 Mt at 1.0 g/t Au (510,100 oz contained gold) — the primary valuation anchor but requiring upgrade to 43-101/JORC compliant status. The March 2026 discovery of the Kilkenny Zone at Mt Egerton (ultra-high-grade gold beneath the historic Hibernian Gold Mine) adds a high-grade exploration target. No 43-101 in SEDAR+ cache, so no resource data extracted from filings. Multiple exploration camps (Hurricane, Icon, Thunderbolt) at Glenburgh provide district-scale upside.",
+  "capital_score": 4,
+  "capital_notes": "258,836,364 shares issued and outstanding; 288,540,392 fully diluted, with approximately 2,777,778 warrants and 26,926,250 options (no strike/expiry extracted from MD&A summary). The dilution multiple is modest at 1.11x basic shares — a clean structure for an exploration-stage company with this scale of program. The A$75M raise in February 2026 funds >250,000 m of 2026 drilling without requiring additional equity. No flow-through financing noted in extracted data.",
+  "catalyst_score": 5,
+  "catalyst_notes": ">250,000 m of drilling planned across Glenburgh (Hurricane, Icon, Thunderbolt camps) and Mt Egerton in 2026. The Kilkenny Zone high-grade discovery announced March 2026 is an immediate follow-up target. Multiple active drill programs create high-frequency assay news flow. Potential for a 43-101/JORC compliant resource update at Glenburgh during 2026 would be a major re-rating catalyst. Fresh treasury from A$75M raise eliminates financing risk for the program.",
+  "acquisition_score": 3,
+  "acquisition_notes": "Glenburgh's ~510,000 oz historical gold resource at current spot prices (~US$3,300/oz) represents meaningful in-situ value, though the non-compliant status warrants a discount. Comparable WA gold explorers with compliant 43-101/JORC resources typically trade at 3–6x EV per in-situ ounce once resource-defined. P/NAV analysis cannot be completed until a compliant resource is published. Acquisition premium would be contingent on Kilkenny Zone high-grade results and Glenburgh resource upgrade.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Benz Mining is the highest-velocity name in this batch: a dual-listed (TSXV/ASX) gold explorer with A$75M in fresh capital, >250,000 m of drilling planned for 2026, and a newly discovered ultra-high-grade zone (Kilkenny, Mt Egerton) announced in March 2026. The share structure is clean, the treasury is full, and the news flow through 2026 should be frequent. The watch call reflects the absence of a 43-101 compliant resource — the Glenburgh historical estimate (510k oz at 1.0 g/t) needs upgrading before a BUY is justified. Watch for the Glenburgh resource update and Kilkenny Zone drill-hole follow-up; either catalyst could move this to BUY.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 258836364,
+  "shares_fully_diluted": 288540392,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2777778,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 26926250,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from MD&A summary table"
+    }
+  ]
+}

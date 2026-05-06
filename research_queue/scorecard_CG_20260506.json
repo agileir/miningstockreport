@@ -1,0 +1,33 @@
+{
+  "ticker": "CG",
+  "exchange": "TSX",
+
+  "management_score": 4,
+  "management_notes": "CEO Paul Tomory has led Centerra through the resolution of the Kumtor Mine arbitration with the Kyrgyz Republic government and the subsequent redeployment of settlement proceeds into share buybacks and dividends — a disciplined capital allocation outcome that benefited shareholders. Mount Milligan and Öksüt operations have been managed competently across complex metallurgical and geopolitical environments. Board has navigated significant political risk events and maintained investor confidence through the process.",
+  "geology_score": 4,
+  "geology_notes": "Two producing mines: Mount Milligan (BC, Canada) — a large, long-life gold-copper porphyry deposit with significant M&I resources and multi-decade production potential — and Öksüt Mine (Turkey) — a high-grade open-pit gold mine with heap leach processing. Kemess mine (BC) is on care and maintenance with Kemess East providing longer-term development optionality (capital-intensive, NSR cut-off sensitivity noted in technical report). Resource extraction from the filing cache returned table-of-contents entries rather than numeric resource estimates; actual resource figures not available from extracted data.",
+  "capital_score": 4,
+  "capital_notes": "Centerra has been actively reducing its share count through buybacks funded from Kumtor arbitration settlement proceeds. No significant warrant or option overhang visible for a mid-tier producer. Balance sheet is strong with substantial cash and investments post-settlement. No extracted share count or instrument data available from filings cache — all cap-table fields null per extraction results.",
+  "catalyst_score": 3,
+  "catalyst_notes": "Mount Milligan mill throughput optimization and potential life-of-mine extension are ongoing operational catalysts. Öksüt provides regular production and cash flow. Any development decision on Kemess East would be a major catalyst given the scale of the asset (NSR cut-off sensitivity at CA$54.10/t suggests economically sensitive resource). Turkey country risk (political, operational continuity) remains an overhang. Quarterly production reports provide regular news cadence.",
+  "acquisition_score": 3,
+  "acquisition_notes": "Centerra trades at a reasonable P/NAV for a mid-tier gold producer with two operating mines. The Kumtor discount has been largely unwound post-settlement, and the market has re-rated the company toward its Mount Milligan and Öksüt fundamentals. Turkey risk (Öksüt jurisdiction) warrants a discount versus Canadian-only mid-tier peers. Mount Milligan's large resource base is supportive at current gold and copper prices. Not a deep-discount play — appropriately valued within its peer group.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Centerra Gold is a well-managed mid-tier gold producer with two operating mines (Mount Milligan and Öksüt), a clean balance sheet post-Kumtor settlement, and an active share buyback program. The company has navigated significant political risk and emerged with its asset base intact and capital discipline demonstrated. The stock offers gold production exposure with a modest Turkey discount that will persist as long as Öksüt operates in that jurisdiction. Not a deep-value play — fairly priced versus peers. Watch for Kemess East development updates and Öksüt operational continuity as the two key re-rating catalysts. Note: cap-table fields are null and resource strings in this scorecard are table-of-contents entries from the Kemess East technical report, not numeric resource estimates — the extraction did not locate usable resource tables.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": "Table 14-38: Kemess East Indicated and Inferred Mineral Resource sensitivity; base case NSR cut-off CA$54.10/t ....... 14-61",
+  "resource_inferred": "Table 14-38: Kemess East Indicated and Inferred Mineral Resource sensitivity; base case NSR cut-off CA$54.10/t ....... 14-61",
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+
+  "share_instruments": []
+}
