@@ -1,6 +1,6 @@
 {
   "ticker": "CG",
-  "extracted_at": "2026-05-06T17:13:30+00:00",
+  "extracted_at": "2026-05-06T18:39:11+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -14,16 +14,15 @@
       "sha256": "c8077a57e2da4c19dbb5454ac464add3f2d54273e18757b9b4f5f46b148934cc"
     }
   },
-  "shares_issued_outstanding": null,
+  "shares_issued_outstanding": 200093489,
   "shares_fully_diluted": null,
   "share_instruments": [],
   "resource_measured": null,
-  "resource_indicated": "Table 14-38: Kemess East Indicated and Inferred Mineral Resource sensitivity; base case NSR cut-off CA$54.10/t ....... 14-61",
-  "resource_inferred": "Table 14-38: Kemess East Indicated and Inferred Mineral Resource sensitivity; base case NSR cut-off CA$54.10/t ....... 14-61",
+  "resource_indicated": "Indicated 130 0.32 1.14 0.16 1,333 4,769 454",
+  "resource_inferred": "Inferred 94 0.30 1.02 0.14 905 3,079 296",
   "reserve_proven": null,
   "reserve_probable": null,
   "extraction_notes": [
-    "could not locate issued-and-outstanding share count",
     "no warrant/option lines matched the strict pattern",
     "no flow-through tranches detected"
   ]

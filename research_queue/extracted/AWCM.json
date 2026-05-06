@@ -1,6 +1,6 @@
 {
   "ticker": "AWCM",
-  "extracted_at": "2026-05-06T17:14:03+00:00",
+  "extracted_at": "2026-05-06T18:40:04+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
