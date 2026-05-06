@@ -1,6 +1,6 @@
 {
   "ticker": "BCM",
-  "extracted_at": "2026-05-05T07:01:15+00:00",
+  "extracted_at": "2026-05-06T17:13:44+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -14,19 +14,12 @@
       "sha256": "6b1d4d7dd81502cea3eb2391e1218662712feff6ab102f2a91c768942a9fcd94"
     }
   },
-  "shares_issued_outstanding": 28767399,
-  "shares_fully_diluted": 1031816888,
+  "shares_issued_outstanding": 227730785,
+  "shares_fully_diluted": 236243285,
   "share_instruments": [
     {
-      "type": "warrant",
-      "count": 969638331,
-      "strike_price": null,
-      "expiry": null,
-      "raw": "summary count only \u2014 strike/expiry not extracted from MD&A summary table"
-    },
-    {
       "type": "option",
-      "count": 33411158,
+      "count": 8512500,
       "strike_price": null,
       "expiry": null,
       "raw": "summary count only \u2014 strike/expiry not extracted from MD&A summary table"
@@ -38,7 +31,8 @@
   "reserve_proven": "Proven        9  4.25 24.67     1        7",
   "reserve_probable": "Probable   419  3.94 22.67   53    305",
   "extraction_notes": [
-    "computed fully_diluted = outstanding + 969638331 warrants + 33411158 options",
-    "no warrant/option lines matched the strict pattern"
+    "computed fully_diluted = outstanding + 0 warrants + 8512500 options",
+    "no warrant/option lines matched the strict pattern",
+    "no flow-through tranches detected"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "ticker": "BZ",
-  "extracted_at": "2026-05-05T07:01:32+00:00",
+  "extracted_at": "2026-05-06T17:14:01+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -10,18 +10,18 @@
     }
   },
   "shares_issued_outstanding": 258836364,
-  "shares_fully_diluted": 288540392,
+  "shares_fully_diluted": 264214142,
   "share_instruments": [
     {
       "type": "warrant",
-      "count": 2777778,
+      "count": 1377778,
       "strike_price": null,
       "expiry": null,
       "raw": "summary count only \u2014 strike/expiry not extracted from MD&A summary table"
     },
     {
       "type": "option",
-      "count": 26926250,
+      "count": 4000000,
       "strike_price": null,
       "expiry": null,
       "raw": "summary count only \u2014 strike/expiry not extracted from MD&A summary table"
@@ -33,8 +33,9 @@
   "reserve_proven": null,
   "reserve_probable": null,
   "extraction_notes": [
-    "computed fully_diluted = outstanding + 2777778 warrants + 26926250 options",
+    "computed fully_diluted = outstanding + 1377778 warrants + 4000000 options",
     "no warrant/option lines matched the strict pattern",
+    "no flow-through tranches detected",
     "no 43-101 in cache"
   ]
 }

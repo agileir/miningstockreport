@@ -1,6 +1,6 @@
 {
   "ticker": "CKG",
-  "extracted_at": "2026-05-05T07:01:30+00:00",
+  "extracted_at": "2026-05-06T17:13:59+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -16,15 +16,7 @@
   },
   "shares_issued_outstanding": null,
   "shares_fully_diluted": null,
-  "share_instruments": [
-    {
-      "type": "option",
-      "count": 17250345,
-      "strike_price": null,
-      "expiry": null,
-      "raw": "summary count only \u2014 strike/expiry not extracted from MD&A summary table"
-    }
-  ],
+  "share_instruments": [],
   "resource_measured": "Measured Mineral Resource 395.4 0.79 0.59 15.5 7.44 197.3",
   "resource_indicated": "Indicated Mineral Resource 907.0 0.58 0.42 11.8 12.36 344.7",
   "resource_inferred": "Inferred Mineral Resource 62.2 0.44 0.32 9.0 0.64 18.0",
@@ -32,6 +24,7 @@
   "reserve_probable": null,
   "extraction_notes": [
     "could not locate issued-and-outstanding share count",
-    "no warrant/option lines matched the strict pattern"
+    "no warrant/option lines matched the strict pattern",
+    "no flow-through tranches detected"
   ]
 }

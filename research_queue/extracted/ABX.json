@@ -1,6 +1,6 @@
 {
   "ticker": "ABX",
-  "extracted_at": "2026-05-05T07:01:42+00:00",
+  "extracted_at": "2026-05-06T17:14:11+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "aif",
@@ -19,6 +19,7 @@
   "reserve_probable": null,
   "extraction_notes": [
     "no warrant/option lines matched the strict pattern",
+    "no flow-through tranches detected",
     "no 43-101 in cache"
   ]
 }

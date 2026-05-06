@@ -1,6 +1,6 @@
 {
   "ticker": "CDE",
-  "extracted_at": "2026-05-05T07:01:27+00:00",
+  "extracted_at": "2026-05-06T17:13:56+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -20,6 +20,7 @@
   "extraction_notes": [
     "could not locate issued-and-outstanding share count",
     "no warrant/option lines matched the strict pattern",
+    "no flow-through tranches detected",
     "no 43-101 in cache"
   ]
 }

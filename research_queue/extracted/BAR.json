@@ -1,6 +1,6 @@
 {
   "ticker": "BAR",
-  "extracted_at": "2026-05-05T07:01:40+00:00",
+  "extracted_at": "2026-05-06T17:14:09+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -24,6 +24,7 @@
   "reserve_probable": null,
   "extraction_notes": [
     "no warrant/option lines matched the strict pattern",
+    "no flow-through tranches detected",
     "no resource/reserve table rows matched in first 60 pages"
   ]
 }

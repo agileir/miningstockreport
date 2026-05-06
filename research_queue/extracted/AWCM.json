@@ -1,6 +1,6 @@
 {
   "ticker": "AWCM",
-  "extracted_at": "2026-05-05T07:01:34+00:00",
+  "extracted_at": "2026-05-06T17:14:03+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -15,18 +15,11 @@
     }
   },
   "shares_issued_outstanding": 22747245,
-  "shares_fully_diluted": 27862133,
+  "shares_fully_diluted": 25262133,
   "share_instruments": [
     {
       "type": "warrant",
       "count": 2514888,
-      "strike_price": null,
-      "expiry": null,
-      "raw": "summary count only \u2014 strike/expiry not extracted from MD&A summary table"
-    },
-    {
-      "type": "option",
-      "count": 2600000,
       "strike_price": null,
       "expiry": null,
       "raw": "summary count only \u2014 strike/expiry not extracted from MD&A summary table"
@@ -38,8 +31,9 @@
   "reserve_proven": null,
   "reserve_probable": null,
   "extraction_notes": [
-    "computed fully_diluted = outstanding + 2514888 warrants + 2600000 options",
+    "computed fully_diluted = outstanding + 2514888 warrants + 0 options",
     "no warrant/option lines matched the strict pattern",
+    "no flow-through tranches detected",
     "no resource/reserve table rows matched in first 60 pages"
   ]
 }
