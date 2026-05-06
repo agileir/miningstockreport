@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "BCM",
+    "name": "Bear Creek Mining Corporation",
+    "exchange": "TSXV",
+    "website": "https://bearcreekmining.com",
+    "primary_commodity": "Silver",
+    "jurisdiction": "Peru",
+    "force": true
+  }
+]
