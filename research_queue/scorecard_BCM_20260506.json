@@ -1,0 +1,48 @@
+{
+  "ticker": "BCM",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "Long-tenured management team with deep Peruvian mining experience, but over a decade of stalled progress on Corani's Environmental Impact Assessment reflects limitations in navigating social licence and Peru's regulatory environment. Loss of the Santa Ana project to government action in 2011 is a permanent impairment. Management credibility with the market has been tested by repeated delays. Insider ownership not verifiable from current data.",
+  "geology_score": 4,
+  "geology_notes": "Corani is a large, development-stage silver-lead-zinc polymetallic deposit in Peru's Puno Department with measured, indicated and inferred resources and published proven/probable reserves (raw extracted table rows — see resource fields). A feasibility study has been completed, de-risking the geology and metallurgy. However, the Santa Ana silver project in Puno remains under government restriction following 2011 social conflict. Corani's scale and resource quality are genuine strengths; jurisdiction and permitting are the overriding risks.",
+  "capital_score": 1,
+  "capital_notes": "Only 28,767,399 shares issued and outstanding, but 1,031,816,888 fully diluted — a 33.7x dilution multiple driven by 969,638,331 warrants outstanding. This warrant overhang represents the most extreme dilution risk visible in this coverage universe. Exercise of these warrants at any plausible strike price would require hundreds of millions of dollars of capital injection from warrant holders, which is functionally implausible. The economic value of the common shares is effectively nullified by this structure until warrants are restructured or expire. No flow-through financing history noted in extracted data.",
+  "catalyst_score": 2,
+  "catalyst_notes": "Corani's path to production hinges on Peru's EIA approval and social licence, both of which have resisted resolution for over a decade. Any news on permitting progress would be a meaningful catalyst, but the timeline is uncertain and government policy in Peru's mining sector remains volatile. No production revenue is imminent regardless of permit outcome — Corani requires significant project financing to advance to construction.",
+  "acquisition_score": 3,
+  "acquisition_notes": "On a fully diluted basis, Corani's in-situ silver resource is deeply discounted relative to peer silver development assets in lower-risk jurisdictions. On a basic-share basis, the implied NAV per share appears high — but this is illusory given the warrant structure. Any acquirer would have to contend with both the warrant overhang and Peru's permitting risk. Not an attractive acquisition target at current terms.",
+
+  "verdict": "AVOID",
+  "analyst_summary": "Bear Creek Mining owns a genuine large-scale silver asset in Corani, but the investment case is broken by two structural problems that interact: a warrant overhang of 970 million units against only 28.8 million basic shares outstanding (33.7x dilution), and a decade-plus permitting impasse in one of Latin America's most politically challenging mining jurisdictions. Until the warrant structure is resolved — through restructuring, expiry, or a refinancing event — the economic value of common shares is theoretical. Add to that Peru's ongoing social licence and EIA challenges, and there is no near-term pathway to value realization. Avoid.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "Measured 793 6.62 58.10 169 1,481",
+  "resource_indicated": "Indicated 1,546 5.65 49.06 281 2,439",
+  "resource_inferred": "Inferred 383 5.26 36.06 65 445",
+  "reserve_proven": "Proven        9  4.25 24.67     1        7",
+  "reserve_probable": "Probable   419  3.94 22.67   53    305",
+
+  "shares_issued_outstanding": 28767399,
+  "shares_fully_diluted": 1031816888,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 969638331,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 33411158,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from MD&A summary table"
+    }
+  ]
+}

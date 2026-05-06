@@ -1,0 +1,41 @@
+{
+  "ticker": "BATX",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "Small team at a pre-resource exploration stage with limited public track record. Filed an NI 43-101 technical report for the Y Lithium Project but management credentials and insider ownership are not well disclosed in public filings. No significant institutional financing history suggesting broad market credibility. Company is also pursuing a parallel AI-driven prospecting initiative in Nevada, raising questions about focus.",
+  "geology_score": 1,
+  "geology_notes": "Y Lithium Project (5,856 ha) near Bailey Lake, Saskatchewan hosts no defined mineral resources. The 43-101 technical report filed is an assessment-level report, not a resource estimate. The project's primary appeal is its location approximately 5 km from a reported lithium- and tantalum-bearing pegmatite discovery. A high-resolution LiDAR survey (~C$56,400) has been completed. Phase I exploration (geological mapping, prospecting, mica sampling) is planned for summer 2026 at an estimated C$93,850 — no drilling contemplated yet.",
+  "capital_score": 3,
+  "capital_notes": "3,586,758 shares issued and outstanding; 4,871,033 fully diluted including approximately 1,284,275 warrants (strike and expiry not extracted from MD&A summary). Share count is exceptionally small for a TSX Venture-listed explorer, suggesting minimal dilution history and a very early funding stage. Low liquidity risk from warrant overhang. Very thinly traded, which creates bid-ask spread risk for retail investors.",
+  "catalyst_score": 2,
+  "catalyst_notes": "Phase I geological mapping and prospecting planned for summer 2026. No drilling is budgeted at this stage — first assay results are many months away at minimum, contingent on Phase I results justifying a follow-up drill program. Until first-pass field work confirms pegmatite targets, there is no material news catalyst on the near-term horizon.",
+  "acquisition_score": 1,
+  "acquisition_notes": "No mineral resources have been defined, making P/NAV analysis inapplicable. No comparable transaction reference point exists. The company's proximity to a reported lithium-tantalum discovery provides optionality, but at 5 km separation there is no proven geological continuity. An AI prospecting initiative in Nevada adds speculative narrative without altering the fundamental value picture.",
+
+  "verdict": "AVOID",
+  "analyst_summary": "Battery X Metals is a pre-resource, pre-drill lithium explorer whose sole material asset in Saskatchewan sits 5 km from a reported pegmatite discovery, not on it. The 2026 program is geological mapping and sampling — not drilling. With a Phase I budget under C$100k, there is no meaningful news catalyst this year beyond field observations. The share structure is unusually clean (3.6M outstanding) but that also signals the company is at a very early funding stage with limited institutional support. Avoid until Phase I results confirm drill targets; revisit after first assays.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 3586758,
+  "shares_fully_diluted": 4871033,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 1284275,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from MD&A summary table"
+    }
+  ]
+}
