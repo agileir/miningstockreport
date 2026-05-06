@@ -1,0 +1,106 @@
+[
+  {
+    "ticker": "BATX",
+    "name": "Battery X Metals Inc.",
+    "exchange": "OTHER",
+    "website": "https://www.batteryxmetals.com",
+    "primary_commodity": "Lithium",
+    "jurisdiction": "Saskatchewan"
+  },
+  {
+    "ticker": "BCM",
+    "name": "Bear Creek Mining Corporation",
+    "exchange": "TSXV",
+    "website": "https://bearcreekmining.com",
+    "primary_commodity": "Silver",
+    "jurisdiction": "Peru"
+  },
+  {
+    "ticker": "BZ",
+    "name": "Benz Mining Corp.",
+    "exchange": "TSXV",
+    "website": "https://benzmining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Western Australia"
+  },
+  {
+    "ticker": "CS",
+    "name": "Capstone Copper Corp.",
+    "exchange": "TSX",
+    "website": "https://capstonecopper.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Chile"
+  },
+  {
+    "ticker": "CG",
+    "name": "Centerra Gold Inc.",
+    "exchange": "TSX",
+    "website": "https://www.centerragold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "British Columbia"
+  },
+  {
+    "ticker": "CIA",
+    "name": "Champion Iron Limited",
+    "exchange": "TSX",
+    "website": "https://www.championiron.com",
+    "primary_commodity": "Iron Ore",
+    "jurisdiction": "Quebec, Canada"
+  },
+  {
+    "ticker": "CKG",
+    "name": "Chesapeake Gold Corp.",
+    "exchange": "TSXV",
+    "website": "Unknown",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Durango, Mexico"
+  },
+  {
+    "ticker": "CRI",
+    "name": "Churchill Resources Inc.",
+    "exchange": "TSXV",
+    "website": "https://www.churchillresources.com",
+    "primary_commodity": "Antimony",
+    "jurisdiction": "Newfoundland and Labrador"
+  },
+  {
+    "ticker": "CDE",
+    "name": "Coeur Mining, Inc.",
+    "exchange": "TSX",
+    "website": "https://www.coeur.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Nevada"
+  },
+  {
+    "ticker": "DPM",
+    "name": "DPM Metals Inc.",
+    "exchange": "TSX",
+    "website": "https://dpmmetals.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Bulgaria"
+  },
+  {
+    "ticker": "DSV",
+    "name": "Discovery Silver Corp.",
+    "exchange": "TSX",
+    "website": "https://discoverysilver.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Ontario"
+  },
+  {
+    "ticker": "EDV",
+    "name": "Endeavour Mining plc",
+    "exchange": "TSX",
+    "website": "https://www.endeavourmining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "C\u00f4te d'Ivoire"
+  },
+  {
+    "ticker": "EFR",
+    "name": "Energy Fuels Inc.",
+    "exchange": "TSX",
+    "website": "https://www.energyfuels.com",
+    "primary_commodity": "Uranium",
+    "jurisdiction": "Utah"
+  }
+]

@@ -1,26 +1,10 @@
 [
   {
-    "ticker": "USA",
+    "ticker": "ABRA",
     "exchange": "TSX"
   },
   {
-    "ticker": "CIA",
-    "exchange": "TSX"
-  },
-  {
-    "ticker": "ERO",
-    "exchange": "TSX"
-  },
-  {
-    "ticker": "IE",
-    "exchange": "TSX"
-  },
-  {
-    "ticker": "LUNR",
-    "exchange": "TSXV"
-  },
-  {
-    "ticker": "SXGC",
-    "exchange": "TSX"
+    "ticker": "NGLD",
+    "exchange": "OTC"
   }
 ]
