@@ -1,0 +1,47 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "Limited publicly available information on management track record. The company is small-cap TSXV-listed and executive backgrounds are not prominently documented in the public domain at a level that allows confident scoring. Without verifiable evidence of prior project-building success — exploration stage through resource definition or production — management must be scored conservatively. The company's Newfoundland antimony focus reflects an appropriate critical minerals thesis, but execution capability at the project level remains undemonstrated. Score may be revised upward if management CVs and prior company outcomes are available in a subsequent research pass.",
+  "geology_score": 2,
+  "geology_notes": "No NI 43-101 mineral resource estimate was located in the extracted filings (extraction notes from the December 2025 MD&A and August 2023 technical report confirm no resource table rows matched in the first 60 pages). Churchill Resources is therefore at an early exploration stage without a compliant resource. Newfoundland and Labrador is a favorable and historically productive Canadian mining jurisdiction. Antimony as a primary commodity carries significant strategic value given Canada's and the United States' critical minerals designations and China's dominance of global supply, but geological prospectivity cannot be credited without a defined resource.",
+  "capital_score": 3,
+  "capital_notes": "Shares issued and outstanding: 295,547,843. Shares fully diluted: 299,536,175. The dilution overhang is minimal — only 38,332 warrants and 3,950,000 options between issued and fully diluted counts, representing less than 1.4% incremental dilution. While the absolute share count is high (~295M), the clean warrant and option structure means the fully diluted count is not meaningfully worse than the issued count — a better profile than many TSXV explorers with equivalent share counts. No flow-through tranches were detected in the December 2025 MD&A extraction. Future exploration rounds in Newfoundland may utilize flow-through financing given the eligible Canadian jurisdiction.",
+  "catalyst_score": 3,
+  "catalyst_notes": "Canada's critical minerals strategy and antimony's inclusion on both the Canadian and US critical minerals lists are structural tailwinds that could drive government exploration funding (NRCan, CMIC) or corporate interest from defense and battery supply chain stakeholders seeking to establish non-Chinese antimony supply chains. A first-pass NI 43-101 mineral resource estimate would be a significant company-specific catalyst. However, without an announced drill program or resource timeline, near-term catalysts are macro rather than company-driven.",
+  "acquisition_score": 2,
+  "acquisition_notes": "Pre-resource antimony exploration assets rarely command acquisition premiums regardless of commodity thesis. The strategic importance of antimony supply security could theoretically attract government-backed or corporate strategic acquisitions, but without a defined resource acquirers have no basis for pricing a transaction. Newfoundland jurisdiction is favorable for a Canadian acquirer. The absolute share count (~295M) means even a modest C$0.10/share acquisition represents a C$29.5M consideration for an unproven asset — a level of risk premium most strategic buyers would not accept at pre-resource stage.",
+
+  "verdict": "AVOID",
+  "analyst_summary": "Churchill Resources is an early-stage antimony explorer in Newfoundland with no defined mineral resource and approximately 295 million shares outstanding. The antimony critical minerals thesis is real — China controls roughly 70% of global production and Western supply chain anxiety around antimony is legitimate and growing. But the company has not yet demonstrated geological prospectivity at a level that provides an investment anchor. The share structure is cleaner than the headline count suggests (less than 1.4% dilution overhang from warrants and options), but without a NI 43-101 resource estimate there is no basis for valuation. AVOID until the company publishes a compliant mineral resource estimate. The commodity thesis alone does not make this a buy.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 295547843,
+  "shares_fully_diluted": 299536175,
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 38332,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "summary count only — strike/expiry not extracted from MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 3950000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "summary count only — strike/expiry not extracted from MD&A summary table"
+    }
+  ]
+}

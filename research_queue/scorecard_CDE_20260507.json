@@ -1,0 +1,32 @@
+{
+  "ticker": "CDE",
+  "exchange": "TSX",
+
+  "management_score": 3,
+  "management_notes": "Mitchell Krebs (CEO) has led Coeur Mining through the Rochester mine expansion (POA 11), one of the largest capital projects in the North American silver space in the last decade. The expansion faced cost overruns and delays relative to original budget, but reached commercial production — a meaningful execution outcome. Management has historically demonstrated willingness to make difficult operational decisions, including asset divestitures. Balance sheet leverage from the Rochester build represents the primary capital allocation risk on management's watch. Track record is mixed but improving as Rochester ramps and the debt trajectory clarifies.",
+  "geology_score": 4,
+  "geology_notes": "Coeur operates a diversified multi-mine precious metals portfolio with genuine quality. Rochester (Nevada) is one of the largest silver-gold heap leach operations in North America, with a resource base substantially expanded by POA 11 to support a decades-long mine life. Palmarejo (Chihuahua, Mexico) is a consistently productive low-cost underground silver-gold mine. Kensington (Alaska) contributes steady gold production. Wharf (South Dakota) provides additional gold diversity. The combined reserve and resource base across operations underpins a multi-decade production profile. No 43-101 technical report was in the filings cache for this run, consistent with Coeur's status as a producing company filing under SEC standards.",
+  "capital_score": 3,
+  "capital_notes": "No cap-table data was available from the extracted filings cache (extraction notes confirm no 43-101 in cache; the February 2026 MD&A was the source document but share count was not extracted). The Rochester expansion materially increased Coeur's debt load, which has been the primary balance sheet concern. As Rochester approaches design throughput, operating cash flows are expected to support accelerating debt reduction. Silver and gold price sensitivity is high — at elevated current metal prices, the debt trajectory should be manageable. No flow-through financing applicable (US-headquartered operating producer).",
+  "catalyst_score": 4,
+  "catalyst_notes": "Rochester reaching and sustaining design throughput under POA 11 is the primary near-term value catalyst, transforming the company's cost profile and free cash flow generation at current precious metal prices. Silver price appreciation provides significant operating leverage given Rochester's scale as a primary silver producer. Debt reduction milestones are predictable positive catalysts that could re-rate the equity materially. The silver market's structural demand growth from solar (photovoltaic cells), electric vehicles, and electronics manufacturing underpins the revenue profile with secular tailwinds beyond the traditional investment demand cycle.",
+  "acquisition_score": 2,
+  "acquisition_notes": "At several billion dollars in market capitalization, Coeur Mining is not a typical junior mining acquisition target. The company is a mid-tier precious metals producer — the type of asset that could be attractive to a major gold/silver company seeking production consolidation, but the balance sheet leverage from the Rochester expansion and the acquisition premium required would complicate any deal. The Verdict Framework's acquisition factor is most relevant for junior exploration-stage companies where M&A is a primary value realization mechanism. For Coeur, the investment case is producer re-rating, not acquisition speculation.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Coeur Mining is a multi-mine precious metals producer at an operational inflection point: the Rochester expansion (POA 11) is ramping up and beginning to justify the capital invested. Rochester is genuinely one of North America's largest silver assets, and at current silver prices the cash flow profile is improving materially. The investment case is not speculation — it is operational execution against a known, high-quality asset base with identifiable deleveraging catalysts. The WATCH rating reflects remaining execution risk in the Rochester throughput ramp and the balance sheet overhang from the expansion period. Investors who believe in the silver price and are comfortable with mid-tier producer risk should watch Rochester throughput milestones as the signal to upgrade. The assets are too good for an AVOID; the balance sheet is too stretched for a BUY today.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}
