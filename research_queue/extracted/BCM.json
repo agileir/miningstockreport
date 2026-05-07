@@ -1,6 +1,6 @@
 {
   "ticker": "BCM",
-  "extracted_at": "2026-05-06T18:39:31+00:00",
+  "extracted_at": "2026-05-07T03:02:40+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
