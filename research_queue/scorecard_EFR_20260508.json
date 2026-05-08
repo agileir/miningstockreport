@@ -1,0 +1,36 @@
+{
+  "ticker": "EFR",
+  "exchange": "TSX",
+
+  "management_score": 4,
+  "management_notes": "CEO Mark Chalmers has executed one of the more disciplined strategic pivots in the junior-to-mid-tier mining space: transforming White Mesa Mill from a uranium-only facility into the United States' first commercial heavy rare earth element (HREE) processing operation. The pipeline — from Brazilian REE ore feed, through mixed REE carbonate at White Mesa, to separated oxide — has been validated at pilot scale with 99.9% purity dysprosium oxide passing QA/QC at a South Korean permanent magnet manufacturer. Management has delivered milestones on schedule across multiple years. Score is 4 rather than 5 because scaling from pilot to commercial is where execution risk concentrates.",
+
+  "geology_score": 4,
+  "geology_notes": "White Mesa Mill (Blanding, Utah) is the only operating conventional uranium processing facility in the United States — a permitted, built, and operating asset that cannot be replicated at any reasonable cost or timeline given the permitting environment. Active uranium mines include Pinon Plain (Arizona) and Nichols Ranch (Wyoming). The mill also processes alternate feed and uranium-bearing materials from third parties. On the REE side, Brazilian-sourced monazite ore provides a reliable feedstock for the heavy REE circuits. The dual-commodity resource base (uranium + REEs) is genuinely differentiated.",
+
+  "capital_score": 3,
+  "capital_notes": "Energy Fuels is deploying capital to install commercial-scale Dy and Tb refining circuits at White Mesa Mill (targeted Q4 2026), with nameplate capacity of up to 48 metric tonnes Dy oxide/year and 14 metric tonnes Tb oxide/year. This represents significant near-term capex relative to a company of this size. Uranium revenues (1.015M lbs U3O8 produced in 2025; 1.5–2.5M lbs guided for 2026) partially fund the build. No pre-extracted cap-table data available; share structure not confirmed for this run. Investors should verify current share count and warrant position before sizing.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "High-conviction near-term catalysts: (1) commercial HREE refining capacity installation targeted Q4 2026 — the single largest value-creation milestone in the company's history, converting pilot-scale proof to revenue-generating output; (2) permanent magnet manufacturer qualification already achieved with a South Korean counterparty — commercial supply agreements likely to follow; (3) uranium production guidance 1.5–2.5M lbs for 2026 vs 1.015M lbs produced in 2025 — execution of this ramp is a quarterly data point; (4) samarium oxide production in scope for additional separated oxide revenue. The Q4 2026 HREE commercial commissioning is a hard deadline that markets will price around.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "Energy Fuels sits at an unusual intersection of uranium and critical minerals, which creates valuation complexity — pure uranium analysts undervalue the REE optionality; REE analysts undervalue the uranium cash flow. This mis-pricing can be a source of alpha but also makes precise P/NAV work difficult. The White Mesa Mill as an infrastructure asset (replacement cost likely exceeds market cap) argues for fundamental undervaluation. Without confirmed nav_per_share data this score is a proxy based on strategic positioning vs. peers.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Energy Fuels is the most strategically differentiated uranium company in North America, with a credible and executing plan to become the United States' only domestic producer of separated heavy rare earth oxides — a critical mineral supply chain role with direct US government and allied-nation support. The Q4 2026 commercial HREE commissioning is a defined, time-bounded catalyst. Uranium production is ramping (1.5–2.5M lbs guided 2026). WATCH with strong BUY bias on pullbacks: the REE qualification milestone (South Korean magnet manufacturer) substantially de-risks the commercial pathway. Key risk is capex overrun on HREE circuit installation. Lacking extracted cap-table data for this run — re-extract to populate share structure before publishing a full conviction call.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}
