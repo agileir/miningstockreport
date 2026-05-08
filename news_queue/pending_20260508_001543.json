@@ -1,0 +1,74 @@
+[
+  {
+    "headline": "McEWEN MINING Q1: Revenue Doubles, Net Income SWINGS FROM -$6.3M TO +$33.4M — EPS Beats Consensus by 75%",
+    "url": "https://www.miningweekly.com/article/precious-metals-miner-mcewen-posts-q1-revenue-gains-own-funded-growth-pipeline-2026-05-07",
+    "source_name": "Mining Weekly",
+    "category_slug": "gold-silver",
+    "snippet": "McEwen Mining (MUX) reported Q1 EPS of $0.56 against a $0.32 consensus estimate while gold-and-silver sales revenue surged 107% year-on-year as the realized gold price climbed from $2,803 to $4,792/oz. Adjusted EBITDA hit $44.8M and net income swung to $33.4M from a $6.3M loss a year ago; the company reaffirmed full-year guidance of 114,000–126,000 GEOs and says it is internally funding a plan to double production by 2030.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "'As Fog of War Lifts' — Gold and Silver HISTORIC RALLY Could Resume, Market Watchers Say",
+    "url": "https://goldseek.com/article/gold-and-silvers-historic-rally-could-resume-fog-war-lifts-market-watchers-say",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "Market analysts say declining geopolitical tensions and a softening Fed stance have removed two major headwinds for precious metals, and the gold-to-silver ratio is now flagging renewed relative silver strength — a pattern historically associated with the second leg of bull market moves. CLSA has separately upgraded its medium-term gold target to $5,500/oz, up from prior estimates.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "G7 EMERGENCY CRITICAL MINERALS MEETING — France Vows 100% EU Heavy Rare Earth Independence by 2030, Condemns China Coercion",
+    "url": "https://www.usnews.com/news/world/articles/2026-05-05/france-convenes-g7-on-critical-minerals-to-curb-chinas-grip",
+    "source_name": "US News",
+    "category_slug": "market-macro",
+    "snippet": "G7 trade ministers convened in Paris to coordinate a Western response to China's concentration across mineral markets used in EVs, wind turbines, and defence systems. The communiqué explicitly condemned 'arbitrary export restrictions' as economic coercion; France separately launched a domestic plan targeting 100% of European heavy rare earth oxide demand by 2030, covering the full chain from overseas supply to magnet manufacturing.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SILVER ACT vs. CFTC — Regulator Says Silver Market Is 'Structurally Broken,' Bill Targets New York Vault Concentration",
+    "url": "https://www.moneymetals.com/news",
+    "source_name": "Money Metals",
+    "category_slug": "opinion-analysis",
+    "snippet": "A U.S. commodity regulator publicly stated the silver market is structurally broken, reigniting debate over H.R. 8007 (the SILVER Act), which would require CME-approved silver depositories to span multiple U.S. time zones rather than clustering all 11 facilities within 150 miles of New York. Money Metals CEO Stefan Gleason backs the bill as an infrastructure reform to cut concentration risk and improve retail investor access.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "BHP CFO: NEW CLASS of AI-Focused Investors Buying Into Copper — 'Increasingly Viewed as Essential for Data Centres'",
+    "url": "https://www.investing.com/news/stock-market-news/bhp-cfo-says-new-investors-buying-in-on-copper-exposure-ai-demand-4661654",
+    "source_name": "Reuters",
+    "category_slug": "copper-base-metals",
+    "snippet": "BHP CFO Vandita Pant told the Macquarie Australia Conference that generalist institutional investors are buying the stock purely for copper exposure, viewing the metal as the key bottleneck in the AI and electrification supercycle. Copper has since overtaken iron ore as BHP's largest earnings contributor, with spot copper at $6.14/lb — up 35% year-on-year — and analysts flagging a structural supply deficit through the decade.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "Honey Badger Silver (TSXV: TUF) Hits 52-WEEK HIGH — 63% Gain Puts Junior Silver Explorer in the Spotlight",
+    "url": "https://www.dailypolitical.com/2026/05/05/honey-badger-silver-cvetuf-sets-new-52-week-high-time-to-buy.html",
+    "source_name": "Daily Political",
+    "category_slug": "gold-silver",
+    "snippet": "Honey Badger Silver (TSXV: TUF) surged to a new 52-week high of C$0.76, posting a 63% gain as silver's macro momentum lifted junior explorers across the TSX Venture Exchange. The company holds a portfolio of exploration assets in Canada's historic silver districts and has become one of the top-performing names in the TSX-V silver space this year.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "Bunker Hill Mine 85% Complete — Idaho Silver-Lead Operation on Track for June Restart, Sustainable Cash Flow by Q3",
+    "url": "https://www.globenewswire.com/news-release/2026/05/04/3286838/0/en/Bunker-Hill-on-Track-for-June-Restart-of-Operations.html",
+    "source_name": "Globe Newswire",
+    "category_slug": "exploration-discovery",
+    "snippet": "Bunker Hill Mining's Silver Valley, Idaho zinc-silver-lead operation is 85% through commissioning with the mills already turning; the company targets 1,800 t/d throughput at restart and expects sustainable free cash flow in H2 2026. Recent 'Cate-Eight' drill intercepts returned 11.9 oz/ton silver and 29.3% lead over 52 continuous feet — the first new mineralized veins identified at the historic property in decades.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "NdPr Oxide DROPS 21% in April to $99/kg — Rare Earth Prices Correct After 88% Year-to-Date Run",
+    "url": "https://rare-earth-mining.com/rare-earth-market-outlook-may-2026/",
+    "source_name": "Rare Earth Mining",
+    "category_slug": "rare-earths",
+    "snippet": "Neodymium-praseodymium oxide fell 21% in April to $99.61/kg — its sharpest monthly decline since Q1 — but remains 88% above its January open and well above the cost base of MP Materials, Lynas, and other Western producers. Analysts expect NdPr to consolidate in the $95–$115/kg domestic range through Q2 2026, with China's mid-year MIIT mining quota announcement as the key variable.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
