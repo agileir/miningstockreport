@@ -1,0 +1,122 @@
+[
+  {
+    "ticker": "DPM",
+    "name": "DPM Metals Inc.",
+    "exchange": "TSX",
+    "website": "https://dpmmetals.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Bulgaria"
+  },
+  {
+    "ticker": "DSV",
+    "name": "Discovery Silver Corp.",
+    "exchange": "TSX",
+    "website": "https://discoverysilver.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Ontario"
+  },
+  {
+    "ticker": "EDV",
+    "name": "Endeavour Mining plc",
+    "exchange": "TSX",
+    "website": "https://www.endeavourmining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "C\u00f4te d'Ivoire"
+  },
+  {
+    "ticker": "EFR",
+    "name": "Energy Fuels Inc.",
+    "exchange": "TSX",
+    "website": "https://www.energyfuels.com",
+    "primary_commodity": "Uranium",
+    "jurisdiction": "Utah"
+  },
+  {
+    "ticker": "ETG",
+    "name": "Entr\u00e9e Resources Ltd.",
+    "exchange": "TSX",
+    "website": "https://www.entreeresourcesltd.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Mongolia"
+  },
+  {
+    "ticker": "ERO",
+    "name": "Ero Copper Corp.",
+    "exchange": "TSX",
+    "website": "https://erocopper.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Bahia, Brazil"
+  },
+  {
+    "ticker": "EXN",
+    "name": "Excellon Resources Inc.",
+    "exchange": "TSX",
+    "website": "https://excellonresources.com",
+    "primary_commodity": "Silver",
+    "jurisdiction": "Peru"
+  },
+  {
+    "ticker": "FM",
+    "name": "First Quantum Minerals Ltd.",
+    "exchange": "TSX",
+    "website": "https://www.first-quantum.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Zambia"
+  },
+  {
+    "ticker": "FOR",
+    "name": "Fortune Bay Corp.",
+    "exchange": "TSXV",
+    "website": "https://fortunebaycorp.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Saskatchewan"
+  },
+  {
+    "ticker": "GMIN",
+    "name": "G Mining Ventures Corp.",
+    "exchange": "TSX",
+    "website": "https://gmin.gold",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Par\u00e1, Brazil"
+  },
+  {
+    "ticker": "GC",
+    "name": "Goldcana Resources Inc.",
+    "exchange": "OTHER",
+    "website": "https://www.goldcana.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "British Columbia"
+  },
+  {
+    "ticker": "GPAC",
+    "name": "Great Pacific Gold Corp.",
+    "exchange": "TSXV",
+    "website": "https://gpacgold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Papua New Guinea"
+  },
+  {
+    "ticker": "HBM",
+    "name": "Hudbay Minerals Inc.",
+    "exchange": "TSX",
+    "website": "https://www.hudbayminerals.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Peru"
+  },
+  {
+    "ticker": "ICG",
+    "name": "ICG Silver & Gold Ltd.",
+    "exchange": "OTHER",
+    "website": "https://icgsilverandgold.com",
+    "primary_commodity": "Silver",
+    "jurisdiction": "Nevada"
+  },
+  {
+    "ticker": "IE",
+    "name": "Ivanhoe Electric Inc.",
+    "exchange": "TSX",
+    "website": "https://ivanhoeelectric.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Arizona, USA"
+  }
+]
