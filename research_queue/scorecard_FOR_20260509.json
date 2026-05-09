@@ -1,0 +1,36 @@
+{
+  "ticker": "FOR",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "Fortune Bay's management has prior success in the Athabasca Basin, notably through the Roughrider Uranium project which was sold to Orano (AREVA) — demonstrating the ability to identify, define, and monetize a mineral asset in the region. The transition to gold exploration represents a different technical discipline than uranium, and gold exploration track record in the Beaverlodge domain is less proven. The team has maintained adequate market access and capital-raising ability consistent with a TSXV junior.",
+
+  "geology_score": 3,
+  "geology_notes": "The Goldfields Project is located in the historic Beaverlodge gold-silver district of northwest Saskatchewan, near Uranium City — a region with documented historical gold production dating to the 1930s–1950s. The Athabasca Basin margin geological setting is prospective for structurally-controlled gold mineralization. Resources appear to be classified at the inferred level, indicating defined mineralization but requiring further infill drilling for confidence classification upgrades. Grade and structural continuity details are limited in public disclosure.",
+
+  "capital_score": 3,
+  "capital_notes": "Fortune Bay has a capital structure consistent with a TSXV-listed junior explorer — modest share count, periodic equity market access for exploration funding, and likely use of flow-through shares for Canadian tax-effective exploration financing in Saskatchewan. No unusual warrant or option overhang is apparent from public disclosure. Cash position is expected to be modest but functional for a planned drill season. No extracted cap-table data available for this run.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Primary near-term catalysts are drill results from the annual Goldfields exploration program (typically spring–summer field season in northern Saskatchewan). Resource estimate updates following meaningful drill campaigns would represent secondary catalysts. A strategic partnership or farm-in agreement would be a higher-magnitude event. Drill results in an early-stage program are binary events with limited forward predictability.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "The Goldfields Project sits in a legitimate but underexplored gold district with historical production precedent. Comparable early-stage Saskatchewan gold explorers trade at modest NAV multiples reflecting the exploration risk discount. No near-term acquisition pressure is visible from current public information. Value-realization depends on advancing resources from inferred toward indicated classification to support a preliminary economic assessment.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Fortune Bay holds a legitimate exploration opportunity in the historic Goldfields gold district of Saskatchewan, underpinned by a management team that has previously monetized an asset in the Athabasca Basin. The core thesis is that systematic modern exploration will define a gold resource of sufficient scale and confidence to attract senior or intermediate-tier acquirer interest. The risk/reward is typical of the TSXV exploration tier: low liquidity, binary drill-result exposure, and a multi-year timeline to any value-defining event. Appropriate for small speculative allocation within a diversified junior mining portfolio. Cap-table and resource data were not available for this run (no extracted file in cache). Confidence is low due to limited current public information on resource definition progress.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}

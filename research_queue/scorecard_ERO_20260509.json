@@ -1,0 +1,36 @@
+{
+  "ticker": "ERO",
+  "exchange": "TSX",
+
+  "management_score": 4,
+  "management_notes": "David Strang co-founded Ero Copper and has been CEO since inception, overseeing organic discovery at MCSA and project delivery of Tucumã. The technical team is deep, with Brazilian operational experience built over a decade. Insider alignment is meaningful. The primary concern is that the Tucumã construction financing produced a levered balance sheet that reduces financial flexibility during the ramp-up phase.",
+
+  "geology_score": 4,
+  "geology_notes": "MCSA (Pilar and Vermelhos underground mines) is a high-grade copper system in the Caraíba Copper Belt, averaging 2–3% Cu blended — first-quartile by global cost and grade standards. Tucumã is a high-grade open-pit copper deposit in Pará providing significant production growth. Both assets carry well-classified NI 43-101 resources. The dual-asset profile offers operational diversification within a familiar Brazilian regulatory environment.",
+
+  "capital_score": 2,
+  "capital_notes": "Tucumã construction required substantial debt financing; net debt is estimated at approximately $700M+ USD as of construction completion. This leverage compresses valuation multiples relative to less-encumbered copper peers and creates sensitivity to copper price and operational execution during the ramp. Equity has been diluted through construction-period financings. No extracted cap-table data available for this run — shares_issued_outstanding and share_instruments are null/empty.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Tucumã is expected to be in production or active ramp-up as of May 2026. Key near-term catalysts are quarterly production reports confirming throughput, copper recoveries, and AISC tracking versus feasibility guidance. Debt reduction milestones are secondary market catalysts. These are regular disclosure events rather than binary catalyst inflections.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "ERO's high-grade profile commands a quality premium over bulk copper producers, but significant net debt constrains the P/NAV multiple. Comparable transactions for high-grade Brazilian copper operations have been executed in the 1.0–1.3x NAV range. ERO likely trades near 1.0x on a fully diluted, debt-adjusted basis until Tucumã demonstrates nameplate throughput.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Ero Copper owns two genuinely high-grade copper assets in Brazil and a management team with a track record of both discovery and execution. The Tucumã production ramp-up is the defining near-term event: if throughput and AISC land in line with the feasibility study, the deleveraging path becomes visible and multiple expansion is warranted. The constraining factor is the debt load — $700M+ net debt creates meaningful sensitivity to copper price and ramp execution risk. WATCH until two to three quarters of production data confirm Tucumã is performing as modelled. Cap-table and resource data were not available for this run (no extracted file in cache).",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}
