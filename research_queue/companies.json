@@ -1,0 +1,138 @@
+[
+  {
+    "ticker": "GC",
+    "name": "Goldcana Resources Inc.",
+    "exchange": "OTHER",
+    "website": "https://www.goldcana.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "British Columbia"
+  },
+  {
+    "ticker": "GPAC",
+    "name": "Great Pacific Gold Corp.",
+    "exchange": "TSXV",
+    "website": "https://gpacgold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Papua New Guinea"
+  },
+  {
+    "ticker": "HBM",
+    "name": "Hudbay Minerals Inc.",
+    "exchange": "TSX",
+    "website": "https://www.hudbayminerals.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Peru"
+  },
+  {
+    "ticker": "ICG",
+    "name": "ICG Silver & Gold Ltd.",
+    "exchange": "OTHER",
+    "website": "https://icgsilverandgold.com",
+    "primary_commodity": "Silver",
+    "jurisdiction": "Nevada"
+  },
+  {
+    "ticker": "IPT",
+    "name": "IMPACT Silver Corp.",
+    "exchange": "TSXV",
+    "website": "https://impactsilver.com",
+    "primary_commodity": "Silver",
+    "jurisdiction": "Mexico"
+  },
+  {
+    "ticker": "III",
+    "name": "Imperial Metals Corporation",
+    "exchange": "TSX",
+    "website": "https://imperialmetals.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "British Columbia"
+  },
+  {
+    "ticker": "IE",
+    "name": "Ivanhoe Electric Inc.",
+    "exchange": "TSX",
+    "website": "https://ivanhoeelectric.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Arizona, USA"
+  },
+  {
+    "ticker": "IVN",
+    "name": "Ivanhoe Mines Ltd.",
+    "exchange": "TSX",
+    "website": "https://www.ivanhoemines.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Democratic Republic of Congo"
+  },
+  {
+    "ticker": "KTO",
+    "name": "K2 Gold Corporation",
+    "exchange": "TSXV",
+    "website": "https://k2gold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "California"
+  },
+  {
+    "ticker": "KNT",
+    "name": "K92 Mining Inc.",
+    "exchange": "TSX",
+    "website": "https://www.k92mining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Papua New Guinea"
+  },
+  {
+    "ticker": "LGC",
+    "name": "Lavras Gold Corp.",
+    "exchange": "TSXV",
+    "website": "https://lavrasgold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Rio Grande do Sul"
+  },
+  {
+    "ticker": "LIBR",
+    "name": "Libra Energy Materials Inc.",
+    "exchange": "OTHER",
+    "website": "https://libraenergymaterials.com",
+    "primary_commodity": "Lithium",
+    "jurisdiction": "Ontario"
+  },
+  {
+    "ticker": "LUNR",
+    "name": "LunR Royalties Corp.",
+    "exchange": "TSXV",
+    "website": "https://www.lunrroyalties.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Argentina / Chile"
+  },
+  {
+    "ticker": "LUN",
+    "name": "Lundin Mining Corporation",
+    "exchange": "TSX",
+    "website": "https://www.lundinmining.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Chile"
+  },
+  {
+    "ticker": "MJS",
+    "name": "Majestic Gold Corp.",
+    "exchange": "TSXV",
+    "website": "https://majesticgold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Shandong"
+  },
+  {
+    "ticker": "MM",
+    "name": "Maximus Metals Inc.",
+    "exchange": "OTHER",
+    "website": "https://thecse.com/listings/maximus-metals-inc/",
+    "primary_commodity": "Gold",
+    "jurisdiction": "British Columbia"
+  },
+  {
+    "ticker": "MAU",
+    "name": "Montage Gold Corp.",
+    "exchange": "TSX",
+    "website": "https://www.montagegold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "C\u00f4te d'Ivoire"
+  }
+]
