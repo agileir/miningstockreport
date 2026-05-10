@@ -1,0 +1,36 @@
+{
+  "ticker": "GC",
+  "exchange": "CSE",
+
+  "management_score": 2,
+  "management_notes": "Incorporated 2023, headquartered in White Rock, BC. No disclosed management track record available publicly. Company holds an option to acquire 100% of the Triple F Gold Property. At earliest exploration stage with no history of taking a project to resource definition. Founding team unknown; no notable technical or capital markets insiders identified.",
+
+  "geology_score": 2,
+  "geology_notes": "Triple F Gold Property, 851 ha, 28 km northwest of Kelowna, BC. Phase I exploration completed March 2026 identified gold-bearing quartz veinlets hosted by weakly altered volcanic agglomerate. Mineralized envelope estimated at approximately 300x250x250 m based on historic sampling patterns. No modern NI 43-101 technical report or resource estimate has been completed. The setting is plausible for low-sulphidation epithermal gold but Phase I results are descriptive only — no assay highlight or drill intercept has been released.",
+
+  "capital_score": 2,
+  "capital_notes": "CSE-listed micro-cap with no extracted cap-table data available in this run. Recently listed; warrant overhang from seed and listing financings is likely. Trading liquidity is expected to be very low. No financing details publicly disclosed at the time of this report.",
+
+  "catalyst_score": 2,
+  "catalyst_notes": "Phase I program results released March 2026. Next catalyst would be a Phase II drill program announcement and eventual first drill intercepts. No drill program has been confirmed, and no budget or timeline has been disclosed. Until a drill decision is made and funded, news flow will be minimal.",
+
+  "acquisition_score": 1,
+  "acquisition_notes": "No NI 43-101 resource estimate exists. P/NAV is not calculable at this stage. The company holds only an option on the property, not full ownership. No comparable transaction data is applicable at this exploration stage.",
+
+  "verdict": "AVOID",
+  "analyst_summary": "Goldcana Resources is a 2023-vintage CSE micro-cap at the earliest possible stage of its exploration lifecycle on the Triple F Gold Property near Kelowna, BC. Phase I sampling confirms a 300x250x250 m gold-bearing zone, but no modern drilling or resource estimate exists and no drill program has been announced or funded. Management track record is undisclosed. The risk profile is too speculative for our framework until the company advances to a drill decision and publishes a Phase II technical report. No extracted cap-table or resource data was available in the filings cache for this ticker.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}
