@@ -1,0 +1,36 @@
+{
+  "ticker": "IE",
+  "exchange": "TSX",
+
+  "management_score": 3,
+  "management_notes": "Taylor Gilliam (CEO) leads the technical and operational side; the board connection to Robert Friedland (Executive Chairman) provides Tier-1 exploration credibility, deal-sourcing, and access to geological expertise. The Typhoon deep-penetrating EM technology team is technically credible and draws from the same deep-geophysics intellectual tradition that located Kamoa-Kakula. However, Ivanhoe Electric as a standalone entity has limited operating history — IPO'd in 2022 — and has yet to demonstrate an exploration discovery through to resource estimation. The management score reflects potential over proven delivery.",
+
+  "geology_score": 3,
+  "geology_notes": "Santa Cruz copper project in Arizona is a sediment-hosted stratiform copper system analogous to the Central African Copperbelt deposit type. The project has a large footprint with multiple zones intersected by diamond drilling, but grade and geometry are still being defined and no NI 43-101 compliant resource estimate has been published as of this review. Typhoon EM provides genuine exploration edge — the technology has demonstrated depth penetration beyond conventional methods. Tintic project in Utah is earlier stage zinc-copper. The geological thesis at Santa Cruz is credible but unvalidated by independent resource estimation.",
+
+  "capital_score": 3,
+  "capital_notes": "Ivanhoe Electric raised substantial proceeds at its 2022 IPO (dual-listed TSX and NYSE American). The burn rate covers exploration at Santa Cruz, Typhoon R&D, and administration. The company has no revenue; cash runway is tied to the pace of exploration spending. The Friedland network typically provides access to institutional capital if required. US-focused projects (Arizona, Utah) do not qualify for Canadian flow-through share financing. Share count is approximately 100-120 million shares (cap-table data not available — extracted filing JSON not present; see analyst summary).",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "A maiden NI 43-101 compliant mineral resource estimate at Santa Cruz would be the transformative catalyst — it would move IE from pure exploration to resource-stage and enable NAV-based valuation. Ongoing drill results at Santa Cruz are the near-term event flow. Typhoon technology licensing deals (to third-party mining companies) could generate revenue and validate the platform beyond IE's own projects. Any Friedland-connected strategic investment or farm-in by a major copper producer would reprice the stock.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "With no compliant resource estimate, NAV comparison is not yet possible at Santa Cruz. The stock trades at an exploration premium that reflects the Typhoon technology option value and Friedland connection, not in-ground copper. Until an independent resource estimate is filed, P/NAV analysis cannot be reliably conducted. Comparable early-stage copper explorers with technology differentiation typically trade at 1.5-3x exploration-stage peers, compressing the margin of safety. The acquisition score reflects the absence of a resource-based valuation anchor.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Ivanhoe Electric is an exploration-stage copper company with a compelling technology angle — the Typhoon deep-penetrating EM system provides a genuine edge in targeting buried copper systems that conventional methods miss. The Santa Cruz project in Arizona has a credible geological thesis (sediment-hosted copper) and is in active drilling, but no resource estimate exists yet. The Friedland connection attracts institutional attention and capital, and reduces the risk of a failed funding environment. The main concern is valuation: the stock is priced for discovery success that hasn't been independently quantified. A maiden resource estimate at Santa Cruz is the catalyst to watch. Cap-table and resource data not available — extracted filing JSON (research_queue/extracted/IE.json) has not been generated; share structure fields set to null pending harvester run.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}

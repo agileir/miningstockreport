@@ -1,0 +1,36 @@
+{
+  "ticker": "KTO",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "K2 Gold has a small exploration-focused management team. The company's principals have backgrounds in junior exploration on the TSXV. No major discovery or development execution is evident from available public record as of this review. The team's geological focus on the Yukon (Wels) and Nevada/California (Mojave, Longstreet) is consistent with a typical junior exploration strategy. Without detailed MD&A or biography data from the extracted filing, a full management assessment is not possible; score reflects limited public track record.",
+
+  "geology_score": 2,
+  "geology_notes": "Wels project (Yukon): a sediment-hosted gold target in the Dawson Range gold belt — a geologically active region with multiple past producers. Historical geochemical sampling and initial drilling have been completed but no NI 43-101 compliant resource estimate is publicly registered. Mojave project (California): epithermal gold target in the Mojave Desert with historical mining and surface sampling data. California permitting for drill programs on public land has become increasingly complex. Neither project has advanced to resource-stage as of this review. The geological setting for both is merit-worthy at regional scale but unvalidated by systematic drilling.",
+
+  "capital_score": 2,
+  "capital_notes": "K2 Gold is a typical TSXV junior explorer reliant on periodic equity financings to fund exploration programs. The company's Canadian operations (Wels, Yukon) qualify for flow-through share financing, and past placements have almost certainly included flow-through tranches given Yukon exploration expenditure requirements. Flow-through shares carry a standard 4-month hold period from issue; investors should confirm whether any recent FT tranches have reached their release date. Cap-table data not available — extracted filing JSON (research_queue/extracted/KTO.json) has not been generated; share count estimated at 50-80 million shares based on TSXV peer comparison (unconfirmed).",
+
+  "catalyst_score": 2,
+  "catalyst_notes": "Near-term catalysts are tied to drill program announcements and results from Wels or Mojave. Without a funded drill program confirmed in public disclosure available to this review, the catalyst timeline is uncertain. A positive drill intersection establishing a significant gold system at Wels would be the transformative event. California permit approvals for Mojave drilling would be a secondary catalyst.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "No resource estimate means NAV analysis is not applicable. Enterprise value is speculative — effectively a call option on discovery at Wels or Mojave. TSXV junior gold explorers with similar profiles trade at C$5-20M market cap range. Without an independent resource estimate, a P/NAV comparison is not possible.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "K2 Gold is an early-stage TSXV junior gold explorer with projects in the Yukon (Wels) and California (Mojave). The Yukon project has geological merit in a productive gold belt, but neither asset has a compliant resource estimate. Management has limited public track record of discovery success. The company relies on flow-through financing for Yukon drilling (standard for the TSXV tier), which creates periodic dilution and overhang at FT hold-release dates. For speculative accounts only: monitor for a funded drill program at Wels that could move the stock on results. Confidence is low due to limited training-data coverage of this specific issuer and the absence of an extracted filing JSON (research_queue/extracted/KTO.json); cap-table and resource fields set to null.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}
