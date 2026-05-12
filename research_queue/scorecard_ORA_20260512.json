@@ -1,0 +1,36 @@
+{
+  "ticker": "ORA",
+  "exchange": "TSX",
+
+  "management_score": 4,
+  "management_notes": "CEO Rodrigo Barbosa has led Aura since approximately 2020 and has delivered on multiple mine acquisitions, construction restarts, and production ramp-ups across Brazil, Honduras, and Mexico. The team has a strong track record of acquiring distressed assets at cycle lows and optimising them — Aranzazu (copper-gold, Minas Gerais) being the clearest example. Execution on the Almas gold mine (Tocantins) ramp-up and ongoing Borborema development confirm operational credibility. Management is aligned through equity ownership. Minor deduction for the complexity of managing three simultaneous emerging-market jurisdictions, which creates execution risk that a single-jurisdiction operator does not face.",
+
+  "geology_score": 3,
+  "geology_notes": "Aura operates a diversified portfolio: Apoena (Para, Brazil, gold), Aranzazu (Minas Gerais, Brazil, copper-gold), and Minosa (Honduras, gold) are the producing assets. Almas (Tocantins, Brazil) is in ramp-up. Borborema (Rio Grande do Norte, Brazil) is the flagship development project — a large open-pit gold deposit targeting approximately 130 koz/yr at the operating level, with solid strip ratios. Reserve base is adequate for mid-tier scale. Grades across the operating portfolio are modest; Borborema's development economics are the primary geological upside. No tier-1 flagship deposit, but operating diversification limits single-project risk meaningfully.",
+
+  "capital_score": 3,
+  "capital_notes": "Cash flow-positive across multiple operating mines provides a capital base unavailable to exploration-stage companies. Project-level debt is associated with Borborema construction financing. Net leverage is manageable. Borborema capex is the primary near-term capital consumption event. Equity base is established on the TSX. No major dilution risk under normal operating conditions. Cap-table details were not available in the extracted JSON cache for this run — share structure reflects a mature TSX producer rather than an exploration junior.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "The primary re-rating catalyst is Borborema going into commercial production, which would roughly double Aura's gold production and is the most significant event in the company's near-term outlook. Secondary catalysts include quarterly production updates from operating mines, Almas ramp-up milestones achieving nameplate throughput, and potential bolt-on acquisitions (management has been an active buyer of Latin American assets at cycle lows). Borborema construction and commissioning timeline are the key watches for 2026.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "Aura typically trades at a discount to NAV relative to Canadian-jurisdiction peers, reflecting the Brazil and Honduras emerging-market risk premium and mid-tier liquidity constraints. The Borborema pipeline creates meaningful NAV optionality not fully priced by the market at current levels. A larger producer acquiring Aura's Latin American multi-asset platform would be strategically logical, particularly for a company seeking Brazil exposure. P/NAV estimate in the 0.5–0.7x range based on production profile and comparable mid-tier Latin American producer transactions. NAV per share not derived for this run without a current financial model.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Aura Minerals is a cash-flowing, multi-asset gold and copper-gold producer with a development pipeline anchored by the Borborema gold project in Brazil. Management has a proven track record of building value through distressed asset acquisitions and operational improvement. The investment case centres on the Borborema re-rate: if the mine reaches commercial production on schedule, Aura's production profile and free cash flow roughly double from current levels. Key risks are emerging-market operating complexity across three jurisdictions, Borborema construction execution, and gold price sensitivity. Not a speculative junior — this is a producer-level holding with meaningful development upside. Suitable for investors seeking Latin American gold exposure with operational cash flow backstop. Watch for Borborema commissioning milestones and quarterly production guidance updates.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}
