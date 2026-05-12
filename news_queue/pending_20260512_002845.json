@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "CAMECO HALTS Key Lake Mill — Saskatchewan Flood Severs McArthur River Supply Route",
+    "url": "https://www.bnnbloomberg.ca/business/2026/05/11/cameco-says-flooding-in-northern-saskatchewan-affecting-key-lake-and-mcarthur-river/",
+    "source_name": "BNN Bloomberg",
+    "category_slug": "uranium-energy",
+    "snippet": "Cameco halted uranium milling at Key Lake and slowed production at McArthur River — one of the world's largest uranium mines — after a bridge collapse on the Smoothstone River severed the primary supply route into the operations. With slurry tanks holding only 7–10 days of full-production buffer, the timeline for resumption is unknown and could materially affect Cameco's 2026 output guidance.",
+    "is_featured": true,
+    "is_breaking": true
+  },
+  {
+    "headline": "BARRICK UNLEASHES $3B Buyback as Q1 Earnings Surge 238%, North American Spinoff Advances",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-11/barrick-says-gold-miner-to-buy-back-up-to-3-billion-of-shares",
+    "source_name": "Bloomberg",
+    "category_slug": "gold-silver",
+    "snippet": "Barrick Gold approved a $3 billion share repurchase program after Q1 2026 earnings surged 238% year-over-year on a realized gold price of $4,823 per ounce, driving record operating margins. The buyback also sets the stage for a planned spinoff of Barrick's premier North American gold assets while the Mali Loulo-Gounkoto complex ramps ahead of schedule.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "SILVER SPIKES 7% to $86 as Trump Brands Iran's Peace Offer 'Totally Unacceptable'",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-10/gold-falls-as-trump-rejection-of-iran-offer-fans-inflation-fears",
+    "source_name": "Bloomberg",
+    "category_slug": "gold-silver",
+    "snippet": "Silver surged as much as 7% to nearly $86 an ounce on May 11 — its highest level in two months — as Trump's rejection of Iran's peace proposal reignited Middle East risk and stoked persistent inflation fears, while gold retreated below $4,700 after giving back last week's $4,720 high. The silver market is now in its sixth consecutive year of structural supply deficit.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "RECORD HIGH: Copper Tops $6.44/lb as Middle East Acid Shortage Cripples Chilean Refinery Output",
+    "url": "https://www.mining.com/coppers-tight-supply-and-tariff-risks-set-for-a-volatile-2026/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "Copper futures surged to an all-time record of $6.44 per pound on May 11 — up 3.1% on the day and 40% year-over-year — as disrupted Middle East sulphuric acid shipments forced Chilean copper refineries to cut heap-leach and anode production capacity, while surging AI datacenter construction drove another wave of demand-side optimism. Southern Copper jumped over 7% on the session.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GALIANO GOLD Drills 32m of 4.7 g/t Au and 53m of 3.9 g/t Au at Ghana's Asanko Mine",
+    "url": "https://www.newsfilecorp.com/release/296849/Galiano-Gold-Expands-Abore-Mineralized-System-with-New-Intercepts-Including-32m-4.7-gt-Au-and-53m-3.9-gt-Au",
+    "source_name": "Newsfile Corp",
+    "category_slug": "exploration-discovery",
+    "snippet": "Galiano Gold (TSX/NYSE: GAU) expanded the Abore mineralized system at its Asanko Gold Mine in Ghana with new intercepts well beyond the current underground resource envelope, including 32m of 4.7 g/t Au from 420m depth and 53m of 3.9 g/t Au from 179m. The company has drilled approximately 14,500m of a fully funded 30,000m 2026 program and simultaneously expanded its exploration budget.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ULTRA-HIGH-GRADE: Brixton Drills 13m of 594 g/t Silver — Half-Metre of 7,900 g/t at Ontario's Langis",
+    "url": "https://www.globenewswire.com/news-release/2026/05/11/3291774/0/en/Brixton-Metals-Drills-13-0m-of-594-g-t-Silver-Including-0-5m-of-7-900-g-t-Silver-at-its-Langis-Project.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "exploration-discovery",
+    "snippet": "Brixton Metals (TSX-V: BBB) reported a standout intercept of 13.0m grading 594 g/t silver — including 0.5m of 7,900 g/t — at the Langis Silver Project in Cobalt, Ontario, one of the strongest results to date from a historically underdrilled area of the former-producer. The company plans to add a second drill in mid-May to accelerate its 60,000m 2026 program toward a maiden resource estimate.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD AND SILVER DELIVERIES Escalate — Are Paper Futures Losing Their Grip on the Physical Market?",
+    "url": "https://247wallst.com/investing/2026/05/11/gold-and-silver-deliveries-escalate-a-warning-for-currencies/",
+    "source_name": "24/7 Wall St.",
+    "category_slug": "opinion-analysis",
+    "snippet": "With China acquiring 800 metric tonnes of silver in Q1 2026 alone and physical buyers paying 11% premiums over COMEX spot prices, 24/7 Wall St argues the futures complex is losing pricing authority as the cumulative global silver supply deficit trends toward 866 million oz by year-end. The piece frames escalating physical delivery demands as a structural warning signal for fiat currencies.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "Can USA Rare Earth's $2.8B Serra Verde Deal BREAK China's 90% Grip on Rare Earth Refining?",
+    "url": "https://thediplomat.com/2026/05/will-the-us-serra-verde-acquisition-help-break-chinas-rare-earth-monopoly/",
+    "source_name": "The Diplomat",
+    "category_slug": "rare-earths",
+    "snippet": "The Diplomat examines whether USA Rare Earth's $2.8 billion acquisition of Serra Verde Group — the only large-scale producer of all four magnetic rare earths outside Asia — can meaningfully dent China's near-total dominance of rare earth refining. Despite the deal's strategic importance, analysts warn the West will still depend on China for 91% of heavy rare earth demand by 2030, down only modestly from 99% in 2024.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ENERGY STORAGE BOOM Flips Lithium Outlook: Morgan Stanley Forecasts 80,000-Tonne Deficit in 2026",
+    "url": "https://www.mining.com/web/energy-storage-boom-strengthens-demand-outlook-for-beaten-down-lithium/",
+    "source_name": "Mining.com",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "A surge in grid-scale battery storage — projected to claim 31% of lithium demand in 2026 versus 23% in 2025 — has turned market consensus from surplus to deficit, with Morgan Stanley forecasting an 80,000-tonne LCE shortfall and Canaccord calling for a 'material market deficit' sustained through the year. The reversal provides a potential re-rating catalyst for lithium juniors battered by two years of oversupply narratives.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "Gold Stocks LAGGING the Metal Again — Analyst Sees M&A Window Opening as Cash Flow Surges",
+    "url": "https://www.kitco.com/news/article/2026-05-08/gold-stock-weakness-may-create-ma-openings-producer-cash-flow-rises-john",
+    "source_name": "Kitco",
+    "category_slug": "opinion-analysis",
+    "snippet": "John Feneck tells Kitco that gold equities are significantly underperforming the metal even as producers generate record cash flow at $4,700+ gold, creating a widening valuation gap that historically precedes M&A consolidation — and bargain-hunting by well-capitalised seniors. Feneck names several mid-tier and junior names he believes are acquisition candidates in the current environment.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
