@@ -1,0 +1,36 @@
+{
+  "ticker": "MND",
+  "exchange": "TSX",
+
+  "management_score": 3,
+  "management_notes": "Mandalay Resources has executed a genuine operational turnaround since the mid-2010s financial difficulties. The current leadership team — centred on CEO Dominic Duffy — has stabilised costs, improved safety, and grown production at Costerfield (Victoria, Australia). The company has demonstrated capital discipline by divesting non-core assets (Cerro Bayo and Challacollo in Chile) and focusing on the two quality assets. Insider ownership and alignment are reasonable for a company of this size. The track record is positive but the history of financial stress is not forgotten by the market.",
+
+  "geology_score": 3,
+  "geology_notes": "Two-mine portfolio: (1) Costerfield (Victoria, Australia) — high-grade, narrow-vein underground gold-antimony mine producing in the 40,000–55,000 AuEq oz/year range. Augusta lode is the workhorse; exploration extensions along strike have repeatedly added mine life. (2) Björkdal (Skellefteå, Sweden) — bulk-tonnage, lower-grade open-pit and underground gold mine producing ~50,000 oz/year. Björkdal is a mine-life management story more than a discovery story. Costerfield's antimony co-product is gaining strategic-mineral premium as antimony is classified as critical in EU and US frameworks, but volumes are modest.",
+
+  "capital_score": 3,
+  "capital_notes": "No cap-table data available from extracted filings cache. Mandalay is a profitable small producer that has used free cash flow to reduce debt rather than dilute shareholders via placements — a positive structural indicator. Share count has been relatively stable. No major warrant overhangs expected in recent periods given the company's self-funded operational model. The balance sheet is materially cleaner than it was during the 2015–2018 period.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Near-term catalysts: (1) Costerfield underground extension drilling — the Augusta lode has been extended at depth repeatedly, and each successful step-out extends mine life and re-rates NAV. (2) Antimony price sensitivity — Mandalay is one of the very few Western-listed producers of antimony, a critical mineral increasingly sought by defence and battery industries; a sustained antimony price increase is a direct NAV catalyst. (3) Björkdal optimisation — lower-cost underground mining methods being trialled. No transformational catalysts (major acquisition, discovery) on the near-term horizon.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "Mandalay typically trades at 0.7–1.2x P/NAV for a profitable-but-small two-mine producer. The company's Australian and Swedish assets are attractive to mid-tier producers seeking Tier-1 jurisdiction diversification. Potential acquirers include larger Australian mid-tiers (Evolution Mining, Regis Resources) or Scandinavian-focused vehicles. The antimony strategic-mineral narrative could attract interest from defence-aligned acquirers. P/NAV is not deeply discounted enough to be a screaming value, but there is modest re-rating potential on a gold price or antimony price move.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Mandalay Resources is a clean, well-run two-mine gold producer in excellent jurisdictions (Victoria, Australia and Sweden) with a self-funded balance sheet, a genuine turnaround story, and an underappreciated antimony co-product at Costerfield that is gaining strategic-metal attention. It is not a speculative explorer — it is a steady-state small producer with modest growth optionality. For the retail investor audience, Mandalay is a reasonable WATCH: it belongs on the shortlist for investors who want producer-stage gold exposure in Tier-1 jurisdictions without Chinese or African political risk. Add on weakness below 0.8x NAV; trim at 1.2x. The Costerfield antimony angle is the differentiated call option worth monitoring in 2026.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}

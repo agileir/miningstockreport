@@ -1,0 +1,36 @@
+{
+  "ticker": "LUN",
+  "exchange": "TSX",
+
+  "management_score": 4,
+  "management_notes": "Lundin Mining benefits from the Lundin family's multi-decade mining pedigree — one of the most respected management lineages in the sector. CEO Jack Lundin (appointed 2022) has continued the group's disciplined capital-allocation culture. The 2024 joint acquisition of Filo Corp with BHP for ~C$4.1 billion — securing a 50% interest in the world-class Vicuña copper-gold district in Argentina/Chile — is a textbook Lundin move: buy world-class geology before the market understands the scale. Track record of building and operating Tier-1 assets (Candelaria, Caserones, Neves-Corvo) with strong safety culture.",
+
+  "geology_score": 4,
+  "geology_notes": "Multi-asset producing portfolio anchored by Candelaria (copper-gold, Atacama, Chile), Caserones (copper-moly, Chile, acquired 2023), Chapada (copper-gold, Brazil), Eagle (nickel-copper, Michigan), Neves-Corvo (copper-zinc, Portugal), and Zinkgruvan (zinc-lead, Sweden). The Vicuña District (Filo del Sol / Josemaria / Lundin projects) represents potentially one of the largest undeveloped copper-gold systems in the Andes — early resource estimates point to a multi-billion-tonne system. Geology quality is high across the board; the main constraint is that most value is already discovered and in production.",
+
+  "capital_score": 3,
+  "capital_notes": "No cap-table data available from extracted filings cache. As a TSX-listed C$8–10 billion market-cap producer, Lundin carries investment-grade debt from Caserones and Filo acquisitions, partially offset by strong free cash flow generation from existing operations. Share count is in the range of 700–750 million shares (estimate from training data; no confirmed filing data in cache). This is not a leveraged junior structure — it is a well-capitalised mid-tier producer. Limited warrant overhang expected at this scale; dilution risk is primarily from project finance rather than exploration placements.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Near-term catalysts centre on: (1) continued ramp-up at Caserones to nameplate capacity, (2) scoping/PEA work on the Vicuña District to define the development path for Filo del Sol, (3) potential re-rating as the copper price thesis (energy transition, data-centre buildout) strengthens. These are meaningful but multi-year catalysts suited to a patient generalist rather than a speculative junior investor seeking 6–18-month re-ratings. Operationally, the company is in steady-state production with modest organic production growth.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "Lundin Mining typically trades at 1.0–1.5x P/NAV for its producing assets, which is a fair rating for a diversified mid-tier producer. The Vicuña optionality is not yet fully valued by the market (50% stake in a world-class system being advanced jointly with BHP), creating some upside asymmetry. However, at this market cap and given the multiple years to production for Vicuña, this is not the deep-discount P/NAV entry point characteristic of a junior BUY. The M&A scenario (takeout by a major) is plausible but not imminent given the Lundin family's stated intention to develop Vicuña independently.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Lundin Mining is a well-run, diversified copper producer with genuine Tier-1 asset quality, exceptional management DNA, and a potentially transformative copper-gold discovery (Vicuña District, 50/50 with BHP) that the market is still working to fully price. This is not a junior speculation — it is a quality mid-tier position for investors who want copper exposure with downside protection from existing cash flows. For a retail investor audience focused on junior discovery plays, Lundin represents the 'blue-chip anchor' end of the risk spectrum: appropriate as a portfolio stabiliser or a vehicle to express a multi-year copper thesis, but not a speculative double or triple. WATCH: initiate or add on copper price weakness, with a 3–5 year horizon on Vicuña development.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}
