@@ -1,0 +1,36 @@
+{
+  "ticker": "NGLD",
+  "exchange": "OTC",
+
+  "management_score": 2,
+  "management_notes": "Nevada Canyon Gold Corp. is a very small OTC-listed company with limited publicly available management disclosure. No verifiable track record of prior discovery, development, or monetization is visible from public sources. The company's low profile on the OTC markets makes independent management assessment unreliable. Score reflects absence of positive evidence, not confirmed negative evidence.",
+
+  "geology_score": 2,
+  "geology_notes": "Nevada is one of the world's premier gold jurisdictions (Carlin, Battle Mountain, Walker Lane trends), so the address has inherent geological merit. However, no current NI 43-101 or SEC Industry Guide 7 compliant resource estimate for Nevada Canyon Gold is identifiable in public sources. Property-level geology, grade, and mineralization style are unknown. Nevada jurisdiction alone cannot compensate for the absence of verifiable geological data. Score reflects the jurisdiction premium offset by lack of visible resource.",
+
+  "capital_score": 2,
+  "capital_notes": "OTC-listed small companies consistently carry disadvantaged capital structures: minimal liquidity, high bid-ask spreads, frequent toxic financing arrangements, and limited institutional participation. Cap-table data was not available in the pre-extracted filings cache. Without knowing shares outstanding, warrant overhang, or recent financing terms, a meaningful capital score cannot be assigned — score reflects the structural disadvantage of OTC-market micro-caps as a class.",
+
+  "catalyst_score": 2,
+  "catalyst_notes": "No identifiable near-term catalysts from public sources. No drill programs, resource estimates, partnership announcements, or strategic transactions are apparent. Without a defined news-flow pipeline, the company cannot be evaluated on timing of value inflection.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "Without a defined resource or demonstrated geological merit, acquisition interest cannot be assessed meaningfully. Nevada land positions carry optionality value, but the magnitude depends entirely on what's in the ground — which is currently unverifiable from public sources.",
+
+  "verdict": "AVOID",
+  "analyst_summary": "Nevada Canyon Gold is an OTC-listed gold exploration company in Nevada with very limited publicly available information on management, geology, capital structure, or near-term catalysts. While Nevada's geological pedigree is world-class, the company's low public profile, non-standard listing venue, and absence of a verifiable resource estimate make it impossible to assign a positive verdict on the available information. All five Verdict factors score weak. Cap-table and resource data were not available in the filings cache. Confidence is low — this is an information-scarcity AVOID rather than a fundamentally flawed asset, and new material disclosure should prompt re-evaluation.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}

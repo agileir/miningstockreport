@@ -1,0 +1,36 @@
+{
+  "ticker": "MSM",
+  "exchange": "OTHER",
+
+  "management_score": 2,
+  "management_notes": "Limited publicly available information on Metalsource Mining's management team. No visible track record of taking a North Carolina project from exploration through to a development decision. North Carolina is not a primary mining jurisdiction and the company has a very low public profile, making independent assessment of management quality difficult.",
+
+  "geology_score": 2,
+  "geology_notes": "North Carolina's Piedmont belt hosts historic gold occurrences (Charlotte Belt and Kings Mountain Belt) and was the site of the first U.S. gold rush in the early 1800s. However, no modern large-scale gold deposits have been developed in the state, and the regulatory and permitting environment is complex. Without a current NI 43-101 or equivalent resource estimate visible in public filings, the geological thesis cannot be independently verified.",
+
+  "capital_score": 2,
+  "capital_notes": "Listed on a non-standard exchange (OTHER). Liquidity is expected to be minimal. Cap-table data was not available in the pre-extracted filings cache — shares outstanding and warrant/option structure are unknown. Small OTC-equivalent companies in non-core jurisdictions typically carry unfavorable share structures accumulated through years of small-scale financings.",
+
+  "catalyst_score": 2,
+  "catalyst_notes": "No visible near-term catalysts identifiable from public sources. No announced drill programs, resource updates, or strategic transactions apparent. Without a clearly defined news-flow timeline, the risk/reward timing is unattractive for new positions.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "Major and mid-tier gold producers have shown minimal M&A interest in North Carolina exploration-stage assets historically. The jurisdiction does not command a premium in acquisition comps. Without a defined resource, P/NAV analysis cannot be completed.",
+
+  "verdict": "AVOID",
+  "analyst_summary": "Metalsource Mining is a very early-stage gold explorer in North Carolina with limited public disclosure, an unlisted exchange designation, and no visible resource estimate. North Carolina has historic gold significance but no modern tier-1 deposits. All five Verdict factors score weak — management track record is unverifiable, geology is unproven at the resource stage, capital structure is opaque, catalysts are absent, and acquisition comps do not support a premium valuation. Cap-table and resource data were not available in the filings cache. Confidence is low given the information scarcity. AVOID unless new material disclosure warrants re-evaluation.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}
