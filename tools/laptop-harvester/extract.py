@@ -306,6 +306,58 @@ _DIRECT_OUTSTANDING_MILLIONS = [
 ]
 
 
+# Tab-separated instrument-table patterns (AAUC pattern: cap-table is a
+# single summary table with each row "<label> N.N N.N N.N" in implicit
+# millions). Captures the first numeric column (most recent period). Each
+# captured number is multiplied by 1M at use.
+_TAB_INSTRUMENT_PATTERNS = [
+    ("option",      re.compile(r"\bStock\s+options?(?:\(\d+\))?\s+(\d{1,4}\.\d{1,2})\b", re.I)),
+    ("rsu",         re.compile(r"\b(?:Restricted|Performance)\s+share\s+units?(?:\(\d+\))?\s+(\d{1,4}\.\d{1,2})\b", re.I)),
+    ("warrant",     re.compile(r"\bWarrants?(?:\(\d+\))?\s+(\d{1,4}\.\d{1,2})\b", re.I)),
+    ("convertible", re.compile(r"\bConvertible\s+(?:debentures?|notes?)(?:\(\d+\))?\s+(\d{1,4}\.\d{1,2})\b", re.I)),
+]
+
+# AAUC-style "Total Shares and Convertible Securities Issued and Outstanding 134.4 ..."
+# row gives us fully_diluted directly. Constrained to small magnitude (millions).
+_TOTAL_DILUTED_TABLE = re.compile(
+    r"Total\s+Shares?\s+and\s+Convertible\s+Securities.{0,80}?(\d{1,4}\.\d{1,2})",
+    re.I | re.DOTALL,
+)
+
+
+def _extract_tab_instruments(text: str) -> tuple[int | None, list[dict]]:
+    """For tickers that disclose cap-table as a single tab-separated summary
+    table (AAUC pattern), pull the diluted total and per-instrument counts.
+    Returns (diluted_or_None, list_of_tranches)."""
+    diluted = None
+    m = _TOTAL_DILUTED_TABLE.search(text)
+    if m:
+        try:
+            v = int(float(m.group(1)) * 1_000_000)
+            if 1_000_000 <= v <= 10_000_000_000:
+                diluted = v
+        except (TypeError, ValueError):
+            pass
+
+    tranches: list[dict] = []
+    for inst_type, pat in _TAB_INSTRUMENT_PATTERNS:
+        m = pat.search(text)
+        if not m:
+            continue
+        try:
+            count = int(float(m.group(1)) * 1_000_000)
+        except (TypeError, ValueError):
+            continue
+        if count <= 0:
+            continue
+        tranches.append({
+            "type": inst_type, "count": count,
+            "strike_price": None, "expiry": None,
+            "raw": f"tab-table row: {m.group(0)[:80]}",
+        })
+    return diluted, tranches
+
+
 def _extract_cap_table(pdf_path: Path, notes: list[str]) -> dict:
     """
     Find cap-table fields in an MD&A or AIF.
@@ -373,6 +425,15 @@ def _extract_cap_table(pdf_path: Path, notes: list[str]) -> dict:
     out["shares_fully_diluted"] = _extract_share_count(full, _FULLY_DILUTED)
     warrants_total, options_total = _extract_instrument_counts(full)
 
+    # 3b. AAUC-style tab table — Total Shares and Convertible Securities row
+    # gives diluted directly, and Stock options / RSU / Warrants / Convertibles
+    # rows give per-instrument counts. Run against the full doc (the cap table
+    # is in the share-capital section, often early in the MD&A).
+    tab_diluted, tab_tranches = _extract_tab_instruments(full_doc)
+    if out["shares_fully_diluted"] is None and tab_diluted is not None:
+        out["shares_fully_diluted"] = tab_diluted
+        notes.append(f"diluted from 'Total Shares and Convertible Securities' tab row: {tab_diluted:,}")
+
     if out["shares_fully_diluted"] is None and out["shares_issued_outstanding"] is not None:
         if warrants_total or options_total:
             out["shares_fully_diluted"] = out["shares_issued_outstanding"] + warrants_total + options_total
@@ -380,7 +441,8 @@ def _extract_cap_table(pdf_path: Path, notes: list[str]) -> dict:
                 f"computed fully_diluted = outstanding + {warrants_total} warrants + {options_total} options"
             )
 
-    # 4. share_instruments: detailed (strike+expiry) when present, else count-only stubs
+    # 4. share_instruments: detailed (strike+expiry) when present, else count-only stubs.
+    # Tab-table tranches always seed the list (additive with detailed/summary).
     detailed = _extract_share_instruments(full, notes)
     if detailed:
         out["share_instruments"] = detailed
@@ -397,6 +459,13 @@ def _extract_cap_table(pdf_path: Path, notes: list[str]) -> dict:
                 "strike_price": None, "expiry": None,
                 "raw": "summary count only — strike/expiry not extracted from MD&A summary table",
             })
+    # Merge tab-table tranches, but don't double-count an instrument type that
+    # we already captured via the line-based / prose paths.
+    existing_types = {t.get("type") for t in out["share_instruments"]}
+    for t in tab_tranches:
+        if t["type"] not in existing_types:
+            out["share_instruments"].append(t)
+            existing_types.add(t["type"])
 
     # 5. Flow-through tranches — detected separately because they live in
     # subsequent-events / financing notes rather than the share-capital
