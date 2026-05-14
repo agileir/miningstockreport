@@ -9,21 +9,19 @@ What it does, per ticker JSON:
   - Reads research_queue/extracted/<TICKER>.json (from the repo working tree)
   - Maps each extracted field to a ChecklistItem row (auto-filled)
   - Records provenance (sha256 + filing date + path)
-  - Runs inline sanity-check rules; sets sanity_check_passed
+  - Dispatches to apps.verdict.sanity for per-key validation
   - Aggregates into CompanyHarvestState (status, blockers_summary,
     ready_for_verdict, last_successful_harvest)
 
 Doesn't fetch anything from the network. Pure file -> DB transform.
 """
 import json
-import os
-from datetime import datetime, timezone
-from decimal import Decimal
 from pathlib import Path
 
 from django.core.management.base import BaseCommand
 from django.utils import timezone as djtz
 
+from apps.verdict import sanity
 from apps.verdict.models import (
     Company, CompanyHarvestState, HarvestStateChoice,
     ChecklistItem, ChecklistItemCategory, ChecklistItemStatus,
@@ -34,74 +32,15 @@ from apps.verdict.models import (
 EXTRACTED_DIR = Path(__file__).resolve().parents[4] / "research_queue" / "extracted"
 
 
-# ────────────────────── sanity-check engine ─────────────────────
-
-def _sanity_shares_outstanding(value):
-    try:
-        v = int(value)
-    except (TypeError, ValueError):
-        return False, "non-integer value"
-    if not (1_000_000 <= v <= 10_000_000_000):
-        return False, f"out of plausible band: {v:,}"
-    return True, ""
-
-
-def _sanity_shares_fully_diluted(value, basic):
-    try:
-        v = int(value)
-        b = int(basic) if basic else None
-    except (TypeError, ValueError):
-        return False, "non-integer value"
-    if b is None or b <= 0:
-        return False, "basic shares not set; cannot validate ratio"
-    ratio = v / b
-    if not (1.0 <= ratio <= 2.0):
-        return False, f"diluted/basic ratio {ratio:.2f} out of 1.0-2.0 band"
-    return True, ""
-
-
-def _sanity_share_instruments(instruments, basic, diluted):
-    if not isinstance(instruments, list):
-        return False, "value is not a list"
-    if not basic or not diluted:
-        return False, "cannot validate without basic and diluted counts"
-    try:
-        total = sum(int(i.get("count") or 0) for i in instruments)
-        gap = int(diluted) - int(basic)
-    except (TypeError, ValueError):
-        return False, "non-integer count in instruments"
-    if gap == 0:
-        # Companies with no warrants/options can legitimately have diluted == basic
-        return total == 0, "" if total == 0 else f"instruments total {total} but diluted == basic"
-    pct = abs(total - gap) / gap
-    if pct > 0.05:
-        return False, f"instrument sum {total:,} vs (diluted-basic) gap {gap:,} differ by {pct:.1%}"
-    return True, ""
-
-
-def _sanity_filing_recent(local_path, days_limit):
-    """Filing date is encoded in the path as YYYYMMDD."""
-    if not local_path:
-        return False, "no source filing path"
-    import re
-    m = re.search(r"(\d{4})(\d{2})(\d{2})", local_path)
-    if not m:
-        return False, "could not parse filing date from path"
-    try:
-        filing_date = datetime(int(m.group(1)), int(m.group(2)), int(m.group(3)), tzinfo=timezone.utc)
-    except ValueError:
-        return False, "invalid filing date"
-    age_days = (datetime.now(timezone.utc) - filing_date).days
-    if age_days > days_limit:
-        return False, f"filing is {age_days} days old (limit {days_limit})"
-    return True, ""
-
-
-# ────────────────────── per-ticker sync ─────────────────────
-
 def _upsert_item(company, key, *, value=None, source_type="", source_ref="",
                   source_page=None, status=ChecklistItemStatus.AUTO_FILLED,
-                  sanity_passed=False, sanity_notes="", updated_by="sync_extracted"):
+                  sanity_result: sanity.SanityResult | None = None,
+                  updated_by="sync_extracted"):
+    """Upsert a ChecklistItem and record the sanity result.
+
+    `sanity_result` carries severity; we store its prefixed notes so ops can
+    see [ERROR]/[WARNING]/[INFO] tags in the admin.
+    """
     obj, _ = ChecklistItem.objects.get_or_create(
         company=company, key=key,
         defaults={"category": ChecklistItemCategory.REQUIRED},
@@ -111,8 +50,12 @@ def _upsert_item(company, key, *, value=None, source_type="", source_ref="",
     obj.source_ref = source_ref
     obj.source_page = source_page
     obj.status = status
-    obj.sanity_check_passed = sanity_passed
-    obj.sanity_check_notes = sanity_notes
+    if sanity_result is not None:
+        obj.sanity_check_passed = sanity_result.passed
+        obj.sanity_check_notes = sanity_result.with_prefix()
+    else:
+        obj.sanity_check_passed = False
+        obj.sanity_check_notes = ""
     obj.updated_by = updated_by
     obj.save()
     return obj
@@ -138,37 +81,36 @@ def _sync_ticker(data: dict) -> tuple[int, list]:
 
     # ── mda_annual_or_interim ──
     if cap_src.get("local_path"):
-        ok, notes = _sanity_filing_recent(cap_src["local_path"], 180)
+        mda_value = {"bucket": cap_src.get("bucket"), "date": cap_src.get("date")}
+        result = sanity.validate("mda_annual_or_interim", mda_value)
         _upsert_item(
             company, "mda_annual_or_interim",
-            value={"bucket": cap_src.get("bucket"), "date": cap_src.get("date")},
+            value=mda_value,
             source_type=ChecklistItemSource.SEDAR_HARVESTER,
             source_ref=cap_src.get("sha256") or "",
             status=ChecklistItemStatus.AUTO_FILLED,
-            sanity_passed=ok,
-            sanity_notes=notes,
+            sanity_result=result,
         )
         touched += 1
 
     # ── shares_issued_outstanding ──
     basic = data.get("shares_issued_outstanding")
     if basic is not None:
-        ok, notes = _sanity_shares_outstanding(basic)
+        result = sanity.validate("shares_issued_outstanding", basic)
         _upsert_item(
             company, "shares_issued_outstanding",
             value=basic,
             source_type=ChecklistItemSource.SEDAR_HARVESTER,
             source_ref=cap_src.get("sha256") or "",
             status=ChecklistItemStatus.AUTO_FILLED,
-            sanity_passed=ok,
-            sanity_notes=notes,
+            sanity_result=result,
         )
         touched += 1
     else:
         _upsert_item(
             company, "shares_issued_outstanding",
             status=ChecklistItemStatus.FAILED,
-            sanity_notes="extractor returned null",
+            sanity_result=sanity.SanityResult(False, sanity.SEVERITY_ERROR, "extractor returned null"),
         )
         failures.append("shares_issued_outstanding")
         touched += 1
@@ -176,37 +118,35 @@ def _sync_ticker(data: dict) -> tuple[int, list]:
     # ── shares_fully_diluted ──
     diluted = data.get("shares_fully_diluted")
     if diluted is not None:
-        ok, notes = _sanity_shares_fully_diluted(diluted, basic)
+        result = sanity.validate("shares_fully_diluted", diluted, basic=basic)
         _upsert_item(
             company, "shares_fully_diluted",
             value=diluted,
             source_type=ChecklistItemSource.SEDAR_HARVESTER,
             source_ref=cap_src.get("sha256") or "",
             status=ChecklistItemStatus.AUTO_FILLED,
-            sanity_passed=ok,
-            sanity_notes=notes,
+            sanity_result=result,
         )
         touched += 1
     else:
         _upsert_item(
             company, "shares_fully_diluted",
             status=ChecklistItemStatus.FAILED,
-            sanity_notes="extractor returned null",
+            sanity_result=sanity.SanityResult(False, sanity.SEVERITY_ERROR, "extractor returned null"),
         )
         failures.append("shares_fully_diluted")
         touched += 1
 
     # ── share_instruments ──
     instruments = data.get("share_instruments") or []
-    ok, notes = _sanity_share_instruments(instruments, basic, diluted)
+    result = sanity.validate("share_instruments", instruments, basic=basic, diluted=diluted)
     _upsert_item(
         company, "share_instruments",
         value=instruments,
         source_type=ChecklistItemSource.SEDAR_HARVESTER,
         source_ref=cap_src.get("sha256") or "",
         status=ChecklistItemStatus.AUTO_FILLED if instruments else ChecklistItemStatus.FAILED,
-        sanity_passed=ok,
-        sanity_notes=notes,
+        sanity_result=result,
     )
     if not instruments:
         failures.append("share_instruments")
@@ -214,61 +154,54 @@ def _sync_ticker(data: dict) -> tuple[int, list]:
 
     # ── resource_or_43101_status ──
     if tech_src.get("local_path"):
+        tech_value = {"date": tech_src.get("date"), "local_path": tech_src.get("local_path")}
+        result = sanity.validate("resource_or_43101_status", tech_value)
         _upsert_item(
             company, "resource_or_43101_status",
-            value={"date": tech_src.get("date"), "local_path": tech_src.get("local_path")},
+            value=tech_value,
             source_type=ChecklistItemSource.SEDAR_HARVESTER,
             source_ref=tech_src.get("sha256") or "",
             status=ChecklistItemStatus.AUTO_FILLED,
-            sanity_passed=True,
-            sanity_notes="",
+            sanity_result=result,
         )
         touched += 1
 
     # ── financials_annual ──
-    # We don't extract structured fields from the financials yet, but its
-    # mere presence in the cache (within an 18-month window) is enough to
-    # satisfy the checklist row.
     if fin_src.get("local_path"):
-        ok, notes = _sanity_filing_recent(fin_src["local_path"], 18 * 30)
+        fin_value = {"bucket": fin_src.get("bucket"), "date": fin_src.get("date")}
+        result = sanity.validate("financials_annual", fin_value)
         _upsert_item(
             company, "financials_annual",
-            value={"bucket": fin_src.get("bucket"), "date": fin_src.get("date")},
+            value=fin_value,
             source_type=ChecklistItemSource.SEDAR_HARVESTER,
             source_ref=fin_src.get("sha256") or "",
             status=ChecklistItemStatus.AUTO_FILLED,
-            sanity_passed=ok,
-            sanity_notes=notes,
+            sanity_result=result,
         )
         touched += 1
 
     # ── aif (OPTIONAL — does not block) ──
     if aif_src.get("local_path"):
-        ok, notes = _sanity_filing_recent(aif_src["local_path"], 18 * 30)
+        aif_value = {"bucket": aif_src.get("bucket"), "date": aif_src.get("date")}
+        result = sanity.validate("aif", aif_value)
         _upsert_item(
             company, "aif",
-            value={"bucket": aif_src.get("bucket"), "date": aif_src.get("date")},
+            value=aif_value,
             source_type=ChecklistItemSource.SEDAR_HARVESTER,
             source_ref=aif_src.get("sha256") or "",
             status=ChecklistItemStatus.AUTO_FILLED,
-            sanity_passed=ok,
-            sanity_notes=notes,
+            sanity_result=result,
         )
         touched += 1
 
     return touched, failures
 
 
-# ────────────────────── harvest state aggregation ─────────────────────
-
 def _refresh_harvest_state(company):
     """Recompute CompanyHarvestState fields from current ChecklistItem rows."""
     state, _ = CompanyHarvestState.objects.get_or_create(company=company)
     required = list(company.checklist_items.filter(category=ChecklistItemCategory.REQUIRED))
-    unsatisfied = [
-        item for item in required
-        if not item.is_satisfied
-    ]
+    unsatisfied = [item for item in required if not item.is_satisfied]
     state.ready_for_verdict = (len(unsatisfied) == 0)
     state.blockers_summary = "; ".join(
         f"{i.key}({i.get_status_display()})" for i in unsatisfied
@@ -281,8 +214,6 @@ def _refresh_harvest_state(company):
     state.save()
     return state
 
-
-# ────────────────────── command ─────────────────────
 
 class Command(BaseCommand):
     help = "Sync extracted-JSON files into ChecklistItem + CompanyHarvestState."
