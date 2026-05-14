@@ -1,6 +1,6 @@
 {
   "ticker": "AAUC",
-  "extracted_at": "2026-05-14T23:17:20+00:00",
+  "extracted_at": "2026-05-14T23:21:31+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -42,6 +42,13 @@
       "strike_price": null,
       "expiry": null,
       "raw": "tab-table row: Restricted\tshare\tunits(5) \t 2.2"
+    },
+    {
+      "type": "convertible",
+      "count": 6200000,
+      "strike_price": null,
+      "expiry": null,
+      "raw": "tab-table row: Convertible\tdebentures(5) \t 6.2"
     }
   ],
   "resource_measured": null,
