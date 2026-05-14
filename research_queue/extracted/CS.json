@@ -1,12 +1,12 @@
 {
   "ticker": "CS",
-  "extracted_at": "2026-05-14T20:22:40+00:00",
+  "extracted_at": "2026-05-14T22:43:46+00:00",
   "sources": {
     "cap_table_source": {
-      "bucket": "mda",
-      "date": "20260302",
-      "local_path": "mda-20260302.pdf",
-      "sha256": "5771d15af70c7c05a256cd0685507adf18fa3a5c40c155b3553170c20f3922cf"
+      "bucket": "mda_interim",
+      "date": "20260429",
+      "local_path": "mda_interim-20260429.pdf",
+      "sha256": "b055cca63a426d3082e88add4f05d9febce05bfbf3e4a33fc5ec9aae277a16e7"
     },
     "tech_43101_source": {
       "date": "20241114",
@@ -26,12 +26,12 @@
       "sha256": "6079a5ffba715e6fd134fbbcc2fff754f6a177254b45cfd8209eaf8384936af2"
     }
   },
-  "shares_issued_outstanding": null,
-  "shares_fully_diluted": 770737003,
+  "shares_issued_outstanding": 763668362,
+  "shares_fully_diluted": 772884797,
   "share_instruments": [
     {
       "type": "option",
-      "count": 3458119,
+      "count": 4038888,
       "strike_price": null,
       "expiry": null,
       "raw": "summary count only \u2014 strike/expiry not extracted from MD&A summary table"
@@ -43,7 +43,6 @@
   "reserve_proven": "Proven 181 0.58 0.10 1,044 602",
   "reserve_probable": "Probable 160 0.41 0.09 656 474",
   "extraction_notes": [
-    "could not locate issued-and-outstanding share count",
     "no warrant/option lines matched the strict pattern",
     "no flow-through tranches detected"
   ]

@@ -1,12 +1,12 @@
 {
   "ticker": "CRI",
-  "extracted_at": "2026-05-14T20:24:20+00:00",
+  "extracted_at": "2026-05-14T22:43:35+00:00",
   "sources": {
     "cap_table_source": {
-      "bucket": "mda",
-      "date": "20251222",
-      "local_path": "mda-20251222.pdf",
-      "sha256": "d875d625c5d43c9deeab29b29d91163eefedd71eadd9e495f3bf86aa0009dc83"
+      "bucket": "mda_interim",
+      "date": "20260429",
+      "local_path": "mda_interim-20260429.pdf",
+      "sha256": "f48119422ed45e5221bbb4bc336ee2176965c42d73986bf3a72af32ac4435736"
     },
     "tech_43101_source": {
       "date": "20230801",
@@ -20,19 +20,19 @@
       "sha256": "42df3af3731a36fca53f89607051cecc5cf4ca2ecc594d497fd36508e419b717"
     }
   },
-  "shares_issued_outstanding": 295547843,
-  "shares_fully_diluted": 299536175,
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
   "share_instruments": [
     {
       "type": "warrant",
-      "count": 38332,
+      "count": 2625000,
       "strike_price": null,
       "expiry": null,
       "raw": "summary count only \u2014 strike/expiry not extracted from MD&A summary table"
     },
     {
       "type": "option",
-      "count": 3950000,
+      "count": 23450000,
       "strike_price": null,
       "expiry": null,
       "raw": "summary count only \u2014 strike/expiry not extracted from MD&A summary table"
@@ -44,7 +44,7 @@
   "reserve_proven": null,
   "reserve_probable": null,
   "extraction_notes": [
-    "computed fully_diluted = outstanding + 38332 warrants + 3950000 options",
+    "computed fully_diluted = outstanding + 2625000 warrants + 23450000 options",
     "no warrant/option lines matched the strict pattern",
     "no flow-through tranches detected",
     "no resource/reserve table rows matched in first 60 pages"

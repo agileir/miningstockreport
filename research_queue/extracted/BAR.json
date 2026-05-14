@@ -1,12 +1,12 @@
 {
   "ticker": "BAR",
-  "extracted_at": "2026-05-14T20:23:49+00:00",
+  "extracted_at": "2026-05-14T22:42:49+00:00",
   "sources": {
     "cap_table_source": {
-      "bucket": "mda",
-      "date": "20250724",
-      "local_path": "mda-20250724.pdf",
-      "sha256": "85400c308b0259a40e0cda8d10ef631f1a1404ccb805547031a2761634f36e20"
+      "bucket": "mda_interim",
+      "date": "20260226",
+      "local_path": "mda_interim-20260226.pdf",
+      "sha256": "27240ff48e578995d99614c458e59d10d296016c67cf972f82f01451879e2aef"
     },
     "tech_43101_source": {
       "date": "20241108",
