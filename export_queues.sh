@@ -16,6 +16,9 @@ git pull origin main --quiet 2>/dev/null
 # TEMPORARY (2026-04-24 to 2026-06-24): bumped from --batch 5 / --new 3 (default)
 # to --batch 6 / --new 6 for ~6 scorecards/night through end of June 2026.
 # REVERT after 2026-06-24 → restore: --batch 5 (and drop --new).
+# Promote checklist-gate READY companies (with 30-day cooldown)
+python manage.py promote_ready_companies --cap 5 --settings=config.settings.production 2>&1
+
 python manage.py queue_rescore --batch 6 --new 6 --settings=config.settings.production 2>&1
 
 # Export unfilled companies (for company-data-agent)

@@ -11,6 +11,10 @@ DEADLETTER_DIR="$QUEUE_DIR/.failed"
 mkdir -p "$DEADLETTER_DIR"
 source venv/bin/activate
 
+# Sync laptop-harvested extracted JSON into ChecklistItem rows. Idempotent.
+echo "$(date '+%Y-%m-%d %H:%M:%S') Syncing extracted JSON to checklist"
+python manage.py sync_extracted_to_checklist --settings=config.settings.production || echo "WARN: sync_extracted_to_checklist failed"
+
 # Clear the companies.json queue file after scorecards are processed
 PROCESSED=0
 
