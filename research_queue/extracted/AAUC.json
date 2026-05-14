@@ -1,6 +1,6 @@
 {
   "ticker": "AAUC",
-  "extracted_at": "2026-05-14T22:42:08+00:00",
+  "extracted_at": "2026-05-14T23:17:20+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -27,14 +27,30 @@
     }
   },
   "shares_issued_outstanding": 125900000,
-  "shares_fully_diluted": null,
-  "share_instruments": [],
+  "shares_fully_diluted": 136600000,
+  "share_instruments": [
+    {
+      "type": "option",
+      "count": 2400000,
+      "strike_price": null,
+      "expiry": null,
+      "raw": "tab-table row: Stock\toptions(5) \t 2.4"
+    },
+    {
+      "type": "rsu",
+      "count": 2200000,
+      "strike_price": null,
+      "expiry": null,
+      "raw": "tab-table row: Restricted\tshare\tunits(5) \t 2.2"
+    }
+  ],
   "resource_measured": null,
   "resource_indicated": null,
   "resource_inferred": null,
   "reserve_proven": "The Proven and Probable Mineral Reserve as of 31 December 2022 is summarised by classification and",
   "reserve_probable": "The Proven and Probable Mineral Reserve as of 31 December 2022 is summarised by classification and",
   "extraction_notes": [
+    "diluted from 'Total Shares and Convertible Securities' tab row: 136,600,000",
     "no warrant/option lines matched the strict pattern",
     "no flow-through tranches detected"
   ]
