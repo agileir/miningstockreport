@@ -169,3 +169,78 @@ class CompanyQueueAdmin(admin.ModelAdmin):
             request,
             f"Promoted {promoted} new Company records; linked {skipped} entries to existing Company rows.",
         )
+
+
+# ────────────────────────────────────────────────────────────────────────────
+# Pre-verdict checklist admin
+# ────────────────────────────────────────────────────────────────────────────
+
+from .models import (
+    CompanyHarvestState, HarvestStateChoice,
+    ChecklistItem, ChecklistItemCategory, ChecklistItemStatus,
+)
+
+
+@admin.register(CompanyHarvestState)
+class CompanyHarvestStateAdmin(admin.ModelAdmin):
+    list_display = (
+        "company_ticker", "status", "ready_for_verdict",
+        "last_successful_harvest", "last_published_scorecard",
+        "failure_count", "blockers_short", "checklist_link",
+    )
+    list_filter   = ("status", "ready_for_verdict")
+    search_fields = ("company__ticker", "company__name")
+    readonly_fields = ("updated_at",)
+    actions       = ["mark_stale", "reset_failure_count"]
+
+    def checklist_link(self, obj):
+        # ChecklistItem FKs to Company, not CompanyHarvestState, so the
+        # standard admin inline doesn't apply. Link to the changelist
+        # filtered to this company's items instead.
+        url = f"/admin/verdict/checklistitem/?company__id__exact={obj.company_id}"
+        return format_html('<a href="{}">items</a>', url)
+    checklist_link.short_description = "Checklist"
+
+    def company_ticker(self, obj):
+        return obj.company.ticker
+    company_ticker.short_description = "Ticker"
+    company_ticker.admin_order_field = "company__ticker"
+
+    def blockers_short(self, obj):
+        s = obj.blockers_summary or ""
+        return s if len(s) <= 80 else s[:77] + "..."
+    blockers_short.short_description = "Blockers"
+
+    @admin.action(description="Mark as stale (re-harvest pending)")
+    def mark_stale(self, request, queryset):
+        n = queryset.update(status=HarvestStateChoice.STALE)
+        self.message_user(request, f"Marked {n} company(ies) stale.")
+
+    @admin.action(description="Reset failure count to zero")
+    def reset_failure_count(self, request, queryset):
+        n = queryset.update(failure_count=0, next_retry_after=None)
+        self.message_user(request, f"Reset failure count on {n} row(s).")
+
+
+@admin.register(ChecklistItem)
+class ChecklistItemAdmin(admin.ModelAdmin):
+    list_display = (
+        "company_ticker", "key", "category", "status", "source_type",
+        "sanity_check_passed", "value_short", "updated_at",
+    )
+    list_filter   = ("category", "status", "source_type", "sanity_check_passed")
+    search_fields = ("company__ticker", "company__name", "key")
+    autocomplete_fields = ("company",)
+    readonly_fields = ("updated_at",)
+
+    def company_ticker(self, obj):
+        return obj.company.ticker
+    company_ticker.short_description = "Ticker"
+    company_ticker.admin_order_field = "company__ticker"
+
+    def value_short(self, obj):
+        if obj.value is None:
+            return "—"
+        s = str(obj.value)
+        return s if len(s) <= 80 else s[:77] + "..."
+    value_short.short_description = "value"

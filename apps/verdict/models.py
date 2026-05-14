@@ -549,3 +549,188 @@ class ShellCandidate(models.Model):
 
     def __str__(self):
         return f"{self.exchange}:{self.ticker} — {self.name} ({self.get_status_display()})"
+
+
+# ────────────────────────────────────────────────────────────────────────────
+# Pre-verdict checklist system
+#
+# The verdict scorecard pipeline gates on a per-company checklist. Each
+# required data item must be populated (auto-filled from the laptop harvester,
+# manually entered by a human, or explicitly waived with a reason) AND must
+# pass sanity-check rules before that company is eligible for verdict
+# scoring. Quality over throughput.
+# ────────────────────────────────────────────────────────────────────────────
+
+
+class HarvestStateChoice(models.TextChoices):
+    NEW         = "new",         "Never harvested"
+    HARVESTING  = "harvesting",  "Harvest in progress"
+    READY       = "ready",       "Ready for verdict"
+    BLOCKED     = "blocked",     "Blocked — missing required data"
+    STALE       = "stale",       "Stale — re-harvest pending"
+    FAILED      = "failed",      "Last harvest failed"
+
+
+class CompanyHarvestState(models.Model):
+    """One row per Company. Tracks where the company sits in the harvest →
+    extraction → ready-for-verdict pipeline."""
+
+    company = models.OneToOneField(
+        Company, on_delete=models.CASCADE, related_name="harvest_state",
+    )
+    status = models.CharField(
+        max_length=20, choices=HarvestStateChoice.choices,
+        default=HarvestStateChoice.NEW, db_index=True,
+    )
+    last_harvest_attempt    = models.DateTimeField(null=True, blank=True)
+    last_successful_harvest = models.DateTimeField(null=True, blank=True)
+    last_published_scorecard = models.DateTimeField(null=True, blank=True)
+    next_retry_after        = models.DateTimeField(null=True, blank=True)
+    failure_count           = models.PositiveSmallIntegerField(default=0)
+
+    blockers_summary = models.TextField(
+        blank=True,
+        help_text="Auto-generated. Comma-separated unsatisfied REQUIRED items.",
+    )
+    ready_for_verdict = models.BooleanField(
+        default=False, db_index=True,
+        help_text="True iff every REQUIRED ChecklistItem is satisfied AND sanity-check passes.",
+    )
+
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        verbose_name = "Company harvest state"
+        verbose_name_plural = "Company harvest states"
+        ordering = ["company__ticker"]
+
+    def __str__(self):
+        return f"{self.company.ticker} — {self.get_status_display()}"
+
+
+class ChecklistItemCategory(models.TextChoices):
+    REQUIRED    = "required",    "Required to publish scorecard"
+    RECOMMENDED = "recommended", "Recommended — contributes to confidence"
+    OPTIONAL    = "optional",    "Optional — informational"
+
+
+class ChecklistItemStatus(models.TextChoices):
+    PENDING      = "pending",      "Pending"
+    AUTO_FILLED  = "auto_filled",  "Auto-filled by harvester"
+    HUMAN_FILLED = "human_filled", "Filled by human"
+    WAIVED       = "waived",       "Waived"
+    FAILED       = "failed",       "Auto-fill failed"
+
+
+class ChecklistItemSource(models.TextChoices):
+    SEDAR_HARVESTER = "sedar_harvester", "SEDAR+ harvester"
+    HUMAN_UPLOAD    = "human_upload",    "Human upload / paste"
+    EXTERNAL_API    = "external_api",    "External API / scraper"
+    AGENT_KNOWLEDGE = "agent_knowledge", "Agent training-data knowledge"
+    DERIVED         = "derived",         "Derived from another item"
+
+
+class ChecklistItem(models.Model):
+    """A single piece of data the verdict pipeline cares about for a company.
+    Multiple per Company — one per `key`. Source-of-truth for whether the
+    pipeline can proceed."""
+
+    company  = models.ForeignKey(Company, on_delete=models.CASCADE, related_name="checklist_items")
+    key      = models.CharField(
+        max_length=80,
+        help_text="Stable identifier — e.g. 'mda_annual', 'shares_issued_outstanding'.",
+    )
+    category = models.CharField(
+        max_length=15, choices=ChecklistItemCategory.choices,
+        default=ChecklistItemCategory.REQUIRED,
+    )
+    status = models.CharField(
+        max_length=15, choices=ChecklistItemStatus.choices,
+        default=ChecklistItemStatus.PENDING, db_index=True,
+    )
+    source_type = models.CharField(
+        max_length=20, choices=ChecklistItemSource.choices, blank=True,
+    )
+    source_ref = models.CharField(
+        max_length=200, blank=True,
+        help_text="sha256 of source PDF, URL, filename, or other provenance pointer.",
+    )
+    source_page = models.PositiveIntegerField(null=True, blank=True)
+
+    value = models.JSONField(
+        null=True, blank=True,
+        help_text="The actual data — number, string, list, etc. Schema depends on key.",
+    )
+
+    waiver_reason = models.TextField(
+        blank=True,
+        help_text="Required when status=WAIVED. Audit trail.",
+    )
+    sanity_check_passed = models.BooleanField(default=False)
+    sanity_check_notes  = models.TextField(blank=True)
+
+    updated_at = models.DateTimeField(auto_now=True)
+    updated_by = models.CharField(
+        max_length=60, blank=True,
+        help_text="Username or system identifier of whoever last touched this row.",
+    )
+
+    class Meta:
+        verbose_name = "Checklist item"
+        verbose_name_plural = "Checklist items"
+        unique_together = ("company", "key")
+        ordering = ["company__ticker", "category", "key"]
+        indexes = [
+            models.Index(fields=["status", "category"]),
+            models.Index(fields=["company", "category"]),
+        ]
+
+    def __str__(self):
+        return f"{self.company.ticker} :: {self.key} ({self.get_status_display()})"
+
+    @property
+    def is_satisfied(self) -> bool:
+        """True if this row would NOT block publication. Required items must
+        be auto/human-filled (with sanity-pass) OR waived with a reason.
+        Other categories never block."""
+        if self.category != ChecklistItemCategory.REQUIRED:
+            return True
+        if self.status in (ChecklistItemStatus.AUTO_FILLED, ChecklistItemStatus.HUMAN_FILLED):
+            return self.sanity_check_passed
+        if self.status == ChecklistItemStatus.WAIVED:
+            return bool(self.waiver_reason)
+        return False
+
+
+# Canonical catalog of checklist keys. The scaffolder management command
+# creates ChecklistItem rows for any keys missing on a company.
+REQUIRED_CHECKLIST_KEYS = [
+    # (key, category, description, sanity-check description)
+    ("mda_annual_or_interim", ChecklistItemCategory.REQUIRED,
+     "Latest annual or interim MD&A PDF in the cache.",
+     "Filing date within 180 days."),
+    ("financials_annual", ChecklistItemCategory.REQUIRED,
+     "Latest audited annual financial statements.",
+     "Filing date within 18 months."),
+    ("shares_issued_outstanding", ChecklistItemCategory.REQUIRED,
+     "Basic shares issued and outstanding (integer).",
+     "1M <= value <= 10B."),
+    ("shares_fully_diluted", ChecklistItemCategory.REQUIRED,
+     "Fully diluted share count (integer).",
+     "1.0x <= value/basic <= 2.0x."),
+    ("share_instruments", ChecklistItemCategory.REQUIRED,
+     "List of warrant/option/flow-through tranches.",
+     "Sum of counts approximately (diluted - basic) within 5 percent."),
+    ("resource_or_43101_status", ChecklistItemCategory.REQUIRED,
+     "Latest NI 43-101 cached OR waived (e.g., pre-resource explorer).",
+     "Filing exists OR waiver_reason provided."),
+    ("recent_material_event", ChecklistItemCategory.RECOMMENDED,
+     "Most recent material change report or significant news release.",
+     "Within 90 days."),
+    ("insider_activity_90d", ChecklistItemCategory.RECOMMENDED,
+     "Insider transaction activity from Canadian Insider.",
+     "Scraped within 30 days."),
+    ("aif", ChecklistItemCategory.OPTIONAL,
+     "Annual Information Form (typical for seniors only).",
+     "Filing date within 18 months; junior issuers commonly waive."),
+]
