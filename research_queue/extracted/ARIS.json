@@ -1,6 +1,6 @@
 {
   "ticker": "ARIS",
-  "extracted_at": "2026-05-07T03:03:42+00:00",
+  "extracted_at": "2026-05-14T20:24:14+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -12,6 +12,18 @@
       "date": "20251028",
       "local_path": "tech_43101-20251028-b38ee3b5.pdf",
       "sha256": "e10effab85dfa97ada50beac157d917d3347f4c21f45cceb90790b903fe794e2"
+    },
+    "financials_annual_source": {
+      "bucket": "financials_annual",
+      "date": "20260311",
+      "local_path": "financials_annual-20260311.pdf",
+      "sha256": "b1666ccaa53371ae3a1778c126a9029c18849e969d0b2dfaa92bd6825ddf85a7"
+    },
+    "aif_source": {
+      "bucket": "aif",
+      "date": "20260311",
+      "local_path": "aif-20260311.pdf",
+      "sha256": "f825088ca25356307819d8e2df6757386d46aa8627bcad15da8792908bd58467"
     }
   },
   "shares_issued_outstanding": 206300000,

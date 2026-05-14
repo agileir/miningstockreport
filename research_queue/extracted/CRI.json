@@ -1,6 +1,6 @@
 {
   "ticker": "CRI",
-  "extracted_at": "2026-05-07T03:03:49+00:00",
+  "extracted_at": "2026-05-14T20:24:20+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -12,6 +12,12 @@
       "date": "20230801",
       "local_path": "tech_43101-20230801-05cf46f4.pdf",
       "sha256": "b492863afaad82ff53e138f9b5bdfe6a6db8122ac6cc60bd56bf677af0824cb1"
+    },
+    "financials_annual_source": {
+      "bucket": "financials_annual",
+      "date": "20251222",
+      "local_path": "financials_annual-20251222.pdf",
+      "sha256": "42df3af3731a36fca53f89607051cecc5cf4ca2ecc594d497fd36508e419b717"
     }
   },
   "shares_issued_outstanding": 295547843,

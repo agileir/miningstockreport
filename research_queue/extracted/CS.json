@@ -1,0 +1,50 @@
+{
+  "ticker": "CS",
+  "extracted_at": "2026-05-14T20:22:40+00:00",
+  "sources": {
+    "cap_table_source": {
+      "bucket": "mda",
+      "date": "20260302",
+      "local_path": "mda-20260302.pdf",
+      "sha256": "5771d15af70c7c05a256cd0685507adf18fa3a5c40c155b3553170c20f3922cf"
+    },
+    "tech_43101_source": {
+      "date": "20241114",
+      "local_path": "tech_43101-20241114-5d02ae7d.pdf",
+      "sha256": "ae9e6d4755da9f66a2cd3eddc13f30c77421380cfd7d6740ac7a41171aec5a11"
+    },
+    "financials_annual_source": {
+      "bucket": "financials_annual",
+      "date": "20260302",
+      "local_path": "financials_annual-20260302.pdf",
+      "sha256": "b41e5e99b018694c8432ab190f7fbb0ca0f97ce6914520d379fca8dbdf27a5d7"
+    },
+    "aif_source": {
+      "bucket": "aif",
+      "date": "20260327",
+      "local_path": "aif-20260327.pdf",
+      "sha256": "6079a5ffba715e6fd134fbbcc2fff754f6a177254b45cfd8209eaf8384936af2"
+    }
+  },
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": 770737003,
+  "share_instruments": [
+    {
+      "type": "option",
+      "count": 3458119,
+      "strike_price": null,
+      "expiry": null,
+      "raw": "summary count only \u2014 strike/expiry not extracted from MD&A summary table"
+    }
+  ],
+  "resource_measured": "Measured  187.5 0.57 0.10 178 1,069 603 33",
+  "resource_indicated": "Indicated  332.0 0.41 0.10 134 1,369 1,068 45",
+  "resource_inferred": "Total Inferred  553.1 0.37 0.08 62 2,046 1,423 34",
+  "reserve_proven": "Proven 181 0.58 0.10 1,044 602",
+  "reserve_probable": "Probable 160 0.41 0.09 656 474",
+  "extraction_notes": [
+    "could not locate issued-and-outstanding share count",
+    "no warrant/option lines matched the strict pattern",
+    "no flow-through tranches detected"
+  ]
+}

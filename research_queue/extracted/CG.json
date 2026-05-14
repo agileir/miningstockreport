@@ -1,6 +1,6 @@
 {
   "ticker": "CG",
-  "extracted_at": "2026-05-07T03:02:20+00:00",
+  "extracted_at": "2026-05-14T20:22:50+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -12,6 +12,18 @@
       "date": "20260304",
       "local_path": "tech_43101-20260304-8983dad7.pdf",
       "sha256": "c8077a57e2da4c19dbb5454ac464add3f2d54273e18757b9b4f5f46b148934cc"
+    },
+    "financials_annual_source": {
+      "bucket": "financials_annual",
+      "date": "20260219",
+      "local_path": "financials_annual-20260219.pdf",
+      "sha256": "c692699c59f86c64c9118b7252d29084e34b9ee353a32876629018337a9137ab"
+    },
+    "aif_source": {
+      "bucket": "aif",
+      "date": "20260323",
+      "local_path": "aif-20260323.pdf",
+      "sha256": "701045422b919668123e69a27b7c5929e7812e435da54969a8f9e0dc257f5326"
     }
   },
   "shares_issued_outstanding": 200093489,

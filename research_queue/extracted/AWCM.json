@@ -1,6 +1,6 @@
 {
   "ticker": "AWCM",
-  "extracted_at": "2026-05-07T03:03:12+00:00",
+  "extracted_at": "2026-05-14T20:23:43+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -12,6 +12,18 @@
       "date": "20230320",
       "local_path": "tech_43101-20230320-7843fd67.pdf",
       "sha256": "e49d132fa9a15d4cdd4c7edfeff54ae595f8ea2964eef1bfb1fee0ea2908c55f"
+    },
+    "financials_annual_source": {
+      "bucket": "financials_annual",
+      "date": "20250828",
+      "local_path": "financials_annual-20250828.pdf",
+      "sha256": "804160f82f0274c7b03f240faa55bb47fb93e5ecc435106f457c18aea8f80b44"
+    },
+    "aif_source": {
+      "bucket": "aif",
+      "date": "20220909",
+      "local_path": "aif-20220909.pdf",
+      "sha256": "aaf7224edfb3f94fc008a72886f28b06f3548023ef23ec22eaad639222eda6ef"
     }
   },
   "shares_issued_outstanding": 22747245,

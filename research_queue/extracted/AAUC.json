@@ -1,6 +1,6 @@
 {
   "ticker": "AAUC",
-  "extracted_at": "2026-05-07T03:02:50+00:00",
+  "extracted_at": "2026-05-14T20:23:21+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -12,6 +12,18 @@
       "date": "20230907",
       "local_path": "tech_43101-20230907-b65f049f.pdf",
       "sha256": "32537a9abb10b36223a5d792ab6d39f65936919ba75664c75d8769430674e352"
+    },
+    "financials_annual_source": {
+      "bucket": "financials_annual",
+      "date": "20260331",
+      "local_path": "financials_annual-20260331.pdf",
+      "sha256": "56a0b67cf24815c2a98efc9fd1ead78602977ba3b27e4ececf1aed494554eb13"
+    },
+    "aif_source": {
+      "bucket": "aif",
+      "date": "20260331",
+      "local_path": "aif-20260331.pdf",
+      "sha256": "7978eb6baf442d895d1f5345892ed67dd14761a0c090038943f88e6c7104ae07"
     }
   },
   "shares_issued_outstanding": null,

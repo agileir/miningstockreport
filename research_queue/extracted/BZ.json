@@ -1,12 +1,24 @@
 {
   "ticker": "BZ",
-  "extracted_at": "2026-05-07T03:03:08+00:00",
+  "extracted_at": "2026-05-14T20:23:39+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
       "date": "20250731",
       "local_path": "mda-20250731.pdf",
       "sha256": "2cfe3a9ccc0e1b22209378f48bae16e2c26ca2d4bd229b5bc30bc0d56900968c"
+    },
+    "financials_annual_source": {
+      "bucket": "financials_annual",
+      "date": "20250731",
+      "local_path": "financials_annual-20250731.pdf",
+      "sha256": "d85b0ff6275c86b063bc5c72a5f92bf0f485329511b87219d32d090f281d44df"
+    },
+    "aif_source": {
+      "bucket": "aif",
+      "date": "20250731",
+      "local_path": "aif-20250731.pdf",
+      "sha256": "ded59b1eea9541ee7bbf5c15509edb89f80d9c276b475146d4831f7af89bfa26"
     }
   },
   "shares_issued_outstanding": 258836364,

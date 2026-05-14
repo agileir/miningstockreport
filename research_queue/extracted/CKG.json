@@ -1,6 +1,6 @@
 {
   "ticker": "CKG",
-  "extracted_at": "2026-05-07T03:03:05+00:00",
+  "extracted_at": "2026-05-14T20:23:37+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -12,6 +12,18 @@
       "date": "20210830",
       "local_path": "tech_43101-20210830-69b3ccd7.pdf",
       "sha256": "01b3a77b17e3e6e6d8215935959b90d5c7d93acc66474fcbcc094d4105a49db3"
+    },
+    "financials_annual_source": {
+      "bucket": "financials_annual",
+      "date": "20260422",
+      "local_path": "financials_annual-20260422.pdf",
+      "sha256": "ab5bf3dec68c186ff1f53635d4d033cb1c66772de7a7967ac9f1e02d00fa639b"
+    },
+    "aif_source": {
+      "bucket": "aif",
+      "date": "20250807",
+      "local_path": "aif-20250807.pdf",
+      "sha256": "cd533f70c2c973ebe25e7acbc3dc1174deaa0895c93cc8c65142b701321d6741"
     }
   },
   "shares_issued_outstanding": null,

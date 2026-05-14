@@ -1,6 +1,6 @@
 {
   "ticker": "BAR",
-  "extracted_at": "2026-05-07T03:03:18+00:00",
+  "extracted_at": "2026-05-14T20:23:49+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -12,6 +12,12 @@
       "date": "20241108",
       "local_path": "tech_43101-20241108-3ddb5441.pdf",
       "sha256": "6caad2a6cd25cc668b56811c9c25bc9748d1b1a1a83571a2500e14363a13397d"
+    },
+    "financials_annual_source": {
+      "bucket": "financials_annual",
+      "date": "20250724",
+      "local_path": "financials_annual-20250724.pdf",
+      "sha256": "e1456c5cf21e2d3ddfd9f7cde2102bec2e1cabd6381ff05ab1530c54d4c6a9c5"
     }
   },
   "shares_issued_outstanding": 30687008,

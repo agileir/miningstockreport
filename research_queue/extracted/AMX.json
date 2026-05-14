@@ -1,6 +1,6 @@
 {
   "ticker": "AMX",
-  "extracted_at": "2026-05-07T03:02:30+00:00",
+  "extracted_at": "2026-05-14T20:23:00+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -12,6 +12,12 @@
       "date": "20251017",
       "local_path": "tech_43101-20251017-7e894bf5.pdf",
       "sha256": "36451b6ad0ee1c69a6718d34131f736d4087133db7d44de78d35f15f912ca4ea"
+    },
+    "financials_annual_source": {
+      "bucket": "financials_annual",
+      "date": "20260421",
+      "local_path": "financials_annual-20260421.pdf",
+      "sha256": "5a3b02a612cd5ef49816cd1e1d9145b18ada9dfa6e7b8eda757086cfae2e81f1"
     }
   },
   "shares_issued_outstanding": 142825186,

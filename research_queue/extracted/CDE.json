@@ -1,12 +1,18 @@
 {
   "ticker": "CDE",
-  "extracted_at": "2026-05-07T03:03:00+00:00",
+  "extracted_at": "2026-05-14T20:23:31+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
       "date": "20260218",
       "local_path": "mda-20260218.pdf",
       "sha256": "62c0aa011625b6204533327966eb373d04b7d380dd7bf1ad9f1104749e05ed15"
+    },
+    "financials_annual_source": {
+      "bucket": "financials_annual",
+      "date": "20260218",
+      "local_path": "financials_annual-20260218.pdf",
+      "sha256": "a0b69cf1c5bf60264c67f932279b01da21dd8828aaa1bd721f783c4f7f90f00e"
     }
   },
   "shares_issued_outstanding": null,

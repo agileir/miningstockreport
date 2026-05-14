@@ -1,8 +1,14 @@
 {
   "ticker": "ABX",
-  "extracted_at": "2026-05-07T03:03:30+00:00",
+  "extracted_at": "2026-05-14T20:24:01+00:00",
   "sources": {
     "cap_table_source": {
+      "bucket": "aif",
+      "date": "20260227",
+      "local_path": "aif-20260227.pdf",
+      "sha256": "94fba975db3c2cc8f1cb0fb95e8c9c97d83b000fedee2849380734d9d745e48c"
+    },
+    "aif_source": {
       "bucket": "aif",
       "date": "20260227",
       "local_path": "aif-20260227.pdf",

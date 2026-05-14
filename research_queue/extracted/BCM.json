@@ -1,6 +1,6 @@
 {
   "ticker": "BCM",
-  "extracted_at": "2026-05-07T03:02:40+00:00",
+  "extracted_at": "2026-05-14T20:23:11+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -12,6 +12,18 @@
       "date": "20250314",
       "local_path": "tech_43101-20250314-1aa54ebe.pdf",
       "sha256": "6b1d4d7dd81502cea3eb2391e1218662712feff6ab102f2a91c768942a9fcd94"
+    },
+    "financials_annual_source": {
+      "bucket": "financials_annual",
+      "date": "20250417",
+      "local_path": "financials_annual-20250417.pdf",
+      "sha256": "06b65b15a124c9248fde4dcc9c6f6e8f33872aa508e5a1abc6a7da59adcf2e75"
+    },
+    "aif_source": {
+      "bucket": "aif",
+      "date": "20250417",
+      "local_path": "aif-20250417.pdf",
+      "sha256": "72a01cb9c7d62461bbfcd0a9604dac5a4c2d9bcdd716a1d11238022eb428c247"
     }
   },
   "shares_issued_outstanding": 227730785,

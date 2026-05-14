@@ -1,6 +1,6 @@
 {
   "ticker": "BATX",
-  "extracted_at": "2026-05-07T03:03:34+00:00",
+  "extracted_at": "2026-05-14T20:24:06+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -12,6 +12,12 @@
       "date": "20251017",
       "local_path": "tech_43101-20251017-0cd1e32a.pdf",
       "sha256": "feaafd08ff0dde2f90553a0c348d6b0ef74a865a58a1e626c54877580f7f79ca"
+    },
+    "financials_annual_source": {
+      "bucket": "financials_annual",
+      "date": "20260430",
+      "local_path": "financials_annual-20260430.pdf",
+      "sha256": "f037495bb7a7715d55056f46db32afbfb416561be357d4beb561f21503d894a3"
     }
   },
   "shares_issued_outstanding": 3586758,
