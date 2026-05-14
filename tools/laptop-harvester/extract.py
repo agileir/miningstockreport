@@ -713,14 +713,16 @@ def extract_ticker(ticker: str) -> dict:
     for f in manifest.get("filings", []):
         by_bucket.setdefault(f["bucket"], []).append(f)
 
-    # Pick latest MD&A for cap-table; fall back to AIF if no annual MD&A.
+    # Pick most-recent MD&A for cap-table (annual + interim in one pool),
+    # falling back to AIF only if no MD&A at all. Prior version always
+    # preferred annual over interim, which made interim-fresh tickers
+    # (AWCM, BCM, BZ) look stale.
     cap_source = None
-    for bucket in ("mda", "aif", "mda_interim"):
-        items = by_bucket.get(bucket) or []
-        if not items:
-            continue
-        cap_source = max(items, key=lambda x: x["date"])
-        break
+    mda_items = (by_bucket.get("mda") or []) + (by_bucket.get("mda_interim") or [])
+    if mda_items:
+        cap_source = max(mda_items, key=lambda x: x["date"])
+    elif by_bucket.get("aif"):
+        cap_source = max(by_bucket["aif"], key=lambda x: x["date"])
 
     # All 43-101s, latest first
     techs = sorted(by_bucket.get("tech_43101", []), key=lambda x: x["date"], reverse=True)
