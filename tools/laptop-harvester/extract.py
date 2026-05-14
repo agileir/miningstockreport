@@ -294,11 +294,15 @@ def _all_pages_text(pdf_path: Path) -> str:
 
 
 # Patterns for "X.Y million common shares issued and outstanding" style
-# (ARIS, AAUC use millions-with-decimal). Captured number gets multiplied
-# by 1,000,000 at extraction time.
+# (ARIS uses prose; AAUC uses tab-separated table with implicit millions).
+# Captured number gets multiplied by 1,000,000 at extraction time.
 _DIRECT_OUTSTANDING_MILLIONS = [
     re.compile(r"(\d+(?:\.\d+)?)\s+million\s+(?:\w+\s+){0,3}common\s+shares?\s+(?:were\s+|are\s+)?(?:issued\s+and\s+)?outstanding", re.I),
     re.compile(r"common\s+shares?\s+(?:issued\s+and\s+)?outstanding[\s:.]+(\d+(?:\.\d+)?)\s+million", re.I),
+    # Tab-separated table format (AAUC): "Common Shares issued and outstanding [WS] 124.0 [WS] 116.9 ..."
+    # The decimal in the captured number is the millions signal — full counts never have decimals.
+    # Constrain to 1-4 digits before decimal so we don't accidentally swallow "1,234,567.89" share-count formatting.
+    re.compile(r"common\s+shares?\s+issued\s+and\s+outstanding\s+(\d{1,4}\.\d{1,2})\b", re.I),
 ]
 
 
