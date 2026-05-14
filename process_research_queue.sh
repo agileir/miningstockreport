@@ -98,7 +98,7 @@ try:
     )
 
     # Warrant, option, and flow-through tranches — agent emits 'share_instruments': [...]
-    valid_types = {ShareInstrumentType.WARRANT, ShareInstrumentType.OPTION, ShareInstrumentType.FLOW_THROUGH}
+    valid_types = {ShareInstrumentType.WARRANT, ShareInstrumentType.OPTION, ShareInstrumentType.FLOW_THROUGH, ShareInstrumentType.RSU, ShareInstrumentType.CONVERTIBLE}
     def _parse_iso(v):
         if isinstance(v, str):
             try:

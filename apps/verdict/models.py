@@ -341,6 +341,8 @@ class ShareInstrumentType(models.TextChoices):
     WARRANT      = "warrant",      "Warrant"
     OPTION       = "option",       "Option"
     FLOW_THROUGH = "flow_through", "Flow-through"
+    RSU          = "rsu",          "Restricted/Performance share unit"
+    CONVERTIBLE  = "convertible",  "Convertible debenture/note"
 
 
 # Default tax-shield assumption used to compute effective breakeven on

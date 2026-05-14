@@ -151,7 +151,7 @@ def check_share_instruments(value, *, basic=None, diluted=None, **_) -> SanityRe
     if not isinstance(value, list):
         return _error(f"value is not a list (got {type(value).__name__})")
     # Per-tranche shape checks
-    valid_types = {"warrant", "option", "flow_through"}
+    valid_types = {"warrant", "option", "flow_through", "rsu", "convertible"}
     for i, tranche in enumerate(value):
         if not isinstance(tranche, dict):
             return _error(f"tranche {i} is not a dict")
