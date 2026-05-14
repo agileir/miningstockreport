@@ -1,6 +1,6 @@
 {
   "ticker": "AAUC",
-  "extracted_at": "2026-05-14T20:23:21+00:00",
+  "extracted_at": "2026-05-14T21:26:06+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -26,7 +26,7 @@
       "sha256": "7978eb6baf442d895d1f5345892ed67dd14761a0c090038943f88e6c7104ae07"
     }
   },
-  "shares_issued_outstanding": null,
+  "shares_issued_outstanding": 125900000,
   "shares_fully_diluted": null,
   "share_instruments": [],
   "resource_measured": null,
@@ -35,7 +35,6 @@
   "reserve_proven": "The Proven and Probable Mineral Reserve as of 31 December 2022 is summarised by classification and",
   "reserve_probable": "The Proven and Probable Mineral Reserve as of 31 December 2022 is summarised by classification and",
   "extraction_notes": [
-    "could not locate issued-and-outstanding share count",
     "no warrant/option lines matched the strict pattern",
     "no flow-through tranches detected"
   ]
