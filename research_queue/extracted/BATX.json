@@ -1,6 +1,6 @@
 {
   "ticker": "BATX",
-  "extracted_at": "2026-05-14T22:42:54+00:00",
+  "extracted_at": "2026-05-14T23:28:58+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -29,6 +29,13 @@
       "strike_price": null,
       "expiry": null,
       "raw": "summary count only \u2014 strike/expiry not extracted from MD&A summary table"
+    },
+    {
+      "type": "rsu",
+      "count": 22425,
+      "strike_price": null,
+      "expiry": null,
+      "raw": "prose: Restricted Share Units 22,425"
     }
   ],
   "resource_measured": null,

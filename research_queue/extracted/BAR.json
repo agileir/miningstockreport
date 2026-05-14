@@ -1,6 +1,6 @@
 {
   "ticker": "BAR",
-  "extracted_at": "2026-05-14T23:17:46+00:00",
+  "extracted_at": "2026-05-14T23:28:53+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda_interim",
@@ -21,7 +21,7 @@
     }
   },
   "shares_issued_outstanding": 30687008,
-  "shares_fully_diluted": null,
+  "shares_fully_diluted": 30687008,
   "share_instruments": [],
   "resource_measured": null,
   "resource_indicated": null,
@@ -29,6 +29,7 @@
   "reserve_proven": null,
   "reserve_probable": null,
   "extraction_notes": [
+    "explicit Nil options + Nil warrants \u2014 diluted == outstanding",
     "no warrant/option lines matched the strict pattern",
     "no flow-through tranches detected",
     "no resource/reserve table rows matched in first 60 pages"

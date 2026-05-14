@@ -1,6 +1,6 @@
 {
   "ticker": "CG",
-  "extracted_at": "2026-05-14T23:17:55+00:00",
+  "extracted_at": "2026-05-14T23:29:19+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda_interim",
@@ -27,8 +27,23 @@
     }
   },
   "shares_issued_outstanding": 198595055,
-  "shares_fully_diluted": null,
-  "share_instruments": [],
+  "shares_fully_diluted": 201036008,
+  "share_instruments": [
+    {
+      "type": "option",
+      "count": 1749974,
+      "strike_price": null,
+      "expiry": null,
+      "raw": "prose: options to acquire \n1,749,974 common shares"
+    },
+    {
+      "type": "rsu",
+      "count": 690979,
+      "strike_price": null,
+      "expiry": null,
+      "raw": "prose: 690,979 restricted share \nunits redeemable"
+    }
+  ],
   "resource_measured": null,
   "resource_indicated": "Indicated 130 0.32 1.14 0.16 1,333 4,769 454",
   "resource_inferred": "Inferred 94 0.30 1.02 0.14 905 3,079 296",
@@ -36,6 +51,7 @@
   "reserve_probable": null,
   "extraction_notes": [
     "no warrant/option lines matched the strict pattern",
+    "computed fully_diluted from sum of 2 tranches: 2,440,953",
     "no flow-through tranches detected"
   ]
 }

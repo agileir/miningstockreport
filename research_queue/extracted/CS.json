@@ -1,6 +1,6 @@
 {
   "ticker": "CS",
-  "extracted_at": "2026-05-14T23:18:05+00:00",
+  "extracted_at": "2026-05-14T23:29:35+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda_interim",
@@ -35,6 +35,13 @@
       "strike_price": null,
       "expiry": null,
       "raw": "summary count only \u2014 strike/expiry not extracted from MD&A summary table"
+    },
+    {
+      "type": "rsu",
+      "count": 5054507,
+      "strike_price": null,
+      "expiry": null,
+      "raw": "prose: Treasury share units outstanding at a weighted average exercise price of $8.53  5,054,507"
     }
   ],
   "resource_measured": "Measured  187.5 0.57 0.10 178 1,069 603 33",

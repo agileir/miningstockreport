@@ -1,6 +1,6 @@
 {
   "ticker": "ARIS",
-  "extracted_at": "2026-05-14T23:17:40+00:00",
+  "extracted_at": "2026-05-14T23:28:43+00:00",
   "sources": {
     "cap_table_source": {
       "bucket": "mda",
@@ -27,8 +27,16 @@
     }
   },
   "shares_issued_outstanding": 206300000,
-  "shares_fully_diluted": null,
-  "share_instruments": [],
+  "shares_fully_diluted": 210600000,
+  "share_instruments": [
+    {
+      "type": "option",
+      "count": 4300000,
+      "strike_price": null,
+      "expiry": null,
+      "raw": "prose-millions: 4.3\tmillion\t\ncommon\tshares\tissuable\tunder\tstock\toptions"
+    }
+  ],
   "resource_measured": "Measured 48.4 1.31 1.8 0.14 2,030 2,747 150",
   "resource_indicated": "Indicated 74.9 1.26 1.2 0.08 3,041 3,008 127",
   "resource_inferred": "Inferred 11.4 1.13 0.7 0.04 414 275 9",
@@ -36,6 +44,7 @@
   "reserve_probable": null,
   "extraction_notes": [
     "no warrant/option lines matched the strict pattern",
+    "computed fully_diluted from sum of 1 tranches: 4,300,000",
     "no flow-through tranches detected"
   ]
 }
