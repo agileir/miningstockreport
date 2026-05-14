@@ -1,12 +1,12 @@
 {
   "ticker": "BCM",
-  "extracted_at": "2026-05-14T20:23:11+00:00",
+  "extracted_at": "2026-05-14T21:15:09+00:00",
   "sources": {
     "cap_table_source": {
-      "bucket": "mda",
-      "date": "20250417",
-      "local_path": "mda-20250417.pdf",
-      "sha256": "19f4ab93f2112bc5fbea671e6c2d982213c9045a98dc0a783ef7c1c05a622581"
+      "bucket": "mda_interim",
+      "date": "20251110",
+      "local_path": "mda_interim-20251110.pdf",
+      "sha256": "e2ecdd27e1fc0c8903168932339ab27618ada0fbec6564ecb9ebd5d1002481ce"
     },
     "tech_43101_source": {
       "date": "20250314",
@@ -26,8 +26,8 @@
       "sha256": "72a01cb9c7d62461bbfcd0a9604dac5a4c2d9bcdd716a1d11238022eb428c247"
     }
   },
-  "shares_issued_outstanding": 227730785,
-  "shares_fully_diluted": 236243285,
+  "shares_issued_outstanding": 292175785,
+  "shares_fully_diluted": 300688285,
   "share_instruments": [
     {
       "type": "option",
