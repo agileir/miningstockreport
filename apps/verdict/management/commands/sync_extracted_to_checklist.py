@@ -145,7 +145,7 @@ def _sync_ticker(data: dict) -> tuple[int, list]:
         value=instruments,
         source_type=ChecklistItemSource.SEDAR_HARVESTER,
         source_ref=cap_src.get("sha256") or "",
-        status=ChecklistItemStatus.AUTO_FILLED if instruments else ChecklistItemStatus.FAILED,
+        status=ChecklistItemStatus.AUTO_FILLED if (instruments or (basic and diluted and int(basic) == int(diluted))) else ChecklistItemStatus.FAILED,
         sanity_result=result,
     )
     if not instruments:
