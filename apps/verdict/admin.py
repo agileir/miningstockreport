@@ -1,5 +1,6 @@
 from django.contrib import admin
-from django.utils.html import format_html
+from django.utils.html import escape, format_html
+from django.utils.safestring import mark_safe
 from .models import (
     Company, VerdictScorecard, CompanyQueue, CompanyQueueStatus,
     ShareInstrument,
@@ -181,6 +182,16 @@ from .models import (
 )
 
 
+_STATUS_BG = {
+    "AUTO_FILLED":  "#d4edda",  # green
+    "HUMAN_FILLED": "#d4edda",
+    "WAIVED":       "#fff3cd",  # yellow
+    "PENDING":      "#f8f9fa",  # grey
+    "FAILED":       "#f8d7da",  # red
+    "ERRORED":      "#f8d7da",
+}
+
+
 @admin.register(CompanyHarvestState)
 class CompanyHarvestStateAdmin(admin.ModelAdmin):
     list_display = (
@@ -190,15 +201,63 @@ class CompanyHarvestStateAdmin(admin.ModelAdmin):
     )
     list_filter   = ("status", "ready_for_verdict")
     search_fields = ("company__ticker", "company__name")
-    readonly_fields = ("updated_at",)
+    readonly_fields = ("updated_at", "checklist_table")
     actions       = ["mark_stale", "reset_failure_count"]
 
+    fieldsets = (
+        (None, {"fields": (
+            "company", "status", "ready_for_verdict",
+            "last_successful_harvest", "last_published_scorecard",
+            "failure_count", "next_retry_after",
+            "blockers_summary", "updated_at",
+        )}),
+        ("Per-item checklist", {"fields": ("checklist_table",)}),
+    )
+
+    def checklist_table(self, obj):
+        """Inline HTML table of every ChecklistItem for this company,
+        color-coded by status with sanity notes inline. Lets ops see the
+        whole picture for one company on one page instead of paging
+        through the ChecklistItem changelist."""
+        items = list(obj.company.checklist_items.order_by("category", "key"))
+        if not items:
+            return "(no checklist items)"
+        rows = [
+            '<table style="border-collapse:collapse;width:100%;font-size:12px">',
+            '<thead><tr>'
+            '<th style="text-align:left;padding:4px 8px;border-bottom:1px solid #ccc">Key</th>'
+            '<th style="text-align:left;padding:4px 8px;border-bottom:1px solid #ccc">Cat</th>'
+            '<th style="text-align:left;padding:4px 8px;border-bottom:1px solid #ccc">Status</th>'
+            '<th style="text-align:left;padding:4px 8px;border-bottom:1px solid #ccc">Sanity</th>'
+            '<th style="text-align:left;padding:4px 8px;border-bottom:1px solid #ccc">Value</th>'
+            '<th style="text-align:left;padding:4px 8px;border-bottom:1px solid #ccc">Source / sha256</th>'
+            '</tr></thead><tbody>',
+        ]
+        for ci in items:
+            bg = _STATUS_BG.get(ci.status, "#fff")
+            value_s = "—" if ci.value is None else str(ci.value)
+            if len(value_s) > 60:
+                value_s = value_s[:57] + "..."
+            notes = ci.sanity_check_notes or ""
+            ref = (ci.source_ref or "")[:16]
+            rows.append(
+                f'<tr style="background:{escape(bg)}">'
+                f'<td style="padding:4px 8px"><a href="/admin/verdict/checklistitem/?company__id__exact={obj.company_id}&amp;key={escape(ci.key)}">{escape(ci.key)}</a></td>'
+                f'<td style="padding:4px 8px">{escape(ci.get_category_display())}</td>'
+                f'<td style="padding:4px 8px">{escape(ci.get_status_display())}</td>'
+                f'<td style="padding:4px 8px">{escape(notes)}</td>'
+                f'<td style="padding:4px 8px"><code>{escape(value_s)}</code></td>'
+                f'<td style="padding:4px 8px"><code>{escape(ref)}</code></td>'
+                f'</tr>'
+            )
+        rows.append("</tbody></table>")
+        return mark_safe("".join(rows))
+    checklist_table.short_description = "Checklist items"
+
     def checklist_link(self, obj):
-        # ChecklistItem FKs to Company, not CompanyHarvestState, so the
-        # standard admin inline doesn't apply. Link to the changelist
-        # filtered to this company's items instead.
+        # Quick changelist link for editing individual items
         url = f"/admin/verdict/checklistitem/?company__id__exact={obj.company_id}"
-        return format_html('<a href="{}">items</a>', url)
+        return format_html('<a href="{}">edit items</a>', url)
     checklist_link.short_description = "Checklist"
 
     def company_ticker(self, obj):

@@ -31,6 +31,8 @@ The repository at `https://github.com/agileir/miningstockreport.git` is the sing
 
 This is critical: the operations team uses `companies.json` to control which companies you research. Researching companies outside this list — from memory of past runs, from a hardcoded list, or from any other source — duplicates work, wastes budget, and pollutes the scorecard history. There is no exception to this rule.
 
+**Quality gate (as of 2026-05-14):** Entries in `companies.json` have passed a per-company checklist that verifies the underlying cap-table, resource, and filing-recency data are present and sanity-checked. This means you can trust `research_queue/extracted/<TICKER>.json` to exist and be populated for each ticker in the queue. **If the extracted JSON is missing or empty for a ticker that's in `companies.json`, that's an upstream pipeline bug** — flag it in `analyst_summary` ("cap-table data was not available in the extracted cache despite the gate") and produce the scorecard with `null` fields, but do not attempt SEDAR+, EDGAR, or PDF reads as a fallback. The gate is upstream of you; do not try to compensate downstream.
+
 ## Your outputs
 
 For each company in `companies.json`, produce one file:
