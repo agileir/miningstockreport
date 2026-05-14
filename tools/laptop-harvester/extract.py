@@ -325,6 +325,104 @@ _TOTAL_DILUTED_TABLE = re.compile(
 )
 
 
+# Prose-format patterns. Capture group is the integer count with commas
+# (Format A: CS-style flat table) or the bare integer (Format B: CG narrative).
+_PROSE_INSTRUMENT_PATTERNS = [
+    # CS-style: "Share options outstanding at a weighted average exercise price of $8.27  4,038,888"
+    ("option",  re.compile(r"(?:Share|Stock)\s+options?\s+outstanding[^\n]{0,150}?(\d{1,3}(?:,\d{3})+)", re.I)),
+    # CS-style: "Treasury share units outstanding ... 5,054,507"
+    ("rsu",     re.compile(r"(?:Treasury|Restricted|Performance)\s+share\s+units?(?:\s+outstanding)?[^\n]{0,150}?(\d{1,3}(?:,\d{3})+)", re.I)),
+    # CG-style: "options to acquire 1,749,974 common shares"
+    ("option",  re.compile(r"options\s+to\s+acquire\s+(\d{1,3}(?:,\d{3})+)\s+common\s+shares?", re.I)),
+    # CG-style: "690,979 restricted share units redeemable"
+    ("rsu",     re.compile(r"(\d{1,3}(?:,\d{3})+)\s+restricted\s+share\s+units?\s+(?:redeemable|outstanding)", re.I)),
+    # Generic "X warrants outstanding"
+    ("warrant", re.compile(r"(?:^|\W)(\d{1,3}(?:,\d{3})+)\s+(?:common\s+share\s+)?warrants?\s+(?:outstanding|exercisable)", re.I)),
+]
+
+# Millions-narrative for instruments (ARIS-style): "X.Y million common shares issuable under stock options"
+_PROSE_MILLIONS_INSTRUMENT_PATTERNS = [
+    ("option", re.compile(r"(\d+(?:\.\d+)?)\s+million\s+common\s+shares?\s+issuable\s+under\s+stock\s+options?", re.I)),
+    ("option", re.compile(r"(\d+(?:\.\d+)?)\s+million\s+(?:stock\s+)?options?\s+outstanding", re.I)),
+    ("rsu",    re.compile(r"(\d+(?:\.\d+)?)\s+million\s+(?:restricted|performance|treasury)\s+share\s+units?", re.I)),
+    ("warrant", re.compile(r"(\d+(?:\.\d+)?)\s+million\s+(?:common\s+share\s+)?warrants?\s+outstanding", re.I)),
+]
+
+# "Fully diluted  N,NNN,NNN" anchor (CS-style flat table)
+_FULLY_DILUTED_PROSE = re.compile(
+    r"\bFully\s+diluted\b[^\d\n]{0,80}?(\d{1,3}(?:,\d{3})+)", re.I,
+)
+
+# Explicit "Option balances: Nil / Warrant balances: Nil" anchor (BAR-style).
+# When both are explicitly nil, diluted == outstanding and instruments=[].
+_NIL_OPTIONS  = re.compile(r"Option\s+balances?[:\s]+[Nn]il", re.I)
+_NIL_WARRANTS = re.compile(r"Warrant\s+balances?[:\s]+[Nn]il", re.I)
+
+
+def _extract_prose_instruments(text: str) -> tuple[int | None, list[dict]]:
+    """Pull diluted + instruments from prose-table or narrative formats.
+    Returns (diluted_or_None, list_of_tranches). Caller dedupes by type."""
+    diluted = None
+    m = _FULLY_DILUTED_PROSE.search(text)
+    if m:
+        try:
+            v = int(m.group(1).replace(",", ""))
+            if 1_000_000 <= v <= 10_000_000_000:
+                diluted = v
+        except (TypeError, ValueError):
+            pass
+
+    tranches: list[dict] = []
+    seen_types: set[str] = set()
+
+    # Comma-integer prose (CS/CG)
+    for inst_type, pat in _PROSE_INSTRUMENT_PATTERNS:
+        if inst_type in seen_types:
+            continue
+        m = pat.search(text)
+        if not m:
+            continue
+        try:
+            count = int(m.group(1).replace(",", ""))
+        except (TypeError, ValueError):
+            continue
+        if count <= 0:
+            continue
+        tranches.append({
+            "type": inst_type, "count": count,
+            "strike_price": None, "expiry": None,
+            "raw": f"prose: {m.group(0)[:120]}",
+        })
+        seen_types.add(inst_type)
+
+    # Millions-narrative (ARIS) — fills in types not already captured
+    for inst_type, pat in _PROSE_MILLIONS_INSTRUMENT_PATTERNS:
+        if inst_type in seen_types:
+            continue
+        m = pat.search(text)
+        if not m:
+            continue
+        try:
+            count = int(float(m.group(1)) * 1_000_000)
+        except (TypeError, ValueError):
+            continue
+        if count <= 0:
+            continue
+        tranches.append({
+            "type": inst_type, "count": count,
+            "strike_price": None, "expiry": None,
+            "raw": f"prose-millions: {m.group(0)[:120]}",
+        })
+        seen_types.add(inst_type)
+
+    return diluted, tranches
+
+
+def _has_nil_instruments(text: str) -> bool:
+    """BAR-style explicit Nil disclosure: 'Option balances: Nil' AND 'Warrant balances: Nil'."""
+    return bool(_NIL_OPTIONS.search(text) and _NIL_WARRANTS.search(text))
+
+
 def _extract_tab_instruments(text: str) -> tuple[int | None, list[dict]]:
     """For tickers that disclose cap-table as a single tab-separated summary
     table (AAUC pattern), pull the diluted total and per-instrument counts.
@@ -434,6 +532,24 @@ def _extract_cap_table(pdf_path: Path, notes: list[str]) -> dict:
         out["shares_fully_diluted"] = tab_diluted
         notes.append(f"diluted from 'Total Shares and Convertible Securities' tab row: {tab_diluted:,}")
 
+    # 3c. Prose / narrative formats (CS flat table, CG narrative, ARIS millions).
+    prose_diluted, prose_tranches = _extract_prose_instruments(full_doc)
+    if out["shares_fully_diluted"] is None and prose_diluted is not None:
+        out["shares_fully_diluted"] = prose_diluted
+        notes.append(f"diluted from 'Fully diluted' prose anchor: {prose_diluted:,}")
+
+    # 3d. BAR-style explicit "Nil" — diluted == outstanding, no instruments.
+    # Run only when nothing else captured warrants/options, so we don't
+    # accidentally zero-out tickers that have a Nil mention in a different
+    # context.
+    if (out["shares_fully_diluted"] is None and out["shares_issued_outstanding"] is not None
+            and not tab_tranches and not prose_tranches
+            and not _extract_instrument_counts(full_doc)[0]
+            and not _extract_instrument_counts(full_doc)[1]
+            and _has_nil_instruments(full_doc)):
+        out["shares_fully_diluted"] = out["shares_issued_outstanding"]
+        notes.append("explicit Nil options + Nil warrants — diluted == outstanding")
+
     if out["shares_fully_diluted"] is None and out["shares_issued_outstanding"] is not None:
         if warrants_total or options_total:
             out["shares_fully_diluted"] = out["shares_issued_outstanding"] + warrants_total + options_total
@@ -459,13 +575,22 @@ def _extract_cap_table(pdf_path: Path, notes: list[str]) -> dict:
                 "strike_price": None, "expiry": None,
                 "raw": "summary count only — strike/expiry not extracted from MD&A summary table",
             })
-    # Merge tab-table tranches, but don't double-count an instrument type that
-    # we already captured via the line-based / prose paths.
+    # Merge tab-table + prose tranches, but don't double-count an instrument
+    # type already captured via the line-based / strict paths.
     existing_types = {t.get("type") for t in out["share_instruments"]}
-    for t in tab_tranches:
+    for t in (*tab_tranches, *prose_tranches):
         if t["type"] not in existing_types:
             out["share_instruments"].append(t)
             existing_types.add(t["type"])
+
+    # Final fallback: if diluted is still None but we have outstanding + tranches,
+    # compute diluted = outstanding + sum(all tranche counts). The sanity check
+    # will then trivially reconcile (gap == total).
+    if out["shares_fully_diluted"] is None and out["shares_issued_outstanding"] and out["share_instruments"]:
+        total = sum(int(t.get("count") or 0) for t in out["share_instruments"])
+        if total > 0:
+            out["shares_fully_diluted"] = out["shares_issued_outstanding"] + total
+            notes.append(f"computed fully_diluted from sum of {len(out['share_instruments'])} tranches: {total:,}")
 
     # 5. Flow-through tranches — detected separately because they live in
     # subsequent-events / financing notes rather than the share-capital
