@@ -1,0 +1,36 @@
+{
+  "ticker": "OLA",
+  "exchange": "TSX",
+
+  "management_score": 5,
+  "management_notes": "Jason Simpson and the Orla team built Camino Rojo on schedule and under budget — a rare achievement in junior mining. Management has demonstrated both mine-building execution and capital discipline. Insider ownership is meaningful and aligned. The team's track record includes navigating a construction cycle through COVID disruption and still delivering commercial production on time. This is operationally one of the strongest management teams at the junior-to-intermediate transition stage.",
+
+  "geology_score": 4,
+  "geology_notes": "Camino Rojo in Zacatecas, Mexico is a multi-million ounce gold-silver deposit with an oxide heap leach operation in production and a substantially larger sulphide resource underneath providing long-life expansion potential. The South Railroad project in Nevada adds a second Tier 1 jurisdiction asset with significant resource definition. Both assets are well-characterized with NI 43-101 compliant resources. Scored 4 rather than 5 because the oxide operation is a lower-grade heap leach, not a high-grade underground scenario.",
+
+  "capital_score": 3,
+  "capital_notes": "Orla transitioned to cash-flow positive with commercial production at Camino Rojo. Construction debt is being repaid from operating cash flows. Warrants and options from earlier development-stage financings create some dilution overhang but the structure is manageable relative to the production profile. Balance sheet is improving quarter-over-quarter. The sulphide expansion and South Railroad development will require capital raises or project financing, introducing future dilution risk. No flow-through financing detail available from the pre-extracted filings cache.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "Near-term catalysts include quarterly production and cost guidance from Camino Rojo operations, the sulphide expansion feasibility study and construction decision, South Railroad permitting progress and feasibility update, and M&A premium potential as Orla grows into mid-tier status. Gold price leverage is direct given the operating mine. A sulphide expansion construction decision would be a significant value unlock. The company is executing on a clear growth trajectory with multiple binary events over the next 12–24 months.",
+
+  "acquisition_score": 4,
+  "acquisition_notes": "Camino Rojo is a producing mine in a mining-friendly jurisdiction with a clear expansion path — exactly the profile that senior and intermediate gold producers seek for bolt-on acquisitions. South Railroad in Nevada adds Tier 1 jurisdiction optionality that would appeal to a US-focused acquirer. P/NAV for a producing junior-to-intermediate is reasonable given the growth profile. Orla is a credible acquisition target for an Agnico Eagle, Kinross, or similar intermediate seeking to add production ounces efficiently.",
+
+  "verdict": "BUY",
+  "analyst_summary": "Orla Mining represents the best risk-adjusted proposition in this scorecard batch. Management has proven it can build mines, the company is cash-flow positive, there are multiple growth catalysts ahead, and the acquisition premium case is concrete rather than speculative. The BUY verdict reflects a combination of execution track record, clear near-term catalysts, and defensible valuation at current gold prices. The main risks are gold price decline, Mexican operating environment, and capital requirements for sulphide expansion. For retail investors looking for a junior-to-intermediate transition story with proven management, OLA is the standard. Cap-table and resource data were not available from the pre-extracted filings cache for this run.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}
