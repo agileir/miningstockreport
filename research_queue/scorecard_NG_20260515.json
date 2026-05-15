@@ -1,0 +1,36 @@
+{
+  "ticker": "NG",
+  "exchange": "TSX",
+
+  "management_score": 3,
+  "management_notes": "Gregory Lang has managed the NovaGold position through an extended pre-development holding period with reasonable stewardship of shareholder capital. However, the company's fundamental value driver — a construction decision on Donlin Gold — sits with a JV partnership where Barrick Gold controls the operational agenda. NovaGold management has limited leverage over the timeline that matters most to shareholders. The team is technically capable and communicates clearly, but the JV structure caps their execution authority.",
+
+  "geology_score": 5,
+  "geology_notes": "Donlin Gold holds approximately 39.5 Moz Au at ~2.24 g/t — one of the largest and highest-grade undeveloped gold deposits in the world. Located in southwest Alaska with a bulk open-pit mineable geometry and substantial brownfields exploration upside. Federally permitted (Record of Decision issued) and state permits largely in place. The geological case is not in dispute; this is a Tier 1 asset by any definition.",
+
+  "capital_score": 2,
+  "capital_notes": "NovaGold is a pure holding company with no revenue. It burns cash annually on its share of Donlin JV study costs, corporate overhead, and legal/regulatory work. Cash runway has been maintained through equity raises, creating ongoing dilution risk. The path to construction requires Barrick's agreement to fund a ~$7B+ capital program (NovaGold's 50% share ~$3.5B+), which NovaGold would need to finance through debt and equity at scale it has never executed. No flow-through financing detail available from the pre-extracted filings cache.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Key catalysts are an updated prefeasibility or feasibility study, Barrick's capital allocation decision for Donlin, and gold price. At elevated gold prices the project economics improve substantially. State-level permitting milestones could also move the stock. The challenge is that both the timeline and the decision authority rest primarily with Barrick, not NovaGold. Gold price sustained above $2,500/oz would materially alter the construction decision calculus.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "The 50% stake in Donlin Gold has real M&A optionality. At current and projected gold prices, the theoretical NAV for NovaGold's interest is significant on a per-share basis. However, the enormous capex requirement ($7B+), Alaska logistics, and Barrick's right of first refusal on any sale of NovaGold's interest limit the acquirer pool and suppress the achievable acquisition premium. A major gold producer seeking scale at high gold prices is the obvious buyer archetype, but the transaction has not materialized despite years of speculation.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "NovaGold is a pure bet on Donlin Gold being constructed, and Donlin Gold is a spectacular asset. The problem is that the decision to build is not NovaGold's to make unilaterally — Barrick sets the pace, and Barrick has other capital allocation priorities. At high gold prices the optionality value is real and increases. The WATCH verdict reflects the binary nature of the investment: if Donlin moves to construction, the upside is significant; if Barrick continues to defer, NovaGold is a slow-cash-burn story. Investors need a high gold price conviction and patience measured in years. Cap-table and resource data were not available from the pre-extracted filings cache for this run.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}

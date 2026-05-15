@@ -1,0 +1,36 @@
+{
+  "ticker": "NXE",
+  "exchange": "TSX",
+
+  "management_score": 4,
+  "management_notes": "Leigh Curyer has built NexGen from junior explorer to one of the most advanced uranium developers in the world. Strong insider ownership and board alignment. Team has relevant nuclear and capital markets expertise. Weakness is that management has not yet navigated a mine construction cycle, so execution risk at the build stage remains untested at this scale.",
+
+  "geology_score": 5,
+  "geology_notes": "Arrow deposit in the Athabasca Basin is among the highest-grade, largest-tonnage undeveloped uranium deposits ever discovered. The A2 shear zone posts grades that are world-class by any standard. Athabasca Basin is the premier global uranium district. Deposit geometry is well-understood through extensive drilling and underground development. No peer-comparable jurisdiction risk.",
+
+  "capital_score": 3,
+  "capital_notes": "Balance sheet has been maintained through periodic equity raises; cash runway is adequate to carry the company through the EIS/FEED phase. Fully diluted share count is material — significant dilution has accumulated over the exploration and development cycle. Construction financing (estimated in the billions of CAD) will require a major JV, strategic partner, or debt package that has not yet been arranged. No flow-through financing history apparent from available data.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "Near-term catalysts are dense: EIS completion and regulatory decision (CNSC/CEAA process), finalization of FEED, potential announcement of a strategic or JV partner, and continued uranium price appreciation. A construction decision would be transformative. Uranium supply deficit thesis remains intact with Kazakh and Cameco supply constraints. Multiple binary events within a 12-24 month window.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "Arrow trades at a meaningful speculative premium to spot-price NAV, but the premium is defensible given the deposit's scale and grade. Comparable transactions at Arrow's tier are rare — Cameco's own Athabasca assets are the closest reference, and they transact at significant multiples. A strategic acquirer (major utility off-take, national champion) would need to pay well above current market to gain control. P/NAV multiple compresses materially at higher uranium price assumptions.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "NexGen owns one of the genuinely irreplaceable uranium assets on the planet. Arrow's scale and grade are not in question. The WATCH verdict reflects the gap between asset quality and execution readiness: construction financing is unresolved, the EIS regulatory timeline has political dependencies, and the current share price already embeds an aggressive uranium bull case. For investors with a multi-year horizon who are comfortable with pre-production development risk, NXE remains a core holding. Those seeking near-term catalysts will need patience. Cap-table and resource data were not available from the pre-extracted filings cache for this run.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}
