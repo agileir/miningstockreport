@@ -1,0 +1,178 @@
+[
+  {
+    "ticker": "NXE",
+    "name": "NexGen Energy Ltd.",
+    "exchange": "TSX",
+    "website": "https://nexgenenergy.ca",
+    "primary_commodity": "Uranium",
+    "jurisdiction": "Saskatchewan"
+  },
+  {
+    "ticker": "NDM",
+    "name": "Northern Dynasty Minerals Ltd.",
+    "exchange": "TSX",
+    "website": "https://northerndynastyminerals.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Alaska"
+  },
+  {
+    "ticker": "NG",
+    "name": "NovaGold Resources Inc.",
+    "exchange": "TSX",
+    "website": "https://novagold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Alaska"
+  },
+  {
+    "ticker": "NTR",
+    "name": "Nutrien Ltd.",
+    "exchange": "TSX",
+    "website": "https://www.nutrien.com",
+    "primary_commodity": "Potash",
+    "jurisdiction": "Saskatchewan, Canada"
+  },
+  {
+    "ticker": "OLA",
+    "name": "Orla Mining Ltd.",
+    "exchange": "TSX",
+    "website": "https://www.orlamining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Zacatecas"
+  },
+  {
+    "ticker": "PEX",
+    "name": "Pacific Ridge Exploration Ltd.",
+    "exchange": "TSXV",
+    "website": "https://pacificridgeexploration.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "British Columbia"
+  },
+  {
+    "ticker": "PDN",
+    "name": "Paladin Energy Ltd.",
+    "exchange": "TSX",
+    "website": "https://www.paladinenergy.com",
+    "primary_commodity": "Uranium",
+    "jurisdiction": "Namibia"
+  },
+  {
+    "ticker": "PPTA",
+    "name": "Perpetua Resources Corp.",
+    "exchange": "TSX",
+    "website": "https://www.perpetuaresources.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Idaho"
+  },
+  {
+    "ticker": "PRU",
+    "name": "Perseus Mining Limited",
+    "exchange": "TSX",
+    "website": "https://www.perseusmining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Ghana"
+  },
+  {
+    "ticker": "RDG",
+    "name": "Ridgeline Minerals Corp.",
+    "exchange": "TSXV",
+    "website": "https://www.ridgelineminerals.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Nevada"
+  },
+  {
+    "ticker": "RK",
+    "name": "Rockhaven Resources Ltd.",
+    "exchange": "TSXV",
+    "website": "https://www.rockhavenresources.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Yukon"
+  },
+  {
+    "ticker": "RML",
+    "name": "Rusoro Mining Ltd.",
+    "exchange": "TSXV",
+    "website": "https://rusoro.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Venezuela"
+  },
+  {
+    "ticker": "SSRM",
+    "name": "SSR Mining Inc.",
+    "exchange": "TSX",
+    "website": "https://www.ssrmining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Nevada"
+  },
+  {
+    "ticker": "SRL",
+    "name": "Salazar Resources Limited",
+    "exchange": "TSXV",
+    "website": "https://salazarresources.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Ecuador"
+  },
+  {
+    "ticker": "SGN",
+    "name": "Scorpio Gold Corporation",
+    "exchange": "TSXV",
+    "website": "https://scorpiogold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Nevada"
+  },
+  {
+    "ticker": "SBI",
+    "name": "Serabi Gold plc",
+    "exchange": "TSXV",
+    "website": "https://serabigold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Para, Brazil"
+  },
+  {
+    "ticker": "SLS",
+    "name": "Solaris Resources Inc.",
+    "exchange": "TSX",
+    "website": "https://www.solarisresources.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Ecuador"
+  },
+  {
+    "ticker": "SXGC",
+    "name": "Southern Cross Gold Consolidated Ltd.",
+    "exchange": "TSX",
+    "website": "https://www.southerncrossgold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Victoria, Australia"
+  },
+  {
+    "ticker": "SSV",
+    "name": "Southern Silver Exploration Corp.",
+    "exchange": "TSXV",
+    "website": "https://www.southernsilverexploration.com",
+    "primary_commodity": "Silver",
+    "jurisdiction": "Mexico"
+  },
+  {
+    "ticker": "STNG",
+    "name": "Stinger Resources Inc.",
+    "exchange": "OTHER",
+    "website": "https://stingerresources.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "British Columbia"
+  },
+  {
+    "ticker": "TECK.B",
+    "name": "Teck Resources Limited",
+    "exchange": "TSX",
+    "website": "https://www.teck.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "British Columbia"
+  },
+  {
+    "ticker": "TFPM",
+    "name": "Triple Flag Precious Metals Corp.",
+    "exchange": "TSX",
+    "website": "https://www.tripleflagpm.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Americas and Australia"
+  }
+]
