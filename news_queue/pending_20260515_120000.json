@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "SILVER BREAKS $88 — Hits 2-Month High Outperforming Gold on Industrial Demand",
+    "url": "https://fortune.com/article/current-price-of-silver-5-14-2026/",
+    "source_name": "Fortune",
+    "category_slug": "gold-silver",
+    "snippet": "Silver climbed to $88/oz on May 14 — its highest in two months — as improving industrial demand from solar and EV manufacturing drove the metal to outpace gold's modest gains. Silver is up more than 150% year-over-year, reaching decade-high levels even as gold consolidates near $4,700.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER RECORD SMASHED: Metal Briefly Touches All-Time High $6.58/lb Before Pulling Back",
+    "url": "https://tradingeconomics.com/commodity/copper",
+    "source_name": "Trading Economics",
+    "category_slug": "copper-base-metals",
+    "snippet": "Copper surged to an all-time high of $6.58/lb on May 14 before retreating to $6.53 — still up 40.3% year-over-year. J.P. Morgan projects a refined copper shortfall of 330,000 metric tons in 2026, with data-center demand alone accounting for an estimated 475,000 MT of incremental consumption.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "$18.5 BILLION GOLD DEAL: Equinox Buys Orla Mining — Six Mines, 1M oz/Year Combined Output",
+    "url": "https://www.bnnbloomberg.ca/business/2026/05/13/equinox-gold-and-orla-mining-sign-deal-to-combine/",
+    "source_name": "BNN Bloomberg",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Equinox Gold is acquiring Orla Mining in a US$5.1 billion cash-and-stock deal creating an $18.5 billion combined entity expected to produce over one million ounces of gold annually across six operating mines in Canada, the U.S., Nicaragua, and Mexico. Shareholder vote set for July 2026; deal expected to close in Q3.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "USA RARE EARTH GOES BIG: $2.8B Serra Verde Acquisition Adds Brazilian Mine to Domestic Play",
+    "url": "https://247wallst.com/investing/2026/05/13/live-usa-rare-earth-reports-q1-results-tonight-can-the-stock-extend-its-triple-digit-rally/",
+    "source_name": "247 Wall St.",
+    "category_slug": "rare-earths",
+    "snippet": "USA Rare Earth (USAR), already up 113% year-to-date, signed a definitive agreement to acquire Serra Verde Group — owner of a producing rare earth mine in Brazil — for $300 million cash plus 126.8 million shares implying a ~$2.8 billion equity value. First magnet shipments from its Stillwater, Oklahoma facility are guided for Q2 2026.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD HOLDS $4,703/oz — Up $1,519 Year-Over-Year as Rate Cut Bets Evaporate",
+    "url": "https://fortune.com/article/current-price-of-gold-05-14-2026/",
+    "source_name": "Fortune",
+    "category_slug": "gold-silver",
+    "snippet": "Gold traded at $4,703/oz on May 14, up $15 from the prior day and $1,519 above year-ago levels, as consumer inflation hit 3.8% — the highest since May 2023 — pushing rate-cut expectations out of the 2026 calendar entirely. Bullion is up over 25% since early 2025.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "URANIUM DRILL STARTS: Premier American Uranium Kicks Off 2026 Kaycee Program in Powder River Basin",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "uranium-energy",
+    "snippet": "Premier American Uranium commenced its 2026 exploration drilling program on May 14 at the Kaycee Project in Wyoming's Powder River Basin, one of North America's most historically productive uranium districts. The program launches as spot uranium trades back above $100/lb with strengthening U.S. domestic production policy.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "PARTNER-FUNDED DRILL LAUNCHES at Ridgeline Minerals' Chinchilla CRD Discovery, Selena Project",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "Ridgeline Minerals initiated its 2026 partner-funded drill program on May 14 at the Chinchilla Sulfide Carbonate Replacement (CRD) discovery at the Selena project. Partner funding removes near-term dilution risk and adds third-party validation to what the company calls a high-grade polymetallic target.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "BTU METALS OPTIONS Great Bear Neighbour — Dixie East Block Sits 30km From Kinross Deposit",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "BTU Metals Corp signed an option to acquire 100% of the Dixie East Block 2 property on May 13, located approximately 30 km east of Kinross's Great Bear Dixie Project — one of the highest-grade gold discoveries in recent Canadian history. The land package adds structural proximity to a world-class deposit with no existing resource estimate.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CHINA SILVER IMPORTS HIT 790+ TONS in Early 2026 — Solar Demand Driving Sixth Straight Deficit",
+    "url": "https://goldseek.com/article/gold-swot-silver-demand-remains-strong-china-importing-790-tons-early-2026",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "GoldSeek's weekly Gold SWOT analysis flags China's 790+ metric ton silver import haul from early 2026 as the key structural bullish signal, driven by solar panel manufacturing scale-up. The Silver Institute projects a sixth straight annual supply deficit of ~67 million ounces in 2026, reinforcing the case for the metal even at decade-high prices near $88/oz.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "STILL SEES $5,000: Why Major Institutional Forecasters Haven't Abandoned Their Gold Price Targets",
+    "url": "https://goldsilver.com/industry-news/article/gold-price-outlook-may-2026-why-institutional-forecasters-still-see-5000/",
+    "source_name": "GoldSilver.com",
+    "category_slug": "opinion-analysis",
+    "snippet": "Despite gold already trading above $4,700/oz — far higher than most 2024 forecasts imagined — J.P. Morgan and other institutions maintain $5,000/oz targets for 2026, pointing to persistent 3.8% inflation, the absence of credible rate-cut catalysts, and structural safe-haven demand as the three pillars keeping the bull case intact.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
