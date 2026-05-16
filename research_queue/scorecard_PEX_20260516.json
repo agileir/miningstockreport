@@ -1,0 +1,36 @@
+{
+  "ticker": "PEX",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "Small team of geologically capable personnel with relevant BC porphyry exploration experience. No producing-mine operating track record. Thin management bench typical of an early-stage TSXV explorer. Capital allocation has been disciplined for the exploration stage — programs are appropriately sized — but there is no external validation of management quality beyond fieldwork execution.",
+
+  "geology_score": 3,
+  "geology_notes": "Primary asset is the Kliyul Copper-Gold Porphyry Project in BC's Toodoggone District, a proven copper-gold porphyry corridor (neighbours include Kemess and Schaft Creek). Drill results have confirmed classic porphyry alteration (phyllic, potassic) and broad zones of copper-gold mineralisation at Kliyul. The district setting is genuinely prospective and geologically coherent. No NI 43-101 mineral resource has been defined — the project is at target-definition stage. Upside is real but unquantified.",
+
+  "capital_score": 3,
+  "capital_notes": "Typical small TSXV explorer capital structure: modest share count for its stage, no material convertible debt, and exploration funded primarily through equity raises (including flow-through financings, which are standard for BC-based mineral explorers and allow investors a Canadian tax deduction). Flow-through tranches carry a 4-month hold-release restriction from closing; the timing and size of any recent flow-through placements were not available in the pre-extracted filings cache. No disproportionate warrant or option overhang apparent from public disclosures, though cap-table data were not available for verification.",
+
+  "catalyst_score": 2,
+  "catalyst_notes": "Next drill campaign at Kliyul is the primary catalyst — typically conducted in BC summer (July–September). Results are binary and results-dependent. No resource estimate timeline has been publicly committed to. A positive step-out intercept or discovery of a new zone within the porphyry system could be a meaningful re-rating event, but the timing is uncertain and the outcome is geological.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "Pre-resource stage prevents meaningful NAV calculation. Value is speculative on district-scale potential and porphyry acquisition premium. Majors and mid-tiers actively consolidate BC porphyry districts (Teck, Newcrest, Glencore have all been buyers in the corridor), which creates optionality, but a discovery intercept defining economic continuity is required before an acquirer would act. Current exploration stage is too early for acquisition premium.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Pacific Ridge Exploration is an early-stage copper-gold porphyry explorer with its primary asset, Kliyul, positioned in BC's Toodoggone district — a recognised, acquisition-active porphyry corridor. Classic porphyry alteration and copper-gold mineralisation have been confirmed by drilling, providing geological credibility. The thesis is straightforward: discovery drilling in a proven district with active major-miner M&A interest. The binary risk is equally straightforward: no resource exists yet, and any drill campaign can disappoint. Monitor for summer drill results; entry should be sized for exploration binary risk. Cap-table and resource data were not available from the pre-extracted filings cache.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}
