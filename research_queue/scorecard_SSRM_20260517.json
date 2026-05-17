@@ -1,0 +1,36 @@
+{
+  "ticker": "SSRM",
+  "exchange": "TSX",
+
+  "management_score": 2,
+  "management_notes": "SSR Mining's management credibility suffered a severe blow from the February 2024 Çöpler heap leach pad failure in Turkey, which caused multiple fatalities and a full operational suspension at the company's then-largest asset. The failure reflected inadequate risk management and oversight of geotechnical conditions — a fundamental operational competency gap. While subsequent leadership actions (transparency with regulators, engagement with communities) have been reasonable, the event demonstrates that executive oversight of mine site safety was insufficient. Management rebuilding credibility requires demonstrated operational performance at remaining assets over time.",
+
+  "geology_score": 3,
+  "geology_notes": "SSR's surviving asset base has genuine quality. Seabee (Saskatchewan) is a high-grade underground gold mine with a long history of profitable operation. Puna (Argentina) is a producing silver-zinc-lead open pit with solid economics. Hod Maden (Turkey) is an advanced-stage copper-gold development project with Lidya Madencilik as partner. Çöpler's underlying geology was strong — the mine had produced well for years before the heap leach failure — but the physical plant destruction and regulatory suspension mean that asset is effectively impaired. The remaining portfolio, while smaller, is genuinely good geology.",
+
+  "capital_score": 2,
+  "capital_notes": "The Çöpler disaster created material unquantified liabilities: remediation costs, legal exposure, regulatory fines in Turkey, and potential civil claims. The company has taken significant impairment charges. Cash flows from Seabee and Puna must now carry overhead that was previously shared with a major producing asset. Share dilution risk exists if remediation or legal costs escalate. The balance sheet's resilience is more strained than pre-disaster. Cap-table data unavailable from extracted filings cache for this run.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Multiple near-term catalysts exist: (1) Çöpler restart decision — any positive regulatory signal from Turkish authorities would be a significant re-rating event; (2) Hod Maden development milestones — construction progress and financing completion; (3) Seabee and Puna operational performance — consistent quarterly production demonstrating the base business is intact. The negative catalyst risk is further legal or regulatory escalation from Turkey on Çöpler.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "At the depressed valuations that followed the Çöpler disaster, SSR's remaining asset base (Seabee + Puna + Hod Maden option value) likely traded at a meaningful discount to sum-of-parts NAV. Seabee alone is a high-quality Canadian underground mine that would attract interest from Canadian mid-tiers. Puna is cash-flowing. The company is a plausible M&A target given the discount, though Çöpler liability uncertainty complicates any deal. P/NAV calculation is approximate without current share count and pricing.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "SSR Mining is a mid-tier gold producer that experienced one of the most damaging operational disasters in recent Canadian mining history — the February 2024 Çöpler heap leach failure in Turkey. The company's production profile, financial position, and management credibility were all materially impaired. However, the remaining asset base (Seabee, Puna, Hod Maden optionality) is not without merit, and the stock likely priced in a worst-case scenario at post-disaster lows, creating a potential value entry for investors who can tolerate the Çöpler liability overhang. This is a situation stock: watch for Çöpler restart clarity and Hod Maden progress before upgrading to BUY. The risk of further Turkish regulatory action or escalating legal liability keeps it from AVOID. WATCH with a clear-eyed understanding that this is recovery-thesis investing, not quality growth investing.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}
