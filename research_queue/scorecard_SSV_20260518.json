@@ -1,0 +1,32 @@
+{
+  "ticker": "SSV",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "Experienced Mexico-focused silver exploration team with a sustained multi-year commitment to Cerro Las Minitas (CLM). The project has been systematically advanced through multiple drill campaigns. Limited visibility on insider ownership alignment and no high-profile management names to anchor the investment case for retail investors.",
+  "geology_score": 4,
+  "geology_notes": "CLM in Durango State, Mexico hosts a large polymetallic resource (silver-lead-zinc) consistent with Mexico's prolific CRD-type silver belt deposits. The multi-year drill program has expanded and defined the resource footprint. Durango is an established mining jurisdiction with existing infrastructure. Grade and tonnage are competitive among Mexico-listed silver development projects.",
+  "capital_score": 2,
+  "capital_notes": "No extracted cap-table data available for this run. Extended exploration timeline (10+ years) without production has required repeated equity financings, likely resulting in significant warrant overhang. No operating cash flow. JV partner dynamics complicate capital allocation; Mexico development timeline uncertainty extends the cash-burn horizon. Flow-through financing not applicable for a Mexican project held by a Canadian issuer.",
+  "catalyst_score": 3,
+  "catalyst_notes": "A resource update, completed PEA/PFS, or formal JV/acquisition process would be the primary re-rating catalysts. Silver price momentum (particularly in an industrial metals bull market) provides macro support. Mexican water and permitting approvals are gating factors for advancing to production studies.",
+  "acquisition_score": 3,
+  "acquisition_notes": "Large silver inventory in Durango attracts attention from Mexican mid-tier producers (First Majestic, SilverCrest, Pan American) seeking resource base additions. The polymetallic nature (Pb-Zn credits) complicates a pure silver acquisition narrative but adds base metal upside. P/NAV appears moderate for the resource size after applying Mexico development and permitting risk discounts. NAV per share not modeled without resource data.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Southern Silver Exploration has built a large polymetallic silver resource at CLM over many years of systematic drilling — the geology is real and the Durango jurisdiction is proven. The investment case is constrained by an extended exploration timeline with no near-term production, a likely diluted share structure, and Mexico permitting risk. The stock earns a WATCH for investors building silver exposure ahead of a potential JV or acquisition event; it is not a near-term catalyst story in the absence of a development partner announcement. Monitor for JV partner news or PEA completion.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}

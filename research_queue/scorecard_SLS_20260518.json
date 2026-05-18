@@ -1,0 +1,32 @@
+{
+  "ticker": "SLS",
+  "exchange": "TSX",
+
+  "management_score": 4,
+  "management_notes": "Management team brings Americas copper porphyry expertise and a track record of advancing large projects to construction decision. Ecuador-specific community engagement experience is a differentiator given the country's permitting environment. Well-connected in institutional capital markets, enabling large financings required for porphyry-scale development.",
+  "geology_score": 4,
+  "geology_notes": "Warintza copper-molybdenum porphyry in Morona-Santiago province, Ecuador is a large-tonnage system with copper grades competitive among global peers. Open-pit amenable geometry limits strip-ratio risk. Ecuador has demonstrated it can host world-class porphyry deposits (e.g., Lundin Gold's Fruta del Norte establishes the jurisdiction for major discoveries). Warintza's resource footprint has expanded through systematic drilling.",
+  "capital_score": 3,
+  "capital_notes": "Exploration-stage with no operating cash flow; funded through equity rounds and potentially streaming/royalty agreements. No extracted cap-table data available for this run. Porphyry development carries multi-billion dollar capital requirements that will require significant further dilution or project-level financing. Management's track record suggests disciplined capital allocation relative to peers.",
+  "catalyst_score": 3,
+  "catalyst_notes": "PFS/FS milestones, community agreement updates, and Ecuadorian environmental permit progress are the primary near-term catalysts. Copper demand growth narrative (EVs, grid infrastructure) provides macro tailwind. Any strategic partnership or offtake agreement would be a significant re-rating event.",
+  "acquisition_score": 3,
+  "acquisition_notes": "Ecuador discount materially reduces P/NAV relative to comparable porphyries in Chile, Peru, or Canada. Copper's critical mineral status attracts major miner attention; however, Ecuador's permitting track record and community risk require a meaningful risk-adjusted discount. A formal M&A process at the right copper price environment could unlock substantial value.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Solaris Resources holds a genuinely large copper porphyry at Warintza — the geology and management quality are both above average. The thesis hinges on Ecuador permitting execution, which has historically been slow but is progressing. Copper's strategic role in the energy transition provides a favorable macro backdrop. This is a high-optionality, high-risk-adjusted position: appropriate for investors with a 3–5 year horizon who accept Ecuador sovereign/community risk in exchange for exposure to a potentially world-class asset at a jurisdictional discount.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}
