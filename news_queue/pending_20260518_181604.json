@@ -1,0 +1,83 @@
+[
+  {
+    "headline": "GOLD AT 6-WEEK LOW: $4,483 as Inflation Spike, Rising Yields Erase All Rate-Cut Expectations",
+    "url": "https://tradingeconomics.com/commodity/gold",
+    "source_name": "Trading Economics",
+    "category_slug": "gold-silver",
+    "snippet": "Gold fell to $4,483/oz on May 18 — its lowest since March — as oil-driven inflation from the Strait of Hormuz closure lifted Treasury yields and markets fully priced out any Fed rate cuts in 2026. Despite shedding nearly 6% in the past month, gold remains 41% above year-ago levels; ING and Goldman still target $5,000 by year-end.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "SILVER'S PERFECT STORM: Solar Substitution + UBS 80% Deficit Cut + Inflation Fears Crash White Metal 10.5%",
+    "url": "https://www.kitco.com/news/article/2026-05-14/silver-price-outlooks-chopped-supply-deficit-forecasted-narrow-dramatically",
+    "source_name": "Kitco News",
+    "category_slug": "gold-silver",
+    "snippet": "Silver has plunged 10.5% to $76.34 in a three-day rout driven by: Chinese solar manufacturers Longi and Jinko commercializing copper-based cells that strip ~50M oz of annual demand; UBS slashing its 2026 silver deficit estimate from 300M oz to just 60–70M oz; and surging oil-driven inflation eliminating rate-cut hopes. UBS reset its year-end price target from $85 to $80/oz.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER SLIDES TO $6.30/LB for Second Straight Session as U.S. Refined Copper Tariff Decision Looms June 30",
+    "url": "https://www.mining.com/copper-price-nears-13000-on-tariffs-woes-supply-strain/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "Copper futures slid to near $6.30/lb for a second session as elevated prices curtailed Chinese buying and the market braces for a U.S. Commerce Secretary recommendation on refined copper tariffs by June 30. Goldman Sachs' base case: at least 25% tariff on refined copper implemented shortly after, with phased rises to 30% by 2028 — adding fresh volatility on top of already-tight global supply.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GHANA PULLS THE RUG: Tarkwa Mine Lease Stalls with $2.3B Revenue at Stake — Chamber Warns of Systemic Capital Flight",
+    "url": "https://www.kitco.com/news/off-the-wire/2026-05-15/ghana-lease-uncertainties-threaten-mining-investment-mines-chamber",
+    "source_name": "Kitco News",
+    "category_slug": "market-macro",
+    "snippet": "Tarkwa, Ghana's highest-volume gold operation at 427,000 oz/yr, faces a 2027 lease expiry with renewal talks stalled and government officials unresponsive. The Ghana Chamber of Mines warns that concurrent tenure uncertainty across gold, lithium, and bauxite assets has escalated into systemic jurisdictional risk — the kind that cannot be hedged at the project level and triggers capital flight.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "FORGET MP MATERIALS: Pentagon-Backed Plays USAR and Energy Fuels Surge as Trump's $18.6B Floods Rare Earth Sector",
+    "url": "https://247wallst.com/investing/2026/05/15/forget-mp-materials-one-of-these-mining-stocks-is-up-274-and-has-354-million-in-pentagon-contracts-the-other-controls-the-largest-rare-earth-deposit-outside-china/",
+    "source_name": "24/7 Wall St.",
+    "category_slug": "rare-earths",
+    "snippet": "With Trump's $18.6B rare earth initiative reshaping the Western supply chain, 24/7 Wall St. identifies two plays with stronger near-term catalysts than headline name MP Materials: one up 274% recently with $354M in Pentagon contracts, the other controlling the largest heavy rare earth deposit outside China. NdPr oxide is still 88% above its January open despite April's 21% pullback.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "MOGOTES METALS: Two Discoveries at Filo Sur — Albor Hole Returns 86m @ 0.7% Cu, 0.55 g/t Au Adjacent to Lundin's Giant",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3349-tsx-venture/mog/203397-high-grade-shallow-copper-gold-silver-molybdenum-discovery-in-drill-intercept-at-filo-sur-project-vicuna-district-reported-by-mogotes-metals.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "Mogotes Metals (TSX-V: MOG) confirmed two copper-gold-silver-molybdenum discoveries in its inaugural drill season at Filo Sur, Argentina — directly adjacent to Lundin Mining's Filo del Sol. Best result: 86m at 0.7% Cu, 0.55 g/t Au, 2.7 g/t Ag from just 108m depth, with the higher-grade core at 1.1% Cu over 43m. Four rigs are turning and 3,681m of additional assays remain pending.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "NGEX MINERALS: 17.3m at 207 g/t Au Including 2.00m at 1,740 g/t Au — Phase 4 Confirms Ultra-High-Grade Corridor at Lunahuasi",
+    "url": "https://www.newswire.ca/news-releases/ngex-highlights-lunahuasi-high-grade-gold-with-17-3m-at-207-79-g-t-au-including-2-00m-at-1-740-00-g-t-au-plus-4-88m-at-60-10-g-t-au-814036628.html",
+    "source_name": "Newswire Canada",
+    "category_slug": "exploration-discovery",
+    "snippet": "NGEx Minerals (TSX: NGEX) Phase 4 drill highlights from Lunahuasi, Argentina include 17.3m at 207.79 g/t Au and 2.02% Cu from 335m depth — anchored by a 2.00m bonanza interval at 1,740 g/t Au. Two ultra-high-grade corridors are now confirmed 660m apart, validating deposit scale; assays from the final 12 holes of the 27,318m program are pending.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "EQUINOX + ORLA: $18.5B All-Share Merger Creates Canada's #2 Gold Producer with 1.1Moz/yr Output",
+    "url": "https://www.mining.com/equinox-orla-combine-to-form-18-5b-gold-miner/",
+    "source_name": "Mining.com",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Equinox Gold and Orla Mining signed a definitive all-share combination on May 13 to create an $18.5B North American gold producer anchored by three long-life Canadian mines: Greenstone (ON), Valentine (NL), and Musselwhite (ON). Orla shareholders receive 1 Equinox share per share held; existing Equinox holders retain 67%. Shareholder vote expected July 2026 with a Q3 close targeted.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD MINERS PRINTING CASH: Q1 Average Price $4,873/oz Drives 238% EPS Jumps — Equity Valuations Still Lagging Fundamentals",
+    "url": "https://discoveryalert.com.au/gold-miners-fundamentals-aisc-margins-valuation-2026/",
+    "source_name": "Discovery Alert",
+    "category_slug": "opinion-analysis",
+    "snippet": "With Q1 2026's average realized gold price at $4,873/oz — 70% above Q1 2025 — the top 25 GDX holdings posted $37.6B in combined revenue and Barrick reported 238% EPS growth ($0.98/share) with AISC of $1,708/oz, implying near-record operating margins. Analysts argue that gold miner equities remain structurally undervalued relative to the cash flows now being generated at current gold prices.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
