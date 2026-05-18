@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "MINRES BETS ON LITHIUM REBOUND: Bald Hill Spodumene Mine Restarting After 18-Month Halt, 370 Jobs, First Production July",
+    "url": "https://www.mineralresources.com.au/news/minres-to-restart-bald-hill-lithium-mine/",
+    "source_name": "Mineral Resources",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Mineral Resources (ASX: MIN) is reviving its mothballed Bald Hill spodumene mine in Western Australia after an 18-month suspension, betting on a sustained lithium price recovery. Crushing and mining operations commence in June, first spodumene concentrate production targets July, with approximately 370 jobs created — a signal that the hard-rock lithium sector is moving from survival mode to cautious expansion.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "NEAR-PURE STIBNITE: Critical One Drills 4.0m of 70.2% Antimony at Howells Lake — Defence-Metal Exploration in Ontario",
+    "url": "https://www.newsfilecorp.com/release/297737/Critical-One-Energy-Drills-4.0-Meters-of-70.2-Antimony-at-Howells-Lake-Project",
+    "source_name": "Newsfile Corp.",
+    "category_slug": "exploration-discovery",
+    "snippet": "Critical One Energy (CSE: CRTL) intersected 4.0 metres grading 70.2% antimony — approaching the 71.7% theoretical maximum for chemically pure stibnite — within a broader 8.0m interval at 42.2% Sb at Howells Lake, Ontario. Antimony is classified as a Tier 1 critical mineral for Western defence and energy storage supply chains, with no primary domestic production across the US or Canada.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "LITHIUM DEAL CLOSES THIS WEEK: Li-FT Power's Winsome Resources Acquisition Gets Court Approval, Implementing May 21",
+    "url": "https://www.globenewswire.com/news-release/2026/05/11/3292399/0/en/LIFT-Provides-Update-on-Timetable-for-Combination-Transaction-With-Winsome-Resources.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "The Supreme Court of Western Australia approved Li-FT Power's (TSXV: LIFT) acquisition of Australian lithium explorer Winsome Resources on May 11, with Winsome shares suspending from ASX on May 12 and scheme implementation set for May 21. The combination pairs Li-FT's hard-rock spodumene projects in Canada's Northwest Territories with Winsome's Australian lithium portfolio into a single cross-listed vehicle.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER SURGES IN NEW YORK, SHANGHAI SETS RECORD — Tariff Bets and AI Grid Demand Keep Bulls Running Ahead of June 30 Report",
+    "url": "https://www.mining.com/new-york-copper-price-surges-again-shanghai-sets-record/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "Copper reclaimed upward momentum in New York with Shanghai contracts setting a new record session, as traders positioned ahead of the June 30 US Commerce Department Section 232 copper market report. A projected 2026 structural deficit exceeding 100,000 tonnes, AI data centre buildouts, and China's sulphuric acid export curbs continue to provide fundamental support through near-term volatility.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SILVER RESILIENT DESPITE IRAN HEADWINDS — Monetary Demand Cushions the Industrial Selloff, Says Money Metals",
+    "url": "https://www.moneymetals.com/news",
+    "source_name": "Money Metals",
+    "category_slug": "opinion-analysis",
+    "snippet": "In a May 16 audio alert, Money Metals Exchange analysts argue that silver's dual monetary-industrial nature is providing a floor even as Strait of Hormuz disruption and hot CPI data pressure industrial metals broadly. With the gold/silver ratio spiking to 58.9:1 — a sharp reversal from 53.6 just 24 hours earlier — contrarian accumulation signals are emerging for patient retail investors.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD SWOT: K92 Mining Q1 Output Up 37% Year-on-Year, Holds 50-Day MA While Reiterating 190,000–225,000 oz AuEq Guide",
+    "url": "https://goldseek.com/article/gold-swot-k92-mining-reiterates-2026-production-guidance-and-holds-steady-above-50-day",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "This week's GoldSeek Gold SWOT highlights K92 Mining (TSX: KNT), which posted Q1 2026 production of 46,743 oz AuEq — 37% above the prior year and on budget at its high-grade Kainantu Mine in Papua New Guinea — as management reaffirms full-year guidance of 190,000–225,000 oz AuEq weighted toward a stronger H2. Gold technicals show a ninth week of parabolic short-trend completion while holding higher lows and highs.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "USA RARE EARTH Q1: $1.75B CASH IN HAND; $1.6 BILLION DOC CHIPS FUNDING AGREEMENT EXPECTED TO CLOSE THIS MONTH",
+    "url": "https://www.globenewswire.com/news-release/2026/05/13/3294467/0/en/USA-Rare-Earth-Reports-First-Quarter-2026-Financial-Results.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "rare-earths",
+    "snippet": "USA Rare Earth (NYSE: USAR) reported Q1 2026 results showing $1.75 billion in cash and confirmed the $1.6 billion Commerce Department CHIPS-program funding arrangement is in final documentation stages with completion targeted for May 2026. Separate from the ongoing Serra Verde antitrust review, the CHIPS capital underpins the company's core domestic heavy rare earth mining and magnet-manufacturing platform targeting 2030.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "URANIUM Q1 2026 IN REVIEW: Spot Above $86/lb as Kazatomprom's 8M-lb Cut Bites and AI Nuclear Demand Accelerates",
+    "url": "https://investingnews.com/uranium-forecast/",
+    "source_name": "Investing News Network",
+    "category_slug": "uranium-energy",
+    "snippet": "Uranium spot prices recovered above $86.50/lb through Q1 2026 as Kazatomprom's confirmed 10% production cut — removing approximately 8 million pounds from global primary supply — combined with a pre-existing 31-million-pound annual deficit. AI infrastructure electricity demand is emerging as a new structural driver, with Microsoft and Meta signing multi-gigawatt nuclear capacity agreements that utilities are only beginning to factor into long-term contracting.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "NEVADA'S LITHIUM RUSH VIOLATES INDIGENOUS RIGHTS, AMNESTY INTERNATIONAL WARNS — Permitting Risks Rise for US Developers",
+    "url": "https://www.amnesty.org/en/latest/news/2026/05/usa-boom-in-lithium-mining-across-nevada-is-violating-the-rights-of-indigenous-peoples/",
+    "source_name": "Amnesty International",
+    "category_slug": "market-macro",
+    "snippet": "Amnesty International's May 2026 research briefing finds that the US government is advancing multiple Nevada lithium mining projects without the Free, Prior and Informed Consent of affected Indigenous Peoples, breaching international human rights standards. For junior lithium developers in the US Southwest, the report elevates regulatory and social licence risk as a material permitting variable heading into construction decisions.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SUREBET GOLD DISCOVERY EXPANDS: Goliath Resources Launches 50,000-Metre Drill Push With Veteran Mining Exec on Board",
+    "url": "https://www.streetwisereports.com/article/2026/05/12/gold-discovery-expands-as-veteran-mining-executive-joins-ahead-of-50-000-meter-drill-push.html",
+    "source_name": "Streetwise Reports",
+    "category_slug": "exploration-discovery",
+    "snippet": "Goliath Resources is advancing its fully funded 50,000-metre 2026 drill program at the Surebet Gold Discovery in British Columbia's Golden Triangle as Alan Edwards — a veteran mining executive with major discovery track record — joins the advisory board. The high-grade Surebet system has returned multiple wide intersections in previous campaigns with results expected through the summer season.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
