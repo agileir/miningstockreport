@@ -1,0 +1,36 @@
+{
+  "ticker": "TECK.B",
+  "exchange": "TSX",
+
+  "management_score": 4,
+  "management_notes": "Jonathan Price took over as CEO in 2023 and has executed the strategic pivot from steelmaking coal to base metals with clarity and discipline. The coal divestiture to Nippon Steel and Glencore completed the repositioning of Teck as a pure-play copper and base metals company — a structurally correct move that many doubted would happen. Operational track record at QB2, Highland Valley, and Antamina is strong. Slight deduction for the opacity created by the dual-class share structure, which concentrates effective control with the Keevil family and limits the accountability mechanisms a single-class board would face.",
+
+  "geology_score": 5,
+  "geology_notes": "World-class copper asset base with no credible peer on the TSX. Quebrada Blanca Phase 2 (QB2) in Chile is a Tier-1 copper-molybdenum deposit ramping toward 175 ktpa Cu — one of the most significant copper assets to enter production in the past decade. Highland Valley Copper in BC is one of Canada's largest copper mines with a long operating history and ongoing life extension potential. The 22.5% stake in Antamina (Peru) provides exposure to a super-giant copper-zinc mine operated by BHP. Carmen de Andacollo in Chile adds further base metals optionality. This portfolio is the benchmark against which all other TSX copper investments are measured.",
+
+  "capital_score": 2,
+  "capital_notes": "The dual-class share structure is the primary concern for retail investors — Class A shares held by the Keevil family carry disproportionate voting rights and effectively limit minority Class B shareholders' influence on board composition, capital allocation, and strategic decisions. This is a structural governance discount that is unlikely to be resolved without family consent. Significant capital expenditures for QB2 development have resulted in meaningful debt, though the transition toward free cash flow generation as QB2 reaches nameplate production reduces balance sheet risk over time. Cap-table data was not available in the pre-extracted filings cache.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "QB2 reaching nameplate copper production capacity is the transformational near-term catalyst — full ramp unlocks the cash flow generation that justifies the capital spend and enables meaningful debt reduction. Copper's structural demand growth from the energy transition (EV batteries, grid infrastructure) provides a multi-year macro tailwind. Any major corporate action — acquisition of a complementary asset, or Teck itself becoming a target for a global major — could be an additional catalyst, particularly given the improved balance sheet post-coal divestiture.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "Teck's dual-class structure makes it effectively un-acquirable without Keevil family consent, removing the M&A premium that comparable single-class copper majors might command. At current copper prices, TECK.B trades at a premium to simple resource-based NAV commensurate with QB2's quality, but the governance discount caps valuation relative to global copper majors. Comparable diversified copper producers trade at 1.0–1.3x NAV; Teck likely falls in that range without discovery-stage upside.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Teck Resources holds the highest-quality copper portfolio on the TSX, anchored by QB2 — a generational asset still ramping toward nameplate production. The strategic exit from steelmaking coal has clarified the investment thesis and improved the balance sheet considerably. However, retail investors must understand that Class B shareholders have limited influence over corporate governance decisions under the Keevil family's Class A control. The large-cap nature of Teck also means discovery-style upside is absent — this is a copper price and QB2 execution call, not a drilling story. For investors who want large-cap copper benchmark exposure on the TSX, TECK.B is the natural core position; for those seeking governance clarity or discovery leverage, mid-tier producers offer better alignment. Cap-table and resource data were not available in the pre-extracted filings cache.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}
