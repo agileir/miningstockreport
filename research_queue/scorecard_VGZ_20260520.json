@@ -1,0 +1,36 @@
+{
+  "ticker": "VGZ",
+  "exchange": "TSX",
+
+  "management_score": 3,
+  "management_notes": "Fred Earnest (President & CEO) has defined a credible, milestone-driven development roadmap for Mt Todd: NT permit modifications by year-end 2026, one federal authorisation within 14–16 months, detailed engineering and design starting early 2027, with a 27-month construction and commissioning timeline thereafter. The company is building a Perth-based execution team of 8–10 people and recently appointed Julie Jones as General Counsel and Company Secretary for the Australian entity. The team is doing the right things. Deduction: the company closed a US$44.85M equity offering at US$2.50/share in Q1 2026 — appropriate to fund the development programme but dilutive to existing holders.",
+
+  "geology_score": 4,
+  "geology_notes": "Mt Todd in the Northern Territory of Australia is one of the continent's largest undeveloped gold deposits. The 2025 Feasibility Study — the most recently completed technical study — confirms a large-scale, open-pit heap leach or mill project with multi-million-ounce resources. No resource/reserve detail was available from extracted filings, but the project's scale and the existence of a fully funded feasibility study are established facts. The score is 4 rather than 5 given the project's remote location and the infrastructure requirements implied by its scale.",
+
+  "capital_score": 2,
+  "capital_notes": "Vista Gold closed an underwritten public offering of 17,940,000 shares at US$2.50 per share in March 2026 (gross proceeds US$44.85M). This is the most recent in a series of equity raises required to sustain the company through a pre-production development cycle. Total cash at Q1 2026 year-end: US$52.7M. The share count has grown materially over the years. Warrant and option overhang details were not available from extracted filings; investors should review the most recent AIF and MD&A for full diluted share count and outstanding instruments. The offering history suggests flow-through financing is unlikely (Vista is a TSX/NYSE American dual-listed developer rather than a typical TSXV flow-through issuer).",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "The 2026 catalyst calendar is defined but stretched across 12–24 months. Key milestones: Northern Territory-granted permit modifications expected by end of 2026; one federal environmental authorisation expected within 14–16 months from an unspecified filing date; detailed engineering and design to commence early 2027. No drill results or resource updates are anticipated — the project is post-resource and in permitting. The catalyst density is moderate: meaningful binary events (NT permit decision) within 2026 but no near-term inflection that would move the needle on valuation.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "With a completed 2025 Feasibility Study and a clear development timeline, Mt Todd is as de-risked as a pre-construction project can be. The current gold price environment makes the project's economics more attractive than they have been in prior cycles. However, the large capital requirement for construction means that solo development by a company with US$52.7M in cash is not credible without a joint-venture partner, streaming arrangement, or acquirer. That dependence on a third-party transaction introduces deal execution risk and dilution.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Vista Gold has done the hard work: completed the 2025 Feasibility Study on Mt Todd, secured US$52.7M in cash from a March 2026 equity offering, and mapped a clear path to construction start in early 2027. The project is real, the resource is large, and the team is building out the Australian capability to execute. The reasons for WATCH rather than BUY: (1) the timeline to production is 3+ years from today, which is a long horizon for a TSXV/TSX-listed junior; (2) the project almost certainly requires a JV, streaming deal, or acquisition to finance construction, introducing deal execution risk; (3) repeated equity issuances have diluted the share count. For investors who can tolerate the timeline and dilution risk, VGZ represents a call option on a large, feasibility-proven Australian gold project. Cap-table details were not available from extracted filings.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}
