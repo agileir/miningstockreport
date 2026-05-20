@@ -1,0 +1,36 @@
+{
+  "ticker": "UCU",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "The team has secured meaningful U.S. Department of Defense and Department of Energy validation for RapidSX™ technology — a credibility signal that pure-exploration juniors cannot match. DoW accepted the Phase 1 Final Report and RapidSX Techno-Economic Assessment in April 2026, following approximately 6,000 hours of demo-plant runtime. However, the company has been pre-revenue for many years and the Louisiana Strategic Metals Complex (SMC) commercialisation remains in the early scale-up phase (target 5,000 tpa in 2026). Score reflects real technical progress but no production track record yet.",
+
+  "geology_score": 3,
+  "geology_notes": "The Bokan-Dotson Ridge REE property in Southeast Alaska received an updated resource estimate in April 2026: 801,600 metric tonnes of measured resource averaging 0.6% TREO (4.83 Mt total TREO). The deposit is real and NI 43-101 compliant, and the April 2026 upgrade adds confidence. However, the remote Alaska location imposes significant infrastructure costs, and Ucore's corporate strategy has pivoted toward the Louisiana SMC as the primary value driver — Bokan is held as a future supply feedstock. Note: the research queue lists primary_commodity as 'Uranium'; Ucore Rare Metals is a rare earth element (REE) company. The Bokan Mountain area includes trace actinide mineralisation but REEs are the primary commodity.",
+
+  "capital_score": 2,
+  "capital_notes": "Pre-revenue technology development has required multiple equity financing rounds over many years, creating a likely significant warrant and option overhang. No cap-table data was available from extracted filings; specific tranche details require review of the most recent MD&A or AIF. Louisiana SMC build-out and Phase 2 government-contract work will require continued capital draws. Flow-through share financing is unlikely for a technology development company rather than a resource extractor, but investors should verify the share structure before committing.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "Near-term catalyst profile is strong: Louisiana SMC Phase 1 is scaling from 2,000 tpa toward 5,000 tpa in 2026; Phase 2 DoW contracts are a logical next step following Phase 1 acceptance; U.S. critical minerals supply-chain policy tailwinds (Executive Orders, DoD procurement priorities) could accelerate commercial offtake agreements. The April 2026 Bokan resource upgrade may attract additional government or private interest in the deposit as a domestic REE feedstock.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "RapidSX™ is a proprietary technology asset that could command a strategic premium from a government entity, rare earth processor, or defence contractor seeking domestic supply-chain security. However, there is no clear P/NAV framework for a technology company without production economics, and the Bokan deposit economics are highly sensitive to rare earth prices and processing assumptions. Until the Louisiana SMC demonstrates sustained commercial throughput, acquisition value is speculative.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Ucore occupies a credible niche as a U.S.-government-backed rare earth processing technology company — a category with real policy tailwinds in 2026. The April 2026 milestones (updated Bokan resource, DoW Phase 1 acceptance) are genuine validation events. The risks are equally real: the company remains pre-revenue from the SMC, capital needs are ongoing, the cap table has been diluted through years of development financing, and there is no clear production-economics baseline for standard P/NAV analysis. Suited for investors with high risk tolerance and a thesis on U.S. domestic REE processing policy. Not a conventional junior miner scorecard — the Verdict Framework is applied under constraint.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}

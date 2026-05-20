@@ -1,0 +1,36 @@
+{
+  "ticker": "TFPM",
+  "exchange": "TSX",
+
+  "management_score": 4,
+  "management_notes": "Shaun Usmar (CEO, ex-Barrick VP) leads an experienced royalty origination team that has grown the portfolio from zero to 239 assets since 2016. Record Q1 2026 results — US$147M revenue, 30,166 GEOs, 67% YoY cash flow growth — demonstrate disciplined execution. Over $1 billion in liquidity signals strong balance-sheet stewardship. Slight deduction for the transition-year headwinds flagged at Cerro Lindo and Northparkes, which reduce near-term GEO visibility.",
+
+  "geology_score": 4,
+  "geology_notes": "Portfolio of 239 assets (17 streams + 222 royalties) across multiple commodities and jurisdictions provides robust diversification. Near-term producing streams anchored by Cerro Lindo (silver) and Northparkes (gold/copper), with organic catalysts at Hope Bay (gold, BC/Canada), Arthur (gold, Nevada), Kemess (silver, BC), and Gunnison (copper, Arizona). Temporary headwinds at Cerro Lindo and Northparkes cap the score at 4 rather than 5 for 2026 production predictability.",
+
+  "capital_score": 4,
+  "capital_notes": "Royalty and streaming model minimises share-count dilution relative to operators. $1B+ liquidity with strong free cash flow generation supports both the dividend and new deal-making without reliance on equity markets. As a royalty company, flow-through financing is not applicable. No specific warrant or option overhang data was available from extracted filings.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "Multiple well-defined near-term catalysts: Hope Bay construction decision flagged for May 2026; Pre-Feasibility Study for Arthur gold project (Nevada); Preliminary Economic Analysis for Kemess silver (BC) and Gunnison copper (AZ). 2026 GEO guidance reaffirmed at 95,000–105,000. Long-term target of 140,000–150,000 GEOs by 2030 provides medium-term earnings growth visibility.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "Triple Flag trades at a premium to NAV as is typical for mid-tier royalty companies — the premium reflects portfolio quality, management calibre, and deal-origination capability rather than discount discovery. P/NAV benchmarking against Sandstorm, Osisko, and Wheaton peer group suggests fair-to-full valuation. A score above 3 would require either a meaningful NAV-accretive deal or a material re-rating below peer multiples.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Triple Flag is a well-run, diversified royalty and streaming company delivering record financial results in 2026 on the back of strong gold prices. Management quality, portfolio breadth, and liquidity are all best-in-class for its tier. The primary reasons to hold off on BUY: royalty companies systematically trade above NAV (limiting the acquisition-economics upside that defines a BUY in the Verdict Framework), and near-term headwinds at Cerro Lindo and Northparkes create modest delivery risk against 2026 GEO guidance. For investors seeking pure-play exposure to a junior miner's discovery or development upside, TFPM is the wrong vehicle — it is a diversified royalty operator. For investors seeking managed precious-metals exposure with strong capital discipline, TFPM is a quality WATCH that could become a BUY on any weakness.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}
