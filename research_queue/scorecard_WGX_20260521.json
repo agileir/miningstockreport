@@ -1,0 +1,36 @@
+{
+  "ticker": "WGX",
+  "exchange": "TSX",
+
+  "management_score": 4,
+  "management_notes": "Wayne Bramwell-led team executed the transformative Karora Resources merger (completed mid-2024) and delivered record Q2 FY26 group production of 111,418 oz Au — the highest quarterly output in company history. A credible 3-year plan targets 470koz/yr from FY28 with AISC declining from FY27, demonstrating strategic clarity and cost discipline. Western Australia's deep bench of mining management talent underpins operational execution across Murchison and Southern Goldfields. Insider ownership percentage not confirmed from available sources; score reflects demonstrated delivery rather than alignment optics.",
+
+  "geology_score": 4,
+  "geology_notes": "2025 Ore Reserves of 3.5 Moz Au (56 Mt at 1.93 g/t) across four operating processing hubs in Western Australia — a Tier-1 jurisdiction. Murchison district (Cue region — Fortnum, Paddy's Flat area) and Southern Goldfields (Higginsville, Beta Hunt) provide geological diversity. Beta Hunt historically delivered high-grade bonanza shoots within a broader conglomerate host, adding grade optionality. Six Mtpa combined processing capacity is installed and optimised. Reserve life ~10.7 years at FY25 production rate of 326koz/yr. WA goldfields remain capable of material resource additions from ongoing brownfield drilling.",
+
+  "capital_score": 3,
+  "capital_notes": "Cap-table data unavailable — no extracted filings JSON in the repository cache for WGX. The 2024 Karora merger involved share consideration issued to Karora shareholders, creating meaningful post-merger dilution from the Westgold pre-merger base. FY25 revenue of A$1.36B (up 89.86% YoY, primarily reflecting the Karora addition) indicates strong operating cash flow that reduces near-term equity dilution risk. No flow-through financing history identified. Score held at neutral (3) pending share-structure and dilution data from a future extracted-filings run.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Record Q2 FY26 production of 111,418 oz is a recent confirmed positive catalyst. Steady quarterly production reports provide a regular news cadence; Q3 FY26 results are the next expected release. The 3-year ramp from 326koz (FY25) to 470koz (FY28) with an AISC improvement trajectory creates a structural re-rating thesis as milestones are hit. Gold price at multi-year highs in 2025-2026 amplifies margin expansion on each quarterly beat. No binary exploration catalyst near term — catalysts are operational and financial rather than discovery-driven.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "Westgold's 3.5 Moz Au reserve base, A$1.36B revenue, and growing production profile make it a credible bolt-on M&A target for a senior producer seeking WA scale. Mid-tier WA gold producers with >300koz/yr output and Tier-1 jurisdiction typically attract 0.8–1.4x NAV multiples from acquirers at current gold prices. Without current share count or market capitalisation, a precise P/NAV multiple cannot be calculated for this run. Directionally, strong cash generation likely prevents deep discounting to NAV, capping acquisition-scenario upside relative to a junior trading at a steep discount.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Westgold is one of Australia's stronger mid-tier gold producers following the 2024 Karora merger — record Q2 FY26 production of 111,418 oz, a 3.5 Moz Au reserve base in Tier-1 Western Australia, and a credible ramp to 470koz/yr by FY28 underpin the thesis. The investment case is production-growth-plus-gold-price leverage rather than the pre-resource discovery re-rating that drives the biggest junior returns. For the Verdict Framework audience, this is a WATCH: operationally de-risked and well-managed, but with upside that scales with gold price and execution rather than delivering the explosive re-rating of a well-timed junior BUY. Cap-table data (shares outstanding, warrants) was unavailable for this run; a follow-up with extracted filings JSON will sharpen the capital and acquisition scores.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": null,
+  "shares_fully_diluted": null,
+  "share_instruments": []
+}
