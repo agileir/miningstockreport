@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "DEBT CLEARED: Americas G&S Exits 592,000-oz Silver Stream, Issues 7.9M Shares to Sprott",
+    "url": "https://americas-gold.com/news-releases/2026/americas-gold-and-silver-announces-agreement-with-sprott-mining-inc-to-terminate-silver-delivery-agreement/",
+    "source_name": "Americas Gold and Silver",
+    "category_slug": "gold-silver",
+    "snippet": "Americas Gold and Silver (TSX: USA / NYSE-A: USAS) agreed to terminate the remaining 592,000 oz silver delivery obligation to Sprott Mining by issuing 7,956,696 shares at a deemed price of US$5.57, removing the last major streaming overhang from its balance sheet and restoring full exposure to rising silver prices.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "SILVER SPIKES 2.4% to $76/oz — Gold/Silver Ratio Squeezes to 59 as Physical Buyers Step In",
+    "url": "https://fortune.com/article/current-price-of-gold-05-21-2026/",
+    "source_name": "Fortune",
+    "category_slug": "gold-silver",
+    "snippet": "Spot silver surged 2.4% on May 21 to $76/oz as physical buyers stepped in aggressively on the recent pullback, compressing the gold/silver ratio to 59 — its tightest reading in months. Gold held steady above $4,500, with the ratio compression typically signalling silver is in the late stage of a bullish metals advance.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "PMET RESOURCES Fires Up 45,000m Drill Campaign at Feasibility-Stage James Bay Lithium Deposit",
+    "url": "https://www.prnewswire.com/news-releases/pmet-commences-2026-summer-fall-drill-campaign-at-the-shaakichiuwaanaan-property-302778386.html",
+    "source_name": "PR Newswire",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "PMET Resources (TSX: PMET) reopened the Shaakichiuwaanaan camp in James Bay, Quebec — one week ahead of schedule — and launched a 45,000-metre drill campaign with up to 8 rigs targeting the CV5 and CV13 spodumene pegmatites at a project with an 84.3 Mt reserve at 1.26% Li2O from a 2025 feasibility study.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER JUMPS to $6.30/lb — Iran Peace Talks and AI Data Centre Demand Fuel Base Metals Rally",
+    "url": "https://tradingeconomics.com/commodity/copper",
+    "source_name": "Trading Economics",
+    "category_slug": "copper-base-metals",
+    "snippet": "Copper climbed to $6.30/lb on May 22, up 0.66%, as Trump confirmed the US was in final-stage Iran negotiations — raising hopes for Strait of Hormuz shipping resumption — while AI data centre buildout kept longer-term demand expectations elevated. J.P. Morgan estimates data centres alone will consume ~475,000 tonnes of copper in 2026.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "IMPACT SILVER Posts Record $11.3M Profit as Q1 Revenue Nearly Triples to $31.2M at $77.91/oz Realized",
+    "url": "https://investingnews.com/impact-silver-announces-q1-2026-financial-results-with-revenue-nearly-tripling-to-31-2-million-and-record-net-income-of-11-3-million/",
+    "source_name": "Investing News Network",
+    "category_slug": "gold-silver",
+    "snippet": "IMPACT Silver (TSXV: IPT) reported Q1 2026 revenue of $31.2 million — nearly triple year-ago levels — driven by 268,470 oz production at 80% higher silver grades and a $77.91/oz realized price. Record net income of $11.3 million with $45.3M cash and zero long-term debt, a textbook example of operating leverage on a rising silver price.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GR SILVER DRILLS BEST-EVER HOLE: 45.1m at 1,623 g/t Ag Including 8.25m at 8,579 g/t Ag",
+    "url": "https://investingnews.com/gr-silver-reports-its-best-ever-drill-results-at-san-marcial-45-1-m-at-1623-g-t-ag-including-8-25-m-at-8579-g-t-ag-in-hole-sms26-04/",
+    "source_name": "Investing News Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "GR Silver Mining (TSXV: GRSL) reported hole SMS26-04 as the best-ever result from its San Marcial deposit in Sinaloa, Mexico: 45.1 metres at 1,623 g/t Ag equivalent including 8.25 metres at a stunning 8,579 g/t Ag. The result confirms deep structural controls on high-grade mineralization and opens new resource expansion potential at depth.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "NEXGOLD Drills 15.21 g/t Gold Over 20.1m at Goldlund, Expanding Ontario Open-Pit Resource",
+    "url": "https://www.globenewswire.com/news-release/2026/05/19/3297308/0/en/NexGold-Reports-Additional-Broad-High-Grade-Gold-Drill-Intercepts-at-Goldlund-Supporting-Mineral-Resource-Continuity-and-Expansion-Potential.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "exploration-discovery",
+    "snippet": "NexGold Mining (TSXV: NEXG) reported 14 new drill holes at the Goldlund Deposit in its Goliath Gold Complex in northwestern Ontario, led by 15.21 g/t Au over 20.1 metres, 5.11 g/t over 21.8m, and 4.51 g/t over 21.9m. Results confirm mineralization continuity at depth, supporting open-pit resource expansion in the 25,000m 2026 campaign.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "MINRES REBOOTS Bald Hill Lithium Mine After 18-Month Pause as Spodumene Prices Recover",
+    "url": "https://www.mining.com/minres-reboots-bald-hill-lithium-mine-after-18-month-pause/",
+    "source_name": "Mining.com",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Mineral Resources (ASX: MIN) restarted its 100%-owned Bald Hill hard-rock lithium mine in Western Australia's Goldfields region — placed on care and maintenance in November 2024 — with site activities commencing late May, mining in June, and first shipment targeted Q1 FY2027. The restart positions MinRes as the only company globally operating three hard-rock lithium mines.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "URANIUM DEMAND SURGE: US ISR Producer Eyes Major Texas Expansion as Utilities Ditch Russian Supply",
+    "url": "https://www.streetwisereports.com/article/2026/05/20/uranium-demand-fuels-massive-texas-expansion-to-provide-domestic-supply.html",
+    "source_name": "Streetwise Reports",
+    "category_slug": "uranium-energy",
+    "snippet": "A US in-situ recovery uranium producer is accelerating expansion of its Texas operations as domestic utilities rush to secure non-Russian supply chains. The push comes as Washington fast-tracks domestic nuclear fuel production and uranium spot prices stabilize around $83/lb — well above most US ISR producer operating costs.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "MICHAEL OLIVER on GoldSeek: Silver Entering 'Copper 2005' Structural Breakout — Gold Target $8,500",
+    "url": "https://goldseek.com/article/michael-oliver-warns-historic-gold-and-silver-breakout-debt-crisis-brews",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "Veteran technician Michael Oliver tells GoldSeek that silver has broken a 50-year price ceiling in a setup structurally identical to copper's 2005 breakout — which led to a 400%+ multi-quarter gain. Oliver projects silver reaching 'the couple hundreds' and gold potentially hitting $8,500 if it replicates historical eightfold base-pattern breakouts.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
