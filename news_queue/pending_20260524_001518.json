@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "COT DATA: GOLD SPEC LONGS RETREAT AS PRICES TEST $4,500 FOR A SECOND STRAIGHT WEEK",
+    "url": "https://goldseek.com/article/cot-gold-silver-usdx-report-may-22-2026",
+    "source_name": "GoldSeek",
+    "category_slug": "gold-silver",
+    "snippet": "This week's Commitment of Traders report shows speculative net-long positioning in gold futures declining as prices face a second consecutive weekly loss. Bond yield stress and a 42% probability of a Fed rate hike before year-end are prompting momentum traders to trim exposure near the $4,500 level.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "BIPARTISAN SILVER ACT AIMS TO BREAK NYC'S MONOPOLY ON U.S. PRECIOUS METALS STORAGE",
+    "url": "https://www.kitco.com/news/article/2026-05-22/us-senators-introduce-bipartisan-silver-act-expand-precious-metals-vault",
+    "source_name": "Kitco News",
+    "category_slug": "gold-silver",
+    "snippet": "Senators Risch (R-ID) and Cortez Masto (D-NV) introduced the SILVER Act to mandate precious metals depositories in all four U.S. time zones — ending the near-total concentration of approved vault infrastructure near NYC that has persisted for decades and exposing the market to single-point risk.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD, SILVER AT A CROSSROADS: RATE-HIKE ODDS CLIMB TO 42% AS BOND MARKET FLASHES STRESS SIGNALS",
+    "url": "https://www.kitco.com/news/article/2026-05-22/gold-silver-prices-remain-caught-between-rate-hike-fears-and-bond-market",
+    "source_name": "Kitco News",
+    "category_slug": "gold-silver",
+    "snippet": "Precious metals posted a second consecutive weekly loss as 30-year Treasury yields hold above 5% and Fed rate-hike probability reaches 42%. Spot gold closed the week near $4,508 — roughly 19% below January's all-time high of $5,589 — with analysts watching the $4,450 level as key near-term support.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ELEVATED BOND YIELDS CARRY A DOUBLE THREAT FOR GOLD THAT MOST INVESTORS ARE MISSING",
+    "url": "https://www.kitco.com/news/article/2026-05-22/gold-silver-and-new-fear-behind-elevated-bond-yields",
+    "source_name": "Kitco News",
+    "category_slug": "market-macro",
+    "snippet": "Analysts argue that 30-year Treasuries above 5% signal a deeper problem for gold than simple opportunity cost — a potential fiscal stress event and forced selling of reserve assets. The dynamic cuts both ways: short-term headwind, but a larger structural crisis could ultimately accelerate safe-haven flows.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "INDIA DOUBLES BULLION IMPORT DUTY TO 15%, RISKING DEMAND DESTRUCTION IN THE WORLD'S #2 GOLD MARKET",
+    "url": "https://www.kitco.com/news/article/2026-05-21/indias-new-gold-and-silver-import-duties-trigger-cascade-impacts-across",
+    "source_name": "Kitco News",
+    "category_slug": "market-macro",
+    "snippet": "India raised gold and silver import duties from 6% to 15% to defend the rupee amid soaring oil prices linked to the West Asia conflict. Analysts warn the move could suppress demand from one of the world's largest gold consumers while redirecting global supply flows — domestic jewellery prices expected to surge.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "'IN GOLD WE TRUST' 2026: DECADE TARGET HIT FOUR YEARS EARLY — INCREMENTUM NOW EYES $8,900 SCENARIO",
+    "url": "https://www.kitco.com/news/article/2026-05-21/golds-golden-decade-enters-next-phase-new-8900-target-gold-we-trust-report",
+    "source_name": "Kitco News",
+    "category_slug": "opinion-analysis",
+    "snippet": "Incrementum AG's 20th annual gold report notes that the conservative $4,800/oz decade target set in 2020 was reached in January 2026 — four years early — following gold's 64.4% gain in 2025. The team now focuses on the inflationary alternative scenario of $8,900/oz by 2030, citing persistent central-bank buying and dollar credibility erosion.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER RETREATS FROM $6.65 RECORD AS INFLATION FEAR AND IRAN STALEMATE HIT INDUSTRIAL METALS",
+    "url": "https://www.cnbc.com/amp/2026/05/21/copper-industrial-metals-inflation-bond-yields.html",
+    "source_name": "CNBC",
+    "category_slug": "copper-base-metals",
+    "snippet": "Copper futures slid to $6.20/lb from the May 13 record of $6.65 as spiking bond yields and fading US-Iran peace deal hopes reignited inflation concerns. JPMorgan now expects a 15% U.S. copper tariff by mid-2026, adding supply-chain uncertainty on top of softening demand signals from Chinese inventory data.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD SEEKER: MINING EQUITIES TAKE IT ON THE CHIN AS POST-EARNINGS NEWS VACUUM HITS THE SECTOR",
+    "url": "https://goldseek.com/article/gold-seeker-issue-78-week-mining-news-flow-slows-after-earnings-season-mining-stocks-take",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "GoldSeek's weekly mining equity roundup finds junior miners under pressure as Q1 earnings season wraps and news flow dries up. With metals prices retreating on macro headwinds, the sector is searching for the next catalyst — whether fresh drill results or a macro policy shift — to re-attract retail capital.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "TROILUS MINING LAUNCHES 40,000M 2026 DRILL CAMPAIGN AS WEST RIM HIGH-GRADE DISCOVERY EXPANDS",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/2478-tsx/tlg/200294-troilus-provides-update-on-2026-exploration-program-including-40-000m-drill-campaign.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "Troilus Gold (TSX: TLG) reports 2.92 g/t AuEq over 19m at its West Rim discovery — outside the current resource boundary — and confirms a 40,000m 2026 drill campaign designed to substantially grow the Quebec asset toward a feasibility-ready resource base.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GR SILVER MINING FIRES UP 20,000M STEP-OUT PROGRAM AT SAN MARCIAL TO TURBOCHARGE 2026 RESOURCE",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/2567-tsx-venture/grsl/197438-gr-silver-mining-commences-20-000-m-step-out-drilling-campaign-at-san-marcial-accelerating-the-2026-resource-expansion-program.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "GR Silver Mining (TSXV: GRSL) launches a 20,000m step-out campaign at San Marcial in Sinaloa, Mexico — doubling metres drilled outside the current NI 43-101 resource boundary. The program targets wide, high-grade zones with intercepts like 75m at 260 g/t Ag, supporting an updated resource estimate and PEA expected in H2 2026.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
