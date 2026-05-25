@@ -1,0 +1,101 @@
+[
+  {
+    "headline": "SILVER SURGES 3%: White metal rebounds to $77.66/oz as US-Iran peace talks ease inflation fears",
+    "url": "https://tradingeconomics.com/commodity/silver",
+    "source_name": "Trading Economics",
+    "category_slug": "gold-silver",
+    "snippet": "Silver climbed to $77.66/oz on Monday, up 3.07%, recovering recent losses as optimism over a potential US-Iran agreement eased fears of an energy-driven inflation shock that could force rates higher. The white metal is 36% below its January all-time high of $121.64 but holding above key support levels as the sixth consecutive year of structural supply deficit provides a fundamental floor.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "TIGHTER THAN OPEC: China's rare earth grip spans missiles to iPhones — and didn't loosen after Trump-Xi summit",
+    "url": "https://247wallst.com/investing/2026/05/24/from-missiles-to-iphones-the-real-alloys-ceo-explains-why-chinas-grip-is-tighter-than-opecs-ever-was/",
+    "source_name": "24/7 Wall St.",
+    "category_slug": "opinion-analysis",
+    "snippet": "Real Alloys' CEO argues China's dominance over rare earth processing is structurally tighter than OPEC's oil cartel ever was — covering defence-grade alloys, consumer electronics, and EV magnets simultaneously. The interview arrives days after the Trump-Xi summit showed little sign of Beijing easing its critical mineral export controls, with indium exports to the US down 77% since February 2025.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD HOLDS $4,700: Central banks bought 244 tonnes in Q1 — fastest accumulation pace in over a year — despite record prices",
+    "url": "https://tradingeconomics.com/commodity/gold",
+    "source_name": "Trading Economics",
+    "category_slug": "gold-silver",
+    "snippet": "Gold is consolidating in the $4,650–$4,750/oz range as the Middle East conflict sustains safe haven demand while US-Iran peace negotiations introduce two-way volatility. The World Gold Council's Q1 2026 data shows central banks spent $37 billion on gold last quarter — the highest-value single quarter on record — with 68% of central banks planning further additions to reserves this year.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER AT $6.28: AI data centres need 3–4x more copper than conventional facilities — structural deficit building",
+    "url": "https://tradingeconomics.com/commodity/copper",
+    "source_name": "Trading Economics",
+    "category_slug": "copper-base-metals",
+    "snippet": "Copper futures hit $6.28/lb this week, up 2% in a session, as accelerating AI infrastructure buildout amplifies already tight mine supply — a single large AI facility requires up to 50,000 metric tonnes of copper versus 12,000 for a conventional data centre. J.P. Morgan estimates data centre copper demand alone could reach 475,000 metric tonnes in 2026, with Chile's Cochilco raising its 2026 average price forecast to $5.55/lb.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "URANIUM HOLDS $84.70: Meta locks up 7.8 GW of nuclear, Microsoft adds 800 MW — tech giants reshaping the supply curve",
+    "url": "https://tradingeconomics.com/commodity/uranium",
+    "source_name": "Trading Economics",
+    "category_slug": "uranium-energy",
+    "snippet": "Uranium spot held at $84.70/lb as unprecedented demand signals from hyperscalers pile onto utility re-contracting needs — Meta signed agreements for up to 7.8 gigawatts of nuclear capacity and Microsoft secured 800+ megawatts exclusively for AI data centre operations. Denison Mines' Wheeler River Phoenix deposit is now in early construction, the first new Canadian uranium mine permitted in over two decades.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "COT REPORT MAY 22: Weekly CFTC gold, silver and USDX positioning — where speculative money is parked",
+    "url": "https://goldseek.com/article/cot-gold-silver-usdx-report-may-22-2026",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "GoldSeek's weekly CFTC Commitments of Traders roundup for May 22 maps net speculative positioning in gold and silver futures alongside the US Dollar Index — the key gauge of institutional momentum heading into the next leg of the precious metals cycle. Published as gold consolidates in the $4,650–$4,750 range and managed money reassesses the trade after the brutal correction from January's $5,405 record.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "BEST EVER DRILL: GR Silver hits 45.1m at 1,623 g/t Ag at San Marcial — \"best hole in the deposit's history\"",
+    "url": "https://investingnews.com/gr-silver-reports-its-best-ever-drill-results-at-san-marcial-45-1-m-at-1623-g-t-ag-including-8-25-m-at-8579-g-t-ag-in-hole-sms26-04/",
+    "source_name": "Investing News Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "GR Silver Mining (TSXV: GRSL) reported hole SMS26-04 at Mexico's San Marcial project — 45.1m true width at 1,623 g/t silver including a stunning 8.25m at 8,579 g/t Ag — calling it the best result in the deposit's history. The company is advancing a 20,000m 2026 drill campaign at a project carrying 134 million silver-equivalent ounces of existing resources.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "AYA GOLD & SILVER: 51.5m at 890 g/t AgEq at Boumadine — new parallel structure found 70m below pit shell",
+    "url": "https://www.globenewswire.com/news-release/2026/05/20/3298333/0/en/Aya-Gold-Silver-Reports-High-Grade-Exploration-Drill-Results-at-Boumadine.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "exploration-discovery",
+    "snippet": "Aya Gold & Silver (TSX: AYA) drilled 890 g/t silver equivalent over 51.5 metres at Boumadine in Morocco — including 1,504 g/t AgEq over 19.3m — and one hole cut a new mineralized parallel structure 70 metres below the current resource pit shell. Results confirm the Boumadine Main Trend is both high-grade and open at depth, pointing to further resource growth.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "AUSTRALIA FORCES CHINA OUT: Six Beijing-linked investors ordered to sell Northern Minerals heavy rare earth stakes within 14 days",
+    "url": "https://www.scmp.com/economy/china-economy/article/3353989/australia-orders-chinese-investors-divest-rare-earths-company-northern-minerals",
+    "source_name": "South China Morning Post",
+    "category_slug": "rare-earths",
+    "snippet": "Australian Treasurer Jim Chalmers gave six Chinese-linked entities a fortnight to sell their combined 17.58% stake in Northern Minerals, owner of the Browns Range dysprosium-terbium project — one of the few heavy rare earth operations outside China's downstream control. Northern Minerals shares fell 13.8% on the announcement; Beijing called the move discriminatory as Australia's FIRB accelerates strategic mineral reviews.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "NDPR PULLS BACK 21% FROM Q1 PEAK: Rare earth prices consolidating — but Western producers remain profitable",
+    "url": "https://rare-earth-mining.com/rare-earth-market-outlook-may-2026/",
+    "source_name": "Rare Earth Mining",
+    "category_slug": "rare-earths",
+    "snippet": "Neodymium-praseodymium oxide fell 21% in April to $99.61/kg after a record Q1 rally, with analysts projecting a $95–$115/kg consolidation range through Q2 2026. MP Materials and Lynas Rare Earths remain well above their cost bases at current prices, while the US government's DoD-backed $110/kg NdPr price floor provides policy-supported downside protection for domestic production.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "TROILUS MINES NEW ZONE: 2.92 g/t AuEQ over 19m outside current resource at Quebec copper-gold project",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/2478-tsx/tlg/200294-troilus-provides-update-on-2026-exploration-program-including-40-000m-drill-campaign.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "Troilus Mining (TSX: TLG) announced first results from the West Rim Zone at its Quebec copper-gold Troilus project — 2.92 g/t gold equivalent over 19 metres sitting entirely outside the current NI 43-101 resource. The company is running a 40,000m 2026 drill campaign targeting resource expansion at a project already hosting a multi-million ounce gold-equivalent resource in a Tier 1 jurisdiction.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
