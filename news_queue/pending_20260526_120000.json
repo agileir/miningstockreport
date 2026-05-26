@@ -1,0 +1,74 @@
+[
+  {
+    "headline": "GOLD SLIDES TO $4,522 AS PRECIOUS METALS ENTER SECOND CONSECUTIVE WEEKLY DECLINE",
+    "url": "https://www.cnbc.com/select/gold-price-may-26-2026/",
+    "source_name": "CNBC Select",
+    "category_slug": "gold-silver",
+    "snippet": "Gold spot price fell to $4,522.59 today — down from $4,569 yesterday and $4,500 on Friday — as elevated oil prices fuel inflation fears and reinforce expectations for tighter monetary policy. Silver dropped 3.07% to $75.68/oz. Both metals are down roughly 2% this month, though gold remains 36.84% higher than a year ago.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "ZIJIN'S C$5.5B ALLIED GOLD TAKEOVER ENTERS FINAL DAYS BEFORE MAY 29 CLOSE",
+    "url": "https://www.stocktitan.net/news/AAUC/allied-gold-confirms-normal-course-conduct-of-business-and-provides-alxtheo20b4o.html",
+    "source_name": "StockTitan",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Allied Gold (TSX: AAUC) confirms all shareholder and court approvals are secured for Zijin Gold's all-cash C$44/share takeover, with final regulatory sign-off the last remaining step before the May 29 outside closing date. The C$5.5 billion deal — a 27% premium to Allied's 30-day VWAP — adds three large open-pit African gold mines to Zijin's portfolio.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER RETREATS TO $6.37/LB BUT AI DATA-CENTER DEMAND KEEPS STRUCTURAL FLOOR INTACT",
+    "url": "https://www.indexbox.io/blog/north-american-scrap-metal-prices-copper-and-brass-edge-higher-on-may-26-2026/",
+    "source_name": "IndexBox",
+    "category_slug": "copper-base-metals",
+    "snippet": "Copper dipped 0.74% to $6.37/lb today on Middle East uncertainty and inflation concerns, trimming recent gains. The metal still trades 35% above year-ago levels and is up 5.81% month-to-date, supported by accelerating electrification demand and the AI-driven boom in data-center infrastructure wiring.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SILVERCORP METALS DROPS FY2026 ANNUAL RESULTS TODAY — WATCH YING MINE PRODUCTION NUMBERS",
+    "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Newswire.ca/2084331/silvercorp-changes-fiscal-2026-financial-results-release-date-to-may-26-2026/",
+    "source_name": "Globe and Mail / Newswire.ca",
+    "category_slug": "gold-silver",
+    "snippet": "Silvercorp Metals (TSX: SVM) releases its audited fiscal year 2026 financial results after market close today, rescheduled from an earlier date. The company operates the Ying Mining District in China — the country's largest primary silver mine — and is among the world's lowest-cost silver producers. Conference call follows on May 29.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "URANIUM ABOVE $86.50/LB NEAR TWO-MONTH HIGH AS META, MICROSOFT LOCK IN NUCLEAR DEALS",
+    "url": "https://sprott.com/uranium-watch/",
+    "source_name": "Sprott Uranium Watch",
+    "category_slug": "uranium-energy",
+    "snippet": "Uranium futures are holding above $86.50/lb, near their highest level in two months, as tech giants accelerate nuclear offtake agreements: Meta has signed for up to 7.8 gigawatts of new nuclear capacity; Microsoft has contracted 800 MW for AI data centres. Western utilities are also accelerating enrichment contracting ahead of the 2028 U.S. ban on Russian-enriched uranium imports.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SILVER'S SIXTH STRAIGHT SUPPLY DEFICIT: 215 MILLION-OUNCE GAP IS NOW THE LARGEST ON RECORD",
+    "url": "https://goldsilver.com/industry-news/goldsilver-news/silver-market-deficit-2026-six-years-and-getting-worse/",
+    "source_name": "GoldSilver.com",
+    "category_slug": "gold-silver",
+    "snippet": "The Silver Institute's World Silver Survey 2026 projects a record 215 million-ounce supply deficit this year — the sixth consecutive annual shortfall — driven by surging ETP investment and solar photovoltaic demand overwhelming a structurally constrained, largely byproduct silver mining industry. Cumulative drawdowns since 2021 now exceed 762 million troy ounces.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "NDPR RARE EARTHS FALL 21% IN APRIL AFTER 105% Q1 SURGE — CHINA STILL CONTROLS 92% OF SUPPLY",
+    "url": "https://rare-earth-mining.com/rare-earth-market-outlook-may-2026/",
+    "source_name": "Rare Earth Mining",
+    "category_slug": "rare-earths",
+    "snippet": "NdPr oxide pulled back 21% in April to $99.61/kg after a 105% first-quarter rally driven by Chinese export licensing tightening and accelerating EV motor demand. Analysts describe the correction as profit-taking and inventory adjustment rather than a fundamental reversal, with the structural supply deficit and MIIT quota constraints still firmly in place.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD SWOT: CLSA SEES GOLD RECOVERING TO $5,500 — MINERS POISED TO OUTRUN THE METAL",
+    "url": "https://goldseek.com/article/gold-swot-clsa-sees-gold-regaining-5500-ounce-medium-term",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "This week's Gold SWOT analysis highlights CLSA's medium-term target of $5,500/oz for gold, well above current spot near $4,522. With GDX trading at 86.70 and miners showing operating leverage — earnings expanding faster than the gold price — the consensus view is that gold equities are entering a period of meaningful outperformance relative to the physical metal.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
