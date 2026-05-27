@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "GOLD TUMBLES TO 2-MONTH LOW — $4,447 as Fed Hawks and Iran Peace Talks Stall",
+    "url": "https://fortune.com/article/current-price-of-gold-05-27-2026/",
+    "source_name": "Fortune",
+    "category_slug": "gold-silver",
+    "snippet": "Comex gold settled 1.18% lower at $4,447.50, its weakest since March 27, as Fed Governor Waller signalled a potential rate hike and US-Iran peace negotiations showed no formal progress. A stronger dollar compounded selling pressure; gold remains $1,155 above a year ago despite today's pullback.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER STARTUP Quilla Eyes TSX IPO to Fund Peru Mine Expansion — 30,000t Target",
+    "url": "https://www.mining.com/web/copper-startup-in-ipo-talks-ahead-of-peru-mining-expansion/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "Peru-based Quilla Resources is in early-stage IPO talks with Toronto advisers after restarting the idled Chapi copper mine in southern Peru. CEO Victor Gobitz is targeting 30,000 t/yr output requiring $200–300M in investment, choosing Toronto for its 'specialized mining ecosystem.'",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "BEST HOLE TO DATE: StrikePoint Cuts 114.30m @ 0.69 g/t Au at Nevada's Hercules",
+    "url": "https://www.newsfilecorp.com/release/298647/StrikePoint-Drills-Best-Hole-to-Date-at-Hercules-Gold-Project-H26004-Cuts-114.30m-Grading-0.69-gt-Au-and-5.03-gt-Ag-Including-9.14-m-of-2.95-gt-Au-with-16.18-gt-Ag-New-Broad-Zone-of-Oxide-Gold-Mineralization-Developing-at-Cliffs-Target",
+    "source_name": "Newsfile Corp",
+    "category_slug": "exploration-discovery",
+    "snippet": "StrikePoint Gold's (TSXV: SKP) H26004 returned 114.30m at 0.69 g/t Au and 5.03 g/t Ag at the Hercules Gold Project in Nevada's Walker Lane — the best hole by grade-width in the project's history. Dominant oxide mineralization suggests open-pit heap-leach potential; a maiden resource estimate is targeted for Q4 2026.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "Zodiac Gold Confirms 700m Gold Zone at Ben Ben, Liberia — DRILLING NOW UNDERWAY",
+    "url": "https://investingnews.com/zodiac-gold-continues-to-intersect-broad-gold-mineralized-zone-in-trenching-commences-drilling-on-ben-ben-north-area-and-identifies-regional-trend/",
+    "source_name": "Investing News Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "Zodiac Gold (TSXV: ZAU) has confirmed a 700m-long, up to 56m-wide northwest-trending gold zone at Ben Ben North on its Todi Gold Project in Liberia, with trench BBT004 returning 56m at 0.40 g/t Au. Diamond drilling has now commenced on the new target within a 16km district-scale trend.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ATHABASCA DRILL: UraniumX Discovery Starts Diamond Drilling at Murphy Lake with F4 Uranium",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3238-cse/stmn/204048-uraniumx-commences-drill-program-at-murphy-lake.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "uranium-energy",
+    "snippet": "UraniumX Discovery Corp. has commenced diamond drilling at its flagship Murphy Lake property in Saskatchewan's Athabasca Basin, with operator F4 Uranium Corp. (TSXV: FFU) directing the program. Murphy Lake sits within the world's highest-grade uranium district as spot uranium holds above $100/lb.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GoldSeek: Gold Up $2,168 and Silver Up $81 Since Labour Day — Asian Market Reads the Run",
+    "url": "https://goldseek.com/article/asian-metals-market-update-26th-may-2026",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "GoldSeek's Asian metals analyst tallies one of the strongest 9-month runs in modern precious metals history: spot gold up $2,168.20 and silver up $80.92 between Labour Day 2025 and Memorial Day 2026. The update examines whether momentum is overextended or supported by persistent structural demand.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "AI COPPER CRUNCH: Data Center Boom Tightens Components Supply Near $14,000/t",
+    "url": "https://www.digitimes.com/news/a20260526PD212/copper-demand-component-2026-materials.html",
+    "source_name": "Digitimes",
+    "category_slug": "copper-base-metals",
+    "snippet": "AI infrastructure buildout is straining copper component supply chains as prices hover near $14,000 per metric tonne. Demand from data centers compounds pressure from EV production and grid electrification, with J.P. Morgan projecting a 330,000-tonne refined copper shortfall in 2026.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "South Africa Miners WARN: Regulatory Shock Risk Persists Despite Government Dialogue",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-27/south-africa-s-mining-lobby-remains-wary-of-regulatory-shocks",
+    "source_name": "Bloomberg",
+    "category_slug": "market-macro",
+    "snippet": "South Africa's Chamber of Mines welcomes discussions over draft mining legislation but tells Bloomberg it remains wary of potential regulatory shocks that could undermine investment in one of the world's top mining jurisdictions. Mining accounts for roughly 8% of South Africa's GDP.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CHINA'S RARE EARTH GRIP Won't Loosen After Trump-Xi Summit — Supply Squeeze to Persist",
+    "url": "https://source.benchmarkminerals.com/article/china-s-rare-earth-export-controls-show-little-sign-of-easing-after-trump-xi-summit",
+    "source_name": "Benchmark Minerals",
+    "category_slug": "rare-earths",
+    "snippet": "Despite de-escalation signals from the May Trump-Xi summit, China's April 2025 heavy rare earth export controls remain fully intact with no dismantling of the licensing architecture. Benchmark Minerals expects price premiums and supply bottlenecks to persist through 2026 and likely into 2027.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "PMET Resources Launches 45,000m Summer Drill Campaign at Quebec Lithium Flagship",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/1816-tsx/pmet/203864-pmet-commences-2026-summer-fall-drill-campaign-at-the-shaakichiuwaanaan-property.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "PMET Resources (TSX: PMET, formerly Patriot Battery Metals) has kicked off a 45,000m summer–fall drill campaign at the Shaakichiuwaanaan hard rock lithium property in Quebec, running 4–8 rigs through October 2026. The program targets resource expansion ahead of feasibility work at one of North America's most closely watched hard rock lithium deposits.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
