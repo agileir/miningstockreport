@@ -1,0 +1,83 @@
+[
+  {
+    "headline": "GOLD FALLS TO TWO-MONTH LOW AT $4,380 AS US STRIKES ON IRAN STOKE INFLATION FEARS",
+    "url": "https://www.cnbc.com/amp/2026/05/28/gold-hits-two-month-low-as-us-iran-tension-stokes-inflation-fears.html",
+    "source_name": "CNBC",
+    "category_slug": "gold-silver",
+    "snippet": "Gold dropped to its lowest level since late March at $4,380/oz on May 28 as fresh U.S. strikes on Iran stoked inflation fears and pushed the dollar to a one-week high, eroding safe-haven demand from buyers of other currencies. Spot gold was down 1.7% and briefly breached $4,396 before stabilising.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "$4,400 GOLD FUELS MINING M&A SCALE RACE — Analysts See No End to 2026 Consolidation Wave",
+    "url": "https://economy.ac/news/2026/05/202605289089",
+    "source_name": "The Economy",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "With gold sustaining above $4,400 and miners generating robust free cash flow, mid-tier and senior producers are openly racing to acquire ounces through M&A — analysts say no slowdown is in sight after a string of multi-billion dollar combinations already closed in 2026, including the Equinox-Orla and Regis-Vault deals.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER HOLDS $6.40/LB: AI Data Center Boom Meets Middle East Sulfur Supply Squeeze",
+    "url": "https://www.indexbox.io/blog/copper-futures-rise-to-64-amid-us-iran-peace-talks-and-ai-demand/",
+    "source_name": "IndexBox",
+    "category_slug": "copper-base-metals",
+    "snippet": "Copper futures held at $6.40/lb on May 27 as sustained strength in AI-linked tech stocks lifted industrial demand expectations, while concerns about Middle East disruptions to sulfuric acid supply chains — nearly half of which originates from Iran, Saudi Arabia, and the UAE — added additional price support.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "Bayhorse Silver Completes Underground Drill Prep — 2,000m Program Starts June 1",
+    "url": "https://stockhouse.com/news/press-releases/2026/05/28/bayhorse-silver-underground-drilling-operations-update",
+    "source_name": "Newsfile",
+    "category_slug": "exploration-discovery",
+    "snippet": "Bayhorse Silver has finished underground drill preparations at its Oregon silver mine, with a minimum 13-hole, 2,000-metre program set to commence June 1 targeting the CR-2 IP anomaly and easterly IP zones designed to expand beyond the existing 6.3 million oz NI 43-101 inferred silver resource.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "Magna Mining Posts $6M Positive Q1 Cash Margin, Earns Conditional Promotion to TSX",
+    "url": "https://www.globenewswire.com/news-release/2026/05/27/3302417/0/en/Magna-Mining-Reports-Operating-and-Financial-Results-for-the-First-Quarter-of-2026.html",
+    "source_name": "GlobeNewsWire",
+    "category_slug": "market-macro",
+    "snippet": "Magna Mining (TSXV: NICU) posted a $6.0 million positive cash margin at its McCreedy West copper-precious metals-nickel mine in Q1 2026, processing 82,296 tonnes at 3.38% CuEq, and received conditional approval to graduate from the TSXV to the TSX main board pending final requirements by July 29.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "Newmont vs. SSR Mining: Which Gold Stock Is a Better Buy at $4,400 Gold?",
+    "url": "https://www.fool.com/coverage/better-buy/2026/05/27/newmont-vs-ssr-mining-which-gold-stock-is-a-better-buy-in-2026/",
+    "source_name": "The Motley Fool",
+    "category_slug": "opinion-analysis",
+    "snippet": "A Motley Fool analyst makes the case for SSR Mining over sector heavyweight Newmont at current gold prices, arguing the smaller producer offers faster production growth and greater upside leverage in a $4,400+ gold environment where valuation gaps between majors and mid-tiers remain unusually wide.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "USA RARE EARTH Surges 159% in 2026 — But Mine-to-Magnet Execution Risk Is Very Real",
+    "url": "https://www.fool.com/investing/2026/05/26/if-you-buy-usa-rare-earth-could-make-millionaire/",
+    "source_name": "The Motley Fool",
+    "category_slug": "rare-earths",
+    "snippet": "USA Rare Earth's Round Top deposit and Oklahoma magnet factory could make it the U.S.'s first vertically integrated rare earth producer, but the stock's 159% 2026 surge reflects both genuine strategic value and the kind of pre-revenue hype that has burned retail investors before.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GoldMining Turns First Drill at Yarumalito Gold-Copper Project in Colombia's Mid Cauca Belt",
+    "url": "https://www.prnewswire.com/news-releases/goldmining-commences-2026-exploration-drilling-program-at-its-yarumalito-gold-copper-project-colombia-302781376.html",
+    "source_name": "PR Newswire",
+    "category_slug": "exploration-discovery",
+    "snippet": "GoldMining Inc. mobilized a diamond core drill for a 1,200-metre program at its 100%-owned Yarumalito project in Colombia's prolific Mid Cauca gold-copper belt on May 26, testing high-priority targets refined through comprehensive relogging of historical drill core at a belt that hosts several multi-million-ounce deposits.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SULFURIC ACID CRUNCH HAMMERS BATTERY METAL COSTS — Nickel, Lithium Producers Squeezed as Hormuz Closes",
+    "url": "https://www.mining.com/charts-how-the-sulphuric-acid-crunch-is-driving-up-critical-minerals-costs/",
+    "source_name": "Mining.com",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Benchmark Mineral Intelligence data shows sulfur prices have surged more than 50% since the start of the Iran war, with spot sulfuric acid prices in Indonesia and Chile climbing above $380 and $440 per tonne — now representing 42% of HPAL nickel processing costs, up from 26%, and squeezing margins across lithium, cobalt, and rare earth refining globally.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
