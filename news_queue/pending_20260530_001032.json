@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "GOLD STEADY NEAR $4,540 AS APRIL INFLATION SURGE LOCKS FED OUT OF RATE-CUT PICTURE THROUGH 2027",
+    "url": "https://tradingeconomics.com/commodity/gold",
+    "source_name": "Trading Economics",
+    "category_slug": "gold-silver",
+    "snippet": "Gold recovered to $4,539/oz Friday for its second consecutive session gain. The driver this week is a tug-of-war: geopolitical support from the US-Iran ceasefire extension talks vs. April CPI coming in at the fastest pace in three years, cementing Fed inaction well into 2027. Markets are now pricing a 41% chance of a rate hike by December — an unusual headwind for gold.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "WHY AI DATA CENTERS ARE NOW COPPER'S MOST IMPORTANT DEMAND DRIVER — AND THE SUPPLY JUST ISN'T THERE",
+    "url": "https://www.benzinga.com/markets/commodities/26/05/52514784/copper-prices-hit-record-high-as-ai-data-center-boom-fuels-global-supply-crunch-pushing-cper-etf-higher",
+    "source_name": "Benzinga",
+    "category_slug": "copper-base-metals",
+    "snippet": "Copper held near $6.37/lb Friday on pace for its second straight monthly advance. While last week's Iran ceasefire sparked the surge, the structural story is AI: data center buildout requires high-purity copper for power and signal transmission, stacking on top of EV and grid electrification demand. Meanwhile Chilean smelters are cutting capacity. Copper is up 36% year-over-year.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "GALAN LITHIUM HITS COMMISSIONING MILESTONE — FIRST LITHIUM CHLORIDE PRODUCED AT ARGENTINA'S HMW PROJECT",
+    "url": "https://www.mining.com/galan-achieves-first-lithium-chloride-production-in-argentina",
+    "source_name": "Mining.com",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Galan Lithium (ASX: GLN) announced May 28 its Hombre Muerto West project in Catamarca, Argentina produced first processed lithium chloride — a key commissioning milestone. The Phase 1 plant targets 4 ktpa LCE. After a three-month evaporation cycle, lithium chloride concentrate sales are targeted for H2 2026. One of the highest-grade lithium brine projects in Argentina.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "MINERA ALAMOS GREENLIGHTS $58M COPPERSTONE UNDERGROUND GOLD MINE IN ARIZONA — FIRST POUR MID-2027",
+    "url": "https://www.miningweekly.com/article/minera-alamos-confirms-low-cost-near-term-mining-possible-at-copperstone-in-arizona-2026-05-28",
+    "source_name": "Mining Weekly",
+    "category_slug": "exploration-discovery",
+    "snippet": "Minera Alamos (TSXV: MAI) board approved fast-track construction at its past-producing Copperstone underground gold mine in Arizona on May 27. PFS shows 46,000 oz/year average production, 1.2-year payback at $3,500/oz, and an NPV of $537M at spot gold. Initial production is targeted mid-2027 — more than doubling the company's consolidated output.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SITKA GOLD DRILLS 94M @ 1.79 G/T BELOW CURRENT RESOURCE — YUKON'S BLACKJACK DEPOSIT GROWING AT DEPTH",
+    "url": "https://finance.yahoo.com/markets/commodities/articles/sitka-drills-19-3-metres-123000530.html",
+    "source_name": "Yahoo Finance",
+    "category_slug": "exploration-discovery",
+    "snippet": "Sitka Gold's (TSXV: SIG) deepest-ever hole at the RC Gold Project in Yukon returned 273.8m @ 1.1 g/t gold from 641m depth, including 94m @ 1.79 g/t and a high-grade kicker of 19.3m @ 5.04 g/t. Results extend high-grade mineralization well below the current Blackjack resource model and support the case for an underground mine alongside the existing open-pit target.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ABITIBI METALS HITS 4.04% CuEq OVER 14M AT B26 — HIGH-GRADE COPPER KEEPS COMING IN QUEBEC",
+    "url": "https://www.northernminer.com/news/discovery-silver-backed-abitibi-metals-drills-3-6-copper-at-b26-in-quebec/1003891515/",
+    "source_name": "The Northern Miner",
+    "category_slug": "exploration-discovery",
+    "snippet": "Abitibi Metals (CSE: AMQ) drilled 46.7m @ 1.33% Cu, including 14m at 3.63% Cu and 0.37 g/t Au, at the B26 polymetallic deposit in Quebec on May 27. Resource drilling is outperforming expectations. B26 is 7km from the former Selbaie mine with established regional infrastructure and posted 124% resource growth in 2025. Discovery Silver is a major backer.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SOVEREIGN METALS CONFIRMS PREMIUM HEAVY RARE EARTHS ACROSS KASIYA PITS — POTENTIAL THIRD REVENUE STREAM",
+    "url": "https://www.miningweekly.com/article/heavy-rare-earth-containing-monazite-a-potential-third-revenue-stream-for-sovereigns-kasiya-2026-05-27",
+    "source_name": "Mining Weekly",
+    "category_slug": "rare-earths",
+    "snippet": "Sovereign Metals (ASX: SVM) confirmed monazite containing dysprosium, terbium, and yttrium across four planned Kasiya pits in Malawi — including first-year production areas. The rare earth basket value is estimated at 7x the world's largest REE producers. Crucially, no changes to the mine plan are needed; monazite is recovered from material already going to tailings.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "BRITAIN'S ROYAL MINT POSTS RECORD BULLION YEAR: GOLD SALES UP 94%, SILVER SURGES 1,000%",
+    "url": "https://goldseek.com/article/british-royal-mint-reports-record-bullion-sales",
+    "source_name": "GoldSeek",
+    "category_slug": "gold-silver",
+    "snippet": "The UK Royal Mint closed its busiest-ever fiscal year with silver bullion sales up 1,000% and gold up 94%. New buyer additions hit an all-time quarterly record in Q4, with 60% of buyers entirely new to the Mint. DigiGold digital products accounted for 54% of all transactions. The scale of retail interest suggests precious metals investment is mainstreaming well beyond traditional audiences.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "QUAD NATIONS PLEDGE $20BN TO BUILD WESTERN CRITICAL MINERALS SUPPLY CHAIN INDEPENDENT OF CHINA",
+    "url": "https://www.business-standard.com/world-news/quad-foreign-ministers-unveil-critical-minerals-maritime-security-plans-126052601877_1.html",
+    "source_name": "Business Standard",
+    "category_slug": "market-macro",
+    "snippet": "The US, Japan, Australia, and India unveiled the Quad Critical Minerals Initiative Framework on May 26, pledging up to $20bn in government and private sector support for mining, processing, and recycling across the Indo-Pacific. The initiative explicitly targets reducing China's 90% global rare earth processing dominance through coordinated investment and regulatory alignment.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "COSA RESOURCES CONFIRMS 1.7% U3O8 AT MURPHY LAKE NORTH — DENISON JV DRILLS POLYMETALLIC HIT IN ATHABASCA",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/565-tsx/dml/204120-cosa-intersects-up-to-1-7-u3o8-within-interval-of-5-0-m-of-0-55-u3o8-at-murphy-lake-north-joint-venture-with-denison-mines.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "uranium-energy",
+    "snippet": "Cosa Resources confirmed chemical assays from Murphy Lake North (JV with Denison Mines) in Saskatchewan: 1.7% U3O8 over 0.5m within a 5.0m interval of 0.55% U3O8 — alongside 4.09% nickel and 1.73% cobalt. The project sits 3km east of IsoEnergy's Hurricane deposit. The largest drill program to date, a 6,000m campaign, commences mid-June.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
