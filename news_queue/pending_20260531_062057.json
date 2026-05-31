@@ -1,0 +1,65 @@
+[
+  {
+    "headline": "GOLD RECLAIMS $4,500 AFTER HITTING TWO-MONTH LOW — Iran Ceasefire Extension and Tame PCE Trigger Bounce",
+    "url": "https://fortune.com/article/current-price-of-gold-05-29-2026/",
+    "source_name": "Fortune",
+    "category_slug": "gold-silver",
+    "snippet": "Gold spot surged from a two-month low of $4,380 on May 28 to $4,524 on May 29 after the US and Iran agreed to extend their ceasefire by 60 days and April PCE inflation landed at 3.8% YoY — in line with forecasts — cooling rate-hike fears and drawing physical buyers back in. The recovery follows a brutal session where a stronger dollar and fresh geopolitical concerns had hammered the metal to its weakest since late March.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CANADA CLEARS ZIJIN'S C$5.5B ALLIED GOLD DEAL — But Closing Pushed to July 29",
+    "url": "https://www.globenewswire.com/news-release/2026/05/29/3303792/0/en/Allied-Gold-Advances-Receipt-of-Regulatory-Approvals-and-Clearances-in-Connection-with-the-Proposed-Arrangement-with-Zijin-Gold-International-and-Extends-the-Outside-Date-to-July-2.html",
+    "source_name": "GlobeNewsWire / Allied Gold",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Allied Gold (TSX: AAUC) confirmed on May 29 that it has received Investment Canada Act approval for Zijin Gold International's all-cash offer of C$44/share — a 27% premium to the 30-day VWAP — plus competition clearances from ECOWAS and COMESA. The outside closing date has been extended to July 29, 2026 while remaining conditions are satisfied. The C$5.5B deal would see Allied Gold delisted from the TSX and NYSE.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SILVER HOLDS $76/OZ AS INDUSTRIAL DEMAND NARRATIVE GAINS TRACTION — Analysts See Further Upside",
+    "url": "https://fortune.com/article/current-price-of-silver-5-29-2026/",
+    "source_name": "Fortune",
+    "category_slug": "gold-silver",
+    "snippet": "Silver spot traded at $76.43/oz on May 29, up 0.51% on the day and well ahead of its pace from a year prior. Analysts increasingly point to structural industrial demand — AI data-centre power systems, solar panel manufacturing, and EV powertrains — as drivers that differentiate silver's investment case from gold's pure monetary trade, with many expecting silver to outperform gold on a percentage basis in 2026.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER LOGS SECOND STRAIGHT MONTHLY GAIN AT $6.40/LB — AI Data Centers and Chile Supply Cuts Do the Heavy Lifting",
+    "url": "https://tradingeconomics.com/commodity/copper",
+    "source_name": "Trading Economics",
+    "category_slug": "copper-base-metals",
+    "snippet": "Copper futures held near $6.36–6.40/lb on May 29, on track for a second consecutive monthly advance (+7.32% month-over-month) after touching a record near $6.64/lb earlier in May. Structural demand from AI data-centre infrastructure buildout and major power grid electrification projects is absorbing ongoing production cutbacks from Chilean smelters, keeping the supply-demand balance tight.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "MINERA ALAMOS PULLS TRIGGER ON $58M ARIZONA GOLD MINE — Targeting 46,000 oz/yr With First Pour in Mid-2027",
+    "url": "https://secure.northernminer.com/news/alamos-greenlights-copperstone-gold-mine-in-arizona/1003891570/",
+    "source_name": "The Northern Miner",
+    "category_slug": "exploration-discovery",
+    "snippet": "Minera Alamos (TSXV: MAI) gave the green light on May 29 to restart the Copperstone underground gold mine in Arizona's Walker Lane belt, committing C$80M to a project expected to produce ~46,000 oz of gold annually over a six-year mine life. Capital is funded through existing cash, a $75M revolving credit facility, and cash flow from the company's producing Pan mine — no equity dilution required for financing.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CAMECO RESTORES FULL McARTHUR RIVER OUTPUT AFTER FLOOD — World's Premier Uranium Mine Back at Capacity",
+    "url": "https://www.businesswire.com/news/home/20260527754786/en/Cameco-Announces-McArthur-RiverKey-Lake-Operation-Resumes-Production",
+    "source_name": "Business Wire / Cameco",
+    "category_slug": "uranium-energy",
+    "snippet": "Cameco (TSX/NYSE: CCJ) announced May 27 that McArthur River and Key Lake have returned to full production activities after Saskatchewan flooding caused a partial bridge collapse on May 10, temporarily cutting the primary supply route to the sites. The company's 2026 consolidated production guidance of 19.5–21.5 million pounds U3O8 remains unchanged, reassuring uranium investors who had flagged the flood as a supply risk.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "RIO TINTO COMMISSIONS $1.5B LOW-CARBON ALUMINUM SMELTER IN QUEBEC — AP60 Tech Cuts Emissions 83% vs Industry Avg",
+    "url": "https://www.businesswire.com/news/home/20260529198550/en/Rio-Tinto-commissions-1.5-billion-AP60-smelter-expansion-in-Quebec",
+    "source_name": "Business Wire / Rio Tinto",
+    "category_slug": "market-macro",
+    "snippet": "Rio Tinto commissioned its AP60 smelter expansion at Complexe Arvida, Quebec on May 29, adding 160,000 tonnes of annual capacity at one-sixth the greenhouse gas emissions of the industry average when combined with Quebec hydropower. The C$2.1B project creates ~100 permanent jobs and signals the mining sector's broader push toward decarbonised production as ESG pressure and carbon pricing intensify.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
