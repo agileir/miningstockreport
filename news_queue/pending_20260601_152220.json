@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "IRAN FEARS DRAG GOLD DOWN 1.9% TO $4,455 — Stagflation Worries Return on June 1 Open",
+    "url": "https://www.cnbc.com/select/gold-prices-today-on-june-1-2026/",
+    "source_name": "CNBC",
+    "category_slug": "gold-silver",
+    "snippet": "Gold spot fell 1.9% to $4,455 on Monday as fresh US-Iran military tensions reignited inflation fears, pushing energy prices higher and strengthening the case for higher-for-longer rates. Despite the single-day slide, gold remains 31.75% above year-ago levels with the long-term bull market structure intact.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "TRUMP EYES FORT KNOX: Sound Money Groups Urge Gold Reserve Transparency Act After President's Audit Call",
+    "url": "https://moneymetalsexchange.medium.com/trumps-fort-knox-audit-push-rekindles-gold-reserve-questions-3286b0adb508",
+    "source_name": "Money Metals",
+    "category_slug": "market-macro",
+    "snippet": "President Trump's renewed calls to 'crack open' Fort Knox to verify $700 billion in US gold reserves have prompted sound money advocates to push the Gold Reserve Transparency Act through Congress. A full audit could take years and would raise fundamental questions about the integrity of US monetary backing.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD $4,400–$4,800 EXPECTED IN JUNE: Experts See Buyers Waiting at Support, Silver Range Even Wider",
+    "url": "https://www.cbsnews.com/news/what-will-happen-gold-silver-prices-june-2026-what-experts-expect/",
+    "source_name": "CBS News",
+    "category_slug": "gold-silver",
+    "snippet": "Analysts forecast gold trading between $4,400 and $4,800 in June with a base case of $4,650–$4,750, citing geopolitical risk and central bank buying as floor supports. Silver faces a sixth consecutive structural supply deficit but cooling investment demand creates a wide $60–$100 band with sharp moves likely in either direction.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLDEN GYRATION: May's 8.8% Price Swing Leaves Gold at a Crossroads — Inflation Still Double the Fed's Target",
+    "url": "https://goldseek.com/article/golden-gyration-irksome-inflation",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "Gold's May range ran from $4,396 to $4,810 — an 8.8% high-to-low swing — yet the month closed just 2.1% lower. With core inflation gauges averaging double the Fed's 2% target and the FOMC expected to hold at the June 17 meeting, the analysis argues gold is set up for a binary break heading into summer.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "COT WATCH: Managed Money Trims Gold Longs for Second Straight Week as June FOMC Meeting Looms",
+    "url": "https://goldseek.com/article/cot-gold-silver-usdx-report-may-29-2026",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "The Commitments of Traders report as of May 26 shows managed-money funds reducing net gold long positions for the second consecutive week, signalling caution ahead of the June 17 Federal Open Market Committee policy statement. Silver net longs and USD index positioning are also reviewed.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CHILE COPPER AT 9-YEAR LOW: April Output Drops 14% as Grade Decline Deepens Global Supply Crunch",
+    "url": "https://www.mining.com/web/chiles-copper-output-falls-14-in-april-manufacturing-also-down/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "Chile produced just 399,954 metric tons of copper in April 2026, down 13.8% year-on-year and the country's weakest monthly output in nearly a decade. Declining ore grades at major mines are compounding a global copper deficit that has driven prices 33% higher year-on-year to $6.43/lb — their highest in over two weeks.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ZIJIN CLEARS CANADA: Allied Gold Gets Investment Canada Act Approval, Outside Date Extended to July 29",
+    "url": "https://www.globenewswire.com/news-release/2026/05/29/3303792/0/en/Allied-Gold-Advances-Receipt-of-Regulatory-Approvals-and-Clearances-in-Connection-with-the-Proposed-Arrangement-with-Zijin-Gold-International-and-Extends-the-Outside-Date-to-July-2.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Allied Gold confirmed Investment Canada Act approval and ECOWAS/COMESA competition clearances for its acquisition by Zijin Gold International, with the outside date extended to July 29, 2026 pending remaining regulatory steps. The deal consolidates substantial African gold production assets under Chinese ownership.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ERIC SPROTT'S $25M HYDROGEN BET: Max Power Mining Closes Strategic Investment in Canada's First H2 Discovery",
+    "url": "https://www.globenewswire.com/news-release/2026/05/29/3303533/0/en/Max-Power-Closes-25-Million-Strategic-Investment-From-Eric-Sprott-To-Accelerate-Commercial-Evaluation-at-Lawson.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "exploration-discovery",
+    "snippet": "Max Power Mining (CSE: MAXX) closed a $25 million private placement backed entirely by Eric Sprott to advance commercial evaluation of the Lawson natural hydrogen discovery near Central Butte, Saskatchewan — confirmed by three independent labs as Canada's first subsurface natural hydrogen system. Proceeds fund follow-up drilling, seismic data, and resource modelling.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SELINSING EXPANDED: Monument Mining Completes 123-Hole Drill Program at Malaysian Gold Mine",
+    "url": "https://www.globenewswire.com/news-release/2026/05/29/3303852/0/en/Monument-s-Drill-Assay-Results-Highlight-Selinsing-Gold-Mine-Expansion-Potential.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "exploration-discovery",
+    "snippet": "Monument Mining has completed 123 drill holes covering 17,136 metres at the Buffalo Reef and Felda expansion zones of the Selinsing Gold Mine in Pahang, Malaysia. Results from 23 new holes confirm ore body extension at depth and steepening mineralized domains; remaining assays and resource model update expected by June 2026.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ALASKA GOES SOUND MONEY: State Ends All Taxes on Gold and Silver, Reaffirms Constitutional Monetary Status",
+    "url": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/alaska-ends-all-taxes-on-gold-and-silver-reaffirms-their-monetar-1171898",
+    "source_name": "AccessNewsWire",
+    "category_slug": "market-macro",
+    "snippet": "Alaska has enacted legislation prohibiting all local government sales taxes on the precious metals content of gold and silver coins, bars, and rounds, reaffirming their constitutional monetary status. The law — sponsored by Rep. Kevin McCabe and Sen. Mike Cronk — makes Alaska one of the most precious-metals-friendly jurisdictions in North America.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
