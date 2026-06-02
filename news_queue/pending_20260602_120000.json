@@ -1,0 +1,101 @@
+[
+  {
+    "headline": "ILLEGAL BLOCKADE: Orla Mining Shares Tumble 7.5% as Union Shuts Down Mexico's Camino Rojo Gold Mine",
+    "url": "https://www.mining.com/orla-halts-mexico-mine-operations-amid-worker-blockade/",
+    "source_name": "Mining.com",
+    "category_slug": "gold-silver",
+    "snippet": "Unionized workers erected an illegal blockade at Orla Mining's (TSX: OLA) Camino Rojo gold mine in Zacatecas, Mexico, halting all operations after profit-sharing negotiations broke down. The company called the stoppage illegal, shares fell 7.5% Monday, and a government-mediated hearing is set for June 2.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "1,867 G/T SILVER OVER 6 METRES: Aya Gold Posts Best-Yet Deep Exploration Results at Morocco's Zgounder Mine",
+    "url": "https://www.manilatimes.net/2026/06/02/tmt-newswire/globenewswire/aya-gold-silver-reports-high-grade-exploration-drill-results-near-pit-depth-at-zgounder/2356647",
+    "source_name": "GlobeNewsWire",
+    "category_slug": "exploration-discovery",
+    "snippet": "Aya Gold & Silver's at-depth drilling at Morocco's Zgounder Silver Mine returned 1,867 g/t Ag over 6.0m (including 5,100 g/t over 2.0m) and 739 g/t Ag over 10.0m from near-pit depths. New intercepts extend mineralization westward into fresh ground and reinforce Zgounder's long-term resource growth case.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "IAMGOLD BUMPS CÔTÉ TO 20.3 MOZ: Gosselin Zone Integration Lifts Ontario Giant's Resource 12%",
+    "url": "https://www.iamgold.com/English/investors/news-releases/news-releases-details/2026/IAMGOLD-Announces-Consolidated-Mineral-Resource-Estimate-for-Ct-Gold/default.aspx",
+    "source_name": "IAMGOLD",
+    "category_slug": "exploration-discovery",
+    "snippet": "IAMGOLD's consolidated Côté-Gosselin mineral resource estimate now stands at 20.34 million ounces M&I gold — up 12% versus December 2025 — after folding the Gosselin zone into a single block model. Inferred resources surged 61% to 3.48 Moz, underpinning an expansion technical report due Q4 2026.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD SLIPS BELOW $4,500 as Iran Closes Strait of Hormuz, Oil Spikes to $97",
+    "url": "https://goldseek.com/article/gold-price-falls-nearly-2-middle-east-tensions-escalate-again",
+    "source_name": "GoldSeek",
+    "category_slug": "gold-silver",
+    "snippet": "Spot gold fell nearly 2% to $4,455/oz after Iran reportedly suspended US negotiations and fully closed the Strait of Hormuz, sending oil to $97/barrel. The resulting inflation fears and stronger dollar pushed the rate-cut timeline further out and knocked precious metals off last week's high.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD AT THE CROSSROADS: World Gold Council Calls 200-Day MA Test a Market 'Point of Inflection'",
+    "url": "https://goldseek.com/article/weekly-markets-monitor-point-inflection",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "The World Gold Council's weekly monitor argues gold's test of its 200-day moving average is more consequential than it looks: futures net-long positioning heading into the test was neutral rather than crowded, meaning a hold signals genuine demand support — not just reluctant sellers — while a breakdown would be a true bearish signal.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "EAST TAKES THE GOLD: China's Hong Kong Imports Surge 81% as New Clearing House Prepares to Launch",
+    "url": "https://www.fxstreet.com/analysis/hong-kong-efforts-to-become-global-gold-hub-paying-dividends-202606012035",
+    "source_name": "Money Metals Exchange",
+    "category_slug": "market-macro",
+    "snippet": "Chinese gold imports through Hong Kong jumped 81.2% month-on-month in April as the city accelerates its push to become a global bullion hub. Money Metals' Mike Maharrey notes a structural shift in gold trade from West to East that long predates the current price rally and is now gaining institutional infrastructure.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "PAN AMERICAN COMMITS $146M to Sink Bell Creek Shaft Deeper and Unlock Timmins Gold Growth",
+    "url": "https://www.mining.com/pan-american-approves-146m-timmins-expansion",
+    "source_name": "Mining.com",
+    "category_slug": "gold-silver",
+    "snippet": "Pan American Silver's board approved Phase 1 of the Timmins Camp Project: a 625m Bell Creek shaft extension plus exploration drifts to the Vogel and Samson satellite deposits totalling $146 million US. The first $40–43M tranche is already in 2026 guidance, with mill capacity currently running 1,200 t/d under nameplate.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER SURGES TO $6.56/LB as Chile Posts Weakest Output in 23 Years and US Tariff Clock Ticks",
+    "url": "https://www.mining.com/copper-prices-hit-yet-another-record-on-supply-and-tariff-fears/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "Copper futures climbed to $6.56/lb — a multi-week high — after Chile's April production hit a 23-year low and AI datacenter buildout boosted demand projections by 110,000 additional tonnes this year. A US Commerce Department recommendation on 15–30% refined copper tariffs is due June 30.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "NUCLEAR GOLD RUSH: Meta Locks In 7.8 GW of Nuclear as Uranium Spot Holds Above $85/lb",
+    "url": "https://carboncredits.com/uranium-prices-today/",
+    "source_name": "Carbon Credits",
+    "category_slug": "uranium-energy",
+    "snippet": "Uranium spot settled at $85.08/lb as tech-giant nuclear procurement accelerates: Meta signed agreements for 7.8 gigawatts of nuclear capacity and Microsoft locked in 800+ megawatts for AI datacenters. Cameco's president says utility uncovered requirements have 'never been bigger,' keeping the long-term market structurally tight.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "NORTHERN STAR SURGES 12.4% to 52-Week High on Pogo Mine and Western Australia Gold Drilling",
+    "url": "https://www.ibtimes.com.au/asx-200-gains-resource-tech-stocks-surge-1869951",
+    "source_name": "International Business Times AU",
+    "category_slug": "gold-silver",
+    "snippet": "Northern Star Resources (ASX: NST) led ASX 200 gainers on June 2 after releasing positive drill intercepts from its Pogo gold mine in Alaska and its Western Australian operations. The stock hit a new 52-week high as analysts noted results exceeded expectations and reinforce NST's organic growth pipeline.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "DRILL RODS IN GROUND: Yukon Metals Breaks Ground on 5,000-Metre Copper-Gold Program at AZ and Birch",
+    "url": "https://www.globenewswire.com/news-release/2026/06/01/3304182/0/en/Yukon-Metals-Breaks-Ground-on-5-000-Metre-Drill-Program-at-AZ-and-Birch.html",
+    "source_name": "GlobeNewsWire",
+    "category_slug": "exploration-discovery",
+    "snippet": "Yukon Metals began diamond drilling at its AZ and Birch copper-gold properties in Yukon's prolific mining corridor on May 28, with the first core already produced at AZ. The program targets ~2,000m at AZ and ~3,000m at Birch, with results expected through the summer field season.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
