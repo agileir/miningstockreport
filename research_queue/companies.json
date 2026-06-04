@@ -1,0 +1,18 @@
+[
+  {
+    "ticker": "AWCM",
+    "name": "Ameriwest Critical Metals Inc.",
+    "exchange": "OTHER",
+    "website": "https://ameriwestcriticalmetals.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Oregon"
+  },
+  {
+    "ticker": "AMX",
+    "name": "Amex Exploration Inc.",
+    "exchange": "TSXV",
+    "website": "https://www.amexexploration.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Quebec, Canada"
+  }
+]
