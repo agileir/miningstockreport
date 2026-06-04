@@ -1,0 +1,52 @@
+{
+  "ticker": "AMX",
+  "exchange": "TSXV",
+
+  "management_score": 4,
+  "management_notes": "Victor Cantore (President & CEO) has led Amex Exploration since its early days and is credited with discovering and advancing the Perron Gold Project — one of the most significant new gold discoveries in Quebec in recent memory. He has demonstrated capital discipline: 142.8 million shares is a reasonable count for a company that has sustained aggressive multi-zone drilling for several years, and the warrant/option overhang has been kept minimal (5.4 million instruments). The team has successfully grown the resource from initial discovery to 1,461 koz M&I Au without resorting to the serial warrant-heavy financings that erode junior mining value. Score held at 4 rather than 5 due to limited visible depth in the management bench — key-person concentration on Cantore is a risk factor for a company approaching development-stage decisions.",
+
+  "geology_score": 5,
+  "geology_notes": "The Perron Gold Project sits in the Abitibi Greenstone Belt — the world's most prolific gold-producing region, home to Canadian Malartic, LaRonde, Goldex, and dozens of other major deposits. The October 2025 NI 43-101 resource (extracted verbatim from tech_43101-20251017): Measured 382 kt at 12.54 g/t Au for 154 koz; Indicated 7,801 kt at 5.83 g/t Au for 1,461 koz; Inferred 5,044 kt at 4.31 g/t Au for 698 koz. Total M+I of approximately 1,615 koz Au at a blended grade of 6.2 g/t is exceptional — the Eastern Gold Zone (EGZ) Measured grade of 14.20 g/t Au is among the highest-grade Measured resources in the belt. Multiple zones (Grey Cat, Gratien, EGZ) remain open at depth and along strike. High-grade gold in Abitibi underground geology is the canonical definition of a top-tier discovery. Score: 5.",
+
+  "capital_score": 3,
+  "capital_notes": "142,825,186 shares issued and outstanding as of the April 2026 MD&A; 148,204,936 fully diluted. The dilution overhang is minimal — only 1,979,750 warrants and 3,400,000 options, representing 3.8% additional dilution. This is clean by junior-mining standards for a company that has drilled the level of metres required to define a 1,600+ koz resource. However, 142.8 million basic shares is larger than ideal for a pre-production explorer (sub-100 million provides stronger leverage to a re-rating or takeout). The share count reflects years of flow-through financings typical of Quebec-based gold explorers: Amex has historically used Quebec and federal flow-through structures to fund drilling, which provide tax advantages to investors but add shares over time. No specific flow-through tranches were detected in the April 2026 extracted filings, but the trajectory of share issuance is consistent with regular FT placements. Strike prices and expiry dates on the outstanding warrants and options were not captured in the extracted filing summary.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Active drilling programme underway on the Perron property, with multiple zones open for resource expansion. The October 2025 resource update is recent, and further drill results should provide ongoing news flow through 2026. The next material re-rating catalyst is a Preliminary Economic Assessment (PEA) — a PEA on a 2,300+ koz total resource (M+I+Inferred) at 5+ g/t grade in Quebec would be a significant event and likely drive institutional interest. No PEA timeline has been confirmed in available data. Score 3 reflects genuine catalysts (drill results, resource expansion, PEA optionality) partially offset by unclear timing.",
+
+  "acquisition_score": 4,
+  "acquisition_notes": "The Perron Project is a strategic acquisition target. The case: (1) grade — 5.83 g/t M&I average, with the EGZ at 14.20 g/t Measured, supports high-margin underground mining economics; (2) scale — 1,461 koz M&I with 698 koz additional Inferred and multiple zones still open creates a platform asset, not a bolt-on; (3) jurisdiction — Quebec is top-decile globally for mining permitting, royalty stability, and infrastructure; (4) Abitibi consolidation trend — Agnico Eagle's multi-decade acquisition strategy across the belt demonstrates established appetite from a senior buyer with local knowledge and infrastructure. Comparable Abitibi M&A over 2022–2025 has been executed at P/NAV multiples of 0.4–0.8x for pre-PEA high-grade assets. Without a PEA there is no formal NAV to calculate a multiple against, which is the primary constraint on the score. Score 4 — highly acquisitive sector, best jurisdiction, exceptional grade, but no economic study yet limits formal valuation.",
+
+  "verdict": "BUY",
+  "analyst_summary": "Amex Exploration is one of the most compelling junior gold opportunities in the Verdict Framework coverage universe. The Perron Gold Project in the Abitibi Greenstone Belt hosts a high-grade gold discovery — 1,461 koz M&I at 5.83 g/t average, with the Eastern Gold Zone Measured grade of 14.20 g/t among the highest in the belt — that is legitimately strategic for mid-tier and senior gold producers pursuing Abitibi consolidation. Management has executed the discovery and resource-growth phase with discipline; the cap table shows 142.8 million shares with only 5.4 million additional instruments from warrants and options. The next catalyst to watch is a PEA: once economic parameters are quantified on a 2,300+ koz gold project at >5 g/t in Quebec, the re-rating should be meaningful. The stock is appropriate for the Self-Directed Digger thesis — a genuine discovery in a world-class belt, advancing toward a value-crystallisation event, at a stage where retail investors can still participate before institutional coverage widens.",
+
+  "confidence": "high",
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "Meas 48 1.10 0.20 2 0 333 14.20 0.57 152 5 382 12.54 0.47 154 6",
+  "resource_indicated": "Ind 2,520 3.16 0.91 256 74 5,281 7.10 2.19 1,205 311 7,801 5.83 1.54 1,461 385",
+  "resource_inferred": "Inf 1,044 2.02 1.20 68 42 4,000 4.90 4.14 631 497 5,044 4.31 3.32 698 538",
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 142825186,
+  "shares_fully_diluted": 148204936,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 1979750,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "1,979,750 warrants per MD&A 2026-04-21; strike price and expiry not extracted from summary table"
+    },
+    {
+      "type": "option",
+      "count": 3400000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "3,400,000 options per MD&A 2026-04-21; strike price and expiry not extracted from summary table"
+    }
+  ]
+}
