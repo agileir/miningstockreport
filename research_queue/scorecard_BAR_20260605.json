@@ -1,0 +1,37 @@
+{
+  "ticker": "BAR",
+  "exchange": "OTHER",
+
+  "management_score": 2,
+  "management_notes": "Insufficient public information to assess management track record or insider ownership for Barranco Gold Mining Corp. The company's limited profile and non-standard exchange listing make background verification difficult. Score reflects unknown pedigree rather than a known negative.",
+
+  "geology_score": 1,
+  "geology_notes": "British Columbia is a proven gold-mining jurisdiction with strong geological potential. However, no resource or reserve estimate was found in the November 2024 NI 43-101 technical report. Without a compliant resource estimate there is no basis to score the geology above minimum. If the company is at a pre-resource exploration stage, a score improvement will require a maiden resource statement.",
+
+  "capital_score": 4,
+  "capital_notes": "30,687,008 shares issued and outstanding; fully diluted count is identical — the filing explicitly records nil options and nil warrants. This is an exceptionally clean capital structure with zero dilution overhang. No flow-through financing was detected in filings. The low absolute share count combined with zero warrants/options is a positive structural attribute, though it may also reflect very limited financing activity to date.",
+
+  "catalyst_score": 2,
+  "catalyst_notes": "No visible near-term catalysts. Without a current resource estimate, the standard junior mining catalyst progression (resource drill → maiden estimate → PEA → feasibility) has not yet started in earnest. Exploration results from BC gold targets could be a positive catalyst if a material intersection is announced, but no drill program details are publicly visible.",
+
+  "acquisition_score": 1,
+  "acquisition_notes": "No resource estimate means no P/NAV comparison is possible. There is insufficient data to assess what a strategic or financial acquirer would pay for the underlying project. Score reflects inability to value rather than a known negative outcome.",
+
+  "verdict": "AVOID",
+  "analyst_summary": "Barranco Gold Mining Corp. is at too early a stage to recommend to retail investors. BC is good geological ground, and the nil-dilution capital structure is genuinely unusual and positive. But without a NI 43-101 resource estimate, there is nothing to hang a valuation on, and the non-standard exchange listing limits liquidity and price discovery. The Verdict Framework cannot give this a BUY or WATCH without a defined resource. Revisit when a maiden resource estimate is published. Confidence is low due to limited public information and absence of resource data in filings.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 30687008,
+  "shares_fully_diluted": 30687008,
+
+  "share_instruments": []
+}
