@@ -1,0 +1,26 @@
+[
+  {
+    "ticker": "AAUC",
+    "name": "Allied Gold Corporation",
+    "exchange": "TSX",
+    "website": "https://alliedgold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Mali"
+  },
+  {
+    "ticker": "ARIS",
+    "name": "Aris Mining Corporation",
+    "exchange": "TSX",
+    "website": "https://aris-mining.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "Colombia"
+  },
+  {
+    "ticker": "BAR",
+    "name": "Barranco Gold Mining Corp.",
+    "exchange": "OTHER",
+    "website": "https://barrancogold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "British Columbia"
+  }
+]
