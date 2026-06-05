@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "NORTHERN STAR Doubles Alaska Gold Hoard: Pogo Mine Hits 9.3Moz — Reserves Jump 10% to 2.39Moz",
+    "url": "https://www.miningnewsnorth.com/story/2026/06/05/news-nuggets/northern-star-doubles-pogo-mine-resources/9705.html",
+    "source_name": "North of 60 Mining News",
+    "category_slug": "exploration-discovery",
+    "snippet": "Northern Star (ASX:NST) released a sweeping resource update showing its Pogo mine in Alaska now hosts 9.3 million oz of gold at 7.6 g/t — more than doubling measured, indicated, and inferred tonnage year-over-year. Proven and probable reserves rose 10% to 2.39Moz at 6.7 g/t, driven by the maiden Star deposit and deep drilling at South Pogo and East Deeps. NST shares surged 8% on the initial ASX announcement.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER STUMBLES Below $14,000 as Traders Brace for June 30 US Tariff Decision",
+    "url": "https://invezz.com/news/2026/06/04/copper-slips-below-14000-as-tariff-fears-rattle-the-market/",
+    "source_name": "Invezz",
+    "category_slug": "copper-base-metals",
+    "snippet": "LME copper fell through $14,000/t on June 4 as investors de-risked ahead of the June 30 deadline when the US Commerce Secretary must deliver a refined copper tariff recommendation to President Trump. Goldman Sachs' base case is a 25%+ duty starting 2027; US monthly copper import volumes had already surged to 150,000–200,000 tonnes during the pre-tariff arbitrage window.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "USA RARE EARTH Locks In $1.6B in Federal Funds — $3.5B War Chest for Mine-to-Magnet Build-Out",
+    "url": "https://www.globenewswire.com/news-release/2026/06/03/3306022/0/en/USA-Rare-Earth-Finalizes-Definitive-Agreements-with-U-S-Department-of-Commerce-Unlocking-Access-to-Up-to-1-6-Billion-to-Advance-the-Leading-Rare-Earth-Value-Chain.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "rare-earths",
+    "snippet": "USA Rare Earth (Nasdaq: USAR) executed definitive CHIPS Act agreements with the US Department of Commerce, unlocking $277M in federal grants and up to $1.3B in senior secured loans tied to project milestones. Combined with January's $1.5B private raise, total committed capital reaches $3.5B to fund Round Top Mountain mining and magnet plants in Oklahoma and South Carolina.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD OVERTAKES US TREASURIES as World's Top Reserve Asset — ECB Confirms Historic Shift",
+    "url": "https://www.mining.com/gold-overtakes-us-treasuries-in-global-reserve-shift-ecb/",
+    "source_name": "Mining.com",
+    "category_slug": "gold-silver",
+    "snippet": "The European Central Bank's annual reserve report confirmed gold now accounts for 27% of global official reserves, overtaking US Treasuries at 22% for the first time. Sustained buying by China, Poland, Turkey, and India reshaped reserve portfolios over the past two years, while gold's price surge amplified its share by market value.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CENTRAL BANKS Flip Back to Gold in April: Poland and China Drive 17-Tonne Net Purchase",
+    "url": "https://www.gold.org/goldhub/gold-focus/2026/06/central-bank-gold-statistics-central-banks-resume-net-buying-april",
+    "source_name": "World Gold Council",
+    "category_slug": "gold-silver",
+    "snippet": "After a rare net-selling month in March, central banks returned to net purchases in April, buying 17 tonnes in aggregate. Poland led with 14 tonnes (YTD: 45t, now 30% of total reserves), while China added 8 tonnes — its largest single-month purchase since December 2024.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "URANIUM JUMPS 3.5% to $86/lb as Meta, Microsoft Race to Lock In Nuclear Capacity for AI",
+    "url": "https://carboncredits.com/uranium-prices-today/",
+    "source_name": "Carbon Credits",
+    "category_slug": "uranium-energy",
+    "snippet": "Uranium spot climbed to $86.25/lb on June 3, up 3.48%, as Big Tech's nuclear buildout added fresh demand momentum. Meta contracted for up to 7.8 GW of nuclear capacity for AI datacenter operations; Microsoft secured over 800 MW. Analysts flag a widening structural supply deficit with the forward curve pricing well above current spot.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "MINERAL RESOURCES Exits Manitoba Lithium JV — New Age Metals Regains Full Portfolio Control",
+    "url": "https://investingnews.com/new-age-metals-to-regain-full-control-of-southeastern-manitoba-lithium-cesium-tantalum-portfolio/",
+    "source_name": "InvestingNews.com",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "New Age Metals (TSXV:NAM) and its subsidiary Lithium Canada Development terminated their 2022 farm-in and JV agreement with Mineral Resources Limited (ASX:MIN), allowing NAM to regain 100% of its southeastern Manitoba lithium-cesium-tantalum portfolio. The exit by one of Australia's major lithium producers signals continued caution among majors on early-stage spodumene projects.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CORRECTION FINALLY ARRIVES: GoldSeek Sees Hawkish Fed Chair Fears Rattling Gold and Silver",
+    "url": "https://goldseek.com/article/gold-silver-correction-finally-arrives",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "GoldSeek's June 4 commentary ties gold and silver's latest leg lower to market unease over a potentially hawkish Fed chair nomination, noting gold shed nearly 4.6% in two weeks while silver retreated just 1% — a divergence the author views as bullish for silver. Technical support at current levels and the gold-silver ratio suggest the correction may be setting up a buy.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD RANGE-BOUND at $4,450: Iran Conflict Pits Safe-Haven Demand Against Rate-Hike Risk",
+    "url": "https://finance.yahoo.com/markets/commodities/articles/why-gold-stuck-neutral-190002077.html",
+    "source_name": "Yahoo Finance",
+    "category_slug": "market-macro",
+    "snippet": "Gold has traded a narrow $4,396–$4,917 range since late March, paralysed by competing forces: safe-haven demand from the US-Iran conflict offset by oil-price-driven inflation that keeps the Fed from cutting rates — and raises odds of a hike. Analysts now see $4,500 hardening into the new long-term support floor.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "3,030 g/t GOLD: Graycliff's Shakespeare Project, Ontario Delivers High-Grade Shock",
+    "url": "https://investingnews.com/graycliff-receives-drill-results-up-to-3030-g-t-gold-over-1-0-metre-at-shakespeare-gold-project-ontario/",
+    "source_name": "InvestingNews.com",
+    "category_slug": "exploration-discovery",
+    "snippet": "Graycliff Exploration (TSXV:GRYCF) returned 3,030 g/t gold over 1.0m from the first metallurgical test hole at its Shakespeare gold project, 84 km west of Sudbury, Ontario. Additional intercepts included 454 g/t gold over 7 metres. Company chair James Macintosh called the result \"well beyond expectations.\"",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
