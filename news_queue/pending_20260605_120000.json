@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "GOLD SLIPS TO $4,452: Weekly Loss Looms as Iran Ceasefire Collapses, Fed Rate Hike Odds Hit 51%",
+    "url": "https://www.cnbc.com/amp/2026/06/05/gold-slips-set-for-weekly-loss-on-mideast-tensions-rate-hike-fears.html",
+    "source_name": "CNBC",
+    "category_slug": "gold-silver",
+    "snippet": "Gold fell to around $4,452/oz Friday, heading for a weekly decline of roughly 2% as Hezbollah rejected a Lebanon ceasefire and Israel refused troop withdrawal, crushing U.S.-Iran peace hopes. Markets now price a 51% chance of a Fed rate hike by December, pressuring the non-yielding metal.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER RETREATS TO $6.42/LB: Section 232 Decision on Refined Metal Tariffs Due June 30 Rattles Market",
+    "url": "https://www.bloomberg.com/news/articles/2026-06-03/trump-tweaks-copper-tariff-rules-ahead-of-refined-metal-review",
+    "source_name": "Bloomberg",
+    "category_slug": "copper-base-metals",
+    "snippet": "Copper fell 1.47% to $6.42/lb Friday as tight monetary policy expectations weighed on industrial metals. Trump adjusted Section 232 rules June 1, lowering the domestic-content threshold for preferential tariff treatment from 95% to 85%, while the Commerce Secretary faces a June 30 deadline to recommend tariffs on refined copper cathode imports.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "USA RARE EARTH LOCKS IN $1.6 BILLION: CHIPS Act Finalizes Mine-to-Magnet Supply Chain Funding",
+    "url": "https://www.globenewswire.com/news-release/2026/06/03/3306022/0/en/USA-Rare-Earth-Finalizes-Definitive-Agreements-with-U-S-Department-of-Commerce-Unlocking-Access-to-Up-to-1-6-Billion-to-Advance-the-Leading-Rare-Earth-Value-Chain.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "rare-earths",
+    "snippet": "USA Rare Earth (Nasdaq: USAR) signed definitive agreements with the U.S. Department of Commerce on June 3, unlocking up to $277 million in federal grants and $1.3 billion in senior secured loans under the CHIPS Act. Funding backs USAR's full mine-to-magnet strategy from its Round Top, Texas deposit through a new South Carolina rare earth magnet plant.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "ISS BACKS G2/GMIN GOLD DEAL: Proxy Giant Recommends FOR Vote Ahead of June 16 Special Meeting",
+    "url": "https://www.globenewswire.com/news-release/2026/06/04/3306610/0/en/Leading-Independent-Proxy-Advisory-Firm-Recommends-G2-Goldfields-Shareholders-Vote-FOR-the-Arrangement-With-G-Mining.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Institutional Shareholder Services (ISS) recommended G2 Goldfields (TSX: GTWO) shareholders vote in favour of the G Mining Ventures acquisition and G3 Goldfields spin-out, calling the strategic logic sound and noting the deal delivers implied value not seen by G2 shareholders since 2011. Proxy deadline is June 12, shareholder vote June 16.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "RUSSIA'S THIRD TRY: $1.88B Uzhuralzoloto Stake Goes Back to Auction, Bids Due June 9",
+    "url": "https://www.mining.com/web/russia-launches-repeat-auction-of-stake-it-seized-in-gold-miner-ugc",
+    "source_name": "Mining.com",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Russia launched its third attempt to sell the 67.2% stake it seized from tycoon Konstantin Strukov in gold producer Uzhuralzoloto, with a $1.88 billion starting price and bids open until June 9. Two prior auctions failed to attract qualified bidders; the Kremlin needs the proceeds to ease budget pressure.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "DOE BETS $134 MILLION on Rare Earths From Waste: Louisiana Bauxite and Oklahoma Industrial Projects Win",
+    "url": "https://www.usnews.com/news/top-news/articles/2026-06-02/us-picks-louisiana-oklahoma-rare-earth-projects-for-134-million-funding",
+    "source_name": "US News",
+    "category_slug": "rare-earths",
+    "snippet": "The Department of Energy selected two waste-stream REE projects for $134 million: Colorado School of Mines and ElementUSA in Louisiana (bauxite tailings targeting 150–1,000 MT/year of mixed rare earths) and Phoenix Tailings in Oklahoma (industrial waste feedstocks targeting domestically produced heavy rare earth metals). Both aim to cut dependence on Chinese supply chains.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "HIGH-GRADE COPPER-GOLD ACROSS FIVE ZONES: Selkirk Copper Wraps Phase 1 at Yukon's Minto Project",
+    "url": "https://www.webdisclosure.com/press-release/selkirk-coppers-final-phase-1-drill-program-results-deliver-high-grade-mineralization-intersected-across-five-target-areas-and-rapid-progress-on-the-phase-2-drill-program-eyc4Rjkcn1D",
+    "source_name": "Selkirk Copper Mines",
+    "category_slug": "exploration-discovery",
+    "snippet": "Selkirk Copper Mines (TSXV: SCMI) released final results from its Phase 1 drill program at the Minto copper-gold project in Yukon, confirming high-grade mineralization across five target areas. Phase 2 drilling is already underway at a project with historical intercepts of 3.52% Cu, 3.51 g/t Au, and 17.04 g/t Ag over 16.7 metres at the Minto East zone.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "VISIBLE GOLD IN FIRST TWO HOLES at Timmins: Metals Creek Opens Ogden Project on a High Note",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/795-tsx-venture/mek/204833-metals-creek-sees-encouraging-visuals-in-first-two-drill-holes-at-the-ogden-gold-project.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "Metals Creek Resources (TSXV: MEK) confirmed visible gold (VG) in the first two drill holes at the Ogden Gold Project in the Timmins camp, Ontario. Assay results are pending, but hitting visible gold early in a new Timmins target is a strong first indicator for a district known for world-class deposits.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLDSEEK: Gold Targeting $5,000 in Q4, Copper Flipping to Deficit, Silver Enters Year Six of Supply Shortfall",
+    "url": "https://goldseek.com/article/asian-metals-market-update-2nd-june-2026",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "GoldSeek's June 2 Asian Metals update lays out a sustained bull case: gold pushing toward $5,000/oz by Q4 on central bank and investor demand averaging 585 tonnes per quarter, copper expected to flip into significant structural deficit this year as electrification buildout outpaces new mine supply, and silver entering its sixth consecutive year of industrial-demand-driven supply shortfall.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "URANIUM ETFs UP 89% IN A YEAR: AI Hyperscalers Lock In Nuclear Power Deals as Structural Deficit Builds",
+    "url": "https://247wallst.com/investing/2026/06/01/load-up-on-nuclear-before-the-data-center-energy-race-accelerates-these-3-etfs-cover-reactors-uranium-and-smart-grid/",
+    "source_name": "24/7 Wall St.",
+    "category_slug": "uranium-energy",
+    "snippet": "The Sprott Uranium Miners ETF (URNM) is up 89% over the past year as Microsoft, Amazon, and Google sign direct nuclear power purchase agreements to secure round-the-clock baseload electricity for AI data centers. The DOE projects data centers will consume 12% of U.S. electricity by 2028, making nuclear the preferred zero-carbon solution for hyperscale infrastructure.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
