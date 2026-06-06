@@ -1,0 +1,26 @@
+[
+  {
+    "ticker": "BATX",
+    "name": "Battery X Metals Inc.",
+    "exchange": "OTHER",
+    "website": "https://www.batteryxmetals.com",
+    "primary_commodity": "Lithium",
+    "jurisdiction": "Saskatchewan"
+  },
+  {
+    "ticker": "CS",
+    "name": "Capstone Copper Corp.",
+    "exchange": "TSX",
+    "website": "https://capstonecopper.com",
+    "primary_commodity": "Copper",
+    "jurisdiction": "Chile"
+  },
+  {
+    "ticker": "CG",
+    "name": "Centerra Gold Inc.",
+    "exchange": "TSX",
+    "website": "https://www.centerragold.com",
+    "primary_commodity": "Gold",
+    "jurisdiction": "British Columbia"
+  }
+]
