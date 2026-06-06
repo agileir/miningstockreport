@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "GOLD ERASES ALL 2026 GAINS — DROPS BELOW $4,370 AS MAY JOBS SHOCK SENDS FED RATE BETS SOARING",
+    "url": "https://www.bullionvault.com/gold-news/gold-price-news/gold-fed-rates-jobs-060520261",
+    "source_name": "BullionVault",
+    "category_slug": "gold-silver",
+    "snippet": "Gold fell to its lowest level of 2026 — below $4,370/oz and down nearly 4% for the week — after the May nonfarm payrolls report showed 172,000 jobs added, more than double the 85,000 forecast, driving bets on a Federal Reserve rate hike by year-end. Silver also sank 4% for the week and shed a further $1.90/oz in spot trading, wiping out the precious metals complex's earlier 2026 gains.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER SLIDES 1.47% TO $6.42/LB ON JUNE 5 AS JOBS SHOCK HAMMERS THE ENTIRE METALS COMPLEX",
+    "url": "https://www.mining.com/commodity/copper/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "Copper fell to $6.42 per pound on June 5, a 1.47% daily loss, as the stronger-than-expected US jobs report boosted the dollar and reset Fed rate expectations across all commodity markets. Despite the pullback, copper remains up more than 33% year-over-year, underpinned by structural demand from data centres and the global energy transition.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "RIGS TURNING IN THE YUKON: JUNIOR LAUNCHES 5,000-METRE COPPER-GOLD EXPEDITION IN TOMBSTONE GOLD BELT",
+    "url": "https://www.globenewswire.com/news-release/2026/06/04/3306599/0/en/Rigs-Are-Turning-on-a-5-000-Metre-Expedition-for-Yukon-Copper-Gold.html",
+    "source_name": "GlobeNewsWire",
+    "category_slug": "exploration-discovery",
+    "snippet": "A TSX-V-listed junior mobilised drill rigs on June 4 to begin a 5,000-metre copper-gold campaign in the Yukon's prolific Tombstone Gold Belt — the same district that saw major consolidation activity earlier this year. The programme tests district-scale targets on a newly assembled claim block.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "DPM METALS DRILLS 713 METRES AT 2.52 g/t AuEq IN MAJOR PORPHYRY DISCOVERY ADJACENT TO CHELOPECH MINE",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/1109-tsx/dpm/204717-dpm-metals-announces-discovery-of-high-grade-porphyry-mineralization-adjacent-to-chelopech-mine-results-include-713-metres-at-2-52-g-t-aueq-comprising-of-1-31-g-t-au-and-1-16-cu.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "Dundee Precious Metals (TSX: DPM) announced a significant new porphyry gold-copper discovery at the Brevene South target in Bulgaria, adjacent to the producing Chelopech mine, with initial drilling returning 713 metres at 2.52 g/t AuEq — including 398 metres at 3.00 g/t AuEq. Five rigs are committed to a 15,000-metre follow-up programme running through year-end.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CHINA RARE EARTH PRICES SURGE 45% IN Q2 2026 — SEVENTH STRAIGHT QUARTERLY GAIN, BIGGEST JUMP SINCE 2023",
+    "url": "https://www.canadianminingreport.com/blog/rare-earth-stocks-to-watch-after-china-s-45-price-increase",
+    "source_name": "Canadian Mining Report",
+    "category_slug": "rare-earths",
+    "snippet": "Chinese rare earth prices rose 45% in Q2 2026, the seventh consecutive quarterly increase and the sharpest single-quarter move since 2023, as Beijing's export quota restrictions threaten to displace up to 13,000 tonnes of annual demand toward Western producers. The surge has moved rare earth juniors on TSX-V and ASX sharply back into investor focus.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CHINA IMPORTING 790+ TONNES OF SILVER — STRATEGIC RECLASSIFICATION FUELS INDUSTRIAL HOARDING AT RECORD PACE",
+    "url": "https://goldseek.com/article/gold-swot-silver-demand-remains-strong-china-importing-790-tons-early-2026",
+    "source_name": "GoldSeek",
+    "category_slug": "gold-silver",
+    "snippet": "China imported more than 790 tonnes of silver in early 2026 following Beijing's January 1 reclassification of the metal as a strategic material, with solar-panel manufacturing and electronics driving industrial consumption to record levels. The demand surge deepens what analysts project as silver's sixth consecutive annual structural supply deficit, with a shortfall of roughly 67 million ounces projected for the year.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ENERGY STORAGE TO DRIVE LITHIUM DEMAND 55% HIGHER IN 2026 AS GRID BATTERIES OVERTAKE EVs AS TOP GROWTH ENGINE",
+    "url": "https://www.mining.com/web/energy-storage-boom-strengthens-demand-outlook-for-beaten-down-lithium/",
+    "source_name": "Mining.com",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Broker Guotai Junan forecasts lithium demand from grid-scale energy storage will account for 31% of total consumption in 2026, up from 23% in 2025 — a 55% year-over-year volume jump that for the first time outpaces EV demand as a growth driver. Analysts see the shift as a potential price-floor catalyst for beaten-down lithium even as global mine supply continues to expand.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLDMAN HOLDS $5,400 GOLD TARGET AFTER JOBS SHOCK — BUT IS THE $6,000 CALL STILL ALIVE?",
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-outlook-will-6000-happen-this-year-150000453.html",
+    "source_name": "Yahoo Finance",
+    "category_slug": "opinion-analysis",
+    "snippet": "Goldman Sachs reaffirmed its $5,400/oz year-end gold target even as Friday's payroll surprise sent bullion below $4,370, while J.P. Morgan maintained conviction that demand has sufficient firepower to push toward $6,000-$6,300 by year-end. Both banks argue that macro regime uncertainty, central bank buying, and de-dollarisation flows provide a structural floor beneath any rate-driven correction.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "EXPERTS SEE GOLD IN $4,300-$4,725 RANGE FOR JUNE — FRIDAY'S JOB-DATA DIP CALLED A BUYING WINDOW",
+    "url": "https://www.cbsnews.com/news/what-will-happen-gold-silver-prices-june-2026-what-experts-expect/",
+    "source_name": "CBS News",
+    "category_slug": "opinion-analysis",
+    "snippet": "Financial analysts surveyed by CBS News forecast gold will trade in a $4,300-$4,725 range through June, with the month's strong payroll surprise now defining the lower bound of that corridor. Silver's persistent supply deficit and ongoing Chinese strategic accumulation are cited as structural supports limiting downside for retail investors holding physical positions.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD MINERS PRIMED TO OUTPERFORM BULLION IN 2026 FOR FIRST TIME IN YEARS — RECORD MARGINS FORCE A RE-RATING",
+    "url": "https://www.canadianminingreport.com/blog/top-analysts-believe-gold-mining-stocks-could-outperform-gold-in-2026",
+    "source_name": "Canadian Mining Report",
+    "category_slug": "opinion-analysis",
+    "snippet": "Top equity analysts argue that TSX-listed and Canadian gold mining stocks are entering a period of genuine outperformance after years of lagging bullion, as record free cash flow margins, accelerating sector M&A, and a structural gold bull market create the conditions for a long-overdue valuation re-rating. Any jobs-driven dip in the gold price may paradoxically accelerate the rotation into undervalued miners.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
