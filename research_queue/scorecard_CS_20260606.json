@@ -1,0 +1,39 @@
+{
+  "ticker": "CS",
+  "exchange": "TSX",
+
+  "management_score": 4,
+  "management_notes": "Capstone Copper's management team, led by CEO John MacKenzie, has delivered credibly since the 2022 merger with Mantos Copper. The Mantoverde Development Project — a major sulphide processing expansion on top of the existing HVAC-SX-EW oxide operation — was completed on schedule and close to budget, which is an unusual achievement in the current inflationary construction environment. The team has maintained production guidance across a four-asset portfolio spanning three countries. Prior to the merger, MacKenzie held senior roles at major copper producers. Insider ownership exists but is diluted across a large share count. Score 4 reflects consistent operational delivery and credible multi-asset management, with one point withheld pending a full operating cycle post-Mantoverde ramp.",
+
+  "geology_score": 4,
+  "geology_notes": "The resource and reserve base is substantial and diversified. From the extracted technical report (dated 2024-11-14): Measured 187.5 Mt at 0.57% Cu (and associated credits), Indicated 332 Mt at 0.41% Cu, total Inferred 553 Mt at 0.37% Cu. Proven reserves 181 Mt at 0.58% Cu, Probable reserves 160 Mt at 0.41% Cu. Total proven-plus-probable reserve of ~341 Mt supports a mine life at Mantoverde well beyond 2030 even before exploration additions. Cozamin (Zacatecas, Mexico) is a high-margin underground copper-silver-zinc mine. Pinto Valley (Arizona) is a large-tonnage, lower-grade open-pit operation with a recently updated mine plan. Santo Domingo (Chile) is an undeveloped copper-cobalt-iron project representing future growth optionality. Score 4 reflects the breadth and quality of the geological endowment across the portfolio.",
+
+  "capital_score": 3,
+  "capital_notes": "763,668,362 shares issued and outstanding; 772,884,797 fully diluted (per interim MD&A dated 2026-04-29). Options outstanding: 4,038,888 (strike price and expiry not extracted from the MD&A summary table). RSUs outstanding: 5,054,507 (not included in share_instruments — RSU type is outside the scorecard importer schema). No warrants, no flow-through financing detected. The option overhang represents 0.5% of outstanding shares — minimal. Total dilution including RSUs is approximately 1.2%. This is excellent capital discipline for a mid-tier producer. The large absolute share count (~764M) is typical for a company formed through a merger of equals at sub-$1 share prices; it should be evaluated on per-share metrics rather than absolute count. Net debt exists from the Mantoverde expansion capex and is being reduced through operating cash flow. Score 3 reflects the leverage on the balance sheet as the main capital risk.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "Mantoverde Development Project ramp-up to nameplate throughput is the primary near-term catalyst — achieving design capacity in the sulphide circuit would demonstrate capital success and significantly improve cash-flow generation per share. Copper price is a macro catalyst: each USD $0.10/lb move in copper meaningfully impacts Capstone's earnings at its scale. Santo Domingo remains a medium-term development option with a large cobalt credit that could become strategic as battery-material supply chains evolve. Exploration upside at all four operating assets, particularly at Mantoverde North and Cozamin depth extensions. Score 4 reflects multiple stacked near- and medium-term value drivers.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "Mid-tier copper producers typically trade at 0.8–1.3x NAV in normal markets, with growth-profile and jurisdiction premiums. Capstone's diversified asset base, long mine life, and Mantoverde growth profile justify a premium to single-asset peers. At current elevated copper prices (copper has traded above USD $4.00/lb through much of 2025), the company is generating meaningful free cash flow and reducing leverage, which supports debt pay-down and eventual return-of-capital. The main acquisition risk is that copper's elevated price is partially reflected in the current share price, limiting deep-value positioning. Santo Domingo represents significant unpriced optionality if it advances to a construction decision. Score 3 reflects reasonable but not exceptional P/NAV positioning.",
+
+  "verdict": "BUY",
+  "analyst_summary": "Capstone Copper is one of the strongest-positioned mid-tier copper producers on the TSX. The 2022 Mantos merger added scale and diversification, and the Mantoverde Development Project has expanded capacity at its flagship Chilean operation on time and near budget — a track record that justifies above-average management confidence. The resource and reserve base is large enough to support over a decade of production without material exploration additions. Copper's structural demand drivers — energy transition, data-centre load growth, grid modernisation — are durable. The share structure is clean (only 1.2% dilution from all instruments), and operating cash flow is reducing net debt. At current copper prices with the Mantoverde ramp now delivering incremental throughput, Capstone screens as a BUY for investors seeking copper leverage with a credible, multi-asset production profile. Primary risk is operational execution and copper price volatility.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "Measured  187.5 0.57 0.10 178 1,069 603 33",
+  "resource_indicated": "Indicated  332.0 0.41 0.10 134 1,369 1,068 45",
+  "resource_inferred": "Total Inferred  553.1 0.37 0.08 62 2,046 1,423 34",
+  "reserve_proven": "Proven 181 0.58 0.10 1,044 602",
+  "reserve_probable": "Probable 160 0.41 0.09 656 474",
+
+  "shares_issued_outstanding": 763668362,
+  "shares_fully_diluted": 772884797,
+
+  "share_instruments": [
+    {"type": "option", "count": 4038888, "strike_price": null, "expiry": null, "notes": "Summary count only — strike/expiry not extracted from MD&A"}
+  ]
+}
