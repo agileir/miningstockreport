@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "Churchill Resources is a small TSXV exploration team with no publicly documented track record of taking a project through to a NI 43-101 resource estimate. Insider ownership data was not extractable from the MD&A summary table in the most recent filing (April 2026 interim MD&A). No evidence of significant insider buying at market prices or alignment through large personal positions. Score reflects the combination of pre-resource stage, limited demonstrated history, and absence of the insider conviction that would warrant a higher score.",
+
+  "geology_score": 2,
+  "geology_notes": "The Sable antimony project in Newfoundland and Labrador is the primary asset. The most recent NI 43-101 technical report on file is dated August 2023, and no resource or reserve estimate has been published as of the April 2026 MD&A — all resource and reserve fields in the extracted filing data are null. Newfoundland is a pro-mining Canadian jurisdiction with reasonable infrastructure access. Antimony is a genuine critical mineral with documented strategic demand following China's August 2024 export restrictions, which removed roughly half of global supply from Western markets. However, without a defined resource, deposit continuity, grade, and tonnage remain unquantified — the geological case cannot be scored higher than early-stage.",
+
+  "capital_score": 1,
+  "capital_notes": "316,681,940 shares issued and outstanding with 342,756,940 fully diluted — an extremely bloated share structure for a company with no published resource estimate. Outstanding warrants total 2,625,000 and options total 23,450,000 (strike prices and expiry dates not extractable from MD&A summary; recorded as null). No flow-through tranches were detected in the most recent filing cycle. At over 316 million shares, even a modest resource discovery translates to very low per-share NAV, and any future equity financing required to advance the project would compound dilution further. The capital structure is the single largest investability obstacle.",
+
+  "catalyst_score": 2,
+  "catalyst_notes": "The most significant near-term catalyst would be drill results from the Sable project and an eventual NI 43-101 resource estimate — neither had a publicly announced timeline as of the most recent available filings. The macro backdrop is supportive: China's antimony export restrictions (effective September 2024) have structurally elevated Western antimony project valuations, and defence/energy storage demand continues to grow. However, macro tailwinds cannot substitute for company-specific milestones. No catalyst dates were available from extracted filing data.",
+
+  "acquisition_score": 1,
+  "acquisition_notes": "No NI 43-101 resource estimate exists, making P/NAV calculation impossible and formal acquisition comparables unreliable. Western antimony scarcity has driven strategic premiums for projects with defined resources (e.g., Perpetua Resources in Idaho, which secured US DOD and Ex-Im Bank backing), but that premium accrues to resource-stage and permitted projects, not exploration-stage stories. CRI cannot meaningfully be benchmarked against transaction multiples until it publishes a resource. Scored 1 as a floor for inability to calculate any acquisition metric.",
+
+  "verdict": "AVOID",
+  "analyst_summary": "Churchill Resources is a pre-resource antimony explorer on the TSXV with a severely bloated capital structure — 316.7 million shares outstanding and 342.8 million fully diluted — that creates a high mathematical hurdle for per-share value creation. The company's Sable antimony project in Newfoundland has genuine strategic relevance: China's August 2024 antimony export restrictions removed a dominant supplier from Western markets, driving prices higher and elevating the strategic value of North American projects. But as of the most recent available filings (April 2026 interim MD&A, December 2025 annual financials), CRI has not published a NI 43-101 resource estimate, offers no defined catalyst timeline, and cannot support a NAV-based valuation. Under the Verdict Framework, all five factors score 1–2 out of 5. The combination of no resource, no clear milestones, and a diluted share count that would require a significant discovery just to produce a competitive per-share value results in an AVOID verdict. Retail investors seeking antimony exposure should look to peers with defined resources and tighter capital structures.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from MD&A summary table (April 2026 interim)"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from MD&A summary table (April 2026 interim)"
+    }
+  ]
+}
