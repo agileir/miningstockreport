@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "Churchill Resources has a small exploration-stage team operating out of Newfoundland. The Beaver Brook asset has been under active exploration for several years, yet the company has not advanced to a maiden NI 43-101 resource estimate. Management credibility is partially anchored by the historical pedigree of Beaver Brook — North America's last producing antimony mine (1993–2002) — but the prolonged pre-resource timeline at a project with this much historical data raises execution questions. No notable technical or financing hires have been announced that would change the assessment. Score reflects pre-resource execution track record rather than geological merit.",
+
+  "geology_score": 2,
+  "geology_notes": "Beaver Brook is a historically mined, structurally controlled, sediment-hosted antimony deposit in central Newfoundland, making it geologically credible. The August 2023 technical report (NI 43-101 compliant) confirms the historical mine records but does not include a current resource estimate — the lack of a classified resource is the primary score limiter. Antimony mineralisation at Beaver Brook occurs as stibnite in favourable stratigraphy, with historical grades reported in the economic range, but without a modern resource block model there is no basis for a reliable tonnage or grade assessment. No resource table rows were returned in the first 60 pages of the technical report by the automated extractor. Upside exists if drill results tighten the geological model sufficiently to support a maiden resource.",
+
+  "capital_score": 2,
+  "capital_notes": "316.7M shares issued and outstanding is high for an exploration-stage company with no resource estimate. Fully diluted count of 342.8M (per April 2026 interim MD&A) adds 2.625M warrants and 23.45M options — strike price and expiry details were not captured in the MD&A summary table. The absence of strike/expiry detail prevents a precise overhang analysis, but the option count (~7.4% of outstanding) creates meaningful dilution pressure. No flow-through financing tranches were detected in the April 2026 filing; however, as a development-stage Canadian junior, future flow-through arrangements remain a structural risk if exploration spending continues to require equity. The high share count sets a steep per-share value hurdle: even a modest C$0.20 per-share price implies a ~C$63M market cap for a company with no resource — expensive relative to peers at the same exploration stage.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "The critical minerals tailwind is Churchill's most significant near-term catalyst. Antimony was added to Canada's Critical Minerals List in 2024, and China's export restriction announcements in mid-2024 tightened global supply materially — antimony oxide prices have risen substantially since. Beaver Brook is the only advanced antimony project in North America outside of Nevada, which positions it well for government-backed critical mineral supply-chain initiatives (e.g. Natural Resources Canada's Critical Minerals Infrastructure Fund). The immediate catalyst to watch is a maiden NI 43-101 resource estimate — management has been drilling but timing remains unannounced. A positive resource release against the current supply-shortage backdrop could re-rate the stock quickly. Offset: the geopolitical premium can evaporate if China lifts restrictions or a competitor files a resource first.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "No resource estimate means no NAV basis for a P/NAV comparison to peers or precedent transactions. The strategic value of a North American antimony asset is real — defence manufacturers (flame retardants, ammunition), battery storage players, and semiconductor supply chains all have explicit government mandates to source antimony outside China — but there are no announced expressions of interest and no transaction comparables for pre-resource antimony assets in Canada. An acquirer would be buying exploration risk and the Beaver Brook brand name. Acquisition optionality exists but does not justify a higher score absent a resource. Score would step up materially upon maiden resource release.",
+
+  "verdict": "AVOID",
+  "analyst_summary": "Churchill Resources holds North America's most historically significant antimony project at Beaver Brook, Newfoundland, and benefits from a compelling geopolitical tailwind: China's 2024 antimony export restrictions have tightened global supply and elevated antimony's critical-mineral status in Canada, the US, and the EU. The strategic appeal of the asset is genuine. However, the company remains firmly pre-resource — no NI 43-101 estimate exists — and the 316.7M shares outstanding (342.8M fully diluted) creates an onerous per-share value hurdle for retail investors relative to peers at the same stage. Until a maiden resource is defined and the share structure is rationalised, the risk-reward does not meet our threshold for retail capital. The critical minerals thesis is worth watching: a resource announcement could be the trigger for re-rating this to WATCH or BUY, but we do not buy exploration promises at this share count without a resource in hand. Re-evaluate on maiden 43-101 resource release.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Strike/expiry not extracted from April 2026 MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Strike/expiry not extracted from April 2026 MD&A summary table"
+    }
+  ]
+}
