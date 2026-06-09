@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "Churchill Resources executed a coherent asset consolidation strategy in 2026, entering LOIs for both the Golden Baie Antimony-Gold Property (optioned from Canstar Resources, TSXV-approved March 2026) and the Black Raven past-producer antimony-gold property in central Newfoundland. The land-assembly rationale is sound given China's antimony export restrictions and Canada's Critical Minerals designation. However, a May 2026 press release disclosed 'internal data compilation discrepancies' in previously reported Frost Cove drill results, requiring a corrected analytical data release — a credibility flag at the exploration stage. The flagship Beaver Brook/Frost Cove system still has no maiden NI 43-101 resource estimate despite years of active drilling. Score reflects a strategically aware team executing the right land consolidation move, offset by data-integrity concerns and a persistent failure to convert drill results into a classified resource.",
+
+  "geology_score": 3,
+  "geology_notes": "Frost Cove (within the Beaver Brook district, central Newfoundland) delivered high-grade antimony intercepts in the 2025 drill program: corrected results include 7.25% Sb over 1.98m near the Southern Shaft along 800m of confirmed strike, 6.44% Sb over 2.06m, 4.84% Sb over 1.00m, and multiple 3-5% Sb intersections. Grades of 5-7% Sb are materially above typical economic cut-offs for antimony and compare favourably with historical Beaver Brook mine grades. A second new polymetallic system was also identified at Frost Cove, indicating the deposit is more complex and potentially larger than previously modelled. The August 2023 NI 43-101 technical report (the only compliant technical report in the filings cache) does not include a resource estimate; the automated extractor returned no resource table rows from the first 60 pages. Golden Baie adds another Sb-Au exploration target with 2026 geophysics and drilling planned. Score upgraded from 2 to 3 on the strength of high-grade drill intercepts and expanded district scale; constrained by the absence of a classified resource and the data-correction overhang on the most recent hole results.",
+
+  "capital_score": 2,
+  "capital_notes": "316.7M shares issued and outstanding, with a fully diluted count of 342.8M per the April 2026 interim MD&A — a heavy structure for a pre-resource exploration company. The 23.45M outstanding options (~7.4% of issued shares) represent meaningful dilution pressure; the 2.625M warrants (~0.8%) are less significant in isolation. Strike price and expiry details were not captured in the MD&A summary table, preventing a precise overhang analysis. No flow-through share tranches were detected in the April 2026 filing. However, Churchill Resources is an NL exploration-stage issuer that has historically relied on equity to fund field programs; future flow-through financings to maintain exploration pace remain a structural risk. The new Golden Baie option agreement carries staged payment milestones — cash and/or shares — that are not yet reflected in the April 2026 share structure. At a C$0.20 per-share price, the fully diluted market cap implies approximately C$68.5M for a company with no NI 43-101 resource: expensive relative to peers at the same exploration stage.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Churchill now has four active near-term news fronts: (1) Frost Cove resource definition — management has sufficient drill data for a maiden 43-101 resource estimate and a positive announcement would be the single largest re-rating event; (2) Golden Baie 2026 exploration program — airborne geophysics, systematic trenching, and drilling are planned, with initial results expected by late 2026; (3) Black Raven LOI — if it converts to a definitive agreement and exploration commences, adds a third drill front; (4) the antimony supply-chain tailwind — China's export restriction regime remains active, and North American government procurement mandates for antimony continue to build. The near-term negative catalyst is sustained market focus on the May 2026 data-correction disclosure; if perceived as systemic rather than isolated, it could suppress re-rating even on a positive resource announcement. The most impactful single catalyst for retail investors remains a maiden NI 43-101 resource at Frost Cove or Beaver Brook.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "The consolidated portfolio of Frost Cove/Beaver Brook, Golden Baie, and Black Raven represents the most coherent antimony-gold land package in Atlantic Canada, and possibly the most significant pre-resource Sb exploration portfolio outside China in the Western Hemisphere. Defence contractors, battery-storage manufacturers, and sovereign wealth funds pursuing supply-chain security under government mandate have clear reason to track this asset. The strategic premium is real, but cannot be sized without a NI 43-101 resource estimate — there is no NAV anchor and no directly comparable pre-resource antimony M&A transaction in Canada for benchmarking. An acquirer buying the current structure is paying for exploration optionality at a material share count. Score moved to 3 from 2 on the basis of portfolio breadth and the district-scale consolidation thesis; would require a resource estimate to support a score of 4.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (TSXV:CRI) has materially strengthened its strategic position in 2026, consolidating a portfolio of antimony-gold assets in central Newfoundland: Frost Cove/Beaver Brook (the historical North American antimony production hub), Golden Baie (optioned from Canstar Resources, TSXV-approved March 2026), and Black Raven (LOI). High-grade Sb intercepts at Frost Cove — including a corrected 7.25% Sb over 1.98m along 800m of strike and a newly discovered polymetallic system — demonstrate genuine geological merit. Against the persistent antimony supply-chain crisis driven by China's export restrictions, CRI's land position is strategically valuable. The bull case is defined: maiden NI 43-101 resource at Frost Cove or Beaver Brook, followed by a strategic acquisition offer from a defence or battery supply-chain buyer. However, CRI is not yet a BUY. The share structure (316.7M outstanding, 342.8M fully diluted) sets a steep per-share value hurdle for a pre-resource company, and the May 2026 data correction on previously reported Frost Cove results is a management credibility concern warranting continued monitoring. Upgraded from AVOID to WATCH: the portfolio consolidation and high-grade drill results now justify active attention; a maiden resource release or credible strategic interest announcement would trigger re-evaluation for BUY.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Strike/expiry not extracted from April 2026 MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Strike/expiry not extracted from April 2026 MD&A summary table"
+    }
+  ]
+}
