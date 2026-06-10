@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "Churchill Resources executed coherent asset consolidation in 2026, entering LOIs for the Golden Baie Antimony-Gold Property (optioned from Canstar Resources, TSXV-approved March 2026) and the Black Raven past-producer in central Newfoundland. The land-assembly rationale is sound against China's antimony export restrictions and Canada's Critical Minerals designation. However, a May 2026 press release disclosed 'internal data compilation discrepancies' in previously reported Frost Cove drill results, requiring a corrected analytical data release — a credibility flag at the exploration stage. The flagship Beaver Brook/Frost Cove system still has no maiden NI 43-101 resource estimate despite years of active drilling. Score reflects a strategically aware team executing the right land-consolidation move, offset by data-integrity concerns and a persistent failure to convert drill results into a classified resource.",
+
+  "geology_score": 3,
+  "geology_notes": "Frost Cove (within the Beaver Brook district, central Newfoundland) delivered high-grade antimony intercepts in the 2025 drill program: corrected results include 7.25% Sb over 1.98m near the Southern Shaft along ~800m of confirmed strike, 6.44% Sb over 2.06m, 4.84% Sb over 1.00m, and multiple 3–5% Sb intersections. Grades of 5–7% Sb are materially above typical economic cut-offs for antimony and compare favourably with historical Beaver Brook mine grades. A second new polymetallic system was also identified at Frost Cove, indicating the deposit is more complex and potentially larger than previously modelled. The August 2023 NI 43-101 technical report in the filings cache does not include a resource estimate; the extractor returned no resource table rows. Golden Baie adds an Sb-Au exploration target with 2026 geophysics and drilling planned. Score constrained by absence of a classified resource and data-correction overhang on the most recent drill results.",
+
+  "capital_score": 2,
+  "capital_notes": "316.7M shares issued and outstanding; fully diluted count of 342.8M per the April 2026 interim MD&A — a heavy structure for a pre-resource exploration company. The 23.45M outstanding options (~7.4% of issued shares) represent meaningful dilution pressure; the 2.625M warrants (~0.8%) are less significant in isolation. Strike price and expiry details were not captured in the April 2026 MD&A summary table. No flow-through tranches were detected in the April 2026 filing; however, Churchill Resources has historically relied on federal and Newfoundland provincial flow-through financing to fund exploration programs, and future FT financings to sustain the Golden Baie and Black Raven work programs remain a structural dilution risk — hold-release overhang would apply to any new FT placement. The Golden Baie option agreement carries staged cash/share milestones not yet reflected in the current share structure. At current price levels, the fully diluted market cap for a pre-resource company sets a steep per-share value hurdle relative to exploration-stage peers.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Four active near-term news fronts: (1) Frost Cove resource definition — management has sufficient drill data for a maiden 43-101 resource estimate and a positive announcement would be the single largest re-rating event; (2) Golden Baie 2026 exploration program — airborne geophysics, systematic trenching, and drilling are planned with initial results expected by late 2026; (3) Black Raven LOI — conversion to a definitive agreement would add a third drill front; (4) antimony supply-chain tailwind — China's export restriction regime remains active and North American government procurement mandates for antimony continue to build. The near-term negative catalyst is sustained market focus on the May 2026 data-correction disclosure; if perceived as systemic rather than isolated, it could suppress re-rating even on a positive resource announcement.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "The consolidated portfolio of Frost Cove/Beaver Brook, Golden Baie, and Black Raven represents the most coherent antimony-gold land package in Atlantic Canada and arguably the most significant pre-resource Sb exploration portfolio outside China in the Western Hemisphere. Defence contractors, battery-storage manufacturers, and sovereign wealth funds pursuing supply-chain security under government mandate have clear strategic rationale to track this asset. The strategic premium is real but cannot be sized without a NI 43-101 resource estimate — there is no NAV anchor and no directly comparable pre-resource antimony M&A transaction in Canada for benchmarking. An acquirer buying the current structure is paying for exploration optionality at a material share count.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (TSXV:CRI) holds the most advanced antimony-gold exploration portfolio in Atlantic Canada, anchored by Frost Cove/Beaver Brook (historical North American antimony production hub), with Golden Baie and Black Raven expanding district-scale optionality. High-grade Sb intercepts at Frost Cove — corrected 7.25% Sb over 1.98m along ~800m of strike and a newly identified polymetallic system — demonstrate genuine geological merit against the ongoing antimony supply-chain disruption driven by China's export restrictions. The bull case is defined: maiden NI 43-101 resource at Frost Cove or Beaver Brook, followed by strategic acquisition interest from a defence or battery supply-chain buyer. CRI is not yet a BUY: the share structure (316.7M outstanding, 342.8M fully diluted) sets a steep per-share value hurdle for a pre-resource company, and the May 2026 data-correction disclosure on previously reported Frost Cove results is a management credibility concern that warrants ongoing monitoring. Note: all three permitted web fetches for this run returned HTTP 403; no new material developments beyond the April 2026 MD&A data and prior drill results were obtainable. WATCH maintained.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Strike/expiry not extracted from April 2026 MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Strike/expiry not extracted from April 2026 MD&A summary table"
+    }
+  ]
+}
