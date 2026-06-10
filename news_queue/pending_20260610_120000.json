@@ -1,0 +1,101 @@
+[
+  {
+    "headline": "NORTHERN STAR SAYS NOT FOR SALE: Board rejects Elliott's A$1B activist push as NST shares sink 3.5%",
+    "url": "https://www.miningweekly.com/article/gold-major-northern-star-rejects-new-investor-proposal-to-sell-the-company-2026-06-10",
+    "source_name": "Mining Weekly",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Northern Star Resources (ASX: NST) chairman Michael Chaney formally rejected activist investor Elliott Investment Management's demand for an immediate sale process, telling shareholders it is 'not the right time.' Elliott holds a ~A$1 billion, 4% stake and had flagged repeated operational failures at the company's Kalgoorlie mill that drove multiple guidance cuts.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "UEC TURNS ON THE TAPS: America's largest new uranium ISR mine goes live as Burke Hollow produces first pounds",
+    "url": "https://www.prnewswire.com/news-releases/uranium-energy-corp-reports-results-for-the-third-quarter-of-fiscal-2026-302794776.html",
+    "source_name": "PR Newswire",
+    "category_slug": "uranium-energy",
+    "snippet": "Uranium Energy Corp (NYSE: UEC) announced Q3 FY2026 results on June 9, highlighting the commissioning of Burke Hollow ISR in South Texas — America's largest new greenfield in-situ recovery project in over a decade. The company produced 32,195 lbs U₃O₈ at a cash cost of $46.69/lb and reported $794 million in liquid assets with zero debt.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "MASSIVE PORPHYRY HIT: Arras Minerals drills 935.9m at 0.71% CuEq from surface at Kazakhstan's Berezski North",
+    "url": "https://investingnews.com/arras-minerals-drills-935-9m-grading-0-71-cueq-from-surface-including-214-9m-grading-1-42-cueq-starting-at-162-1m-depth-from-the-berezski-north-porphyry-target-elemes-project-in-kazakhstan/",
+    "source_name": "Investing News Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "Arras Minerals (TSXV: ARK) reported hole EL26032 at the Berezski North porphyry in Kazakhstan: 935.9 metres grading 0.71% CuEq from surface, including 214.9m at 1.42% CuEq. One of 8 holes drilled since Q1 restart, the intercept ranks among the largest porphyry intervals reported by any junior explorer in 2026.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD HUNTS FOR A FLOOR AT $4,331 as Iran-Israel ceasefire and hot jobs data flush metals to 2-month lows",
+    "url": "https://goldseek.com/article/asian-metals-market-update-8th-june-2026",
+    "source_name": "GoldSeek",
+    "category_slug": "gold-silver",
+    "snippet": "Gold spot held around $4,331/oz with silver at $68.69/oz after 'Red Friday' (June 5) — a paper-market liquidation triggered by a strong U.S. jobs report and surprise Iran-Israel ceasefire. Copper held above $6.30/lb despite China suspending sulfuric acid exports through year-end. Asian physical demand and central bank buying are absorbing the paper-driven move.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "DESPITE THE SELLOFF, gold's bull market narrative hasn't changed — here's why the fundamentals hold",
+    "url": "https://goldseek.com/article/despite-recent-weakness-gold-bull-market-narrative-track",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "A GoldSeek analysis argues that June's precious metals selloff — gold retreating from $5,600 January highs toward $4,331 — reflects paper-market liquidation, not a structural reversal. Central bank buying, Asian consumer accumulation at multi-year value levels, and persistent inflation risks all remain intact underpinning the bull market thesis.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "OROSUR HITS 229.7m AT 0.88 g/t Au in Colombia, opening three new mineralized zones at the APTA prospect",
+    "url": "https://investingnews.com/orosur-mining-inc-announces-new-mineralised-zones-discovered-at-apta/",
+    "source_name": "Investing News Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "Orosur Mining (TSXV: OMI) intersected 229.7m at 0.88 g/t Au — including 59.2m at 2.15 g/t and 7.65m at 7.07 g/t — at the APTA prospect within Colombia's Anzá Project. The first new hole at the target defines three growth vectors: a deeper high-grade zone, shallow bulk-tonnage potential beneath cover, and a hanging-wall vein.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "Doubleview extends Hat copper-gold mineralization 150m east — 'Far East Zone' opens new frontier in BC porphyry",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/1731-tsx-venture/dbg/205051-doubleview-reports-assays-from-drill-holes-h102-h108-extends-hat-mineralization-approximately-150m-east-and-identifies-gold-enriched-intervals.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "Doubleview Gold Corp (TSXV: DBG) extended the Hat deposit's gold-copper mineralization approximately 150 metres beyond the known resource envelope, with standout intercepts of 8.0m at 4.04 g/t Au and 112.0m at 0.40 g/t Au. The new Far East Zone materially expands Hat's exploration footprint.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "LITHIUM DRILL SEASON: Critical Elements launches 10,000m Rose West program after Phase 1 nearly tripled known footprint",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/584-tsx-venture/cre/205059-critical-elements-announces-the-start-of-a-10-000-meter-summer-drill-program-at-rose-west.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Critical Elements Lithium (TSXV: CRE) launched a fully-permitted 10,000-metre summer drill program at the Rose West spodumene discovery in Québec. Phase 1 winter drilling expanded the mineralized footprint from 450×370m to 1,250×800m — Phase 2 targets systematic step-out expansion of what is now one of Eastern Canada's more compelling hard-rock lithium projects.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "WHO WINS THE RARE EARTH RACE? MP Materials' 917MT NdPr record vs. USA Rare Earth's $1.6B CHIPS Act mine-to-magnet deal",
+    "url": "https://www.fool.com/investing/2026/06/08/better-rare-earth-mining-stock-to-buy-in-june-mp-m/",
+    "source_name": "The Motley Fool",
+    "category_slug": "rare-earths",
+    "snippet": "With China leveraging its rare earth processing monopoly as geopolitical leverage, Motley Fool analysts size up the two leading U.S. challengers. MP Materials posted record Q1 2026 NdPr production of 917 MT (+63% YoY) with sales up 117% YoY at Mountain Pass; USA Rare Earth holds a $1.6B CHIPS Act deal building a vertically integrated mine-to-magnet supply chain.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "INDUSTRY ALARM at Junior Indaba: Juniors deliver 70% of discoveries but face 'existential' capital drought threatening the mine pipeline",
+    "url": "https://www.miningweekly.com/article/strong-exploration-system-essential-to-minings-future-junior-indaba-points-out-2026-06-09",
+    "source_name": "Mining Weekly",
+    "category_slug": "market-macro",
+    "snippet": "The 2026 Junior Indaba conference warned that deteriorating junior exploration budgets represent a structural threat to the entire mining industry's project pipeline. Junior companies account for up to 70% of new mine discoveries but face rising capital costs and regulatory friction — starving the development funnel that majors rely on to replenish reserves.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "Scorpio Gold drills 6.95 g/t Au over 11.98m at Nevada's Manhattan District — caldera volcanics proving out",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/394-tsx-venture/sgn/205050-scorpio-gold-drills-6-95-g-t-gold-over-11-98-metres-from-242-99-metres-within-caldera-volcanics.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "Scorpio Gold Corp (TSXV: SGN) reported Phase 2 step-out drill results from the Manhattan District Project in Nevada, with the highlight intercept returning 6.95 g/t Au over 11.98 metres from 242.99 metres depth within caldera volcanics. The result extends the high-grade system and validates the caldera-hosted gold model.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
