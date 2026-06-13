@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "Small management team with no marquee discovery track record. The May 2026 correction of Frost Cove drill results — downgrading multiple intervals from initially reported values — was a material credibility hit that has not been recovered. On the positive side, the team has executed aggressively on land consolidation: Golden Baie option received TSXV approval in March 2026 and a Black Raven LOI was signed, building a multi-property NL antimony district story. Insider ownership levels are not well-documented in public disclosures. Score penalised primarily for the data correction and limited discovery pedigree.",
+
+  "geology_score": 2,
+  "geology_notes": "High-grade antimony confirmed at Frost Cove/Pomley Cove Pond; best corrected result is FC25-27 at 13.00% Sb over 0.57m. District-scale potential is genuine with Beaver Brook, Golden Baie, and Black Raven providing a consolidated NL antimony land package. However, no NI 43-101 compliant resource estimate exists — the technical report on file (dated August 2023) predates the 2025-26 drill program. Nine 2026 holes remain pending assay as of June 12, 2026. The May 2026 data correction raises questions about QA/QC protocols and damped confidence in the geological database. Score capped at 2 until a maiden 43-101 resource validates the mineralisation at scale.",
+
+  "capital_score": 2,
+  "capital_notes": "Share structure is the primary investment headwind: 316.7M shares issued outstanding and 342.8M fully diluted as of the April 29, 2026 interim MD&A. At these share counts, any meaningful per-share NAV requires a multi-million-ounce-equivalent resource declaration. Warrant overhang is modest at 2.625M warrants. Options of 23.45M are material but not extreme relative to the issued count (~7.4% of outstanding). No flow-through tranches were detected in the April 2026 MD&A filing; the extraction notes confirm no FT placements are on record. Strike and expiry details for warrants and options were not captured in the MD&A summary table.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Near-term catalyst: assay results from nine 2026 drill holes at Frost Cove/Pomley Cove Pond, which have been pending since at least early June 2026. These represent the most immediate re-rating event — positive results could rebuild geological credibility lost in May. Medium-term: China antimony export restrictions (in effect since late 2024) continue to support antimony prices and heighten strategic interest in North American Sb supply chains. Longer-term: a maiden NI 43-101 resource estimate would be a step-change catalyst enabling P/NAV analysis. The combination of pending assays plus a sustained critical-minerals macro tailwind scores 3 despite execution risk from the May correction overhang.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "No resource estimate precludes a P/NAV analysis. Antimony's critical mineral designation and the China supply restriction create a strategic premium for North American Sb projects that is not captured in traditional NAV frameworks. Churchill's consolidated NL land package (Frost Cove, Beaver Brook, Golden Baie, Black Raven) makes it a plausible acquisition target for a major or mid-tier seeking NA antimony exposure. The NA antimony explorer peer group is small, making precise comparable-transaction valuation difficult. Score of 3 reflects the strategic optionality and district-scale assembly without a quantitative NAV anchor.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources remains a speculative WATCH on the Newfoundland antimony district story. High-grade antimony mineralisation has been confirmed at Frost Cove (up to 13.00% Sb/0.57m in corrected May 2026 data), but no NI 43-101 resource estimate exists, and a heavy share structure (316.7M outstanding) constrains the per-share value case at the exploration stage. Nine 2026 drill holes remain pending assay — those results are the critical near-term catalyst that could either validate the geological thesis or extend the credibility damage from May. China antimony export restrictions sustain the critical-minerals re-rating narrative, but position sizing is difficult until a maiden resource is declared. Note: all three web fetches returned 403 (company IR and two news aggregators); no news updates since June 12, 2026 could be confirmed. Cap-table data sourced from April 29, 2026 interim MD&A via extracted JSON. Scorecard published at low confidence pending successful news verification.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not captured in April 2026 MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not captured in April 2026 MD&A summary table"
+    }
+  ]
+}
