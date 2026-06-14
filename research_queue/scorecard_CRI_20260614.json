@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "Small management team executing aggressively on land consolidation (Golden Baie option received TSXV approval March 2026; Black Raven LOI signed) but credibility remains impaired by the May 2026 correction of Frost Cove drill results. The downward revision of multiple intervals in that update has not been offset by any subsequent management track-record signal. Insider ownership levels remain poorly documented in public disclosures. No marquee discovery pedigree. Score held at 2 until the data-correction credibility damage is demonstrably repaired by clean, independently audited results.",
+
+  "geology_score": 2,
+  "geology_notes": "High-grade antimony confirmed at Frost Cove/Pomley Cove Pond; best corrected fall-2025 result is FC25-27 at 13.00% Sb over 0.57m. District-scale land package (Frost Cove, Beaver Brook, Golden Baie, Black Raven) is substantive. June 2026 search results surface a headline — 'Churchill Intersects 7.25% Antimony over 1.98m Near Southern Shaft along 800m Strike at Frost Cove; Second New Polymetallic System Discovered' — and a separate progress update stating assay results were 'expected imminently,' consistent with the nine 2026 holes drilled at northern Frost Cove reporting. If the 7.25% Sb/1.98m result is from the 2026 program holes it represents a meaningful step-out. Date and program attribution could not be confirmed (fetch-limit reached). No NI 43-101 compliant resource estimate exists. Score remains 2 until a maiden 43-101 resource establishes scale; if the 7.25% result is confirmed as 2026 program output, score may be revised to 3 on next research cycle.",
+
+  "capital_score": 2,
+  "capital_notes": "Share structure is the primary investment headwind: 316,681,940 shares issued outstanding and 342,756,940 fully diluted per the April 29, 2026 interim MD&A (extracted JSON, sha256-tracked). Warrant overhang is modest at 2,625,000 warrants. Stock option pool of 23,450,000 is material but manageable (~7.4% of issued count). No flow-through tranches detected in the April 2026 filing; extraction notes confirm no FT placements on record in that filing period. Strike and expiry details for warrants and options were not captured in the MD&A summary table. At 316.7M shares outstanding, per-share NAV requires a multi-million-ounce-equivalent resource declaration to generate meaningful leverage.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Near-term: a corporate progress update released in 2026 stated assay results were 'expected imminently' from the nine 2026 Frost Cove holes; search results also surface a headline suggesting results may have since been released (7.25% Sb/1.98m; Second New Polymetallic System). Either the assays are now out and the re-rating event is in play, or they remain one to two weeks away. Medium-term: China antimony export restrictions (in effect since late 2024) continue to support Sb pricing and heighten strategic interest in North American supply. Longer-term: maiden NI 43-101 resource would be a step-change catalyst enabling P/NAV analysis. Score of 3 maintained; a score of 4 becomes defensible if the 'Second New Polymetallic System' headline is confirmed as June 2026 output from the nine pending holes.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "No resource estimate precludes a formal P/NAV analysis. China antimony export restrictions create a strategic premium for North American Sb projects not captured in traditional NAV frameworks. Churchill's consolidated NL land package (Frost Cove, Beaver Brook, Golden Baie, Black Raven) — covering multiple commodities including Sb, Au, Ag, Pb, Zn — makes it a plausible acquisition target for a major or mid-tier seeking NA critical-minerals exposure. The NA antimony explorer peer set is small. Score of 3 reflects strategic optionality and district-scale assembly without a quantitative NAV anchor.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources remains a speculative WATCH on the Newfoundland antimony district story. Cap-table is sourced from the April 29, 2026 interim MD&A (316.7M shares issued, 342.8M diluted); no change from prior period. June 2026 search results indicate a corporate progress update stated assay results from nine 2026 Frost Cove holes were 'expected imminently,' and a separate headline — 'Churchill Intersects 7.25% Antimony over 1.98m Near Southern Shaft along 800m Strike at Frost Cove; Second New Polymetallic System Discovered' — appeared in results but its date and program attribution could not be verified within the per-company fetch limit. If this is a 2026 program result, the discovery of a second new polymetallic system at the southern Frost Cove shaft would be material positive news and warrants upgrading geology and catalyst scores in the next cycle. Macro tailwind from China Sb export restrictions remains intact. Heavy share structure (316.7M outstanding) and the May 2026 data-correction overhang continue to cap near-term conviction. Scorecard published at low confidence pending date confirmation of the potentially new result.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not captured in April 2026 MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not captured in April 2026 MD&A summary table"
+    }
+  ]
+}
