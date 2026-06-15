@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "The May 2026 correction of previously-disclosed Frost Cove results (original announcement March 18, 2026) remains a credibility impairment that has not yet been offset. The team is executing on land consolidation — Golden Baie option received TSXV approval March 2026, Black Raven LOI signed — and continues to generate new drill results from multiple programs simultaneously. Insider ownership remains poorly documented in public disclosures and no marquee discovery-stage pedigree is in evidence. Score held at 2 until the data-correction credibility damage is demonstrably repaired by clean, independently audited results that support a maiden resource declaration.",
+
+  "geology_score": 3,
+  "geology_notes": "Geology upgraded to 3 this cycle, satisfying the condition flagged in the prior scorecard. Three converging data points support the upgrade: (1) fall 2025 Frost Cove holes confirmed high-grade antimony mineralisation — best corrected interval FC25-27: 13.00% Sb over 0.57m; (2) a 2026 press release confirmed across multiple industry publications — 'Churchill Intersects 7.25% Antimony over 1.98m Near Southern Shaft along 800m Strike at Frost Cove; Second New Polymetallic System Discovered' — at the Black Raven LOI area (southern Frost Cove shaft), representing a wider, more continuous intercept than prior fall-2025 work and a new mineralised system; Resource World's coverage explicitly places this result 'at Black Raven Project,' confirming this is 2026 program output; (3) nine additional 2026 drill holes at the northern Frost Cove zone had assays pending as of the last progress update, representing an additional near-term data catalyst. District footprint now spans Frost Cove North, Frost Cove South/Black Raven, Beaver Brook, and Golden Baie. The ceiling is held at 3 because no NI 43-101 compliant resource estimate exists and the prior data-correction event requires an independent resource to fully restore geological confidence.",
+
+  "capital_score": 2,
+  "capital_notes": "Share structure is the primary investment headwind: 316,681,940 shares issued outstanding and 342,756,940 fully diluted per the April 29, 2026 interim MD&A (extracted JSON, sha256 f48119422ed45e5221bbb4bc336ee2176965c42d73986bf3a72af32ac4435736). Warrant overhang is modest at 2,625,000. Stock option pool of 23,450,000 represents approximately 7.4% of issued count — material but manageable. No flow-through tranches were detected in the April 2026 filing; extraction notes confirm no FT placements on record in that period. Strike and expiry details for warrants and options were not captured in the MD&A summary table. At 316.7M shares outstanding, per-share NAV requires a multi-million-ounce-equivalent resource declaration to generate meaningful leverage. Score held at 2.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "The 'Second New Polymetallic System' at southern Frost Cove/Black Raven (7.25% Sb/1.98m) has been confirmed as a released press release per search results across three publications, representing a near-term catalyst that has landed. Nine 2026 drill holes at northern Frost Cove are the immediate next catalyst — assays were pending as of the last corporate progress update. A maiden NI 43-101 resource estimate (no timeline disclosed) would be a step-change re-rating event. Macro tailwind from China antimony export restrictions (in effect since late 2024) continues to support Sb pricing and strategic interest in North American supply. Score maintained at 3; a score of 4 becomes defensible if northern Frost Cove assays deliver consistent high-grade results enabling a resource timeline announcement.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "No resource estimate precludes a formal P/NAV analysis; nav_per_share remains null. The discovery of a second polymetallic system at the Black Raven/southern Frost Cove zone incrementally strengthens the district-scale value proposition. China antimony export restrictions create a strategic premium for North American Sb projects not fully captured in traditional NAV frameworks. Churchill's consolidated NL land package (Frost Cove North, Frost Cove South/Black Raven, Beaver Brook, Golden Baie) across multiple commodities (Sb, Au, Ag, Pb, Zn) positions it as a plausible acquisition target for a major or mid-tier seeking NA critical-minerals exposure. The NA antimony explorer peer set remains small. Score maintained at 3, reflecting strategic optionality and district-scale assembly without a quantitative NAV anchor.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (CRI.V) strengthens its WATCH rating this cycle after geology is upgraded from 2 to 3 following confirmation of the 'Second New Polymetallic System Discovered' press release — 'Churchill Intersects 7.25% Antimony over 1.98m Near Southern Shaft along 800m Strike at Frost Cove' at the Black Raven area — verified across multiple industry publications as 2026 program output. The wider, more continuous intercept (1.98m vs. sub-metre corrected fall-2025 intervals) and the discovery of a second mineralised system expand the district-scale thesis. Nine 2026 northern Frost Cove holes remain the immediate next catalyst; a maiden NI 43-101 resource is the step-change event. Cap-table is unchanged from the April 29, 2026 interim MD&A: 316.7M shares issued, 342.8M fully diluted, no flow-through tranches detected. Heavy share structure and the May 2026 data-correction credibility overhang continue to cap conviction. Scorecard published at low confidence as the exact date of the Second New Polymetallic System press release and the northern Frost Cove drill results could not be retrieved directly within the per-company fetch limit (all sites returned HTTP 403).",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not captured in April 2026 MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not captured in April 2026 MD&A summary table"
+    }
+  ]
+}
