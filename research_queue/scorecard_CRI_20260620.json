@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "Small exploration-stage team with no publicly prominent Tier 1 alumni. Has executed meaningful M&A — the Golden Baie option from Canstar (closed March 2026, 15.8M shares + ~$208K cash) and the Black Raven LOI demonstrate dealmaking capability. However, a May 2026 data-correction press release revised earlier Frost Cove drill results, which is a credibility flag for technical communications quality. At 316.7M shares outstanding the company has run a permissive capital program relative to its exploration stage. Management rated 2/5 pending evidence of tighter share discipline and a clean technical track record.",
+
+  "geology_score": 3,
+  "geology_notes": "Compelling high-grade antimony district in central Newfoundland anchored by the historic Frost Cove past-producing Sb mine. 2025 drilling (FC25-16 to FC25-30) returned genuine high-grade Sb: 7.25% Sb/1.98m, 6.44% Sb/2.06m, 4.84% Sb/1.00m, 3.94% Sb/1.60m across ~800m strike with 100m vertical depth, remaining open. Black Raven (1.2km north): maiden intersections of 9.46% Sb plus gold (35.5 g/t Au) and silver (1,118 g/t Ag) in a polymetallic vein system. Golden Baie (optioned February 2026): 399 km² block in the same district. No NI 43-101 mineral resource estimate has been declared — the portfolio is entirely pre-resource, which limits confidence. Nine 2026 Frost Cove holes are pending assay as of June 20, 2026. Scored 3/5: high-grade evidence exists but no resource underpins the geology case yet, and the May 2026 data correction raised questions about the integrity of earlier reported intervals.",
+
+  "capital_score": 2,
+  "capital_notes": "316,681,940 shares issued and outstanding with 342,756,940 fully diluted per the April 29, 2026 interim MD&A — a heavy share structure for a pre-resource explorer. The Golden Baie acquisition added ~15.8M shares to the count. Warrant overhang is modest at 2,625,000 (strike/expiry not disclosed in the MD&A summary); options at 23,450,000 are meaningful but not extreme relative to the basic count. No flow-through tranches were detected in the April 2026 MD&A. The core concern is the basic share count: at 316.7M shares, even a $100M valuation (ambitious at this stage) implies only ~C$0.32/share, creating a steep per-share value hurdle for retail investors. Scored 2/5.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Nine 2026 Frost Cove drill holes remain pending assay as of today — this is the single highest-impact near-term catalyst. If results confirm extension of the high-grade Sb corridor (or the polymetallic overprint), a maiden resource scoping study could follow within 6–12 months. Golden Baie 2026 exploration program (trenching, channel sampling, airborne geophysics, drilling) is underway or imminent. Macro catalyst: China antimony export restrictions implemented in 2024 have elevated Sb to a strategic critical mineral globally, creating potential for rapid institutional re-rating if a resource is declared. Catalyst rated 3/5: clear near-term binary event (2026 assays) but timing remains uncertain and the May 22 corporate update did not confirm any new results.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "No P/NAV multiple can be calculated without a declared NI 43-101 mineral resource. The acquisition score is assessed qualitatively: Frost Cove and Black Raven sit within 100km of the world-class Beaver Brook Antimony Mine (the largest primary Sb producer outside China historically), creating plausible strategic acquirer interest from parties seeking Western Sb supply. In the event of a maiden resource, comparable antimony project transactions in North America remain thin (Sb is niche vs. gold or copper), but the critical mineral designation could drive premium valuations from government-backed buyers or battery/defence supply chain acquirers. At current stage, intrinsic per-share value is not calculable. Scored 3/5 on strategic optionality rather than NAV math.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources holds a genuinely interesting critical minerals district in central Newfoundland — the historic Frost Cove Sb mine, the Black Raven Sb-Au-Ag polymetallic discovery, and the newly optioned 399 km² Golden Baie block all sit in the same antimony belt within 100km of Beaver Brook. High-grade 2025 drill results (7.25% Sb/1.98m, 6.44% Sb/2.06m) established proof-of-concept, though a May 2026 data-correction release damaged near-term technical credibility. Nine 2026 Frost Cove holes are pending assay as of June 20 — the result that will determine whether WATCH advances to BUY or degrades to AVOID. The case against: 316.7M shares outstanding is a heavy structure for a pre-resource explorer, no NI 43-101 resource exists, and assay turnaround has been slow. The case for: antimony is a genuine critical mineral with China controlling 90%+ of global supply, Western Sb assets are scarce, and a district-scale resource announcement could trigger rapid institutional interest. Hold at WATCH; re-evaluate on 2026 assay batch or maiden resource announcement.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from April 29 2026 MD&A — strike/expiry not disclosed in filing summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from April 29 2026 MD&A — strike/expiry not disclosed in filing summary table"
+    }
+  ]
+}
