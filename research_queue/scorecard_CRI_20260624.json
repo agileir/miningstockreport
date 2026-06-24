@@ -1,0 +1,40 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "CEO transition in May 2026 (Tasheel Jeerh replacing interim CEO Conan McIntyre) introduces execution uncertainty at a critical pre-resource juncture. McIntyre remains on the board. Insider buying provides partial offset: Director Malik Easah exercised 10M warrants at $0.15 (~$1.5M commitment) in November 2025, and McIntyre purchased 2M shares at $0.05 in July 2025. New CEO Jeerh has no visible public track record at CRI yet, and leadership continuity risk is elevated during an active drill-program phase when operational momentum matters most.",
+
+  "geology_score": 3,
+  "geology_notes": "Frost Cove Antimony Mine prospect on the Black Raven Property, Newfoundland and Labrador. Final 2025 drill holes returned high-grade antimony: 7.25% Sb over 1.98m, 6.44% Sb over 2.06m, 4.84% Sb over 1.00m, and 3.94% Sb over 1.60m along an 800m strike with ~100m vertical depth — open in all directions. A second polymetallic system has been discovered on the property. A two-rig 2026 drill program is underway with nine holes completed and assays pending from the northern Frost Cove extension. No NI 43-101 resource estimate exists; Churchill is accumulating drill data to support a maiden resource. Grade is genuinely high for a primary antimony vein system, but intersection widths are narrow (classic vein-hosted morphology) and no resource envelope has been defined. Score remains mid-range pending resource delineation.",
+
+  "capital_score": 2,
+  "capital_notes": "316.7M shares outstanding (April 2026 MD&A) is a heavy load for a pre-resource stage explorer. Fully diluted at 342.8M — approximately 8% dilution from instruments, which is manageable in isolation but the absolute outstanding count is large. Share instruments per April 2026 MD&A: 2.625M warrants (strike/expiry not extracted) and 23.45M options (strike/expiry not extracted). No flow-through tranches were detected in the April 2026 MD&A or available public disclosures. Recent financings: $3M non-brokered PP at $0.08/share (September 2025, 37.5M shares); 25M warrants exercised at $0.15 for $3.75M treasury addition (November 2025). Cash position should be reasonable near-term from the November warrant exercise, but continued two-rig drilling and maiden resource preparation will likely require another raise before year-end.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Near-term: assay results from the nine 2026 drill holes are pending — these are the highest-impact catalyst in the immediate window. Medium-term: maiden NI 43-101 resource estimate is the company's stated objective and would be a significant de-risking event. Golden Baie antimony-gold option agreement (received TSXV approval) adds incremental news flow. Macro backdrop remains strongly positive: China's antimony export restrictions (effective September 2024) have created a sustained supply squeeze and elevated prices, directly benefiting the few Western primary antimony projects. New CEO appointment may attract fresh institutional attention. Risk: pending drill results could disappoint given the narrow, irregular vein-hosted system morphology observed to date.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "No resource estimate makes P/NAV calculation impossible at this stage; nav_per_share is not calculable. Historical Frost Cove Antimony Mine infrastructure provides economic precedent on the property. Antimony's critical mineral designation — driven by defence (flame retardants, munitions) and battery applications — makes any advanced Western primary project strategically valuable to nation-state-aligned acquirers. Comparable transactions for primary antimony assets are extremely scarce globally, which cuts both ways (limited comp data, but also limited competing supply). However, pre-resource stage, narrow drill widths, and a heavy share count limit near-term strategic buyer interest. Acquisition optionality is real but highly speculative until a resource is defined.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources holds one of the few active primary Western antimony projects (Frost Cove, Newfoundland) at a moment when China's export restrictions have fundamentally re-rated the commodity's strategic value. High-grade 2025 intercepts — up to 7.25% Sb over 1.98m along an 800m open-ended strike — validate the mineralised system, and nine 2026 drill holes are awaiting assays. The macro case for Western antimony supply remains compelling. Against this: no resource estimate exists, the share count (316.7M outstanding) is large for a pre-resource explorer, and a CEO transition in May 2026 adds near-term execution uncertainty. No new material public disclosures were available at the time of this update (all web sources returned access errors). WATCH: pending assay results from the two-rig 2026 program are the next decision point; a maiden resource announcement would materially upgrade the investable case.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {"type": "warrant", "count": 2625000, "strike_price": null, "expiry": null, "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A"},
+    {"type": "option", "count": 23450000, "strike_price": null, "expiry": null, "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A"}
+  ]
+}
