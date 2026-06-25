@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "No IR page or news releases were reachable in this run (all three web fetches returned 403). The April 2026 MD&A on file confirms the company is active and reporting, which is a baseline positive. The 23.45M options outstanding at unknown strike prices and the 316.7M share count suggest a team that has been active in capital markets through multiple rounds, but without IR-accessible bios or insider-ownership data the track record cannot be verified. Middle score assigned pending access to management disclosure.",
+
+  "geology_score": 2,
+  "geology_notes": "The NI 43-101 technical report (dated August 2023) yielded no extractable resource or reserve table rows in the automated harvesting pass (first 60 pages scanned, no matches). This indicates the project remains at or near the pre-resource stage — likely a geological assessment and exploration-target report rather than a resource estimate. The Hells Gate Antimony Project in Central Newfoundland sits in a geologically prospective corridor for antimony mineralisation with meaningful historical drilling. Without a compliant NI 43-101 resource estimate, geology scores to 2. A maiden inferred resource would be the single most value-creating disclosure.",
+
+  "capital_score": 2,
+  "capital_notes": "Shares outstanding 316.7M, fully diluted 342.8M. The 23.45M options and 2.625M warrants carry unknown strike prices and expiry dates — the April 2026 MD&A summary table captured counts only, not individual tranches. No flow-through financing tranches were detected in the MD&A harvest. The elevated share count relative to exploration stage is a structural headwind: per-share economics are compressed even in a favourable antimony price environment. A strategic or flow-through financing at a meaningful premium would improve this score, but the current structure warrants caution.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Antimony remains constrained by Chinese export restrictions (controls announced September 2024 and extended) with spot prices reaching multi-decade highs. Western-jurisdiction antimony assets hold genuine strategic optionality — Newfoundland has active provincial support for critical-mineral development and good infrastructure access. However, without access to the company's news releases, no specific near-term catalysts (assay results, resource update, strategic partner, offtake) could be confirmed. Score reflects the macro tailwind against limited company-specific catalyst visibility.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "Without a compliant NI 43-101 resource estimate a P/NAV multiple cannot be computed and peer comparables are limited. The antimony critical-mineral context makes Hells Gate strategically interesting to defence-supply-chain buyers, battery manufacturers, and larger producers seeking western-sourced antimony, but any acquisition premium would be priced on exploration upside rather than defined resource value. Score advances to 3 or above when a resource estimate is established and comparable M&A metrics become applicable.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (CRI.V) holds the Hells Gate Antimony Project in Central Newfoundland — a real asset in a real mining jurisdiction at a genuinely extraordinary moment for antimony. China's 2024 export controls reset the strategic value of any western-source antimony project, and Newfoundland's jurisdiction risk is minimal. That is the bull case. The constraint is structural: at 316.7M shares outstanding, no compliant NI 43-101 resource estimate, and limited visibility into management track record or near-term catalysts, the per-share upside path is unclear. The company is worth watching closely: a maiden inferred resource or drill-program announcement would be the inflection point that moves this to BUY consideration. Without it, WATCH.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from MD&A summary table"
+    }
+  ]
+}
