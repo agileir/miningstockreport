@@ -1,0 +1,74 @@
+[
+  {
+    "headline": "PENTO: FED WILL CUT, NOT HIKE — \"MARKETS ARE ABOUT TO BE SURPRISED\"",
+    "url": "https://www.moneymetals.com/news/2026/06/27/michael-pento-says-the-fed-is-about-to-surprise-markets",
+    "source_name": "Money Metals Exchange",
+    "category_slug": "opinion-analysis",
+    "snippet": "Macro strategist Michael Pento told Money Metals Exchange that despite the current consensus expecting further Fed rate hikes, the central bank is more likely to cut rates given tightening credit conditions and elevated real yields near decade highs. Pento argues a Fed pivot would catch the market off guard and is a significant contrarian bullish catalyst for gold and silver.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "BEARS TAKE CHARGE: 44% OF WALL ST ANALYSTS SEE GOLD LOWER; MAIN STREET AGREES",
+    "url": "https://www.kitco.com/news/article/2026-06-26/bears-abound-wall-street-and-main-street-markets-digest-feds-hawkish-bias",
+    "source_name": "Kitco News",
+    "category_slug": "gold-silver",
+    "snippet": "Four of ten Wall Street analysts expect gold prices to fall in the coming week — the most bearish reading in three months — while only two are bullish. Main Street retail investors were equally cautious, with 46% bearish vs. 28% bullish. Gold closed Friday at $4,063 after briefly slipping below $4,000 for the first time since May as markets digest the FOMC's hawkish dot-plot bias.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD MARKS FOURTH STRAIGHT WEEKLY LOSS AS FED HAWKS SEND DOLLAR TO 12-MONTH HIGH",
+    "url": "https://blog.pmi.ky/2026/06/26/the-precious-metals-week-in-review-june-26th-2026/",
+    "source_name": "Precious Metals International",
+    "category_slug": "market-macro",
+    "snippet": "Gold settled Friday at $4,063 per ounce — a fourth consecutive weekly decline — as nine of eighteen FOMC members projected at least one rate hike in their dot-plot submissions, driving the U.S. dollar to a 12-month high. Silver closed at $59.04 (+1.32%), compressing the gold/silver ratio to 68.8. Chair Warsh declined to disclose his own projection. June non-farm payrolls data, due July 3, is the next major macro catalyst.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "METALS CREEK DRILLS 40.61 G/T GOLD OVER 2.6M ON TIMMINS PORCUPINE FAULT",
+    "url": "https://www.newsfilecorp.com/release/302804/Metals-Creek-Returns-40.61-gt-Gold-over-2.6-meters-at-Ogden-Gold-Project-in-Timmins-Ontario",
+    "source_name": "Newsfile Corp",
+    "category_slug": "exploration-discovery",
+    "snippet": "Metals Creek Resources and joint venture partner Discovery Mining Corp. (50/50) have reported a drill intersection of 40.61 g/t gold over 2.6 metres — including 152 g/t over 0.6 metres — at the Ogden Gold Project near Timmins, Ontario. The project sits on the Porcupine-Destor Fault Zone, the structural corridor hosting the Timmins Camp's historic 70-million-ounce production district.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GLOBAL URANIUM DEPLOYS 300-SENSOR SEISMIC ARRAY 28KM FROM MCARTHUR RIVER",
+    "url": "https://www.globenewswire.com/news-release/2026/06/26/3318177/0/en/Global-Uranium-Corp-Commences-Ambient-Noise-Tomography-Survey-at-the-Astro-Uranium-Project-Saskatchewan.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "uranium-energy",
+    "snippet": "Global Uranium Corp (CSE:GURN) has commenced an Ambient Noise Tomography (ANT) passive seismic survey at its Astro uranium project in Saskatchewan's Athabasca Basin, deploying 300 sensors across a 25-kilometre conductive corridor. The project sits 28 kilometres from Cameco's McArthur River mine — the world's highest-grade uranium deposit — at a time when uranium spot prices trade near $87 per pound.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "XCITE URANIUM MAPS EM CONDUCTORS ON BLACK BAY FAULT AT BEAVERLODGE, SK",
+    "url": "https://www.newsfilecorp.com/release/302868/Xcite-Uranium-Define-Prospective-Geophysical-Trends-at-Don-Lake-and-Smitty-Uranium-Projects-SK",
+    "source_name": "Newsfile Corp",
+    "category_slug": "uranium-energy",
+    "snippet": "Xcite Uranium (TSXV:XUU) and Eagle Plains Resources have completed VTEM airborne geophysical surveys at the Don Lake and Smitty uranium projects in Saskatchewan's Beaverlodge district. The surveys reveal electromagnetic conductors trending parallel to the Black Bay Fault — the structural corridor hosting historic uranium occurrences in the region — and will guide the next round of drill targeting.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SURGE BATTERY METALS CLOSES UPSIZED $36M NEVADA LITHIUM DEAL; TREASURY HITS $75M",
+    "url": "https://www.newsfilecorp.com/release/302835/Surge-Battery-Metals-Announces-Closing-of-Upsized-Private-Placement-for-Gross-Proceeds-of-36-Million",
+    "source_name": "Newsfile Corp",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Surge Battery Metals (TSXV:NILI) has closed an upsized C$36 million private placement at $0.60 per unit, with SAF Group and Hess Capital as lead investors. Total treasury now stands at approximately $75 million. Proceeds advance the Nevada North Lithium project as spodumene concentrate prices test two-year highs near $2,600 per tonne.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GUARDIAN METAL TUNGSTEN PFS DUE MONDAY; DOE BACKING FIRST US MINE IN 15 YEARS",
+    "url": "https://investingnews.com/guardian-metal-resources-plc-announces-pilot-mountain-pfs-update-investor-presentation/",
+    "source_name": "Investing News Network",
+    "category_slug": "rare-earths",
+    "snippet": "Guardian Metal Resources (LSE:GMET) expects to release a Pre-Feasibility Study for its Pilot Mountain tungsten project in Nevada by June 30 — potentially establishing the first primary tungsten mine in the United States in 15 years. The U.S. Department of Energy has provided $6.2 million in support, citing tungsten's designation as a critical defense material with domestic supply almost entirely dependent on Chinese imports.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
