@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "No new management disclosures or insider-ownership filings were accessible in the July 2, 2026 news scan. The IR page at churchillresources.com continues to return 403 from datacenter IPs. The April 29, 2026 interim MD&A (extracted 2026-05-14) remains the most recent auditable filing for cap-table purposes. Management has been active on the newsflow side — the Pomley Cove Pond vein-swarm discovery and the Frost Cove high-grade gold-silver release demonstrate sustained field activity in 2026 — but insider ownership, compensation structure, and track record remain unquantifiable from publicly accessible sources. The 23.45M options outstanding across unknown tranches is consistent with exploration-stage equity compensation; aggregate quantum is not alarming at current share count but the lack of strike/expiry transparency is a gap. Score held at 3: management is present, filing, and executing field work, but the analytical inputs for a higher conviction management assessment are not available.",
+
+  "geology_score": 3,
+  "geology_notes": "Churchill's Hells Gate district in the Exploits Subzone of Central Newfoundland is showing materially wider geological significance than the original Frost Cove antimony target. Three new disclosures since the May 2026 data-correction release change the picture: (1) maiden intersections of high-tenor antimony and a new gold-silver system at Black Raven — 800m of structural continuity confirmed; (2) discovery of 20 gold-silver-molybdenum-lead-zinc veins within a 150m wide swarm at Pomley Cove Pond, Black Raven Property — a structurally significant find that implies a broader mineralised corridor rather than isolated vein intercepts; (3) high-grade gold-silver results near the past-producing Frost Cove Antimony Mine including 17.3 g/t Au and 130 g/t Ag. The polymetallic character of the district is now confirmed across multiple spatially separate targets (Frost Cove antimony corridor, Black Raven/Pomley Cove Pond Au-Ag-Mo-Pb-Zn swarm, Golden Baie 30km gold-antimony trend). No NI 43-101 mineral resource estimate has been published; the August 2023 technical report covers only the original Frost Cove target. Score upgraded to 3 from 2: the geological footprint has expanded in a qualitatively meaningful way — multi-commodity, multi-target, with vein-swarm scale at Pomley Cove Pond — though the absence of a compliant resource estimate caps this score until resource-defining drilling is completed and modelled.",
+
+  "capital_score": 2,
+  "capital_notes": "Shares issued and outstanding: 316,681,940 (source: April 29, 2026 interim MD&A, extracted 2026-05-14). Fully diluted: 342,756,940, comprising outstanding plus 2,625,000 warrants plus 23,450,000 options. Strike prices and expiry dates for both the warrant tranche and all option tranches were not captured in the MD&A summary table — only aggregate counts are available. No flow-through financing tranches were detected in the April 2026 MD&A extraction and no flow-through history is apparent from publicly accessible sources for this company. The 316.7M share count remains elevated relative to the project's exploration stage, compressing per-share economics significantly. The Golden Baie TSXV-approved option agreement (March 2026) issued 15,834,097 shares to Canstar as part of the earn-in structure; this is reflected in the current outstanding figure. The resource-expansion story emerging from Pomley Cove Pond and the Frost Cove area will eventually require a resource-backed financing round, which at current share counts will be dilutive unless priced at a meaningful premium. Capital score remains 2 until the share structure is underpinned by a NI 43-101 resource that justifies per-share economics.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "China's September 2024 antimony export controls remain in force; western-hemisphere antimony supply remains a documented strategic priority. Newfoundland and Labrador's critical minerals framework continues to provide regulatory tailwind. On the company-specific side, two recent catalysts have materialised: the Pomley Cove Pond 20-vein swarm discovery and the Frost Cove 17.3 g/t Au / 130 g/t Ag high-grade results. Additionally, Churchill has released a progress update on its antimony-gold evaluation program with assay results described as expected imminently — suggesting another catalyst disclosure is on the near-term horizon. The Golden Baie 400 sq km exploration program (systematic trenching, channel sampling, airborne geophysics, and drilling) is also in progress, adding a second catalyst pipeline. The next significant binary is a maiden NI 43-101 mineral resource estimate anchored on the Frost Cove / Black Raven corridor; no timeline has been publicly committed. Score held at 3: macro tailwinds persist, near-term catalysts have materialised, and more assay results are imminent, but a resource-defining event (the true re-rating catalyst) remains unscheduled.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "Without a compliant NI 43-101 mineral resource estimate, a P/NAV multiple cannot be calculated and peer-comparable acquisition analysis cannot be performed. The strategic case for Hells Gate is strengthening: the polymetallic vein-swarm character emerging from Pomley Cove Pond (Au-Ag-Mo-Pb-Zn) and the high-grade gold-silver results at Frost Cove broaden the commodity appeal beyond antimony alone. This expansion of the commodity story could attract a wider field of potential acquirers — gold-silver royalty companies, polymetallic strategics, and critical-mineral-focused majors in addition to antimony-specific buyers. However, acquisition interest without a resource estimate is speculative-optionality priced, not NAV-anchored, which limits achievable multiples. The Golden Baie option (400 sq km, 30 km trend) adds district-scale blue-sky. Score advances when a resource estimate provides a NAV anchor against which $/t antimony equivalent and EV/resource tonne comparables can be benchmarked against recent transactions.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (CRI.V) holds the Hells Gate district in Central Newfoundland — a western-hemisphere antimony and polymetallic project that is showing wider geological significance than the original Frost Cove antimony thesis suggested. China's 2024 export controls have made antimony a genuinely critical-mineral story, and Newfoundland's regulatory and infrastructure environment is favourable. Two new geological developments since the May 2026 data-correction release elevate the project's credibility: (1) the discovery of 20 gold-silver-molybdenum-lead-zinc veins in a 150m wide swarm at Pomley Cove Pond, Black Raven Property, establishing vein-swarm scale in the northern portion of the district; and (2) high-grade gold-silver results near the past-producing Frost Cove Mine (17.3 g/t Au, 130 g/t Ag), confirming multi-commodity grade potential alongside antimony. More assay results from the active antimony-gold evaluation program are described as imminent. The Golden Baie option (400 sq km, 30 km trend) adds a district-scale gold-antimony exploration pipeline. The structural constraints remain unchanged. At 316.7M shares outstanding with no NI 43-101 mineral resource estimate, per-share upside is unquantifiable and the scoring ceiling is capped. Confidence remains LOW — no resource, no accessible IR page, no insider ownership data, and no management commentary anchors a high-conviction call. Key inflection points that would move this to a higher-conviction WATCH or BUY consideration: (1) maiden inferred resource published under NI 43-101, (2) positive assays from the imminent evaluation program results confirming the Pomley Cove Pond vein-swarm extends at depth and at economic widths, (3) strategic partnership or institutional placement that validates NAV.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    }
+  ]
+}
