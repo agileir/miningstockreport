@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "No new management disclosures or insider-ownership filings surfaced in the July 4, 2026 news scan. The IR page at churchillresources.com continues to return 403 from datacenter IPs. The April 29, 2026 interim MD&A (extracted 2026-05-14) remains the most recent auditable filing for cap-table purposes. Management has maintained consistent newsflow across the evaluation program — the high-grade zinc grab results at Black Raven are the latest delivery — demonstrating active field execution and communications. However, insider ownership levels, compensation structure, and management track records remain unquantifiable from accessible sources this run. The 23.45M options outstanding across unknown tranches is consistent with exploration-stage compensation; the aggregate quantum is not alarming at the current share count, but the absence of strike and expiry transparency is a persistent gap. Score held at 3: management is present, active, and filing, but inputs needed for a higher-conviction management assessment are unavailable.",
+
+  "geology_score": 3,
+  "geology_notes": "New July 2026 development: Churchill released high-grade zinc grab sample results from polymetallic veins at the Black Raven property, Central Newfoundland — three grab samples returned 5.25%, 11.03%, and 12.11% Zn alongside high-grade gold, silver, and lead values. This partially delivers on the evaluation program assay results described as 'imminent' in the June 2026 newsflow and represents a new commodity confirmation not previously centre-stage in the Black Raven story. Zinc grades at 12.11% are exceptional even by grab-sample standards, reinforcing the interpretation of a high-grade polymetallic vein system rather than a narrow antimony corridor. Combined with the prior disclosures — the 20-vein Au-Ag-Mo-Pb-Zn swarm at Pomley Cove Pond (150m structural width), the 17.3 g/t Au / 130 g/t Ag Frost Cove high-grade results, and the 7.25% Sb / 1.98m Frost Cove antimony intersection — the Hells Gate district now has a demonstrated critical-mineral assemblage across multiple commodity suites. The fundamental ceiling is unchanged: all results to date derive from grab samples, channel sampling, and early-stage drilling. No NI 43-101 mineral resource estimate has been published; the August 2023 technical report covers only the original Frost Cove target. Drill-hole assay results from the evaluation program — the true resource-definition step — may still be pending. Score holds at 3: the geological footprint has broadened with zinc as a confirmed commodity, but the scoring ceiling is set by the absence of a compliant resource.",
+
+  "capital_score": 2,
+  "capital_notes": "Shares issued and outstanding: 316,681,940 (source: April 29, 2026 interim MD&A, extracted 2026-05-14). Fully diluted: 342,756,940, comprising outstanding plus 2,625,000 warrants plus 23,450,000 options. Strike prices and expiry dates for both the warrant tranche and all option tranches were not captured in the MD&A summary table — only aggregate counts are available from the pre-extracted filing. No flow-through financing tranches were detected in the April 2026 MD&A extraction, and no flow-through history is apparent from accessible sources for this company. The 316.7M share count remains elevated relative to the project's exploration stage, compressing per-share economics significantly. The Golden Baie TSXV-approved option agreement (March 2026) issued 15,834,097 shares to Canstar as part of the earn-in structure; this is reflected in the current outstanding figure. The expanding geological story — now covering antimony, gold, silver, molybdenum, lead, and zinc across two major properties — will ultimately require resource-backed financing, which at current share counts will be dilutive unless priced at a meaningful premium. Capital score remains 2 until the share structure is underpinned by a NI 43-101 resource that justifies per-share economics.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "New catalyst delivered July 4, 2026: Churchill released high-grade zinc grab sample results at Black Raven (5.25%, 11.03%, 12.11% Zn with associated high-grade Au, Ag, Pb). This partially satisfies the evaluation program assay disclosure that had been flagged as imminent in late June 2026. However, grab samples are selective by nature; if drill-hole assay results from the evaluation program remain pending, those represent the next binary catalyst — the step that would allow resource modelling to commence. China's September 2024 antimony export controls remain in force and continue to provide macro tailwind for western-hemisphere critical mineral projects. Newfoundland's critical minerals regulatory framework remains supportive. The Golden Baie 400 sq km exploration program (systematic trenching, channel sampling, airborne geophysics, and drilling) provides a second catalyst pipeline. The nearest re-rating catalyst beyond the pending drill assays remains a maiden NI 43-101 mineral resource estimate anchored on Frost Cove / Black Raven; no timeline has been publicly committed. Score held at 3: the zinc grab results are a positive partial delivery, but the next material binary — drill-hole assays and ultimately a resource estimate — remains outstanding.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "Without a compliant NI 43-101 mineral resource estimate, a P/NAV multiple cannot be calculated and peer-comparable acquisition analysis cannot be performed. The zinc grab results (12.11% Zn) incrementally broaden the commodity appeal: the Hells Gate district now has a documented critical-mineral assemblage of antimony, gold, silver, molybdenum, lead, and zinc — a profile that could attract base-metal strategics, critical-mineral royalty companies, and polymetallic juniors in addition to antimony-specific buyers. The district-scale consolidation via the Golden Baie option (400 sq km, 30 km trend) adds blue-sky acquisition optionality. However, without a resource, acquisition interest remains speculative-optionality priced rather than NAV-anchored, which limits achievable transaction multiples. Score advances when a NI 43-101 resource provides a NAV anchor against which $/t antimony-equivalent and EV/resource-tonne comparables can be benchmarked against recent critical-mineral transactions.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (CRI.V) holds the Hells Gate district in Central Newfoundland — a western-hemisphere antimony and polymetallic project that continues to broaden in geological scope. The new development as of July 4, 2026: Churchill released high-grade zinc grab samples from polymetallic veins at the Black Raven property — 5.25%, 11.03%, and 12.11% Zn alongside high-grade gold, silver, and lead — partially delivering on the evaluation program assay results that had been described as imminent in late June 2026. The 12.11% Zn grab is an exceptional surface indication and adds zinc to a commodity assemblage that already includes antimony, gold, silver, molybdenum, and lead across the Hells Gate district. China's 2024 antimony export controls remain in force, providing durable macro tailwind. The structural constraints are unchanged: at 316.7M shares outstanding with no NI 43-101 mineral resource estimate, per-share upside is unquantifiable and the scoring ceiling is capped. Confidence remains LOW — no resource, no accessible IR page, no insider ownership data. Key inflection points: (1) drill-hole assay results from the evaluation program confirming the Black Raven and Pomley Cove Pond systems extend at depth and at economic widths, (2) maiden inferred resource under NI 43-101, (3) strategic partnership or institutional placement that validates NAV.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    }
+  ]
+}
