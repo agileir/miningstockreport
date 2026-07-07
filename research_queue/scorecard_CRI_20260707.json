@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "No new management disclosures accessible in today's scan — all three web fetches (company IR, Junior Mining Network, Stockhouse) returned 403 from the datacenter runner. The outstanding open item from July 6 remains: board appointment of Jessie Liu-Ernsting, announced via press release, full text still blocked at 403 from this runner. Without confirmation of her background — capital markets, technical, or sector — the directional governance signal cannot be converted into a scoring move. Insider ownership levels, compensation structure, and management track records at comparable explorers remain unquantifiable from accessible sources. The 23.45M options outstanding (April 2026 MD&A aggregate; no strike/expiry breakdown extracted) is within normal range for an exploration-stage company at this share count. Score held at 3: adequate management profile for stage, no red flags, no confirmed upgrades.",
+
+  "geology_score": 3,
+  "geology_notes": "No new geological results accessible in today's scan (all fetches 403). Most recent material geological disclosures remain: (1) Black Raven zinc grab samples July 4, 2026 — three samples at 5.25%, 11.03%, 12.11% Zn with associated high-grade Au, Ag, and Pb; (2) 20-vein Au-Ag-Mo-Pb-Zn swarm at Pomley Cove Pond, 150m structural width; (3) Frost Cove flagship — 17.3 g/t Au / 130 g/t Ag high-grade grab and 7.25% Sb / 1.98m channel intersection. The Hells Gate district has a demonstrated critical-mineral assemblage spanning antimony, gold, silver, molybdenum, lead, and zinc across multiple targets. The 400 sq km Golden Baie consolidated land package adds a 30 km regional trend. Ceiling is unchanged: all results remain grab-sample and channel-sample grade — exceptional as surface indicators but not NI 43-101 compliant. No mineral resource estimate published; August 2023 technical report covers Frost Cove only. Drill-hole assay results from the evaluation program remain the next geological inflection point and appear still pending. Score held at 3: geological footprint is broad and high-grade at surface; scoring ceiling requires a compliant NI 43-101 resource estimate.",
+
+  "capital_score": 2,
+  "capital_notes": "Cap-table from extracted April 29, 2026 interim MD&A (extracted 2026-05-14): shares issued and outstanding 316,681,940; fully diluted 342,756,940, comprising outstanding plus 2,625,000 warrants plus 23,450,000 options. Strike prices and expiry dates for both instruments were not captured in the MD&A summary table — only aggregate counts available. No flow-through financing tranches were detected in the April 2026 MD&A extraction, and no flow-through history is apparent from other accessible sources. The 316.7M share count is elevated relative to the project's exploration stage and compresses per-share economics materially. The pending board appointment of Jessie Liu-Ernsting (July 2026) may foreshadow an upcoming financing that would add further dilution — nature, price, and terms unknown. Capital score remains 2: the structural burden of a 316.7M share float at a pre-resource stage is not offset by available data until a NI 43-101 resource provides an NAV reference to anchor per-share upside.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "No new catalyst disclosures accessible today (all fetches 403). Outstanding catalysts in order of proximity: (1) Drill-hole assay results from the evaluation program — timeline not confirmed from accessible sources but the July 4, 2026 Black Raven zinc grab results signal active fieldwork, suggesting assays may be in-queue; (2) Confirmation of Jessie Liu-Ernsting's appointment scope — if she has capital markets / M&A background, a financing or partnership announcement may follow; (3) Maiden NI 43-101 inferred resource at Frost Cove / Black Raven — longer-dated but highest-impact binary event; (4) Macro tail: China September 2024 antimony export controls remain in force, sustaining strategic buyer interest in western-hemisphere antimony supply. The Golden Baie 400 sq km program provides a second parallel catalyst pipeline. Score held at 3: identifiable near-term catalysts exist, but none have crystallised since the July 4 Black Raven release.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "Without a compliant NI 43-101 mineral resource estimate, a P/NAV multiple cannot be calculated and peer-comparable acquisition analysis cannot be performed. The Hells Gate district's critical-mineral assemblage (Sb, Au, Ag, Mo, Pb, Zn) is strategically relevant to base-metal majors, royalty companies, and critical-mineral strategics, particularly given the post-export-control geopolitical premium on western antimony supply. The district-scale 400 sq km Golden Baie land consolidation adds blue-sky optionality. However, at pre-resource stage, any acquisition interest is speculative-optionality priced, not NAV-anchored — comparable $/t AntimonyEq and EV/resource-tonne benchmarks cannot be applied without a resource. The new board appointment may signal early strategic or M&A dialogue, but this remains speculative until confirmed. Score advances when a NI 43-101 resource provides the NAV anchor for acquisition metrics.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (CRI.V) holds the Hells Gate critical-mineral district in Central Newfoundland — a western-hemisphere antimony and polymetallic project with a demonstrated surface-level assemblage across antimony, gold, silver, molybdenum, lead, and zinc. Today's scan found no new accessible data — all three web fetches returned 403 from the datacenter runner. Factor scores are unchanged from the July 6 baseline: mgmt 3, geo 3, cap 2, cat 3, acq 2. The two open items from July 6 remain: (1) confirmation of Jessie Liu-Ernsting's board appointment scope and background, (2) drill-hole assay results from the evaluation program (fieldwork signalled active by July 4 Black Raven zinc grab results). Cap-table is carried from the May 14, 2026 extraction of the April 29, 2026 interim MD&A: 316,681,940 shares outstanding, 342,756,940 fully diluted, 2,625,000 warrants and 23,450,000 options (no strike/expiry data in the MD&A summary table). No NI 43-101 resource estimate exists; the August 2023 technical report covers Frost Cove only. China's 2024 antimony export controls sustain macro tailwind. Confidence LOW — no resource, all IR channels 403-blocked from this runner, insider ownership and management track records unquantifiable. Key inflection points: (1) drill-hole assay results, (2) Liu-Ernsting background confirmation + associated corporate event, (3) maiden inferred NI 43-101 resource.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    }
+  ]
+}
