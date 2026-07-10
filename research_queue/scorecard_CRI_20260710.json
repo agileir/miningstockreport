@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "Management is executing a focused critical-mineral antimony consolidation strategy in Newfoundland, optioning the Golden Baie property from Canstar Resources in February 2026 and receiving TSXV approval promptly — an indicator of regulatory competence. The team is described as having decades of combined experience in Canadian junior exploration. Insider ownership is not directly visible in available public data, which limits scoring; the large share count (~317M shares) implies multiple financing rounds and some dilution tolerance. No egregious related-party concerns identified in public filings. Score constrained to 3 pending visibility into insider participation and management track record in bringing assets to production or acquisition.",
+
+  "geology_score": 3,
+  "geology_notes": "Black Raven's 2025 drilling returned high-grade antimony intercepts including 7.25% Sb over 1.98m near the Southern Shaft at Frost Cove with ~800m of confirmed strike. A second polymetallic system was identified at Taylors Room (gold-silver) and a gold-silver-lead-zinc system at Pomley Cove Pond, demonstrating district-scale potential. Historical context is strong: the Beaver Brook Antimony Mine ~100km south (China Minmetals, on care and maintenance) was one of the largest antimony producers in the Western Hemisphere. Golden Baie (29 licences, 39,925 ha) is an earlier-stage property with systematic 2026 exploration planned. The 2023 NI 43-101 technical report on file does not contain a formal resource estimate for Black Raven — high-grade intercepts are encouraging but not yet converted to a compliant resource, which caps the geology score.",
+
+  "capital_score": 2,
+  "capital_notes": "With 316.7M shares issued and 342.8M fully diluted, Churchill carries a large share structure for an early-stage explorer with no NI 43-101 resource. Options outstanding (23.45M) represent ~7.4% dilution from the current issued count; warrants are modest at 2.625M shares with no strike/expiry detail available from the April 2026 interim MD&A. No flow-through tranches were detected in the most recent filing, though flow-through financing is common for NL junior explorers and may have occurred in prior years. Multiple active exploration programs across two properties will require continued equity financing, creating ongoing dilution pressure. The large share base relative to exploration stage limits re-rating potential on a per-share basis.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "Multiple near-term catalysts are in play for 2026: (1) assay results from Black Raven trenching and drilling were described as 'expected imminently' in March 2026 press releases — results likely released or near-term as of this report date; (2) the 2026 systematic exploration program at Golden Baie (data review, trenching, channel sampling, drilling, airborne geophysics) provides a pipeline of newsflow through the year; (3) antimony's designation as a critical mineral in both Canada and the US creates potential for government funding, strategic partnerships, or offtake interest that could rapidly re-rate the stock; (4) Beaver Brook's care-and-maintenance status and China Minmetals' need for additional regional feed material is a latent corporate catalyst. The density of potential newsflow across two active properties justifies a score of 4.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "Without an NI 43-101 resource estimate for either Black Raven or Golden Baie, P/NAV analysis is not possible. Comparable antimony M&A transactions in North America are rare, making precedent-transaction benchmarking difficult. The strategic value of the consolidated position in central Newfoundland — proximity to Beaver Brook's existing milling infrastructure and China Minmetals' ongoing regional presence — is a qualitative positive, and supply-chain urgency around Western antimony sources is a plausible acquisition dynamic. However, no acquirer would pay a material premium without a compliant resource. Score remains 2 until a resource is delineated and a P/NAV multiple can be established.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources is one of a very small number of TSXV-listed primary antimony explorers in Canada at a time when antimony is classified as a critical mineral by both Canada and the United States. Its consolidated position in central Newfoundland — Black Raven plus the newly optioned Golden Baie (39,925 ha) — covers a district with proven historical production (Beaver Brook, ~100km south) and high-grade modern intercepts (7.25% Sb over 1.98m at Frost Cove). The 2026 exploration calendar is active: Black Raven assay results near-term, Golden Baie program launching with airborne geophysics and drilling. The bull case is a discovery-driven re-rating in a commodity with significant Western-supply urgency; the Beaver Brook mill optionality is a latent corporate catalyst. The bear case is structural: ~317M shares issued, no NI 43-101 resource on either property, and a long path from high-grade intercepts to economic mine plans. Rate WATCH — compelling strategic narrative and critical-mineral tailwind, but revisit only when a formal NI 43-101 resource is filed. A move to BUY would require a compliant resource at Black Raven or a corporate transaction announcement.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from MD&A summary table"
+    }
+  ]
+}
