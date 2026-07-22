@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "Management credibility cannot be independently assessed. The company IR website (churchillresources.com) returned HTTP 403 on all three automated fetch attempts — a pattern that has persisted across multiple consecutive daily runs. The April 2026 MD&A (most recent filing, extracted 2026-05-14) confirms the company is operationally active and filings are current, but provides no accessible biographical data, insider-ownership breakdown, or verifiable record of project advancement milestones. Annual financial statements filed December 2025 confirm continuity of operations. Without accessible management bios or a disclosed insider-ownership schedule, alignment between management and shareholders cannot be scored. Score held at 2 pending IR access or a future filing that includes a share ownership table.",
+
+  "geology_score": 2,
+  "geology_notes": "The Foxtrot project is a past-producing antimony mine in the Gander River area of central Newfoundland — historical production provides geological proof-of-concept and confirms metallurgical amenability at site. The most recent NI 43-101 technical report on file is dated August 2023. Pre-extraction of that report (first ~60 pages) yielded no resource or reserve table rows matching standard NI 43-101 estimate formats; resource_measured, resource_indicated, and resource_inferred fields are all null. No current mineral resource estimate in compliant form is available in the extracted data. Antimony grades at Foxtrot have historically been elevated relative to global peers, and the Newfoundland jurisdiction is Tier-1 with an active mining regulatory framework. However, the project remains at the exploration or early-development stage from a public-disclosure standpoint — no updated resource estimate has been filed since the August 2023 technical report, and the pre-extraction of that report did not capture a resource table. Score of 2 reflects the gap between historical asset quality and the absence of a documented current resource.",
+
+  "capital_score": 2,
+  "capital_notes": "Per the April 2026 MD&A (extracted 2026-05-14): 316,681,940 shares issued and outstanding; 342,756,940 shares fully diluted. Dilutive instruments: 2,625,000 warrants and 23,450,000 options; strike prices and expiry dates for all instruments were not extractable from the MD&A summary table. The option pool (23.45 million) represents approximately 7.4% of issued shares — elevated for a junior at the pre-resource stage, reflecting management/director retention programs common in small-cap exploration companies. No flow-through share tranches were detected in the extracted filing, which removes a typical near-term hold-release overhang. The 316.7 million basic share count is structurally heavy for a pre-resource junior and constrains per-share NAV even under optimistic scenarios. Score of 2 reflects the combined weight of a high share count and incomplete instrument-level detail preventing full dilution quantification.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "The macro catalyst for a non-Chinese antimony development asset in a Tier-1 jurisdiction remains the strongest argument for maintaining a WATCH. China's formal antimony export controls, imposed September 2024, restricted supply from a producer controlling an estimated 70–80% of global primary antimony output and triggered active government interest from Canada, the US, the EU, and Australia in domestic and allied critical mineral supply chains. Antimony is explicitly named across multiple critical minerals frameworks including Canada's Critical Minerals Strategy and the US Defense Production Act designated minerals list. Foxtrot, as a past-producing Canadian antimony mine in Newfoundland, is well-positioned for NRCan and provincial grant programs and potential strategic partnership interest. Company-specific catalysts — drill programs, resource updates, government grants, offtake discussions — cannot be identified due to continued IR inaccessibility. Score of 3 reflects the durable and well-established macro tailwind, offset by inability to identify or confirm company-level execution milestones.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "No NI 43-101 resource estimate is available to support a P/NAV calculation or comparables-based acquisition analysis. NAV per share cannot be derived. Strategic acquisition interest in non-Chinese antimony development assets is materially elevated following China's export controls, and a past-producing asset in a Tier-1 jurisdiction would command a jurisdictional premium in any strategic transaction. However, without a defined resource, a potential acquirer has no tonnage and grade basis to anchor a bid — the project is not yet acquirable at a defensible premium beyond speculative option value. Score of 2 reflects elevated strategic interest that cannot be monetised into an acquisition thesis without a resource estimate.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (CRI.V) holds the Foxtrot past-producing antimony mine in central Newfoundland — one of the few Western antimony development assets combining a historical production record, high-grade antimony mineralisation, and a Tier-1 jurisdiction. The investment thesis rests on the macro: China's September 2024 antimony export controls restricted supply from the dominant global producer and generated sustained government and strategic-buyer interest in non-Chinese supply chains. Foxtrot is well-positioned for federal and provincial grant support and strategic partnership interest under this framework. The fundamental constraint on conviction remains data access: the company IR site has returned 403 errors on all automated fetch attempts across multiple consecutive daily runs; the NI 43-101 technical report (August 2023) yielded no compliant resource estimate in the pre-extracted filing; and share-instrument details (strike prices, expiry dates) remain incomplete in the April 2026 MD&A. The 316.7 million basic share count is structurally heavy for a pre-resource junior, and the 23.45 million option pool adds dilution uncertainty that cannot be fully quantified without strike and expiry data. Cap-table sourced from April 2026 MD&A (extracted 2026-05-14). Maintain WATCH at low confidence: the strategic optionality on a critical mineral with documented Western-government urgency in a Tier-1 jurisdiction justifies continued monitoring, but the absence of a defined resource and persistent data opacity prevent higher conviction or a BUY rating.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    }
+  ]
+}
