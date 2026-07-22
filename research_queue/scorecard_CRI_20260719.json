@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "The May 2026 data-compilation correction to Frost Cove results remains the primary management credibility overhang. The company disclosed promptly, but specific corrected intercepts (FC25-17: 2.00% Sb over 0.10m; FC25-27: 13.00% Sb over 0.57m) showed substantially narrower widths than originally reported — a meaningful QA/QC failure for a single-asset explorer whose investment case rests entirely on drill data. The original headline numbers for those holes (~7.25% Sb over 1.98m and ~6.44% Sb over 2.06m) were the basis of significant market attention and their correction materially damaged credibility with early-stage investors. Orderly execution of the Golden Baie option (TSXV-approved March 2026, Canstar share consideration issued) and the launch of the 2026 two-rig program demonstrate operational competence. As of 2026-07-19, all three web fetches were 403-blocked (churchillresources.com, globenewswire.com, finance.yahoo.com) — no new management disclosures could be confirmed for today's cycle. Score cannot recover to 3 until at least one full clean disclosure cycle follows the QA/QC incident; the pending 2026 assay releases from the northern extension are the first test.",
+
+  "geology_score": 3,
+  "geology_notes": "The 2025 maiden drill program at Black Raven established high-grade antimony mineralisation at Frost Cove over approximately 800m strike. Post-QA/QC-correction standout intercepts from the southern zone include a 13.00% Sb over 0.57m hit at FC25-27, with broad high-grade zones confirmed near the Southern Shaft. The 2026 two-rig program completed 9 holes targeting the northern strike extension (~500m untested) with assays pending as of this cycle; the northern extension is the highest geological priority for both scope expansion and resource-estimate readiness. The Pomley Cove Pond gold-silver-molybdenum-lead-zinc vein swarm (20 veins within 150m width, channel-sampling confirmed) produced results including 17.3 g/t Au and 130 g/t Ag. No NI 43-101-compliant resource estimate exists for Black Raven or Golden Baie, which hard-caps the geology score at 3 regardless of intercept quality. Score advances to 4 upon filing of a compliant resource.",
+
+  "capital_score": 2,
+  "capital_notes": "316.7M shares issued and 342.8M fully diluted (per April 2026 interim MD&A extraction dated 2026-05-14) is a heavy share structure for an early-stage explorer with no NI 43-101 resource. The 15.8M shares issued to Canstar as Golden Baie option consideration are included in the current outstanding count. Options total 23.45M (~7.4% dilution above issued); warrants are modest at 2.625M with no strike/expiry detail available from the April 2026 MD&A extraction. No flow-through tranches were detected in the April 2026 MD&A extraction data. Flow-through financing is structurally common for NL-domiciled explorers given the Newfoundland and Labrador Mineral Exploration Tax Credit, and any 2026 equity raise funding the two-rig program would likely carry a 4-month hold-release overhang on FT tranches — investors should watch for any 2026 placement announcements. Two active exploration programs (Black Raven + Golden Baie) sustain ongoing dilution pressure.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "Catalyst density remains high as of 2026-07-19. The Pomley Cove Pond vein press release ('Churchill Reports More High-Grade Gold and Silver Vein Results Including 17.3 g/t Au and 130 g/t Ag') was confirmed indexed in prior research cycles. The 9-hole 2026 Frost Cove northern strike extension (~500m) assays remain the highest-impact near-term catalyst and are still pending. Additional pending catalysts: (1) systematic geophysics and trenching results from Golden Baie; (2) potential critical-mineral grant or federal partnership leveraging Canada/US antimony designation; (3) strategic-partner or offtake inquiry driven by Beaver Brook's proximity and Western supply-chain urgency. All three web fetches for 2026-07-19 were 403-blocked — no new catalyst events could be confirmed or ruled out. Score 4 maintained. Score revises to 5 on confirmed clean results expanding the corrected 2025 intercepts across the northern extension; revises to 2 on a second data-quality failure.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "No NI 43-101 resource exists on either Black Raven or Golden Baie, making P/NAV analysis impossible and nav_per_share accordingly null. Comparable Western-hemisphere antimony M&A transactions are scarce, limiting precedent benchmarking. The strategic rationale is qualitatively strong — consolidated Newfoundland antimony district, proximity to Beaver Brook (historic infrastructure, China Minmetals, care and maintenance), Western supply-chain urgency as antimony is designated critical in both Canada and the US — but cannot be quantified without a compliant resource. The May 2026 QA/QC incident temporarily reduces appeal to a technical acquirer conducting due diligence. Score 2 reflects verifiable high-grade mineralisation and a strategic commodity but no quantifiable value anchor; advances to 3 upon a compliant resource filing.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (TSXV: CRI) remains one of the few primary antimony explorers on Canadian exchanges at a moment when antimony is designated critical in both Canada and the US. Its consolidated Newfoundland footprint — Black Raven (host to the Frost Cove antimony zone) plus the optioned Golden Baie property (39,925 ha, 29 licences, central NL) — covers a district with proven historical production at Beaver Brook and high-grade drill intercepts at Frost Cove. As of 2026-07-19, all three news web fetches were 403-blocked for a second consecutive day (churchillresources.com, globenewswire.com, finance.yahoo.com); no new material news could be confirmed since the 2026-07-17 research cycle. The Pomley Cove Pond vein press release ('Churchill Reports More High-Grade Gold and Silver Vein Results… 17.3 g/t Au and 130 g/t Ag') remains the most recent confirmed public announcement indexed in prior cycles. The 9-hole 2026 Frost Cove northern extension (~500m untested strike) assays remain the highest-impact near-term catalyst and are still pending as of this cycle. Cap-table data sourced from April 2026 interim MD&A extraction (2026-05-14): 316.7M shares issued, 342.8M fully diluted, 23.45M options, 2.625M warrants. Factor scores unchanged from the prior cycle: management 2 (QA/QC correction overhang — clean follow-on disclosure required), geology 3 (no NI 43-101 resource hard-caps the score), capital 2 (heavy share structure for no-resource stage), catalyst 4 (imminent northern extension assays), acquisition 2 (no NAV anchor). WATCH maintained with low confidence given two consecutive days of blocked web access. A move to BUY requires a clean NI 43-101 resource filing plus a demonstrated clean disclosure record post-May 2026 correction.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    }
+  ]
+}
