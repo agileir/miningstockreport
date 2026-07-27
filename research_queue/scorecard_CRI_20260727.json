@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "Management alignment and track record remain difficult to independently assess. The company IR site (churchillresources.com) continues to return HTTP 403 on datacenter IP fetches, as it has throughout all daily runs since at least June 2026. The April 2026 interim MD&A (extracted 2026-05-14) confirms an active filing cadence and a continuing 2026 field program at Frost Cove / Pomley Cove Pond. A leadership transition was referenced in a mid-2026 press-release snippet; executive appointment details have not been confirmed due to persistent 403s on all press-release delivery pages. No insider ownership schedule, biographical detail, or compensation disclosure has been accessible to date. The July 2025 private placement (14,000,000 shares at $0.05 per share) is consistent with management willingness to finance operations at a low share price, which limits near-term alignment signals. Score of 2 maintained: continuity of operations and active drill program are positive signals; leadership transition creates uncertainty; insider alignment cannot be scored above a floor without confirmable data.",
+
+  "geology_score": 3,
+  "geology_notes": "Churchill Resources holds the Foxtrot past-producing antimony mine (Frost Cove / Black Raven property) in central Newfoundland, and has expanded its district land position through the March 2026 Golden Baie option (39,925 ha, TSXV-approved March 27, 2026) and a Black Raven LOI. Confirmed geological highlights from accessible disclosures: (1) FC25-27: 13.00% Sb over 0.57m at Frost Cove — validated after the May 2026 data-correction release that downgraded the broader initial assay dataset; (2) a second new polymetallic system at southern Frost Cove / Black Raven yielding 7.25% Sb over 1.98m; (3) a 20-vein Au-Ag-Mo-Pb-Zn swarm at Pomley Cove Pond with surface channel results including 17.3 g/t Au and 130 g/t Ag near the Frost Cove mine portal; (4) zinc grab samples at Black Raven reaching 5.25%, 11.03%, and 12.11% Zn with associated Au, Ag, and Pb. As of July 27, 2026, nine 2026 drill holes completed at Frost Cove / Pomley Cove Pond (reported as completed circa July 13) remain without confirmed public assay release — fourteen days since the 'imminent' assay update, and no results headline appears in accessible search indices. The August 2023 NI 43-101 technical report remains the most recent on file; its first 60 pages yielded no compliant resource estimate. All five resource/reserve fields are null per extraction. Score of 3 reflects confirmed high-grade multi-commodity mineralisation across a consolidated NL property package, constrained by absence of a compliant resource estimate and pending 2026 assay results.",
+
+  "capital_score": 2,
+  "capital_notes": "Per the April 29, 2026 interim MD&A (extracted 2026-05-14): 316,681,940 shares issued and outstanding; 342,756,940 shares fully diluted (computed: outstanding + 2,625,000 warrants + 23,450,000 options). Dilutive instruments: 2,625,000 warrants and 23,450,000 options; strike prices and expiry dates were not extractable from the MD&A summary table. The option pool (23.45M) represents approximately 7.4% of issued shares — elevated for a pre-resource junior. The $700,000 private placement closed July 10, 2025: 14,000,000 common shares at $0.05 per share, proceeds designated for exploration and general corporate purposes; these shares are already reflected in the April 2026 outstanding count of 316.7M. No warrant attachment on the July 2025 unit terms has been confirmed from accessible sources. No flow-through tranches were detected in the April 2026 MD&A extraction. No confirmed post-April 2026 financing events were found in search results as of July 27, 2026. Score of 2 reflects the structurally heavy 316.7M basic share count for a pre-resource junior, incomplete instrument-level detail preventing full dilution quantification, and a historical $0.05 issuance price signalling a low-priced capital base.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Macro catalyst: China's September 2024 antimony export controls restricted supply from the dominant global producer and have sustained government urgency across Canada, the US, the EU, and Australia for domestic and allied critical mineral supply chains. Antimony is named in Canada's Critical Minerals Strategy and on the US Defense Production Act designated minerals list, making Foxtrot a credible candidate for NRCan/provincial grant support and strategic partnership interest. This macro tailwind remains durable as of July 27, 2026. Company-specific catalyst: nine 2026 drill holes completed at Frost Cove / Pomley Cove Pond (circa July 13) remain without confirmed public assay release as of July 27 — fourteen days since the 'imminent' assay announcement. If released with positive assays, this batch would represent the most significant geological update since the May 2026 data-correction and could serve as a re-rating catalyst. Planned Golden Baie exploration (airborne geophysics, trenching, drilling) adds a second pipeline of future news. Score of 3: durable macro tailwind plus a pending company-specific drill catalyst, offset by inability to confirm release status of the assay batch now 14 days overdue from the 'imminent' announcement.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "No NI 43-101 resource estimate is available to support a P/NAV calculation or comparables-based acquisition analysis. NAV per share cannot be derived. Strategic acquisition interest in non-Chinese antimony development assets in Tier-1 jurisdictions remains elevated following China's export controls. A past-producing property in Newfoundland with confirmed high-grade vein systems and multiple satellite targets across an expanded land position (Golden Baie, Black Raven, Pomley Cove Pond) would command a jurisdictional premium in any strategic transaction. However, without a defined resource, a potential acquirer has no tonnage-and-grade basis to anchor a bid beyond speculative exploration upside. Score of 2: elevated strategic interest that cannot be monetised into a defensible acquisition thesis without a resource estimate.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (CRI.V) holds the Foxtrot past-producing antimony mine in central Newfoundland and has assembled a multi-property district position (Frost Cove/Black Raven, Golden Baie, Pomley Cove Pond) during a period of structurally elevated antimony prices and Western-government urgency over non-Chinese supply chains. The confirmed geological highlights — 13.00% Sb over 0.57m at Frost Cove (validated May 2026), 7.25% Sb over 1.98m at a second polymetallic system, 17.3 g/t Au and 130 g/t Ag at Pomley Cove Pond veins, and up to 12.11% Zn grab samples at Black Raven — establish a credible multi-commodity exploration story across the consolidated land package. Nine 2026 drill holes completed circa July 13 remain without confirmed public assay release as of July 27 (fourteen days since the 'imminent' announcement); no results headline appeared in web search indices. Cap table per the April 2026 MD&A extraction: 316,681,940 shares issued and outstanding; 342,756,940 fully diluted (2,625,000 warrants + 23,450,000 options — strike prices and expiry dates unextracted). No NI 43-101 compliant resource estimate is on file; all resource/reserve fields remain null. The fundamental constraints on conviction are unchanged: heavy basic share count for a pre-resource junior, incomplete warrant/option detail, a recent leadership transition, and persistent IR/news-wire 403s preventing independent verification of most company disclosures. Maintain WATCH at low confidence: the critical-minerals strategic positioning with confirmed high-grade results justifies continued monitoring, but absent a compliant resource and pending assay confirmation, conviction cannot be raised.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    }
+  ]
+}
