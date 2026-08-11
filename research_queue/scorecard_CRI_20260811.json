@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "CEO Tasheel Jeerh assumed the role effective May 5, 2026, framed as accelerating strategic growth and exploration for critical minerals in Newfoundland and Labrador. The IR website remains egress-blocked from the runner. Positive signals from prior research: active filing cadence, confirmed 2026 two-rig field program (nine holes reported completed circa July 13, 2026), and a stated strategic growth mandate at the CEO appointment. Constraining factors: leadership depth beyond the new CEO remains unconfirmable from accessible sources; the succession creates execution and communication transition risk during the critical post-drill period. Twenty-nine days of post-drill silence with no investor update on the pending 2026 assays is a material management disclosure concern — one day longer than yesterday's session. Score of 2: the appointment resolved earlier leadership uncertainty, but insider alignment and the incoming CEO's exploration track record remain unscoreable, and the prolonged communication gap following a completed drill program compounds transition risk.",
+
+  "geology_score": 3,
+  "geology_notes": "Churchill Resources holds the Foxtrot past-producing antimony mine (Frost Cove / Black Raven property) in central Newfoundland, augmented by the March 2026 Golden Baie option (39,925 ha, TSXV-approved March 27, 2026) and a Black Raven LOI. Confirmed geological highlights from accessible disclosures: (1) FC25-27: 13.00% Sb over 0.57m at Frost Cove (validated in the May 2026 data-correction release that downgraded the broader initial assay dataset); (2) a second new polymetallic system at southern Frost Cove / Black Raven yielding 7.25% Sb over 1.98m; (3) a 20-vein Au-Ag-Mo-Pb-Zn swarm at Pomley Cove Pond with surface channel results including 17.3 g/t Au and 130 g/t Ag; (4) zinc grab samples at Black Raven reaching 5.25%, 11.03%, and 12.11% Zn with associated Au, Ag, and Pb. A two-rig 2026 drill program launched March 23; nine holes were reported completed circa July 13 with assay results still pending as of August 11, 2026 — no new geological disclosures confirmed in today's August 2026 web search. The August 2023 NI 43-101 technical report remains the most recent on file; all resource/reserve fields are null per the extracted filings. Score of 3: confirmed high-grade multi-commodity mineralisation across a consolidated and expanding NL property package, constrained by the absence of a compliant resource estimate and twenty-nine days of post-drill assay silence.",
+
+  "capital_score": 2,
+  "capital_notes": "Per the April 29, 2026 interim MD&A (extracted 2026-05-14, sha256: f48119422ed45e5221bbb4bc336ee2176965c42d73986bf3a72af32ac4435736): 316,681,940 shares issued and outstanding; 342,756,940 shares fully diluted (computed: outstanding + 2,625,000 warrants + 23,450,000 options). Dilutive instruments: 2,625,000 warrants and 23,450,000 options; strike prices and expiry dates were not extractable from the MD&A summary table. The option pool (23.45M) represents approximately 7.4% of issued shares — elevated for a pre-resource junior. The $700,000 private placement closed July 10, 2025: 14,000,000 common shares at $0.05 per share, proceeds designated for exploration and general corporate purposes. Flow-through financing: no flow-through tranches were detected in the April 2026 MD&A extraction, and no prior flow-through financing events have been confirmed in any accessible data source. No confirmed post-April 2026 financing events found. Score of 2: the 316.7M basic share count is structurally heavy for a pre-resource junior, incomplete instrument-level detail prevents full dilution quantification, and a historical $0.05 issuance price sits at the lower end of recent market price levels.",
+
+  "catalyst_score": 2,
+  "catalyst_notes": "Macro catalyst intact from prior research: China's September 2024 antimony export controls restricted supply from the dominant global producer, sustaining Western-government urgency for non-Chinese critical mineral supply chains. US DoD funding to domestic antimony projects remains active (over USD $59M to Perpetua Resources' Stibnite project; a $43.4M DPA grant to Alaska Range Resources awarded September 2025). No new CRI corporate news was confirmed in today's web search (IR site egress-blocked; August 2026 search returned no press releases for CRI). Company-specific catalyst status: the 2026 assay batch is now twenty-nine days past the 'imminent' announcement made circa July 13 when the nine 2026 drill holes were reported completed — no results headline confirmed in any accessible source across multiple research sessions spanning this period. The July 15, 2026 ~20% stock decline (closing near C$0.04) remains unexplained. Score of 2: the macro tailwind is intact and durable, but the prolonged assay silence now at twenty-nine days and the unresolved July 15 decline cap the score at 2.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "No NI 43-101 resource estimate is available to support a P/NAV calculation or comparables-based acquisition analysis; nav_per_share is null. Strategic acquisition interest in non-Chinese antimony development assets in Tier-1 jurisdictions remains elevated: US DoD has awarded over USD $100M in DPA grants to domestic antimony projects since late 2025. A past-producing property in Newfoundland with confirmed high-grade vein systems and multiple satellite targets across an expanding land position (Golden Baie, Black Raven, Pomley Cove Pond) would attract a jurisdictional premium in any strategic transaction. At approximately C$0.04 and 316.7M shares, the implied market cap of roughly C$12.7M represents a low absolute valuation that could attract opportunistic strategic interest but also signals persistent investor uncertainty. Without a defined resource, a potential acquirer has no tonnage-and-grade basis to anchor a bid beyond speculative exploration upside. Score of 2.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (CRI.V) holds the Foxtrot past-producing antimony mine in central Newfoundland and has assembled a multi-property district position (Frost Cove/Black Raven, Golden Baie, Pomley Cove Pond) during a period of structurally elevated antimony prices and sustained Western-government urgency over non-Chinese supply chains. Status as of August 11, 2026: no new corporate news was confirmed today — the IR website remains egress-blocked from the runner, and an August 2026 web search returned no press releases for CRI. The 2026 assay batch remains unreleased, now twenty-nine days past the 'imminent' announcement made circa July 13 when the nine 2026 drill holes were reported completed. The CEO transition to Tasheel Jeerh (effective May 5, 2026) remains the last confirmed corporate development reachable from accessible sources. CRI shares fell approximately 20% on July 15, 2026 (closing near C$0.04; implied market cap roughly C$12.7M at 316.7M shares issued); the specific trigger remains unconfirmed after repeated searches across multiple research sessions. Macro tailwind confirmed intact from prior research: US DoD grant programs for domestic antimony supply remain active, with over USD $100M awarded since late 2025 to Tier-1 jurisdiction projects. Antimony is named on Canada's Critical Minerals Strategy and the US Defense Production Act designated minerals list. Confirmed geological highlights from the 2025 campaign: 13.00% Sb over 0.57m at Frost Cove (validated May 2026), 7.25% Sb over 1.98m at a second polymetallic system, 17.3 g/t Au and 130 g/t Ag at Pomley Cove Pond veins, and up to 12.11% Zn grab samples at Black Raven. The two-rig 2026 drill program launched March 23; nine holes completed circa July 13. Cap table per the April 2026 MD&A extraction: 316,681,940 shares issued and outstanding; 342,756,940 fully diluted (2,625,000 warrants + 23,450,000 options — strike prices and expiry dates not extracted). No NI 43-101 compliant resource estimate on file; all resource/reserve fields are null. No flow-through tranches detected in the April 2026 MD&A. Maintain WATCH at low confidence: the intact macro antimony tailwind and confirmed high-grade multi-commodity surface results at an expanding NL property package are genuine positives, but twenty-nine days of assay silence past 'imminent' and the unresolved July 15 stock decline together prevent upgrading conviction. The 2026 assay release remains the single binary event that could meaningfully change the verdict.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    }
+  ]
+}
