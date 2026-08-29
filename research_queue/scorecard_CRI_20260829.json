@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "CEO Tasheel Jeerh (effective May 5, 2026) has now delivered: Spring 2026 assay results confirmed released as of August 29, 2026, ending a 47-day post-completion silence. The Spring 2026 program comprised 23 drillholes with a cumulative depth of 4,267m at the Black Raven Project (Pomley Cove Pond and Frost Cove North), along with extensive trenching, channel, and soil sampling — a materially larger program than the nine-hole partial update from July 13. The commencement of a 5,000m Taylor Brook drilling program with an associated $2,600,000 private placement demonstrates continued capital market access and sequential execution across multiple NL property targets. Score upgrades from 2 to 3: execution risk on the Spring 2026 program has resolved, and the company is actively advancing multiple fronts simultaneously. Constraining factors: insider alignment and historical track record of the CEO remain unconfirmable; management depth beyond the CEO/IR principal is thin for a multi-property explorer.",
+
+  "geology_score": 3,
+  "geology_notes": "Spring 2026 assay results released August 29, 2026 (per web disclosure): headline intercept of 19.23% Sb over 1.40m at Frost Cove North. The Spring 2026 program totalled 23 holes and 4,267m at Pomley Cove Pond and Frost Cove North, with associated trenching, channel, and soil sampling. A new copper-silver prospect was identified grading 0.78% Cu with 6.12 g/t Ag over 6.22m — broadening the polymetallic footprint beyond the core antimony-gold story. Cumulative confirmed highlights across the Black Raven property now include: (1) 19.23% Sb over 1.40m at Frost Cove North (Spring 2026); (2) 35.1% and 29.7% Sb at Black Raven past-producers; (3) 13.00% Sb over 0.57m at Frost Cove (validated May 2026); (4) 9.46% Sb with 35.5 g/t Au and 1,118 g/t Ag discovered 1.2km north of the historic mine; (5) 7.25% Sb over 1.98m at a second polymetallic system near the southern shaft; (6) 17.3 g/t Au and 130 g/t Ag at Pomley Cove Pond veins; (7) up to 12.11% Zn grab samples at Black Raven; (8) Taylors Room system: 10.59 g/t AuEq over 1.05m and 4.12 g/t AuEq over 1.80m; (9) new Cu-Ag intercept 0.78% Cu / 6.12 g/t Ag over 6.22m. The August 2023 NI 43-101 technical report remains the most recent on file; all resource/reserve fields are null per the extracted filings. Taylor Brook property is now entering a dedicated 5,000m drill program. Score of 3: confirmed high-grade, multi-commodity mineralisation across an expanding NL district, constrained by the absence of a compliant resource estimate and the early stage of the Taylor Brook and Golden Baie targets.",
+
+  "capital_score": 2,
+  "capital_notes": "Per the April 29, 2026 interim MD&A (extracted 2026-05-14, sha256: f48119422ed45e5221bbb4bc336ee2176965c42d73986bf3a72af32ac4435736): 316,681,940 shares issued and outstanding; 342,756,940 shares fully diluted (outstanding + 2,625,000 warrants + 23,450,000 options — strike prices and expiry dates not extracted from the MD&A summary table). Post-extraction financing activity confirmed from press releases: (1) A fully committed $3,000,000 private placement was announced March 27, 2026 at $0.08 per share for 37,500,000 shares — if this closed after April 29, 2026, the outstanding count would be approximately 354M shares (actual close date unconfirmed); (2) A $2,600,000 private placement was completed in connection with commencement of the Taylor Brook 5,000m program (exact date and share count/price unconfirmed from searches). These placements may have materially increased the share count beyond the 316.7M extracted figure. No flow-through tranches were detected in the April 2026 MD&A extraction; however, Churchill has a history of flow-through financing (C$1.5M charity flow-through placement and C$1M flow-through placement in prior periods). The $0.08 placement price represents a premium to the approximate C$0.06 trading level as of August 25, 2026, suggesting the market has partially digested prior dilution. Score of 2: the basic share count is structurally heavy for a pre-resource junior; post-April 2026 placements may add further shares not yet captured in the extracted data; instrument-level detail remains unavailable.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Spring 2026 assay results released as of August 29, 2026 — the single most important near-term catalyst has now triggered. Headline result: 19.23% Sb over 1.40m at Frost Cove North from a 23-hole, 4,267m program. The new Cu-Ag intercept at 0.78% Cu / 6.12 g/t Ag over 6.22m represents a previously unconfirmed commodity avenue that could expand the investor thesis. A 5,000m Taylor Brook drill program has commenced with $2,600,000 in financing closed — Taylor Brook is a new primary drill target and represents a fresh catalyst sequence. Macro catalyst: China's September 2024 antimony export controls remain in force, sustaining Western-government urgency for non-Chinese critical mineral supply chains. US DoD grant programs for domestic antimony supply remain active (over USD $100M awarded since late 2025 to Tier-1 jurisdiction projects, including Perpetua Resources Stibnite at over $59M and Alaska Range Resources at $43.4M). Antimony is named on Canada's Critical Minerals Strategy and the US Defense Production Act designated minerals list. Score of 3: the assay-result catalyst has resolved positively, and the Taylor Brook program opens a new near-term catalyst window; the macro tailwind is durable. Constraining factor: full assay tables and interpreted significance of the Spring 2026 program have not yet been confirmed from available search results — only the headline intercept was accessible.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "No NI 43-101 resource estimate is available to support a P/NAV calculation or comparables-based acquisition analysis; nav_per_share is null. Strategic acquisition interest in non-Chinese antimony development assets in Tier-1 jurisdictions remains structurally elevated. The Spring 2026 assay release with a headline 19.23% Sb intercept and a new Cu-Ag intercept makes a prospective acquirer's due diligence more tractable than it was under the prior assay silence, but without a defined resource, a bid still cannot be anchored to tonnage and grade. At approximately C$0.06 and using the April 2026 share count of 316.7M shares issued, the implied market cap is roughly C$19.0M — modest for a district-scale, multi-target critical minerals project in a Tier-1 jurisdiction with a past-producing mine. If post-April 2026 placements raised the share count to approximately 390M+, the implied market cap at C$0.06 rises to approximately C$23M — still modest. Score of 2: strategic interest is elevated and the property package is improving, but the absence of a compliant resource prevents a quantified acquisition discount analysis.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (CRI.V) holds the Foxtrot past-producing antimony mine district in central Newfoundland and has been actively assembling a multi-property, multi-commodity explorer position (Black Raven/Frost Cove, Golden Baie, Taylor Brook, Pomley Cove Pond, Taylors Room). KEY UPDATE for August 29, 2026: Spring 2026 assay results were released, ending a 47-day post-completion silence that had constrained prior scorecards. The Spring 2026 program totalled 23 drillholes and 4,267m at Pomley Cove Pond and Frost Cove North (larger than the nine-hole update from July 13). Headline intercept: 19.23% Sb over 1.40m at Frost Cove North — confirming the system's continuity at high grade. A new copper-silver prospect was intersected at 0.78% Cu with 6.12 g/t Ag over 6.22m, broadening the polymetallic thesis. A 5,000m Taylor Brook drill program has commenced with a $2,600,000 private placement closed, opening a new catalyst window. Macro tailwind confirmed intact: US DoD critical minerals grant programs remain active with over USD $100M awarded to Tier-1 jurisdiction antimony projects since late 2025. Cap table per the April 2026 MD&A extraction (most recent reliable data): 316,681,940 shares issued, 342,756,940 fully diluted (2,625,000 warrants + 23,450,000 options — strike prices and expiry dates not extracted). A $3M placement at $0.08 (37,500,000 shares) announced March 27, 2026, and the $2.6M Taylor Brook placement, may have increased shares outstanding to approximately 390M+ shares (not captured in the extracted data). No NI 43-101 compliant resource estimate on file; all resource/reserve fields are null. Maintain WATCH, confidence low: the resolved assay-silence catalyst and new Taylor Brook program improve the near-term outlook materially versus the prior scorecard, but the absence of a compliant resource, the heavy share structure, and the unconfirmed scope of the Spring 2026 full results keep conviction limited. The Taylor Brook 5,000m program is now the primary forward catalyst.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    }
+  ]
+}
