@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "Management is operationally active, executing consistent drill programs across 2025 and 2026 at Black Raven. The TSXV-approved Golden Baie option agreement (March 2026) demonstrates deal-making capability and strategic land acquisition in a focused antimony corridor. Public disclosure on insider ownership percentages and management share alignment is limited in available sources. Functional operational execution warrants a mid-range score without evidence of exceptional insider alignment.",
+
+  "geology_score": 3,
+  "geology_notes": "Black Raven Project, Central Newfoundland, has returned high-grade antimony intercepts: 19.23% Sb over 1.40m at Frost Cove North and 7.25% Sb over 1.98m near the Southern Shaft along approximately 800m of demonstrated strike. The Spring 2026 program discovered a new polymetallic system at PC Pond (0.78% Cu with 61.2 g/t Ag over 6.22m), expanding geological complexity and optionality. Black Raven sits 100km north of the historic Beaver Brook Antimony Mine — North America's largest primary antimony producer when operating — providing strong geological analog support. No NI 43-101 resource estimate has been published; the project remains in early-stage discovery. High grades are compelling but intercepts are narrow and the mineralised system is still being delineated.",
+
+  "capital_score": 2,
+  "capital_notes": "Shares issued stand at 316,681,940 — a heavy count for a pre-resource explorer that has yet to publish a NI 43-101 estimate. Fully diluted at 342,756,940 includes 2,625,000 warrants and 23,450,000 stock options (approximately 8.2% combined overhang); strike prices and expiry dates were not captured in the April 2026 MD&A extraction. No flow-through tranches were detected in the extracted filing data. The capital structure reflects accumulated exploration spending over multiple years of pre-resource work, and any future resource-estimate-driven financing would likely be dilutive at current implied market valuations. The large share base compresses per-share metrics and limits re-rating upside without a resource anchor.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Spring 2026 drilling and trenching assay results (reported August 28, 2026) represent the most recently completed catalyst — high-grade antimony at Frost Cove North and a new copper-silver polymetallic discovery at PC Pond. Near-term catalysts include: (1) additional 2026 drill results as delineation of Frost Cove and PC Pond continues; (2) initial exploration on the newly optioned Golden Baie antimony-gold property (1,597 claims, ~400 sq km, 30 km trend); (3) macro: China antimony export controls (imposed 2024) continue to drive North American supply urgency. A maiden NI 43-101 resource estimate would be a transformative re-rating event but is likely 12-18+ months away given current program stage.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "No NI 43-101 resource estimate exists, making P/NAV impossible to calculate. The antimony critical-mineral designation and China export controls add a strategic premium above standard junior valuation multiples for North American jurisdiction assets. However, without a resource, any M&A transaction would be highly speculative and likely require a resource estimate as a prerequisite for serious acquirer due diligence. The heavy share count also limits per-share transaction premiums. Comparable antimony-focused acquisitions in North America remain rare, leaving transaction multiples difficult to benchmark.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources is a pre-resource antimony explorer in Central Newfoundland with a compelling critical-mineral thesis: China controls over 80% of global primary antimony production and imposed export controls in 2024, creating structural urgency for North American supply development. The Black Raven Project has returned genuinely high-grade intersections — peak of 19.23% Sb over 1.40m at Frost Cove North — along at least 800m of demonstrated strike, and the Spring 2026 program added a new copper-silver polymetallic discovery at PC Pond. The TSXV-approved Golden Baie option (March 2026) extends the antimony-gold land package across a 30km trend in the same region. The bear case is straightforward: no NI 43-101 resource exists, the share count (316.7M issued, 342.8M fully diluted) is heavy for the stage, and the investment thesis rests almost entirely on discovery upside and the macro antimony supply deficit. WATCH is appropriate until a maiden resource estimate provides a NAV anchor. Retail investors should size to pre-resource risk.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from April 2026 MD&A — strike/expiry not extracted"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from April 2026 MD&A — strike/expiry not extracted"
+    }
+  ]
+}
