@@ -1,0 +1,110 @@
+[
+  {
+    "headline": "GOLD RETREATS TO $4,420 AS RATE-HIKE BETS FIRM — Silver Holds $66 As Buyers Absorb Weakness",
+    "url": "https://www.forbes.com/advisor/investing/gold-price/",
+    "source_name": "Forbes Advisor",
+    "category_slug": "gold-silver",
+    "snippet": "Spot gold slid $57 (-1.28%) to $4,420/oz on September 5 as elevated U.S. Treasury yields and a stronger dollar extended Friday's NFP-driven selloff. Silver at $66.30 with the gold-silver ratio pinned near 66.7 — the white metal matched gold step for step, signalling investment buyers are accumulating weakness rather than fleeing the precious metals complex.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER EYES RECORD AS TEN-WEEK WIN STREAK BECKONS — $6.60/Lb On Congo Ban And Chile Weather Disruptions",
+    "url": "https://www.mining.com/web/copper-price-heads-for-10-week-winning-streak-closes-in-on-record-high/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "Copper climbed to $6.60/lb on September 4 and is on track for a 10th consecutive weekly gain as thinning non-U.S. inventories support prices. Congo's export ban, El Niño-linked disruptions at Chilean and Peruvian mines, and tariff-driven stockpiling at Comex have split the global market — record U.S. warehouses alongside tightening supplies everywhere else.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "MINRES AND CORE LITHIUM RESTART AUSTRALIAN MINES — Bald Hill, Finniss Back Online As Spot Price +103% Year-On-Year",
+    "url": "https://www.riotimesonline.com/lithium-markets-latam-thursday-september-3-2026/",
+    "source_name": "Rio Times Online",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Mineral Resources has restarted its Bald Hill lithium mine in Western Australia after an 18-month suspension, while Core Lithium has brought the Finniss project back online. Spot lithium carbonate sits at 152,000 CNY/T — more than double year-ago levels — as grid battery storage demand absorbs the supply returning to market.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "COT REPORT SEPT. 4: GOLD SPECS DUMP LONGS AFTER NFP SHOCK — Commercial Support Zone Now In Focus",
+    "url": "https://goldseek.com/article/cot-gold-silver-usdx-report-september-4-2026",
+    "source_name": "GoldSeek",
+    "category_slug": "market-macro",
+    "snippet": "Speculative longs in COMEX gold futures fell sharply in the September 4 Commitments of Traders report as Friday's blowout August payrolls print revived Fed rate-hike odds and lifted the U.S. dollar index. Commercial net positioning — historically the counter-trend smart money — moved to its most supportive stance in weeks, a level closely watched as a floor signal.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "KAZATOMPROM ACID PLANT OUTAGE TIGHTENS URANIUM SUPPLY — Italy Joins Nuclear Revival As U3O8 Holds Near $90/Lb",
+    "url": "https://tradingeconomics.com/commodity/uranium",
+    "source_name": "Trading Economics",
+    "category_slug": "uranium-energy",
+    "snippet": "Kazatomprom's TQZ sulphuric acid plant is facing fresh delays, limiting leaching capacity at the world's largest uranium producer. Uranium traded near $89.50/lb as demand accelerates — Italy is the latest nation to approve a legal framework restoring nuclear power, joining the U.S. and Japan in what producers are calling the most synchronised nuclear renaissance since the 1970s.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ANGLO-TECK MEGA-MERGER AWAITS CHINA'S FINAL NOD — 11-Day Close Window And $4.5B Special Dividend On Deck",
+    "url": "https://www.netnewsledger.com/2026/09/04/mining-news-for-sept-4-2026-western-wabigoon-gold-assays-anglo-teck-merger-watch-vales-ipo-pause-and-major-global-mining-deals/",
+    "source_name": "NetNewsLedger",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Chinese antitrust approval is the sole outstanding condition before the Anglo American-Teck Resources merger becomes effective — a deal that will create one of the world's largest copper producers. Once received, the companies expect an 11-trading-day countdown to close, after which Anglo American's approximately US$4.5-billion special dividend is payable within 45 days.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD STOCKS ENTER SEASONAL SWEET SPOT — Record Margins And Compressed Multiples Fuel Autumn Rally Thesis",
+    "url": "https://goldseek.com/article/gold-stocks-autumn-rally-26",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "Gold's seasonal autumn rally historically runs from late June through late September, and 2026's setup looks unusually compelling. Gold above $4,400 is generating producer margins that dwarf any prior cycle while equity multiples remain compressed — the sector has materially underperformed the metal. Institutional positioning is still underweight, the classic precondition for a sharp re-rating.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SILVER EYES SIXTH STRAIGHT STRUCTURAL DEFICIT — China's 790-Tonne H1 Import Surge Meets Flat Mine Supply",
+    "url": "https://goldseek.com/article/gold-swot-silver-demand-remains-strong-china-importing-790-tons-early-2026",
+    "source_name": "GoldSeek",
+    "category_slug": "gold-silver",
+    "snippet": "Silver demand is on track for a sixth consecutive year of structural supply deficit in 2026. China imported over 790 tonnes of silver in the first half of the year, driven by solar panel manufacturing and the January strategic reclassification of silver as a critical material. Global mine production remains flat while industrial and investment offtake continue to climb.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CHINA'S RARE EARTH EXPORT BAN EXPIRES NOV. 10 — 65-Day Countdown Is Sector's Clearest Near-Term Catalyst",
+    "url": "https://rare-earth-mining.com/rare-earth-market-outlook-september-2026/",
+    "source_name": "Rare Earth Mining",
+    "category_slug": "rare-earths",
+    "snippet": "China's suspension of rare earth exports to the United States expires November 10, 2026 — the single clearest catalyst on the calendar for the rare earth mining sector. September's tracked basket averaged just +0.31% but germanium surged 10% on supply restriction bets. Western developers are in a race to establish alternative supply chains before the November deadline removes Beijing's leverage.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SILVERCORP HALTS YING AND GC SILVER MINES — China Safety Audit Cuts Output 40-50% Through September",
+    "url": "https://goldseek.com/article/gold-swot-palladium-precious-metals-higher-weak-us-jobs-data-strengths",
+    "source_name": "GoldSeek",
+    "category_slug": "gold-silver",
+    "snippet": "Silvercorp Metals announced a temporary suspension of its Ying and GC mines in China for safety compliance audits, with production at the flagship Ying mine — one of the world's highest-grade primary silver operations — expected to decline 40-50% from July through September. The halt adds direct supply pressure in an already structurally short silver market.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD MINERS TRADE AT DISCOUNT TO $4,400+ METAL — Analysts Say Institutional Underweight Sets Up Re-Rating",
+    "url": "https://www.canadianminingreport.com/blog/gold-stocks-to-buy-for-september-2026-which-mining-companies-look-most-attractive",
+    "source_name": "Canadian Mining Report",
+    "category_slug": "opinion-analysis",
+    "snippet": "With gold above $4,400/oz, gold producers are generating record free cash flow yet equity multiples remain compressed well below historical NAV comparisons — a disconnect analysts attribute to persistent institutional underweighting after years of the sector lagging the metal itself. Record margins, M&A activity, and a sector-wide buyback wave are cited as the re-rating catalysts to watch.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GRAPHANO ENERGY SECURES BLACK JACK GRAPHITE PERMITS — BC Critical Minerals Play Clears Key Regulatory Hurdle",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "Graphano Energy has received exploration permits for its Black Jack graphite discovery in British Columbia, clearing a key regulatory milestone for the critical minerals project. Graphite is a strategic material for lithium-ion battery anodes, and the permit award arrives as battery supply chain investors look for non-Chinese sources of natural graphite.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
