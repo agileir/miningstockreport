@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "ATHA ENERGY URANIUM STRIKE EXPLODES TO 1.45KM AT RIB NORTH, NUNAVUT",
+    "url": "https://www.stocktitan.net/news/SASKF/atha-energy-announces-additional-results-from-rib-north-discovery-oepxjyoco874.html",
+    "source_name": "Stock Titan",
+    "category_slug": "uranium-energy",
+    "snippet": "Seven new drill holes extended the Rib North uranium discovery from 300m to 1.45km strike length. Highlight hole RIBN-DD-011 intersected 20m composite uranium mineralization at 494–700m depth — a major step-out that redefines the scale of the Nunavut project.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "136 G/T GOLD — RUA GOLD HITS HIGHEST-GRADE DRILL RESULTS AT AULD CREEK TO DATE",
+    "url": "https://www.stocktitan.net/news/NZAUF/rua-gold-reports-highest-grade-drill-results-to-date-at-the-auld-1f05wnjg68ox.html",
+    "source_name": "Stock Titan",
+    "category_slug": "exploration-discovery",
+    "snippet": "New Zealand's Rua Gold returned 0.6m @ 136.2 g/t AuEq (82.9 g/t Au + 24.8% Sb) at Auld Creek. The 19,600m 2026 program has expanded the resource to >1,000m length and >500m depth; a PFS is on track for December 2026.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "LUCA MINING WAKES SLEEPING ZONE — 9.9M AT 5.39 G/T AuEq FROM FIRST CATORCE DRILL SINCE 2008",
+    "url": "http://www.prnewswire.com/news-releases/luca-intersects-9-9-metres-of-5-39-gt-gold-equivalent-from-the-catorce-zone-at-tahuehueto-mine-302871911.html",
+    "source_name": "PR Newswire",
+    "category_slug": "exploration-discovery",
+    "snippet": "First drilling of the Catorce Zone at Tahuehueto since 2008 returns 9.9m @ 5.39 g/t AuEq including 1.0m @ 27.56 g/t AuEq. The intercept comes from underground drilling within an active Mexican mine — 62 underground and 33 surface holes completed to date.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "REVIVAL GOLD WRAPS 10,000M INFILL AT MERCUR, UTAH — PFS ON DECK FOR Q1 2027",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/2144-tsx-venture/rvg/210482-revival-gold-completes-2026-infill-drilling-program-at-mercur-gold-project-in-utah.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "Revival Gold completed 100 RC holes (~10,000m) at its Utah Mercur gold project targeting a Measured & Indicated resource upgrade ahead of a pre-feasibility study due Q1 2027. Mercur produced 2.4Moz historically.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ZACATECAS SILVER HITS 11 HOLES ACROSS 1.5KM AT EL CRISTO — CORRIDOR NOW 3KM+",
+    "url": "https://www.globenewswire.com/news-release/2026/09/08/3357448/0/en/zacatecas-silver-announces-multiple-silver-assays-from-el-cristo-drill-program.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "exploration-discovery",
+    "snippet": "Eleven of 20 drill holes hit silver-base metal mineralization across 1.5km of the El Cristo target within a 3km+ mineralized corridor that remains open to depth. Zacatecas Silver is advancing an underexplored district in Mexico's premier silver state.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CENTRAL ASIA METALS GRABS CYGNUS METALS FOR $166M — ADDS 6.4MT COPPER-GOLD IN QUEBEC",
+    "url": "https://www.mining.com/central-asia-metals-expands-to-canada-with-166m-acquisition-of-cygnus/",
+    "source_name": "Mining.com",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "CAML shareholders approved the A$232M (~$166M) all-stock takeover of Cygnus Metals, adding the Chibougamau copper-gold project in Quebec (6.4Mt M&I @ ~3% CuEq) to its Kazakhstan zinc-copper base. Deal closing expected this month.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "65 DAYS TO DECIDE: TRUMP-XI SUMMIT IS THE LAST WINDOW BEFORE CHINA'S MINERAL EMBARGO BITES",
+    "url": "https://investornews.com/critical-minerals-rare-earths/critical-minerals-report-09-06-2026-xi-and-trump-meet-in-washington-with-the-global-minerals-order-at-stake/",
+    "source_name": "InvestorNews",
+    "category_slug": "market-macro",
+    "snippet": "With China's rare earth export control suspension expiring November 10, the planned Trump-Xi summit is the narrowest diplomatic window to avert reinstatement. IEA estimates full reinstatement risks $6.5 trillion of downstream production outside China.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ELDORADO'S MCILVENNA BAY NEARING FULL COPPER-ZINC OUTPUT — 41MLBS CU/YR AHEAD",
+    "url": "https://www.mining-technology.com/news/eldorado-first-copper-concentrate-mcilvenna-bay/",
+    "source_name": "Mining Technology",
+    "category_slug": "copper-base-metals",
+    "snippet": "Eldorado Gold's McIlvenna Bay polymetallic mine in Saskatchewan is ramping toward 4,900 tpd nameplate capacity after shipping first copper concentrate in June and zinc in July. Commercial production declaration expected Q3 2026; 18-year mine life averaging 41Mlbs Cu equivalent per year.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GREENLAND MINES CLOSES $35M SARFARTOQ DEAL — $2B NPV RARE EARTH PROJECT NOW IN HAND",
+    "url": "https://www.globenewswire.com/news-release/2026/09/02/3355198/0/en/greenland-mines-completes-acquisition-of-world-class-rare-earth-nd-pr-magnet-and-defense-mine-asset-following-greenland-government-approval.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Greenland Mines completed its $35M acquisition of the Sarfartoq Nd-Pr rare earth project following Greenland government approval. The asset holds 6.9Mt Indicated @ 1.60% TREO with a pre-tax NPV of $2.05B and 118.6% IRR over a 9-year mine life.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD-SILVER RATIO BACK TO 66 AFTER WILD 12-WEEK ROUND TRIP — WHAT IT SIGNALS NOW",
+    "url": "https://goldsilver.com/industry-news/goldsilver-news/gold-silver-ratio-september-2026/",
+    "source_name": "GoldSilver.com",
+    "category_slug": "opinion-analysis",
+    "snippet": "After swinging from 61.7 to a peak of 70.4 and back to 66.3, the gold-silver ratio has completed a full 12-week round trip. Analysis examines what the compression suggests about silver's next move relative to gold at $4,385 and silver approaching new highs.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
