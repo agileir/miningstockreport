@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "GOLD WHIPSAWS ON US-IRAN WAR ESCALATION — 5 TANKERS SUNK, OIL TOPS $100, METALS IN CROSSFIRE",
+    "url": "https://www.aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base",
+    "source_name": "Al Jazeera",
+    "category_slug": "market-macro",
+    "snippet": "U.S. Central Command struck five IRGC-linked oil tankers in the Gulf of Oman and near Kharg Island after Iran fired ballistic missiles at a U.S. warship; Iran retaliated by attacking 10 ships near the Strait of Hormuz and launching missiles at the Al Azraq base in Jordan. Brent crude surged above $100/barrel while gold whipsawed from a low of $4,399 to an intraday high of $4,438 as safe-haven demand competed with tightening Fed rate expectations.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER SMASHES LME ALL-TIME HIGH AT $14,617/T — TARIFF PANIC SCRAMBLES GLOBAL SUPPLY CHAINS",
+    "url": "https://www.scmp.com/economy/global-economy/article/3366787/copper-rally-sets-record-price-lme-us-tariff-fears-fuel-scramble-stockpiles",
+    "source_name": "South China Morning Post",
+    "category_slug": "copper-base-metals",
+    "snippet": "LME three-month copper hit an all-time high of $14,617 per tonne on September 7–8, 2026, surpassing the January record as anticipation of expanded U.S. tariffs on refined copper imports prompted traders to reroute shipments toward American warehouses, tightening supply everywhere else. The 17% advance over the past year is underpinned by structural demand from data centres, renewable energy, and power grids outpacing the world's ageing mine fleet.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "K2 GOLD NAILS 27.43M AT 4.03 G/T AU AT DRAGONFLY — STACKED OXIDE GOLD CONFIRMED IN CALIFORNIA",
+    "url": "https://www.globenewswire.com/news-release/2026/09/09/3358463/0/en/k2-drills-27-43m-of-4-03-g-t-au-at-dragonfly-confirms-multiple-stacked-high-grade-oxide-gold-structures.html",
+    "source_name": "GlobeNewswire (K2 Gold)",
+    "category_slug": "exploration-discovery",
+    "snippet": "K2 Gold (TSX-V: KTO) returned four fresh holes from the Dragonfly Zone at its 100%-owned Mojave Project in California: 27.43m @ 4.03 g/t Au, 32.01m @ 2.02 g/t Au, 33.53m @ 1.63 g/t Au, and a high-grade 3.05m @ 17.55 g/t Au — confirming multiple stacked oxide gold structures 40 metres west of the 2020 discovery intercept. Twenty-three holes (4,182m) completed to date on a fully permitted, fully funded 14,000m program; drilling has now moved to the Newmont Zone.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD WIPES OUT ALL 2026 GAINS AS FED HIKE BETS SURGE TO 70% — SILVER SLIDES WITH IT",
+    "url": "https://www.mining.com/gold-price-erases-2026-gains-as-fed-hike-bets-climb-to-70-silver-slides/",
+    "source_name": "Mining.com",
+    "category_slug": "gold-silver",
+    "snippet": "Gold is now up just 0.7% year-to-date in 2026 and sits roughly 20% below its January 28 record close of $5,419.83, as markets price approximately 70% odds of a Federal Reserve rate hike at the September 16 meeting — up from 60% earlier this week. Silver has tracked gold lower despite China's record import pace, with both metals squeezed between geopolitical safe-haven demand and the hawkish monetary policy signal from Thursday's PPI print.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CATL'S JIANXIAWO SHUT AGAIN — EIA REVOKED, CHINA'S BIGGEST LITHIUM MINE HALVES 2026 OUTPUT TO 32,000T",
+    "url": "https://thedeepdive.ca/catls-biggest-lithium-mine-loses-license-over-environmental-review/",
+    "source_name": "The Deep Dive",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Chinese regulators revoked the environmental impact assessment for CATL's Jianxiawo mine — China's largest lithium operation — after the company attempted a quiet restart in July while a tailings pond dispute remained unresolved, triggering over 70 complaints from local residents. Benchmark Mineral Intelligence slashed its 2026 mined output forecast for the site from 62,500 tonnes to 32,000 tonnes of lithium carbonate equivalent, a supply shock that threatens to flip the lithium market into deficit ahead of rising EV and energy storage demand.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "U.S. CRITICAL MINERALS MERGES WITH NOVA RESOURCES, ADDS HISTORIC MCALLISTER TANTALUM MINE IN ALABAMA",
+    "url": "https://www.globenewswire.com/news-release/2026/09/09/3358510/0/en/u-s-critical-minerals-enters-into-agreements-to-merge-with-nova-resources-and-acquire-the-historic-mcallister-tantalum-mine-and-mill-in-alabama.html",
+    "source_name": "GlobeNewswire (U.S. Critical Minerals)",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "U.S. Critical Minerals LLC announced a binding framework agreement to merge with Nova Resources LLC and, separately, to acquire the historic McAllister tantalum mine and its associated processing mill in Coosa County, Alabama. The McAllister deal is expected to close on or before December 31, 2026, combining domestic tantalum production capacity with Nova's portfolio at a moment when U.S. policy increasingly incentivises onshore critical mineral supply chains.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "EUREKA METALS FINDS 5 HIGH-GRADE TITANIUM ZONES AT TYEE — SAMPLES HIT 36.9% TiO₂ IN QUEBEC",
+    "url": "https://www.stocktitan.net/news/UREKF/eureka-metals-identifies-five-new-high-grade-titanium-occurrences-at-9rkxe2cspa79.html",
+    "source_name": "Stock Titan (Eureka Metals)",
+    "category_slug": "rare-earths",
+    "snippet": "Eureka Metals Corp. (CSE: ERKA) identified five new high-grade titanium occurrences at its 100%-owned Tyee Titanium Project in Québec, with nine grab samples from the 2026 surface exploration program returning between 35.13% and 36.87% TiO₂ and corresponding vanadium grades of ~0.26–0.30% V₂O₅. The results expand the geographic distribution of known high-grade titanium mineralization and will guide the next phase of drill targeting at Tyee.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "USA RARE EARTH DOWN 60% FROM PEAK — WITH CHINA'S EMBARGO CLOCK AT 63 DAYS, IS THIS THE DIP?",
+    "url": "https://www.fool.com/investing/2026/09/09/usa-rare-earth-stock-down-september-buy-dip/",
+    "source_name": "The Motley Fool",
+    "category_slug": "rare-earths",
+    "snippet": "USA Rare Earth (NASDAQ: USAR), which went public via SPAC in mid-March 2026, has tumbled to $17.66 per share — roughly 60% below its $43.98 lifetime high — despite holding one of America's most significant undeveloped heavy rare earth deposits and generating no revenue yet. The Motley Fool analysis asks whether the November 10 expiry of China's rare earth export control suspension, combined with growing U.S. government demand for domestic heavy rare earths, makes September a compelling entry point or a value trap.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CHINA IMPORTED 790+ TONNES OF SILVER IN EARLY 2026 — SWOT SHOWS DEMAND DEFIES THE SELLOFF",
+    "url": "https://goldseek.com/article/gold-swot-silver-demand-remains-strong-china-importing-790-tons-early-2026",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "This week's Gold SWOT analysis from GoldSeek highlights that Chinese silver imports exceeded 790 tonnes in the first part of 2026, driven by solar panel and EV manufacturing, even as spot silver has retreated alongside gold to approximately $66.50 per ounce. The report frames China's January 2026 reclassification of silver as a strategic material, six consecutive global supply deficits, and the NYSE Arca Gold Miners Index's 33% August surge — its best August since 1994 — as structural bullish signals that are being masked by the current hawkish rate narrative.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SELLOFF OR BREAKOUT? VERMEULEN'S TECHNICAL CASE FOR GOLD IN SEPTEMBER 2026",
+    "url": "https://www.sprottmoney.com/blog/gold-outlook-september-2026-selloff-or-breakout-chris-vermeulen",
+    "source_name": "Sprott Money",
+    "category_slug": "opinion-analysis",
+    "snippet": "Sprott Money's Chris Vermeulen offers a technical read on gold's September 2026 setup: short-term trends have turned bullish while longer-term indicators still counsel caution, with the GDX already breaking prior resistance highs that gold itself has not yet cleared — a divergence that historically precedes the metal catching up to miners. Vermeulen argues the current pullback to the $4,380–$4,400 zone represents a high-probability setup for the next leg of the structural debasement bull market, with the key risk being a decisive September 16 Fed hike breaking key support.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
