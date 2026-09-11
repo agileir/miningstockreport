@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "Management has Newfoundland mining experience and has been advancing the Beaver Brook project steadily. The team has secured critical mineral designation attention and maintains government relations relevant to Canada's Critical Minerals Strategy. However, a visible track record of delivering resource growth milestones on schedule is not clearly established, and insider ownership details are not available from extracted data. Score reflects adequate but not exceptional management execution.",
+
+  "geology_score": 3,
+  "geology_notes": "Beaver Brook is a historically productive antimony mine (stibnite mineralization) in geologically well-understood terrain in central Newfoundland. The NI 43-101 technical report on file is dated August 2023. Extraction of the report did not return structured resource estimates — measured, indicated, and inferred figures are unavailable from our automated extraction pipeline (no matching rows found in first 60 pages). The deposit concept is sound for antimony, the mineralization style is well-understood, and historical production validates the geological model. Grade and tonnage confirmation from the current technical report would be required to score higher.",
+
+  "capital_score": 2,
+  "capital_notes": "Shares outstanding of 316.7 million is heavy for a junior with an unproven resource base. Fully diluted count of 342.8 million includes approximately 23.5 million options and 2.6 million warrants — dilution overhang of ~8.2% above outstanding is modest in relative terms, but the absolute share count creates a high per-share NAV hurdle. Strike prices and expiry dates were not extracted from the MD&A summary table. No flow-through financing tranches were detected in the most recent filing cycle. The large share float is the primary capital structure concern.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "China's antimony export restrictions have created a supply crisis for Western manufacturers, defense contractors, and battery and flame-retardant producers. Beaver Brook is one of the most advanced undeveloped antimony deposits in North America outside China's supply chain, making it a direct beneficiary of the supply shock. Canada's Critical Minerals Strategy and potential US DOD interest in securing domestic or allied antimony supply are additional near-term catalysts. Immediate trigger events to watch are resource expansion drilling results and any partnership, offtake, or strategic investment announcement.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "Strategic value is elevated in the post-China-ban environment — a domestic North American antimony source in a mining-friendly Canadian province commands a meaningful scarcity premium. Comparable transactions for Western antimony assets are sparse given how few such projects exist, but the defense and battery sector buyer universe is real. Without confirmed NI 43-101 resource estimates available in our extraction, a reliable P/NAV calculation cannot be made. Score reflects significant strategic optionality without the confirmed tonnage needed to underwrite a specific multiple.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources' Beaver Brook Antimony Mine occupies a uniquely strategic position as one of the few advanced-stage antimony projects in a Western-friendly jurisdiction at a moment when China's export restrictions have restructured global supply. The critical mineral tailwind is the strongest catalyst score (4/5) we can award in the Verdict Framework. The drag on the verdict comes from two sources: a heavy share count of 316.7 million outstanding that limits per-share NAV leverage, and the absence of confirmed current NI 43-101 resource estimates from our extraction pipeline, which prevents a reliable acquisition multiple from being calculated. Capital structure scores a below-average 2/5. Until resource tonnage and grade are clearly established and a monetizable per-share NAV can be calculated, WATCH is the appropriate call. A resource update — particularly one establishing measured and indicated categories — or a strategic partnership or offtake announcement would be the triggers to re-evaluate toward BUY.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from MD&A summary table"
+    }
+  ]
+}
