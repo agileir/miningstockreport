@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "Management has Newfoundland mining experience and has been advancing the Beaver Brook project through the critical mineral designation process. The team maintains appropriate government relations relevant to Canada's Critical Minerals Strategy and has navigated the post-China-export-ban environment with clear communication of strategic positioning. However, a visible track record of delivering resource growth milestones on schedule is not clearly established, and insider ownership details are not available from extracted data. Score reflects adequate but not exceptional management execution.",
+
+  "geology_score": 3,
+  "geology_notes": "Beaver Brook is a historically productive stibnite (antimony) mine in geologically well-understood terrain in central Newfoundland. The NI 43-101 technical report on file is dated August 2023. Extraction of the report did not return structured resource estimates — measured, indicated, and inferred figures are unavailable from the automated extraction pipeline (no matching rows found in first 60 pages of the technical report). The deposit concept is sound, the mineralization style (stibnite veins in Cambrian sedimentary host rocks) is well-understood, and historical production validates the geological model. Confirming current resource tonnage and grade from the 2023 NI 43-101 would be required to score higher.",
+
+  "capital_score": 2,
+  "capital_notes": "Shares outstanding of 316.7 million is heavy for a junior at this stage of resource definition. Fully diluted count of 342.8 million includes approximately 23.5 million options and 2.6 million warrants — dilution overhang of ~8.2% above outstanding is modest in relative terms, but the absolute share count creates a high per-share NAV hurdle for investors to clear. Strike prices and expiry dates were not extracted from the April 2026 MD&A summary table. No flow-through financing tranches were detected in the most recent filing cycle. The large share float is the primary capital structure concern for retail investors considering a position.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "China's antimony export restrictions remain in effect and continue to drive supply-side urgency for Western manufacturers, defense contractors, and battery and flame-retardant producers. Beaver Brook remains one of the most advanced undeveloped antimony deposits in North America outside China's supply chain, making it a direct beneficiary of the ongoing supply shock. Canada's Critical Minerals Strategy and potential US DOD strategic mineral interest are additional structural tailwinds. Near-term catalyst triggers include: resource expansion or upgrade drilling results, a preliminary economic assessment or feasibility study release, or any strategic partnership, offtake, or government investment announcement.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "Strategic value is elevated in the post-China-ban environment — a domestic North American antimony source in a mining-friendly Canadian province commands a meaningful scarcity premium over what the fundamentals alone would justify. The buyer universe includes defense primes, battery material companies, and sovereign-backed offtake vehicles. Comparable M&A transactions for Western antimony assets remain sparse given how few such projects exist at this stage. Without confirmed NI 43-101 resource estimates available from our extraction, a reliable P/NAV calculation cannot be constructed. Score reflects significant strategic optionality without the confirmed tonnage needed to underwrite a specific acquisition multiple.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources' Beaver Brook Antimony Mine continues to occupy a uniquely strategic position as one of the few advanced-stage antimony projects in a Western-friendly jurisdiction while China's export restrictions persist and reshape global supply chains. The critical mineral tailwind earns the strongest single-factor score (catalyst 4/5) in this scorecard. The verdict remains WATCH rather than BUY for two reasons that have not yet resolved: (1) the heavy share count of 316.7 million outstanding limits per-share NAV leverage for retail investors, scoring capital 2/5; and (2) the absence of confirmed current NI 43-101 resource estimates from our extraction pipeline prevents a reliable acquisition multiple or NAV calculation, limiting confidence. Cap-table data is sourced from the April 2026 MD&A via the extraction pipeline; resource estimates were not recovered from the 2023 technical report. A resource update establishing measured and indicated categories, or a strategic partnership or offtake announcement, would be the triggers to reconsider toward BUY. Confidence is low pending resource confirmation.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    }
+  ]
+}
