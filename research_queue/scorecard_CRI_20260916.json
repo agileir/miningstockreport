@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "The Churchill Resources team completed an active Spring 2026 drill program at the Black Raven Project (results released 2026-08-28) and executed a strategic land consolidation via the Golden Baie option agreement — subsequently approved by the TSXV — which adds a second antimony-gold property within 100 km of the world-class Beaver Brook Antimony Mine. This level of operational execution represents an upgrade from the prior assessment. The team has demonstrated geological focus and capital allocation discipline. Insider ownership data remains unavailable from the extracted filing summary (April 2026 MD&A); management alignment cannot be independently verified from current sources. Score of 3 reflects demonstrated execution at the exploration stage balanced against the absence of insider ownership transparency.",
+
+  "geology_score": 2,
+  "geology_notes": "Spring 2026 drilling at the Black Raven Project returned 19.23% Sb over 1.40 metres at the Frost Cove North prospect — an extremely high-grade intersection for antimony, though the width is narrow and consistent with a vein-hosted system. PC Pond drilling expanded the polymetallic vein swarm, and a new prospect graded 0.78% Cu with 61.2 g/t Ag over 6.22 metres, adding a polymetallic dimension to what had been a single-commodity story. The Golden Baie property, now under option, positions Churchill within the central Newfoundland antimony-gold corridor anchored by the Beaver Brook Mine district. No NI 43-101 mineral resource estimate has yet been defined; the technical report on file dates to August 2023. The company is transitioning from grassroots to early-stage with real drill data establishing high-grade vein intercepts, but resource definition remains outstanding. Score of 2 reflects the absence of an MRE alongside meaningful progress toward one.",
+
+  "capital_score": 3,
+  "capital_notes": "Shares issued and outstanding at 316.7M with a fully diluted count of 342.8M as of the April 2026 MD&A (extracted JSON dated 2026-05-14). The warrant overhang remains minimal at 2.625M warrants — less than 1% of shares outstanding — which is a structural positive. Options total 23.45M (~7.4% of shares outstanding), consistent with management and director incentive plans. The Golden Baie option agreement and 2026 drill programs will likely have required additional equity financings (flow-through or otherwise) not yet captured in the extracted data; new share issuances since April 2026 may have increased the fully-diluted count. No flow-through tranches were detected in the April 2026 filing. The clean warrant book remains a positive; share count is elevated for a pre-resource explorer. Score held at 3 pending updated cap-table data from a 2026 quarter filing.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "The near-term catalyst pipeline has materially improved since the prior assessment. Company-specific catalysts now in view include: (1) follow-up assay results from the expanded 2026 program at Black Raven (PC Pond vein swarm delineation, the new Cu-Ag prospect), (2) planned first-pass airborne geophysics, trenching, and drilling at Golden Baie, and (3) potential for a maiden NI 43-101 inferred resource estimate as Frost Cove North and PC Pond zones accumulate sufficient drill data. The antimony thematic tailwind from China's export restrictions continues and antimony spot prices remain elevated. Score of 3 reflects a meaningful improvement in the company-specific news pipeline compared to the September 2026 prior baseline.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "With no defined mineral resource, there is no technical basis for a P/NAV calculation and nav_per_share is left null. The Golden Baie consolidation and the proximity of both properties to the Beaver Brook Antimony Mine district marginally improve the strategic land package for a potential acquirer — a senior mining company or industrial end-user seeking a secure domestic antimony source could view this corridor as a future M&A target. Antimony's critical-mineral designation in Canada and the US remains intact. However, acquirers require at minimum an inferred resource before underwriting a transaction. Score held at 2 — speculative strategic value until a resource is defined.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources has delivered its most significant exploration milestone to date with the Spring 2026 drill program at Black Raven: a 19.23% Sb/1.40m intersection at Frost Cove North confirms high-grade antimony mineralization in a vein system, and the expanded PC Pond results — including a new Cu-Ag prospect at 0.78% Cu / 61.2 g/t Ag over 6.22m — add polymetallic dimension. The TSXV-approved Golden Baie option consolidates two antimony-gold properties in the central Newfoundland corridor anchored by the Beaver Brook Mine district. These are genuine developments: the company is no longer at a purely grassroots stage. Against this, no NI 43-101 resource estimate exists, the share count of 316.7M is elevated for the stage, and cap-table data has not been updated since April 2026 — new equity issuances for the 2026 programs likely increased the fully-diluted count. WATCH: the antimony thematic is real, the jurisdiction is right, and the company now has drill data establishing high-grade intercepts in a coherent structural setting. Re-rate to BUY on a maiden MRE delivering economically meaningful tonnage and grade, or on a strategic joint-venture or off-take from an industrial end-user. Data sources: April 2026 MD&A extracted JSON (2026-05-14); Spring 2026 drill results press release (2026-08-28); Golden Baie TSXV approval announcement.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from MD&A summary table"
+    }
+  ]
+}
