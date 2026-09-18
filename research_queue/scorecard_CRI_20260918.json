@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "Churchill Resources is led by a small management team with experience in Canadian junior mining. Insider ownership data is not publicly detailed in available sources, limiting the ability to assess alignment. No major red flags in terms of related-party transactions or excessive compensation. The antimony-focused strategy is deliberate and coherent given the critical mineral tailwind, but execution has been slow — no resource estimate has been published despite several years of exploration. Score reflects adequate but unproven management without strong ownership signals.",
+
+  "geology_score": 2,
+  "geology_notes": "CRI's primary asset is its antimony project in Newfoundland and Labrador — a geologically prospective and mining-friendly jurisdiction. Antimony (Sb) is a high-value critical mineral with strategic demand for flame retardants, batteries, and semiconductors. However, the company remains entirely pre-resource: no NI 43-101 resource estimate has been extracted or publicly reported. The August 2023 technical report is on file but contains no resource estimate per the pre-extracted filing data. Newfoundland geology is favourable for structurally hosted antimony systems, but without a resource, the geological upside is speculative. Score capped at 2 until a compliant resource estimate is produced.",
+
+  "capital_score": 3,
+  "capital_notes": "316.7M shares issued and outstanding (as at April 2026 MD&A) is on the heavy side for a pre-resource junior. Fully diluted count of 342.8M includes 2.625M warrants and 23.45M options — the warrant overhang is minimal and not a near-term pressure point, while the option pool (7.4% of issued) is typical for management/director compensation. No flow-through tranches were detected in the filing data. The absence of flow-through overhang is positive for share price stability. The share structure is otherwise clean — no apparent broker warrant tail from recent financings. Score reflects the large share count as a dilution constraint on per-share value, offset by a tidy warrant structure.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Antimony's designation as a critical mineral in Canada, the US, and the EU is the primary macro catalyst supporting CRI's investment case — geopolitical supply constraints (China dominates global antimony production) create a structural demand narrative that does not require company-specific news to remain relevant. Near-term company-specific catalysts are less visible: no drill results, resource estimate timeline, or partnership announcements have been publicly flagged as of the latest available data. A drill program funded from 2026 equity activity could generate results in H2 2026. Score of 3 reflects the strong macro tailwind but absence of a confirmed near-term company-level catalyst.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "Without a NI 43-101 resource estimate, a P/NAV multiple cannot be calculated. Acquisition value is entirely speculative at this stage — the project's strategic value rests on the critical mineral designation and jurisdictional access rather than a quantified resource. Antimony projects in stable, Western jurisdictions are rare and do attract strategic interest (from battery supply chain players and defence-sector industrial buyers), which provides some floor. However, no comparable transactions provide a reliable benchmark for a pre-resource Newfoundland antimony project. Score of 2 reflects the inherent difficulty in assigning acquisition value without a resource.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (CRI.V) is a pre-resource antimony explorer in Newfoundland and Labrador with a coherent critical mineral thesis but limited near-term catalysts beyond macro tailwinds. The antimony supply-chain narrative is real — China controls ~80% of global production and Western governments are actively seeking domestic alternatives — but CRI has yet to demonstrate a compliant resource to anchor any valuation. The share structure is manageable (316.7M issued, minimal warrant overhang), and Newfoundland is a favourable jurisdiction. The investment case is a speculative bet on exploration success plus critical mineral re-rating rather than a resource-to-production story. WATCH pending a NI 43-101 resource estimate that would allow proper NAV analysis. Cap-table data sourced from April 2026 MD&A; no resource estimate has been published.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from April 2026 MD&A — strike/expiry not extracted"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Director/management options — strike/expiry not extracted from MD&A summary table"
+    }
+  ]
+}
