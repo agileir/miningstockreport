@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "ESCONDIDA HALTED — Worker Killed in Front-End Loader Accident; BHP Suspends All Operations at World's Largest Copper Mine",
+    "url": "https://www.mining.com/fatal-accident-reported-at-bhps-escondida-mine/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "BHP halted all operations at Escondida in Chile's Atacama Desert on September 24 after a worker was killed during maintenance involving a front-end loader. The mine — roughly 5% of global copper supply, co-owned by BHP (57.5%), Rio Tinto (30%) and JECO (12.5%) — has no stated restart timeline; Chilean law requires safety inspectors to clear conditions before any activity resumes after a fatality. The suspension is separate from the ongoing supervisors' union strike ballot running September 28–30, compounding copper supply risk from a single operation.",
+    "is_featured": true,
+    "is_breaking": true
+  },
+  {
+    "headline": "COLLECTIVE MINING OPENS NEW DISCOVERY FRONT — 8.15m AT 8.47 g/t AU + 0.40% WO3 IN SCHIST OUTSIDE APOLLO'S 4.1 Moz MODEL",
+    "url": "https://www.newswire.ca/news-releases/collective-mining-discovers-high-grade-tungsten-and-gold-mineralization-in-schist-at-depth-outside-the-apollo-breccia-body-821581499.html",
+    "source_name": "Newswire.ca",
+    "category_slug": "exploration-discovery",
+    "snippet": "Collective Mining (TSX: CNL) drilled hole APC150-D4 and cut 8.15 metres at 8.47 g/t gold, 4 g/t silver and 0.40% tungsten trioxide from 927 metres depth — entirely outside the southern edge of the Apollo breccia body that hosts the existing 4.1 million-ounce gold resource in Colombia. The high-grade gold-tungsten intersection in a schist host rock indicates the mineralised system extends beyond the current resource footprint and opens a structurally distinct discovery front that the company can drill independently of its metallurgy and 2027 licensing process.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD TESTS $4,275 AS PMI LIFTS OCTOBER FED HIKE ODDS TO 70% — Silver Slumps Near $64",
+    "url": "https://www.kitco.com/news/article/2026-09-24/gold-tests-4275-us-data-lifts-october-fed-hike-bets",
+    "source_name": "Kitco News",
+    "category_slug": "gold-silver",
+    "snippet": "Gold fell to test $4,275 per ounce and silver retreated toward $64.10 on September 24 after the U.S. S&P Global Composite PMI surged to 58.4 — its highest print since July 2021 — pushing market-implied odds for a Federal Reserve rate hike in October to 69.7%, up from 48.7% the prior week. The firmer dollar and rising real Treasury yields squeezed non-yielding metals even as gold holds well above its 200-day moving average, with both metals still comfortably above levels that would call the broader bull market into question.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "NEXGOLD DRILLS 14.07 g/t OVER 7m AT GOLDLUND — Best Metre Returns 95.70 g/t As 35,000m Program Nears Completion",
+    "url": "https://www.globenewswire.com/news-release/2026/09/23/3367341/0/en/nexgold-intersects-14-07-g-t-gold-over-7-0-metres-9-76-g-t-gold-over-8-0-metres-and-2-84-g-t-gold-over-13-0-metres-at-the-goldlund-deposit-ontario.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "exploration-discovery",
+    "snippet": "NexGold Mining (TSXV: NEXG) reported hole GL-26-034 intersected 14.07 g/t gold over 7.0 metres (including 1m at 95.70 g/t) plus two more high-grade intervals — 9.76 g/t over 8.0m and 2.84 g/t over 13.0m — at the Goldlund Deposit in northwestern Ontario. At 31,971 metres of 35,000 metres completed, the Zone 4 infill and extension program is on track for year-end completion; Goldlund, approximately 35 kilometres southwest of Sioux Lookout, is proposed as an open-pit mine and resource estimates at the broader Goliath Gold Complex are expected to follow.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "NRC FAST-TRACKS ORANO'S PROJECT IKE — First Major New US Enrichment Facility in Decades Gets 12-Month Accelerated Review",
+    "url": "https://www.nrc.gov/reading-rm/doc-collections/news/2026/nrc-launches-accelerated-review-new-us-uranium-enrichment-facility-strengthen-nuclear-fuel-supply",
+    "source_name": "U.S. Nuclear Regulatory Commission",
+    "category_slug": "uranium-energy",
+    "snippet": "The U.S. Nuclear Regulatory Commission accepted Orano Enrichment USA LLC's licence application for Project IKE — a proposed gas centrifuge uranium enrichment facility near Oak Ridge, Tennessee — and committed to an accelerated 12-month technical review to strengthen domestic nuclear fuel supply. The facility would be the first major new US enrichment plant built in decades at a time when utilities are locked out of Russian supply and competing for long-term enrichment contracts; if approved, Project IKE would add material domestic enrichment capacity ahead of the anticipated surge in fuel demand from both operating and planned reactors.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SCANDIUM CANADA'S BEST HOLE YET — 140.15m AT 293 ppm Sc2O3; Three Intercepts Now Over 100m at Crater Lake, Nunavik",
+    "url": "https://www.miningstockeducation.com/2026/09/scandium-canada-drills-best-intercept-yet-of-2026-crater-lake-program-140-15-m-at-293-ppm-sc2o3-with-three-intersections-now-over-100-m/",
+    "source_name": "Mining Stock Education",
+    "category_slug": "rare-earths",
+    "snippet": "Scandium Canada (TSXV: SCD) released its best 2026 drill intercept at the Crater Lake project in Nunavik, Québec: 140.15 metres at 293 ppm scandium trioxide, with three of 40 completed holes now exceeding 100-metre continuity; seven holes remain in the 2026 campaign. Scandium oxide is a critical material for solid-oxide fuel cells, aerospace aluminium alloys and advanced ceramics — and commercial-scale deposits outside Russia and China remain extremely rare, making Crater Lake one of a handful of primary scandium development projects globally.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GENTILE TAKES 11% OF GALWAY METALS IN C$14M FLOW-THROUGH — CLARENCE STREAM PEA LAUNCHED; STOCK +15.73%",
+    "url": "https://www.investing.com/news/company-news/galway-metals-announces-c14-million-private-placement-93CH-4910604",
+    "source_name": "Investing.com",
+    "category_slug": "exploration-discovery",
+    "snippet": "Galway Metals (TSXV: GWM) announced a C$14 million brokered private placement of flow-through units at C$0.72 per unit, anchored by natural resource investor Michael Gentile acquiring approximately 11% of basic shares outstanding, with warrants exercisable at C$0.80 for 36 months. Proceeds fund Canadian exploration expenses at the Clarence Stream Gold Project in New Brunswick, where a Preliminary Economic Assessment has now commenced. The stock surged 15.73% to C$1.03 on September 23 — a notable signal of institutional confidence at a time when junior gold valuations are beginning to re-rate alongside a $4,300 gold price.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "TITAN BIDS A$333M FOR GL1 AT 73% PREMIUM — Manna Lithium Developer Soars 50%; Board Unanimously Recommends Cash Scheme",
+    "url": "https://smallcaps.com.au/article/global-lithium-resources-signs-binding-cash-takeover-deal-with-titan",
+    "source_name": "Small Caps",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Global Lithium Resources (ASX: GL1) entered a binding Scheme Implementation Deed with Titan Australia Mining to acquire 100% of GL1 shares at A$1.15 cash — a 73% premium to the last close of A$0.665 — implying a fully-diluted equity value of approximately A$333 million for the Manna Lithium Project in Western Australia (74.1Mt at 1.0% Li2O mineral resource). Titan is providing up to A$120 million in additional project funding during the scheme process; the GL1 board unanimously recommends approval, with a shareholder vote expected in late December 2026.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD & SILVER ALERT: MORE DOWNSIDE BEFORE THE NEXT RALLY — Technicals Flag $4,200 Support Test, Silver Risk Near $63",
+    "url": "https://www.kitco.com/opinion/2026-09-22/gold-and-silver-alert-more-downside-another-rally",
+    "source_name": "Kitco News",
+    "category_slug": "opinion-analysis",
+    "snippet": "A Kitco technical analysis argues that gold's failure to sustain above $4,350 and silver's sharp reversal from the $66.60 intraday high point to further corrective price action before the next leg of the bull market. Key downside levels are identified at $4,200 for gold and $63 for silver; both metals have avoided breaching their multi-month uptrends and the analysis frames the current pullback as a necessary reset after an overstretched rally — not a reversal — while warning that October Fed hike odds above 70% are a near-term headwind.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CENTRUS ENERGY: THE HALEU PICK-AND-SHOVEL PLAY — Sole US-Licensed HALEU Producer Eyes Next-Gen Reactor Wave",
+    "url": "https://www.fool.com/investing/2026/09/24/is-centrus-energy-the-ultimate-picks-and-shovels/",
+    "source_name": "The Motley Fool",
+    "category_slug": "uranium-energy",
+    "snippet": "A Motley Fool analysis published September 24 makes the case for Centrus Energy (NYSE: LEU) as the pick-and-shovel play on the U.S. nuclear buildout — the only company with an active U.S. NRC licence to produce high-assay, low-enriched uranium (HALEU), the fuel required by advanced microreactors and Generation IV reactors now entering the construction pipeline. The piece highlights existing DOE contracts, the structural tailwind from the Russian uranium import ban, and the expanding HALEU orderbook as evidence that Centrus is positioned ahead of a fuel demand inflection — while flagging reactor-deployment delays as the key binary risk.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
