@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 4,
+  "management_notes": "Churchill Resources management has executed two consecutive drill programs at Black Raven (2025 and Spring 2026) delivering on stated exploration milestones: high-grade antimony intercepts at Frost Cove and the PC Pond polymetallic vein swarm expansion confirmed August 2026. The Golden Baie option (400 sq km, TSXV-approved early 2026) demonstrates proactive land consolidation on a 30 km gold-antimony trend. Financing access has been maintained across multiple small equity raises, though the accumulating share count (316.7 M as of April 2026 MD&A, likely higher post-2026 programs) reflects dilutive capital discipline. Insider ownership data unavailable without parsing SEDI filings — alignment cannot be fully confirmed, capping score at 4.",
+
+  "geology_score": 3,
+  "geology_notes": "Black Raven Project hosts the Frost Cove antimony system in Central Newfoundland. Key intercepts from the 2025 program: 7.25% Sb over 1.98 m and 6.44% Sb over 2.06 m; Spring 2026 program extended the Frost Cove North zone to 19.23% Sb over 1.40 m. August 2026 final assays confirmed the PC Pond polymetallic vein swarm: 0.78% Cu and 61.2 g/t Ag over 6.22 m — material commodity diversification beyond antimony. Golden Baie adds 400 sq km prospective for gold-antimony mineralisation (Swanger's Cove precedent). No NI 43-101-compliant resource estimate has been published. Score of 3 reflects confirmed high-grade discovery-stage results with favourable geology but unproven resource tonnage and grade continuity.",
+
+  "capital_score": 3,
+  "capital_notes": "Cap table from April 2026 MD&A (extracted May 2026): 316,681,940 shares issued and outstanding; 342,756,940 fully diluted comprising 2,625,000 warrants and 23,450,000 options. Strike prices and expiry dates were not captured in the MD&A summary extraction. No flow-through tranches were detected in the filing data. The 316.7 M share base is heavy for a pre-resource junior and compresses per-share NAV at prices below C$0.15. The option pool (~23.5 M, ~7.4% of issued) is within normal range for a management/director compensation program. The April 2026 MD&A figures predate the Spring 2026 drill program and Golden Baie option — the actual current share count is likely higher following subsequent equity financings. Score of 3 pending Q3 2026 MD&A.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "Active near-term catalysts: (1) Golden Baie systematic exploration is underway — trenching, channel sampling, and a maiden drill program on a 30 km gold-antimony trend represent a new independent news stream; (2) follow-up drill planning at Black Raven/PC Pond following August 2026 final assay release of the expanded polymetallic vein swarm; (3) resource estimate initiation is a logical next step if 2026 infill drilling tightens resource geometry at Frost Cove and PC Pond. Macro tailwinds remain robust: China controls approximately 80% of global antimony production; Canada and the US have both designated antimony a critical mineral; defence-sector demand (ammunition, flame retardants) continues to drive strategic interest. Score of 4 reflects multiple active news threads and strong macro support, constrained by the absence of a resource estimate.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "No NI 43-101 resource estimate precludes a formal P/NAV calculation. Strategic acquisition context is strengthened by: (1) confirmed high-grade Sb at Frost Cove (peak 19.23% Sb) in a Tier-1 western jurisdiction; (2) PC Pond Cu-Ag polymetallic vein swarm (August 2026) expanding beyond a single-commodity antimony story; (3) Golden Baie 400 sq km land package on a 30 km Au-Sb trend. Western government critical-mineral supply-chain mandates and defence procurement pressure continue to create a buyer premium for domestic antimony assets. Comparable pre-resource antimony transactions are scarce, limiting valuation benchmarks. Score of 3 reflects above-average strategic positioning for stage; a resource estimate is required to support a higher score.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (CRI.V) continues to develop its Black Raven antimony-polymetallic platform in Central Newfoundland. The August 2026 final assay release from the Spring 2026 program confirmed an expanded polymetallic vein swarm at PC Pond (0.78% Cu / 61.2 g/t Ag over 6.22 m) alongside established high-grade antimony at Frost Cove North (19.23% Sb over 1.40 m). The Golden Baie option (400 sq km, 30 km gold-antimony trend, TSXV-approved early 2026) provides an independent exploration news thread. The critical-mineral macro case is genuine — China controls roughly 80% of global Sb supply and both Canada and the US have designated antimony a critical mineral. The primary constraint is the absence of a NI 43-101 resource estimate; without it, NAV is incalculable and acquisition value remains speculative. The share structure (316.7 M issued as of April 2026 MD&A, likely higher following 2026 financings) is heavy for a pre-resource junior. WATCH maintained; upgrade to BUY contingent on a resource estimate establishing mineable tonnage and grade continuity across Frost Cove and PC Pond. Cap table sourced from April 2026 MD&A via extracted filing (sha256-tracked); resource fields empty — no NI 43-101 estimate published to date.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from April 2026 MD&A — strike/expiry not extracted"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Director/management options — strike/expiry not extracted from MD&A summary table"
+    }
+  ]
+}
