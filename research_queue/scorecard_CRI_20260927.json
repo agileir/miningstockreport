@@ -1,0 +1,53 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 4,
+  "management_notes": "Churchill Resources has assembled a management team with credible critical-minerals and junior-mining backgrounds, well-positioned to advance the Grey River Antimony Project in Newfoundland and Labrador. Insider participation in private placements demonstrates alignment with shareholders, and the team has executed on remote exploration programs in a challenging operating environment. No governance red flags in available filings. One point deducted because the company remains pre-resource and management's ability to deliver a maiden NI 43-101 estimate on schedule is still unproven.",
+
+  "geology_score": 3,
+  "geology_notes": "Grey River is one of the largest known antimony occurrences in North America, supported by historical production records and high-grade intercepts (historical zones reportedly exceeding 5% Sb). The most recent NI 43-101 technical report on file is dated August 2023 (per extracted filings cache); no compliant Measured, Indicated, or Inferred resource estimate has been published as of that date. The structural controls on mineralisation are reasonably well understood, and the geology thesis is sound — but the absence of a formal resource estimate keeps the score at midpoint. A maiden resource publication would be the single most significant upgrade trigger for this factor.",
+
+  "capital_score": 3,
+  "capital_notes": "Per April 2026 MD&A (extracted 2026-05-14): 316,681,940 shares issued and outstanding; 342,756,940 fully diluted. Dilution overhead is approximately 26.1M shares (2,625,000 warrants + 23,450,000 options), representing roughly 8.2% dilution to fully diluted — modest relative to the outstanding base. No flow-through tranches were detected in the extraction; there is no near-term FT hold-release overhang. Share count of ~317M is on the heavier side for a TSXV pre-resource junior but is not structurally problematic given the strategic commodity backdrop. Continued equity raises ahead of a resource estimate are expected; dilution risk is real but manageable. Strike prices and expiry dates for warrants/options were not extractable from the MD&A summary table.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "Macro catalyst remains exceptional: China's antimony export controls (2023 initial, tightened through 2024–2025) have driven prices sharply higher and placed North American domestic supply in acute strategic focus across defense, battery materials, and government procurement. Grey River is among the very few credible near-term antimony development assets in Canada. Key company-specific catalysts: (1) maiden NI 43-101 resource estimate — highest-value single event for the stock; (2) potential strategic partnership or off-take with a downstream user; (3) eligibility for federal/provincial critical minerals funding under Canada's Critical Minerals Strategy; (4) ongoing drill results advancing resource confidence. Score 4 rather than 5 because no specific milestone timelines have been publicly announced in accessible recent filings.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "Without a published NI 43-101 resource estimate, a formal P/NAV calculation is not possible. The strategic scarcity value of a significant North American antimony deposit provides real M&A optionality — potential acquirers span downstream processors, battery and defense supply chain companies, and major miners seeking critical minerals exposure. Comparable antimony transaction data in Canada/US is thin, as antimony M&A has historically been rare. A credible strategic premium thesis exists, but with no resource to anchor valuation, the score holds at midpoint. An upgrade to 4 or 5 is achievable upon publication of a maiden resource enabling NAV modelling.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (CRI.V) holds the Grey River Antimony Project — one of North America's largest known antimony occurrences — during a period of unprecedented strategic demand for the commodity. China's export restrictions have elevated domestic Western antimony supply to a national security priority, creating a powerful macro tailwind that few TSXV juniors can legitimately claim. The investment thesis is directionally compelling but structurally incomplete: no NI 43-101 resource estimate has been published, leaving the project unquantified and precluding a BUY verdict under the Verdict Framework. The share structure is clean (316.7M issued, 342.8M fully diluted, no flow-through overhang detected) and management has maintained the project through exploration without egregious dilution. The primary catalyst to watch is a maiden resource estimate — that single event would likely reprice the stock meaningfully and could trigger an upgrade to BUY. Confidence is low because the scorecard rests on a pre-resource asset with no quantified NAV anchor. Cap-table data sourced from extracted April 2026 MD&A filing (most recent available extraction). Resource fields are empty as no compliant NI 43-101 estimate has been published.",
+
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    }
+  ]
+}
