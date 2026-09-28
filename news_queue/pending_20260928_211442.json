@@ -1,0 +1,101 @@
+[
+  {
+    "headline": "GLADIATOR METALS OPENS COWLEY SOUTHERN LIMB — DEBUT HOLE RETURNS 62M AT 1.34% CU; NORTHERN LIMB HITS 3.89% CU FROM 8M DEPTH",
+    "url": "https://www.goldseiten.de/artikel/715733--Gladiator-Intersects-24.0m--2.37Prozent-Cu-Including-13.1m--3.89Prozent-Cu-from-8m-at-Cowley-Extending-High-Grade-Copper-Mineralization-to-Surface.html",
+    "source_name": "Goldseiten",
+    "category_slug": "exploration-discovery",
+    "snippet": "Gladiator Metals' first Southern Limb drill hole at the Whitehorse Copper Project returned 62.0m at 1.34% Cu from 48.6m, validating a major new growth vector at Cowley. Concurrent Northern Limb results extend bonanza-grade copper to within 8m of surface, including 13.1m at 3.89% Cu.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "TOREX GOLD CONFIRMS $600M CAD FREE CASH FLOW ON TRACK — MEDIA LUNA RAMP COMPLETED 1 FULL YEAR EARLY AT MORELOS",
+    "url": "https://ca.investing.com/news/stock-market-news/torex-gold-at-mining-forum-americas-2026-growth-cash-returns-93CH-4856354",
+    "source_name": "Investing.com",
+    "category_slug": "market-macro",
+    "snippet": "At Mining Forum Americas, Torex Gold confirmed Q3 2026 production is tracking to plan with a significant step-up from Q2 and expects approximately CAD 600 million in free cash flow for the full year. The Media Luna underground mine at Morelos reached design capacity in Q1 2026 — a full year ahead of the original schedule.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "NORTHISLE COPPER-GOLD PITCHES 1.2BT PORPHYRY AT MINING FORUM — $130M IN BANK FOR BC FEASIBILITY THROUGH FID",
+    "url": "https://www.investing.com/news/transcripts/northisle-copper-and-gold-at-mining-forum-americas-2026-growth-push-93CH-4920942",
+    "source_name": "Investing.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "NorthIsle Copper and Gold used its Mining Forum Americas presentation to outline a 1.2-billion-tonne BC porphyry project backed by CAD 130 million in cash — enough to fund feasibility through final investment decision. The company has grown from a CAD 10M explorer to a CAD 1.5B developer anchored by the North Island Project near Port Hardy.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GREEN CANADA URANIUM HITS 3,806 CPS RADIOACTIVITY IN DEBUT ATHABASCA DRILLHOLE — SECOND HOLE COLLARED ON PARALLEL CONDUCTOR",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3551-tsx-venture/gcuc/211852-green-canada-discovers-anomalous-radioactivity-on-first-drillhole-at-marshall-project-athabasca-basin.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "uranium-energy",
+    "snippet": "Green Canada Uranium intersected 6.2m of anomalous radioactivity reaching 3,806 cps at the unconformity on its very first drillhole at the Marshall Project in Saskatchewan's Athabasca Basin — 30km on trend from Canalaska's West McArthur Pike Zone discovery. A second hole targeting a parallel conductor 500m away has been collared.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "JPMorgan HOLDS $6,000 YEAR-END GOLD TARGET AS METAL SINKS TO $4,150 — H2 DEMAND REACCELERATION STILL THE THESIS",
+    "url": "https://www.canadianminingreport.com/blog/jp-morgan-maintains-6-000-gold-year-end-target-as-2h26-demand-seen-reaccelerating",
+    "source_name": "Canadian Mining Report",
+    "category_slug": "opinion-analysis",
+    "snippet": "With gold down nearly 3% to a seven-week low at $4,150, JPMorgan's Global Research is maintaining its year-end 2026 gold price target of $6,000/oz — roughly 45% above current levels. The bank expects second-half demand reacceleration from central banks and Asian buyers to ultimately overwhelm the current Fed rate-hike scare.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SILVER AT $61: THE HIKE IS ALREADY PRICED IN — WHY BULLION POSITIONING IS THE REAL TRADE, NOT THE RATE",
+    "url": "https://goldsilver.com/industry-news/article/silver-price-outlook-september-2026/",
+    "source_name": "GoldSilver.com",
+    "category_slug": "gold-silver",
+    "snippet": "GoldSilver.com argues October rate-hike expectations are already embedded in silver's drop to $61/oz, while institutional positioning in bullion remains historically underweight. The Silver Institute's 2026 World Silver Survey forecasts a sixth consecutive annual silver market deficit at 46.3 million oz — wider than the 40.3M oz shortfall in 2025.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CHINA LITHIUM CARBONATE CRASHES 5% TO 2026 LOW AT 126,350 CNY/T — STOCKPILE REVISIONS SWAMP CATL SUPPLY CUTBACK",
+    "url": "https://www.riotimesonline.com/lithium-markets-latam-monday-september-28-2026",
+    "source_name": "Rio Times Online",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Chinese lithium carbonate fell 5.11% on Monday to 126,350 CNY/T, its lowest level year-to-date, as an upward revision to domestic stockpile estimates overwhelmed the supply reduction from CATL's still-idled Jianxiawo mine. Albemarle gained 1.4% on the session while Chilean producer SQM slipped in a divergent market response.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "COBALT TRIPLES IN 18 MONTHS AS DRC QUOTA SYSTEM THROTTLES SUPPLY — 96,600T ANNUAL CAP RESHAPES BATTERY METALS FINANCING",
+    "url": "https://discoveryalert.com/cobalt-market-structure-drc-export-controls-supply-chain-2026/",
+    "source_name": "Discovery Alert",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Cobalt has surged from roughly $21,000/t in early 2025 to over $56,000/t by mid-2026 — a 167% move — after the DRC replaced its export ban with a quota cap of 96,600 tonnes annually, less than half the country's 2024 export volume. Junior battery metals explorers with cobalt exposure are catching a structural supply-squeeze bid.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "RARE EARTH SUPPLY GAP: WHAT INVESTORS ARE GETTING WRONG — 60,000-70,000T SHORTFALL WITH ONLY TWO NON-CHINESE PRODUCERS AT SCALE",
+    "url": "https://discoveryalert.com/analysis/rare-earth-supply-gap-investors-september-2026/",
+    "source_name": "Discovery Alert",
+    "category_slug": "rare-earths",
+    "snippet": "MP Materials and Lynas together produce less than 12,000 tonnes of NdPr oxide annually while China controls 90% of global separation capacity. Institutional forecasters project a 60,000-70,000 tonne supply gap over the next decade, yet analysis argues most retail investors still dramatically underestimate the structural supply risk.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD AND SILVER MINERS AS THE RATE CYCLE TRADE — RECORD FREE CASH FLOW, COMPRESSED VALUATIONS, SECTOR RE-RATING CASE",
+    "url": "https://discoveryalert.com/analysis/gold-silver-miners-rate-cycle-september-2026/",
+    "source_name": "Discovery Alert",
+    "category_slug": "opinion-analysis",
+    "snippet": "With seniors like Barrick generating $2.55B in operating cash flow (up 111% YoY) and Agnico Eagle printing $1.335B in Q2 free cash flow, analysis argues the September rate-hike scare has compressed gold miner valuations to historically low NAV multiples — setting up the best entry window in the bull market.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "AGC EVERGREEN ZINC-GOLD SYSTEM EXPANDS TO 400M DEPTH AT SOUTH COBAR — POLYMETALLIC FOOTPRINT KEEPS GROWING",
+    "url": "https://discoveryalert.com/asx-stock-news/mining/agc-australian-gold-copper-evergreen-drill-results-september-2026/",
+    "source_name": "Discovery Alert",
+    "category_slug": "exploration-discovery",
+    "snippet": "Australian Gold and Copper's Evergreen discovery in NSW has now been drilled to 400m depth with the system remaining open along strike and at depth. The original discovery hole returned 17m at 5.3 g/t Au, 163 g/t Ag, 0.8% Cu and 17.3% Pb+Zn; ongoing assays continue to expand the footprint of this high-grade polymetallic system.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
