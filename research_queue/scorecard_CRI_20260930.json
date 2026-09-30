@@ -1,0 +1,53 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 4,
+  "management_notes": "Churchill Resources management continued executing on exploration through 2026 with a two-rig drill program at Frost Cove (Grey River project area) that produced multiple high-grade intercepts and expanded the known strike extent to approximately 800m. The team also secured a TSXV-approved option on the Golden Baie Antimony-Gold Property, demonstrating ongoing strategic land assembly discipline. Insider participation in placements has been a positive signal. The primary objective — achieving a maiden NI 43-101 resource estimate — remains the correct operational priority given the commodity environment, and management is explicitly working toward it following the 2026 drill program. One point deducted: management remains pre-resource and timely delivery of the estimate is still unproven.",
+
+  "geology_score": 4,
+  "geology_notes": "The 2026 drill program represents a material upgrade to the geological picture at Frost Cove. Key intercepts include 7.25% Sb over 1.98m near the Southern Shaft and 19.23% Sb over 1.40m at Frost Cove North and PC Pond, with the vein swarm now defined along approximately 800m of strike. A new polymetallic system was discovered grading 0.78% Cu with 6.12 g/t Ag over 6.22m, adding optionality to the antimony thesis. The technical report on file is dated August 2023; no NI 43-101-compliant resource estimate has been published as of the most recent extraction (2026-05-14). The 2026 drill data strongly supports a forthcoming maiden resource. Score capped at 4 until a formal estimate anchors tonnage and grade.",
+
+  "capital_score": 3,
+  "capital_notes": "Per April 2026 interim MD&A (extracted 2026-05-14): 316,681,940 shares issued and outstanding; 342,756,940 fully diluted. Dilution overhead is approximately 26.1M shares (2,625,000 warrants + 23,450,000 options), representing roughly 8.2% dilution to fully diluted — modest relative to the outstanding base. No flow-through tranches were detected in the extraction. Strike prices and expiry dates for warrants and options were not extractable from the MD&A summary table. A share count of ~317M is on the heavier side for a pre-resource TSXV junior, but is not structurally problematic given the strategic commodity backdrop. Continued equity financing to fund the resource estimate and ongoing drilling is anticipated; further dilution ahead is expected but manageable.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "Macro catalyst remains exceptional: China's antimony export controls sustain strategic urgency for North American supply across defence and battery sectors. Grey River / Frost Cove is among the most credible near-term antimony development assets in Canada. Pending catalysts: (1) maiden NI 43-101 resource estimate — the highest-value single event, currently the primary management priority; (2) further assay results from the expanded vein swarm and polymetallic Cu-Ag system; (3) Golden Baie property exploration follow-up; (4) potential strategic partnership or off-take interest from defence or critical minerals supply chains. Score held at 4 rather than 5: no public timeline has been announced for the resource estimate and the company remains pre-resource.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "Without a published NI 43-101 resource estimate, a formal P/NAV calculation is not possible. The strategic scarcity value of a credible North American antimony deposit in a geopolitically sensitive commodity is real and growing. The 2026 drill results (19.23% Sb intercepts, 800m strike, polymetallic discovery) have strengthened M&A optionality materially. Potential acquirers span downstream antimony processors, battery and defence supply chain companies, and major miners building critical minerals portfolios. Comparable antimony M&A transaction data in Canada remains thin. Score held at 3 until a maiden resource enables NAV-based valuation; publication of that estimate is expected to reprice this score to 4–5.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (CRI.V) has materially advanced the Grey River / Frost Cove Antimony Project through its 2026 two-rig drill program, delivering high-grade results — 19.23% Sb over 1.40m and 7.25% Sb over 1.98m across an 800m strike — plus a new polymetallic Cu-Ag discovery (0.78% Cu, 6.12 g/t Ag over 6.22m). These results form the foundation for a maiden NI 43-101 resource estimate, which management is actively preparing. The macro backdrop remains powerful: China's antimony export restrictions have elevated the strategic priority of domestic North American supply to defence and battery sectors, and Grey River is among the very few credible near-term Canadian antimony assets. The company also holds an option on the Golden Baie Antimony-Gold Property. Share structure is clean (316.7M issued, 342.8M fully diluted, no flow-through overhang detected), with an 8.2% dilution overhead from warrants and options. The investment thesis is directionally compelling but the Verdict Framework requires a quantifiable NAV anchor before issuing a BUY. The primary catalyst is the maiden resource estimate — that event would likely materially reprice the stock and could trigger an upgrade to BUY. Cap-table data sourced from extracted April 2026 MD&A filing (no updated extraction available as of 2026-09-30).",
+
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": "",
+  "resource_indicated": "",
+  "resource_inferred": "",
+  "reserve_proven": "",
+  "reserve_probable": "",
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from April 2026 MD&A summary table"
+    }
+  ]
+}
