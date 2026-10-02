@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "Churchill Resources has assembled a management team with experience in exploration-stage resource development. The company's advancement of the Beaver Brook Antimony project demonstrates the ability to navigate permitting and stakeholder engagement in Newfoundland. Insider ownership details were not available through the current data pipeline; no evidence of significant management selling was reviewed. Score reflects baseline competency for a junior at this stage without confirmed insider-alignment data.",
+
+  "geology_score": 3,
+  "geology_notes": "The Beaver Brook Antimony Mine is a historically producing property in central Newfoundland with well-understood structural controls on mineralization. The project benefits from significant historical production data and existing mine infrastructure. The NI 43-101 technical report (August 2023) did not yield extractable resource estimates through the automated pipeline, and no current Measured, Indicated, or Inferred categories are available in the repo. Score reflects the credibility of a past-producing deposit offset by the absence of a published modern resource estimate.",
+
+  "capital_score": 3,
+  "capital_notes": "316.7M shares issued and outstanding, 342.8M fully diluted. Warrant overhang is minimal at 2.625M shares. Option pool of 23.45M (~7.4% of issued) is elevated but within the typical range for a junior exploration company at this stage. Strike prices and expiry dates were not extractable from the April 2026 MD&A summary table. Canadian juniors at Churchill's stage frequently use flow-through share financings; while no specific flow-through tranches were detected in the April 2026 MD&A, investors should monitor for future flow-through raises and the associated 4-month hold-release overhang. Overall share structure is manageable.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "Antimony's designation as a critical mineral by Canada, the US, and the EU — combined with China's ~50-60% dominance of global antimony supply — creates an exceptionally strong macro tailwind. Western governments and defence departments are actively seeking domestic antimony supply chain alternatives. Churchill Resources, as a Canadian issuer holding a past-producing antimony mine in a stable tier-1 jurisdiction, is positioned to benefit from offtake or strategic-partnership discussions, potential government funding (CMIF, NRC, US DoD supply chain programs), and any resource estimate or production-restart announcement.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "Without a published NI 43-101 resource estimate, P/NAV valuation is not possible with meaningful confidence. Comparable antimony acquisition transactions are rare given the niche commodity. Strategic acquirers (government entities, defence contractors, battery manufacturers) add a non-market premium that is real but difficult to model without resource definition. Score reflects the early-stage nature of the company relative to what a strategic buyer would require before paying a meaningful M&A premium.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (CRI.V) holds the Beaver Brook Antimony Mine in Newfoundland — a historically producing asset with genuine strategic relevance in the current critical minerals environment. The macro thesis is strong: antimony is designated critical by Canada, the US, and the EU, and China controls the majority of global supply. Churchill is one of the few names in North America with a past-producing project in a stable, mining-friendly jurisdiction. The near-term story requires a modern NI 43-101 resource estimate and a clear path to production restart or strategic partnership before the investment case can be upgraded to BUY. Cap-table dilution is manageable with 342.8M shares fully diluted, though the elevated share count does limit per-share leverage absent a meaningful re-rating event. Note: no resource estimates were captured in the automated pipeline; IR web fetch was blocked by the egress proxy. Factor scores rely on training-data knowledge and the extracted April 2026 MD&A filing. Confidence is low.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from April 2026 MD&A — strike price and expiry not extracted from summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from April 2026 MD&A — strike price and expiry not extracted from summary table"
+    }
+  ]
+}
