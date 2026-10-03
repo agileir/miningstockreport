@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "Churchill Resources executed two strategic moves in early 2026: the binding option to acquire the Golden Baie Antimony-Gold Property (February) with TSXV approval in March, and an executive leadership transition to new CEO Tasheel Jeerh in May 2026, framed as accelerating strategic growth. The management team is demonstrably executing on exploration — strong drill results through late 2025 and spring 2026 underscore technical credibility — but insider ownership data remains unavailable through the current pipeline. The CEO transition introduces some execution uncertainty. Score reflects a team delivering on exploration milestones without confirmed insider-alignment data.",
+
+  "geology_score": 4,
+  "geology_notes": "Exceptional drill grades across two campaigns. Final 2025 drilling at Frost Cove returned 6.44% Sb / 2.06m, 7.25% Sb / 1.98m, 4.84% Sb / 1.00m, and 3.94% Sb / 1.60m. Spring 2026 drilling at Frost Cove North (results reported September 2026) returned 19.23% Sb and 0.73 g/t Au over 1.4m, with a 0.47m zone running 56.2% Sb — exceptional by any measure for an exploration-stage antimony project. The portfolio now includes: (1) Frost Cove / Beaver Brook Antimony Mine (past-producing, Central Newfoundland), (2) Black Raven Gold-Silver-Antimony Project, and (3) Golden Baie Antimony-Gold Property (optioned 2026). The 800m strike length at Frost Cove remains open. The primary limitation is the absence of a modern NI 43-101 resource estimate — the August 2023 technical report yielded no resource table through the automated pipeline. Grade quality is best-in-class for antimony exploration; resource definition is the missing piece.",
+
+  "capital_score": 3,
+  "capital_notes": "316.7M shares issued and outstanding, 342.8M fully diluted, sourced from the April 2026 MD&A (extracted 2026-05-14). Warrant overhang is minimal at 2.625M shares. Option pool of 23.45M (~7.4% of issued) is elevated but within the typical range for a junior at this stage. Strike prices and expiry dates were not captured in the MD&A summary table. The extracted JSON shows no flow-through tranches were detected in the April 2026 filing; however, an active drilling campaign across multiple projects suggests ongoing financing rounds. Share counts as of October 2026 are likely higher than April figures — investors should monitor subsequent MD&A filings for post-April dilution. Capital structure is manageable but the high base share count (316M+) limits per-share leverage on a re-rating event.",
+
+  "catalyst_score": 5,
+  "catalyst_notes": "Near-term catalyst stack is fully loaded: (1) September 2026 drill results from Frost Cove North just released — 19.23% Sb / 1.4m and 56.2% Sb / 0.47m are headline numbers that establish Churchill as a genuine high-grade antimony exploration story; (2) follow-on drilling on the 800m+ Frost Cove strike and at Golden Baie will generate ongoing newsflow; (3) a first NI 43-101 resource estimate remains the single largest re-rating catalyst — any announcement would materially change valuation; (4) antimony remains on Canada, US, and EU critical minerals lists with China controlling ~50-60% of global supply; (5) government offtake or strategic partnership discussions are plausible at this stage. The new CEO's mandate to 'accelerate strategic growth' likely includes progressing one or more of these events.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "No published NI 43-101 resource estimate prevents a P/NAV calculation. However, the September 2026 drill grades (19.23% Sb, 56.2% Sb) materially improve the strategic acquisition premium a mining company or government-adjacent buyer would apply. Antimony's designation as critical mineral, combined with Western demand for non-Chinese supply, creates a non-market buyer pool (defence contractors, battery manufacturers, government strategic reserve programs). Historical antimony M&A comps are limited given the niche commodity. Score upgraded from prior run to reflect exceptional grades improving the strategic case, while acknowledging the absence of a resource that would anchor a traditional P/NAV bid.",
+
+  "verdict": "BUY",
+  "analyst_summary": "Churchill Resources (CRI.V) has graduated from a 'promising past-producer' story to an active, high-grade exploration program delivering best-in-class antimony grades. The September 2026 Frost Cove North result — 19.23% Sb / 1.4m and 56.2% Sb / 0.47m — is a legitimate headline number for any antimony project globally, and CRI holds it in a tier-1 jurisdiction (Newfoundland) with full drill access. The portfolio expansion through the Golden Baie option adds a second exploration front within 100km of Beaver Brook. The antimony macro tailwind (critical mineral designations by Canada, US, EU; China supply concentration) is as strong as it has been. The path to re-rating runs through a first NI 43-101 resource estimate — without it, per-share valuation is speculative — but the grade quality justifies a BUY for investors who accept early-stage risk. Share count of 342M FD (April 2026) is elevated and likely higher today given active exploration financing; this is the primary structural constraint on upside leverage. New CEO Tasheel Jeerh (May 2026) adds a short-term execution wildcard. Confidence is low pending resource estimate publication and updated cap table beyond April 2026.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from April 2026 MD&A — strike price and expiry not extracted from summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from April 2026 MD&A — strike price and expiry not extracted from summary table"
+    }
+  ]
+}
