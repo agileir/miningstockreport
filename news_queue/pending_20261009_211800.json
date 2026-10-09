@@ -1,0 +1,83 @@
+[
+  {
+    "headline": "GOLD MINERS CRUSH S&P 500 BY 7.5X IN Q3 2026 — NYSE ARCA RETURNS 17.4% VS INDEX'S 2.3% DESPITE SEPTEMBER SELLOFF",
+    "url": "https://www.moneysense.ca/save/investing/hot-stocks-canadas-top-performers-in-q3-2026/",
+    "source_name": "MoneySense",
+    "category_slug": "opinion-analysis",
+    "snippet": "The NYSE Arca Gold Miners Index returned 17.4% in Q3 2026, crushing the S&P 500's 2.3% total return for the same period — a performance gap of more than 7.5 times the broad market, achieved despite gold falling 6.3% in September alone. The divergence reflects miners' leverage to the commodity price combined with improved sector cost discipline since January 2026's all-time high near $5,600/oz; royalty and streaming companies and disciplined low-cost producers led the cohort, while single-commodity explorers with execution issues lagged — reinforcing why company-level due diligence matters as much as commodity exposure.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD MARKS $4,198 FRIDAY CLOSE — UP $65 ON THE DAY AS BULLS RECLAIM WEEKLY SUPPORT AT $4,150",
+    "url": "https://www.kitco.com/charts/gold",
+    "source_name": "Kitco",
+    "category_slug": "gold-silver",
+    "snippet": "Gold settled at $4,198.40 per troy ounce on October 9, 2026, per Kitco's 3:07 p.m. ET reading — a gain of $65.90 on the day and the metal's strongest weekly close since late September. The Friday recovery came after gold dipped toward $4,130 mid-week on stronger-than-expected energy inflation data that temporarily revived Federal Reserve rate-hike speculation; bulls point to the ability to reclaim $4,150-$4,200 support as evidence the correction from January's $5,600 high is running out of downside momentum heading into Q4.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "ENERGY FUELS SLIDES 8.27% AS INVESTORS WEIGH URANIUM CORE AGAINST RARE EARTH PIVOT TIMELINE",
+    "url": "https://kalkine.ca/news/mining/energy-fuels-stock-slides-827-is-rare-earth-ambition-facing-a-near-term-correction",
+    "source_name": "Kalkine Media",
+    "category_slug": "uranium-energy",
+    "snippet": "Energy Fuels (NYSE American: UUUU) fell 8.27% as investors appear to be questioning whether the company's simultaneous pursuit of uranium production, rare earth separation and downstream critical minerals processing is stretching near-term execution capacity. The White Mesa Mill in Utah is the only operating conventional uranium mill in the United States and the only facility in the Americas producing commercial-scale rare earth oxides — a dual mandate offering strategic value but demanding capital and focus at the same time uranium equities are broadly under pressure heading into a seasonally active Q4 contracting cycle.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ELEMENTAL ROYALTY ADDS FIVE GOLD-SILVER STREAMS FROM ORION MINE FINANCE FOR US$290M",
+    "url": "https://www.directorstalkinterviews.com/elemental-royalty-expands-mining-portfolio-with-us290m-acquisition/4121265538",
+    "source_name": "Directors Talk / Elemental Royalty (ASX/TSX: ELE)",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Elemental Royalty (ASX: ELE; TSX: ELE) agreed to acquire five royalties and streaming interests from Orion Mine Finance for US$290 million, adding gold and silver exposure across multiple jurisdictions in a single deal. The transaction significantly expands Elemental's portfolio with cash-flowing assets and exploration upside across properties already in or approaching production — a meaningful scale-up for a royalty company positioning itself as a mid-tier alternative to Franco-Nevada, Wheaton and Royal Gold for investors seeking royalty exposure outside the top-three names.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "OROCO RESOURCE DRILLS 234.6M AT 0.52% CUEQ AT SANTO TOMÁS — MEXICO PORPHYRY HOLE VALIDATES PEA MODEL",
+    "url": "https://juniorminingnetwork.com/junior-miner-news/press-releases/1560-tsx-venture/oco/212569-oroco-drills-234-6-metres-of-0-52-cueq-at-santo-tomas.html",
+    "source_name": "Junior Mining Network / Oroco Resource (TSXV: OCO)",
+    "category_slug": "exploration-discovery",
+    "snippet": "Oroco Resource (TSXV: OCO) reported drill hole S045 at its 100%-owned Santo Tomás porphyry copper project in Sinaloa, Mexico, intersected 234.6 metres averaging 0.52% copper equivalent from near surface — results consistent with the grade distribution embedded in the current Preliminary Economic Assessment block model. At 234.6 metres of continuous copper mineralization starting at surface, Santo Tomás continues to demonstrate the bulk-tonnage geometry required for a large open-pittable porphyry system, and the confirmation of PEA assumptions in infill drilling de-risks the project's advancement toward a feasibility study.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "DISCOVERY MINING PAMOUR: HIGH-GRADE HITS EXTEND TIMMINS GOLD DEPOSIT NORTH AND TO DEPTH",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/2171-tsx/dsv/212523-discovery-reports-new-high-grade-intersections-at-pamour-that-further-extend-mineralization-along-strike-to-the-north-and-to-depth.html",
+    "source_name": "Junior Mining Network / Discovery Mining (TSX: DSV)",
+    "category_slug": "exploration-discovery",
+    "snippet": "Discovery Mining (TSX: DSV) released new Pamour assays including 1.43 g/t gold over 23.7 metres, extending mineralization to the north and at depth beyond the current resource envelope in Timmins, Ontario. The drill results arrive alongside Discovery's US$55 million acquisition of McEwen Mining's Timmins Fuller and Paymaster assets announced this week — together building a picture of an aggressive Timmins consolidator combining resource expansion drilling with asset acquisitions in Canada's most historically productive gold camp.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "WORLD GOLD COUNCIL PUSHES MINERS TO NAME THEIR REFINERS — SUPPLY CHAIN TRANSPARENCY DRIVE",
+    "url": "https://goldseek.com/article/world-gold-council-urges-miners-name-refiners",
+    "source_name": "GoldSeek / World Gold Council",
+    "category_slug": "market-macro",
+    "snippet": "The World Gold Council is calling on gold mining companies to publicly disclose the names of the refiners processing their output — a supply chain transparency push aimed at strengthening conflict-minerals assurance and aligning the sector with evolving ESG disclosure standards. For junior miners, the initiative signals an emerging compliance threshold that is increasingly likely to become a due-diligence criterion for institutional investors, streaming companies and royalty buyers evaluating off-take agreements and deal structures.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "HOT CHILI LA VERDE: OCTOBER DRILLING EXTENDS SHALLOW COPPER-GOLD PORPHYRY IN COASTAL CHILE",
+    "url": "https://www.cruxinvestor.com/posts/hot-chili-reports-drill-results-from-la-verde-copper-gold-discovery",
+    "source_name": "Crux Investor / Hot Chili (ASX: HCH)",
+    "category_slug": "exploration-discovery",
+    "snippet": "Hot Chili (ASX: HCH) released October 2026 drill results extending shallow copper-gold mineralization at its La Verde porphyry discovery within the Costa Fuego complex on Chile's coast. The new results build on a series of step-out holes since early 2026 that have progressively grown La Verde's high-grade core — including a landmark 725-metre intercept at 0.42% CuEq in April — reinforcing the discovery's scale and continuity in a tier-1 copper jurisdiction with established infrastructure access, ahead of an anticipated resource update.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "COT GOLD REPORT OCTOBER 9: WEEKLY FUTURES POSITIONING SNAPSHOT AS GOLD DEFENDS $4,150 FLOOR",
+    "url": "https://goldseek.com/article/cot-gold-silver-usdx-report-october-9-2026",
+    "source_name": "GoldSeek / CFTC",
+    "category_slug": "gold-silver",
+    "snippet": "The weekly CFTC Commitments of Traders report for gold and silver futures, released October 9 based on Tuesday October 6 positioning data, provides a window into institutional sentiment during a week when gold tested $4,130 before recovering sharply. COT positioning at this stage in the gold cycle — approximately 25% below January 2026's $5,600 all-time high — is closely watched by technical analysts to assess whether large speculative money is accumulating a base or distributing into bounces, a distinction with direct implications for junior mining equities whose moves tend to amplify gold's directional signals.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
