@@ -1,0 +1,101 @@
+[
+  {
+    "headline": "CENTINELA STRIKE JOINS ESCONDIDA FATALITY AND STORMS AT LOS PELAMBRES — CHILE COPPER RISK INDEX HITS 5% OF NATIONAL OUTPUT",
+    "url": "https://www.mining.com/chile-copper-mines-disruptions-put-5-of-production-at-risk/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "Chile's copper disruption risk index climbed to 5.2% of national output as Antofagasta's Centinela began an indefinite strike, BHP's Escondida operated under Sernageomin oversight following a September fatality, and separate weather events disrupted Los Pelambres and Caserones. The convergence of labour, safety and weather events at four separate mines simultaneously underscores Chile's rising operational fragility at a time when copper inventories remain tight globally.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "KAMOA-KAKULA REBOUNDS: IVANHOE COPPER HITS 76,401 TONNES IN Q3 — +19% QOQ AS PHASE 1-2 RECOVERY BOOST TAKES HOLD",
+    "url": "https://www.mining.com/ivanhoe-copper-output-jumps-19-as-kamoa-kakula-rebounds",
+    "source_name": "Mining.com / Ivanhoe Mines (TSX: IVN)",
+    "category_slug": "copper-base-metals",
+    "snippet": "Ivanhoe Mines reported Q3 2026 copper production of 76,401 tonnes at Kamoa-Kakula in the DRC, a 19% increase over Q2's 64,328 tonnes as the Phase 1-2 concentrator recovery boost and a 30% mining rate increase at Kakula took hold. The rebound keeps Ivanhoe on track for full-year 2026 guidance of 290,000–330,000 tonnes, with 135,745 tonnes already produced in H1 and the planned drawdown of roughly 10,000 tonnes of inventory now underway.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "CASCADIA STEPS OUT 300M BEYOND RESOURCE AT CARMACKS — 75.55M AT 2.18% CUEQ DOUBLES ZONE 2000S STRIKE LENGTH",
+    "url": "https://www.cantechletter.com/newswires/cascadia-steps-out-and-drills-75-55-m-of-1-19-cu-and-0-97-g-t-au-2-18-cueq-at-the-carmacks-project-yukon/",
+    "source_name": "Cantech Letter / Cascadia Minerals (TSXV: CAM)",
+    "category_slug": "copper-base-metals",
+    "snippet": "Cascadia Minerals (TSXV: CAM) drilled 75.55 metres averaging 1.19% copper, 0.97 g/t gold and 10.4 g/t silver (2.18% CuEq) in step-out hole CD-26-058 at Carmacks in Yukon, extending Zone 2000S at least 300 metres beyond the published Mineral Resource and doubling the zone's strike length. Companion step-out CD-26-059 returned 93.99 metres averaging 0.96% Cu, with assays from six further holes still pending on the expanded 18,000-metre 2026 program backed by strategic investor Agnico Eagle.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLDMINING DRILLS 400M OF CONTINUOUS GOLD-COPPER PORPHYRY AT YARUMALITO — HOLE MINERALIZED SURFACE TO 400M TD",
+    "url": "https://www.cantechletter.com/newswires/goldmining-intersects-400-metres-of-continuous-gold-copper-mineralization-at-the-yarumalito-project-colombia/",
+    "source_name": "Cantech Letter / GoldMining Inc. (NASDAQ: GMIN)",
+    "category_slug": "exploration-discovery",
+    "snippet": "GoldMining Inc. (NASDAQ: GMIN) reported that hole YAR-45 at its Yarumalito Gold-Copper Project in Colombia intersected P-1 porphyry and breccia from surface to 399.9 metres total depth — ending in continuous alteration and mineralization — as part of a 1,218-metre four-hole Phase 1 drill program. The result builds on historical YAR-06 which returned 257m at 0.50 g/t Au and 0.10% Cu from surface; assays for YAR-46 through YAR-48 remain pending and will feed an updated resource model.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "MMG ACCUSES EU OF IGNORING EVIDENCE IN ANGLO NICKEL PROBE — PHASE II REVIEW HOLDS UP LAST PIECE OF $54B COPPER MERGER",
+    "url": "https://www.mining.com/mmg-accuses-eu-antitrust-regulators-of-ignoring-evidence-backing-anglo-american-deal",
+    "source_name": "Mining.com / MMG Ltd.",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "MMG accused EU antitrust regulators of ignoring evidence that its purchase of Anglo American's Brazilian nickel business would not divert European steel-sector supplies to China, as the European Commission extended its Phase II review on supply security grounds. The accusation arrived as the $54 billion Anglo-Teck copper mega-merger awaits only Chinese regulatory approval — making the EU nickel review the sole remaining blocker in the Anglo American asset restructuring that underpins the deal.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD ETF RUSH DEFIES 8.5% PRICE SLIDE — INVESTORS BUY-THE-DIP AS HOLDINGS HIT NEW RECORD",
+    "url": "https://www.mining.com/gold-etf-rush-defies-8-5-gold-price-slide/",
+    "source_name": "Mining.com",
+    "category_slug": "gold-silver",
+    "snippet": "Gold-backed ETF holdings hit a new all-time record even as bullion prices fell 8.5% from their September peak, with fund inflows defying the price correction as institutional investors treated the pullback as an accumulation opportunity rather than an exit signal. The divergence between rising ETF holdings and falling spot prices mirrors the pattern seen ahead of gold's major trending legs in 2022 and 2023, and is closely watched by mining equity analysts as a leading indicator for the sector.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "TOP 50 MINERS SHED $264B IN MARKET CAP AS GOLD TRADE UNWINDS AND LITHIUM STOCKS EXIT",
+    "url": "https://www.mining.com/top-50-mining-companies-take-264-billion-hit-as-gold-trade-unwinds-lithium-stocks-exit/",
+    "source_name": "Mining.com",
+    "category_slug": "market-macro",
+    "snippet": "The world's 50 largest mining companies lost a combined $264 billion in market capitalization in the Q3 2026 correction as gold prices retreated from their highs and institutional investors continued to exit lithium-exposed names still suffering from the sector's prolonged oversupply hangover. The selloff concentrated in gold majors that had rallied hard on the H1 price surge, while copper and uranium names held relatively better — a divergence that favours selective copper juniors heading into Q4.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "PRABOWO LAUNCHES INDONESIA NICKEL AND BATTERY PLANTS — CHINESE OPERATORS WARN COSTS MAKE NEW INVESTMENT UNVIABLE",
+    "url": "https://www.mining.com/web/indonesia-vows-to-protect-investment-at-launch-of-battery-solar-aluminium-plants",
+    "source_name": "Mining.com",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Indonesian President Prabowo Subianto presided over the launch of new nickel, solar panel and aluminium manufacturing projects and pledged full investment protection, even as Chinese companies operating Indonesia's nickel downstream sector sent a private warning that rising mining quotas, a new pricing formula and higher taxes were squeezing margins and could deter future capital. Indonesia controls roughly 40% of global nickel supply — the disconnect between government messaging and Chinese investor sentiment has direct implications for the EV battery supply chain.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "UK SCIENTISTS GROW PROTEIN MEMBRANES TO EXTRACT LITHIUM CLEANER — £6.2M PROJECT COULD DISRUPT BRINE RECOVERY ECONOMICS",
+    "url": "https://www.mining.com/uk-scientists-turn-to-biology-to-unlock-cleaner-lithium/",
+    "source_name": "Mining.com",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "A University of Birmingham-led team secured £6.2 million (US$8.2 million) to develop protein-based biological membranes that selectively extract lithium from brines with less energy and water than conventional evaporation ponds or solvent extraction. The research targets a step-change in lithium recovery selectivity that could make low-grade brine deposits economic and reduce the environmental footprint of hard-rock lithium processing — a long-term competitive pressure on conventional lithium miners.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "LATIN METALS CERRO BAYO PHASE II UNDERWAY — PARTNER FUNDS ALL DRILLING AS LA FLORA INITIAL HOLES BEGIN",
+    "url": "https://www.globenewswire.com/news-release/2026/10/08/3377433/0/en/latin-metals-reports-partner-funded-phase-ii-drilling-underway-at-cerro-bayo-and-initial-drilling-at-la-flora.html",
+    "source_name": "GlobeNewswire / Latin Metals (TSXV: LMS)",
+    "category_slug": "exploration-discovery",
+    "snippet": "Latin Metals (TSXV: LMS) reported that its earn-in partner has commenced Phase II drilling at the Cerro Bayo gold-silver project in Mexico while initial drilling has simultaneously begun at the La Flora target on the same land package — both fully funded by the partner at zero cost to Latin Metals shareholders. The partner-funded model advances multiple targets in parallel without dilution while de-risking additional discovery potential within an already drill-active package.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "MAVERICK GOLD WRAPS 1,316M MAIDEN PROGRAM AT SILVER VISTA, BC — ASSAYS PENDING ON SYSTEM WITH 46M AT 48 G/T AG HISTORICALLY",
+    "url": "https://www.miningstockeducation.com/2026/10/maverick-gold-and-silver-completes-drill-program-at-silver-vista-property-british-columbia/",
+    "source_name": "Mining Stock Education / Maverick Gold and Silver (CSE: MAV)",
+    "category_slug": "exploration-discovery",
+    "snippet": "Maverick Gold and Silver (CSE: MAV) completed its maiden five-hole, 1,316-metre NQ drill program at the Silver Vista property near Smithers in northern British Columbia, with all core samples dispatched to the assay lab. The program tested targets identified from historical drilling that returned 46 metres grading 48.0 g/t silver and 0.62% copper — results that have not been followed up with modern methods — and first assays are expected within the next several weeks.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
