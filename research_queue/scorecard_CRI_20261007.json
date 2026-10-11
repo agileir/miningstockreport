@@ -1,0 +1,40 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "Churchill Resources completed a CEO transition in May 2026, appointing Tasheel Jeerh and announcing a concurrent $700,000 private placement to fund continued exploration — a modest raise consistent with pre-resource stage capital needs. Jeerh's appointment alongside a leadership restructuring signals a deliberate push to accelerate strategic growth, though track record under new leadership is short. Prior management delivered material news flow in 2025–2026: the Golden Baie option agreement (TSXV-approved March 2026), a 4,267-metre spring 2026 drilling campaign at Black Raven, and consistent public disclosure across both properties. The large option pool (23.45M options on 316.7M outstanding, ~7.4%) is within junior explorer norms but is notable at this share count. Specific insider ownership percentages are not available from extracted filings. Score held at 3 pending a demonstrated track record under new leadership.",
+
+  "geology_score": 3,
+  "geology_notes": "Black Raven Gold-Silver-Antimony Project in central Newfoundland returned 19.23% Sb and 0.73 g/t Au across 1.4m at Frost Cove North from the spring 2026 campaign — an exceptional antimony grade (world-class operations typically run 3–10% Sb). The program completed 23 holes (4,267m) confirming multiple high-grade zones across the structural corridor. Pomley Cove Pond (February 2026) intersected 20 gold-silver-molybdenum-lead-zinc veins within a 150m-wide swarm, adding polymetallic optionality. The Golden Baie option (consolidated March 2026) adds a second antimony-gold corridor, both properties within 100km of the Beaver Brook Antimony Mine — the only primary antimony mine in North America. The August 2023 NI 43-101 technical report pre-dates the consolidated drilling database; no resource estimate exists. Geology is genuinely high-grade and the multi-zone pattern is encouraging, but the absence of a quantified resource keeps this in discovery-stage territory.",
+
+  "capital_score": 2,
+  "capital_notes": "316,681,940 shares issued and outstanding (April 2026 MD&A); 342,756,940 fully diluted. The $700,000 private placement announced May 2026 alongside the CEO transition is a small financing that modestly supplements working capital without materially altering the share structure or dilution profile. Option pool: 23,450,000 (7.4% of outstanding) — strike prices and expiry dates not extracted from MD&A summary table. Warrants: 2,625,000 (minor overhang). No flow-through tranches detected in the April 2026 MD&A or October 2025 annual financials. The high share count (316.7M) is the primary structural constraint: per-share leverage on exploration success is materially compressed relative to peers operating with tighter structures in the 80–150M share range. Until a resource estimate creates a NAV anchor, the share count amplifies downside risk.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Final assays from the spring 2026 Black Raven campaign were released in September 2026 and are fully in the market. The primary de-risking catalyst remains a maiden NI 43-101 resource estimate at Black Raven — the current technical report (August 2023) predates the consolidated drilling database, and a resource update would be a material re-rating event. Secondary catalysts: first drill results at Golden Baie (option TSXV-approved March 2026), any fall 2026 or winter drill program announcement, and continued disclosure on strategic-partnership discussions under new CEO. Antimony's critical mineral designation by the US, EU, and Canada sustains a macro tailwind and elevates potential strategic interest. No new October 2026 announcements identified as of October 7, 2026. Catalyst calendar is constructive but the key event (resource estimate) remains ahead.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "No NI 43-101 resource estimate exists, making P/NAV calculation impossible; nav_per_share is null. Antimony's supply-chain context — China controls approximately 70% of global production, with Western governments designating it a critical mineral — meaningfully elevates the strategic acquisition optionality above a standard junior gold explorer. Proximity to Beaver Brook provides a geographic and metallurgical reference for a strategic acquirer seeking North American antimony supply security. The CEO transition to Tasheel Jeerh and the stated objective of accelerating strategic growth could include pursuit of a strategic partnership or offtake agreement, which would be a material positive signal. Without a resource, acquisition value remains speculative; the high share count (316.7M) further reduces per-share leverage in any transaction. Score would rise materially on a maiden resource estimate or a formal strategic partnership announcement.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources is a pre-resource antimony-gold explorer in central Newfoundland with two properties — Black Raven and Golden Baie — both proximal to the Beaver Brook Antimony Mine, the only primary antimony producer in North America. The spring 2026 Black Raven drilling returned 19.23% Sb at Frost Cove North, confirming world-class antimony grades across a multi-zone structural corridor. The Golden Baie option (TSXV-approved March 2026) consolidates the regional land position and adds a second drill target. A CEO transition in May 2026 (Tasheel Jeerh, with $700K concurrent placement) signals strategic ambition but introduces execution uncertainty pending track record. No new material news as of October 7, 2026. The blocking constraint is unchanged: no NI 43-101 resource estimate exists, keeping this a speculative exploration position rather than a value-quantifiable investment. Share count (316.7M outstanding) is high for this stage. WATCH: the maiden resource estimate at Black Raven is the catalyst that would trigger a BUY review. The antimony critical-mineral macro tailwind is real and differentiates CRI from a generic junior explorer in a crowded discovery-stage field.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {"type": "warrant", "count": 2625000, "strike_price": null, "expiry": null, "notes": "Summary count only — strike/expiry not extracted from MD&A summary table"},
+    {"type": "option", "count": 23450000, "strike_price": null, "expiry": null, "notes": "Summary count only — strike/expiry not extracted from MD&A summary table"}
+  ]
+}
