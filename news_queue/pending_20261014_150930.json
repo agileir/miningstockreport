@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "GOLD DIVES 1% TO $4,107 AS SEPTEMBER CPI HEATS UP — FED RATE HIKE PROBABILITY SURGES",
+    "url": "https://www.kitco.com/news/article/2026-10-14/gold-price-drops-session-lows-us-cpi-heats-september",
+    "source_name": "Kitco",
+    "category_slug": "gold-silver",
+    "snippet": "Spot gold fell more than 1% to $4,107.30 per ounce after September's U.S. CPI came in hotter than expected, reinforcing Federal Reserve rate-hike expectations. The dollar had already hit its highest level since April 2025, compressing metals prices ahead of the print.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "S&P GLOBAL: COPPER DEMAND UP 50% BY 2040 — MINED SUPPLY EXPECTED TO PEAK AROUND 2030",
+    "url": "https://bnnbloomberg.ca/press-releases/2026/10/14/copper-demand-is-forecast-to-rise-50-by-2040-mined-supply-is-expected-to-peak-around-2030",
+    "source_name": "BNN Bloomberg",
+    "category_slug": "copper-base-metals",
+    "snippet": "S&P Global's latest outlook forecasts global copper demand climbing from roughly 28 million metric tons in 2025 to 42 million metric tons by 2040, driven by electrification and AI data infrastructure build-out. Mined supply is expected to peak around 2030, setting up a multi-decade structural deficit that could reshape junior copper valuations.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "ARGYLE RESOURCES FINDS 12 NEW SILVER-GOLD VEINS AT YUKON'S MCKAY HILL — 60% GALENA VEIN EXPOSED, 2027 DRILL PROGRAM SET",
+    "url": "https://stockhouse.com/news/press-releases/2026/10/14/argyle-resources-reports-initial-results-from-2026-exploration-program-at-mckay",
+    "source_name": "Stockhouse",
+    "category_slug": "exploration-discovery",
+    "snippet": "Argyle Resources (CSE: ARGL) discovered 12 new veins and vein systems from its 2026 surface program at McKay Hill, located 90 km north of Mayo, Yukon. One highlighted vein shows up to 60% massive galena and freibergite; 678 soil samples and a VLF-EM survey back 2027 diamond drilling targets.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "RIVIAN AND REDWOOD MATERIALS DEEPEN BATTERY RECYCLING DEAL — 95%+ RECOVERY OF LITHIUM, NICKEL AND COBALT FROM EV SCRAP",
+    "url": "https://investingnews.com/rivian-and-redwood-materials-expand-partnership-to-span-the-lifecycle-of-the-battery",
+    "source_name": "InvestingNews",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Rivian and Redwood Materials expanded their partnership to cover the full EV battery lifecycle, with Redwood's process recovering lithium, nickel, cobalt, and copper at rates exceeding 95 percent. The deal boosts North American battery metal recycling infrastructure and may temper long-term primary lithium demand projections.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "MYRIAD URANIUM ACQUIRES 55,000-HA LOS ALTARES PROJECT IN ARGENTINA'S CERRO SOLO DISTRICT — $300K CASH DEAL",
+    "url": "https://irw-press.com/en/myriad-uranium-to-acquire-los-altares-a-strategic-district-scale-uranium-project-in-argentinas-premier-cerro-solo-uranium-district",
+    "source_name": "IRW-Press",
+    "category_slug": "uranium-energy",
+    "snippet": "Myriad Uranium (TSXV: MYU) agreed to acquire the Los Altares uranium project in Chubut, Argentina — 55,000 hectares across 23 properties adjacent to CNEA's Cerro Solo deposit — for $300,000 cash plus 1.57 million shares. The project carries approximately 12,500 metres of historical drilling; closing expected November 13.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "USA RARE EARTH SINKS 6.3%, MP MATERIALS OFF 4.9% AS MILESTONE-BASED GOVERNMENT FUNDING DRAWS SCRUTINY",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/usa-rare-earth-drops-6-175511584.html",
+    "source_name": "Yahoo Finance",
+    "category_slug": "rare-earths",
+    "snippet": "USA Rare Earth fell 6.3% and MP Materials dropped 4.9% on October 13 as investors questioned the pace at which producers can unlock government reimbursement tied to production milestones. Critical Metals declined 3.1% and the VanEck rare earth ETF slid 1.9% in a broad sector pullback.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "LITHIUM CRATERS 11.8% IN A SINGLE DAY TO 10-MONTH LOW — EU-CHINA HYBRID DEAL KILLS DEMAND HOPES, TIANQI OFF 5%",
+    "url": "https://www.mining.com/web/chinese-lithium-prices-tumble-to-nearly-10-month-low-on-demand-concerns/",
+    "source_name": "Mining.com",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Chinese lithium carbonate futures plunged 11.8% on October 12 — their steepest single-day drop since March — to ¥104,740 per tonne, a 10-month low. The selloff followed an EU-China agreement to cut hybrid car exports, wiping out 2027 demand expectations; Tianqi Lithium fell 5.1% and Ganfeng 3.9%.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER CLIMBS AS CHILE MINE AVALANCHE COMPOUNDS CENTINELA STRIKE — NOVEMBER OUTPUT COULD FALL 50%",
+    "url": "https://bloomberg.com/news/articles/2026-10-12/copper-gains-on-easing-rate-hike-bets-and-chile-mine-avalanche",
+    "source_name": "Bloomberg",
+    "category_slug": "copper-base-metals",
+    "snippet": "Copper pushed higher on October 12 after a natural disaster at a Chilean mine piled onto an already stressed supply picture. The Centinela union projected production could fall 50% in November if the strike continues, adding to disruptions that pushed Chile's August output to a 15-year low.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ALTIUS MINERALS IN EXCLUSIVE TALKS TO BUY TNR GOLD — C$68M ROYALTY PORTFOLIO BID AMID PROXY FIGHT",
+    "url": "https://mining.com.au/altius-bids-to-overtake-tnr-gold-ma-monday/",
+    "source_name": "Mining.com.au",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Altius Minerals (TSX: ALS) submitted a non-binding proposal to acquire the TNR Gold (TSXV: TNR) shares it doesn't yet own, and TNR's board entered exclusivity to explore the deal. No terms were disclosed; estimates value the remaining shares at roughly C$68 million before any premium. A concurrent proxy fight with Eucalyptus Resources adds pressure.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SCREEN LIKE A PRO: DON DURRETT'S RULES FOR FINDING JUNIORS WITH 6–7X UPSIDE IN A GOLD BULL MARKET",
+    "url": "https://discoveryalert.com/education/mining-stocks-bull-market-screening-rules-october-2026/",
+    "source_name": "Discovery Alert",
+    "category_slug": "opinion-analysis",
+    "snippet": "Analyst Don Durrett argues 95% of junior miners aren't worth owning even in a bull market, and sets a rule-by-rule process targeting companies with 6–7x free cash flow upside over three years at US$7,000 gold. A useful filter for retail investors trying to sort signal from noise in today's crowded newsletter landscape.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
