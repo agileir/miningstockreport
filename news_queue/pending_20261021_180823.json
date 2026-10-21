@@ -1,0 +1,83 @@
+[
+  {
+    "headline": "KWANIKA GOES DEEP: NorthWest Copper Hits New Porphyry Zones Below Resource — B.C. Deposit Stays Open at Depth",
+    "url": "https://canadianminingjournal.com/news/northwest-coppers-kwanika-high-grade-core-shows-more-promise",
+    "source_name": "Canadian Mining Journal",
+    "category_slug": "exploration-discovery",
+    "snippet": "NorthWest Copper (TSX-V: NWST) reported three additional drill holes from its Kwanika project in British Columbia, identifying new porphyry copper-gold mineralization below previously defined zones — expanding the deposit's footprint at depth. The results confirm the high-grade core remains open and add geological confidence ahead of an updated resource estimate, reinforcing Kwanika's status as one of the most significant porphyry copper-gold development stories on the TSXV.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "SURPLUS SIGNAL: LME Copper Inventories Jump 8% in One Week as BHP Chile Deal Eases Short-Term Supply Fear",
+    "url": "https://mining.com.au/copper-price-falls-as-inventories-rise-supply-worries-ease",
+    "source_name": "Mining.com.au",
+    "category_slug": "copper-base-metals",
+    "snippet": "LME three-month copper eased from a three-week high of $14,700 per tonne as warehouse inventories climbed 11,475 tonnes on the day — part of an 8% weekly build — and BHP reached a tentative labour deal at its flagship Chilean copper mine, removing a near-term strike risk. The International Copper Study Group's October forecast of a 104,000-tonne refined surplus in 2026 widening in 2027 adds a further bearish layer, though the 17-year structural pipeline gap beneath the surface means the inventory relief is likely temporary.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "NEVADA CONSOLIDATION: SSR Mining Acquires Explorer Roxmore Resources for $464M to Expand Marigold Footprint",
+    "url": "https://goldseek.com/article/gold-swot-ssr-mining-agreed-acquire-roxmore-resources",
+    "source_name": "GoldSeek",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "SSR Mining agreed to acquire Roxmore Resources for approximately US$464 million, adding a Nevada gold project directly adjacent to SSR's producing Marigold mine — a classic bolt-on consolidation play that avoids greenfield exploration risk. The deal is the fourth significant gold M&A transaction in ten days and is covered in Frank Holmes' weekly Gold SWOT for October 20, which also notes silver was the worst-performing precious metal for the week, down 6.43%, as oil-driven rate fears continue to weigh on precious metals.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "17-YEAR DROUGHT: Record $14,700 Copper Prices Cannot Hide the Pipeline Gap — No Major New Mines Until 2043",
+    "url": "https://www.washingtontimes.com/news/2026/oct/19/copper-hit-record-prices-bigger-squeeze-17-year-wait-new-mines/",
+    "source_name": "Washington Times",
+    "category_slug": "copper-base-metals",
+    "snippet": "Despite copper touching $14,700 per tonne — near a modern record — the mining industry faces a structural supply crisis with no significant new copper mines expected to reach production before 2043, according to a Washington Times analysis of global project timelines. Permitting delays, community opposition, capital costs, and the average 17-year lead time from discovery to production mean that today's record prices are already too late to incentivize supply that can address the EV and grid electrification demand wave arriving in the early 2030s.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD SLIDES TO $4,120: Oil Above $110 Fans Rate Fears; Newmont, Agnico Eagle, Kinross Shares Under Pressure",
+    "url": "https://en.coin-turk.com/gold-falls-to-4120-as-oil-surge-pressures-bullion-newmont-agnico-eagle-kinross-stocks-in-focus/",
+    "source_name": "Coin-Turk",
+    "category_slug": "gold-silver",
+    "snippet": "Gold slid to $4,120 per ounce as Brent crude holding above $110 per barrel keeps inflation expectations elevated and sustains Treasury yield pressure ahead of the October 27–28 FOMC — a double headwind for non-yielding bullion. Shares of Newmont, Agnico Eagle, and Kinross Gold are under pressure as a result, though analysts note Agnico Eagle's net cash position of approximately $3.27 billion at June quarter-end provides a cushion if the sell-off deepens before the Fed meeting.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ONSHORE AT LAST: Phoenix Tailings to Build $375M Rare Earth Processing Plant in Rochester, New York",
+    "url": "https://www.mining.com/phoenix-tailings-to-build-375m-rare-earth-plant-in-new-york/",
+    "source_name": "Mining.com",
+    "category_slug": "rare-earths",
+    "snippet": "Phoenix Tailings announced it will construct a $375 million commercial-scale rare earth processing facility in Rochester, New York — a significant milestone in the US push to build a domestic rare earth supply chain capable of operating independently of Chinese separation capacity. The Rochester plant will process rare earth concentrates into separated oxide products, targeting the magnet materials supply chain critical for EV motors, wind turbines, and defense systems; no completion timeline was stated but the announcement signals committed capital, not a study.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "THE GREAT SPLIT: Oil, Uranium, Copper All Up 30–60% YTD — Their Stocks Are Down. Who's Right?",
+    "url": "https://theresourcemind.substack.com/p/oil-uranium-copper-why-are-stocks",
+    "source_name": "The Resource Mind",
+    "category_slug": "opinion-analysis",
+    "snippet": "A Resource Mind analysis documents the widening gap between commodity prices and the equities that produce them: uranium spot near $90/lb with the URA ETF down 12% in October alone; copper near record highs while copper miners lag; oil above $110 while energy stocks trade at multi-year relative lows. The piece argues this is not a value signal but a crisis-of-confidence signal — investors are pricing dilutive capital requirements, AISC inflation, and the political risk premium into every resource equity at once, creating a paradox where the commodities themselves scream scarcity while the companies that dig them out are priced for obsolescence.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "'OTHER YELLOW METAL': Uranium Speculators Loading Up as Long-Term Contracts Surpass 2007 All-Time Record at $97/lb",
+    "url": "https://www.benzinga.com/markets/commodities/26/10/62319620/the-other-yellow-metal-why-speculators-are-loading-on-uranium",
+    "source_name": "Benzinga",
+    "category_slug": "uranium-energy",
+    "snippet": "Uranium long-term contract prices have climbed to $97 per pound — above the $95 peak set in 2007 — while spot uranium holds near $90, creating the most constructive price environment for the sector in nearly two decades. Benzinga reports that speculators are increasing exposure to uranium equities and ETFs as nuclear power's role in AI data centre power demand and decarbonization drives utilities toward long-term contracting, despite equity valuations that have lagged the commodity itself by a wide margin year-to-date.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ASIA WATCHES: Gold Near $4,137, Silver at $57.58 — GoldSeek Asian Session Flags Oil Risk as Next Market Mover",
+    "url": "https://goldseek.com/article/asian-metals-market-update-19th-october-2026",
+    "source_name": "GoldSeek",
+    "category_slug": "market-macro",
+    "snippet": "GoldSeek's October 19 Asian Metals Market Update flags Brent crude above $110 as the primary risk factor overhanging precious and base metals heading into the October 27–28 FOMC — noting that sustained oil-driven inflation expectations are the engine behind the 10-year Treasury yield holding above 5.14% and preventing a gold recovery toward $4,400. The update puts gold near $4,137 and silver at $57.58, with the gold-silver ratio averaging above 90 through October, signalling silver's continued underperformance relative to historical norms.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
