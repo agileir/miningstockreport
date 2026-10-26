@@ -1,0 +1,47 @@
+[
+  {
+    "headline": "GOLD HOLDS $3,996 INTO FOMC WEEK — SILVER PRINTS 2026 LOW, 9% HIKE ODDS, PCE DUE THURSDAY",
+    "url": "https://financefeeds.com/gold-price-today-3996-sunday-fed-28-october-hike-odds-9-percent-pce-29-october-silver-2026-low-bull-4150-bear-3890/",
+    "source_name": "FinanceFeeds",
+    "category_slug": "gold-silver",
+    "snippet": "Gold opened Sunday October 26 at $3,996, holding its test of the $4,000 psychological floor ahead of the October 28 FOMC decision — where CME FedWatch places a hold at roughly 90% and a hike at approximately 9-10%. Silver separately printed its 2026 calendar low, adding to bearish sentiment across precious metals. The dual binary is double: the Fed decision Tuesday and September PCE inflation data Thursday October 29, with the bull recovery case targeting $4,150 on soft PCE and a neutral statement, and the bear extension scenario pointing to $3,890 if the FOMC signals a December hike bias.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "TECK HIGHLAND VALLEY COPPER STRIKE ON — USW 7619 WALKS OUT AT CANADA'S LARGEST COPPER MINE",
+    "url": "https://www.mining.com/web/teck-says-strike-begins-at-highland-valley-copper-mine-in-british-columbia/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "United Steelworkers Local 7619 began strike action at Teck Resources' (TSX: TECK.B) Highland Valley Copper mine in British Columbia on Saturday October 25, following the expiry of the collective agreement on September 30 and a strike notice issued October 21. Teck says operations are continuing at reduced capacity under contingency plans, but duration of the walkout is the critical variable — Highland Valley produces roughly 140,000-165,000 tonnes of copper per year, making it one of Canada's two largest copper operations. The strike arrives in a week where LME copper has already retreated from its September all-time high of $14,875/tonne on inventory builds and pre-FOMC dollar strength.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "CHINA CONTROLS JUST 9.2% OF ARGENTINA'S $30B RIGI MINING PIPELINE — DATA UNDERCUTS TAKEOVER NARRATIVE",
+    "url": "https://www.mining.com/chinas-argentina-mining-footprint-smaller-than-it-looks/",
+    "source_name": "Mining.com",
+    "category_slug": "market-macro",
+    "snippet": "An October 25 analysis by Cecilia Jamasmie finds Chinese-linked companies account for only 9.2% of investment approved under Argentina's Large Investment Incentive Regime (RIGI) — far less than the dominant-player narrative frequently cited by critics and policymakers. Argentina's 16 RIGI-approved projects collectively pledge nearly US$30 billion of investment, primarily in lithium and copper, with 90.8% coming from non-Chinese sources. For TSX-V and ASX investors tracking Argentine lithium assets, the finding reframes geopolitical risk: projects backed by North American, European, and Japanese capital stand to benefit most from RIGI's 30-year legal certainty protections, while Chinese JVs attracting the most political scrutiny represent a small fraction of total committed capital.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "K2 GOLD DRILLS 83.82 METRES AT 3.40 G/T FROM SURFACE AT DRAGONFLY — ALL 7 HOLES HIT HIGH-GRADE OXIDE",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/654-tsx-venture/kto/213197-k2-drills-83-82m-of-3-40-g-t-au-including-19-81m-of-7-51-g-t-au-at-dragonfly.html",
+    "source_name": "Junior Mining Network / K2 Gold",
+    "category_slug": "exploration-discovery",
+    "snippet": "K2 Gold (TSXV: KTO) released the best Phase 1 result from its Dragonfly Zone on the fully permitted, fully funded Mojave Project in California: hole DF26-031 returned 83.82 metres at 3.40 g/t gold from surface, including a high-grade core of 19.81 metres at 7.51 g/t gold. All seven 2026 Dragonfly holes have intersected high-grade oxide gold, with K2 now 42 holes into its 14,000-metre program. The from-surface oxide character is the key investment-case element: it implies potential heap-leach processing economics that offer substantially lower capital intensity and a faster path to production than underground sulphide scenarios — a crucial distinction when junior financing markets reward simplicity and bankability.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "NORTHWEST COPPER WRAPS 43-HOLE KWANIKA PROGRAM — WESTERN ZONE 110M AT 1.86% CUEQ, PIT ZONE 31M AT 2.11%",
+    "url": "https://resourceworld.com/?p=104566",
+    "source_name": "Resource World / NorthWest Copper",
+    "category_slug": "exploration-discovery",
+    "snippet": "NorthWest Copper (TSX-V: NWST) completed its 2026 drill program at the Kwanika copper-gold porphyry project in north-central British Columbia, with the Western Zone contributing a standout interval of 110.0 metres at 1.86% copper equivalent and the Pit Zone adding 31.4 metres at 2.11% CuEq in the program's third results release. The completed program covered 43 holes totalling 12,291 metres and will feed into an updated NI 43-101 resource estimate. For TSX-V copper investors, Kwanika's program completion signals the transition to the resource-update stage — where an expanded Pit Zone and Western Zone delineation will be quantified in the next resource calculation.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
