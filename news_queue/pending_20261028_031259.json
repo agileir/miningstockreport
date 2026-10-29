@@ -1,0 +1,65 @@
+[
+  {
+    "headline": "PILBARA MINERALS Q1 FY27: RECORD 270,000T OUTPUT — BUT REVENUE FALLS 24% AS LITHIUM REALIZED PRICE SLIDES 14%",
+    "url": "https://abc.net.au/news/2026-10-28/asx-markets-business-live-news/107316614",
+    "source_name": "ABC News",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Pilbara Minerals (ASX: PLS) delivered a record first-quarter fiscal 2027 production of 270,000 tonnes of spodumene concentrate — up 25% quarter-on-quarter — but revenue fell 24% because the realized lithium price dropped 14% over the period. The result, released with the ASX open on October 28, underlines the structural challenge facing lithium producers: operational records are not translating into shareholder returns when commodity prices remain depressed, and sales revenue fell even as more tonnes shipped.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER ROCKETS TO $14,488/T ON AI INFRASTRUCTURE BID — CHINA'S YANGSHAN PREMIUM HITS NEAR-13-YEAR HIGH",
+    "url": "https://www.mining.com/web/copper-price-climbs-on-ai-rebound-china-demand-strength/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "LME three-month copper surged 1.1% to approximately $14,488 per tonne on October 27 — its strongest level since October 16 — driven by AI-infrastructure-related demand and tight Chinese physical supply, with the Yangshan copper import premium reaching roughly $188 a tonne, a level not seen in close to 13 years. The move coincides with the Teck Highland Valley strike entering its fifth day, adding supply-side risk from one of Canada's largest open-pit copper mines to an already tight market picture.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "IS $4,000 THE NEW FLOOR? Gold Holds Key Level as Fed Two-Day Meeting Opens; Decision Wednesday",
+    "url": "https://news.metal.com/newscontent/104182499-gold-chart-update-is-4000-once-again-acting-as-a-floor",
+    "source_name": "Shanghai Metals Market",
+    "category_slug": "gold-silver",
+    "snippet": "Gold spot was at approximately $4,016 per ounce as the Federal Reserve opened its two-day October meeting, with the metal having briefly traded below $4,000 in recent sessions before recovering each time. Shanghai Metals Market's October 28 chart update asks whether $4,000 is crystallizing as structural support — noting the level has been tested multiple times without a decisive downside break — or whether Wednesday's rate decision could be the catalyst that pushes gold toward the next key support near $3,950, which would drag junior miners further below their 2026 highs.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "NEWMONT SCREENS AS MOST ATTRACTIVE OVERSOLD MINER AT 11.5X FORWARD EARNINGS — RSI Near 30 Across Gold Major Sector",
+    "url": "https://www.investing.com/news/stock-market-news/newmont-stands-out-among-oversold-mining-stocks-as-gold-miners-trade-at-a-discount-93CH-4973453",
+    "source_name": "Investing.com",
+    "category_slug": "opinion-analysis",
+    "snippet": "An Investing.com analysis identifies Newmont, Kinross and Pan American Silver as deeply oversold — RSI readings in the 28–33 range — and argues gold equities now trade at their widest discount to the underlying metal since the last major cycle bottom. Newmont screens at 11.5x forward earnings with approximately 23% analyst price upside; Kinross at 9.1x. The piece notes that oversold readings alone do not signal a reversal, but the gap between gold above $4,000 and major miners trading 30–40% below their 2026 highs is historically anomalous and has preceded sharp sector recoveries in past cycles.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD DOWN 15% FROM ITS HIGH AND GOLDMAN STILL AT $4,900 — Could These 10 Mining Stocks Rebound First?",
+    "url": "https://finwire.io/news/general/gold-is-testing-4000-could-these-10-mining-stocks-rebound-first",
+    "source_name": "Finwire",
+    "category_slug": "opinion-analysis",
+    "snippet": "A Finwire piece published October 28 lays out the case for a miner recovery: gold is 15.3% below its August 2026 peak of $4,755, Goldman Sachs maintains its year-end target of $4,900 per ounce, and major gold producer ETFs are trading 30–40% below their 2026 highs despite the metal holding above $4,000. The piece identifies 10 mining stocks — a mix of producers and developers — as candidates to lead the sector higher if gold reclaims the $4,400 range, and argues the current divergence between bullion and equities cannot persist indefinitely.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "NEXGEN ENERGY +4.92%, UEC +6.92%, LARAMIDE TOPS TSX-V GAINERS — Uranium Equities Catch a Broad Bid on October 27",
+    "url": "https://www.investorideas.com/news/2026/mining/10275-uranium-stocks-in-focus-october-27th.asp",
+    "source_name": "InvestorIdeas",
+    "category_slug": "uranium-energy",
+    "snippet": "Uranium equities staged a broad rally on October 27, with NexGen Energy (NYSE: NXE) climbing 4.92% to $8.74, Uranium Energy Corp (NYSE: UEC) rising 6.92% to $7.96, and Laramide Resources (TSX: LAM) landing on the TSX Venture's top gainers list. The move arrives as sector sentiment begins to stabilize after weeks of selling that dragged uranium names lower alongside the broader precious-metals pullback, and follows Bannerman Energy's final investment decision earlier in the week for the $353 million Etango uranium mine in Namibia — the first greenfield uranium mine to reach FID in the current cycle.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SILVER WORST-PERFORMING PRECIOUS METAL THIS WEEK: DOWN 6.43% — Ratio Near 75 as 50-Day MA Gap Widens to 13%",
+    "url": "https://goldseek.com/article/asian-metals-market-update-26th-october-2026",
+    "source_name": "GoldSeek",
+    "category_slug": "gold-silver",
+    "snippet": "GoldSeek's Asian Metals Market Update for October 26 flags silver as the worst-performing major precious metal over the period, having fallen 6.43%, with spot silver at $54.14 against a 50-day moving average of $62.12 — a 13% gap signalling significant overhead resistance. The gold/silver ratio approaching 75 reflects institutional preference for gold in the current macro environment, and elevated silver volatility is deterring the speculative positioning that typically drives the metal's outperformance phase in a precious metals bull market.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
