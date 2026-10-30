@@ -1,0 +1,74 @@
+[
+  {
+    "headline": "TECK Q3: $1.88/SHARE CRUSHES $1.12 ESTIMATE — Copper Output +11%, Record $1.6B Segment Profit; Highland Valley Strike Risk Looms",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000886986/000095014226002897/eh260849343_ex9901.htm",
+    "source_name": "Teck Resources (SEC 6-K)",
+    "category_slug": "copper-base-metals",
+    "snippet": "Teck Resources reported Q3 2026 adjusted EPS of US$1.88, crushing the US$1.12 consensus estimate, as the copper business delivered record gross profit of US$1.6 billion on average realised prices of US$6.40/lb. Copper output rose 11% year-on-year to 115,700 tonnes, net cash unit costs fell to US$1.77/lb, and adjusted EBITDA of US$2.3 billion was 97% higher than Q3 2025. A shadow hangs over the result: a strike notice was issued at Highland Valley Copper on October 21 after contract talks collapsed, creating near-term production risk at Teck's largest Canadian mine.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "RIO TINTO COMMITS $1.4B TO ARGENTINA LITHIUM — Rincon + Arenas Projects Target 25,000t Additional Annual Capacity",
+    "url": "https://www.mining.com/rio-tinto-pumps-1-4b-into-lithium-projects-in-argentina",
+    "source_name": "Mining.com",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Rio Tinto announced a combined US$1.4 billion investment across two Argentine lithium projects — the Rincon lithium plant and the Arenas hard-rock development — targeting 25,000 tonnes per year of additional lithium carbonate equivalent capacity. The commitment underscores Rio's ambition to build a major battery-metals position despite current lithium carbonate price weakness, and cements Argentina as a top-tier jurisdiction alongside Chile and Australia for large-scale lithium investment.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "BUNKER HILL, SILVER47 SHAREHOLDERS GREEN-LIGHT $326M IDAHO SILVER MERGER — Ramp Target Hits 5Moz/yr by 2028",
+    "url": "https://globenewswire.com/news-release/2026/10/28/3390802/0/en/bunker-hill-shareholders-vote-to-approve-business-combination-with-silver47-exploration-corp-as-company-completes-drawdowns-of-ocean-partners-and-teck-facilities-supporting-ramp-up.html",
+    "source_name": "GlobeNewswire / Bunker Hill Mining",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Bunker Hill Mining (TSX: BNKR) and Silver47 Exploration shareholders separately voted to approve their all-stock combination on October 27–28, creating a combined US silver platform valued at approximately US$326 million to be renamed Bunker Hill Silver Corp. The Idaho mine is already ramping — current output is above 980,000 silver-equivalent ounces per year — with a multi-stage expansion path toward 5 million oz/yr. Silver47's Red Mountain project in Alaska adds an inferred 168.6 million silver-equivalent ounce resource to the portfolio. Commercial drawdowns of US$20 million from Ocean Partners and Teck facilities have been completed to support the ramp.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "COLLECTIVE MINING HITS 1,283 g/t SILVER + TUNGSTEN AT SHALLOW DEPTH IN APOLLO — New Zone 600m North Open in All Directions",
+    "url": "https://www.cantechletter.com/newswires/collective-mining-discovers-shallow-high-grade-silver-tungsten-mineralization-in-northern-apollo-drilling-5-50m-at-1283-g-t-silver-0-83-wo%e2%82%83-0-57-copper-and-0-17-g-t-gold-from-89-15m/",
+    "source_name": "Collective Mining / Cantech Letter",
+    "category_slug": "exploration-discovery",
+    "snippet": "Collective Mining (TSXV: CNL) intercepted 5.50m at 1,283 g/t silver, 0.83% WO₃ (tungsten), 0.57% copper and 0.17 g/t gold from just 89.15m depth in hole APC-186 at the Apollo system in Guayabales, Colombia — a shallow, high-grade silver-tungsten zone roughly 600 metres north of the Apollo core. The discovery expands the system's northern footprint and opens a new structural corridor that remains open to the north and east. Assays from 99 additional holes covering approximately 38,000 metres remain pending.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "KAZATOMPROM CONFIRMS LOW-END 2026 URANIUM OUTPUT — 29,697tU Nominal Cut Stands as Spot Holds Near $90/lb",
+    "url": "https://www.tipranks.com/news/company-announcements/kazatomprom-adjusts-2026-production-strategy-amid-market-conditions",
+    "source_name": "Kazatomprom / TipRanks",
+    "category_slug": "uranium-energy",
+    "snippet": "Kazatomprom confirmed on October 30 that its 2026 nominal production plan has been trimmed to 29,697 tU from the original 32,777 tU, with actual guidance held at 27,500–29,000 tU — the low end of the range — citing sulphuric acid availability constraints at the Budenovskoye joint venture. The confirmation reinforces the company's multi-year flexdown strategy, removing approximately 8 million pounds of annual supply from the market. Spot uranium closed September at US$89.63/lb; the long-term contract price has risen above the 2007 peak at US$96.50/lb.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "USA RARE EARTH, ANTIMONY STOCKS SURGE 11% AS CRITICAL MINERALS SECTOR REBOUNDS FROM MONTH-LOW",
+    "url": "https://247wallst.com/investing/2026/10/27/critical-minerals-stocks-rally-as-sector-bid-broadens-united-states-antimony-and-usa-rare-earth-jump-11-critical-metals-climbs-8/",
+    "source_name": "24/7 Wall St.",
+    "category_slug": "rare-earths",
+    "snippet": "USA Rare Earth and United States Antimony each jumped 11% on October 27 while Critical Metals Corp. gained 8%, as a broad bid returned to the critical minerals complex following Malaysia's DTEC rare earth export permit announcement and ongoing US-China supply-chain tensions. The rebound is notable but partial: USA Rare Earth remains down 17% year to date, and investors are watching for milestone-based government funding tranches that remain unlocked. The VanEck rare earth ETF also recovered from its October lows.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "URANIUM MINERS STUCK BELOW $90/lb SPOT — SPROTT: SMALL-CAP SENTIMENT, NOT FUNDAMENTALS, IS THE CULPRIT",
+    "url": "https://discoveryalert.com/analysis/uranium-investing-miners-spot-price-october-2026/",
+    "source_name": "Discovery Alert / Sprott",
+    "category_slug": "opinion-analysis",
+    "snippet": "Sprott portfolio manager Paul Wong argues the chronic underperformance of uranium equities versus the metal is not a structural warning but a small-cap liquidity problem: miners now trade more on overall risk appetite for micro- and small-cap equities than on uranium prices. With spot near US$89.63/lb and long-term contracts above the 2007 peak, Wong contends the fundamental setup remains exceptional — but entry timing depends on watching equity market sentiment broadly, not just uranium supply-demand. The analysis identifies several names trading below replacement cost as potential re-rating candidates once small-cap sentiment stabilises.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "EY: CRITICAL MINERALS DEPOSITS AGING, GRADES FALLING — Structural Cost Headwind Builds for Producers",
+    "url": "https://www.mining.com/critical-minerals-getting-harder-to-mine-as-deposits-age-ey",
+    "source_name": "Mining.com / EY",
+    "category_slug": "market-macro",
+    "snippet": "A new EY report finds that the world's critical mineral deposits are aging and ore grades are in structural decline: each successive tonne extracted requires more capital and processing at higher cost. EY estimates capital intensity for new critical minerals projects has risen materially over the past decade as shallow, high-grade greenfield resources become scarcer. The finding reinforces the long-term value case for junior explorers making new high-grade discoveries — and adds a secular cost headwind to the near-term rate pressure already squeezing producer margins.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
