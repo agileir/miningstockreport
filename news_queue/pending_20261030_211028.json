@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "RIO TINTO HALTS OYU TOLGOI UNDERGROUND — Seismic Event Injures 3, 450,000t/yr Copper Mine Goes Dark; LME Copper Falls, Shares -2.9%",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-29/rio-tinto-s-oyu-tolgoi-mine-suspended-underground-operations",
+    "source_name": "Bloomberg",
+    "category_slug": "copper-base-metals",
+    "snippet": "Rio Tinto paused all underground operations at Oyu Tolgoi — its Mongolian copper mine accounting for roughly 56% of Rio's Q3 copper output at 113,500 tonnes per quarter — following a seismic event and subsequent rockfall on October 29 that injured three workers. LME three-month copper fell to US$14,356/t and Rio's ADRs dropped 2.9% in Sydney trading. The halt compounds an already-strained supply picture: Chinese border restrictions at the Gashuunsukhait crossing had already cut Oyu Tolgoi concentrate exports by roughly 70% over the prior two weeks. A safety review is underway with no timeline given for resumption.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "US-CHINA CLASH FOR KENYA'S $62B MRIMA HILL — Fluor Bids as 2 Chinese Firms Exit; Developer Picked in 3 Weeks",
+    "url": "https://www.cnbcafrica.com/2026/fluor-corp-among-us-firms-vying-for-kenya-critical-minerals-project-minister-says",
+    "source_name": "CNBC Africa / Reuters",
+    "category_slug": "rare-earths",
+    "snippet": "Kenya's mining minister confirmed five consortia submitted tenders by October 21 for Mrima Hill — a southern Kenya deposit with preliminary government estimates of US$62 billion in rare earth and niobium resources — with a developer selection expected within two to three weeks. Fluor Corp (NYSE: FLR), partnered with Tetra Tech, leads one of two US-linked bids; Critical Metals Corp's Mrima Earth consortium is a third, and an Australian group pairing RareX with Iluka Resources rounds out the shortlist. Two Chinese companies that had been leading contenders withdrew from the process, in what analysts read as a direct consequence of US-China supply-chain competition for critical mineral access.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER SNAPS 4-MONTH WIN STREAK — First Monthly Loss Since June on AI Spending Doubts; LME Near $14,230/t",
+    "url": "https://www.brecorder.com/news/40446692/copper-set-for-first-monthly-loss-since-june-as-ai-spending-worries-weigh",
+    "source_name": "Business Recorder / Reuters",
+    "category_slug": "copper-base-metals",
+    "snippet": "LME three-month copper traded near US$14,230/t on Friday — on track for a monthly loss of approximately 1.8% that would end a four-month winning streak — as traders questioned whether AI capital spending will actually drive the data-centre copper demand narrative that pushed the metal to a record US$14,875/t in September. BNP Paribas strategists reported that few participants at the London industry gathering believed AI would be a meaningful copper demand driver in the near term. The bearish price action contrasts with tight physical signals: the Yangshan copper premium in China remains near a 13-year high of US$205/t.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GLD HITS 52-WEEK LOW, SILVER BELOW $49 — Kinross -7.7%; Peter Brandt: 'This Is How Bottoms Start'",
+    "url": "https://www.mining.com/gold-price-slumps-to-one-year-low-silver-price-breaks-50-as-mining-stocks-tank/",
+    "source_name": "Mining.com",
+    "category_slug": "gold-silver",
+    "snippet": "Gold miners sold off sharply Friday as the GLD ETF hit a fresh 52-week low and SLV slid to its worst level in 11 months: Kinross Gold was the biggest loser among majors at -7.7%, while Americas Gold & Silver hit a new 52-week low. Spot gold settled near US$3,897/oz (-3.1%) and silver fell below US$49/oz (-6%). Veteran chartist Peter Brandt posted that silver's price action is consistent with how major bottoms form, calling out the forced selling from investors caught above US$90. The broad selloff is tied to deepening December Fed rate-hike bets and election-week uncertainty, with Newmont and Barrick also both down more than 5%.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "KINROSS Q3: $0.50 BEATS ON EPS BUT REVENUE MISSES BY $170M — Shares -5% Despite Record $4,249/oz Realized Price",
+    "url": "https://in.investing.com/news/stock-market-news/earnings-call-transcript-kinross-gold-slips-on-q3-2026-revenue-miss-93CH-5665097",
+    "source_name": "Investing.com",
+    "category_slug": "gold-silver",
+    "snippet": "Kinross Gold (TSX: K, NYSE: KGC) posted Q3 2026 adjusted EPS of US$0.50, slightly ahead of the US$0.47 consensus, on production of 425,000 oz at an average realized price of US$4,249/oz — but revenue of US$1.77 billion missed estimates by approximately US$170 million as 15,000 oz of timing-related inventory carried into Q4. Shares fell roughly 5% on the day of release, compounding the broader gold equity rout. Full-year guidance of approximately 2.1 million oz remains unchanged and Q4 is expected to be the strongest production quarter.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GLENCORE COBALT CRASHES 52% IN NINE MONTHS — MUTANDA POSTS ZERO OUTPUT as DRC Export Quotas Bite Into Battery Supply",
+    "url": "https://www.northernminer.com/news/glencore-cobalt-output-halves-as-congo-quotas-bite/1003896253/",
+    "source_name": "The Northern Miner",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Glencore's Q3 2026 production report, released October 29, revealed own-sourced cobalt output fell 52% year-on-year to 13,700 tonnes in the first nine months of 2026 — with its Mutanda operation in the DRC recording zero cobalt production versus 8,800 tonnes in the same period a year earlier. The DRC government's export quota regime, in place until at least end-2027, has forced Glencore to hold cobalt-bearing hydrometallurgical solutions rather than processing them into saleable hydroxide. The shortfall removes significant annual supply from an already subdued cobalt market, while Glencore is separately weighing potential stake sales in its DRC copper-cobalt assets.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "URANIUM AI NUCLEAR DEMAND TO OPEN 18% SUPPLY GAP BY 2027 — Benchmark Minerals Warns Deficit Deepens as Data Centers Drive Reactor Orders",
+    "url": "https://www.miningweekly.com/article/uranium-poised-for-long-term-structural-deficit-as-ai-boom-spurs-unprecedented-nuclear-demand-2026-10-28",
+    "source_name": "Mining Weekly",
+    "category_slug": "uranium-energy",
+    "snippet": "Benchmark Minerals warns that uranium's existing marginal supply deficit will deepen to roughly 18% of demand by 2027 as AI-driven data centres fuel unprecedented demand for nuclear baseload power — a view backed by Goldman Sachs projecting a 160–175% rise in global data-centre power demand by 2030 versus 2023. The World Nuclear Association projects a 335-million-pound primary supply shortfall by 2040, even if mine production more than triples. Spot uranium closed September at US$89.63/lb with the long-term contract price above the 2007 peak at US$96.50/lb, yet producer equities continue to discount the fundamental setup, with many small-cap miners still trading below replacement cost.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SHAKEOUT IS HAPPENING NOW — FXEmpire Sees Gold Testing $3,500 in Election Week Before 2027 Recovery; $3,800 Is the Line",
+    "url": "https://www.fxempire.com/forecasts/article/gold-price-forecast-the-final-shakeout-is-happening-now-1641582",
+    "source_name": "FXEmpire",
+    "category_slug": "opinion-analysis",
+    "snippet": "FXEmpire's technical analysts are calling the current gold selloff — from US$4,182 to US$3,897 in October — a final, forced shakeout before a structural bottom forms, while warning that election-week systematic selling could push spot toward US$3,500 before any recovery. The analysis identifies US$3,800 as the immediate support level and notes that a December Fed rate hike, if confirmed, historically marks near-term peaks in real rates rather than sustained new highs. The piece projects a 2027 recovery toward new all-time highs as central bank accumulation and de-dollarisation trends reassert themselves once election-cycle noise clears.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CRITICAL METALS LOCKS IN GREENLAND RARE EARTH PLAY — European Lithium Merger Takes Effect; Nasdaq Debut Nov 6, Romania JV Advancing",
+    "url": "https://globenewswire.com/news-release/2026/10/28/3390252/0/en/critical-metals-corp-confirms-option-scheme-consideration-for-european-lithium-acquisition",
+    "source_name": "GlobeNewswire / Critical Metals Corp",
+    "category_slug": "rare-earths",
+    "snippet": "Critical Metals Corp (Nasdaq: CRML) confirmed on October 28 that its Option Scheme for the acquisition of European Lithium Ltd has been finalised, consolidating ownership of the Tanbreez rare earth deposit in Greenland — one of the world's largest undeveloped rare earth resources — while advancing a proposed 50:50 joint venture with a Romanian state-owned enterprise for a European rare earth processing facility. New shares are expected to begin trading on Nasdaq on November 6. The deal positions Critical Metals as one of the few Western-listed companies with both a major Greenland rare earth resource and a European downstream processing strategy, squarely within US and EU critical mineral supply-chain funding priorities.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD-SILVER RATIO TOPS 77 — Metals Focus: Silver to Keep Underperforming as Physical Demand Fades; But Ratio Near Historic Bottom Signal",
+    "url": "https://www.kitco.com/news/article/2026-10-29/silver-could-see-further-losses-against-gold-physical-market-weakens-metals",
+    "source_name": "Kitco / Metals Focus",
+    "category_slug": "opinion-analysis",
+    "snippet": "The gold-silver ratio climbed above 77 on October 29 — its highest since December 2025 — as Metals Focus warned in a new report that silver faces further underperformance against gold through year-end. The consultancy cites weakening physical silver demand, rising Federal Reserve rate expectations and broad risk-off sentiment as structural headwinds, noting the ratio remains below its 2020–2025 average of 82 and has room to climb. The contrarian case: FXEmpire's technical work argues that major peaks in the ratio have historically coincided with major bottoms in both metals, potentially setting up a compelling re-entry point for long-term silver bulls within the next one to two months.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
