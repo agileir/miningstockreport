@@ -1,0 +1,83 @@
+[
+  {
+    "headline": "CAMECO CUTS URANIUM OUTPUT GUIDANCE — Key Lake Outage Extends Into Q4; Q3 Adjusted Loss C$2M as Production Falls 20%",
+    "url": "https://www.streetinsider.com/Corporate+News/Cameco+Q3+2026+earnings+fall+on+lower+Westinghouse+income,+higher+costs/27261399.html",
+    "source_name": "StreetInsider",
+    "category_slug": "uranium-energy",
+    "snippet": "Cameco (TSX: CCO, NYSE: CCJ) reported October 30 that a longer-than-planned maintenance outage at its Key Lake uranium mill has extended into Q4, forcing it to narrow full-year McArthur River/Key Lake guidance to 10.0–10.5 million pounds (from 10.0–11.5 million pounds) and total production guidance to 19.5–20.5 million pounds (from 19.5–21.5 million pounds). Q3 output fell 20% year-on-year to 3.5 million pounds, and the company posted an adjusted net loss of C$2 million versus C$32 million adjusted net profit in Q3 2025, despite a 6% increase in average realized price to US$65.78/lb. Management confirmed it does not intend to run McArthur River/Key Lake at full licensed capacity; Desjardins flagged that any further delay to the Key Lake restart puts the full-year guidance range at risk.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "USAR -10%, CRML -11%, MP -6% — Critical Minerals Sector Sells Off on Dilution Fears, Risk-Off Friday",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/critical-metals-sinks-11-european-180824555.html",
+    "source_name": "Yahoo Finance",
+    "category_slug": "rare-earths",
+    "snippet": "Critical minerals equities sold off sharply in Friday's session as a broader technology-driven risk-off move hit the sector heading into the Halloween weekend: USA Rare Earth (Nasdaq: USAR) fell 10%, MP Materials (NYSE: MP) dropped 6%, and Critical Metals Corp (Nasdaq: CRML) led the declines at -11%, weighed by investor concern over share dilution tied to new issuance from its recently completed European Lithium acquisition. The move reverses much of an outsized mid-week rally in which USAR had surged 13% and CRML 12% on no company-specific news — a pattern highlighting how thin liquidity in the sector amplifies both runs and reversals. USAR and MP Materials both have Q3 earnings approaching, which adds to near-term uncertainty.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "RIO TINTO OPENS TWO NEW ARGENTINA LITHIUM PLANTS — Targets 200,000 t/yr by 2028; $4 Billion Committed to Country",
+    "url": "https://www.miningweekly.com/article/rio-tinto-assesses-new-lithium-plant-in-argentina-copper-opportunities-2026-10-29",
+    "source_name": "Mining Weekly / Reuters",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Rio Tinto inaugurated two new lithium processing plants at its Salar del Hombre Muerto (Fénix 1B) and Sal de Vida operations in northwestern Argentina on October 28, targeting a tripling of combined output to 200,000 tonnes per year of lithium carbonate by 2028 from approximately 75,000 tonnes today. The company has committed approximately US$1.4 billion to the current expansions and disclosed a total Argentina investment commitment of around US$4 billion over the coming years, including copper project assessments. Rio Tinto is also evaluating a further Fénix II expansion — potentially requiring around US$1 billion — and investigating copper opportunities in-country, building on its March 2025 acquisition of Arcadium Lithium, which transferred full ownership of both operations.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "EVOLUTION MINING CLOSES IN ON CARNABY — A$213M Copper Deal Effective Oct 30; WA Court Approves; Delisting Nov 11",
+    "url": "https://kalkinemedia.com/au/news/announcements/supreme-court-of-western-australia-approves-evolution-minings-acquisition-scheme-for-carnaby-resources",
+    "source_name": "Kalkine Media",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "The Supreme Court of Western Australia approved Evolution Mining's (ASX: EVN) acquisition of Carnaby Resources on October 29, with the all-scrip scheme of arrangement — valued at approximately A$213 million — becoming effective October 30, effectively ending Carnaby (ASX: CNB) as a listed company. Carnaby shareholders receive 0.0682 Evolution shares per share, implying approximately A$0.77 per Carnaby share. The key asset is the Greater Duchess copper-gold project in Queensland's Cloncurry mineral belt, which Evolution intends to advance as a supplemental feed source for its nearby Ernest Henry operation. Carnaby's formal ASX delisting is scheduled for November 11, with new Evolution shares reflecting the acquisition expected on November 11.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "LUCA MINING TAKES COZAMIN CASH FLOWS FROM NOV 1 — US$385M Capstone Deal Closing; New TSXV Polymetallic Producer Born",
+    "url": "https://lucamining.com/2026/09/luca-mining-announces-acquisition-of-the-cozamin-mine-creating-a-leading-polymetallic-producer/",
+    "source_name": "Luca Mining Corp.",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Luca Mining (TSXV: LUCA) is set to begin receiving economic cash flows from Capstone Copper's Cozamin mine in Zacatecas, Mexico on November 1, 2026, as final regulatory clearances for the up-to US$385 million acquisition draw imminent. The deal — structured as US$275 million in cash and Luca shares at close, plus a US$35 million deferred payment and up to US$60 million in copper-price-linked performance payments — transforms Luca into a three-mine copper-silver-gold polymetallic producer on the TSX Venture Exchange. Cozamin produces roughly 45 million pounds of copper annually and has been a consistently profitable underground mine for Capstone. The financing included a US$110 million private placement of subscription receipts; final Mexican antitrust and TSXV approvals are the remaining conditions to close.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "URANIUM EQUITIES -42% TO -52% FROM JAN HIGHS — Even as Spot Holds Near $90; Northern Miner Probes the Disconnect",
+    "url": "https://www.northernminer.com/news/uranium-shares-slide-even-as-analysts-see-tighter-supply/1003896397/",
+    "source_name": "The Northern Miner",
+    "category_slug": "uranium-energy",
+    "snippet": "Uranium equities remain in a severe drawdown even as physical spot uranium holds near US$90/lb, with the Global X Uranium ETF (NYSE: URA) approximately 42% below its January 2026 peak and the Sprott Uranium Miners ETF (NYSE: URNM) off roughly 52% from the same high-water mark. The Northern Miner traces the disconnect to rising interest rates, deteriorating risk sentiment across energy equities, and near-term oversupply concerns from expanding Kazakh production, which are competing with the longer-term bull thesis built around AI-driven nuclear power demand and a projected supply deficit beginning in 2027. The article notes that Cameco's Q3 guidance cut (Key Lake outage) adds a further near-term production headwind, making the case harder to close on timing even as fundamentals point firmly to undersupply through the decade.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "MALI MINE STABILISES AT RESOLUTE — Macquarie Trims PT to AU$1.20; Q4 Gold Rebound Expected After Disruptions",
+    "url": "https://www.marketscreener.com/news/macquarie-adjusts-resolute-mining-s-price-target-to-au-1-20-ce785fdad08cf324",
+    "source_name": "MarketScreener / Macquarie",
+    "category_slug": "gold-silver",
+    "snippet": "Macquarie trimmed its price target on Resolute Mining (ASX: RSG) to AU$1.20 from AU$1.25 on October 30 — maintaining a Neutral rating — after the company reported a sequential Q3 production decline tied to operational disruptions at its Syama mine in Mali. Resolute described the mine as 'largely stabilised' following the disruptions and guided for a Q4 output rebound; Syama accounts for roughly 60% of Resolute's annual gold production, making any sustained disruption materially significant to guidance. The update is a reminder of the persistent operational risk premium that attaches to West African mining assets in the current Sahel political environment, a factor Macquarie's modest PT cut appears to price in.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "NEWMONT NOVEMBER PATTERN: 4 OF 5 YEARS SAW 7-12% RALLIES — Schaeffer's Says October Selloff Sets Up Same Trade Again",
+    "url": "https://www.schaeffersresearch.com/content/options/2026/10/30/newmont-stock-pullback-has-historically-bullish-implications",
+    "source_name": "Schaeffer's Investment Research",
+    "category_slug": "opinion-analysis",
+    "snippet": "Schaeffer's Investment Research published a seasonal analysis on October 30 showing that four of the five preceding Novembers delivered gains of 7–12% for Newmont (NYSE: NEM) following comparable October pullbacks — a pattern the firm argues is setting up again after NEM's 5%+ October decline. Each prior November rally began within the first three trading days of the month, giving tactical traders a narrow entry window if the pattern holds. Newmont reports Q3 2026 earnings before November 5, which serves as the key near-term catalyst; the seasonal thesis requires either an earnings beat or a broadly supportive gold tape for Q3 results to serve as the trigger, and neither is guaranteed given the current rate-hike environment.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD'S WORST MAY BE OVER — Analyst: Rate-Hike Risks Now 'Priced In'; $3,800 Is the Level That Tells You What's Next",
+    "url": "https://mining.com.au/golds-worst-may-be-over-as-risks-are-priced-in-analyst-says/",
+    "source_name": "Mining.com.au",
+    "category_slug": "opinion-analysis",
+    "snippet": "A Mining.com.au analysis published this week argues that October's 7% gold selloff has largely done the work of discounting the renewed Federal Reserve rate-hike risk — and that the market is approaching a zone where the asymmetry favours buyers again. The analyst identifies US$3,800/oz as the critical support level: a hold there with any softening in US inflation or jobs data could catalyse sharp short-covering given extreme bearish positioning now evident in COMEX gold futures. The view mirrors analysis published this week by OANDA, which also called $3,800 the directional signal level and argued that each prior Fed rate cycle since 2008 has eventually given way to further easing — a historical precedent that the structural gold bull case ultimately depends on.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
