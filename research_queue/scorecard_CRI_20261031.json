@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "CEO Conan McIntyre and President Paul Sobie have executed a steady multi-year drill program at Black Raven and completed the Golden Baie LOI acquisition in early 2026, demonstrating strategic intent to consolidate Newfoundland antimony ground. Management has kept spending disciplined relative to the treasury, closing a C$3M private placement in late 2025 to fund 2026 drilling. No significant insider-ownership data available from extracted filings to assess alignment, and the team lacks a prior discovery-to-resource track record on record. Derek Wilton serves as qualified person across all reported drill programs, providing continuity.",
+
+  "geology_score": 3,
+  "geology_notes": "Black Raven hosts the historic Frost Cove antimony mine in central Newfoundland (~60 km NW of Gander). Churchill has defined an 800-metre strike at Frost Cove with high-grade intercepts including 7.25% Sb over 1.98m (March 2026, near Southern Shaft) and 19.23% Sb over 1.40m at Frost Cove North (spring 2026 final assays). A second zone, Pomley Cove Pond, returned a 150m-wide polymetallic vein swarm carrying Au-Ag-Mo-Pb-Zn. A new prospect at PC Pond graded 0.78% Cu with 61.2 g/t Ag over 6.22m, opening a third vector. Grade quality is genuine and globally competitive for antimony. Critical missing piece: no NI 43-101 resource estimate exists; the technical report on file is dated August 2023 and pre-dates all 2025–2026 drill results. Tonnage and continuity at depth are unestablished. Upside scenario requires resource delineation drilling.",
+
+  "capital_score": 3,
+  "capital_notes": "Shares issued outstanding of 316,681,940 with 342,756,940 fully diluted. The diluted overhang is modest — 2,625,000 warrants and 23,450,000 options (~8.2% dilution) with no strike or expiry data available from the MD&A summary table. Large share count (316M) is typical for a TSXV explorer that has funded multi-year programs through equity. The C$3M private placement closed in late 2025 was a conventional financing; no flow-through tranches were detected in the April 2026 MD&A extraction, so hold-release overhang from FT shareholders is not a near-term factor. With shares trading around C$0.055 in September 2026, market cap is approximately C$17M — modest relative to the exploration spend and the antimony macro setup. Ongoing financing rounds are the structural risk; management needs to time any capital raise against news catalysts.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Spring 2026 drilling final assays were released in August–September 2026 (most recent results in hand). Near-term potential catalysts include: (1) announcement of a fall 2026 or winter 2026/27 drill program at Black Raven or Golden Baie; (2) completion of the Golden Baie acquisition from Canstar Resources, which remains subject to TSXV approval as of the LOI stage; (3) a maiden NI 43-101 resource estimate at Black Raven, which would be the most significant re-rating catalyst available to the stock. Macro catalyst: antimony prices above US$50,000/t driven by Chinese export restrictions keep the commodity narrative live. No firm resource estimate timeline announced, and the catalyst calendar for H2 2026 is thin compared to the spring drill season.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "Cannot calculate a P/NAV multiple — no NI 43-101 resource estimate exists, so there is no NAV to compare against the current price. Transaction comparables in antimony M&A are sparse; the metal's critical-mineral designation and supply-chain premium make direct peer comparison difficult. The acquisition case rests entirely on the exploration-stage narrative: undiscovered value in a historically mined district with a strong commodity price backdrop. If a maiden resource estimate delivers 10–20 Mlbs antimony at comparable grades, comparables from recent critical-mineral transactions suggest potential NAV per share well above current trading levels — but this is speculative until the estimate exists. Score penalized for the absence of any quantitative foundation.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources is advancing the Black Raven antimony project in central Newfoundland at an inflection point for the antimony market. The 2026 drill campaign delivered genuine high-grade results — 19.23% Sb over 1.40m at Frost Cove North is world-class grade — and the company has expanded the known footprint to at least three zones across the property. The capital structure is manageable at 316.7M shares with modest warrant and option overhang. The antimony macro setup remains compelling: Chinese export restrictions have pushed prices above US$50,000/t and there are very few primary antimony development stories in stable Western jurisdictions. The critical missing piece is a NI 43-101 resource estimate; without it, Churchill remains a pure exploration story where position sizing must reflect discovery risk. A maiden resource estimate is the single most important catalyst. Rate WATCH — accumulate on weakness ahead of a resource announcement, size positions small until tonnage is established.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from April 2026 MD&A — strike/expiry not extracted"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from April 2026 MD&A — strike/expiry not extracted"
+    }
+  ]
+}
