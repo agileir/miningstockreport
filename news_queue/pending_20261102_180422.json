@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "CITI SLASHES LITHIUM FORECAST 40% TO $12,000/T — EV SLOWDOWN AND TRADE HEADWINDS FORCE A RESET",
+    "url": "https://mining.com/citi-slashes-lithium-price-forecast-by-40-on-lower-demand",
+    "source_name": "Mining.com",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Citigroup cut its lithium carbonate and hydroxide price forecasts by 40%, lowering targets to $12,000/t from $17,000–$20,000/t for the next two years as slowing EV demand and trade uncertainty mount. Bloomberg called it a 'lithium reset' with prices potentially depressed through 2028.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "PALLADIUM CRASHES BELOW $1,000/OZ — AUTOCAT METAL DOWN 19% IN OCTOBER AS EV SHIFT ERODES DEMAND",
+    "url": "https://minelistings.com/news/palladium-opens-november-below-1000-after-19-october-slide",
+    "source_name": "MineListings",
+    "category_slug": "market-macro",
+    "snippet": "Palladium opened November below the psychologically key $1,000/oz level for the first time in years, capping October's brutal 19% collapse as automotive catalyst demand contracts with the accelerating shift away from internal combustion engines.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "HUDBAY LEADS $49.8M INVESTMENT IN PECOY COPPER — MAJOR PRODUCER BACKS NEXT-GENERATION COPPER PIPELINE",
+    "url": "https://mining.com/hudbay-leads-49-8m-investment-in-pecoy-copper",
+    "source_name": "Mining.com",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Hudbay Minerals led a $49.8 million investment into Pecoy Copper, backing a new copper development project as major producers increasingly stake positions in emerging supply pipelines ahead of forecast long-term deficits.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER BOUNCES TO $14,230/T AS OIL DROPS 3%+ — EASING TECH ROUT AND IRAN-DOHA TALKS CALM METALS",
+    "url": "https://bloomberg.com/news/articles/2026-11-02/copper-recovers-as-easing-tech-rout-lower-oil-calm-growth-fears",
+    "source_name": "Bloomberg",
+    "category_slug": "copper-base-metals",
+    "snippet": "LME copper rose 0.5% to $14,229.50/t on Monday as crude oil slid more than 3% on Iran-Doha ceasefire talks, calming near-term demand destruction fears that hammered the broader metals complex through late October.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "TSX JUNIOR MINERS LEAD BROAD RECOVERY MONDAY — GOLD AND COPPER NAMES CRACK TOP GAINERS LIST",
+    "url": "https://www.investorideas.com/news/2026/mining/11024-mining-stocks-rebound-and-make-the-tsx-top-gainers-list-monday-november-2nd.asp",
+    "source_name": "InvestorIdeas",
+    "category_slug": "market-macro",
+    "snippet": "Mining stocks dominated the TSX top gainers list Monday as investors returned following October's historic precious metals selloff, with several junior gold and copper names posting double-digit intraday recoveries.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "USA RARE EARTH (USAR) DOWN 51% IN 2026 — DEEP VALUE OR CASH BURN TRAP AS MAGNET SUPPLY CHAIN BUILDS?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/usa-rare-earth-usar-stock-101605302.html",
+    "source_name": "Yahoo Finance",
+    "category_slug": "rare-earths",
+    "snippet": "USA Rare Earth has shed more than half its value in 2026 despite advancing a domestic permanent magnet supply chain, prompting debate over whether the selloff represents deep value for patient investors or an ongoing cash burn risk at current rare earth prices.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "EVOLUTION METALS RACES TO LOCK IN MAGNET SUPPLY DEALS BEFORE CHINA TRADE TRUCE EXPIRES (NASDAQ: EMAT)",
+    "url": "https://newsdirect.com/newsroom/evolution-metals-is-building-magnet-supply-buyers-will-need-once-the-truce-expires-nasdaq-emat",
+    "source_name": "News Direct",
+    "category_slug": "rare-earths",
+    "snippet": "Evolution Metals is accelerating its permanent magnet supply chain buildout, positioning itself to capture supply contracts from EV and defense buyers once China's rare earth export truce expires and sourcing from China becomes constrained.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "STANDARD URANIUM RAISES C$1M FLOW-THROUGH FOR ATHABASCA BASIN DRILLING CAMPAIGN",
+    "url": "https://www.proactiveinvestors.com/companies/news/1101067/standard-uranium-to-raise-up-to-c-1m-in-flow-through-financing-for-saskatchewan-exploration-1101067.html",
+    "source_name": "Proactive Investors",
+    "category_slug": "uranium-energy",
+    "snippet": "Standard Uranium is raising up to C$1 million in flow-through financing to fund its upcoming exploration program in Saskatchewan's Athabasca Basin, one of the world's highest-grade uranium districts, as uranium spot prices hold above $90/lb.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLDSEEK: GOLD, SILVER & GDX ARE OVERSOLD — \"IT'S TIME TO BUY\" HEADING INTO MIDTERMS",
+    "url": "https://goldseek.com/article/gold-silver-gdx-its-time-buy",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "With gold testing $4,000 and the GDX at two-year relative lows, one analyst makes a high-conviction case for initiating or adding precious metals positions, citing the most oversold technical setup for miners in recent memory and a structural silver supply deficit now in its fifth year.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "FIVE OBSTACLES FACING JUNIOR MINERS — WHY TSX-V CAPITAL BYPASSES GRASSROOTS EXPLORERS EVEN IN A GOLD BULL",
+    "url": "https://goldseek.com/article/five-obstacles-facing-junior-miners",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "Despite record gold prices earlier this year, TSX-V capital flows have concentrated in advanced developers, leaving grassroots explorers facing five persistent systemic headwinds: tight financing, management credibility gaps, jurisdiction risk, retail investor fatigue, and the shadow of major M&A crowding out juniors.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
