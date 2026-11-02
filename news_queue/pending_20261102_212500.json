@@ -1,0 +1,83 @@
+[
+  {
+    "headline": "$712B WIPED FROM TOP 50 MINING STOCKS SINCE IRAN WAR — SECTOR SITS AT 1-YEAR LOWS, URANIUM LONE GAINER",
+    "url": "https://www.mining.com/712-billion-wiped-off-worlds-biggest-mining-companies-since-the-start-of-the-iran-war/",
+    "source_name": "Mining.com",
+    "category_slug": "market-macro",
+    "snippet": "The world's 50 most valuable mining companies have shed $712 billion in combined market cap since the Iran war began, with the sector now down 26% from its February peak. Uranium spot bucked the trend, rising 3.5% to $92.55/lb, though Cameco shares still fell 11% alongside the broader rout.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "COMEX GOLD SETTLES 1.83% HIGHER AT $3,957 — SHARPEST SINGLE-DAY REBOUND FROM 1-YEAR LOW IN WEEKS",
+    "url": "https://goldseek.com/article/comex-gold-settles-183-higher-395690",
+    "source_name": "GoldSeek",
+    "category_slug": "gold-silver",
+    "snippet": "Gold staged its strongest single-session gain in recent weeks, settling at $3,956.90 on Comex Monday after touching a one-year low Friday. Easing oil prices and a pause in tech-stock selling reduced safe-haven competition, with gold ETFs adding 29,500 oz to bring YTD net purchases to 2.07 million oz.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD-SILVER RATIO HITS MULTI-MONTH EXTREME — SILVER TESTS CRITICAL $50 FLOOR AS ETF OUTFLOWS MOUNT",
+    "url": "https://goldseek.com/article/gold-silver-ratio-expanding-what-next",
+    "source_name": "GoldSeek",
+    "category_slug": "gold-silver",
+    "snippet": "The gold-to-silver ratio has widened to levels not seen since early 2026, with silver sliding 8.52% last week and ETP outflows accelerating even as the cumulative 5-year silver market deficit reaches 716 million ounces. The $50/oz level is now the key technical support to watch.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "WESCAN GOLDFIELDS (TSXV: WGF) HITS VISIBLE GOLD IN FIRST MUNRO LAKE HOLE — ML26-005 ASSAYS PENDING",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3121-tsx-venture/wgf/213617-wescan-goldfields-reports-encouraging-drill-core-observations-in-first-hole-of-2026-drill-campaign-at-munro-lake-assays-pending.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "Wescan Goldfields reported encouraging core observations with visible gold in ML26-005, the first hole of its 2026 drill campaign at Munro Lake, Ontario. The program is expected to finish in early November with quantitative assay results to follow shortly after.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "BMO SWOT: LOWER GOLD PRICES NOW DRAWING PHYSICAL BUYERS — AGNICO EAGLE WARNS $50-60/OZ Q4 DIESEL HIT",
+    "url": "https://goldseek.com/article/gold-swot-bmo-believes-lower-gold-prices-are-starting-attract-physical-buyers",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "BMO Capital Markets' weekly gold SWOT analysis finds the October correction is beginning to attract physical demand after weeks of institutional selling, with ETF flows turning positive Monday. Agnico Eagle separately flagged that diesel costs will add $50–60/oz to Q4 expenses, a meaningful headwind for near-term margins.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "IAMGOLD REPORTS NOV 5, BARRICK NOV 9 — GOLD MINERS' Q3 EARNINGS SEASON KICKS OFF AMID COST PRESSURE",
+    "url": "https://www.marketbeat.com/instant-alerts/list-gold-stocks-to-watch-today-november-2nd-2026-11-02/",
+    "source_name": "MarketBeat",
+    "category_slug": "market-macro",
+    "snippet": "Gold miners' Q3 earnings season begins this week with IAMGOLD reporting November 5 and Barrick Gold on November 9, with investors focused on how rising diesel costs and a softer H2 gold price are hitting margins. One-year returns diverge sharply across the sector: IAMGOLD +38%, Newmont +36%, Royal Gold +35%.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "4 CRITICAL MINERALS STOCKS POSITIONED FOR US-CHINA DECOUPLING — ANALYSIS NAMES DOMESTIC WINNERS",
+    "url": "https://fool.com/investing/2026/11/01/4-critical-minerals-stocks-that-could-benefit-as",
+    "source_name": "Motley Fool",
+    "category_slug": "rare-earths",
+    "snippet": "With China's rare earth export control suspension expiring November 10, a new analysis identifies four domestically-focused critical minerals producers best positioned to capture supply-chain diversification mandates from US and allied governments looking to reduce China dependence.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "BMO COMPLETES EUROZ HARTLEYS METALS & MINING DESK DEAL — COULD EASE JUNIOR MINER FINANCING ACCESS",
+    "url": "https://newsroom.bmo.com/2026-11-01-BMO-Completes-Acquisition-of-Euroz-Hartleys-Capital-Markets-Business,-Strengthening-its-Leading-Global-Metals-and-Mining-Franchise",
+    "source_name": "BMO Newsroom",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "BMO completed its acquisition of Euroz Hartleys' Australian capital markets business on November 1, adding equity research and deal origination capacity for metals and mining companies. The deal may improve financing access for dual-listed ASX/TSX-V junior miners seeking institutional placements.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER FORECASTS LIFTED FOR 2026 BUT TARIFF COLLAPSE COULD SEND PRICES BELOW $5/LB — ANALYST SURVEY",
+    "url": "https://www.mining.com/copper-price-forecasts-lifted-for-2026-but-tariff-collapse-still-on-the-table/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "A cross-bank analyst survey lifted 2026 copper price forecasts as Chile and Peru supply tightness outweighs demand uncertainty, but several banks flagged a tariff breakdown scenario that could push copper below $5.00/lb — a level that would trigger widespread capex deferrals at development-stage copper projects.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
