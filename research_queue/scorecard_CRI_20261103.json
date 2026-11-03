@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "CEO Tasheel Jeerh (appointed May 2026, replacing founding CEO Conan McIntyre) is leading the company through a post-transition period. President Paul Sobie remains in role. The leadership change introduces ongoing continuity risk, though the exploration mandate appears unchanged: resource delineation at Black Raven and advancing the Golden Baie option. Qualified Person Derek Wilton provides geological continuity across all reported drill programs. Management funded a C$3M private placement in late 2025 to support 2026 drilling — a sign of disciplined treasury management relative to program scale. No insider-ownership breakdown is available from extracted filings; the team lacks a publicly documented discovery-to-resource track record. Score held at 3: competent but unproven at this stage of the project.",
+
+  "geology_score": 3,
+  "geology_notes": "Black Raven hosts the historic Frost Cove antimony mine in central Newfoundland (~60 km NW of Gander). Churchill has defined an 800-metre strike at Frost Cove with genuine high-grade intercepts: 7.25% Sb over 1.98m (March 2026 final assays, near Southern Shaft) and 19.23% Sb over 1.40m at Frost Cove North (spring 2026 final assays). A second zone, Pomley Cove Pond, returned a 150-m-wide polymetallic vein swarm with Au-Ag-Mo-Pb-Zn vectors. A third prospect (PC Pond) graded 0.78% Cu and 61.2 g/t Ag over 6.22m. The Golden Baie option (TSXV-approved March 2026) adds another antimony-gold target in the same region. Grade quality at Frost Cove is globally competitive for antimony. Critical missing piece: the NI 43-101 technical report on file dates from August 2023 and pre-dates all 2025–2026 drill results; no updated resource estimate exists. Tonnage and continuity at depth remain unestablished. The extracted tech_43101_source dated 20230801 confirms no updated resource table rows were found in the 43-101 extraction.",
+
+  "capital_score": 3,
+  "capital_notes": "Shares issued outstanding of 316,681,940 with 342,756,940 fully diluted (source: April 2026 MD&A, extracted 2026-05-14). The diluted overhang is modest — 2,625,000 warrants and 23,450,000 options (~8.2% dilution) — but strike and expiry details were not extracted from the MD&A summary table. The large absolute share count (316M) is typical for a TSXV explorer funded through multiple equity rounds over several years. No flow-through tranches were detected in the April 2026 MD&A extraction; hold-release overhang from FT shareholders is not flagged as a near-term concern. The Golden Baie option requires minimum C$5M in exploration expenditures within 24 months (at least C$1M in year one) — a committed cash deployment obligation that will require additional equity financings as treasury depletes. At approximately C$0.055 per share, implied market cap is roughly C$17M. Share structure score of 3: workable but the 316M share base limits per-share leverage on a resource estimate.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "The TSXV-approved Golden Baie option (March 2026) opened a second active property for exploration. The spring 2026 drill results at Black Raven remain the most recent material news as of November 3, 2026; no fall 2026 drill program announcement has been confirmed. The IR website was unreachable from this runner (network policy); no incremental news from the past 24 hours was verifiable. Near-term catalysts: (1) maiden NI 43-101 resource estimate at Black Raven — the single most important re-rating event given the 800m strike length and multi-year drill history; (2) fall 2026 or winter 2026/27 drill program announcement at Black Raven or Golden Baie; (3) any CEO Jeerh strategic update on H2 2026 exploration priorities. Macro catalyst: antimony prices remain elevated above US$50,000/t on Chinese export restriction policy, maintaining investor attention on Western critical-mineral antimony stories. The company appears to be in an inter-season data-processing and permitting phase. Catalyst score of 3: the resource estimate and next drill campaign are imminent in a narrative sense but remain unconfirmed.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "P/NAV cannot be calculated — no NI 43-101 resource estimate exists at Black Raven, and the 2023 technical report pre-dates all recent drill results. The Golden Baie option adds strategic land value but no quantifiable resource. Antimony M&A comparables are thin globally; the critical-mineral designation and supply-chain premium make peer-based valuation difficult. The acquisition case is purely exploration-stage: undiscovered value in a historically mined district with exceptional grade at Frost Cove and a strong commodity price backdrop. If a maiden resource estimate delivers 10–20 Mlbs of contained antimony at grades consistent with the 2026 drill results, comparable critical-mineral transaction multiples suggest significant potential upside — but this remains speculative until the estimate is completed and filed. Score of 2 reflects the complete absence of a quantitative valuation anchor.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (CRI.V) is advancing the Black Raven antimony project in central Newfoundland at an inflection point for the antimony market. The 2026 drill campaign delivered world-class results — 19.23% Sb over 1.40m at Frost Cove North — and the company expanded its footprint with the TSXV-approved Golden Baie option (March 2026, minimum C$5M spend obligation). Capital structure is manageable at 316.7M shares issued with ~8.2% diluted overhang from options and warrants; no flow-through hold-release pressure was detected. Antimony prices remain above US$50,000/t driven by Chinese export restrictions, keeping the macro setup compelling for a primary antimony story in a stable, pro-mining Western jurisdiction. As of November 3, 2026, no new material news has been verified (the IR website was unreachable from this session's network; no incremental releases were detected). The company appears to be between field seasons in an inter-season data-processing phase. The critical missing piece remains a NI 43-101 resource estimate at Black Raven; without it, Churchill is a pure exploration story requiring small position sizes to reflect discovery risk. A maiden resource estimate is the single most important re-rating catalyst. Rate WATCH — accumulate on weakness ahead of resource announcement; size positions conservatively until tonnage is established.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from April 2026 MD&A — strike/expiry not extracted from MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from April 2026 MD&A — strike/expiry not extracted from MD&A summary table"
+    }
+  ]
+}
