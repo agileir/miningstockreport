@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "GOLD, SILVER FINALLY STABILIZE — Comex Gold Settles 1.83% Higher at $3,956.90 After Election Day Rout; Silver Climbs Back Above $51",
+    "url": "https://goldseek.com/article/gold-and-silver-finally-stabilize-worst-over",
+    "source_name": "GoldSeek",
+    "category_slug": "gold-silver",
+    "snippet": "Gold and silver both found footing on November 3 after last week's brutal 3% sell-off to one-year lows, with Comex gold settling 1.83% higher at $3,956.90 and silver recovering above $51. Analysts are watching the $4,000 level on gold and $50 on silver as the key inflection points; the bounce follows Monday's 2% rebound from $3,875, though the question of whether the worst of the correction is over remains open ahead of post-midterm positioning.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "CHILE SLASHES COPPER FORECAST 330,000 TONNES — Cochilco Cuts 2026 Output to 4.94 Mt as LME Copper Slides to 11-Week Low of $13,883/t",
+    "url": "https://minelistings.com/news/industry-news/chile-cuts-copper-supply-forecast-by-330000-tons-as-higher-prices-fail-to-offset-mine-setbacks/",
+    "source_name": "MineListings",
+    "category_slug": "copper-base-metals",
+    "snippet": "Chile's state copper commission Cochilco cut its 2026 national production forecast by 330,000 metric tons to 4.94 million tonnes, citing mine setbacks that higher prices have failed to offset — while simultaneously raising its 2026 average price estimate to $6.18/lb. On the same day, LME copper futures fell to an 11-week low of approximately $13,883/t as a tech-stock rout dampened growth sentiment, hitting Freeport-McMoRan and other majors.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "GLOBAL ENERGY METALS IDENTIFIES 8 URANIUM TARGETS — Fontaine Lake Saskatchewan Exploration Ramps Up Near Athabasca Basin",
+    "url": "https://stockhouse.com/news/press-releases/2026/11/03/global-energy-metals-highlights-identification-of-eight-uranium-targets-at",
+    "source_name": "Stockhouse",
+    "category_slug": "uranium-energy",
+    "snippet": "Global Energy Metals has identified eight uranium exploration targets at its Fontaine Lake project in Saskatchewan following a completed geophysical and geological review, adding to the active exploration pipeline on the eastern margin of the Athabasca Basin. The target identification sets up a potential 2027 drill program in a district where consolidation and junior exploration have continued through the broader mining sector selloff.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "MAJOR DRILLING BUYS BUNBURY DRILLING FOR $50M — Mine Dewatering Specialist Acquired With $20M Earnout in Drilling Sector Consolidation",
+    "url": "https://canadianminingjournal.com/news/major-drilling-expands-services-with-bunbury-acquisition",
+    "source_name": "Canadian Mining Journal",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Major Drilling Group has acquired the Bunbury Drilling Company, a specialized mine dewatering drilling contractor, for an upfront cash payment of US$50 million with up to US$20 million in additional earnout payments over three years. The deal expands Major Drilling's service offering beyond core exploration drilling into mine dewatering — a service driven by water management needs at operating mines rather than the exploration cycle.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SURGE BATTERY METALS REBRANDS AS LITHIUM X2 MINING — TSXV Ticker Change Expected November 9 as Company Signals Pure-Play Pivot",
+    "url": "https://investingnews.com/surge-battery-metals-announces-corporate-name-change-to-lithium-x2-mining-inc",
+    "source_name": "Investing News Network",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Surge Battery Metals has announced it will change its corporate name to Lithium X2 Mining Inc., with trading under the new name on the TSX Venture Exchange expected on or about November 9, 2026, subject to TSXV acceptance. The rebrand signals a sharper focus on lithium exploration as the company attempts to attract investors in the battery metals space despite lithium carbonate prices falling roughly 25% over the past month.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "BP SILVER HITS 183.62 G/T SILVER OVER 10 METRES — Cosuño Silver Project Bolivia Delivers High-Grade Discovery Intercept",
+    "url": "https://goldseek.com/article/bp-silver-corp-intersects-183-g-t-silver-10-metres-cosuno-bolivia",
+    "source_name": "GoldSeek",
+    "category_slug": "exploration-discovery",
+    "snippet": "BP Silver Corp reported a high-grade intercept of 10.0 metres grading 183.62 g/t silver and 0.59 g/t gold at the Cosuño Silver Project in Bolivia, a result that confirms the discovery potential at a jurisdiction where the company has been building a resource base. At current silver prices near $51/oz, the intercept grade represents significant in-situ value at the discovery zone.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CHINA RARE EARTH CONTROLS RESUME NOVEMBER 10 — USA Rare Earth Stock Down 32% in 30 Days as Policy Catalyst Looms",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/usa-rare-earth-usar-stock-101605302.html",
+    "source_name": "Yahoo Finance",
+    "category_slug": "rare-earths",
+    "snippet": "The one-year suspension of China's October 2025 rare earth export controls expires on November 10, 2026, bringing a key policy catalyst within one week for the sector. USA Rare Earth (NASDAQ: USAR) has fallen roughly 32% over the past 30 days amid broader sector pressure and dilution concerns at partner Critical Metals, leaving the stock looking stretched on the downside ahead of an event that could re-tighten the global rare earth supply picture.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD-SILVER RATIO WIDENS TO 77-TO-1 — Why the Metals' Divergence May Signal Which Recovers Faster From the Sell-Off",
+    "url": "https://goldseek.com/article/gold-silver-ratio-expanding-what-next",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "The gold-silver ratio has expanded to roughly 77-to-1 as silver's industrial-metal sensitivity exaggerated its sell-off compared to gold's safe-haven resilience during the Iran war risk-off and election uncertainty. Analysts argue that the ratio reverting toward its long-run average near 65 would require silver to outperform, historically the pattern when precious metals exits a correction — though the same industrial exposure that hurt silver in the downturn will drive the upside if macro sentiment stabilizes.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ADRIAN DAY: AFTER GOLD SELL-OFF, THE CYCLE IS TURNING — Uranium, Copper, Base Metals Seen Outperforming From Here",
+    "url": "https://discoveryalert.com/analysis/gold-price-outlook-adrian-day-commodity-cycle-november-2026/",
+    "source_name": "Discovery Alert",
+    "category_slug": "opinion-analysis",
+    "snippet": "Veteran resource fund manager Adrian Day says the commodity cycle is rotating in November 2026, with oil, uranium, copper, and base metals positioned to outperform gold over the next two to three years as the defensive gold trade becomes crowded and industrial commodity valuations remain historically cheap. Day sees the gold sell-off as a healthy correction within a secular bull market but argues the fastest gains from here will come from energy transition metals and nuclear fuel.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CNBC: AGNICO EAGLE IS A CASH MACHINE — Why One Analyst Says the Gold Miner Sell-Off Is an Opportunity, Not a Warning",
+    "url": "https://www.cnbc.com/2026/11/03/this-gold-miner-is-a-cash-machine-why-i-think-the-sell-off-is-an-opportunity.html",
+    "source_name": "CNBC",
+    "category_slug": "opinion-analysis",
+    "snippet": "With gold miners roughly one-third below their 52-week highs, a CNBC commentator argues that Agnico Eagle in particular remains a substantial cash generator at current gold prices and that the company's strong margins and disciplined capital allocation make the recent drawdown a buying opportunity rather than a warning. The piece acknowledges the near-term risks of falling gold prices and cost pressures but says long-term fundamentals for gold remain intact heading into Q3 earnings season.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
