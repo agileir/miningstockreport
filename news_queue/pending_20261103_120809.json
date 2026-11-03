@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "GOLD TESTS $3,909 — ELECTION MORNING BOUNCE FULLY ERASED, SILVER HITS 3.4% SINGLE-DAY LOSS",
+    "url": "https://tradingeconomics.com/commodity/gold",
+    "source_name": "Trading Economics",
+    "category_slug": "gold-silver",
+    "snippet": "Spot gold fell ~1% to $3,909/oz on November 3 as the election-morning safe-haven bid faded and the U.S. dollar firmed ahead of vote-count results. Silver dropped 3.4% to $48.93/oz — its sharpest single-day decline in two weeks — underscoring fragile sentiment across precious metals going into a double macro event: election results tonight and Friday non-farm payrolls.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "ACG METALS BIDS A$315M FOR NUSSIR COPPER IN NORWAY — BLUE MOON ALL-STOCK DEAL EXPECTED BY NOVEMBER 30",
+    "url": "https://mining.com.au/blue-moon-agrees-315-million-norway-sale-to-acg/",
+    "source_name": "Mining.com.au",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Blue Moon Metals agreed to sell its Nussir copper project in northern Norway to ACG Metals in an all-stock deal valued at approximately A$315 million (US$220M). Deal completion requires ACG shareholder approval, with a 30 November expected close and a 15 December long-stop date. Nussir is a permitted, development-stage copper deposit; the transaction gives ACG a European copper asset at a time when Western supply chain independence from Chilean and Congolese production is a political priority.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "CITI SLASHES LITHIUM CARBONATE FORECAST 40% TO $12,000/T — SLOWER EV DEMAND, TRADE DISRUPTION BLAMED",
+    "url": "https://www.mining.com/citi-slashes-lithium-price-forecast-by-40-on-lower-demand/",
+    "source_name": "Mining.com",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Citi cut its lithium carbonate price target by 40% to $12,000/tonne (from $20,000/t), with lithium hydroxide revised to $17,000/t, citing slower battery demand growth and increased trade uncertainty. The bearish revision is a headwind for development-stage lithium projects already struggling with compressed margins — it moves Citi's target close to where the Guangzhou spot contract is already trading (~$13,710/t), removing the recovery premium.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "T-MINUS 7 DAYS: CHINA'S RARE EARTH EXPORT PAUSE EXPIRES NOV 10 — SECTOR'S BIGGEST BINARY LOOMS",
+    "url": "https://www.skillings.net/critical-minerals-supply-chain-2026-november-export-controls-test-the-west/",
+    "source_name": "Skillings Mining Review",
+    "category_slug": "rare-earths",
+    "snippet": "China's suspension of its October 2025 rare earth export controls — covering heavy rare earth elements used in wind turbines, EVs and defense magnets — legally expires on November 10. Analysts describe it as the sector's defining binary: re-imposed controls would sharply lift ex-China producers, while an extension or full removal would compress the premium that Western rare earth developers have been trading on. SMM data show Chinese PrNd oxide prices stabilized after a brief morning dip on November 3.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "FULCRUM METALS MAPS 8 URANIUM ZONES AT FONTAINE LAKE, SASK — ATHABASCA BASIN DRILL PROGRAM NEXT",
+    "url": "https://www.stocktitan.net/news/FULMF/fulcrum-metals-plc-eight-uranium-zones-identified-at-fontaine-iwrbvrsn37kp.html",
+    "source_name": "StockTitan",
+    "category_slug": "uranium-energy",
+    "snippet": "UK-listed Fulcrum Metals (OTC: FULMF) identified eight uranium target zones from an airborne survey at Fontaine Lake in northern Saskatchewan, bringing its portfolio to 18 total targets across two Athabasca Basin-adjacent project areas. A drill program is expected to follow; Fontaine Lake sits on the eastern margin of the world's highest-grade uranium district, where active M&A and drill activity has continued despite the broader mining sector selloff.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "NUCLEAR PLANT BUILDS HIT 40-YEAR HIGH — DEFICIT LOOMS THROUGH 2045 EVEN AT PEAK MINE OUTPUT",
+    "url": "https://mining.com.au/nuclear-plant-builds-hit-40-year-high-lift-uranium-outlook/",
+    "source_name": "Mining.com.au",
+    "category_slug": "uranium-energy",
+    "snippet": "Nuclear reactor construction is at a 40-year high, and even if every existing and planned uranium mine runs at its peak historical output, analysts say supply would still fall short of reactor demand through 2045. The finding reinforces the structural bull case for uranium above $90/lb long-term and supports the investment thesis for advanced developers in the Athabasca Basin, Kazakhstan and emerging African and South American jurisdictions.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "NIGER FORCES ATOMIC EAGLE TO 40% MADAOUELA STAKE — SAHEL CREEP HITS ANOTHER URANIUM DEVELOPER",
+    "url": "https://www.share-talk.com/sp-angel-todays-market-view-tuesday-3rd-november-2026/",
+    "source_name": "SP Angel",
+    "category_slug": "uranium-energy",
+    "snippet": "Niger's military government has required Atomic Eagle to raise the state's ownership interest to 40% at the Madaouela uranium project, per SP Angel's Tuesday morning market view. The move mirrors forced-participation terms imposed at several other Sahel uranium assets since 2023 and adds to sovereign risk premium for investors weighing African uranium exposure, particularly as Kazakhstan and Canadian projects offer more predictable frameworks.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "WORLD BANK LIFTS 2027 COPPER FORECAST 18% TO $13,000/T — SUPPLY TIGHTNESS OVERRIDES DEMAND FEARS",
+    "url": "https://www.mining.com/world-bank-lifts-copper-price-outlook-by-18/",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "The World Bank raised its 2027 copper price forecast by 18% to $13,000/tonne ($5.90/lb), citing constrained mine supply from Chile and Peru as the primary driver. The upgrade arrives alongside news of Cochilco's 8.4% cut to Chile's 2026 output forecast, creating a price-positive divergence: demand uncertainty from macro headwinds is being outweighed by an accelerating supply story that most copper development projects need $5.50–$6.00/lb to justify.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "USA RARE EARTH SETS NOV 9 EARNINGS DATE — Q3 RESULTS LAND DAY BEFORE CHINA EXPORT CONTROL DECISION",
+    "url": "https://www.manilatimes.net/2026/11/03/tmt-newswire/globenewswire/usa-rare-earth-announces-date-for-release-of-third-quarter-2026-results-and-conference-call/2460058",
+    "source_name": "GlobeNewswire",
+    "category_slug": "rare-earths",
+    "snippet": "USA Rare Earth (Nasdaq: USAR) will report Q3 2026 results after market close on November 9, with a conference call the same day at 4:30 p.m. ET — one day before China's rare earth export controls are set to expire. Through its Less Common Metals (LCM) subsidiary, USAR produces rare earth alloys; investors will be watching for any commentary on how the November 10 policy decision affects the company's order book and pricing expectations.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER FUTURES FLIP POSITIVE AFTER OIL PLUNGES — LME OVERCOMES OVERNIGHT 1.4% LOSS IN ASIAN SESSION",
+    "url": "https://news.metal.com/newscontent/104200348-crude-oil-prices-pulled-back-significantly-while-copper-futures-rebounded-and-closed-higher-both-domestically-and-internationally-smm-copper-morning-comment",
+    "source_name": "Shanghai Metals Market",
+    "category_slug": "copper-base-metals",
+    "snippet": "Shanghai Metals Market's November 3 morning commentary reports that a sharp pullback in crude oil prices drove a rebound in copper futures, with LME copper overcoming an overnight 1.38% loss to close higher alongside the Shanghai front-month contract. The dynamic illustrates copper's current dual-driver: energy-cost inflation fear (bearish) vs. structural supply deficit (bullish) — and today, supply won.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
