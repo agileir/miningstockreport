@@ -1,0 +1,101 @@
+[
+  {
+    "headline": "GOLD $4,065 SILVER $52.30 AS MIDTERM RALLY EXTENDS THURSDAY — Dollar Hits 1-Month Low; Both Metals Testing New 2026 Support",
+    "url": "https://guardian-gold.com.au/market-updates/overnight-summary-precious-metals-prices-05-11-2026/",
+    "source_name": "Guardian Gold",
+    "category_slug": "gold-silver",
+    "snippet": "Gold spot held above $4,000 for a second straight session on November 5 as the US dollar slipped to a one-month low following the Democrats' midterm sweep. Silver outpaced gold, climbing 5.3% to $52.30/oz, with the overnight summary citing continued post-election dollar weakness as the primary driver.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "LUNDIN GOLD SMASHES Q3 RECORDS — $633M Revenue, 153,736 oz at $4,299 Realized; Quebrada Dorada Epithermal Trend Doubles to 8km",
+    "url": "https://www.newswire.ca/news-releases/lundin-gold-reports-third-quarter-2026-results-830171618.html",
+    "source_name": "Newswire",
+    "category_slug": "gold-silver",
+    "snippet": "Lundin Gold reported record Q3 2026 production of 153,736 oz at an average realized price of $4,299/oz, generating $633M in revenue at AISC of $1,037/oz. The company also confirmed the new Quebrada Dorada epithermal gold discovery now extends the known epithermal trend from 4km to 8km, with two rigs drilling.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "FREEPORT GREENLIGHTS $4.5B BAGDAD COPPER EXPANSION — Arizona Mine to Double Output to 400M+ lbs/yr; Autonomous Fleet, New Concentrator by 2030",
+    "url": "https://im-mining.com/2026/11/04/freeport-approves-bagdad-expansion-including-enlarged-ahs-fleet-new-overland-conveyor/",
+    "source_name": "International Mining",
+    "category_slug": "copper-base-metals",
+    "snippet": "Freeport-McMoRan's board approved a $4.5 billion expansion at its Bagdad mine in northwest Arizona on November 4, targeting production of over 400 million pounds of copper per year once complete in mid-2030. The project breaks even at $4.00/lb copper and would make Bagdad the second-largest US copper mine, behind Morenci.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "RIO TINTO'S ARGENTINA LITHIUM COMPLEX RAMPING — Sal de Vida + Fénix 1B Add 25,000t LCE/yr in Combined $1.4B Project",
+    "url": "https://www.electrive.com/2026/11/03/rio-tinto-expands-lithium-production-in-argentina/",
+    "source_name": "Electrive",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Rio Tinto's two Argentinian lithium operations — Sal de Vida and the Fénix 1B expansion — achieved first production in Q2 ahead of schedule and are now in ramp-up. Combined capex was $1.4 billion and total new capacity is 25,000 tonnes of lithium carbonate equivalent per year, with a broader A$4B growth pipeline in Argentina.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "EUROPEAN LITHIUM SPAC COMPLETES TODAY — Critical Metals Corp Implements Merger; Nasdaq Trading Begins November 6",
+    "url": "https://www.sec.gov/Archives/edgar/data/2030829/000192998026000070/pgac_425.htm",
+    "source_name": "SEC Filing",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Critical Metals Corp and European Lithium complete their SPAC merger scheme on November 5, with new Critical Metals Corp shares expected to begin trading on Nasdaq on November 6. The deal gives European Lithium's Wolfsberg lithium project in Austria a US public markets listing.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ENERGY FUELS LOGS THREE STRAIGHT PROFITABLE URANIUM QUARTERS — Realized Price Climbs for Third Consecutive Period in Q3 2026",
+    "url": "https://investingnews.com/energy-fuels-announces-q3-2026-results/",
+    "source_name": "Investing News",
+    "category_slug": "uranium-energy",
+    "snippet": "Energy Fuels reported its third straight profitable quarter in its uranium segment in Q3 2026, with weighted average realized prices rising for the third consecutive period. The US uranium producer benefits from long-term contract pricing that partially insulates it from spot market volatility.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "KAZATOMPROM HOLDS 2026 GUIDANCE AFTER Q3 BEAT — World's Largest Uranium Miner Reports Higher Production and Sales YoY",
+    "url": "https://uraniumunleashed.substack.com/p/uranium-signal-monitor-860",
+    "source_name": "Uranium Unleashed",
+    "category_slug": "uranium-energy",
+    "snippet": "Kazakhstan's Kazatomprom published its Q3 2026 operations update on November 3, reporting higher production and sales volumes versus a year earlier at improved realized prices, while reiterating all full-year 2026 guidance. Uranium spot price holds at $92.55/lb, up 3.5% over the past month — the only major commodity with a positive 30-day return.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "MAVERICK URANIUM TO LIST ON ASX NOVEMBER 12 — Junior Uranium Name Enters Quiet Month for Australian Mining IPOs",
+    "url": "https://mining.com.au/mining-and-resources-ipos-quiet-down-on-asx-in-november/",
+    "source_name": "Mining.com.au",
+    "category_slug": "uranium-energy",
+    "snippet": "Maverick Uranium is set to begin trading on the Australian Securities Exchange on November 12, adding a new uranium exploration name to a relatively quiet month for ASX mining listings. The debut comes as the uranium spot price holds above $92/lb and sector attention turns to the November 10 China–US export control review.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "JPMORGAN SEES U.S. COPPER OUTPUT MORE THAN DOUBLING — Bank Cites Bagdad, Resolution Pipeline as Structural Decade Theme",
+    "url": "https://mining.com/jpmorgan-sees-us-copper-output-more-than-doubling",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "JPMorgan analysts forecast US copper mine production will more than double from current levels, underpinned by the Freeport Bagdad expansion just approved and the Resolution copper project in Arizona. The bank frames domestic supply growth as a structural theme and flags re-shoring policy tailwinds for the rest of the decade.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SILVER 'LIKELY TO CONTINUE OUTPERFORMING GOLD' — Nov 4 Dealer Report Flags Midterm Dollar Collapse as Year-End Catalyst",
+    "url": "https://www.goldenstatemint.com/blog/on-the-spot-with-gsm-precious-metals-market-report-for-11-04-2026/",
+    "source_name": "Golden State Mint",
+    "category_slug": "opinion-analysis",
+    "snippet": "Golden State Mint's November 4 precious metals report argues silver is likely to continue outperforming gold into year-end, citing the midterm-driven dollar collapse and silver's industrial demand component as differentiating catalysts. Silver fell roughly 28% year-to-date before the bounce, leaving significant catch-up potential versus gold.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "TOP 50 MINERS SHED $712B SINCE IRAN CONFLICT — Gold, Copper, Lithium Stocks Lead Sector Rout Before Midterm Bounce",
+    "url": "https://www.share-talk.com/worlds-50-largest-mining-companies-lose-712bn-as-gold-copper-and-lithium-stocks-slump/",
+    "source_name": "Share Talk",
+    "category_slug": "market-macro",
+    "snippet": "The world's 50 most valuable mining companies have shed a combined $712 billion in market capitalisation since the Iran conflict began, with lithium, copper, and gold names among the hardest hit. The figure provides context for the scale of sector underperformance before the November 4 midterm-driven reversal.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
