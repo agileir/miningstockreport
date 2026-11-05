@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "Churchill Resources management has demonstrated reasonable technical competency with a focus on Atlantic Canada exploration. The pivot to antimony as a critical mineral theme shows some strategic awareness — the Black Raven project was held before China's December 2024 antimony export restrictions made the commodity significantly more prominent. Insider ownership is not exceptional for the stage; the company has gone through multiple financing rounds that have diluted to 316.7M shares outstanding. No major red flags on governance, but limited evidence of outsized shareholder alignment or a track record of discovery-to-development execution.",
+
+  "geology_score": 3,
+  "geology_notes": "Black Raven (Newfoundland and Labrador) is an antimony-gold project with meaningful historical workings and drill data. The property sits in a geologically favourable terrane with known antimony mineralisation. However, there is still no NI 43-101 resource estimate — the technical report on file dates to August 2023 and is a qualifying report on historical data rather than a current resource estimate. Grade and tonnage remain unquantified under NI 43-101. Until a compliant resource is defined, the geological upside is real but unproven. All resource/reserve fields remain null — no resource table was present in the first 60 pages of the available 43-101 filing.",
+
+  "capital_score": 3,
+  "capital_notes": "Share structure is relatively clean with modest warrant overhang. As of the April 2026 interim MD&A: 316,681,940 shares issued and outstanding; 342,756,940 fully diluted. The dilution gap is 26,075,000 shares — comprising 2,625,000 warrants and 23,450,000 options. Strike prices and expiry dates were not captured in the extraction. The warrant count is very low relative to total shares, suggesting recent financing was done without heavy warrant packages. No flow-through tranches were detected in the April 2026 MD&A. The principal concern on capital is the absolute share count (316M+) which is high for the exploration stage and limits per-share leverage on any resource definition.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "The primary near-term catalyst is a maiden NI 43-101 resource estimate at Black Raven. If drilling has advanced sufficiently, this would be the company's most significant de-risking event to date. The antimony demand narrative provides a macro tailwind: China export restrictions on antimony (effective late 2024) have elevated interest in ex-China supply sources, and a compliant resource in a stable Canadian jurisdiction would attract strategic attention. Timing of a resource estimate is uncertain. No confirmed drill program announcements were available from the cloud runner (IR website unreachable from cloud runner environment); catalyst score reflects the structural opportunity rather than confirmed near-term news.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "Without a NI 43-101 resource estimate, a P/NAV comparison to precedent transactions is not meaningful. Comparable antimony-gold project acquisitions are limited in the data set. The strategic value of a Canadian antimony source has increased materially since China's export restrictions, which should support a future acquisition premium — but that premium cannot be sized at the current stage. Score of 2 reflects the genuine optionality on strategic acquisition while acknowledging the lack of data to underpin a valuation.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (CRI.V) holds the Black Raven antimony-gold project in Newfoundland and Labrador at a moment when the antimony critical-mineral narrative has real investor and strategic tailwinds from China export restrictions. The project has historical drilling and geological merit but lacks a NI 43-101 resource estimate, which is the central milestone that would re-rate the story. Capital structure is clean — 316.7M issued, 342.8M fully diluted, minimal warrant overhang — which is a positive for leverage on any resource announcement. Management is competent but has not yet demonstrated a discovery-to-development track record. WATCH until a compliant resource is defined; a maiden estimate with strong antimony grades and tonnage would shift this toward BUY given the commodity tailwinds.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from April 2026 interim MD&A — strike/expiry not extracted"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from April 2026 interim MD&A — strike/expiry not extracted"
+    }
+  ]
+}
