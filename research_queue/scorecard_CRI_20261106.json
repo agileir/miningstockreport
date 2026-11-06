@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "Churchill Resources management has demonstrated execution ability through an active 2026 drill campaign at Black Raven — a two-rig program started March 23, 2026, and final assays were reported August 28, 2026, suggesting competent field operations. The pivot to antimony as a critical mineral theme predates China's December 2024 export restrictions, indicating some strategic foresight. Insider ownership is not exceptional for the stage; the company has diluted to 316.7M shares outstanding through multiple financing rounds. No governance red flags observed, but no track record of discovery-to-development execution yet.",
+
+  "geology_score": 4,
+  "geology_notes": "The 2026 drill campaign materially advanced the geological story at Black Raven. Headline spring 2026 results include 19.23% antimony over 1.40m at Frost Cove North (August 28 final assay release) and 7.25% antimony over 1.98m near the southern shaft along the 800m strike. These are high-grade intercepts — antimony is typically economic above 2–3% Sb, making 19% and 7% genuinely exceptional grades. Additionally, a new copper-silver prospect (0.78% Cu, 61.2 g/t Ag over 6.22m) and a gold-silver-molybdenum-lead-zinc vein system at Pomley Cove Pond were identified, expanding the project footprint beyond antimony alone. The historic Frost Cove mine returned up to 35.1% Sb and 14.4 g/t Au from channel samples. No NI 43-101 resource estimate yet — the qualifying technical report dates to August 2023 — but the 2026 drilling substantially de-risks the geological model. Resource/reserve fields remain null pending a compliant estimate.",
+
+  "capital_score": 3,
+  "capital_notes": "Share structure as per April 2026 interim MD&A (extracted from SEDAR+ filing): 316,681,940 shares issued and outstanding; 342,756,940 fully diluted. The dilution gap of 26,075,000 shares comprises 2,625,000 warrants and 23,450,000 options (strike prices and expiry dates not captured in extraction). Warrant overhang is minimal in absolute terms. No flow-through tranches were detected in the April 2026 interim MD&A. The primary capital concern is the absolute share count at 316M+ for an exploration-stage company with no resource estimate, which limits per-share leverage on a resource announcement. Active 2026 drilling was likely funded from prior financings; no new dilutive financing was identified in available news.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "Near-term catalysts are well-defined and sequencing toward a resource estimate. Spring 2026 drill results (final assays August 28) confirm broad antimony mineralisation across an 800m strike at Frost Cove plus new multi-metal discoveries. The logical next step is a maiden NI 43-101 resource estimate, which would be the most significant re-rating event in the company's history. The antimony macro narrative remains intact — China's export restrictions pushed antimony spot above $50,000/tonne, and a compliant resource in a stable Canadian jurisdiction would attract both market attention and strategic interest. Multiple commodities (Sb, Au, Ag, Cu) on the same property provide optionality. Fall 2026 drilling or a resource estimate announcement are the two most likely near-term catalysts.",
+
+  "acquisition_score": 3,
+  "acquisition_notes": "The strategic case for Black Raven has strengthened considerably through 2026. Antimony prices above $50,000/tonne (up from under $20,000 pre-restrictions) have elevated the value of ex-China supply. High-grade drill intercepts (19.23% Sb, 7.25% Sb) on a property with an 800m+ strike support the thesis that the deposit could be commercially meaningful. Without a NI 43-101 resource, a P/NAV multiple cannot be calculated, but precedent transactions for critical mineral antimony projects in Tier 1 jurisdictions are limited and likely at premium multiples. Score raised to 3 from prior 2 reflecting the strengthened geological and macro context; would move to 4 on a compliant resource estimate.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (CRI.V) has had a productive 2026 at its Black Raven antimony-gold-silver project in Newfoundland and Labrador. A two-rig spring drill campaign produced high-grade antimony intercepts (19.23% Sb over 1.40m at Frost Cove North; 7.25% Sb over 1.98m near the southern shaft) and identified new copper-silver and gold-silver-molybdenum systems, meaningfully expanding the project's geological footprint. Antimony spot prices above $50,000/tonne from China export restrictions provide a strong commodity tailwind. The company still has no NI 43-101 resource estimate — that remains the central de-risking milestone and the logical near-term deliverable from the 2026 drilling. Capital structure is 316.7M issued / 342.8M fully diluted with minimal warrant overhang. WATCH maintained: the geological story is building convincingly, but a maiden resource estimate is needed to underpin a valuation and shift this toward BUY.",
+  "confidence": "high",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from April 2026 interim MD&A — strike/expiry not extracted"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from April 2026 interim MD&A — strike/expiry not extracted"
+    }
+  ]
+}
