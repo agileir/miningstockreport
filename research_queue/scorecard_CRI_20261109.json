@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "Churchill Resources is a small-cap junior with a team focused on the Fleur de Lys antimony district in Newfoundland. Executive team has mining sector experience but limited institutional backing and no visible insider-ownership disclosure that signals strong management-share alignment. No recent management-led financing news that would indicate conviction buying. Score penalized for lack of verifiable insider ownership data and thin public profile.",
+
+  "geology_score": 2,
+  "geology_notes": "The Fleur de Lys area is a historically significant antimony district, but the most recent NI 43-101 technical report on file dates to August 2023. No measured, indicated, or inferred resource estimate was extractable from the filed technical report (all resource fields null per pre-extracted data). The project remains at an early-stage exploration and resource-delineation phase. Score reflects historical geological merit of the district but penalizes absence of a current, drilled-and-estimated resource.",
+
+  "capital_score": 2,
+  "capital_notes": "316.7M shares issued and outstanding is a heavy float for a company with no defined resource. Fully diluted share count of 342.8M adds ~26M in warrants and options (2.625M warrants, 23.45M options). Strike prices and expiry dates were not extracted from MD&A. The large share count relative to stage suggests significant historical capital raises and dilution; this compresses any potential per-share NAV uplift. No flow-through financing history detected in extracted data or extraction notes.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Antimony is classified as a critical mineral by Canada, the US, the EU, and Australia, driven by demand for flame retardants, military applications, and emerging battery technologies. Chinese export restrictions on antimony (implemented in late 2024) have elevated Western interest in domestic supply. Churchill's Newfoundland project benefits from this macro tailwind. However, no specific near-term drilling results, resource estimate publication, or strategic partnership news is evident, limiting the near-term catalyst score.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "No resource estimate means P/NAV cannot be calculated. While the critical-mineral antimony thesis makes the asset strategically interesting to larger producers and government-backed entities seeking Western antimony supply, the lack of any defined tonnage or grade makes it very difficult to benchmark against comparable transactions. Score reflects optionality on the strategic-mineral angle but discounts heavily for the absence of resource-definition data.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources is a pure-play antimony explorer in a district with historical production but no modern resource estimate. The macro backdrop is favorable — antimony is a declared critical mineral across major Western economies, and Chinese export controls have hardened strategic interest in non-Chinese supply. However, with 316.7M shares outstanding, no published resource, and an NI 43-101 technical report last updated in August 2023, the risk/reward does not yet support a BUY. WATCH pending a resource estimate release or strategic announcement that re-rates the project. Cap-table data sourced from MD&A filing dated 2026-04-29; resource fields null — no resource table was extractable from the 2023 technical report filing.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from MD&A summary table"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from MD&A summary table"
+    }
+  ]
+}
