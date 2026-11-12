@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "METALLA LOGS FIRST CASH FROM CÔTÉ AND LA PARRILLA ROYALTIES — Q3 2026 Confirms Streaming Portfolio Inflection",
+    "url": "https://juniorminingnetwork.com/junior-miner-news/press-releases/1976-tsx-venture/mta/214660-metalla-reports-strong-financial-results-for-the-third-quarter-of-2026-and-announces-inaugural-cash-flow-from-cote-and-la-parrilla-royalties.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "gold-silver",
+    "snippet": "Metalla Royalty & Streaming (TSX-V: MTA) reported strong Q3 2026 financials alongside a milestone: inaugural cash flow from both the Côté gold royalty — held on Alamos-IAM Gold's producing Ontario mine — and the La Parrilla royalty. The first cash receipts signal the portfolio is transitioning from development-stage to revenue-generating, a key inflection point that retail royalty investors track as the signal to re-rate the stock.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "RIO TINTO EXPANDS RESOLUTION COPPER MINE IN ARIZONA — Largest Undeveloped US Copper Deposit Grows Amid Supply Push",
+    "url": "https://news.metal.com/newscontent/RRAR7JYSMNP54S7MX7FHNBFIC5YPE4PUFZBE4JA-rio-tinto-expands-us-resolution-copper-mine-to-strengthen-domestic-supply-chain-smm-copper-morning-meeting-summary",
+    "source_name": "Shanghai Metals Market",
+    "category_slug": "copper-base-metals",
+    "snippet": "Rio Tinto announced an expansion of its Resolution Copper project in Arizona — the largest undeveloped copper deposit in North America — as part of a push to strengthen domestic US critical mineral supply chains. The move comes as Washington accelerates permitting for strategic assets ahead of projected AI data centre and EV copper demand acceleration in 2027-2028, adding a supply-side counterweight to the near-term macro pressure on LME prices.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "USA RARE EARTH SHIPS FIRST BRAZIL RARE EARTHS TO PENTAGON — Serra Verde Deliveries Begin Under 15-Year Supply Deal",
+    "url": "https://www.mining.com/usa-rare-earth-begins-brazil-shipments-to-pentagon/",
+    "source_name": "Mining.com",
+    "category_slug": "rare-earths",
+    "snippet": "USA Rare Earth has begun shipping rare earth materials from its Serra Verde operation in Brazil to the US Pentagon under a 15-year supply agreement — the first physical deliveries marking the transition from development milestone to active supply chain contribution. The shipments are a significant step in the US effort to build non-Chinese rare earth procurement for defence and advanced manufacturing, independent of the volatile export-control regime Beijing controls.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "AMERICAN RARE EARTHS BEGINS RARE EARTH METAL PRODUCTION IN WYOMING — Halleck Creek Hits First US In-State Processing Milestone",
+    "url": "https://www.mining.com/american-rare-earths-begins-testing-us-rare-earth-metal-production/",
+    "source_name": "Mining.com",
+    "category_slug": "rare-earths",
+    "snippet": "American Rare Earths has begun small-scale continuous processing of ore from its Halleck Creek deposit in Wyoming, producing rare earth oxides and metals for the first time entirely within-state. Halleck Creek is one of the largest rare earth resources in the US by estimated size; the processing milestone moves it closer to demonstrating a viable domestic rare earth supply chain that bypasses Chinese refinery dependence — a key criterion for US government offtake and financing support.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD SUPPLY FELL IN Q3 DESPITE RECORD MINE OUTPUT — Recycling Crash, Refinery Delays Explain the Gap",
+    "url": "https://goldseek.com/article/gold-supply-falls-q3-despite-record-mine-production-what-happened",
+    "source_name": "GoldSeek",
+    "category_slug": "gold-silver",
+    "snippet": "World Gold Council data analysed by GoldSeek shows total gold supply declined in Q3 2026 even as mine production ran at record pace — with the gap attributed to a sharp contraction in gold recycling volumes and logistics delays at key refineries. The finding adds a supply-side dimension to the gold bull case distinct from the well-covered demand record of 1,231 tonnes set in the same quarter, and suggests the correction to $3,875 is compressing supply even further.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD BELOW FAIR VALUE AT $3,875 — SILVER AT $49 EVEN CHEAPER: GOLDSEEK VALUATION BREAKDOWN",
+    "url": "https://goldseek.com/article/oh-woe-be-gold-silver-whoa-are-they-cheap",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "GoldSeek's November 11 fair-value analysis puts gold at $3,875 sitting approximately 5.6% below its calculated fair value of $4,116, with silver at $49 registering as even more undervalued relative to historical norms — positioning both metals as among the cheapest major assets in the market despite December rate-hike headwinds. The piece argues investors should focus on the widening gap between fundamental value and spot price rather than short-term macro noise from futures positioning.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "WHY GOLD MINING STOCKS FALL 30-40% HARDER THAN GOLD IN A ROUT — The Leverage Trap That Burns Retail Junior Mining Investors",
+    "url": "https://discoveryalert.com/analysis/gold-mining-stocks-sell-off-november-2026/",
+    "source_name": "Discovery Alert",
+    "category_slug": "opinion-analysis",
+    "snippet": "Discovery Alert's November analysis breaks down why junior gold mining stocks consistently fall two to three times harder than the gold price during corrections: a combination of financial leverage, operational cost sensitivity, liquidity risk premiums and the retail-heavy composition of junior mining investor bases amplify every gold price move to the downside. The piece cites Rick Rule and Jeff Phillips as identifying the current sell-off as one of the widest gaps between junior miner valuations and their underlying asset values since the 2022 lows.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER +15.6% YTD AS LITHIUM SLUMPS 19% — The Great Commodity Divergence of November 2026",
+    "url": "https://averin.com/en/journal/ruslan-averin-commodity-supercycle-copper-metals-deficit-oil-november-2026",
+    "source_name": "Averin",
+    "category_slug": "market-macro",
+    "snippet": "An Averin November 2026 commodity analysis tracks copper holding a 15.6% year-to-date gain while lithium has fallen approximately 19% over the same period — highlighting the widening divergence between two key battery and energy transition metals. The analysis attributes the split to copper's persistently tight physical supply fundamentals versus lithium's ongoing Chinese production surplus, with the gap expected to widen further in 2027 as AI data centre copper demand accelerates and lithium remains in oversupply through 2028 per Citigroup's latest forecast.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "TWO ELECTIONS AND TWO DEADLINES JUST CHANGED THE MATH ON WESTERN RARE EARTH SUPPLY — InvestorNews Critical Minerals Report",
+    "url": "https://investornews.com/critical-minerals-rare-earths/critical-minerals-report-two-elections-and-two-deadlines-changed-the-arithmetic-for-western-supply/",
+    "source_name": "InvestorNews",
+    "category_slug": "rare-earths",
+    "snippet": "InvestorNews' November critical minerals report argues that two elections and two expiring policy deadlines in October-November 2026 have fundamentally shifted the arithmetic for Western rare earth supply chains — accelerating government commitments, altering trade risk profiles and changing the competitive landscape for non-Chinese rare earth developers. The report identifies the shift as potentially compressing development timelines for qualifying Western projects from 8-10 years toward 5-7 years if permitting reform accompanies the policy changes.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "LITHIUM AMERICAS Q3 2026 RESULTS LAND ON THE SAME DAY CITI SLASHES SECTOR FORECASTS 40%",
+    "url": "https://juniorminingnetwork.com/junior-miner-news/press-releases/630-tsx/lac/214658-lithium-americas-reports-third-quarter-2026-results.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Lithium Americas (TSX: LAC) released its third quarter 2026 results on November 12, arriving on the same day Citigroup cut its lithium price forecasts by as much as 40% and projected a market surplus through 2028. The timing highlights the structural bind facing development-stage lithium companies: construction capital continues to be deployed against a commodity price outlook that has deteriorated sharply, raising the question of how developers plan to bridge financing in a prolonged low-price environment.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
