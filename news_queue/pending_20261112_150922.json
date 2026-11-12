@@ -1,0 +1,101 @@
+[
+  {
+    "headline": "GOLD BREAKS BELOW $4,000 AS FED RATE HIKE ODDS HIT 90% — SPOT FALLS $147 TO $3,891 IN BIGGEST SINGLE-DAY DROP IN WEEKS",
+    "url": "https://www.cnbc.com/select/the-price-of-gold-today-nov-12-2026/",
+    "source_name": "CNBC",
+    "category_slug": "gold-silver",
+    "snippet": "Gold spot fell to $3,890 on Thursday, November 12, losing more than $140 from Wednesday's close as Federal Reserve rate-hike odds for the December 8-9 meeting crystallize at roughly 90%. The dollar strengthened sharply on the expectation of a 25-basis-point hike, erasing gold's post-midterm rebound and pushing silver below $51 in tandem.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "MAMMOTH MINERALS (ASX:M79) HALTED AHEAD OF TRIPLE DEAL — CAPITAL RAISE, ACQUISITION AND OFFTAKE BEFORE NOV. 16 OPEN",
+    "url": "https://kalkinemedia.com/au/news/announcements/mammoth-minerals-asxm79-initiates-trading-halt-ahead-of-capital-raise-acquisition-and-offtake-deal-announcement",
+    "source_name": "Kalkine Media",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Mammoth Minerals Limited (ASX:M79), which holds the Excelsior Springs gold-silver project in Nevada, requested an ASX trading halt on November 12 pending a simultaneous announcement covering a material capital raising, a potential acquisition, and an offtake agreement. The halt is expected to run until November 16; details of the acquisition target and offtake counterparty have not yet been disclosed.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "INDIA BANS LITHIUM BATTERY BLACK MASS EXPORTS — DOMESTIC PROCESSING PUSH RESHAPES BATTERY SUPPLY CHAIN",
+    "url": "https://www.mining.com/web/india-bans-export-of-lithium-ion-battery-recycled-material",
+    "source_name": "Mining.com",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "India prohibited exports of lithium-ion battery black mass on November 11, banning the outflow of recycled EV battery material that contains lithium, cobalt, nickel and manganese. The policy forces domestic processing of end-of-life batteries, adding India to a growing list of countries prioritizing battery material sovereignty — and signalling that the EV supply chain is increasingly fragmented by jurisdiction.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "SILVER HITS 1-YEAR LOW — GOLD ALSO FALLS AS PRECIOUS METALS ENTER CORRECTION AHEAD OF DEC FED MEETING",
+    "url": "https://goldseek.com/article/silver-hits-1-year-low-price-tuesday-gold-also-falls",
+    "source_name": "GoldSeek",
+    "category_slug": "gold-silver",
+    "snippet": "Silver fell to its lowest level in a year on Tuesday, November 10, pulling gold lower alongside it as dollar strength tied to December Fed rate-hike expectations undermines both metals. The move tests the thesis that silver's sixth consecutive annual supply deficit provides fundamental price support — a thesis that now faces its sharpest challenge since the summer.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER FALLS TO 4-MONTH LOW AT $6.20/LB — PAPER MARKET CRACKS DESPITE RECORD $230 YANGSHAN PHYSICAL PREMIUM",
+    "url": "https://tradingeconomics.com/commodity/copper",
+    "source_name": "Trading Economics",
+    "category_slug": "copper-base-metals",
+    "snippet": "LME copper slid 1.18% to $6.20 per pound on November 12, its lowest level since July, despite the Yangshan import premium — a gauge of real demand in China — hitting a record $230 per tonne. The divergence between weakening paper prices and persistently tight physical markets signals that macro concerns about a potential U.S. rate hike are overriding near-term supply constraints.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "USA RARE EARTH JUMPS 11% ONE DAY AFTER Q3 MISS — MP MATERIALS CLIMBS 4% AS RARE EARTH SECTOR STABILIZES",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/usa-rare-earth-jumps-11-165454503.html",
+    "source_name": "Yahoo Finance",
+    "category_slug": "rare-earths",
+    "snippet": "USA Rare Earth (NASDAQ: USAR) staged an 11% recovery on November 11, one session after shares cratered following a Q3 revenue miss. MP Materials climbed 4% in the same session. China's two-month extension of rare earth export-control waivers, announced November 9, removed the near-term binary risk and provided a floor for the sector after the volatile earnings week.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "UR-ENERGY Q3: $12.3M REVENUE MISSES CONSENSUS BUT YTD URANIUM SALES UP 67% — SHIRLEY BASIN DELIVERS FIRST POUNDS",
+    "url": "https://stockhouse.com/news/press-releases/2026/11/09/ur-energy-reports-third-quarter-2026-results",
+    "source_name": "Stockhouse",
+    "category_slug": "uranium-energy",
+    "snippet": "Ur-Energy (NYSE American: URG) reported Q3 2026 product revenue of $12.3 million on 190,000 pounds sold, below the analyst consensus of $14.87 million, with an EPS loss of $0.06. Despite the quarterly miss, year-to-date uranium sales volumes are up 67.3% over 2025 and the company made its first deliveries of uranium captured at Shirley Basin — marking a production diversification milestone as the two-mine platform ramps.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CITI SLASHES LITHIUM FORECASTS 40% FOR 2027-2028 — SURPLUS THROUGH 2028, ALBEMARLE AND SQM FACE PROLONGED PRESSURE",
+    "url": "https://www.mining.com/citi-slashes-lithium-price-forecast-by-40-on-lower-demand/",
+    "source_name": "Mining.com",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Citigroup cut its two-year lithium price forecasts by as much as 40%, citing slower battery demand growth, rising Chinese production and increased trade uncertainty. The bank expects the market to remain in surplus through 2028. The revised outlook adds institutional weight to a bearish consensus that has already pushed Chinese lithium carbonate down roughly 21% since early November.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "UZBEKISTAN TARGETS 15,000 TONNES URANIUM BY 2030 — DOUBLES CURRENT OUTPUT, ADDS NON-KAZAKH SUPPLY TO GLOBAL MARKET",
+    "url": "https://www.world-nuclear-news.org/articles/uzbekistan-plans-to-double-uranium-production",
+    "source_name": "World Nuclear News",
+    "category_slug": "uranium-energy",
+    "snippet": "Uzbekistan plans to double its uranium production from approximately 7,500 tonnes currently to 15,000 tonnes by 2030, according to World Nuclear News. The expansion adds a meaningful new source of non-Russian, non-Kazakh supply to the global market at a time when Western utilities are actively diversifying uranium procurement — but it also represents structural long-term headwind for spot prices if demand growth disappoints.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "STRONG COPPER PRICES DRIVE RECORD Q3 EARNINGS FOR MAJOR MINERS — NEW CAPACITY PLANS SIGNAL SUPPLY SURGE AHEAD",
+    "url": "https://prnewswire.com/news-releases/strong-copper-prices-show-up-in-miners-quarterly-results-alongside-new-capacity-plans-302935311.html",
+    "source_name": "PR Newswire",
+    "category_slug": "copper-base-metals",
+    "snippet": "Major copper producers reported strong to record third-quarter earnings on November 12, lifted by prices that remain roughly 23% above year-ago levels despite recent weakness. Alongside the strong results, multiple producers announced new capacity expansion plans that analysts say could add significant supply by the late 2020s — a potential headwind for the junior exploration companies that retail investors typically hold.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "WHY GOLD MINERS ROSE ON GOLD'S DOWN DAY — EARLY STRENGTH SIGNAL OR FALSE DAWN FOR JUNIOR MINING STOCKS?",
+    "url": "https://www.investorideas.com/news/2026/mining/11092-why-gold-miners-rose-on-golds-down-day.asp",
+    "source_name": "InvestorIdeas",
+    "category_slug": "opinion-analysis",
+    "snippet": "Analyst Przemyslaw Radomski examines the unusual session on November 9 when junior gold miners outperformed physical gold on a down day — a pattern historically associated with sector bottoming behavior. He cautions that the broader stock market's next directional move will likely determine whether miners confirm a reversal or resume their steep underperformance relative to gold bullion near $4,000.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
