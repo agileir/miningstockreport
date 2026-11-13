@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "TAME OCTOBER PPI FAILS TO BUDGE DEC RATE-HIKE BETS — Gold Holds $3,890, Silver $49.83, Ratio Widens to 78.1",
+    "url": "https://www.usagold.com/daily-precious-metals-market-report-november-13-2026/",
+    "source_name": "USAGold",
+    "category_slug": "gold-silver",
+    "snippet": "October producer price inflation data released November 13 showed a tamer reading than the prior week's scorching CPI, yet spot gold held at $3,890 per ounce — unable to stage a meaningful recovery — as markets kept December Fed rate-hike probability locked near 70% and silver sat at $49.83, with the gold-silver ratio at 78.1. The PPI release closes the November inflation data cycle without altering the dominant macro narrative: precious metals face a headwind from U.S. interest-rate expectations that is not changing until the FOMC does.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER YANGSHAN IMPORT PREMIUM HITS ALL-TIME RECORD $285/TONNE — SHFE Stocks Drop 18% in One Week to 3-Year Low of 27,642t",
+    "url": "https://rallies.ai/news/copper-rebounds-on-firmer-risk-sentiment-and-tight-supply-in-china-8b541ead6f0d4fb9",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "The Yangshan copper import premium — the clearest real-time gauge of physical demand pressure in China — set an all-time record at $285 per tonne on Friday November 13, while Shanghai Futures Exchange warehouse stocks fell 18% in a single week to 27,642 tonnes, their lowest level since December 2023. The divergence between this record physical tightness and the five-week slide in LME copper futures is at its most extreme in years, with ING warning the decline may not yet be over even as physical buyers signal an acute near-term supply shortage.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "BARRICK SPINS OFF NEVADA GOLD MINES AND PUEBLO VIEJO INTO 'AMERICAN BARRICK GOLD CORP' — NYSE S-1 Filed; Newmont Pays $1.95B in Side Deal",
+    "url": "https://www.mining-technology.com/news/barrick-north-american-gold-assets-ipo/",
+    "source_name": "Mining Technology",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Barrick Mining filed an S-1 registration statement with the U.S. SEC to list a 10–15% minority stake in a new NYSE-listed entity, American Barrick Gold Corp, which will hold its approximately 2 million attributable oz/year North American assets including Nevada Gold Mines, Pueblo Viejo in the Dominican Republic, and the Fourmile project, with Mark Hill named as CEO. In a simultaneous arrangement, Newmont — Barrick's 38.5% partner in Nevada Gold Mines — agreed to a $1.95 billion cash top-up payment as part of the deal structure, adding a significant financial settlement to what is already the most consequential gold mining corporate transaction of 2026.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "THACKER PASS BUDGET BLOWS OUT $900M TO $3.83B — Lithium Americas Raises Phase 1 Cost 31% on Labor, Tariffs, Logistics",
+    "url": "https://www.thenationalnews.com/news/us/2026/11/11/lithium-americas-raises-thacker-pass-cost-estimate-by-31-to-383bn/",
+    "source_name": "The National News",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Lithium Americas (NYSE: LAC) disclosed a 31% increase in Phase 1 capital costs for its Thacker Pass project in Nevada, raising the estimate by $895 million to $3.83 billion, with higher installation rates for piping and steel accounting for $245 million and tariffs on imported equipment adding $100 million — shares fell 6.3% on the announcement. The revised budget raises total funding requirements by approximately $995 million, to be covered through DOE loan reserves and the existing General Motors strategic partnership, though the construction schedule was left unchanged.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ATALAYA MINING CLOSES €125M THARSIS DEAL — 50 km Iberian Pyrite Belt District Consolidated; Record Q3 EBITDA of €90.1M (+76% Revenue)",
+    "url": "https://www.infrastructure-now.co.uk/article/503681/atalaya-completes-139m-acquisition-of-tharsis-mining-in-spain",
+    "source_name": "Infrastructure Now",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Atalaya Mining (AIM: ATYM) completed its €125 million acquisition of Tharsis Mining on November 11, paying €75 million upfront with €50 million deferred 12 months, gaining a 227.7 million tonne combined mineral resource in the Iberian Pyrite Belt and extending its copper district to a 50-kilometre corridor between Riotinto and Tharsis in southern Spain. The deal was announced alongside a record Q3 for Atalaya — EBITDA of €90.1 million on revenue up 76% year-over-year — suggesting the strong cash generation to comfortably service the acquisition's deferred consideration.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "COT REPORT NOV 13: GOLD AND SILVER SPEC POSITIONING — Futures Market Setup Heading Into Dec FOMC",
+    "url": "https://goldseek.com/article/cot-gold-silver-usdx-report-november-13-2026",
+    "source_name": "GoldSeek",
+    "category_slug": "gold-silver",
+    "snippet": "GoldSeek's November 13 weekly Commitments of Traders analysis covers the latest CFTC data for COMEX gold, silver, and U.S. dollar index futures, providing a snapshot of how large speculative traders are positioned heading into what may be a critical December FOMC meeting — in a week where precious metals absorbed both the hot October CPI (Nov 12) and the tamer October PPI (Nov 13). For contrarian investors, the degree of spec short-selling at current price levels is a secondary indicator that has historically preceded sharp recoveries once the macro catalyst reverses.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD MINERS Q3'26 SCORECARD: COSTS APPROACHING $2,000/OZ, SECTOR AT HISTORICALLY LOW VALUATIONS",
+    "url": "https://goldseek.com/article/gold-miners-q326-fundamentals",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "GoldSeek's Q3 2026 gold mining sector fundamentals review shows all-in sustaining costs approaching $2,000 per ounce across major producers — Barrick reported $1,911/oz while smaller operators track higher — compressing margins even as gold averaged well above $4,000 for the quarter, while sector valuations remain near multi-year lows as investors reprice for a December Fed rate hike. The piece frames the current setup as the highest operating-leverage entry point since 2022 for investors who believe the gold selloff is macro-driven and temporary rather than structural.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD-SILVER RATIO EXPANDS TO 78.1 — Historical Map: What Past Peaks Above 75 Signal for Silver Investors",
+    "url": "https://goldseek.com/article/gold-silver-ratio-expanding-what-next",
+    "source_name": "GoldSeek",
+    "category_slug": "opinion-analysis",
+    "snippet": "GoldSeek's analysis of the gold-silver ratio at 78.1 traces the historical pattern where ratio peaks in the 75–80 range — seen in 2016, 2019, 2020 and 2022 — were each followed by meaningful silver outperformance once the Fed rate cycle turned, with silver recovering faster and further than gold from similar setups. The key question the piece frames is timing: whether the current ratio represents a peak or is tracking toward 85–90, with physical silver demand and mine supply fundamentals arguing for the former, while near-term macro data argues the cycle has further to run.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD STEADIES NEAR $3,850-$3,890 ZONE AFTER SHARP CPI-DRIVEN SELLOFF — Physical Demand Holds as Technical Support Tested",
+    "url": "https://goldseek.com/article/gold-steadies-after-sharp-selloff",
+    "source_name": "GoldSeek",
+    "category_slug": "gold-silver",
+    "snippet": "Gold has stabilised in the $3,850–$3,890 range following this week's correction from $4,000+ driven by the hot October CPI print, with GoldSeek's market commentary noting that the year-low has held as a technical support level while physical demand has not retreated proportionally to the futures-driven price move. The divergence — COMEX futures down sharply but ETF redemptions limited and central bank buying continuing — is the classic 'paper sells, physical holds' pattern that experienced metals investors track as a potential medium-term floor indicator.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "MP MATERIALS INSIDERS BUY $3.35M IN STOCK — Accumulation Accelerates After 27% YTD Underperformance Despite Q3 Beat",
+    "url": "https://investing.com/news/stock-market-news/mp-materials-sees-flurry-of-insider-purchases-as-shares-underperform-ytd-5021941",
+    "source_name": "Investing.com",
+    "category_slug": "rare-earths",
+    "snippet": "MP Materials (NYSE: MP) company insiders have made approximately $3.35 million in share purchases as the stock underperforms the broader market by 27.3% year-to-date, following a Q3 2026 earnings beat in which NdPr production rose 41% year-over-year to 1,018 metric tonnes and the company completed the GM qualification process for saleable magnet deliveries. Insider accumulation at this scale — particularly after a beat quarter — is a data point that retail investors in the rare earth sector are tracking as a potential signal of management's view on the disconnect between operational performance and share price.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
