@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 3,
+  "management_notes": "Churchill appointed a new CEO in May 2026, bringing fresh leadership during a critical phase of Black Raven's exploration buildout. The team has moved quickly on the ground: Golden Baie option signed Feb/Mar 2026, Fall 2026 drill program announced promptly after spring results. A correction to the March 2026 Frost Cove drill release (issued May 2026) flags internal data compilation issues that warrant monitoring — the error was self-identified and corrected, which is better than concealment, but it underscores early-stage process risk. Insider ownership not publicly quantified. Score reflects functional but unproven stewardship.",
+
+  "geology_score": 3,
+  "geology_notes": "Black Raven is developing as a structurally controlled, high-grade antimony system with polymetallic upside. Best intercept from the Spring 2026 program: 19.23% Sb over 1.40m at Frost Cove North (August 28 final results), plus a new copper-silver prospect grading 0.78% Cu with 61.2 g/t Ag over 6.22m. Earlier results: 7.25% Sb over 1.98m near the Southern Shaft along an 800m strike. The vein swarm at Pomley Cove Pond extends over a 150m-wide corridor and returns gold, silver, lead, zinc, and molybdenum — confirming system complexity but complicating the antimony story. Fall 2026 program targets full PVS strike continuity via extensions to PC26-03 and PC26-16; assays still pending as of November 13 2026. No NI 43-101 resource estimate exists. Grade quality is genuine; size and continuity remain unproven.",
+
+  "capital_score": 2,
+  "capital_notes": "316.7M shares issued as of the April 2026 MD&A, fully diluted approximately 342.8M (including 23.45M options and 2.625M warrants; strike prices and expiries not extracted from the MD&A summary table). Share count is large for a pre-resource explorer. Warrant overhang is modest at 2.625M. The 23.45M option book is more significant relative to float. No flow-through tranches detected in the extracted April 2026 MD&A filing. Capital efficiency depends heavily on how many more drill holes are required before a maiden resource can be filed.",
+
+  "catalyst_score": 4,
+  "catalyst_notes": "High near-term catalyst density: (1) Fall 2026 drill results extending holes PC26-03 and PC26-16 across full Pomley–Vein Swarm horizon — program completed and assays are now well overdue by mid-November 2026, results expected imminently in Q4 2026; (2) Golden Baie option adds a second high-grade antimony-gold project in Newfoundland; (3) any critical mineral financing or provincial/federal support announcement; (4) potential NI 43-101 resource filing pathway announcement. The Fall hole results are the pivotal near-term binary — material strike continuity with improved widths would substantially accelerate the resource pathway.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "No resource estimate exists, making a formal P/NAV comparison impossible. Strategic optionality is real: antimony is a designated critical mineral in Canada, Newfoundland is permitting-friendly, and the polymetallic nature of Black Raven could attract multiple buyer types (antimony strategics, gold royalty companies, government-backed critical mineral vehicles). The asset is at minimum 12–18 months from a resource that would support a defensible valuation floor. At current stage the acquisition thesis is an option on what Black Raven becomes, not a present-day calculation. Comparable early-stage antimony juniors trade at $15–50M market caps; CRI is at the low end of that range but without the resource backing.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources is an active antimony explorer running a systematic drill campaign at Black Raven, central Newfoundland. The Spring 2026 program delivered its strongest result yet — 19.23% Sb over 1.40m at Frost Cove North — and uncovered a new copper-silver prospect (0.78% Cu, 61.2 g/t Ag over 6.22m) that adds polymetallic optionality. No NI 43-101 resource estimate exists, widths remain narrow, and the share count is large for the stage. The macro thesis (antimony as a Western critical mineral with accelerating demand from flame retardants, batteries, and defence applications) remains intact. Fall 2026 drill results — covering full PVS strike continuity — are overdue and represent the pivotal near-term catalyst; no results released as of November 13 2026. Strong continuity with improved widths would justify revisiting as a conditional BUY. Until then, WATCH.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from MD&A summary table (source: MD&A interim 2026-04-29)"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count only — strike/expiry not extracted from MD&A summary table (source: MD&A interim 2026-04-29)"
+    }
+  ]
+}
