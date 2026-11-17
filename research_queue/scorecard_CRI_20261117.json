@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "Leadership continuity remains uncertain — recent announcements have referenced different executive names (Conan McIntyre, Paul Sobie) across separate releases, raising questions about consistency in disclosure. The team optioned and secured TSXV approval for Golden Baie quickly (LOI Feb 2026, approval March 2026), demonstrating deal-flow capability. However, at a share price below 6 cents with ~317M shares outstanding, management has not demonstrated sustained shareholder value creation. No visible track record of a past discovery advanced to resource stage.",
+
+  "geology_score": 3,
+  "geology_notes": "Black Raven Antimony-Gold Property (~60 km northwest of Gander, NL) is a past-producing site with exceptional high-grade antimony. Spring 2026 drilling hit 19.23% Sb over 1.40 m at Frost Cove North, with structural continuity reported over 800 m. A new copper-silver prospect was identified (0.78% Cu, 61.2 g/t Ag over 6.22 m). Historical grab samples returned up to 35.1% and 29.7% Sb and 14.4 g/t Au — selective and unrepresentative of average grade. Golden Baie (optioned 100% from Canstar Resources) adds a second antimony-gold land package. No NI 43-101 compliant resource estimate exists — the August 2023 technical report did not produce a resource table. Strong grade signals and a two-property pipeline elevate the score, but absence of a defined resource caps it at 3.",
+
+  "capital_score": 3,
+  "capital_notes": "316,681,940 shares issued and outstanding; 342,756,940 fully diluted — approximately 8.2% overhang from warrants and options. At ~$0.055/share the market cap is roughly C$17.4M. The warrant tranche (2,625,000 units) is small and dilution impact is modest; the option book (23,450,000 units, ~7.4% of outstanding) is more material — strike prices and expiries were not extractable from the Q1 2026 MD&A source. No flow-through tranches detected in the extraction. Treasury position unconfirmed; at this price level any financing would be heavily dilutive. Cap structure is mid-range for a micro-cap TSXV explorer at this stage — not clean, but not egregiously bloated.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Final assay results from Spring 2026 drilling at Black Raven were released in August 2026. The Golden Baie option is approved, enabling exploration on the new property. Potential near-term catalysts: (1) maiden drill program at Golden Baie; (2) further step-out drilling at Black Raven Frost Cove North targeting the 800 m structural corridor; (3) a maiden resource estimate once sufficient drill data accumulate; (4) antimony's critical mineral designation across the US, Canada, and EU is driving increased strategic attention to the sector and could accelerate project timelines or attract partner interest. No hard timeline confirmed for the next drill campaign.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "With no NI 43-101 resource in place, a P/NAV comparison is not possible; NAV per share is null. The strategic acquisition case is real — antimony is on US, Canadian, and EU critical minerals lists due to its use in munitions, flame retardants, and battery technology — but acquirers require a resource estimate before valuing a property. Black Raven's past-production history and high-grade intercepts make it an interesting long-term target. At ~C$17M market cap entry cost is low, but no near-term acquisition event is likely absent a resource. Scores 2.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (TSXV: CRI) is a micro-cap antimony-gold explorer in Newfoundland operating two properties (Black Raven, Golden Baie) with genuinely exceptional drill grades — 19.23% Sb over 1.40 m in Spring 2026 stands out against virtually any peer. Antimony's critical mineral designation adds strategic weight the market has not fully reflected at 5–6 cents. The core problem remains pre-resource stage: no NI 43-101 estimate, no formal mine plan, no resource-to-acquisition bridge. Management continuity is uncertain, the share count is high at 317M for a 5-cent stock, and treasury position is unconfirmed. This is a speculative early-stage position suitable only for investors comfortable with binary outcomes. Key watch triggers: maiden resource estimate, formal drill announcement at Golden Baie, or a strategic partnership or offtake driven by antimony supply-chain urgency. Cap-table fields drawn from the Q1 2026 MD&A extraction (extracted 2026-05-14); strike/expiry detail on warrants and options was not available in the extracted source. No resource/reserve data available from the August 2023 NI 43-101 technical report extraction.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from Q1 2026 MD&A — strike/expiry not extracted"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from Q1 2026 MD&A — strike/expiry not extracted"
+    }
+  ]
+}
