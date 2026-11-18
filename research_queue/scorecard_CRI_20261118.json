@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "Leadership continuity remains uncertain — releases across the reporting period have referenced different executive names (Conan McIntyre, Paul Sobie), raising disclosure consistency concerns. The team moved quickly on the Golden Baie option (LOI Feb 2026, TSXV approval March 2026), demonstrating deal-flow execution. However, with the share price at multi-cent levels and ~317M shares outstanding, management has not demonstrated sustained shareholder value creation. No visible track record of a past discovery advanced to resource stage. No new executive announcements or insider-buying signals found in this run.",
+
+  "geology_score": 3,
+  "geology_notes": "Black Raven Antimony-Gold Property (~60 km northwest of Gander, NL) is a past-producing site with exceptional high-grade antimony. The Spring 2026 drill program returned 19.23% Sb over 1.40 m at Frost Cove North, with structural continuity reported over 800 m; a copper-silver prospect was identified (0.78% Cu, 61.2 g/t Ag over 6.22 m). Final assay results from the full Spring 2026 program were released in August 2026. Note: a May 22, 2026 press release disclosed internal data compilation discrepancies in the March 18, 2026 results — corrected results were published; this warrants monitoring for disclosure discipline. Historical grab samples returned up to 35.1% Sb and 14.4 g/t Au — selective and unrepresentative of average grade. Golden Baie (optioned 100% from Canstar Resources, TSXV approved March 2026) adds a second antimony-gold land package. No NI 43-101 compliant resource estimate exists — the August 2023 technical report did not produce a resource table. Strong grade signals and a two-property pipeline elevate the score, but absence of a defined resource caps it at 3.",
+
+  "capital_score": 3,
+  "capital_notes": "316,681,940 shares issued and outstanding; 342,756,940 fully diluted — approximately 8.2% overhang from warrants (2,625,000) and options (23,450,000). The warrant tranche is small and dilution impact modest; the option book (~7.4% of outstanding) is more material — strike prices and expiries were not extractable from the Q1 2026 MD&A source. No flow-through tranches detected in the extraction. Treasury position unconfirmed; at current price levels any equity financing would be heavily dilutive. Cap structure is mid-range for a micro-cap TSXV explorer at this stage — not clean, but not egregiously bloated. Data drawn from Q1 2026 MD&A (extracted 2026-05-14); no updated cap-table filing available in the extraction cache.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Final assay results from Spring 2026 drilling at Black Raven were released in August 2026. The Golden Baie option is TSXV-approved, enabling exploration on the second property. No drill announcement at Golden Baie has been confirmed as of this run. Potential near-term catalysts: (1) maiden drill program at Golden Baie; (2) step-out drilling at Black Raven Frost Cove North targeting the 800 m structural corridor; (3) a maiden resource estimate once sufficient drill data accumulate; (4) antimony's critical mineral designation across the US, Canada, and EU is driving strategic attention and could accelerate timelines or attract partner interest. No hard timeline confirmed for the next drill campaign.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "With no NI 43-101 resource in place, a P/NAV comparison is not possible; NAV per share is null. The strategic acquisition case is real — antimony is on US, Canadian, and EU critical minerals lists due to its use in munitions, flame retardants, and battery technology — but acquirers require a resource estimate before valuing a property. Black Raven's past-production history and high-grade intercepts make it an interesting long-term strategic target. At its current market cap entry cost is low, but no near-term acquisition event is likely absent a resource. Scores 2.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (TSXV: CRI) is a micro-cap antimony-gold explorer in Newfoundland with two properties (Black Raven, Golden Baie) hosting genuinely exceptional drill grades — 19.23% Sb over 1.40 m in Spring 2026 stands out against virtually any peer. Antimony's critical mineral designation adds strategic weight the market has not fully reflected. The core problem remains pre-resource stage: no NI 43-101 estimate, no formal mine plan, no resource-to-acquisition bridge. Management continuity is uncertain, the share count is high at 317M, and treasury position is unconfirmed. A May 2026 data correction on prior drilling results warrants continued monitoring for disclosure quality. As of November 18 2026, no new drill announcements or Golden Baie program news has been published since August 2026 final assay results. This is a speculative early-stage position suitable only for investors comfortable with binary outcomes. Key watch triggers: maiden resource estimate, formal drill announcement at Golden Baie, or a strategic partnership or offtake driven by antimony supply-chain urgency. Cap-table fields drawn from the Q1 2026 MD&A extraction (extracted 2026-05-14); strike/expiry detail on warrants and options was not available in the extracted source. No resource/reserve data available from the August 2023 NI 43-101 technical report extraction.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from Q1 2026 MD&A — strike/expiry not extracted"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from Q1 2026 MD&A — strike/expiry not extracted"
+    }
+  ]
+}
