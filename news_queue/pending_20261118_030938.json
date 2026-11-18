@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "GOLD CRACKS BELOW $3,800 FOR FIRST TIME SINCE SEPT 2025 — Hawkish FOMC Minutes Confirm December Hike Path; $3,700 Support Now in View",
+    "url": "https://www.fxstreet.com/news/breaking-gold-slides-below-3-800-lowest-since-september-2025-on-hawkish-fed-strong-usd-202611180212",
+    "source_name": "FXStreet",
+    "category_slug": "gold-silver",
+    "snippet": "Spot gold broke below $3,800 per ounce during Wednesday's Asian session — its lowest price since September 2025 — after the October 27–28 FOMC minutes confirmed a broadly hawkish committee with consensus around the December 9 rate hike. The break below $3,800, which had held as support in Tuesday's session, opens the technical path to $3,700 as the next meaningful floor; with the U.S. dollar near 19-month highs and December hike odds at 96.6%, analysts say the upside is capped until after the FOMC decision.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "TRUMP CLAIMS US WILL SURPASS CHINA ON RARE EARTHS IN 10 MONTHS — Experts Immediately Call the Promise Unrealistic",
+    "url": "https://www.yahoo.com/news/politics/articles/trump-rare-earths-us-catch-133330051.html",
+    "source_name": "Yahoo News",
+    "category_slug": "rare-earths",
+    "snippet": "Speaking in Manila at the opening of his Asia trip, President Trump claimed the United States would reach China-equivalent rare earth output within approximately 10 months — a statement analysts immediately labelled diplomatic bluster. The IEA estimates China controls 61% of global rare earth mining and 92% of processing; multiple experts told SCMP and Reuters that no credible project pipeline exists to close that gap in the timeframe Trump cited. The claim comes one day before Trump's bilateral meeting with Xi Jinping in Shenzhen, where extending China's export control pause — set to expire January 10, 2027 — is the central rare earth agenda item.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "SILVER TOUCHES 11-MONTH LOW ALONGSIDE GOLD SELLOFF — Retail Coin and Bar Demand Paradoxically Falls Despite Lower Prices",
+    "url": "https://www.bullionvault.com/gold-news/gold-price-news/gold-fed-silver-11-month-low-102920261",
+    "source_name": "BullionVault",
+    "category_slug": "gold-silver",
+    "snippet": "Silver slid to an 11-month low Wednesday as it tracked gold's post-FOMC selloff below $47 per ounce, unable to hold the brief recovery to $47.52 seen on Tuesday. A parallel Kitco report identified a bearish paradox: retail silver bar and coin demand is declining rather than rising despite lower prices, suggesting that investment-driven buyers who would normally absorb price dips have pulled back in response to hawkish macro conditions and rising real yields.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER SINKS TO LOWEST SINCE JULY AT $13,201 — AI Sector Rout Cuts Into Demand Thesis as US Retail Sales Growth Slows to 0.2%",
+    "url": "https://www.mining.com/web/copper-price-falls-to-lowest-since-july-as-tech-weakness-saps-risk-appetite",
+    "source_name": "Mining.com",
+    "category_slug": "copper-base-metals",
+    "snippet": "LME benchmark three-month copper fell to approximately $13,201 per tonne — its lowest level since July 1 — as the ongoing selloff in AI-related technology shares raised new concerns about the medium-term data centre and infrastructure demand thesis. US October retail sales growing only 0.2% (down from 0.8% in September) added to the bearish macro picture, and the CPER copper fund closed at a six-month low of $35.99.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "SHANGHAI COPPER PREMIUMS SPIKE ON CONTRACT ROLLOVER — Physical Demand Diverges Sharply From LME Financial Selloff",
+    "url": "https://news.metal.com/newscontent/CDYYCE2EC5WESYUXD7PPKPAYRWB6FNEFJSCDT4Q-contract-rollover-combined-with-high-price-spread-between-futures-contracts-drives-shanghai-spot-copper-premiums-sharply-higher-smm-copper-morning-meeting-summary",
+    "source_name": "Shanghai Metals Market (SMM)",
+    "category_slug": "copper-base-metals",
+    "snippet": "Shanghai spot copper premiums jumped sharply on Wednesday morning as a contract rollover combined with a wide futures price spread pushed physical buyers to pay elevated premiums to secure material — a signal that Chinese physical demand remains robust even as LME prices hit multi-month lows. SMM notes low domestic inventory as a secondary support factor, suggesting the LME selloff is macro-driven rather than a reflection of genuine demand weakness in the world's largest copper-consuming nation.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GSP RESOURCE DRILLS 137m AT 0.15% CuEq IN BC'S HIGHLAND VALLEY — New Porphyry Zone Opens Adjacent to Teck's Giant Mine",
+    "url": "https://juniorminingnetwork.com/junior-miner-news/press-releases/2660-tsx-venture/gspr/214935-gsp-discovers-new-porphyry-copper-zone-in-highland-valley-0-15-copper-over-137-m-including-0-30-over-40-m.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "GSP Resource Corp (TSX-V: GSPR) reported the discovery of a new porphyry copper zone at its Mer property in BC's Highland Valley, adjacent to Teck Resources' Highland Valley copper mine — one of the world's largest open-pit copper operations. First drill hole ME-26-04 returned 0.15% copper over 137 metres, including a 40-metre core grading 0.30% copper, confirming a broad, bulk-tonnage style system in a historically underexplored zone outside the Teck lease boundary.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ATALAYA MINING POSTS RECORD Q3 EBITDA, CONFIRMS €125M THARSIS ACQUISITION IN SPAIN'S IBERIAN PYRITE BELT",
+    "url": "https://www.investing.com/news/company-news/atalaya-mining-q3-2026-slides-record-ebitda-tharsis-deal-93CH-5020771",
+    "source_name": "Investing.com",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Atalaya Mining (AIM/TSX: ATYM) reported its strongest quarterly EBITDA on record in Q3 2026 and confirmed the completion of its €125 million cash acquisition of Tharsis Mining, consolidating copper-zinc-gold production across the Iberian Pyrite Belt in southern Spain. The deal creates a district-scale European critical minerals platform at a time when the EU's Critical Raw Materials Act is prioritising domestic production — a strategic position that may strengthen permitting and offtake negotiations.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "NVIDIA CEO DEPARTURE SPOOKS METALS BULLS — Copper, Uranium and Lithium All Face Fresh Headwinds as AI Demand Premium Repriced",
+    "url": "https://www.fxempire.com/forecasts/article/copper-uranium-and-lithium-price-forecast-nvidia-ceo-exit-hits-copper-1644434",
+    "source_name": "FX Empire",
+    "category_slug": "market-macro",
+    "snippet": "FX Empire's latest metals forecast identifies the Nvidia CEO departure as a catalyst pushing copper, uranium and lithium lower simultaneously, as the news intensified investor concerns about the pace of AI infrastructure buildout — the central demand driver behind copper's 2026 bull thesis. The analysis notes lithium ETFs are breaking key support levels while uranium equities continue to diverge from physical spot prices; the common thread across all three metals is financial market participants repricing the AI-driven demand premium that inflated junior valuations in 2024–2025.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "VICTORY BATTERY METALS PIVOTS TO URANIUM WITH YELLOW CHIEF PROPERTY ACQUISITION IN QUEBEC",
+    "url": "https://www.tipranks.com/news/company-announcements/victory-battery-metals-acquires-yellow-chief-uranium",
+    "source_name": "TipRanks",
+    "category_slug": "uranium-energy",
+    "snippet": "Victory Battery Metals (TSX-V) is acquiring the Yellow Chief uranium property in Quebec — the company's first uranium transaction and a signal of strategic diversification away from battery metals in a difficult lithium and cobalt price environment. The move reflects a broader trend among juniors with broad mandates using uranium's spot price strength near $90/lb (long-term contracts at a record $98/lb) to pivot into nuclear-related plays, even as URNM equity prices trade at year lows.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "WHY SILVER AND GOLD MINERS ARE FALLING HARDER THAN THE S&P 500 — Investing.com Breaks Down the Double Leverage Trap",
+    "url": "https://www.investing.com/analysis/why-silver-and-gold-miners-are-taking-bigger-losses-than-stocks-in-the-selloff-200691766",
+    "source_name": "Investing.com",
+    "category_slug": "opinion-analysis",
+    "snippet": "Investing.com's analysis identifies why precious metals mining equities are delivering the worst of both worlds in the current selloff: they are sold as equities alongside the broader market when risk appetite falls, then also lose the commodity premium as metal prices decline. The piece explains how this double-leverage effect creates the counter-intuitive result where a 5% gold decline produces a 15–20% drop in junior miners, and argues that the re-rating opportunity emerges specifically when equity markets stabilize before gold recovers.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
