@@ -1,0 +1,74 @@
+[
+  {
+    "headline": "GOLD REBOUNDS AFTER 9% PLUNGE — Spot Rises 1.3% to $3,582 as Fed Rate-Hike Bets Soften; Silver Up 2.6%",
+    "url": "https://www.newsbytesapp.com/news/business/gold-rebounds-after-9-plunge-as-markets-eye-us-inflation/tldr",
+    "source_name": "NewsBytesApp",
+    "category_slug": "gold-silver",
+    "snippet": "Spot gold recovered 1.3% to $3,582 per ounce in Asian trade on Monday, bouncing from Friday's 14-month low near $3,514, as markets trimmed aggressive bets on a December Federal Reserve rate hike (now ~93% implied probability vs. near-certainty last week). Silver surged 2.6% to $42.21 after a 15% weekly collapse — its worst weekly drop of 2026. Wednesday's US CPI print is now the key catalyst that will determine whether the correction has further to run, with Thanksgiving-week thin liquidity magnifying potential price moves through Thursday.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER SURGES 1%+ AFTER WORST WEEK IN 19 MONTHS — AI-Linked Forced Liquidation Fades; LME Climbs Off March Low",
+    "url": "https://bloomberg.com/news/articles/2026-11-23/copper-rises-after-falling-more-than-9-last-week-on-ai-gloom",
+    "source_name": "Bloomberg",
+    "category_slug": "copper-base-metals",
+    "snippet": "LME copper climbed more than 1% in early Monday trade after last week's 9%+ decline — the worst weekly performance in 19 months — driven by the forced unwinding of AI-linked metals positions across London, New York, and Shanghai. Physical market signals remain firm: Chinese smelters were paying a record $360/tonne import premium last week, suggesting the selloff was financial rather than demand-driven. Wednesday's US inflation report is the next key signal for whether the correction has run its course.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "NASDAQ FUTURES UP 2.2% AFTER WORST WEEK SINCE 2020 — $17T AI-Led Wipeout May Have Found Floor; Metals Tracking Recovery",
+    "url": "https://huggingnews.com/us-markets/us-stock-futures-rebound-with-nasdaq-100-up-22percent-after-worst-week-s-501bab64",
+    "source_name": "Reuters",
+    "category_slug": "market-macro",
+    "snippet": "US equity futures rebounded sharply Monday with Nasdaq 100 futures up 2.2% after the worst week for technology stocks since 2020. The AI-led selloff wiped roughly $17 trillion across equities, crypto, and precious metals last week, dragging gold, silver, and copper into steep corrections despite firm physical fundamentals. A recovery in risk appetite is easing the forced-selling pressure that caused metals prices to diverge sharply from their physical market signals, though Wednesday CPI and Friday PCE remain near-term tests.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CHILE COPPER ON TRACK FOR 23-YEAR ANNUAL LOW — Sub-5 Mt Expected in 2026; Ore Grade Decline and Sulphuric Acid Crunch Cited",
+    "url": "https://www.northernminer.com/news/chile-copper-output-nears-23-year-low/1003897900/",
+    "source_name": "Northern Miner",
+    "category_slug": "copper-base-metals",
+    "snippet": "Chile's copper output is tracking toward its lowest annual total since 2003, with Plusmining forecasting a 6.6% decline to around 5.03 million tonnes for 2026 — the first sub-5 Mt year in over two decades. September output fell 15.1% year-on-year, its steepest monthly decline since March 2017, driven by declining ore grades, sulphuric acid import shortages, and weather-related disruptions. The structural supply squeeze unfolding against last week's demand-driven futures selloff reinforces the medium-term bull case for copper despite the AI trade unwind.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "JEFF CURRIE: \"GOLD IS SOLD FIRST IN DOLLAR SQUEEZES\" — Ex-Goldman Strategist Says Forced Liquidation Is Not a Bearish Reversal",
+    "url": "https://www.kitco.com/news/article/2026-11-20/gold-sold-first-dollar-squeeze-and-jeff-currie-says-real-test-comes-later",
+    "source_name": "Kitco News",
+    "category_slug": "opinion-analysis",
+    "snippet": "Jeff Currie, former head of commodities research at Goldman Sachs, argues that gold's 9% plunge last week is a classic dollar-squeeze pattern — the same behavior seen in 2022 and Q4 2024 — where leveraged positions are liquidated first regardless of fundamentals. The real test, Currie says, comes in the next 4-6 weeks: if central banks and sovereign buyers step in at current prices, the structural bull case — fiscal deficits, de-dollarization, geopolitical uncertainty — remains intact. If they don't, the correction has further to run.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "WHY GOLD MINING STOCKS FALL TWICE AS HARD AS GOLD — Operating Leverage and Cost Inflation Explain -40% Stock Drop vs. -9% Metal Decline",
+    "url": "https://discoveryalert.com/analysis/gold-mining-stocks-sell-off-november-2026/",
+    "source_name": "Discovery Alert",
+    "category_slug": "opinion-analysis",
+    "snippet": "Gold equities are down 30-40% from 2026 peaks while spot gold has declined only 9% from its January $5,405 high. Discovery Alert's analysis explains the structural reason: miners carry largely fixed operating costs — labour, energy, reagents, royalties — that do not fall with the gold price, so revenue declines hit margins directly with amplified force. This operating leverage works both ways; the analysis flags major producers' all-in sustaining costs now approaching $1,900/oz as the key margin risk if gold tests the $3,300-$3,400 support range.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "JUNIOR MINERS HIT BY FINANCING FREEZE — Hoffmann: Explorers Struggling to Close Sub-$3M Deals; Only Developers Drawing M&A Buyer Interest",
+    "url": "https://www.kitco.com/news/video/2026-11-19/junior-miners-face-financing-squeeze-as-gold-developers-attract-interest-kai-hoffmann",
+    "source_name": "Kitco News",
+    "category_slug": "market-macro",
+    "snippet": "Speaking at the Deutsche Goldmesse in Frankfurt, Kai Hoffmann highlighted a bifurcating junior mining market: development-stage companies with defined resources are attracting acquisition interest from cash-rich producers, while early-stage explorers are struggling to close even $2-3 million financings. With gold equities down 30-40% from their highs, the spread between what sellers want and what buyers will pay has widened — producing M&A gridlock at the junior end of the market precisely when it is most needed to fund discovery pipelines.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CHINA RARE EARTH PHYSICAL MARKET HOLDS STABLE AMID WESTERN STOCK CHAOS — SMM: Moderate Gains as Export Pause Nears January 2027 Expiry",
+    "url": "https://news.metal.com/newscontent/6EVVQMLKFOQFOLM6C5QGNN3SLNGJM2QJAZHJOEA-smm-rare-earth-afternoon-trading-comment-on-november-20",
+    "source_name": "Shanghai Metals Market (SMM)",
+    "category_slug": "rare-earths",
+    "snippet": "China's domestic rare earth market showed moderate stability on November 20, with physical prices posting incremental gains while Western-listed rare earth equities experienced extreme volatility. SMM's trading commentary notes that China's export pause on the October 2025 rare earth controls expires January 10, 2027, while the April 2025 licensing regime on seven medium and heavy rare earth materials remains in force. The divergence between stable Chinese physical prices and volatile Western equities reflects how financial-market dynamics have amplified rare earth stock moves far beyond what underlying commodity fundamentals warrant.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
