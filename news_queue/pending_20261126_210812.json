@@ -1,0 +1,110 @@
+[
+  {
+    "headline": "GOLD LOSES $19 AS BOUNCE ATTEMPT FADES — Spot Settles at $3,568 With $3,697 Resistance Intact; Silver Slips to $41.29",
+    "url": "https://www.kitco.com/charts/gold",
+    "source_name": "Kitco",
+    "category_slug": "gold-silver",
+    "snippet": "Spot gold retreated $19.40 to $3,568 per ounce on Thursday as buyers failed to build on the Thanksgiving-week recovery, leaving the metal below key resistance at $3,697. Silver edged lower to $41.29, with the gold/silver ratio rising to 86.4 as silver's recent outperformance partially reversed.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ZINC SURGES MOST SINCE JANUARY as Base Metals Rally on AI Equity Rebound; Copper Extends Recovery to $11,867",
+    "url": "https://mining.com.au/copper-price-bounces-zinc-price-jumps-by-most-since-january/",
+    "source_name": "Mining.com.au",
+    "category_slug": "copper-base-metals",
+    "snippet": "Zinc posted its biggest single-day gain since January 2026 as LME base metals rallied alongside a recovery in AI-linked equities. Copper added 1.9% to $11,867 per tonne, though the red metal remains about 17% below its 2026 peak as the market continues to digest the previous month's selloff.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "BUNKER HILL AND SILVER47 MERGE — New Silver Company Spans BC to Alaska; Combined Entity Begins Trading as Silver Holds $41",
+    "url": "https://www.juniorminingnetwork.com/mining-topics/topic/mergers-acquisitions.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "The merger of Bunker Hill Mining and Silver47 has been completed, creating a silver-focused explorer with assets stretching from British Columbia to Alaska. The transaction positions the combined company to consolidate its silver-rich project pipeline as the metal holds near $41 per ounce.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ATALAYA MINING ACQUIRES SPANISH THARSIS FOR $203M — LSE-Listed Copper Producer Consolidates Iberian Pyrite Belt Position",
+    "url": "https://www.canadianminingreport.com/blog/global-mining-weekly-roundup-major-acquisitions-gold-exploration-and-critical-minerals-developments",
+    "source_name": "Canadian Mining Report",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Atalaya Mining, the LSE-listed copper-zinc producer operating the Riotinto mine complex in Spain, has acquired Tharsis Mining in a deal valued at $203.1 million. The acquisition consolidates Atalaya's foothold in the Iberian Pyrite Belt, one of Europe's most significant base metals provinces, as European copper supply security becomes a strategic priority.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "EAGLE NUCLEAR SIGNS BINDING LOI FOR NOBLE PLAINS URANIUM — All-Stock Deal at C$0.125 Adds Portfolio as Spot Holds $90",
+    "url": "https://www.miningnewsnorth.com/section/news/mergers_&_acquisitions",
+    "source_name": "Mining News North",
+    "category_slug": "uranium-energy",
+    "snippet": "Eagle Nuclear Energy has signed a binding letter of intent to acquire 100% of Noble Plains Uranium in an all-stock transaction at C$0.125 per share. The deal expands Eagle Nuclear's uranium exploration portfolio at a time when spot prices are holding near $90 per pound despite significant equity weakness in the sector.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "PALADIN ENERGY REPORTEDLY RAISING $460M FOR ATHABASCA URANIUM — Major Capital Raise Would Fund Saskatchewan High-Grade Projects",
+    "url": "https://www.northernminer.com/commodity/uranium/",
+    "source_name": "The Northern Miner",
+    "category_slug": "uranium-energy",
+    "snippet": "Paladin Energy is reportedly raising approximately $460 million to fund development of its Athabasca Basin uranium projects in Saskatchewan. If confirmed, the raise would represent one of the largest uranium sector capital events of 2026 and signals sustained institutional interest in the commodity despite recent stock price weakness.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "LOTUS RESOURCES SHIPS FIRST URANIUM CONCENTRATE FROM MALAWI — Kayelekera Restart Hits Revenue Milestone After 12 Years in Care-and-Maintenance",
+    "url": "https://www.mining.com/",
+    "source_name": "Mining.com",
+    "category_slug": "uranium-energy",
+    "snippet": "Lotus Resources has completed its first shipment of uranium ore concentrate from its restarted Kayelekera mine in Malawi, marking a major commercial milestone for a project placed on care and maintenance in 2014. The shipment demonstrates that the restart of one of Africa's few active uranium operations is now generating real revenue.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "ENERGY FUELS TARGETS 1 MILLION POUNDS FROM WHITE MESA — US's Largest Uranium Mill Plans Dec 2026-Q1 2027 Production Campaign",
+    "url": "https://investingnews.com/category/daily/resource-investing/energy-investing/uranium-investing/",
+    "source_name": "Investing News Network",
+    "category_slug": "uranium-energy",
+    "snippet": "Energy Fuels plans to produce approximately one million pounds of uranium concentrate at its White Mesa Mill in Utah from December 2026 through Q1 2027. The campaign positions the company as a key domestic US supplier as utilities seek alternatives to Russian and Central Asian uranium following ongoing supply-chain reshuffling.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "CHINA EXTENDS MINERAL EXPORT PAUSE, NEW US TARIFFS LOOM — USA Rare Earth -6%, Critical Metals -5%, MP Materials -3% in Sector Rout",
+    "url": "https://247wallst.com/investing/2026/11/25/usa-rare-earth-drops-6-as-china-extends-mineral-export-pause-and-new-u-s-tariffs-loom-critical-metals-declines-5-mp-materials-falls-3/",
+    "source_name": "247 Wall St.",
+    "category_slug": "rare-earths",
+    "snippet": "China has extended its critical mineral export pause while the prospect of new US tariffs adds a second layer of pressure on North American rare earth companies. USA Rare Earth fell 6%, Critical Metals slid 5%, and MP Materials dropped 3% as investors processed the double headwind squeezing the sector from both sides of the Pacific.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "CATL RESTARTS JIANXIAWO LITHIUM MINE — Satellite Imagery Confirms Production Resumes as Battery Giant Eyes Price Recovery",
+    "url": "https://mining.com.au/",
+    "source_name": "Mining.com.au",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Satellite imagery has confirmed that CATL has resumed production activities at its Jianxiawo lithium mine after a period of reduced operations during the multi-year lithium oversupply. The restart by the world's largest battery manufacturer signals growing confidence in a price recovery as spot lithium carbonate trades near $13,000 per tonne in China.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "FREEPORT-McMoRAN SNAPS UP BC COPPER AT TOODOGGONE FOR $113M — Mining Giant Deepens Canadian Pipeline Amid Critical Minerals Push",
+    "url": "https://www.canadianminingreport.com/blog/global-mining-weekly-roundup-major-acquisitions-gold-exploration-and-critical-minerals-developments",
+    "source_name": "Canadian Mining Report",
+    "category_slug": "copper-base-metals",
+    "snippet": "Freeport-McMoRan has agreed to a $113 million deal to acquire the Toodoggone copper project in British Columbia, adding another Canadian development asset to the world's largest copper producer's pipeline. The acquisition underscores continued major-miner appetite for BC copper despite short-term price weakness as the long-term deficit thesis holds.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "RELEVANT GOLD, RIDGELINE MINERALS, TECTONIC METALS DRILLING FOR SCALE IN US — Northern Miner Spotlights Four Domestic Juniors Chasing Discovery",
+    "url": "https://www.northernminer.com/exploration/spotlight-four-us-juniors-drill-for-scale-part-2/1003897529/",
+    "source_name": "The Northern Miner",
+    "category_slug": "exploration-discovery",
+    "snippet": "The Northern Miner spotlights four junior mining companies drilling for scale on US soil: Relevant Gold targeting a Wyoming gold project, Ridgeline Minerals tracing a silver-rich Nevada discovery, and Tectonic Metals working toward an initial gold resource in Alaska. The focus on domestic exploration has intensified as US critical mineral permitting reforms create first-mover opportunities.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
