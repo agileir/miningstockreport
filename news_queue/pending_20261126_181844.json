@@ -1,0 +1,92 @@
+[
+  {
+    "headline": "DRC BANS ALL COBALT EXPORTS FROM NOVEMBER 30 — Four-Month Suspension Targets Glut; Chinese Processors Surge 14% as Battery Makers Face Second Supply Shock in Two Years",
+    "url": "https://bloomberg.com/news/articles/2026-11-23/top-cobalt-producer-congo-will-ban-exports-again-as-prices-slide",
+    "source_name": "Bloomberg",
+    "category_slug": "lithium-battery-metals",
+    "snippet": "Congo's mining regulator ARECOMS has announced a suspension of all cobalt exports effective November 30 — the second blanket ban in two years — aimed at addressing a severe price glut. Benchmark Mineral Intelligence characterizes it as a four-month halt. Chinese cobalt processors surged up to 14% on the news while Western EV battery makers face fresh supply-chain disruption.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "LYNAS SURGES 7% ON RECORD NdPr OUTPUT — 2,082 Tonnes Q1 FY27 Sets Production High as Rare Earth Stocks Bifurcate Between Profitable and Speculative",
+    "url": "https://fool.com.au/2026/11/26/lynas-rare-earths-shares-are-up-7-today-and-id-still-rate-them-a-buy",
+    "source_name": "Motley Fool Australia",
+    "category_slug": "rare-earths",
+    "snippet": "Lynas Rare Earths (ASX: LYC) surged 7% to A$13.70 as markets rewarded its Q1 FY27 production record of 2,082 tonnes NdPr at a realized price of A$102.1/kg. Floor-price agreements covering over 50% of output provide revenue stability that most rare earth peers lack. The move highlights a growing divide between profitable integrated producers and U.S.-listed names that have cratered this month.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "ORA BANDA DRILLING OPENS NEW 4.5KM GOLD TREND AT ROUND DAM — 11m AT 12.1 G/T BELOW EXISTING RESOURCE; SHARES JUMP 8%",
+    "url": "https://stockhead.com.au/news/lunch-wrap-miners-haul-asx-uphill-as-australia-goes-on-data-centre-binge/",
+    "source_name": "Stockhead",
+    "category_slug": "exploration-discovery",
+    "snippet": "Ora Banda Mining (ASX: OBM) surged 8% after drilling below the Round Dam resource in Western Australia returned 11m at 12.1 g/t gold and uncovered a new parallel trend roughly 400m east of the existing deposit, stretching 4.5km. The result comes from a A$75M FY27 exploration budget targeting system-scale growth at Davyhurst near Kalgoorlie.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "GENESIS MINERALS AND VAULT COMPLETE A$12.6B MERGER — Australia's Second-Largest Gold Producer Formed With Target of 700,000 oz Annual Output",
+    "url": "https://www.mining-technology.com/news/genesis-vault-minerals-8-7bn-merger-agreement/",
+    "source_name": "Mining Technology",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "The Genesis Minerals (ASX: GMD) and Vault Minerals (ASX: VAU) scheme of arrangement implements November 26, following court effectiveness on November 17. Vault shareholders receive 0.7629 Genesis shares plus A$0.475 cash per share in a deal valued at A$12.6 billion, creating a combined Western Australian gold producer targeting 600,000–700,000 oz annually — Australia's second-largest behind Newmont's local operations.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "QMINES DRILLS 46.8m AT 2.29% COPPER AND 1.03 G/T GOLD BELOW OLD QUEENSLAND PIT — Mt Chalmers Infill Hits Below Ore Reserve Grade",
+    "url": "https://discoveryalert.com/asx-stock-news/mining/qml-qmines-mt-chalmers-drilling-results-november-2026/",
+    "source_name": "Discovery Alert",
+    "category_slug": "copper-base-metals",
+    "snippet": "QMines (ASX: QML) drilled 46.8m averaging 2.29% copper and 1.03 g/t gold in infill drilling below the existing Ore Reserve at its historic Mt Chalmers VMS project near Rockhampton, Queensland. The result — drilled under the footprint of the old open pit — adds to a 9.6Mt Ore Reserve and supports the pre-feasibility phase ahead of a planned restart.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "BRIXTON METALS HITS 158m AT 0.25% CuEq AT CATALYST AND DISCOVERS COPPER AT SENTINEL — Two Targets Confirmed at Thorn Project BC in Same Season",
+    "url": "https://globenewswire.com/news-release/2026/11/25/3410136/0/en/brixton-metals-expands-the-catalyst-copper-gold-porphyry-and-discovers-copper-mineralization-in-maiden-drill-program-at-the-sentinel-target-on-its-thorn-project.html",
+    "source_name": "GlobeNewswire",
+    "category_slug": "exploration-discovery",
+    "snippet": "Brixton Metals (TSX-V: BBB) reported that every hole from the Catalyst discovery pad at Thorn (northwest BC) intersected broad copper-gold-molybdenum mineralization, with the best hole returning 158m at 0.25% CuEq from 9m depth. Maiden drilling at the nearby Sentinel target also confirmed copper mineralization for the first time, expanding the footprint of this large-scale porphyry system.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "EVERGOLD DRILLS 75.9m AT 1.29 G/T AuEq AT GOLDEN LION — Broadest 2026 Interval Completes Northern Fence; 10 Holes Still Pending",
+    "url": "https://www.stocktitan.net/news/EVGUF/evergold-intersects-75-9-metres-of-1-29-g-t-au-eq-completing-new-irl9afliqxtn.html",
+    "source_name": "StockTitan",
+    "category_slug": "exploration-discovery",
+    "snippet": "Evergold Corp (TSX-V: EVER) reported 75.9m at 1.29 g/t gold equivalent from the final northern hole at its GL1 Zone at Golden Lion in BC's Toodoggone district — the program's broadest interval to date. The result builds on earlier holes including 28m at 10.4 g/t gold within a 113m interval of 5.4 g/t, with 10 of 16 total 2026 holes remaining to be reported.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "PINNACLE SILVER & GOLD PINOS CUATES FINAL ASSAYS: 8.10 G/T GOLD OVER 4.39m IN MEXICO UNDERGROUND — Down-Dip Continuity Confirmed Below Mined Areas",
+    "url": "https://www.proactiveinvestors.com/companies/news/1102528/pinnacle-silver-and-gold-reports-final-pinos-cuates-assays-from-mexico-drill-program-1102528.html",
+    "source_name": "Proactive Investors",
+    "category_slug": "exploration-discovery",
+    "snippet": "Pinnacle Silver and Gold (TSX-V: PINN) released final underground delineation results from its Pinos Cuates mine in Durango, Mexico, with highlight intervals including 8.10 g/t gold and 62 g/t silver over 4.39 metres true width. Results confirm down-dip continuity of mineralization below previously mined areas and support the company's underground development plan.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "BUY AGNICO EAGLE AND FRANCO-NEVADA BEFORE 2026 ENDS — Motley Fool Argues Both Survive Any Market Crash With Safe Dividends and Financial Strength",
+    "url": "https://www.fool.com/investing/2026/11/26/worried-about-a-market-crash-2-gold-mining-stocks-to-buy-before-2026-ends/",
+    "source_name": "Motley Fool",
+    "category_slug": "opinion-analysis",
+    "snippet": "With gold miners down 29–49% over three months despite earnings holding up, a Motley Fool analysis on November 26 singles out Agnico Eagle (AEM) and Franco-Nevada (FNV) as the two gold names most likely to survive further market turbulence — citing low debt, geographic diversification, and stable dividend policies built for lower gold prices. The case rests on financial resilience rather than a near-term price catalyst.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "AFRICA FOLLOWS CHINA'S LEAD: COBALT BAN IGNITES WAVE OF MINERAL EXPORT CONTROLS ACROSS CONTINENT — DRC Move Marks Structural Shift in Critical Mineral Geopolitics",
+    "url": "https://intellinews.com/congo-s-cobalt-ban-leads-africa-s-turn-to-china-style-export-controls-on-minerals-488416",
+    "source_name": "bne IntelliNews",
+    "category_slug": "opinion-analysis",
+    "snippet": "An analysis in bne IntelliNews argues that the DRC's latest cobalt export suspension signals a broader continental shift: African resource states are systematically adopting China's export-control model to capture more commodity value at home. Western supply-chain planners face a qualitatively new threat as the continent's largest producers of cobalt, copper, lithium, and rare earths align incentives against raw mineral exports.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
