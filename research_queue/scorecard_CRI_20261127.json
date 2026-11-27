@@ -1,0 +1,52 @@
+{
+  "ticker": "CRI",
+  "exchange": "TSXV",
+
+  "management_score": 2,
+  "management_notes": "CEO Conan McIntyre has been in place since the May 2026 leadership restructuring (Paul Sobie stepped down). CFO Eric Tsung (CPA, CGA, 20+ years corporate finance/accounting experience) appointed effective November 1, 2026 — now 27 days into the role with no adverse disclosures. The team lacks a proven track record of advancing a junior through resource definition to shareholder value creation; share price remains at multi-cent levels with ~317M shares outstanding. No insider-buying signals detected in this run. The CFO appointment is a stabilising step but insufficient to raise the score from 2 until there is evidence of capital markets execution.",
+
+  "geology_score": 3,
+  "geology_notes": "Black Raven Antimony-Gold Property (~60 km northwest of Gander, NL) is a past-producing site. Spring 2026 final assays (released August 28, 2026) confirmed 19.23% Sb over 1.40 m at Frost Cove North, with structural continuity over 800 m; a copper-silver prospect (0.78% Cu, 61.2 g/t Ag over 6.22 m) was delineated alongside 20 gold-silver-molybdenum-lead-zinc veins in a 150 m wide swarm at Pomley Cove Pond. Note: the March 18, 2026 headline result (7.25% Sb over 1.98 m) was subject to a data compilation correction issued May 22, 2026 — the August 28, 2026 spring final assays supersede that release and are the operative geological dataset. The Fall 2026 drill program is active at Frost Cove — headlines reference massive stibnite seams uncovered — but quantitative assay grades and intervals from the fall program remain unpublished as of November 27, 2026. Golden Baie (100% option, TSXV-approved March 2026) is a second antimony-gold property; no drill program announced. No NI 43-101 compliant resource estimate exists. Score holds at 3: strong grade signals and an active program, but no defined resource underpins the geology.",
+
+  "capital_score": 3,
+  "capital_notes": "316,681,940 shares issued and outstanding; 342,756,940 fully diluted — approximately 8.2% overhang (2,625,000 warrants + 23,450,000 options), sourced from Q1 2026 MD&A, extracted 2026-05-14. Strike prices and expiries for both warrant and option tranches were not extractable from the MD&A summary table. No flow-through tranches detected in extracted data. No new financing news detected in this run. At current price levels any equity financing would be heavily dilutive. Cap structure is mid-range for a micro-cap TSXV explorer at this pre-resource stage. Extracted cap-table data is from April 2026 interim MD&A; a fall 2026 financing is possible but not confirmed in public disclosures reviewed.",
+
+  "catalyst_score": 3,
+  "catalyst_notes": "Fall 2026 drill program active at Frost Cove, Black Raven — headlines reference massive stibnite seams uncovered, but quantitative assay results have not been published as of November 27, 2026. The fall program targets extensions of holes PC26-03 and PC26-16 across the principal vein system and systematic delineation along strike. Near-term catalysts: (1) fall program assay results at Black Raven — expected 4–8 weeks after drilling completion, potentially imminent given discovery headlines; (2) maiden drill announcement at Golden Baie; (3) maiden resource estimate once sufficient data accumulate; (4) antimony's critical mineral designation across the US, Canada, and EU continues to drive strategic attention. Active program and apparent discovery headline support holding catalyst at 3; a confirmed high-grade assay release from the fall program would push this to 4.",
+
+  "acquisition_score": 2,
+  "acquisition_notes": "No NI 43-101 resource estimate in place; P/NAV comparison is not calculable; nav_per_share is null. The strategic acquisition thesis is real — antimony is on US, Canadian, and EU critical minerals lists due to its use in munitions, flame retardants, and battery technology — and the fall 2026 program's apparent stibnite seam results may strengthen the technical case for acquirer interest. However, acquirers require a resource estimate before valuing a property. At the current market cap, entry cost is low, but no near-term acquisition event is likely without a resource. Score stays 2.",
+
+  "verdict": "WATCH",
+  "analyst_summary": "Churchill Resources (TSXV: CRI) is a micro-cap antimony-gold explorer in Newfoundland with two properties (Black Raven, Golden Baie) hosting genuinely exceptional drill grades — 19.23% Sb over 1.40 m in Spring 2026 stands out against virtually any peer. Antimony's critical mineral designation adds strategic weight. Status as of November 27, 2026: the Fall 2026 drill program at Frost Cove remains active with headlines referencing massive stibnite seams uncovered, but no quantitative assay results have been published since the August 28, 2026 spring final release. No new material news detected in this run (web search confirmed no November 27 press releases). CFO Eric Tsung is 27 days into his role. The core problem remains pre-resource stage: no NI 43-101 estimate, no formal mine plan, no resource-to-acquisition bridge, and 317M shares outstanding. Key watch triggers: (1) fall program assay release — if grades match or exceed the Spring 2026 19.23% Sb intercept, this becomes a BUY candidate; (2) maiden resource estimate; (3) formal drill announcement at Golden Baie; (4) strategic partnership or offtake driven by antimony supply-chain urgency. Cap-table fields drawn from Q1 2026 MD&A extraction (extracted 2026-05-14); strike/expiry detail on warrants and options not available. No resource/reserve data available from the August 2023 NI 43-101 technical report extraction.",
+  "confidence": "low",
+
+  "nav_per_share": null,
+  "current_price": null,
+
+  "resource_measured": null,
+  "resource_indicated": null,
+  "resource_inferred": null,
+  "reserve_proven": null,
+  "reserve_probable": null,
+
+  "shares_issued_outstanding": 316681940,
+  "shares_fully_diluted": 342756940,
+
+  "share_instruments": [
+    {
+      "type": "warrant",
+      "count": 2625000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from Q1 2026 MD&A — strike/expiry not extracted"
+    },
+    {
+      "type": "option",
+      "count": 23450000,
+      "strike_price": null,
+      "expiry": null,
+      "notes": "Summary count from Q1 2026 MD&A — strike/expiry not extracted"
+    }
+  ]
+}
