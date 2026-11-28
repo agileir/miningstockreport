@@ -1,0 +1,83 @@
+[
+  {
+    "headline": "GOLD JUMPS 3%, SILVER SURGES 9% AS GOLD-SILVER RATIO HITS 83 — Precious Metals Reclaim Ground on Thin Thanksgiving Volume",
+    "url": "https://www.usagold.com/daily-precious-metals-market-report-november-27-2026/",
+    "source_name": "USA Gold",
+    "category_slug": "gold-silver",
+    "snippet": "Gold climbed 3.05% to $3,643.80 and silver surged 8.92% to $43.63 as the gold-silver ratio compressed to 83, with precious metals posting a sharp bounce during holiday-thinned Thanksgiving trading as short sellers covered positions.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "COPPER BACK ABOVE $12,000 AS SHORT SELLERS RETREAT — Tariff Fears Ease But JPMorgan Still Sees $11K BY 2027",
+    "url": "https://www.proactiveinvestors.com/companies/news/1102552/copper-rebounds-towards-us-12-000-as-tariff-fears-ease-but-recovery-remains-fragile-1102552.html",
+    "source_name": "Proactive Investors",
+    "category_slug": "copper-base-metals",
+    "snippet": "LME copper climbed back above $12,000 per tonne after falling below $11,500 earlier in the week as short sellers retreated on easing tariff uncertainty; JPMorgan warned the recovery is fragile and maintains a 2027 price target near $11,000.",
+    "is_featured": true,
+    "is_breaking": false
+  },
+  {
+    "headline": "TSX AND FTSE MINERS LEAD MARKETS HIGHER AS GOLD, COPPER SURGE — Sector Posts Best Single-Day Gain in Weeks",
+    "url": "https://www.marketscreener.com/news/tsx-opens-higher-on-strength-in-miners-energy-ce7851d9de89f720",
+    "source_name": "MarketScreener",
+    "category_slug": "market-macro",
+    "snippet": "Canada's TSX and London's FTSE 100 both rallied on November 27 as broad metals strength boosted mining and energy stocks, with gold rising over 3% and silver nearly 9% on holiday-thin North American volume.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "USAR DOWN 27% IN A MONTH — CANACCORD SLASHES TARGET FROM $32 TO $10, KEEPS BUY RATING",
+    "url": "https://247wallst.com/investing/2026/11/27/usa-rare-earth-is-down-27-in-a-month-can-usar-stock-get-back-to-canaccords-10-target/",
+    "source_name": "24/7 Wall St.",
+    "category_slug": "rare-earths",
+    "snippet": "USA Rare Earth (USAR) has collapsed 27% in a month to $6.52 as China extended mineral export controls and U.S. tariff risks mounted; Canaccord cut its price target from $32 to $10 but maintained a Buy rating on the long-term Western supply chain thesis.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "USAR +7%, MP MATERIALS +8% AS TRADERS EYE U.S.-CHINA RARE EARTH NEGOTIATIONS — Sector Trades as Binary Option On Chinese Curbs",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/usa-rare-earth-climbs-7-155604804.html",
+    "source_name": "Yahoo Finance",
+    "category_slug": "rare-earths",
+    "snippet": "Rare earth equities bounced sharply as speculation built around a potential Trump-Xi summit and U.S.-China rare earth trade talks; analysts warn the sector trades as a binary option on whether Beijing maintains or eases export restrictions.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "ELEMENT 29 RESOURCES LOCKS IN 3-YEAR SURFACE ACCESS AT FLOR DE COBRE COPPER PROJECT, PERU",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/2876-tsx-venture/ecu/215534-element-29-resources-receives-3-year-surface-access-agreement-at-its-flor-de-cobre-project-peru.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "Element 29 Resources (TSX-V: ECU) secured a 3-year surface access agreement at its Flor de Cobre copper project in Peru, clearing a critical permitting milestone and opening the door to advancing the project toward drill-ready status.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "MUNDORO CLOSES CENTERRA GOLD EQUITY INVESTMENT, APPOINTS NEW CFO — Q3 2026 RESULTS IN",
+    "url": "https://juniorminingnetwork.com/junior-miner-news/press-releases/535-tsx-venture/mun/215572-mundoro-reports-third-quarter-2026-results-and-enhances-capital-efficiency-appoints-new-cfo-changes-auditor-and-streamlines-board.html",
+    "source_name": "Junior Mining Network",
+    "category_slug": "exploration-discovery",
+    "snippet": "Mundoro Capital (TSX-V: MUN) closed a strategic equity investment by Centerra Gold into its Serbian porphyry copper-gold program alongside Q3 results, while also appointing a new CFO, changing its auditor, and streamlining its board.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "BLUE GOLD EYES CRITICAL MINERALS TRADING PIVOT — Convertible Preferred Share Deal Said Under 5% Dilutive",
+    "url": "https://www.miningweekly.com/article/blue-gold-eyes-international-commodity-trading-diversification-to-connect-critical-minerals-globally-2026-11-26",
+    "source_name": "Mining Weekly",
+    "category_slug": "mergers-acquisitions",
+    "snippet": "Blue Gold is pursuing an international commodity trading diversification deal involving up to 2.5 million convertible preferred shares, with management characterising the transaction as less than 5% dilutive to current shareholders.",
+    "is_featured": false,
+    "is_breaking": false
+  },
+  {
+    "headline": "GOLD RALLIES ON RISING RISK APPETITE — FXEmpire: Technical Breakout From Oversold Extreme Across Precious Metals",
+    "url": "https://fxempire.com/forecasts/article/gold-xauusd-silver-platinum-forecasts-gold-rallies-amid-rising-demand-for-risk-assets-1647870",
+    "source_name": "FXEmpire",
+    "category_slug": "opinion-analysis",
+    "snippet": "FXEmpire's metals forecaster notes gold, silver and platinum rallying on rising demand for risk assets, with charts pointing to a potential technical breakout after the complex hit a rarely-seen oversold extreme in mid-November.",
+    "is_featured": false,
+    "is_breaking": false
+  }
+]
